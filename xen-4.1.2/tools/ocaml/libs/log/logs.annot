@@ -1,0 +1,3003 @@
+"logs.ml" 27 874 878 "logs.ml" 27 874 891
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  def __all_loggers "logs.ml" 30 1000 1000 --
+)
+"logs.ml" 27 874 894 "logs.ml" 27 874 908
+type(
+  int -> (string, Log.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"logs.ml" 27 874 909 "logs.ml" 27 874 911
+type(
+  int
+)
+"logs.ml" 27 874 894 "logs.ml" 27 874 911
+type(
+  (string, Log.t) Hashtbl.t
+)
+"logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+type(
+  keylogger
+)
+ident(
+  def __default_logger "logs.ml" 40 1448 1448 --
+)
+"logs.ml" 30 1000 1033 "logs.ml" 30 1000 1035
+type(
+  string list
+)
+"logs.ml" 30 1000 1044 "logs.ml" 30 1000 1046
+type(
+  string list
+)
+"logs.ml" 30 1000 1055 "logs.ml" 30 1000 1057
+type(
+  string list
+)
+"logs.ml" 30 1000 1067 "logs.ml" 30 1000 1069
+type(
+  string list
+)
+"logs.ml" 30 1000 1084 "logs.ml" 30 1000 1089
+type(
+  bool
+)
+"logs.ml" 30 1000 1023 "logs.ml" 30 1000 1091
+type(
+  keylogger
+)
+"logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  def __log_mapping "logs.ml" 42 1487 1487 --
+)
+"logs.ml" 40 1448 1468 "logs.ml" 40 1448 1482
+type(
+  int -> (string, keylogger) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"logs.ml" 40 1448 1483 "logs.ml" 40 1448 1485
+type(
+  int
+)
+"logs.ml" 40 1448 1468 "logs.ml" 40 1448 1485
+type(
+  (string, keylogger) Hashtbl.t
+)
+"logs.ml" 42 1487 1491 "logs.ml" 42 1487 1502
+type(
+  string -> Log.t
+)
+ident(
+  def get_or_open "logs.ml" 55 1910 1910 --
+)
+"logs.ml" 42 1487 1503 "logs.ml" 42 1487 1512
+type(
+  string
+)
+ident(
+  def logstring "logs.ml" 43 1515 1516 "logs.ml" 48 1690 1693
+)
+"logs.ml" 43 1515 1519 "logs.ml" 43 1515 1530
+type(
+  (string, Log.t) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"logs.ml" 43 1515 1531 "logs.ml" 43 1515 1544
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 43 1515 1545 "logs.ml" 43 1515 1554
+type(
+  string
+)
+ident(
+  int_ref logstring "logs.ml" 42 1487 1503 "logs.ml" 42 1487 1512
+)
+"logs.ml" 43 1515 1519 "logs.ml" 43 1515 1554
+type(
+  bool
+)
+"logs.ml" 44 1560 1562 "logs.ml" 44 1560 1574
+type(
+  (string, Log.t) Hashtbl.t -> string -> Log.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 44 1560 1575 "logs.ml" 44 1560 1588
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 44 1560 1589 "logs.ml" 44 1560 1598
+type(
+  string
+)
+ident(
+  int_ref logstring "logs.ml" 42 1487 1503 "logs.ml" 42 1487 1512
+)
+"logs.ml" 44 1560 1562 "logs.ml" 44 1560 1598
+type(
+  Log.t
+)
+"logs.ml" 46 1605 1611 "logs.ml" 46 1605 1612
+type(
+  Log.t
+)
+"logs.ml" 46 1605 1615 "logs.ml" 46 1605 1635
+type(
+  string -> Log.t
+)
+ident(
+  ext_ref Log.logger_of_string
+)
+"logs.ml" 46 1605 1636 "logs.ml" 46 1605 1645
+type(
+  string
+)
+ident(
+  int_ref logstring "logs.ml" 42 1487 1503 "logs.ml" 42 1487 1512
+)
+"logs.ml" 46 1605 1615 "logs.ml" 46 1605 1645
+type(
+  Log.t
+)
+"logs.ml" 47 1649 1651 "logs.ml" 47 1649 1662
+type(
+  (string, Log.t) Hashtbl.t -> string -> Log.t -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"logs.ml" 47 1649 1663 "logs.ml" 47 1649 1676
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 47 1649 1677 "logs.ml" 47 1649 1686
+type(
+  string
+)
+ident(
+  int_ref logstring "logs.ml" 42 1487 1503 "logs.ml" 42 1487 1512
+)
+"logs.ml" 47 1649 1687 "logs.ml" 47 1649 1688
+type(
+  Log.t
+)
+ident(
+  int_ref t "logs.ml" 46 1605 1611 "logs.ml" 46 1605 1612
+)
+"logs.ml" 47 1649 1651 "logs.ml" 47 1649 1688
+type(
+  unit
+)
+"logs.ml" 48 1690 1692 "logs.ml" 48 1690 1693
+type(
+  Log.t
+)
+ident(
+  int_ref t "logs.ml" 46 1605 1611 "logs.ml" 46 1605 1612
+)
+"logs.ml" 47 1649 1651 "logs.ml" 48 1690 1693
+type(
+  Log.t
+)
+"logs.ml" 46 1605 1607 "logs.ml" 48 1690 1693
+type(
+  Log.t
+)
+"logs.ml" 43 1515 1516 "logs.ml" 48 1690 1693
+type(
+  Log.t
+)
+"logs.ml" 55 1910 1914 "logs.ml" 55 1910 1917
+type(
+  string -> string list -> unit
+)
+ident(
+  def add "logs.ml" 65 2076 2076 --
+)
+"logs.ml" 55 1910 1918 "logs.ml" 55 1910 1921
+type(
+  string
+)
+ident(
+  def key "logs.ml" 55 1910 1922 "logs.ml" 63 2041 2074
+)
+"logs.ml" 55 1910 1922 "logs.ml" 55 1910 1928
+type(
+  string list
+)
+ident(
+  def logger "logs.ml" 56 1931 1932 "logs.ml" 63 2041 2074
+)
+"logs.ml" 56 1931 1936 "logs.ml" 56 1931 1938
+type(
+  keylogger
+)
+"logs.ml" 57 1943 1953 "logs.ml" 57 1943 1959
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 55 1910 1922 "logs.ml" 55 1910 1928
+)
+"logs.ml" 58 1961 1970 "logs.ml" 58 1961 1976
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 55 1910 1922 "logs.ml" 55 1910 1928
+)
+"logs.ml" 59 1978 1987 "logs.ml" 59 1978 1993
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 55 1910 1922 "logs.ml" 55 1910 1928
+)
+"logs.ml" 60 1995 2005 "logs.ml" 60 1995 2011
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 55 1910 1922 "logs.ml" 55 1910 1928
+)
+"logs.ml" 61 2013 2028 "logs.ml" 61 2013 2033
+type(
+  bool
+)
+"logs.ml" 56 1931 1941 "logs.ml" 62 2035 2037
+type(
+  keylogger
+)
+"logs.ml" 63 2041 2042 "logs.ml" 63 2041 2053
+type(
+  (string, keylogger) Hashtbl.t -> string -> keylogger -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"logs.ml" 63 2041 2054 "logs.ml" 63 2041 2067
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 63 2041 2068 "logs.ml" 63 2041 2071
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 55 1910 1918 "logs.ml" 55 1910 1921
+)
+"logs.ml" 63 2041 2072 "logs.ml" 63 2041 2074
+type(
+  keylogger
+)
+ident(
+  int_ref kl "logs.ml" 56 1931 1936 "logs.ml" 56 1931 1938
+)
+"logs.ml" 63 2041 2042 "logs.ml" 63 2041 2074
+type(
+  unit
+)
+"logs.ml" 56 1931 1932 "logs.ml" 63 2041 2074
+type(
+  unit
+)
+"logs.ml" 65 2076 2080 "logs.ml" 65 2076 2092
+type(
+  keylogger -> Log.level -> string list
+)
+ident(
+  def get_by_level "logs.ml" 72 2241 2241 --
+)
+"logs.ml" 65 2076 2093 "logs.ml" 65 2076 2099
+type(
+  keylogger
+)
+ident(
+  def keylog "logs.ml" 65 2076 2100 "logs.ml" 70 2211 2239
+)
+"logs.ml" 65 2076 2100 "logs.ml" 65 2076 2105
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 66 2108 2109 "logs.ml" 70 2211 2239
+)
+"logs.ml" 66 2108 2115 "logs.ml" 66 2108 2120
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 65 2076 2100 "logs.ml" 65 2076 2105
+)
+"logs.ml" 67 2126 2129 "logs.ml" 67 2126 2138
+type(
+  Log.level
+)
+"logs.ml" 67 2126 2142 "logs.ml" 67 2126 2148
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 65 2076 2093 "logs.ml" 65 2076 2099
+)
+"logs.ml" 67 2126 2142 "logs.ml" 67 2126 2154
+type(
+  string list
+)
+"logs.ml" 68 2155 2158 "logs.ml" 68 2155 2166
+type(
+  Log.level
+)
+"logs.ml" 68 2155 2171 "logs.ml" 68 2155 2177
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 65 2076 2093 "logs.ml" 65 2076 2099
+)
+"logs.ml" 68 2155 2171 "logs.ml" 68 2155 2182
+type(
+  string list
+)
+"logs.ml" 69 2183 2186 "logs.ml" 69 2183 2194
+type(
+  Log.level
+)
+"logs.ml" 69 2183 2199 "logs.ml" 69 2183 2205
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 65 2076 2093 "logs.ml" 65 2076 2099
+)
+"logs.ml" 69 2183 2199 "logs.ml" 69 2183 2210
+type(
+  string list
+)
+"logs.ml" 70 2211 2214 "logs.ml" 70 2211 2223
+type(
+  Log.level
+)
+"logs.ml" 70 2211 2227 "logs.ml" 70 2211 2233
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 65 2076 2093 "logs.ml" 65 2076 2099
+)
+"logs.ml" 70 2211 2227 "logs.ml" 70 2211 2239
+type(
+  string list
+)
+"logs.ml" 66 2108 2109 "logs.ml" 70 2211 2239
+type(
+  string list
+)
+"logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  def set_by_level "logs.ml" 80 2508 2508 --
+)
+"logs.ml" 72 2241 2258 "logs.ml" 72 2241 2264
+type(
+  keylogger
+)
+ident(
+  def keylog "logs.ml" 72 2241 2265 "logs.ml" 77 2413 2451
+)
+"logs.ml" 72 2241 2265 "logs.ml" 72 2241 2270
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 72 2241 2271 "logs.ml" 77 2413 2451
+)
+"logs.ml" 72 2241 2271 "logs.ml" 72 2241 2277
+type(
+  string list
+)
+ident(
+  def logger "logs.ml" 73 2280 2281 "logs.ml" 77 2413 2451
+)
+"logs.ml" 73 2280 2287 "logs.ml" 73 2280 2292
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 72 2241 2265 "logs.ml" 72 2241 2270
+)
+"logs.ml" 74 2298 2301 "logs.ml" 74 2298 2310
+type(
+  Log.level
+)
+"logs.ml" 74 2298 2314 "logs.ml" 74 2298 2320
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 72 2241 2258 "logs.ml" 72 2241 2264
+)
+"logs.ml" 74 2298 2330 "logs.ml" 74 2298 2336
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 72 2241 2271 "logs.ml" 72 2241 2277
+)
+"logs.ml" 74 2298 2314 "logs.ml" 74 2298 2336
+type(
+  unit
+)
+"logs.ml" 75 2337 2340 "logs.ml" 75 2337 2348
+type(
+  Log.level
+)
+"logs.ml" 75 2337 2353 "logs.ml" 75 2337 2359
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 72 2241 2258 "logs.ml" 72 2241 2264
+)
+"logs.ml" 75 2337 2368 "logs.ml" 75 2337 2374
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 72 2241 2271 "logs.ml" 72 2241 2277
+)
+"logs.ml" 75 2337 2353 "logs.ml" 75 2337 2374
+type(
+  unit
+)
+"logs.ml" 76 2375 2378 "logs.ml" 76 2375 2386
+type(
+  Log.level
+)
+"logs.ml" 76 2375 2391 "logs.ml" 76 2375 2397
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 72 2241 2258 "logs.ml" 72 2241 2264
+)
+"logs.ml" 76 2375 2406 "logs.ml" 76 2375 2412
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 72 2241 2271 "logs.ml" 72 2241 2277
+)
+"logs.ml" 76 2375 2391 "logs.ml" 76 2375 2412
+type(
+  unit
+)
+"logs.ml" 77 2413 2416 "logs.ml" 77 2413 2425
+type(
+  Log.level
+)
+"logs.ml" 77 2413 2429 "logs.ml" 77 2413 2435
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 72 2241 2258 "logs.ml" 72 2241 2264
+)
+"logs.ml" 77 2413 2445 "logs.ml" 77 2413 2451
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 72 2241 2271 "logs.ml" 72 2241 2277
+)
+"logs.ml" 77 2413 2429 "logs.ml" 77 2413 2451
+type(
+  unit
+)
+"logs.ml" 73 2280 2281 "logs.ml" 77 2413 2451
+type(
+  unit
+)
+"logs.ml" 80 2508 2512 "logs.ml" 80 2508 2515
+type(
+  string -> Log.level -> string list -> unit
+)
+ident(
+  def set "logs.ml" 88 2704 2704 --
+)
+"logs.ml" 80 2508 2516 "logs.ml" 80 2508 2519
+type(
+  string
+)
+ident(
+  def key "logs.ml" 80 2508 2520 "logs.ml" 85 2643 2676
+)
+"logs.ml" 80 2508 2520 "logs.ml" 80 2508 2525
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 80 2508 2526 "logs.ml" 85 2643 2676
+)
+"logs.ml" 80 2508 2526 "logs.ml" 80 2508 2532
+type(
+  string list
+)
+ident(
+  def logger "logs.ml" 81 2535 2536 "logs.ml" 85 2643 2676
+)
+"logs.ml" 81 2535 2539 "logs.ml" 81 2535 2542
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"logs.ml" 81 2535 2544 "logs.ml" 81 2535 2555
+type(
+  (string, keylogger) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"logs.ml" 81 2535 2556 "logs.ml" 81 2535 2569
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 81 2535 2570 "logs.ml" 81 2535 2573
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 80 2508 2516 "logs.ml" 80 2508 2519
+)
+"logs.ml" 81 2535 2543 "logs.ml" 81 2535 2574
+type(
+  bool
+)
+"logs.ml" 81 2535 2539 "logs.ml" 81 2535 2574
+type(
+  bool
+)
+"logs.ml" 82 2580 2582 "logs.ml" 82 2580 2585
+type(
+  string -> string list -> unit
+)
+ident(
+  int_ref add "logs.ml" 55 1910 1914 "logs.ml" 55 1910 1917
+)
+"logs.ml" 82 2580 2586 "logs.ml" 82 2580 2589
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 80 2508 2516 "logs.ml" 80 2508 2519
+)
+"logs.ml" 82 2580 2590 "logs.ml" 82 2580 2592
+type(
+  string list
+)
+"logs.ml" 82 2580 2582 "logs.ml" 82 2580 2592
+type(
+  unit
+)
+"logs.ml" 81 2535 2536 "logs.ml" 82 2580 2592
+type(
+  unit
+)
+"logs.ml" 84 2595 2600 "logs.ml" 84 2595 2606
+type(
+  keylogger
+)
+"logs.ml" 84 2595 2609 "logs.ml" 84 2595 2621
+type(
+  (string, keylogger) Hashtbl.t -> string -> keylogger
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 84 2595 2622 "logs.ml" 84 2595 2635
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 84 2595 2636 "logs.ml" 84 2595 2639
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 80 2508 2516 "logs.ml" 80 2508 2519
+)
+"logs.ml" 84 2595 2609 "logs.ml" 84 2595 2639
+type(
+  keylogger
+)
+"logs.ml" 85 2643 2644 "logs.ml" 85 2643 2656
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  int_ref set_by_level "logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+)
+"logs.ml" 85 2643 2657 "logs.ml" 85 2643 2663
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 84 2595 2600 "logs.ml" 84 2595 2606
+)
+"logs.ml" 85 2643 2664 "logs.ml" 85 2643 2669
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 80 2508 2520 "logs.ml" 80 2508 2525
+)
+"logs.ml" 85 2643 2670 "logs.ml" 85 2643 2676
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 80 2508 2526 "logs.ml" 80 2508 2532
+)
+"logs.ml" 85 2643 2644 "logs.ml" 85 2643 2676
+type(
+  unit
+)
+"logs.ml" 84 2595 2596 "logs.ml" 85 2643 2676
+type(
+  unit
+)
+"logs.ml" 81 2535 2536 "logs.ml" 85 2643 2676
+type(
+  unit
+)
+"logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  def set_default "logs.ml" 92 2815 2815 --
+)
+"logs.ml" 88 2704 2720 "logs.ml" 88 2704 2725
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 88 2704 2726 "logs.ml" 89 2735 2778
+)
+"logs.ml" 88 2704 2726 "logs.ml" 88 2704 2732
+type(
+  string list
+)
+ident(
+  def logger "logs.ml" 89 2735 2736 "logs.ml" 89 2735 2778
+)
+"logs.ml" 89 2735 2736 "logs.ml" 89 2735 2748
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  int_ref set_by_level "logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+)
+"logs.ml" 89 2735 2749 "logs.ml" 89 2735 2765
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 89 2735 2766 "logs.ml" 89 2735 2771
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 88 2704 2720 "logs.ml" 88 2704 2725
+)
+"logs.ml" 89 2735 2772 "logs.ml" 89 2735 2778
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 88 2704 2726 "logs.ml" 88 2704 2732
+)
+"logs.ml" 89 2735 2736 "logs.ml" 89 2735 2778
+type(
+  unit
+)
+"logs.ml" 92 2815 2819 "logs.ml" 92 2815 2825
+type(
+  string -> Log.level -> string -> unit
+)
+ident(
+  def append "logs.ml" 100 3090 3090 --
+)
+"logs.ml" 92 2815 2826 "logs.ml" 92 2815 2829
+type(
+  string
+)
+ident(
+  def key "logs.ml" 92 2815 2830 "logs.ml" 97 2996 3045
+)
+"logs.ml" 92 2815 2830 "logs.ml" 92 2815 2835
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 92 2815 2836 "logs.ml" 97 2996 3045
+)
+"logs.ml" 92 2815 2836 "logs.ml" 92 2815 2842
+type(
+  string
+)
+ident(
+  def logger "logs.ml" 93 2845 2846 "logs.ml" 97 2996 3045
+)
+"logs.ml" 93 2845 2849 "logs.ml" 93 2845 2852
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"logs.ml" 93 2845 2854 "logs.ml" 93 2845 2865
+type(
+  (string, keylogger) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"logs.ml" 93 2845 2866 "logs.ml" 93 2845 2879
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 93 2845 2880 "logs.ml" 93 2845 2883
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 92 2815 2826 "logs.ml" 92 2815 2829
+)
+"logs.ml" 93 2845 2853 "logs.ml" 93 2845 2884
+type(
+  bool
+)
+"logs.ml" 93 2845 2849 "logs.ml" 93 2845 2884
+type(
+  bool
+)
+"logs.ml" 94 2890 2892 "logs.ml" 94 2890 2895
+type(
+  string -> string list -> unit
+)
+ident(
+  int_ref add "logs.ml" 55 1910 1914 "logs.ml" 55 1910 1917
+)
+"logs.ml" 94 2890 2896 "logs.ml" 94 2890 2899
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 92 2815 2826 "logs.ml" 92 2815 2829
+)
+"logs.ml" 94 2890 2900 "logs.ml" 94 2890 2902
+type(
+  string list
+)
+"logs.ml" 94 2890 2892 "logs.ml" 94 2890 2902
+type(
+  unit
+)
+"logs.ml" 93 2845 2846 "logs.ml" 94 2890 2902
+type(
+  unit
+)
+"logs.ml" 95 2904 2909 "logs.ml" 95 2904 2915
+type(
+  keylogger
+)
+"logs.ml" 95 2904 2918 "logs.ml" 95 2904 2930
+type(
+  (string, keylogger) Hashtbl.t -> string -> keylogger
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 95 2904 2931 "logs.ml" 95 2904 2944
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 95 2904 2945 "logs.ml" 95 2904 2948
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 92 2815 2826 "logs.ml" 92 2815 2829
+)
+"logs.ml" 95 2904 2918 "logs.ml" 95 2904 2948
+type(
+  keylogger
+)
+"logs.ml" 96 2952 2957 "logs.ml" 96 2952 2964
+type(
+  string list
+)
+"logs.ml" 96 2952 2967 "logs.ml" 96 2952 2979
+type(
+  keylogger -> Log.level -> string list
+)
+ident(
+  int_ref get_by_level "logs.ml" 65 2076 2080 "logs.ml" 65 2076 2092
+)
+"logs.ml" 96 2952 2980 "logs.ml" 96 2952 2986
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 95 2904 2909 "logs.ml" 95 2904 2915
+)
+"logs.ml" 96 2952 2987 "logs.ml" 96 2952 2992
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 92 2815 2830 "logs.ml" 92 2815 2835
+)
+"logs.ml" 96 2952 2967 "logs.ml" 96 2952 2992
+type(
+  string list
+)
+"logs.ml" 97 2996 2997 "logs.ml" 97 2996 3009
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  int_ref set_by_level "logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+)
+"logs.ml" 97 2996 3010 "logs.ml" 97 2996 3016
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 95 2904 2909 "logs.ml" 95 2904 2915
+)
+"logs.ml" 97 2996 3017 "logs.ml" 97 2996 3022
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 92 2815 2830 "logs.ml" 92 2815 2835
+)
+"logs.ml" 97 2996 3024 "logs.ml" 97 2996 3031
+type(
+  string list
+)
+ident(
+  int_ref loggers "logs.ml" 96 2952 2957 "logs.ml" 96 2952 2964
+)
+"logs.ml" 97 2996 3032 "logs.ml" 97 2996 3033
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 97 2996 3036 "logs.ml" 97 2996 3042
+type(
+  string
+)
+ident(
+  int_ref logger "logs.ml" 92 2815 2836 "logs.ml" 92 2815 2842
+)
+"logs.ml" 97 2996 3034 "logs.ml" 97 2996 3044
+type(
+  string list
+)
+"logs.ml" 97 2996 3023 "logs.ml" 97 2996 3045
+type(
+  string list
+)
+"logs.ml" 97 2996 2997 "logs.ml" 97 2996 3045
+type(
+  unit
+)
+"logs.ml" 96 2952 2953 "logs.ml" 97 2996 3045
+type(
+  unit
+)
+"logs.ml" 95 2904 2905 "logs.ml" 97 2996 3045
+type(
+  unit
+)
+"logs.ml" 93 2845 2846 "logs.ml" 97 2996 3045
+type(
+  unit
+)
+"logs.ml" 100 3090 3094 "logs.ml" 100 3090 3108
+type(
+  Log.level -> string -> unit
+)
+ident(
+  def append_default "logs.ml" 105 3269 3269 --
+)
+"logs.ml" 100 3090 3109 "logs.ml" 100 3090 3114
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 100 3090 3115 "logs.ml" 102 3178 3237
+)
+"logs.ml" 100 3090 3115 "logs.ml" 100 3090 3121
+type(
+  string
+)
+ident(
+  def logger "logs.ml" 101 3124 3125 "logs.ml" 102 3178 3237
+)
+"logs.ml" 101 3124 3129 "logs.ml" 101 3124 3136
+type(
+  string list
+)
+"logs.ml" 101 3124 3139 "logs.ml" 101 3124 3151
+type(
+  keylogger -> Log.level -> string list
+)
+ident(
+  int_ref get_by_level "logs.ml" 65 2076 2080 "logs.ml" 65 2076 2092
+)
+"logs.ml" 101 3124 3152 "logs.ml" 101 3124 3168
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 101 3124 3169 "logs.ml" 101 3124 3174
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 100 3090 3109 "logs.ml" 100 3090 3114
+)
+"logs.ml" 101 3124 3139 "logs.ml" 101 3124 3174
+type(
+  string list
+)
+"logs.ml" 102 3178 3179 "logs.ml" 102 3178 3191
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  int_ref set_by_level "logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+)
+"logs.ml" 102 3178 3192 "logs.ml" 102 3178 3208
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 102 3178 3209 "logs.ml" 102 3178 3214
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 100 3090 3109 "logs.ml" 100 3090 3114
+)
+"logs.ml" 102 3178 3216 "logs.ml" 102 3178 3223
+type(
+  string list
+)
+ident(
+  int_ref loggers "logs.ml" 101 3124 3129 "logs.ml" 101 3124 3136
+)
+"logs.ml" 102 3178 3224 "logs.ml" 102 3178 3225
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 102 3178 3228 "logs.ml" 102 3178 3234
+type(
+  string
+)
+ident(
+  int_ref logger "logs.ml" 100 3090 3115 "logs.ml" 100 3090 3121
+)
+"logs.ml" 102 3178 3226 "logs.ml" 102 3178 3236
+type(
+  string list
+)
+"logs.ml" 102 3178 3215 "logs.ml" 102 3178 3237
+type(
+  string list
+)
+"logs.ml" 102 3178 3179 "logs.ml" 102 3178 3237
+type(
+  unit
+)
+"logs.ml" 101 3124 3125 "logs.ml" 102 3178 3237
+type(
+  unit
+)
+"logs.ml" 105 3269 3273 "logs.ml" 105 3269 3279
+type(
+  unit -> unit
+)
+ident(
+  def reopen "logs.ml" 110 3448 3448 --
+)
+"logs.ml" 105 3269 3280 "logs.ml" 105 3269 3282
+type(
+  unit
+)
+"logs.ml" 106 3285 3286 "logs.ml" 106 3285 3298
+type(
+  (string -> Log.t -> unit) -> (string, Log.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"logs.ml" 106 3285 3304 "logs.ml" 106 3285 3305
+type(
+  string
+)
+ident(
+  def k "logs.ml" 106 3285 3306 "logs.ml" 107 3311 3359
+)
+"logs.ml" 106 3285 3306 "logs.ml" 106 3285 3307
+type(
+  Log.t
+)
+ident(
+  def v "logs.ml" 107 3311 3313 "logs.ml" 107 3311 3359
+)
+"logs.ml" 107 3311 3313 "logs.ml" 107 3311 3328
+type(
+  (string, Log.t) Hashtbl.t -> string -> Log.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"logs.ml" 107 3311 3329 "logs.ml" 107 3311 3342
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 107 3311 3343 "logs.ml" 107 3311 3344
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 106 3285 3304 "logs.ml" 106 3285 3305
+)
+"logs.ml" 107 3311 3346 "logs.ml" 107 3311 3356
+type(
+  Log.t -> Log.t
+)
+ident(
+  ext_ref Log.reopen
+)
+"logs.ml" 107 3311 3357 "logs.ml" 107 3311 3358
+type(
+  Log.t
+)
+ident(
+  int_ref v "logs.ml" 106 3285 3306 "logs.ml" 106 3285 3307
+)
+"logs.ml" 107 3311 3345 "logs.ml" 107 3311 3359
+type(
+  Log.t
+)
+"logs.ml" 107 3311 3313 "logs.ml" 107 3311 3359
+type(
+  unit
+)
+"logs.ml" 106 3285 3299 "logs.ml" 107 3311 3360
+type(
+  string -> Log.t -> unit
+)
+"logs.ml" 107 3311 3361 "logs.ml" 107 3311 3374
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 106 3285 3286 "logs.ml" 107 3311 3374
+type(
+  unit
+)
+"logs.ml" 110 3448 3452 "logs.ml" 110 3448 3459
+type(
+  unit -> unit
+)
+ident(
+  def reclaim "logs.ml" 138 4231 4231 --
+)
+"logs.ml" 110 3448 3460 "logs.ml" 110 3448 3462
+type(
+  unit
+)
+"logs.ml" 111 3465 3470 "logs.ml" 111 3465 3484
+type(
+  string list -> string list
+)
+"logs.ml" 111 3465 3485 "logs.ml" 111 3465 3486
+type(
+  string list
+)
+ident(
+  def l "logs.ml" 112 3489 3491 "logs.ml" 117 3639 3663
+)
+"logs.ml" 112 3489 3495 "logs.ml" 112 3489 3502
+type(
+  string ref
+)
+"logs.ml" 112 3489 3505 "logs.ml" 112 3489 3508
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logs.ml" 112 3489 3509 "logs.ml" 112 3489 3511
+type(
+  string
+)
+"logs.ml" 112 3489 3505 "logs.ml" 112 3489 3511
+type(
+  string ref
+)
+"logs.ml" 112 3489 3516 "logs.ml" 112 3489 3520
+type(
+  string ref
+)
+"logs.ml" 112 3489 3523 "logs.ml" 112 3489 3526
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logs.ml" 112 3489 3527 "logs.ml" 112 3489 3529
+type(
+  string
+)
+"logs.ml" 112 3489 3523 "logs.ml" 112 3489 3529
+type(
+  string ref
+)
+"logs.ml" 113 3533 3535 "logs.ml" 113 3533 3549
+type(
+  (string list -> string -> string list) ->
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.fold_left
+)
+"logs.ml" 113 3533 3555 "logs.ml" 113 3533 3556
+type(
+  string list
+)
+ident(
+  def a "logs.ml" 113 3533 3557 "logs.ml" 116 3597 3634
+)
+"logs.ml" 113 3533 3557 "logs.ml" 113 3533 3558
+type(
+  string
+)
+ident(
+  def k "logs.ml" 114 3562 3565 "logs.ml" 116 3597 3634
+)
+"logs.ml" 114 3562 3565 "logs.ml" 114 3562 3572
+type(
+  string ref
+)
+ident(
+  int_ref oldprev "logs.ml" 112 3489 3495 "logs.ml" 112 3489 3502
+)
+"logs.ml" 114 3562 3573 "logs.ml" 114 3562 3575
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logs.ml" 114 3562 3576 "logs.ml" 114 3562 3577
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logs.ml" 114 3562 3577 "logs.ml" 114 3562 3581
+type(
+  string ref
+)
+ident(
+  int_ref prev "logs.ml" 112 3489 3516 "logs.ml" 112 3489 3520
+)
+"logs.ml" 114 3562 3576 "logs.ml" 114 3562 3581
+type(
+  string
+)
+"logs.ml" 114 3562 3565 "logs.ml" 114 3562 3581
+type(
+  unit
+)
+"logs.ml" 115 3583 3586 "logs.ml" 115 3583 3590
+type(
+  string ref
+)
+ident(
+  int_ref prev "logs.ml" 112 3489 3516 "logs.ml" 112 3489 3520
+)
+"logs.ml" 115 3583 3591 "logs.ml" 115 3583 3593
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logs.ml" 115 3583 3594 "logs.ml" 115 3583 3595
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 113 3533 3557 "logs.ml" 113 3533 3558
+)
+"logs.ml" 115 3583 3586 "logs.ml" 115 3583 3595
+type(
+  unit
+)
+"logs.ml" 116 3597 3603 "logs.ml" 116 3597 3604
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 113 3533 3557 "logs.ml" 113 3533 3558
+)
+"logs.ml" 116 3597 3605 "logs.ml" 116 3597 3606
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logs.ml" 116 3597 3607 "logs.ml" 116 3597 3608
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logs.ml" 116 3597 3608 "logs.ml" 116 3597 3615
+type(
+  string ref
+)
+ident(
+  int_ref oldprev "logs.ml" 112 3489 3495 "logs.ml" 112 3489 3502
+)
+"logs.ml" 116 3597 3607 "logs.ml" 116 3597 3615
+type(
+  string
+)
+"logs.ml" 116 3597 3603 "logs.ml" 116 3597 3615
+type(
+  bool
+)
+"logs.ml" 116 3597 3621 "logs.ml" 116 3597 3622
+type(
+  string list
+)
+ident(
+  int_ref a "logs.ml" 113 3533 3555 "logs.ml" 113 3533 3556
+)
+"logs.ml" 116 3597 3628 "logs.ml" 116 3597 3629
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 113 3533 3557 "logs.ml" 113 3533 3558
+)
+"logs.ml" 116 3597 3633 "logs.ml" 116 3597 3634
+type(
+  string list
+)
+ident(
+  int_ref a "logs.ml" 113 3533 3555 "logs.ml" 113 3533 3556
+)
+"logs.ml" 116 3597 3628 "logs.ml" 116 3597 3634
+type(
+  string list
+)
+"logs.ml" 116 3597 3600 "logs.ml" 116 3597 3634
+type(
+  string list
+)
+"logs.ml" 115 3583 3586 "logs.ml" 116 3597 3634
+type(
+  string list
+)
+"logs.ml" 114 3562 3565 "logs.ml" 116 3597 3634
+type(
+  string list
+)
+"logs.ml" 113 3533 3550 "logs.ml" 116 3597 3635
+type(
+  string list -> string -> string list
+)
+"logs.ml" 116 3597 3636 "logs.ml" 116 3597 3638
+type(
+  string list
+)
+"logs.ml" 117 3639 3643 "logs.ml" 117 3639 3652
+type(
+  (string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref List.sort
+)
+"logs.ml" 117 3639 3653 "logs.ml" 117 3639 3660
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"logs.ml" 117 3639 3661 "logs.ml" 117 3639 3662
+type(
+  string list
+)
+ident(
+  int_ref l "logs.ml" 111 3465 3485 "logs.ml" 111 3465 3486
+)
+"logs.ml" 117 3639 3642 "logs.ml" 117 3639 3663
+type(
+  string list
+)
+"logs.ml" 113 3533 3535 "logs.ml" 117 3639 3663
+type(
+  string list
+)
+"logs.ml" 112 3489 3491 "logs.ml" 117 3639 3663
+type(
+  string list
+)
+"logs.ml" 119 3669 3674 "logs.ml" 119 3669 3691
+type(
+  keylogger -> string list
+)
+"logs.ml" 119 3669 3692 "logs.ml" 119 3669 3693
+type(
+  keylogger
+)
+ident(
+  def v "logs.ml" 120 3696 3698 "logs.ml" 120 3696 3750
+)
+"logs.ml" 120 3696 3698 "logs.ml" 120 3696 3712
+type(
+  string list -> string list
+)
+ident(
+  int_ref list_sort_uniq "logs.ml" 111 3465 3470 "logs.ml" 111 3465 3484
+)
+"logs.ml" 120 3696 3714 "logs.ml" 120 3696 3715
+type(
+  keylogger
+)
+ident(
+  int_ref v "logs.ml" 119 3669 3692 "logs.ml" 119 3669 3693
+)
+"logs.ml" 120 3696 3714 "logs.ml" 120 3696 3721
+type(
+  string list
+)
+"logs.ml" 120 3696 3722 "logs.ml" 120 3696 3723
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 120 3696 3724 "logs.ml" 120 3696 3725
+type(
+  keylogger
+)
+ident(
+  int_ref v "logs.ml" 119 3669 3692 "logs.ml" 119 3669 3693
+)
+"logs.ml" 120 3696 3724 "logs.ml" 120 3696 3730
+type(
+  string list
+)
+"logs.ml" 120 3696 3731 "logs.ml" 120 3696 3732
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 120 3696 3733 "logs.ml" 120 3696 3734
+type(
+  keylogger
+)
+ident(
+  int_ref v "logs.ml" 119 3669 3692 "logs.ml" 119 3669 3693
+)
+"logs.ml" 120 3696 3733 "logs.ml" 120 3696 3739
+type(
+  string list
+)
+"logs.ml" 120 3696 3740 "logs.ml" 120 3696 3741
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 120 3696 3742 "logs.ml" 120 3696 3743
+type(
+  keylogger
+)
+ident(
+  int_ref v "logs.ml" 119 3669 3692 "logs.ml" 119 3669 3693
+)
+"logs.ml" 120 3696 3742 "logs.ml" 120 3696 3749
+type(
+  string list
+)
+"logs.ml" 120 3696 3733 "logs.ml" 120 3696 3749
+type(
+  string list
+)
+"logs.ml" 120 3696 3724 "logs.ml" 120 3696 3749
+type(
+  string list
+)
+"logs.ml" 120 3696 3713 "logs.ml" 120 3696 3750
+type(
+  string list
+)
+"logs.ml" 120 3696 3698 "logs.ml" 120 3696 3750
+type(
+  string list
+)
+"logs.ml" 121 3754 3759 "logs.ml" 121 3754 3766
+type(
+  string list
+)
+"logs.ml" 121 3754 3769 "logs.ml" 121 3754 3781
+type(
+  (string -> Log.t -> string list -> string list) ->
+  (string, Log.t) Hashtbl.t -> string list -> string list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"logs.ml" 121 3754 3787 "logs.ml" 121 3754 3788
+type(
+  string
+)
+ident(
+  def k "logs.ml" 121 3754 3789 "logs.ml" 121 3754 3802
+)
+"logs.ml" 121 3754 3789 "logs.ml" 121 3754 3790
+type(
+  Log.t
+)
+ident(
+  def v "logs.ml" 121 3754 3791 "logs.ml" 121 3754 3802
+)
+"logs.ml" 121 3754 3791 "logs.ml" 121 3754 3792
+type(
+  string list
+)
+ident(
+  def a "logs.ml" 121 3754 3796 "logs.ml" 121 3754 3802
+)
+"logs.ml" 121 3754 3796 "logs.ml" 121 3754 3797
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 121 3754 3787 "logs.ml" 121 3754 3788
+)
+"logs.ml" 121 3754 3801 "logs.ml" 121 3754 3802
+type(
+  string list
+)
+ident(
+  int_ref a "logs.ml" 121 3754 3791 "logs.ml" 121 3754 3792
+)
+"logs.ml" 121 3754 3796 "logs.ml" 121 3754 3802
+type(
+  string list
+)
+"logs.ml" 121 3754 3782 "logs.ml" 121 3754 3803
+type(
+  string -> Log.t -> string list -> string list
+)
+"logs.ml" 121 3754 3804 "logs.ml" 121 3754 3817
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 121 3754 3818 "logs.ml" 121 3754 3820
+type(
+  string list
+)
+"logs.ml" 121 3754 3769 "logs.ml" 121 3754 3820
+type(
+  string list
+)
+"logs.ml" 122 3824 3829 "logs.ml" 122 3824 3837
+type(
+  string list
+)
+"logs.ml" 122 3824 3840 "logs.ml" 122 3824 3852
+type(
+  (string -> keylogger -> string list -> string list) ->
+  (string, keylogger) Hashtbl.t -> string list -> string list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"logs.ml" 122 3824 3858 "logs.ml" 122 3824 3859
+type(
+  string
+)
+ident(
+  def k "logs.ml" 122 3824 3860 "logs.ml" 123 3867 3894
+)
+"logs.ml" 122 3824 3860 "logs.ml" 122 3824 3861
+type(
+  keylogger
+)
+ident(
+  def v "logs.ml" 122 3824 3862 "logs.ml" 123 3867 3894
+)
+"logs.ml" 122 3824 3862 "logs.ml" 122 3824 3863
+type(
+  string list
+)
+ident(
+  def a "logs.ml" 123 3867 3869 "logs.ml" 123 3867 3894
+)
+"logs.ml" 123 3867 3870 "logs.ml" 123 3867 3887
+type(
+  keylogger -> string list
+)
+ident(
+  int_ref flatten_keylogger "logs.ml" 119 3669 3674 "logs.ml" 119 3669 3691
+)
+"logs.ml" 123 3867 3888 "logs.ml" 123 3867 3889
+type(
+  keylogger
+)
+ident(
+  int_ref v "logs.ml" 122 3824 3860 "logs.ml" 122 3824 3861
+)
+"logs.ml" 123 3867 3869 "logs.ml" 123 3867 3890
+type(
+  string list
+)
+"logs.ml" 123 3867 3891 "logs.ml" 123 3867 3892
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"logs.ml" 123 3867 3893 "logs.ml" 123 3867 3894
+type(
+  string list
+)
+ident(
+  int_ref a "logs.ml" 122 3824 3862 "logs.ml" 122 3824 3863
+)
+"logs.ml" 123 3867 3869 "logs.ml" 123 3867 3894
+type(
+  string list
+)
+"logs.ml" 122 3824 3853 "logs.ml" 123 3867 3895
+type(
+  string -> keylogger -> string list -> string list
+)
+"logs.ml" 124 3896 3898 "logs.ml" 124 3896 3911
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 124 3896 3913 "logs.ml" 124 3896 3930
+type(
+  keylogger -> string list
+)
+ident(
+  int_ref flatten_keylogger "logs.ml" 119 3669 3674 "logs.ml" 119 3669 3691
+)
+"logs.ml" 124 3896 3931 "logs.ml" 124 3896 3947
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 124 3896 3912 "logs.ml" 124 3896 3948
+type(
+  string list
+)
+"logs.ml" 122 3824 3840 "logs.ml" 124 3896 3948
+type(
+  string list
+)
+"logs.ml" 125 3952 3957 "logs.ml" 125 3952 3965
+type(
+  string list
+)
+"logs.ml" 125 3952 3968 "logs.ml" 125 3952 3982
+type(
+  string list -> string list
+)
+ident(
+  int_ref list_sort_uniq "logs.ml" 111 3465 3470 "logs.ml" 111 3465 3484
+)
+"logs.ml" 125 3952 3983 "logs.ml" 125 3952 3991
+type(
+  string list
+)
+ident(
+  int_ref usedkeys "logs.ml" 122 3824 3829 "logs.ml" 122 3824 3837
+)
+"logs.ml" 125 3952 3968 "logs.ml" 125 3952 3991
+type(
+  string list
+)
+"logs.ml" 127 3996 3997 "logs.ml" 127 3996 4006
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"logs.ml" 127 3996 4012 "logs.ml" 127 3996 4013
+type(
+  string
+)
+ident(
+  def k "logs.ml" 128 4017 4019 "logs.ml" 135 4183 4186
+)
+"logs.ml" 128 4017 4022 "logs.ml" 128 4017 4025
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"logs.ml" 128 4017 4027 "logs.ml" 128 4017 4035
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"logs.ml" 128 4017 4036 "logs.ml" 128 4017 4037
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 127 3996 4012 "logs.ml" 127 3996 4013
+)
+"logs.ml" 128 4017 4038 "logs.ml" 128 4017 4046
+type(
+  string list
+)
+ident(
+  int_ref usedkeys "logs.ml" 125 3952 3957 "logs.ml" 125 3952 3965
+)
+"logs.ml" 128 4017 4026 "logs.ml" 128 4017 4047
+type(
+  bool
+)
+"logs.ml" 128 4017 4022 "logs.ml" 128 4017 4047
+type(
+  bool
+)
+"logs.ml" 130 4068 4072 "logs.ml" 130 4068 4081
+type(
+  Log.t -> unit
+)
+ident(
+  ext_ref Log.close
+)
+"logs.ml" 130 4068 4083 "logs.ml" 130 4068 4095
+type(
+  (string, Log.t) Hashtbl.t -> string -> Log.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 130 4068 4096 "logs.ml" 130 4068 4109
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 130 4068 4110 "logs.ml" 130 4068 4111
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 127 3996 4012 "logs.ml" 127 3996 4013
+)
+"logs.ml" 130 4068 4082 "logs.ml" 130 4068 4112
+type(
+  Log.t
+)
+"logs.ml" 130 4068 4072 "logs.ml" 130 4068 4112
+type(
+  unit
+)
+"logs.ml" 132 4121 4125 "logs.ml" 132 4121 4134
+type(
+  exn
+)
+"logs.ml" 132 4121 4138 "logs.ml" 132 4121 4140
+type(
+  unit
+)
+"logs.ml" 129 4055 4058 "logs.ml" 133 4141 4147
+type(
+  unit
+)
+"logs.ml" 134 4149 4152 "logs.ml" 134 4149 4166
+type(
+  (string, Log.t) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"logs.ml" 134 4149 4167 "logs.ml" 134 4149 4180
+type(
+  (string, Log.t) Hashtbl.t
+)
+ident(
+  int_ref __all_loggers "logs.ml" 27 874 878 "logs.ml" 27 874 891
+)
+"logs.ml" 134 4149 4181 "logs.ml" 134 4149 4182
+type(
+  string
+)
+ident(
+  int_ref k "logs.ml" 127 3996 4012 "logs.ml" 127 3996 4013
+)
+"logs.ml" 134 4149 4152 "logs.ml" 134 4149 4182
+type(
+  unit
+)
+"logs.ml" 128 4017 4053 "logs.ml" 135 4183 4186
+type(
+  unit
+)
+"logs.ml" 128 4017 4019 "logs.ml" 135 4183 4186
+type(
+  unit
+)
+"logs.ml" 127 3996 4007 "logs.ml" 135 4183 4187
+type(
+  string -> unit
+)
+"logs.ml" 135 4183 4188 "logs.ml" 135 4183 4195
+type(
+  string list
+)
+ident(
+  int_ref oldkeys "logs.ml" 121 3754 3759 "logs.ml" 121 3754 3766
+)
+"logs.ml" 127 3996 3997 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 125 3952 3953 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 122 3824 3825 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 121 3754 3755 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 119 3669 3670 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 111 3465 3466 "logs.ml" 135 4183 4195
+type(
+  unit
+)
+"logs.ml" 138 4231 4235 "logs.ml" 138 4231 4240
+type(
+  string -> Log.level -> unit
+)
+ident(
+  def clear "logs.ml" 147 4415 4415 --
+)
+"logs.ml" 138 4231 4241 "logs.ml" 138 4231 4244
+type(
+  string
+)
+ident(
+  def key "logs.ml" 138 4231 4245 "logs.ml" 144 4371 4375
+)
+"logs.ml" 138 4231 4245 "logs.ml" 138 4231 4250
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 139 4253 4254 "logs.ml" 144 4371 4375
+)
+"logs.ml" 140 4258 4264 "logs.ml" 140 4258 4270
+type(
+  keylogger
+)
+ident(
+  def keylog "logs.ml" 141 4307 4309 "logs.ml" 142 4339 4351
+)
+"logs.ml" 140 4258 4273 "logs.ml" 140 4258 4285
+type(
+  (string, keylogger) Hashtbl.t -> string -> keylogger
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 140 4258 4286 "logs.ml" 140 4258 4299
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 140 4258 4300 "logs.ml" 140 4258 4303
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 138 4231 4241 "logs.ml" 138 4231 4244
+)
+"logs.ml" 140 4258 4273 "logs.ml" 140 4258 4303
+type(
+  keylogger
+)
+"logs.ml" 141 4307 4309 "logs.ml" 141 4307 4321
+type(
+  keylogger -> Log.level -> string list -> unit
+)
+ident(
+  int_ref set_by_level "logs.ml" 72 2241 2245 "logs.ml" 72 2241 2257
+)
+"logs.ml" 141 4307 4322 "logs.ml" 141 4307 4328
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 140 4258 4264 "logs.ml" 140 4258 4270
+)
+"logs.ml" 141 4307 4329 "logs.ml" 141 4307 4334
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 138 4231 4245 "logs.ml" 138 4231 4250
+)
+"logs.ml" 141 4307 4335 "logs.ml" 141 4307 4337
+type(
+  string list
+)
+"logs.ml" 141 4307 4309 "logs.ml" 141 4307 4337
+type(
+  unit
+)
+"logs.ml" 142 4339 4341 "logs.ml" 142 4339 4348
+type(
+  unit -> unit
+)
+ident(
+  int_ref reclaim "logs.ml" 110 3448 3452 "logs.ml" 110 3448 3459
+)
+"logs.ml" 142 4339 4349 "logs.ml" 142 4339 4351
+type(
+  unit
+)
+"logs.ml" 142 4339 4341 "logs.ml" 142 4339 4351
+type(
+  unit
+)
+"logs.ml" 141 4307 4309 "logs.ml" 142 4339 4351
+type(
+  unit
+)
+"logs.ml" 140 4258 4260 "logs.ml" 142 4339 4351
+type(
+  unit
+)
+"logs.ml" 143 4352 4358 "logs.ml" 143 4352 4367
+type(
+  exn
+)
+"logs.ml" 144 4371 4373 "logs.ml" 144 4371 4375
+type(
+  unit
+)
+"logs.ml" 139 4253 4254 "logs.ml" 144 4371 4375
+type(
+  unit
+)
+"logs.ml" 147 4415 4419 "logs.ml" 147 4415 4432
+type(
+  Log.level -> unit
+)
+ident(
+  def clear_default "logs.ml" 152 4530 4530 --
+)
+"logs.ml" 147 4415 4433 "logs.ml" 147 4415 4438
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 148 4441 4442 "logs.ml" 149 4464 4475
+)
+"logs.ml" 148 4441 4442 "logs.ml" 148 4441 4453
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  int_ref set_default "logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+)
+"logs.ml" 148 4441 4454 "logs.ml" 148 4441 4459
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 147 4415 4433 "logs.ml" 147 4415 4438
+)
+"logs.ml" 148 4441 4460 "logs.ml" 148 4441 4462
+type(
+  string list
+)
+"logs.ml" 148 4441 4442 "logs.ml" 148 4441 4462
+type(
+  unit
+)
+"logs.ml" 149 4464 4465 "logs.ml" 149 4464 4472
+type(
+  unit -> unit
+)
+ident(
+  int_ref reclaim "logs.ml" 110 3448 3452 "logs.ml" 110 3448 3459
+)
+"logs.ml" 149 4464 4473 "logs.ml" 149 4464 4475
+type(
+  unit
+)
+"logs.ml" 149 4464 4465 "logs.ml" 149 4464 4475
+type(
+  unit
+)
+"logs.ml" 148 4441 4442 "logs.ml" 149 4464 4475
+type(
+  unit
+)
+"logs.ml" 152 4530 4534 "logs.ml" 152 4530 4543
+type(
+  string list -> unit
+)
+ident(
+  def reset_all "logs.ml" 163 4849 4849 --
+)
+"logs.ml" 152 4530 4544 "logs.ml" 152 4530 4550
+type(
+  string list
+)
+ident(
+  def logger "logs.ml" 153 4553 4554 "logs.ml" 158 4705 4716
+)
+"logs.ml" 153 4553 4554 "logs.ml" 153 4553 4567
+type(
+  (string, keylogger) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"logs.ml" 153 4553 4568 "logs.ml" 153 4553 4581
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 153 4553 4554 "logs.ml" 153 4553 4581
+type(
+  unit
+)
+"logs.ml" 154 4583 4584 "logs.ml" 154 4583 4595
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  int_ref set_default "logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+)
+"logs.ml" 154 4583 4596 "logs.ml" 154 4583 4605
+type(
+  Log.level
+)
+"logs.ml" 154 4583 4606 "logs.ml" 154 4583 4612
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 152 4530 4544 "logs.ml" 152 4530 4550
+)
+"logs.ml" 154 4583 4584 "logs.ml" 154 4583 4612
+type(
+  unit
+)
+"logs.ml" 155 4614 4615 "logs.ml" 155 4614 4626
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  int_ref set_default "logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+)
+"logs.ml" 155 4614 4627 "logs.ml" 155 4614 4635
+type(
+  Log.level
+)
+"logs.ml" 155 4614 4636 "logs.ml" 155 4614 4642
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 152 4530 4544 "logs.ml" 152 4530 4550
+)
+"logs.ml" 155 4614 4615 "logs.ml" 155 4614 4642
+type(
+  unit
+)
+"logs.ml" 156 4644 4645 "logs.ml" 156 4644 4656
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  int_ref set_default "logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+)
+"logs.ml" 156 4644 4657 "logs.ml" 156 4644 4666
+type(
+  Log.level
+)
+"logs.ml" 156 4644 4667 "logs.ml" 156 4644 4673
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 152 4530 4544 "logs.ml" 152 4530 4550
+)
+"logs.ml" 156 4644 4645 "logs.ml" 156 4644 4673
+type(
+  unit
+)
+"logs.ml" 157 4675 4676 "logs.ml" 157 4675 4687
+type(
+  Log.level -> string list -> unit
+)
+ident(
+  int_ref set_default "logs.ml" 88 2704 2708 "logs.ml" 88 2704 2719
+)
+"logs.ml" 157 4675 4688 "logs.ml" 157 4675 4696
+type(
+  Log.level
+)
+"logs.ml" 157 4675 4697 "logs.ml" 157 4675 4703
+type(
+  string list
+)
+ident(
+  int_ref logger "logs.ml" 152 4530 4544 "logs.ml" 152 4530 4550
+)
+"logs.ml" 157 4675 4676 "logs.ml" 157 4675 4703
+type(
+  unit
+)
+"logs.ml" 158 4705 4706 "logs.ml" 158 4705 4713
+type(
+  unit -> unit
+)
+ident(
+  int_ref reclaim "logs.ml" 110 3448 3452 "logs.ml" 110 3448 3459
+)
+"logs.ml" 158 4705 4714 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 158 4705 4706 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 157 4675 4676 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 156 4644 4645 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 155 4614 4615 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 154 4583 4584 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 153 4553 4554 "logs.ml" 158 4705 4716
+type(
+  unit
+)
+"logs.ml" 163 4849 4853 "logs.ml" 163 4849 4856
+type(
+  string ->
+  Log.level -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def log "logs.ml" 190 5659 5659 --
+)
+"logs.ml" 163 4849 4857 "logs.ml" 163 4849 4860
+type(
+  string
+)
+ident(
+  def key "logs.ml" 163 4849 4861 "logs.ml" 187 5554 5617
+)
+"logs.ml" 163 4849 4861 "logs.ml" 163 4849 4866
+type(
+  Log.level
+)
+ident(
+  def level "logs.ml" 163 4849 4867 "logs.ml" 187 5554 5617
+)
+"logs.ml" 163 4849 4869 "logs.ml" 163 4849 4874
+type(
+  string
+)
+"logs.ml" 163 4849 4875 "logs.ml" 163 4849 4877
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "logs.ml" 163 4849 4875 "logs.ml" 163 4849 4877
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "logs.ml" 163 4849 4875 "logs.ml" 163 4849 4877
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "logs.ml" 163 4849 4875 "logs.ml" 163 4849 4877
+)
+type(
+  string option
+)
+ident(
+  def *opt* "logs.ml" 163 4849 4867 "logs.ml" 187 5554 5617
+)
+"logs.ml" 163 4849 4880 "logs.ml" 163 4849 4883
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logs.ml" 163 4849 4918 "logs.ml" 187 5554 5617
+)
+"logs.ml" 164 4925 4930 "logs.ml" 164 4925 4936
+type(
+  keylogger
+)
+"logs.ml" 165 4939 4944 "logs.ml" 165 4939 4955
+type(
+  (string, keylogger) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"logs.ml" 165 4939 4956 "logs.ml" 165 4939 4969
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 165 4939 4970 "logs.ml" 165 4939 4973
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 163 4849 4857 "logs.ml" 163 4849 4860
+)
+"logs.ml" 165 4939 4944 "logs.ml" 165 4939 4973
+type(
+  bool
+)
+"logs.ml" 166 4979 4986 "logs.ml" 166 4979 4992
+type(
+  keylogger
+)
+ident(
+  def keylog "logs.ml" 167 5029 5032 "logs.ml" 171 5135 5145
+)
+"logs.ml" 166 4979 4995 "logs.ml" 166 4979 5007
+type(
+  (string, keylogger) Hashtbl.t -> string -> keylogger
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"logs.ml" 166 4979 5008 "logs.ml" 166 4979 5021
+type(
+  (string, keylogger) Hashtbl.t
+)
+ident(
+  int_ref __log_mapping "logs.ml" 40 1448 1452 "logs.ml" 40 1448 1465
+)
+"logs.ml" 166 4979 5022 "logs.ml" 166 4979 5025
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 163 4849 4857 "logs.ml" 163 4849 4860
+)
+"logs.ml" 166 4979 4995 "logs.ml" 166 4979 5025
+type(
+  keylogger
+)
+"logs.ml" 167 5029 5035 "logs.ml" 167 5029 5041
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 166 4979 4986 "logs.ml" 166 4979 4992
+)
+"logs.ml" 167 5029 5035 "logs.ml" 167 5029 5052
+type(
+  bool
+)
+"logs.ml" 167 5029 5053 "logs.ml" 167 5029 5054
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logs.ml" 167 5029 5055 "logs.ml" 167 5029 5060
+type(
+  bool
+)
+"logs.ml" 167 5029 5035 "logs.ml" 167 5029 5060
+type(
+  bool
+)
+"logs.ml" 167 5029 5061 "logs.ml" 167 5029 5063
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"logs.ml" 168 5064 5070 "logs.ml" 168 5064 5082
+type(
+  keylogger -> Log.level -> string list
+)
+ident(
+  int_ref get_by_level "logs.ml" 65 2076 2080 "logs.ml" 65 2076 2092
+)
+"logs.ml" 168 5064 5083 "logs.ml" 168 5064 5089
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 166 4979 4986 "logs.ml" 166 4979 4992
+)
+"logs.ml" 168 5064 5090 "logs.ml" 168 5064 5095
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 163 4849 4861 "logs.ml" 163 4849 4866
+)
+"logs.ml" 168 5064 5070 "logs.ml" 168 5064 5095
+type(
+  string list
+)
+"logs.ml" 168 5064 5096 "logs.ml" 168 5064 5097
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logs.ml" 168 5064 5098 "logs.ml" 168 5064 5100
+type(
+  string list
+)
+"logs.ml" 168 5064 5070 "logs.ml" 168 5064 5100
+type(
+  bool
+)
+"logs.ml" 167 5029 5035 "logs.ml" 168 5064 5100
+type(
+  bool
+)
+"logs.ml" 169 5106 5110 "logs.ml" 169 5106 5126
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 171 5135 5139 "logs.ml" 171 5135 5145
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 166 4979 4986 "logs.ml" 166 4979 4992
+)
+"logs.ml" 167 5029 5032 "logs.ml" 171 5135 5145
+type(
+  keylogger
+)
+"logs.ml" 166 4979 4982 "logs.ml" 171 5135 5145
+type(
+  keylogger
+)
+"logs.ml" 173 5153 5156 "logs.ml" 173 5153 5172
+type(
+  keylogger
+)
+ident(
+  int_ref __default_logger "logs.ml" 30 1000 1004 "logs.ml" 30 1000 1020
+)
+"logs.ml" 165 4939 4941 "logs.ml" 173 5153 5172
+type(
+  keylogger
+)
+"logs.ml" 174 5176 5181 "logs.ml" 174 5176 5188
+type(
+  string list
+)
+"logs.ml" 174 5176 5191 "logs.ml" 174 5176 5203
+type(
+  keylogger -> Log.level -> string list
+)
+ident(
+  int_ref get_by_level "logs.ml" 65 2076 2080 "logs.ml" 65 2076 2092
+)
+"logs.ml" 174 5176 5204 "logs.ml" 174 5176 5210
+type(
+  keylogger
+)
+ident(
+  int_ref keylog "logs.ml" 164 4925 4930 "logs.ml" 164 4925 4936
+)
+"logs.ml" 174 5176 5211 "logs.ml" 174 5176 5216
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 163 4849 4861 "logs.ml" 163 4849 4866
+)
+"logs.ml" 174 5176 5191 "logs.ml" 174 5176 5216
+type(
+  string list
+)
+"logs.ml" 175 5220 5227 "logs.ml" 175 5220 5234
+type(
+  string list
+)
+ident(
+  int_ref loggers "logs.ml" 174 5176 5181 "logs.ml" 174 5176 5188
+)
+"logs.ml" 176 5240 5243 "logs.ml" 176 5240 5245
+type(
+  string list
+)
+"logs.ml" 176 5240 5249 "logs.ml" 176 5240 5263
+type(
+  (string -> unit) -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Printf.kprintf
+)
+"logs.ml" 176 5240 5264 "logs.ml" 176 5240 5270
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"logs.ml" 176 5240 5271 "logs.ml" 176 5240 5274
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 163 4849 4880 "logs.ml" 163 4849 4883
+)
+"logs.ml" 176 5240 5249 "logs.ml" 176 5240 5274
+type(
+  'a
+)
+"logs.ml" 177 5275 5278 "logs.ml" 177 5275 5279
+type(
+  string list
+)
+"logs.ml" 178 5284 5290 "logs.ml" 178 5284 5291
+type(
+  Log.t list
+)
+"logs.ml" 178 5284 5294 "logs.ml" 178 5284 5308
+type(
+  (Log.t list -> string -> Log.t list) ->
+  Log.t list -> string list -> Log.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"logs.ml" 178 5284 5314 "logs.ml" 178 5284 5317
+type(
+  Log.t list
+)
+ident(
+  def acc "logs.ml" 178 5284 5318 "logs.ml" 180 5362 5378
+)
+"logs.ml" 178 5284 5318 "logs.ml" 178 5284 5324
+type(
+  string
+)
+ident(
+  def logger "logs.ml" 179 5329 5332 "logs.ml" 180 5362 5378
+)
+"logs.ml" 179 5329 5336 "logs.ml" 179 5329 5347
+type(
+  string -> Log.t
+)
+ident(
+  int_ref get_or_open "logs.ml" 42 1487 1491 "logs.ml" 42 1487 1502
+)
+"logs.ml" 179 5329 5348 "logs.ml" 179 5329 5354
+type(
+  string
+)
+ident(
+  int_ref logger "logs.ml" 178 5284 5318 "logs.ml" 178 5284 5324
+)
+"logs.ml" 179 5329 5336 "logs.ml" 179 5329 5354
+type(
+  Log.t
+)
+"logs.ml" 179 5329 5358 "logs.ml" 179 5329 5361
+type(
+  Log.t list
+)
+ident(
+  int_ref acc "logs.ml" 178 5284 5314 "logs.ml" 178 5284 5317
+)
+"logs.ml" 179 5329 5336 "logs.ml" 179 5329 5361
+type(
+  Log.t list
+)
+"logs.ml" 180 5362 5370 "logs.ml" 180 5362 5371
+type(
+  exn
+)
+"logs.ml" 180 5362 5375 "logs.ml" 180 5362 5378
+type(
+  Log.t list
+)
+ident(
+  int_ref acc "logs.ml" 178 5284 5314 "logs.ml" 178 5284 5317
+)
+"logs.ml" 179 5329 5332 "logs.ml" 180 5362 5378
+type(
+  Log.t list
+)
+"logs.ml" 178 5284 5309 "logs.ml" 181 5379 5382
+type(
+  Log.t list -> string -> Log.t list
+)
+"logs.ml" 181 5379 5383 "logs.ml" 181 5379 5385
+type(
+  Log.t list
+)
+"logs.ml" 181 5379 5386 "logs.ml" 181 5379 5393
+type(
+  string list
+)
+ident(
+  int_ref loggers "logs.ml" 174 5176 5181 "logs.ml" 174 5176 5188
+)
+"logs.ml" 178 5284 5294 "logs.ml" 181 5379 5393
+type(
+  Log.t list
+)
+"logs.ml" 182 5397 5403 "logs.ml" 182 5397 5404
+type(
+  Log.t list
+)
+"logs.ml" 182 5397 5407 "logs.ml" 182 5397 5415
+type(
+  Log.t list -> Log.t list
+)
+ident(
+  ext_ref List.rev
+)
+"logs.ml" 182 5397 5416 "logs.ml" 182 5397 5417
+type(
+  Log.t list
+)
+ident(
+  int_ref l "logs.ml" 178 5284 5290 "logs.ml" 178 5284 5291
+)
+"logs.ml" 182 5397 5407 "logs.ml" 182 5397 5417
+type(
+  Log.t list
+)
+"logs.ml" 186 5527 5529 "logs.ml" 186 5527 5543
+type(
+  (string -> unit) -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Printf.kprintf
+)
+"logs.ml" 186 5527 5549 "logs.ml" 186 5527 5550
+type(
+  string
+)
+ident(
+  def s "logs.ml" 187 5554 5557 "logs.ml" 187 5554 5612
+)
+"logs.ml" 187 5554 5557 "logs.ml" 187 5554 5566
+type(
+  (Log.t -> unit) -> Log.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"logs.ml" 187 5554 5572 "logs.ml" 187 5554 5573
+type(
+  Log.t
+)
+ident(
+  def t "logs.ml" 187 5554 5577 "logs.ml" 187 5554 5609
+)
+"logs.ml" 187 5554 5577 "logs.ml" 187 5554 5587
+type(
+  Log.t -> ?key:string -> ?extra:string -> Log.level -> string -> unit
+)
+ident(
+  ext_ref Log.output
+)
+"logs.ml" 187 5554 5588 "logs.ml" 187 5554 5589
+type(
+  Log.t
+)
+ident(
+  int_ref t "logs.ml" 187 5554 5572 "logs.ml" 187 5554 5573
+)
+"logs.ml" 187 5554 5591 "logs.ml" 187 5554 5594
+type(
+  string
+)
+ident(
+  int_ref key "logs.ml" 163 4849 4857 "logs.ml" 163 4849 4860
+)
+"logs.ml" 187 5554 5596 "logs.ml" 187 5554 5601
+type(
+  string
+)
+ident(
+  int_ref extra "logs.ml" 163 4849 4869 "logs.ml" 163 4849 4874
+)
+"logs.ml" 187 5554 5602 "logs.ml" 187 5554 5607
+type(
+  Log.level
+)
+ident(
+  int_ref level "logs.ml" 163 4849 4861 "logs.ml" 163 4849 4866
+)
+"logs.ml" 187 5554 5608 "logs.ml" 187 5554 5609
+type(
+  string
+)
+ident(
+  int_ref s "logs.ml" 186 5527 5549 "logs.ml" 186 5527 5550
+)
+"logs.ml" 187 5554 5577 "logs.ml" 187 5554 5609
+type(
+  unit
+)
+"logs.ml" 187 5554 5567 "logs.ml" 187 5554 5610
+type(
+  Log.t -> unit
+)
+"logs.ml" 187 5554 5611 "logs.ml" 187 5554 5612
+type(
+  Log.t list
+)
+ident(
+  int_ref l "logs.ml" 182 5397 5403 "logs.ml" 182 5397 5404
+)
+"logs.ml" 187 5554 5557 "logs.ml" 187 5554 5612
+type(
+  unit
+)
+"logs.ml" 186 5527 5544 "logs.ml" 187 5554 5613
+type(
+  string -> unit
+)
+"logs.ml" 187 5554 5614 "logs.ml" 187 5554 5617
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 163 4849 4880 "logs.ml" 163 4849 4883
+)
+"logs.ml" 186 5527 5529 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+"logs.ml" 182 5397 5399 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+"logs.ml" 178 5284 5286 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+"logs.ml" 175 5220 5221 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+"logs.ml" 174 5176 5177 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+"logs.ml" 164 4925 4926 "logs.ml" 187 5554 5617
+type(
+  'a
+)
+type(
+  'a
+)
+"logs.ml" 190 5659 5663 "logs.ml" 190 5659 5668
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def debug "logs.ml" 192 5749 5749 --
+)
+"logs.ml" 190 5659 5669 "logs.ml" 190 5659 5670
+type(
+  string
+)
+ident(
+  def t "logs.ml" 190 5659 5671 "logs.ml" 191 5721 5748
+)
+"logs.ml" 190 5659 5672 "logs.ml" 190 5659 5677
+type(
+  string option
+)
+ident(
+  def extra "logs.ml" 190 5659 5678 "logs.ml" 191 5721 5748
+)
+"logs.ml" 190 5659 5679 "logs.ml" 190 5659 5682
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logs.ml" 191 5721 5722 "logs.ml" 191 5721 5748
+)
+"logs.ml" 191 5721 5722 "logs.ml" 191 5721 5725
+type(
+  string ->
+  Log.level -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "logs.ml" 163 4849 4853 "logs.ml" 163 4849 4856
+)
+"logs.ml" 191 5721 5726 "logs.ml" 191 5721 5727
+type(
+  string
+)
+ident(
+  int_ref t "logs.ml" 190 5659 5669 "logs.ml" 190 5659 5670
+)
+"logs.ml" 191 5721 5728 "logs.ml" 191 5721 5737
+type(
+  Log.level
+)
+"logs.ml" 191 5721 5739 "logs.ml" 191 5721 5744
+type(
+  string option
+)
+ident(
+  int_ref extra "logs.ml" 190 5659 5672 "logs.ml" 190 5659 5677
+)
+"logs.ml" 191 5721 5745 "logs.ml" 191 5721 5748
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 190 5659 5679 "logs.ml" 190 5659 5682
+)
+"logs.ml" 191 5721 5722 "logs.ml" 191 5721 5748
+type(
+  'a
+)
+"logs.ml" 192 5749 5753 "logs.ml" 192 5749 5757
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def info "logs.ml" 194 5837 5837 --
+)
+"logs.ml" 192 5749 5758 "logs.ml" 192 5749 5759
+type(
+  string
+)
+ident(
+  def t "logs.ml" 192 5749 5760 "logs.ml" 193 5810 5836
+)
+"logs.ml" 192 5749 5761 "logs.ml" 192 5749 5766
+type(
+  string option
+)
+ident(
+  def extra "logs.ml" 192 5749 5767 "logs.ml" 193 5810 5836
+)
+"logs.ml" 192 5749 5768 "logs.ml" 192 5749 5771
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logs.ml" 193 5810 5811 "logs.ml" 193 5810 5836
+)
+"logs.ml" 193 5810 5811 "logs.ml" 193 5810 5814
+type(
+  string ->
+  Log.level -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "logs.ml" 163 4849 4853 "logs.ml" 163 4849 4856
+)
+"logs.ml" 193 5810 5815 "logs.ml" 193 5810 5816
+type(
+  string
+)
+ident(
+  int_ref t "logs.ml" 192 5749 5758 "logs.ml" 192 5749 5759
+)
+"logs.ml" 193 5810 5817 "logs.ml" 193 5810 5825
+type(
+  Log.level
+)
+"logs.ml" 193 5810 5827 "logs.ml" 193 5810 5832
+type(
+  string option
+)
+ident(
+  int_ref extra "logs.ml" 192 5749 5761 "logs.ml" 192 5749 5766
+)
+"logs.ml" 193 5810 5833 "logs.ml" 193 5810 5836
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 192 5749 5768 "logs.ml" 192 5749 5771
+)
+"logs.ml" 193 5810 5811 "logs.ml" 193 5810 5836
+type(
+  'a
+)
+"logs.ml" 194 5837 5841 "logs.ml" 194 5837 5845
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def warn "logs.ml" 196 5925 5925 --
+)
+"logs.ml" 194 5837 5846 "logs.ml" 194 5837 5847
+type(
+  string
+)
+ident(
+  def t "logs.ml" 194 5837 5848 "logs.ml" 195 5898 5924
+)
+"logs.ml" 194 5837 5849 "logs.ml" 194 5837 5854
+type(
+  string option
+)
+ident(
+  def extra "logs.ml" 194 5837 5855 "logs.ml" 195 5898 5924
+)
+"logs.ml" 194 5837 5856 "logs.ml" 194 5837 5859
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logs.ml" 195 5898 5899 "logs.ml" 195 5898 5924
+)
+"logs.ml" 195 5898 5899 "logs.ml" 195 5898 5902
+type(
+  string ->
+  Log.level -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "logs.ml" 163 4849 4853 "logs.ml" 163 4849 4856
+)
+"logs.ml" 195 5898 5903 "logs.ml" 195 5898 5904
+type(
+  string
+)
+ident(
+  int_ref t "logs.ml" 194 5837 5846 "logs.ml" 194 5837 5847
+)
+"logs.ml" 195 5898 5905 "logs.ml" 195 5898 5913
+type(
+  Log.level
+)
+"logs.ml" 195 5898 5915 "logs.ml" 195 5898 5920
+type(
+  string option
+)
+ident(
+  int_ref extra "logs.ml" 194 5837 5849 "logs.ml" 194 5837 5854
+)
+"logs.ml" 195 5898 5921 "logs.ml" 195 5898 5924
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 194 5837 5856 "logs.ml" 194 5837 5859
+)
+"logs.ml" 195 5898 5899 "logs.ml" 195 5898 5924
+type(
+  'a
+)
+"logs.ml" 196 5925 5929 "logs.ml" 196 5925 5934
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def error "logs.ml" 197 5987 6014 --
+)
+"logs.ml" 196 5925 5935 "logs.ml" 196 5925 5936
+type(
+  string
+)
+ident(
+  def t "logs.ml" 196 5925 5937 "logs.ml" 197 5987 6014
+)
+"logs.ml" 196 5925 5938 "logs.ml" 196 5925 5943
+type(
+  string option
+)
+ident(
+  def extra "logs.ml" 196 5925 5944 "logs.ml" 197 5987 6014
+)
+"logs.ml" 196 5925 5945 "logs.ml" 196 5925 5948
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logs.ml" 197 5987 5988 "logs.ml" 197 5987 6014
+)
+"logs.ml" 197 5987 5988 "logs.ml" 197 5987 5991
+type(
+  string ->
+  Log.level -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "logs.ml" 163 4849 4853 "logs.ml" 163 4849 4856
+)
+"logs.ml" 197 5987 5992 "logs.ml" 197 5987 5993
+type(
+  string
+)
+ident(
+  int_ref t "logs.ml" 196 5925 5935 "logs.ml" 196 5925 5936
+)
+"logs.ml" 197 5987 5994 "logs.ml" 197 5987 6003
+type(
+  Log.level
+)
+"logs.ml" 197 5987 6005 "logs.ml" 197 5987 6010
+type(
+  string option
+)
+ident(
+  int_ref extra "logs.ml" 196 5925 5938 "logs.ml" 196 5925 5943
+)
+"logs.ml" 197 5987 6011 "logs.ml" 197 5987 6014
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logs.ml" 196 5925 5945 "logs.ml" 196 5925 5948
+)
+"logs.ml" 197 5987 5988 "logs.ml" 197 5987 6014
+type(
+  'a
+)

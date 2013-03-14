@@ -1,0 +1,1373 @@
+"quota.ml" 21 753 757 "quota.ml" 21 753 761
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def warn "quota.ml" 22 792 792 --
+)
+"quota.ml" 21 753 762 "quota.ml" 21 753 765
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "quota.ml" 21 753 768 "quota.ml" 21 753 791
+)
+"quota.ml" 21 753 768 "quota.ml" 21 753 777
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Logs.warn
+)
+"quota.ml" 21 753 778 "quota.ml" 21 753 787
+type(
+  string
+)
+"quota.ml" 21 753 788 "quota.ml" 21 753 791
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "quota.ml" 21 753 762 "quota.ml" 21 753 765
+)
+"quota.ml" 21 753 768 "quota.ml" 21 753 791
+type(
+  'a
+)
+"quota.ml" 22 792 796 "quota.ml" 22 792 804
+type(
+  bool ref
+)
+ident(
+  def activate "quota.ml" 23 816 816 --
+)
+"quota.ml" 22 792 807 "quota.ml" 22 792 810
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"quota.ml" 22 792 811 "quota.ml" 22 792 815
+type(
+  bool
+)
+"quota.ml" 22 792 807 "quota.ml" 22 792 815
+type(
+  bool ref
+)
+"quota.ml" 23 816 820 "quota.ml" 23 816 826
+type(
+  int ref
+)
+ident(
+  def maxent "quota.ml" 24 841 841 --
+)
+"quota.ml" 23 816 829 "quota.ml" 23 816 832
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"quota.ml" 23 816 833 "quota.ml" 23 816 840
+type(
+  int
+)
+"quota.ml" 23 816 829 "quota.ml" 23 816 840
+type(
+  int ref
+)
+"quota.ml" 24 841 845 "quota.ml" 24 841 852
+type(
+  int ref
+)
+ident(
+  def maxsize "quota.ml" 26 867 867 --
+)
+"quota.ml" 24 841 855 "quota.ml" 24 841 858
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"quota.ml" 24 841 859 "quota.ml" 24 841 865
+type(
+  int
+)
+"quota.ml" 24 841 855 "quota.ml" 24 841 865
+type(
+  int ref
+)
+"quota.ml" 32 1067 1071 "quota.ml" 32 1067 1080
+type(
+  t -> Xc.domid -> string
+)
+ident(
+  def to_string "quota.ml" 37 1270 1270 --
+)
+"quota.ml" 32 1067 1081 "quota.ml" 32 1067 1086
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 32 1067 1087 "quota.ml" 35 1219 1268
+)
+"quota.ml" 32 1067 1087 "quota.ml" 32 1067 1092
+type(
+  Xc.domid
+)
+ident(
+  def domid "quota.ml" 33 1095 1096 "quota.ml" 35 1219 1268
+)
+"quota.ml" 33 1095 1099 "quota.ml" 33 1095 1110
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"quota.ml" 33 1095 1111 "quota.ml" 33 1095 1116
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 32 1067 1081 "quota.ml" 32 1067 1086
+)
+"quota.ml" 33 1095 1111 "quota.ml" 33 1095 1120
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 33 1095 1121 "quota.ml" 33 1095 1126
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "quota.ml" 32 1067 1087 "quota.ml" 32 1067 1092
+)
+"quota.ml" 33 1095 1099 "quota.ml" 33 1095 1126
+type(
+  bool
+)
+"quota.ml" 34 1127 1133 "quota.ml" 34 1127 1147
+type(
+  (Xc.domid -> int -> int -> string, unit, string) format ->
+  Xc.domid -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"quota.ml" 34 1127 1148 "quota.ml" 34 1127 1168
+type(
+  (Xc.domid -> int -> int -> string, unit, string) format
+)
+"quota.ml" 34 1127 1169 "quota.ml" 34 1127 1174
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "quota.ml" 32 1067 1087 "quota.ml" 32 1067 1092
+)
+"quota.ml" 34 1127 1176 "quota.ml" 34 1127 1188
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"quota.ml" 34 1127 1189 "quota.ml" 34 1127 1194
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 32 1067 1081 "quota.ml" 32 1067 1086
+)
+"quota.ml" 34 1127 1189 "quota.ml" 34 1127 1198
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 34 1127 1199 "quota.ml" 34 1127 1204
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "quota.ml" 32 1067 1087 "quota.ml" 32 1067 1092
+)
+"quota.ml" 34 1127 1175 "quota.ml" 34 1127 1205
+type(
+  int
+)
+"quota.ml" 34 1127 1206 "quota.ml" 34 1127 1211
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 32 1067 1081 "quota.ml" 32 1067 1086
+)
+"quota.ml" 34 1127 1206 "quota.ml" 34 1127 1218
+type(
+  int
+)
+"quota.ml" 34 1127 1133 "quota.ml" 34 1127 1218
+type(
+  string
+)
+"quota.ml" 35 1219 1225 "quota.ml" 35 1219 1239
+type(
+  (Xc.domid -> string, unit, string) format -> Xc.domid -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"quota.ml" 35 1219 1240 "quota.ml" 35 1219 1262
+type(
+  (Xc.domid -> string, unit, string) format
+)
+"quota.ml" 35 1219 1263 "quota.ml" 35 1219 1268
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "quota.ml" 32 1067 1087 "quota.ml" 32 1067 1092
+)
+"quota.ml" 35 1219 1225 "quota.ml" 35 1219 1268
+type(
+  string
+)
+"quota.ml" 33 1095 1096 "quota.ml" 35 1219 1268
+type(
+  string
+)
+"quota.ml" 37 1270 1274 "quota.ml" 37 1270 1280
+type(
+  unit -> t
+)
+ident(
+  def create "quota.ml" 40 1356 1356 --
+)
+"quota.ml" 37 1270 1281 "quota.ml" 37 1270 1283
+type(
+  unit
+)
+"quota.ml" 38 1286 1298 "quota.ml" 38 1286 1299
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"quota.ml" 38 1286 1299 "quota.ml" 38 1286 1305
+type(
+  int ref
+)
+ident(
+  int_ref maxent "quota.ml" 23 816 820 "quota.ml" 23 816 826
+)
+"quota.ml" 38 1286 1298 "quota.ml" 38 1286 1305
+type(
+  int
+)
+"quota.ml" 38 1286 1317 "quota.ml" 38 1286 1318
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"quota.ml" 38 1286 1318 "quota.ml" 38 1286 1325
+type(
+  int ref
+)
+ident(
+  int_ref maxsize "quota.ml" 24 841 845 "quota.ml" 24 841 852
+)
+"quota.ml" 38 1286 1317 "quota.ml" 38 1286 1325
+type(
+  int
+)
+"quota.ml" 38 1286 1333 "quota.ml" 38 1286 1347
+type(
+  int -> (Xc.domid, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"quota.ml" 38 1286 1348 "quota.ml" 38 1286 1351
+type(
+  int
+)
+"quota.ml" 38 1286 1333 "quota.ml" 38 1286 1351
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 38 1286 1287 "quota.ml" 38 1286 1354
+type(
+  t
+)
+"quota.ml" 40 1356 1360 "quota.ml" 40 1356 1364
+type(
+  t -> t
+)
+ident(
+  def copy "quota.ml" 42 1420 1420 --
+)
+"quota.ml" 40 1356 1365 "quota.ml" 40 1356 1370
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 40 1356 1373 "quota.ml" 40 1356 1418
+)
+"quota.ml" 40 1356 1375 "quota.ml" 40 1356 1380
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 40 1356 1365 "quota.ml" 40 1356 1370
+)
+"quota.ml" 40 1356 1393 "quota.ml" 40 1356 1405
+type(
+  (Xc.domid, int) Hashtbl.t -> (Xc.domid, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.copy
+)
+"quota.ml" 40 1356 1406 "quota.ml" 40 1356 1411
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 40 1356 1365 "quota.ml" 40 1356 1370
+)
+"quota.ml" 40 1356 1406 "quota.ml" 40 1356 1415
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 40 1356 1392 "quota.ml" 40 1356 1416
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 40 1356 1373 "quota.ml" 40 1356 1418
+type(
+  t
+)
+"quota.ml" 42 1420 1424 "quota.ml" 42 1420 1427
+type(
+  t -> Xc.domid -> unit
+)
+ident(
+  def del "quota.ml" 44 1468 1468 --
+)
+"quota.ml" 42 1420 1428 "quota.ml" 42 1420 1433
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 42 1420 1434 "quota.ml" 42 1420 1466
+)
+"quota.ml" 42 1420 1434 "quota.ml" 42 1420 1436
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 42 1420 1439 "quota.ml" 42 1420 1466
+)
+"quota.ml" 42 1420 1439 "quota.ml" 42 1420 1453
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"quota.ml" 42 1420 1454 "quota.ml" 42 1420 1459
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 42 1420 1428 "quota.ml" 42 1420 1433
+)
+"quota.ml" 42 1420 1454 "quota.ml" 42 1420 1463
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 42 1420 1464 "quota.ml" 42 1420 1466
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 42 1420 1434 "quota.ml" 42 1420 1436
+)
+"quota.ml" 42 1420 1439 "quota.ml" 42 1420 1466
+type(
+  unit
+)
+"quota.ml" 44 1468 1472 "quota.ml" 44 1468 1478
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  def _check "quota.ml" 56 1822 1822 --
+)
+"quota.ml" 44 1468 1479 "quota.ml" 44 1468 1484
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 44 1468 1485 "quota.ml" 54 1817 1820
+)
+"quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 44 1468 1488 "quota.ml" 54 1817 1820
+)
+"quota.ml" 44 1468 1488 "quota.ml" 44 1468 1492
+type(
+  int
+)
+ident(
+  def size "quota.ml" 45 1495 1496 "quota.ml" 54 1817 1820
+)
+"quota.ml" 45 1495 1499 "quota.ml" 45 1495 1503
+type(
+  int
+)
+ident(
+  int_ref size "quota.ml" 44 1468 1488 "quota.ml" 44 1468 1492
+)
+"quota.ml" 45 1495 1504 "quota.ml" 45 1495 1505
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"quota.ml" 45 1495 1506 "quota.ml" 45 1495 1511
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 44 1468 1479 "quota.ml" 44 1468 1484
+)
+"quota.ml" 45 1495 1506 "quota.ml" 45 1495 1519
+type(
+  int
+)
+"quota.ml" 45 1495 1499 "quota.ml" 45 1495 1519
+type(
+  bool
+)
+"quota.ml" 46 1527 1529 "quota.ml" 46 1527 1533
+type(
+  (Xc.domid -> int -> unit, unit, string, unit) format4 ->
+  Xc.domid -> int -> unit
+)
+ident(
+  int_ref warn "quota.ml" 21 753 757 "quota.ml" 21 753 761
+)
+"quota.ml" 46 1527 1534 "quota.ml" 46 1527 1579
+type(
+  (Xc.domid -> int -> unit, unit, string, unit) format4
+)
+"quota.ml" 46 1527 1580 "quota.ml" 46 1527 1582
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+)
+"quota.ml" 46 1527 1583 "quota.ml" 46 1527 1587
+type(
+  int
+)
+ident(
+  int_ref size "quota.ml" 44 1468 1488 "quota.ml" 44 1468 1492
+)
+"quota.ml" 46 1527 1529 "quota.ml" 46 1527 1587
+type(
+  unit
+)
+"quota.ml" 47 1589 1591 "quota.ml" 47 1589 1596
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"quota.ml" 47 1589 1597 "quota.ml" 47 1589 1609
+type(
+  exn
+)
+"quota.ml" 47 1589 1591 "quota.ml" 47 1589 1609
+type(
+  unit
+)
+"quota.ml" 45 1495 1525 "quota.ml" 48 1610 1612
+type(
+  unit
+)
+"quota.ml" 45 1495 1496 "quota.ml" 48 1610 1612
+type(
+  unit
+)
+"quota.ml" 49 1614 1618 "quota.ml" 49 1614 1620
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+)
+"quota.ml" 49 1614 1621 "quota.ml" 49 1614 1622
+type(
+  Xc.domid -> Xc.domid -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"quota.ml" 49 1614 1623 "quota.ml" 49 1614 1624
+type(
+  Xc.domid
+)
+"quota.ml" 49 1614 1618 "quota.ml" 49 1614 1624
+type(
+  bool
+)
+"quota.ml" 49 1614 1625 "quota.ml" 49 1614 1627
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"quota.ml" 49 1614 1628 "quota.ml" 49 1614 1639
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"quota.ml" 49 1614 1640 "quota.ml" 49 1614 1645
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 44 1468 1479 "quota.ml" 44 1468 1484
+)
+"quota.ml" 49 1614 1640 "quota.ml" 49 1614 1649
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 49 1614 1650 "quota.ml" 49 1614 1652
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+)
+"quota.ml" 49 1614 1628 "quota.ml" 49 1614 1652
+type(
+  bool
+)
+"quota.ml" 49 1614 1618 "quota.ml" 49 1614 1652
+type(
+  bool
+)
+"quota.ml" 50 1658 1664 "quota.ml" 50 1658 1669
+type(
+  int
+)
+"quota.ml" 50 1658 1672 "quota.ml" 50 1658 1684
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"quota.ml" 50 1658 1685 "quota.ml" 50 1658 1690
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 44 1468 1479 "quota.ml" 44 1468 1484
+)
+"quota.ml" 50 1658 1685 "quota.ml" 50 1658 1694
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 50 1658 1695 "quota.ml" 50 1658 1697
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+)
+"quota.ml" 50 1658 1672 "quota.ml" 50 1658 1697
+type(
+  int
+)
+"quota.ml" 51 1701 1706 "quota.ml" 51 1701 1711
+type(
+  int
+)
+ident(
+  int_ref entry "quota.ml" 50 1658 1664 "quota.ml" 50 1658 1669
+)
+"quota.ml" 51 1701 1712 "quota.ml" 51 1701 1714
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"quota.ml" 51 1701 1715 "quota.ml" 51 1701 1720
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 44 1468 1479 "quota.ml" 44 1468 1484
+)
+"quota.ml" 51 1701 1715 "quota.ml" 51 1701 1727
+type(
+  int
+)
+"quota.ml" 51 1701 1706 "quota.ml" 51 1701 1727
+type(
+  bool
+)
+"quota.ml" 52 1735 1738 "quota.ml" 52 1735 1742
+type(
+  (Xc.domid -> unit, unit, string, unit) format4 -> Xc.domid -> unit
+)
+ident(
+  int_ref warn "quota.ml" 21 753 757 "quota.ml" 21 753 761
+)
+"quota.ml" 52 1735 1743 "quota.ml" 52 1735 1789
+type(
+  (Xc.domid -> unit, unit, string, unit) format4
+)
+"quota.ml" 52 1735 1790 "quota.ml" 52 1735 1792
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 44 1468 1485 "quota.ml" 44 1468 1487
+)
+"quota.ml" 52 1735 1738 "quota.ml" 52 1735 1792
+type(
+  unit
+)
+"quota.ml" 53 1794 1797 "quota.ml" 53 1794 1802
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"quota.ml" 53 1794 1803 "quota.ml" 53 1794 1816
+type(
+  exn
+)
+"quota.ml" 53 1794 1797 "quota.ml" 53 1794 1816
+type(
+  unit
+)
+"quota.ml" 51 1701 1733 "quota.ml" 54 1817 1820
+type(
+  unit
+)
+"quota.ml" 51 1701 1703 "quota.ml" 54 1817 1820
+type(
+  unit
+)
+"quota.ml" 50 1658 1660 "quota.ml" 54 1817 1820
+type(
+  unit
+)
+"quota.ml" 49 1614 1615 "quota.ml" 54 1817 1820
+type(
+  unit
+)
+"quota.ml" 45 1495 1496 "quota.ml" 54 1817 1820
+type(
+  unit
+)
+"quota.ml" 56 1822 1826 "quota.ml" 56 1822 1831
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  def check "quota.ml" 60 1891 1891 --
+)
+"quota.ml" 56 1822 1832 "quota.ml" 56 1822 1837
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 56 1822 1838 "quota.ml" 58 1867 1889
+)
+"quota.ml" 56 1822 1838 "quota.ml" 56 1822 1840
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 56 1822 1841 "quota.ml" 58 1867 1889
+)
+"quota.ml" 56 1822 1841 "quota.ml" 56 1822 1845
+type(
+  int
+)
+ident(
+  def size "quota.ml" 57 1848 1849 "quota.ml" 58 1867 1889
+)
+"quota.ml" 57 1848 1852 "quota.ml" 57 1848 1853
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"quota.ml" 57 1848 1853 "quota.ml" 57 1848 1861
+type(
+  bool ref
+)
+ident(
+  int_ref activate "quota.ml" 22 792 796 "quota.ml" 22 792 804
+)
+"quota.ml" 57 1848 1852 "quota.ml" 57 1848 1861
+type(
+  bool
+)
+"quota.ml" 58 1867 1869 "quota.ml" 58 1867 1875
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  int_ref _check "quota.ml" 44 1468 1472 "quota.ml" 44 1468 1478
+)
+"quota.ml" 58 1867 1876 "quota.ml" 58 1867 1881
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 56 1822 1832 "quota.ml" 56 1822 1837
+)
+"quota.ml" 58 1867 1882 "quota.ml" 58 1867 1884
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 56 1822 1838 "quota.ml" 56 1822 1840
+)
+"quota.ml" 58 1867 1885 "quota.ml" 58 1867 1889
+type(
+  int
+)
+ident(
+  int_ref size "quota.ml" 56 1822 1841 "quota.ml" 56 1822 1845
+)
+"quota.ml" 58 1867 1869 "quota.ml" 58 1867 1889
+type(
+  unit
+)
+"quota.ml" 57 1848 1849 "quota.ml" 58 1867 1889
+type(
+  unit
+)
+"quota.ml" 60 1891 1895 "quota.ml" 60 1891 1904
+type(
+  t -> Xc.domid -> int
+)
+ident(
+  def get_entry "quota.ml" 62 1943 1943 --
+)
+"quota.ml" 60 1891 1905 "quota.ml" 60 1891 1910
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 60 1891 1911 "quota.ml" 60 1891 1941
+)
+"quota.ml" 60 1891 1911 "quota.ml" 60 1891 1913
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 60 1891 1916 "quota.ml" 60 1891 1941
+)
+"quota.ml" 60 1891 1916 "quota.ml" 60 1891 1928
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"quota.ml" 60 1891 1929 "quota.ml" 60 1891 1934
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 60 1891 1905 "quota.ml" 60 1891 1910
+)
+"quota.ml" 60 1891 1929 "quota.ml" 60 1891 1938
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 60 1891 1939 "quota.ml" 60 1891 1941
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 60 1891 1911 "quota.ml" 60 1891 1913
+)
+"quota.ml" 60 1891 1916 "quota.ml" 60 1891 1941
+type(
+  int
+)
+"quota.ml" 62 1943 1947 "quota.ml" 62 1943 1956
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  def set_entry "quota.ml" 72 2138 2138 --
+)
+"quota.ml" 62 1943 1957 "quota.ml" 62 1943 1962
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 62 1943 1963 "quota.ml" 70 2132 2136
+)
+"quota.ml" 62 1943 1963 "quota.ml" 62 1943 1965
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 62 1943 1966 "quota.ml" 70 2132 2136
+)
+"quota.ml" 62 1943 1966 "quota.ml" 62 1943 1968
+type(
+  int
+)
+ident(
+  def nb "quota.ml" 63 1971 1972 "quota.ml" 70 2132 2136
+)
+"quota.ml" 63 1971 1975 "quota.ml" 63 1971 1977
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 62 1943 1966 "quota.ml" 62 1943 1968
+)
+"quota.ml" 63 1971 1978 "quota.ml" 63 1971 1979
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"quota.ml" 63 1971 1980 "quota.ml" 63 1971 1981
+type(
+  int
+)
+"quota.ml" 63 1971 1975 "quota.ml" 63 1971 1981
+type(
+  bool
+)
+"quota.ml" 64 1982 1988 "quota.ml" 64 1982 2002
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"quota.ml" 64 1982 2003 "quota.ml" 64 1982 2008
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 62 1943 1957 "quota.ml" 62 1943 1962
+)
+"quota.ml" 64 1982 2003 "quota.ml" 64 1982 2012
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 64 1982 2013 "quota.ml" 64 1982 2015
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 62 1943 1963 "quota.ml" 62 1943 1965
+)
+"quota.ml" 64 1982 1988 "quota.ml" 64 1982 2015
+type(
+  unit
+)
+"quota.ml" 66 2028 2032 "quota.ml" 66 2028 2043
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"quota.ml" 66 2028 2044 "quota.ml" 66 2028 2049
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 62 1943 1957 "quota.ml" 62 1943 1962
+)
+"quota.ml" 66 2028 2044 "quota.ml" 66 2028 2053
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 66 2028 2054 "quota.ml" 66 2028 2056
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 62 1943 1963 "quota.ml" 62 1943 1965
+)
+"quota.ml" 66 2028 2032 "quota.ml" 66 2028 2056
+type(
+  bool
+)
+"quota.ml" 67 2062 2064 "quota.ml" 67 2062 2079
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"quota.ml" 67 2062 2080 "quota.ml" 67 2062 2085
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 62 1943 1957 "quota.ml" 62 1943 1962
+)
+"quota.ml" 67 2062 2080 "quota.ml" 67 2062 2089
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 67 2062 2090 "quota.ml" 67 2062 2092
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 62 1943 1963 "quota.ml" 62 1943 1965
+)
+"quota.ml" 67 2062 2093 "quota.ml" 67 2062 2095
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 62 1943 1966 "quota.ml" 62 1943 1968
+)
+"quota.ml" 67 2062 2064 "quota.ml" 67 2062 2095
+type(
+  unit
+)
+"quota.ml" 69 2102 2104 "quota.ml" 69 2102 2115
+type(
+  (Xc.domid, int) Hashtbl.t -> Xc.domid -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"quota.ml" 69 2102 2116 "quota.ml" 69 2102 2121
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 62 1943 1957 "quota.ml" 62 1943 1962
+)
+"quota.ml" 69 2102 2116 "quota.ml" 69 2102 2125
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 69 2102 2126 "quota.ml" 69 2102 2128
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 62 1943 1963 "quota.ml" 62 1943 1965
+)
+"quota.ml" 69 2102 2129 "quota.ml" 69 2102 2131
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 62 1943 1966 "quota.ml" 62 1943 1968
+)
+"quota.ml" 69 2102 2104 "quota.ml" 69 2102 2131
+type(
+  unit
+)
+"quota.ml" 65 2016 2022 "quota.ml" 70 2132 2136
+type(
+  unit
+)
+"quota.ml" 63 1971 1972 "quota.ml" 70 2132 2136
+type(
+  unit
+)
+"quota.ml" 72 2138 2142 "quota.ml" 72 2138 2151
+type(
+  t -> Xc.domid -> unit
+)
+ident(
+  def del_entry "quota.ml" 78 2254 2254 --
+)
+"quota.ml" 72 2138 2152 "quota.ml" 72 2138 2157
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 72 2138 2158 "quota.ml" 76 2231 2252
+)
+"quota.ml" 72 2138 2158 "quota.ml" 72 2138 2160
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 73 2163 2164 "quota.ml" 76 2231 2252
+)
+"quota.ml" 74 2168 2174 "quota.ml" 74 2168 2176
+type(
+  int
+)
+ident(
+  def nb "quota.ml" 75 2201 2203 "quota.ml" 75 2201 2230
+)
+"quota.ml" 74 2168 2179 "quota.ml" 74 2168 2188
+type(
+  t -> Xc.domid -> int
+)
+ident(
+  int_ref get_entry "quota.ml" 60 1891 1895 "quota.ml" 60 1891 1904
+)
+"quota.ml" 74 2168 2189 "quota.ml" 74 2168 2194
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 72 2138 2152 "quota.ml" 72 2138 2157
+)
+"quota.ml" 74 2168 2195 "quota.ml" 74 2168 2197
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 72 2138 2158 "quota.ml" 72 2138 2160
+)
+"quota.ml" 74 2168 2179 "quota.ml" 74 2168 2197
+type(
+  int
+)
+"quota.ml" 75 2201 2203 "quota.ml" 75 2201 2212
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  int_ref set_entry "quota.ml" 62 1943 1947 "quota.ml" 62 1943 1956
+)
+"quota.ml" 75 2201 2213 "quota.ml" 75 2201 2218
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 72 2138 2152 "quota.ml" 72 2138 2157
+)
+"quota.ml" 75 2201 2219 "quota.ml" 75 2201 2221
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 72 2138 2158 "quota.ml" 72 2138 2160
+)
+"quota.ml" 75 2201 2223 "quota.ml" 75 2201 2225
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 74 2168 2174 "quota.ml" 74 2168 2176
+)
+"quota.ml" 75 2201 2226 "quota.ml" 75 2201 2227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"quota.ml" 75 2201 2228 "quota.ml" 75 2201 2229
+type(
+  int
+)
+"quota.ml" 75 2201 2222 "quota.ml" 75 2201 2230
+type(
+  int
+)
+"quota.ml" 75 2201 2203 "quota.ml" 75 2201 2230
+type(
+  unit
+)
+"quota.ml" 74 2168 2170 "quota.ml" 75 2201 2230
+type(
+  unit
+)
+"quota.ml" 76 2231 2237 "quota.ml" 76 2231 2246
+type(
+  exn
+)
+"quota.ml" 76 2231 2250 "quota.ml" 76 2231 2252
+type(
+  unit
+)
+"quota.ml" 73 2163 2164 "quota.ml" 76 2231 2252
+type(
+  unit
+)
+"quota.ml" 78 2254 2258 "quota.ml" 78 2254 2267
+type(
+  t -> Xc.domid -> unit
+)
+ident(
+  def add_entry "quota.ml" 82 2365 2365 --
+)
+"quota.ml" 78 2254 2268 "quota.ml" 78 2254 2273
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 78 2254 2274 "quota.ml" 80 2335 2363
+)
+"quota.ml" 78 2254 2274 "quota.ml" 78 2254 2276
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 79 2279 2280 "quota.ml" 80 2335 2363
+)
+"quota.ml" 79 2279 2284 "quota.ml" 79 2279 2286
+type(
+  int
+)
+"quota.ml" 79 2279 2293 "quota.ml" 79 2279 2302
+type(
+  t -> Xc.domid -> int
+)
+ident(
+  int_ref get_entry "quota.ml" 60 1891 1895 "quota.ml" 60 1891 1904
+)
+"quota.ml" 79 2279 2303 "quota.ml" 79 2279 2308
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 78 2254 2268 "quota.ml" 78 2254 2273
+)
+"quota.ml" 79 2279 2309 "quota.ml" 79 2279 2311
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 78 2254 2274 "quota.ml" 78 2254 2276
+)
+"quota.ml" 79 2279 2293 "quota.ml" 79 2279 2311
+type(
+  int
+)
+"quota.ml" 79 2279 2317 "quota.ml" 79 2279 2326
+type(
+  exn
+)
+"quota.ml" 79 2279 2330 "quota.ml" 79 2279 2331
+type(
+  int
+)
+"quota.ml" 79 2279 2289 "quota.ml" 79 2279 2331
+type(
+  int
+)
+"quota.ml" 80 2335 2336 "quota.ml" 80 2335 2345
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  int_ref set_entry "quota.ml" 62 1943 1947 "quota.ml" 62 1943 1956
+)
+"quota.ml" 80 2335 2346 "quota.ml" 80 2335 2351
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 78 2254 2268 "quota.ml" 78 2254 2273
+)
+"quota.ml" 80 2335 2352 "quota.ml" 80 2335 2354
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 78 2254 2274 "quota.ml" 78 2254 2276
+)
+"quota.ml" 80 2335 2356 "quota.ml" 80 2335 2358
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 79 2279 2284 "quota.ml" 79 2279 2286
+)
+"quota.ml" 80 2335 2359 "quota.ml" 80 2335 2360
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"quota.ml" 80 2335 2361 "quota.ml" 80 2335 2362
+type(
+  int
+)
+"quota.ml" 80 2335 2355 "quota.ml" 80 2335 2363
+type(
+  int
+)
+"quota.ml" 80 2335 2336 "quota.ml" 80 2335 2363
+type(
+  unit
+)
+"quota.ml" 79 2279 2280 "quota.ml" 80 2335 2363
+type(
+  unit
+)
+"quota.ml" 82 2365 2369 "quota.ml" 82 2365 2372
+type(
+  t -> t -> unit
+)
+ident(
+  def add "quota.ml" 83 2386 2468 --
+)
+"quota.ml" 82 2365 2373 "quota.ml" 82 2365 2378
+type(
+  t
+)
+ident(
+  def quota "quota.ml" 82 2365 2379 "quota.ml" 83 2386 2468
+)
+"quota.ml" 82 2365 2379 "quota.ml" 82 2365 2383
+type(
+  t
+)
+ident(
+  def diff "quota.ml" 83 2386 2387 "quota.ml" 83 2386 2468
+)
+"quota.ml" 83 2386 2387 "quota.ml" 83 2386 2399
+type(
+  (Xc.domid -> int -> unit) -> (Xc.domid, int) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"quota.ml" 83 2386 2405 "quota.ml" 83 2386 2407
+type(
+  Xc.domid
+)
+ident(
+  def id "quota.ml" 83 2386 2408 "quota.ml" 83 2386 2458
+)
+"quota.ml" 83 2386 2408 "quota.ml" 83 2386 2410
+type(
+  int
+)
+ident(
+  def nb "quota.ml" 83 2386 2414 "quota.ml" 83 2386 2458
+)
+"quota.ml" 83 2386 2414 "quota.ml" 83 2386 2423
+type(
+  t -> Xc.domid -> int -> unit
+)
+ident(
+  int_ref set_entry "quota.ml" 62 1943 1947 "quota.ml" 62 1943 1956
+)
+"quota.ml" 83 2386 2424 "quota.ml" 83 2386 2429
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 82 2365 2373 "quota.ml" 82 2365 2378
+)
+"quota.ml" 83 2386 2430 "quota.ml" 83 2386 2432
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 83 2386 2405 "quota.ml" 83 2386 2407
+)
+"quota.ml" 83 2386 2434 "quota.ml" 83 2386 2443
+type(
+  t -> Xc.domid -> int
+)
+ident(
+  int_ref get_entry "quota.ml" 60 1891 1895 "quota.ml" 60 1891 1904
+)
+"quota.ml" 83 2386 2444 "quota.ml" 83 2386 2449
+type(
+  t
+)
+ident(
+  int_ref quota "quota.ml" 82 2365 2373 "quota.ml" 82 2365 2378
+)
+"quota.ml" 83 2386 2450 "quota.ml" 83 2386 2452
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "quota.ml" 83 2386 2405 "quota.ml" 83 2386 2407
+)
+"quota.ml" 83 2386 2434 "quota.ml" 83 2386 2452
+type(
+  int
+)
+"quota.ml" 83 2386 2453 "quota.ml" 83 2386 2454
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"quota.ml" 83 2386 2455 "quota.ml" 83 2386 2457
+type(
+  int
+)
+ident(
+  int_ref nb "quota.ml" 83 2386 2408 "quota.ml" 83 2386 2410
+)
+"quota.ml" 83 2386 2433 "quota.ml" 83 2386 2458
+type(
+  int
+)
+"quota.ml" 83 2386 2414 "quota.ml" 83 2386 2458
+type(
+  unit
+)
+"quota.ml" 83 2386 2400 "quota.ml" 83 2386 2459
+type(
+  Xc.domid -> int -> unit
+)
+"quota.ml" 83 2386 2460 "quota.ml" 83 2386 2464
+type(
+  t
+)
+ident(
+  int_ref diff "quota.ml" 82 2365 2379 "quota.ml" 82 2365 2383
+)
+"quota.ml" 83 2386 2460 "quota.ml" 83 2386 2468
+type(
+  (Xc.domid, int) Hashtbl.t
+)
+"quota.ml" 83 2386 2387 "quota.ml" 83 2386 2468
+type(
+  unit
+)

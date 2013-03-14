@@ -1,0 +1,1714 @@
+"xc.ml" 112 2523 2527 "xc.ml" 112 2523 2536
+type(
+  (handle -> 'a) -> 'a
+)
+ident(
+  def with_intf "xc.ml" 118 2660 2660 --
+)
+"xc.ml" 112 2523 2537 "xc.ml" 112 2523 2538
+type(
+  handle -> 'a
+)
+ident(
+  def f "xc.ml" 113 2541 2542 "xc.ml" 116 2656 2658
+)
+"xc.ml" 113 2541 2546 "xc.ml" 113 2541 2548
+type(
+  handle
+)
+"xc.ml" 113 2541 2551 "xc.ml" 113 2541 2565
+type(
+  unit -> handle
+)
+"xc.ml" 113 2541 2566 "xc.ml" 113 2541 2568
+type(
+  unit
+)
+"xc.ml" 113 2541 2551 "xc.ml" 113 2541 2568
+type(
+  handle
+)
+"xc.ml" 114 2572 2577 "xc.ml" 114 2572 2578
+type(
+  'a
+)
+"xc.ml" 114 2572 2585 "xc.ml" 114 2572 2586
+type(
+  handle -> 'a
+)
+ident(
+  int_ref f "xc.ml" 112 2523 2537 "xc.ml" 112 2523 2538
+)
+"xc.ml" 114 2572 2587 "xc.ml" 114 2572 2589
+type(
+  handle
+)
+ident(
+  int_ref xc "xc.ml" 113 2541 2546 "xc.ml" 113 2541 2548
+)
+"xc.ml" 114 2572 2585 "xc.ml" 114 2572 2589
+type(
+  'a
+)
+"xc.ml" 114 2572 2595 "xc.ml" 114 2572 2598
+type(
+  exn
+)
+ident(
+  def exn "xc.ml" 114 2572 2602 "xc.ml" 114 2572 2631
+)
+"xc.ml" 114 2572 2602 "xc.ml" 114 2572 2617
+type(
+  handle -> unit
+)
+"xc.ml" 114 2572 2618 "xc.ml" 114 2572 2620
+type(
+  handle
+)
+ident(
+  int_ref xc "xc.ml" 113 2541 2546 "xc.ml" 113 2541 2548
+)
+"xc.ml" 114 2572 2602 "xc.ml" 114 2572 2620
+type(
+  unit
+)
+"xc.ml" 114 2572 2622 "xc.ml" 114 2572 2627
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xc.ml" 114 2572 2628 "xc.ml" 114 2572 2631
+type(
+  exn
+)
+ident(
+  int_ref exn "xc.ml" 114 2572 2595 "xc.ml" 114 2572 2598
+)
+"xc.ml" 114 2572 2622 "xc.ml" 114 2572 2631
+type(
+  'a
+)
+"xc.ml" 114 2572 2602 "xc.ml" 114 2572 2631
+type(
+  'a
+)
+"xc.ml" 114 2572 2581 "xc.ml" 114 2572 2631
+type(
+  'a
+)
+"xc.ml" 115 2635 2636 "xc.ml" 115 2635 2651
+type(
+  handle -> unit
+)
+"xc.ml" 115 2635 2652 "xc.ml" 115 2635 2654
+type(
+  handle
+)
+ident(
+  int_ref xc "xc.ml" 113 2541 2546 "xc.ml" 113 2541 2548
+)
+"xc.ml" 115 2635 2636 "xc.ml" 115 2635 2654
+type(
+  unit
+)
+"xc.ml" 116 2656 2657 "xc.ml" 116 2656 2658
+type(
+  'a
+)
+ident(
+  int_ref r "xc.ml" 114 2572 2577 "xc.ml" 114 2572 2578
+)
+"xc.ml" 115 2635 2636 "xc.ml" 116 2656 2658
+type(
+  'a
+)
+"xc.ml" 114 2572 2573 "xc.ml" 116 2656 2658
+type(
+  'a
+)
+"xc.ml" 113 2541 2542 "xc.ml" 116 2656 2658
+type(
+  'a
+)
+"xc.ml" 121 2784 2788 "xc.ml" 121 2784 2801
+type(
+  handle -> int32 -> domain_create_flag list -> 'a Uuid.t -> domid
+)
+ident(
+  def domain_create "xc.ml" 124 2886 2886 --
+)
+"xc.ml" 121 2784 2802 "xc.ml" 121 2784 2808
+type(
+  handle
+)
+ident(
+  def handle "xc.ml" 121 2784 2809 "xc.ml" 122 2824 2884
+)
+"xc.ml" 121 2784 2809 "xc.ml" 121 2784 2810
+type(
+  int32
+)
+ident(
+  def n "xc.ml" 121 2784 2811 "xc.ml" 122 2824 2884
+)
+"xc.ml" 121 2784 2811 "xc.ml" 121 2784 2816
+type(
+  domain_create_flag list
+)
+ident(
+  def flags "xc.ml" 121 2784 2817 "xc.ml" 122 2824 2884
+)
+"xc.ml" 121 2784 2817 "xc.ml" 121 2784 2821
+type(
+  'a Uuid.t
+)
+ident(
+  def uuid "xc.ml" 122 2824 2825 "xc.ml" 122 2824 2884
+)
+"xc.ml" 122 2824 2825 "xc.ml" 122 2824 2839
+type(
+  handle -> int32 -> domain_create_flag list -> int array -> domid
+)
+"xc.ml" 122 2824 2840 "xc.ml" 122 2824 2846
+type(
+  handle
+)
+ident(
+  int_ref handle "xc.ml" 121 2784 2802 "xc.ml" 121 2784 2808
+)
+"xc.ml" 122 2824 2847 "xc.ml" 122 2824 2848
+type(
+  int32
+)
+ident(
+  int_ref n "xc.ml" 121 2784 2809 "xc.ml" 121 2784 2810
+)
+"xc.ml" 122 2824 2849 "xc.ml" 122 2824 2854
+type(
+  domain_create_flag list
+)
+ident(
+  int_ref flags "xc.ml" 121 2784 2811 "xc.ml" 121 2784 2816
+)
+"xc.ml" 122 2824 2856 "xc.ml" 122 2824 2878
+type(
+  'a Uuid.t -> int array
+)
+ident(
+  ext_ref Uuid.int_array_of_uuid
+)
+"xc.ml" 122 2824 2879 "xc.ml" 122 2824 2883
+type(
+  'a Uuid.t
+)
+ident(
+  int_ref uuid "xc.ml" 121 2784 2817 "xc.ml" 121 2784 2821
+)
+"xc.ml" 122 2824 2855 "xc.ml" 122 2824 2884
+type(
+  int array
+)
+"xc.ml" 122 2824 2825 "xc.ml" 122 2824 2884
+type(
+  domid
+)
+"xc.ml" 127 3007 3011 "xc.ml" 127 3007 3027
+type(
+  handle -> domid -> 'a Uuid.t -> unit
+)
+ident(
+  def domain_sethandle "xc.ml" 130 3103 3103 --
+)
+"xc.ml" 127 3007 3028 "xc.ml" 127 3007 3034
+type(
+  handle
+)
+ident(
+  def handle "xc.ml" 127 3007 3035 "xc.ml" 128 3044 3101
+)
+"xc.ml" 127 3007 3035 "xc.ml" 127 3007 3036
+type(
+  domid
+)
+ident(
+  def n "xc.ml" 127 3007 3037 "xc.ml" 128 3044 3101
+)
+"xc.ml" 127 3007 3037 "xc.ml" 127 3007 3041
+type(
+  'a Uuid.t
+)
+ident(
+  def uuid "xc.ml" 128 3044 3045 "xc.ml" 128 3044 3101
+)
+"xc.ml" 128 3044 3045 "xc.ml" 128 3044 3062
+type(
+  handle -> domid -> int array -> unit
+)
+"xc.ml" 128 3044 3063 "xc.ml" 128 3044 3069
+type(
+  handle
+)
+ident(
+  int_ref handle "xc.ml" 127 3007 3028 "xc.ml" 127 3007 3034
+)
+"xc.ml" 128 3044 3070 "xc.ml" 128 3044 3071
+type(
+  domid
+)
+ident(
+  int_ref n "xc.ml" 127 3007 3035 "xc.ml" 127 3007 3036
+)
+"xc.ml" 128 3044 3073 "xc.ml" 128 3044 3095
+type(
+  'a Uuid.t -> int array
+)
+ident(
+  ext_ref Uuid.int_array_of_uuid
+)
+"xc.ml" 128 3044 3096 "xc.ml" 128 3044 3100
+type(
+  'a Uuid.t
+)
+ident(
+  int_ref uuid "xc.ml" 127 3007 3037 "xc.ml" 127 3007 3041
+)
+"xc.ml" 128 3044 3072 "xc.ml" 128 3044 3101
+type(
+  int array
+)
+"xc.ml" 128 3044 3045 "xc.ml" 128 3044 3101
+type(
+  unit
+)
+"xc.ml" 144 3723 3727 "xc.ml" 144 3723 3745
+type(
+  handle -> domid -> domaininfo list
+)
+ident(
+  def domain_getinfolist "xc.ml" 153 4011 4011 --
+)
+"xc.ml" 144 3723 3746 "xc.ml" 144 3723 3752
+type(
+  handle
+)
+ident(
+  def handle "xc.ml" 144 3723 3753 "xc.ml" 151 3975 4009
+)
+"xc.ml" 144 3723 3753 "xc.ml" 144 3723 3765
+type(
+  domid
+)
+ident(
+  def first_domain "xc.ml" 145 3768 3769 "xc.ml" 151 3975 4009
+)
+"xc.ml" 145 3768 3773 "xc.ml" 145 3768 3775
+type(
+  int
+)
+"xc.ml" 145 3768 3778 "xc.ml" 145 3768 3779
+type(
+  int
+)
+"xc.ml" 146 3783 3788 "xc.ml" 146 3783 3798
+type(
+  domaininfo list -> int
+)
+"xc.ml" 146 3783 3799 "xc.ml" 146 3783 3800
+type(
+  domaininfo list
+)
+ident(
+  def l "xc.ml" 146 3783 3803 "xc.ml" 146 3783 3824
+)
+"xc.ml" 146 3783 3804 "xc.ml" 146 3783 3811
+type(
+  domaininfo list -> domaininfo
+)
+ident(
+  ext_ref List.hd
+)
+"xc.ml" 146 3783 3812 "xc.ml" 146 3783 3813
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xc.ml" 146 3783 3799 "xc.ml" 146 3783 3800
+)
+"xc.ml" 146 3783 3803 "xc.ml" 146 3783 3814
+type(
+  domaininfo
+)
+"xc.ml" 146 3783 3803 "xc.ml" 146 3783 3820
+type(
+  domid
+)
+"xc.ml" 146 3783 3821 "xc.ml" 146 3783 3822
+type(
+  domid -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"xc.ml" 146 3783 3823 "xc.ml" 146 3783 3824
+type(
+  int
+)
+"xc.ml" 146 3783 3803 "xc.ml" 146 3783 3824
+type(
+  int
+)
+"xc.ml" 147 3828 3837 "xc.ml" 147 3828 3846
+type(
+  domid -> domaininfo list
+)
+"xc.ml" 147 3828 3847 "xc.ml" 147 3828 3851
+type(
+  domid
+)
+ident(
+  def from "xc.ml" 148 3854 3856 "xc.ml" 149 3902 3969
+)
+"xc.ml" 148 3854 3860 "xc.ml" 148 3854 3861
+type(
+  domaininfo list
+)
+"xc.ml" 148 3854 3864 "xc.ml" 148 3854 3883
+type(
+  handle -> domid -> int -> domaininfo list
+)
+"xc.ml" 148 3854 3884 "xc.ml" 148 3854 3890
+type(
+  handle
+)
+ident(
+  int_ref handle "xc.ml" 144 3723 3746 "xc.ml" 144 3723 3752
+)
+"xc.ml" 148 3854 3891 "xc.ml" 148 3854 3895
+type(
+  domid
+)
+ident(
+  int_ref from "xc.ml" 147 3828 3847 "xc.ml" 147 3828 3851
+)
+"xc.ml" 148 3854 3896 "xc.ml" 148 3854 3898
+type(
+  int
+)
+ident(
+  int_ref nb "xc.ml" 145 3768 3773 "xc.ml" 145 3768 3775
+)
+"xc.ml" 148 3854 3864 "xc.ml" 148 3854 3898
+type(
+  domaininfo list
+)
+"xc.ml" 149 3902 3908 "xc.ml" 149 3902 3919
+type(
+  domaininfo list -> int
+)
+ident(
+  ext_ref List.length
+)
+"xc.ml" 149 3902 3920 "xc.ml" 149 3902 3921
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xc.ml" 148 3854 3860 "xc.ml" 148 3854 3861
+)
+"xc.ml" 149 3902 3908 "xc.ml" 149 3902 3921
+type(
+  int
+)
+"xc.ml" 149 3902 3922 "xc.ml" 149 3902 3923
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xc.ml" 149 3902 3924 "xc.ml" 149 3902 3926
+type(
+  int
+)
+ident(
+  int_ref nb "xc.ml" 145 3768 3773 "xc.ml" 145 3768 3775
+)
+"xc.ml" 149 3902 3908 "xc.ml" 149 3902 3926
+type(
+  bool
+)
+"xc.ml" 149 3902 3932 "xc.ml" 149 3902 3941
+type(
+  domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xc.ml" 147 3828 3837 "xc.ml" 147 3828 3846
+)
+"xc.ml" 149 3902 3943 "xc.ml" 149 3902 3953
+type(
+  domaininfo list -> domid
+)
+ident(
+  int_ref last_domid "xc.ml" 146 3783 3788 "xc.ml" 146 3783 3798
+)
+"xc.ml" 149 3902 3954 "xc.ml" 149 3902 3955
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xc.ml" 148 3854 3860 "xc.ml" 148 3854 3861
+)
+"xc.ml" 149 3902 3942 "xc.ml" 149 3902 3956
+type(
+  domid
+)
+"xc.ml" 149 3902 3932 "xc.ml" 149 3902 3956
+type(
+  domaininfo list
+)
+"xc.ml" 149 3902 3962 "xc.ml" 149 3902 3964
+type(
+  domaininfo list
+)
+"xc.ml" 149 3902 3904 "xc.ml" 149 3902 3965
+type(
+  domaininfo list
+)
+"xc.ml" 149 3902 3966 "xc.ml" 149 3902 3967
+type(
+  domaininfo list -> domaininfo list -> domaininfo list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"xc.ml" 149 3902 3968 "xc.ml" 149 3902 3969
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xc.ml" 148 3854 3860 "xc.ml" 148 3854 3861
+)
+"xc.ml" 149 3902 3904 "xc.ml" 149 3902 3969
+type(
+  domaininfo list
+)
+"xc.ml" 148 3854 3856 "xc.ml" 149 3902 3969
+type(
+  domaininfo list
+)
+"xc.ml" 151 3975 3976 "xc.ml" 151 3975 3984
+type(
+  domaininfo list -> domaininfo list
+)
+ident(
+  ext_ref List.rev
+)
+"xc.ml" 151 3975 3986 "xc.ml" 151 3975 3995
+type(
+  domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xc.ml" 147 3828 3837 "xc.ml" 147 3828 3846
+)
+"xc.ml" 151 3975 3996 "xc.ml" 151 3975 4008
+type(
+  domid
+)
+ident(
+  int_ref first_domain "xc.ml" 144 3723 3753 "xc.ml" 144 3723 3765
+)
+"xc.ml" 151 3975 3985 "xc.ml" 151 3975 4009
+type(
+  domaininfo list
+)
+"xc.ml" 151 3975 3976 "xc.ml" 151 3975 4009
+type(
+  domaininfo list
+)
+"xc.ml" 147 3828 3829 "xc.ml" 151 3975 4009
+type(
+  domaininfo list
+)
+"xc.ml" 146 3783 3784 "xc.ml" 151 3975 4009
+type(
+  domaininfo list
+)
+"xc.ml" 145 3768 3769 "xc.ml" 151 3975 4009
+type(
+  domaininfo list
+)
+"xc.ml" 255 8204 8208 "xc.ml" 255 8204 8216
+type(
+  handle -> domid -> Unix.file_descr -> unit
+)
+ident(
+  def coredump "xc.ml" 323 9922 9922 --
+)
+"xc.ml" 255 8204 8217 "xc.ml" 255 8204 8220
+type(
+  handle
+)
+ident(
+  def xch "xc.ml" 255 8204 8221 "xc.ml" 316 9819 9824
+)
+"xc.ml" 255 8204 8221 "xc.ml" 255 8204 8226
+type(
+  domid
+)
+ident(
+  def domid "xc.ml" 255 8204 8227 "xc.ml" 316 9819 9824
+)
+"xc.ml" 255 8204 8227 "xc.ml" 255 8204 8229
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "xc.ml" 256 8232 8233 "xc.ml" 316 9819 9824
+)
+"xc.ml" 256 8232 8237 "xc.ml" 256 8232 8241
+type(
+  string -> unit
+)
+"xc.ml" 256 8232 8242 "xc.ml" 256 8232 8243
+type(
+  string
+)
+ident(
+  def s "xc.ml" 257 8246 8248 "xc.ml" 259 8328 8362
+)
+"xc.ml" 257 8246 8252 "xc.ml" 257 8246 8254
+type(
+  int
+)
+"xc.ml" 257 8246 8257 "xc.ml" 257 8246 8267
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.write
+)
+"xc.ml" 257 8246 8268 "xc.ml" 257 8246 8270
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xc.ml" 255 8204 8227 "xc.ml" 255 8204 8229
+)
+"xc.ml" 257 8246 8271 "xc.ml" 257 8246 8272
+type(
+  string
+)
+ident(
+  int_ref s "xc.ml" 256 8232 8242 "xc.ml" 256 8232 8243
+)
+"xc.ml" 257 8246 8273 "xc.ml" 257 8246 8274
+type(
+  int
+)
+"xc.ml" 257 8246 8276 "xc.ml" 257 8246 8289
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xc.ml" 257 8246 8290 "xc.ml" 257 8246 8291
+type(
+  string
+)
+ident(
+  int_ref s "xc.ml" 256 8232 8242 "xc.ml" 256 8232 8243
+)
+"xc.ml" 257 8246 8275 "xc.ml" 257 8246 8292
+type(
+  int
+)
+"xc.ml" 257 8246 8257 "xc.ml" 257 8246 8292
+type(
+  int
+)
+"xc.ml" 258 8296 8301 "xc.ml" 258 8296 8303
+type(
+  int
+)
+ident(
+  int_ref wd "xc.ml" 257 8246 8252 "xc.ml" 257 8246 8254
+)
+"xc.ml" 258 8296 8304 "xc.ml" 258 8296 8306
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xc.ml" 258 8296 8307 "xc.ml" 258 8296 8320
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xc.ml" 258 8296 8321 "xc.ml" 258 8296 8322
+type(
+  string
+)
+ident(
+  int_ref s "xc.ml" 256 8232 8242 "xc.ml" 256 8232 8243
+)
+"xc.ml" 258 8296 8307 "xc.ml" 258 8296 8322
+type(
+  int
+)
+"xc.ml" 258 8296 8301 "xc.ml" 258 8296 8322
+type(
+  bool
+)
+"xc.ml" 259 8328 8331 "xc.ml" 259 8328 8339
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"xc.ml" 259 8328 8340 "xc.ml" 259 8328 8361
+type(
+  string
+)
+"xc.ml" 259 8328 8331 "xc.ml" 259 8328 8361
+type(
+  unit
+)
+"xc.ml" 258 8296 8298 "xc.ml" 259 8328 8362
+type(
+  unit
+)
+"xc.ml" 257 8246 8248 "xc.ml" 259 8328 8362
+type(
+  unit
+)
+"xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+type(
+  domaininfo
+)
+"xc.ml" 262 8369 8381 "xc.ml" 262 8369 8395
+type(
+  handle -> domid -> domaininfo
+)
+"xc.ml" 262 8369 8396 "xc.ml" 262 8369 8399
+type(
+  handle
+)
+ident(
+  int_ref xch "xc.ml" 255 8204 8217 "xc.ml" 255 8204 8220
+)
+"xc.ml" 262 8369 8400 "xc.ml" 262 8369 8405
+type(
+  domid
+)
+ident(
+  int_ref domid "xc.ml" 255 8204 8221 "xc.ml" 255 8204 8226
+)
+"xc.ml" 262 8369 8381 "xc.ml" 262 8369 8405
+type(
+  domaininfo
+)
+"xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+type(
+  nativeint
+)
+"xc.ml" 264 8410 8425 "xc.ml" 264 8410 8429
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+)
+"xc.ml" 264 8410 8425 "xc.ml" 264 8410 8448
+type(
+  nativeint
+)
+"xc.ml" 265 8452 8457 "xc.ml" 265 8452 8461
+type(
+  string option array
+)
+"xc.ml" 265 8452 8464 "xc.ml" 265 8452 8474
+type(
+  int -> string option -> string option array
+)
+ident(
+  ext_ref Array.make
+)
+"xc.ml" 265 8452 8475 "xc.ml" 265 8452 8479
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+)
+"xc.ml" 265 8452 8475 "xc.ml" 265 8452 8491
+type(
+  int
+)
+"xc.ml" 265 8452 8492 "xc.ml" 265 8452 8496
+type(
+  string option
+)
+"xc.ml" 265 8452 8464 "xc.ml" 265 8452 8496
+type(
+  string option array
+)
+"xc.ml" 266 8500 8505 "xc.ml" 266 8500 8513
+type(
+  int ref
+)
+"xc.ml" 266 8500 8516 "xc.ml" 266 8500 8519
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xc.ml" 266 8500 8520 "xc.ml" 266 8500 8521
+type(
+  int
+)
+"xc.ml" 266 8500 8516 "xc.ml" 266 8500 8521
+type(
+  int ref
+)
+"xc.ml" 267 8525 8534 "xc.ml" 267 8525 8535
+type(
+  int
+)
+"xc.ml" 267 8525 8539 "xc.ml" 267 8525 8543
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+)
+"xc.ml" 267 8525 8539 "xc.ml" 267 8525 8555
+type(
+  int
+)
+"xc.ml" 267 8525 8556 "xc.ml" 267 8525 8557
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xc.ml" 267 8525 8558 "xc.ml" 267 8525 8559
+type(
+  int
+)
+"xc.ml" 267 8525 8539 "xc.ml" 267 8525 8559
+type(
+  int
+)
+"xc.ml" 269 8564 8566 "xc.ml" 269 8564 8570
+type(
+  string option array
+)
+ident(
+  int_ref ctxt "xc.ml" 265 8452 8457 "xc.ml" 265 8452 8461
+)
+"xc.ml" 269 8564 8572 "xc.ml" 269 8564 8573
+type(
+  int
+)
+"xc.ml" 270 8582 8589 "xc.ml" 270 8582 8590
+type(
+  string
+)
+ident(
+  def v "xc.ml" 271 8625 8628 "xc.ml" 272 8643 8652
+)
+"xc.ml" 270 8582 8593 "xc.ml" 270 8582 8609
+type(
+  handle -> domid -> int -> string
+)
+"xc.ml" 270 8582 8610 "xc.ml" 270 8582 8613
+type(
+  handle
+)
+ident(
+  int_ref xch "xc.ml" 255 8204 8217 "xc.ml" 255 8204 8220
+)
+"xc.ml" 270 8582 8614 "xc.ml" 270 8582 8619
+type(
+  domid
+)
+ident(
+  int_ref domid "xc.ml" 255 8204 8221 "xc.ml" 255 8204 8226
+)
+"xc.ml" 270 8582 8620 "xc.ml" 270 8582 8621
+type(
+  int
+)
+"xc.ml" 270 8582 8593 "xc.ml" 270 8582 8621
+type(
+  string
+)
+"xc.ml" 271 8625 8628 "xc.ml" 271 8625 8632
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"xc.ml" 271 8625 8633 "xc.ml" 271 8625 8641
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xc.ml" 266 8500 8505 "xc.ml" 266 8500 8513
+)
+"xc.ml" 271 8625 8628 "xc.ml" 271 8625 8641
+type(
+  unit
+)
+"xc.ml" 272 8643 8651 "xc.ml" 272 8643 8652
+type(
+  string
+)
+ident(
+  int_ref v "xc.ml" 270 8582 8589 "xc.ml" 270 8582 8590
+)
+"xc.ml" 272 8643 8646 "xc.ml" 272 8643 8652
+type(
+  string option
+)
+"xc.ml" 271 8625 8628 "xc.ml" 272 8643 8652
+type(
+  string option
+)
+"xc.ml" 270 8582 8585 "xc.ml" 272 8643 8652
+type(
+  string option
+)
+"xc.ml" 273 8653 8661 "xc.ml" 273 8653 8662
+type(
+  exn
+)
+"xc.ml" 273 8653 8666 "xc.ml" 273 8653 8670
+type(
+  string option
+)
+"xc.ml" 269 8564 8578 "xc.ml" 273 8653 8670
+type(
+  string option
+)
+"xc.ml" 269 8564 8566 "xc.ml" 273 8653 8670
+type(
+  unit
+)
+"xc.ml" 267 8525 8526 "xc.ml" 274 8671 8676
+type(
+  unit
+)
+"xc.ml" 277 8726 8731 "xc.ml" 277 8726 8742
+type(
+  int64
+)
+"xc.ml" 278 8745 8747 "xc.ml" 278 8745 8756
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"xc.ml" 279 8757 8761 "xc.ml" 279 8757 8773
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xc.ml" 279 8757 8775 "xc.ml" 279 8757 8793
+type(
+  unit -> int
+)
+"xc.ml" 279 8757 8794 "xc.ml" 279 8757 8796
+type(
+  unit
+)
+"xc.ml" 279 8757 8775 "xc.ml" 279 8757 8796
+type(
+  int
+)
+"xc.ml" 279 8757 8797 "xc.ml" 279 8757 8798
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"xc.ml" 280 8799 8804 "xc.ml" 280 8799 8829
+type(
+  unit -> int
+)
+"xc.ml" 280 8799 8830 "xc.ml" 280 8799 8832
+type(
+  unit
+)
+"xc.ml" 280 8799 8804 "xc.ml" 280 8799 8832
+type(
+  int
+)
+"xc.ml" 280 8799 8833 "xc.ml" 280 8799 8834
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"xc.ml" 280 8799 8835 "xc.ml" 280 8799 8836
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xc.ml" 280 8799 8836 "xc.ml" 280 8799 8844
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xc.ml" 266 8500 8505 "xc.ml" 266 8500 8513
+)
+"xc.ml" 280 8799 8835 "xc.ml" 280 8799 8844
+type(
+  int
+)
+"xc.ml" 280 8799 8803 "xc.ml" 280 8799 8845
+type(
+  int
+)
+"xc.ml" 279 8757 8774 "xc.ml" 280 8799 8846
+type(
+  int
+)
+"xc.ml" 279 8757 8760 "xc.ml" 280 8799 8847
+type(
+  int64
+)
+"xc.ml" 281 8848 8852 "xc.ml" 281 8848 8870
+type(
+  nativeint -> int64
+)
+ident(
+  ext_ref Int64.of_nativeint
+)
+"xc.ml" 282 8873 8877 "xc.ml" 282 8873 8890
+type(
+  nativeint -> nativeint -> nativeint
+)
+ident(
+  ext_ref Nativeint.mul
+)
+"xc.ml" 283 8891 8897 "xc.ml" 283 8891 8913
+type(
+  int -> nativeint
+)
+ident(
+  ext_ref Nativeint.of_int
+)
+"xc.ml" 283 8891 8915 "xc.ml" 283 8891 8929
+type(
+  unit -> int
+)
+"xc.ml" 283 8891 8930 "xc.ml" 283 8891 8932
+type(
+  unit
+)
+"xc.ml" 283 8891 8914 "xc.ml" 283 8891 8933
+type(
+  int
+)
+"xc.ml" 283 8891 8896 "xc.ml" 283 8891 8934
+type(
+  nativeint
+)
+"xc.ml" 284 8935 8940 "xc.ml" 284 8935 8947
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+)
+"xc.ml" 281 8848 8871 "xc.ml" 284 8935 8948
+type(
+  nativeint
+)
+"xc.ml" 281 8848 8851 "xc.ml" 285 8949 8954
+type(
+  int64
+)
+"xc.ml" 278 8745 8747 "xc.ml" 285 8949 8954
+type(
+  int64
+)
+"xc.ml" 288 8961 8966 "xc.ml" 288 8961 8972
+type(
+  core_header
+)
+"xc.ml" 289 8977 8994 "xc.ml" 289 8977 8998
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+)
+"xc.ml" 289 8977 8994 "xc.ml" 289 8977 9008
+type(
+  bool
+)
+"xc.ml" 289 8977 9014 "xc.ml" 289 8977 9023
+type(
+  core_magic
+)
+"xc.ml" 289 8977 9029 "xc.ml" 289 8977 9037
+type(
+  core_magic
+)
+"xc.ml" 289 8977 8991 "xc.ml" 289 8977 9037
+type(
+  core_magic
+)
+"xc.ml" 290 9039 9056 "xc.ml" 290 9039 9057
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xc.ml" 290 9039 9057 "xc.ml" 290 9039 9065
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xc.ml" 266 8500 8505 "xc.ml" 266 8500 8513
+)
+"xc.ml" 290 9039 9056 "xc.ml" 290 9039 9065
+type(
+  int
+)
+"xc.ml" 291 9067 9084 "xc.ml" 291 9067 9091
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+)
+"xc.ml" 292 9093 9113 "xc.ml" 292 9093 9125
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xc.ml" 292 9093 9127 "xc.ml" 292 9093 9145
+type(
+  unit -> int
+)
+"xc.ml" 292 9093 9146 "xc.ml" 292 9093 9148
+type(
+  unit
+)
+"xc.ml" 292 9093 9126 "xc.ml" 292 9093 9149
+type(
+  int
+)
+"xc.ml" 292 9093 9113 "xc.ml" 292 9093 9149
+type(
+  int64
+)
+"xc.ml" 293 9151 9172 "xc.ml" 293 9151 9184
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xc.ml" 293 9151 9186 "xc.ml" 293 9151 9204
+type(
+  unit -> int
+)
+"xc.ml" 293 9151 9205 "xc.ml" 293 9151 9207
+type(
+  unit
+)
+"xc.ml" 293 9151 9186 "xc.ml" 293 9151 9207
+type(
+  int
+)
+"xc.ml" 294 9208 9213 "xc.ml" 294 9208 9214
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"xc.ml" 294 9208 9215 "xc.ml" 294 9208 9240
+type(
+  unit -> int
+)
+"xc.ml" 294 9208 9241 "xc.ml" 294 9208 9243
+type(
+  unit
+)
+"xc.ml" 294 9208 9215 "xc.ml" 294 9208 9243
+type(
+  int
+)
+"xc.ml" 293 9151 9185 "xc.ml" 294 9208 9244
+type(
+  int
+)
+"xc.ml" 293 9151 9172 "xc.ml" 294 9208 9244
+type(
+  int64
+)
+"xc.ml" 295 9246 9267 "xc.ml" 295 9246 9278
+type(
+  int64
+)
+ident(
+  int_ref page_offset "xc.ml" 277 8726 8731 "xc.ml" 277 8726 8742
+)
+"xc.ml" 288 8961 8975 "xc.ml" 296 9280 9282
+type(
+  core_header
+)
+"xc.ml" 298 9287 9288 "xc.ml" 298 9287 9292
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xc.ml" 256 8232 8237 "xc.ml" 256 8232 8241
+)
+"xc.ml" 298 9287 9294 "xc.ml" 298 9287 9314
+type(
+  core_header -> string
+)
+"xc.ml" 298 9287 9315 "xc.ml" 298 9287 9321
+type(
+  core_header
+)
+ident(
+  int_ref header "xc.ml" 288 8961 8966 "xc.ml" 288 8961 8972
+)
+"xc.ml" 298 9287 9293 "xc.ml" 298 9287 9322
+type(
+  string
+)
+"xc.ml" 298 9287 9288 "xc.ml" 298 9287 9322
+type(
+  unit
+)
+"xc.ml" 299 9324 9333 "xc.ml" 299 9324 9334
+type(
+  int
+)
+"xc.ml" 299 9324 9338 "xc.ml" 299 9324 9342
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xc.ml" 262 8369 8374 "xc.ml" 262 8369 8378
+)
+"xc.ml" 299 9324 9338 "xc.ml" 299 9324 9354
+type(
+  int
+)
+"xc.ml" 299 9324 9355 "xc.ml" 299 9324 9356
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xc.ml" 299 9324 9357 "xc.ml" 299 9324 9358
+type(
+  int
+)
+"xc.ml" 299 9324 9338 "xc.ml" 299 9324 9358
+type(
+  int
+)
+"xc.ml" 301 9363 9371 "xc.ml" 301 9363 9375
+type(
+  string option array
+)
+ident(
+  int_ref ctxt "xc.ml" 265 8452 8457 "xc.ml" 265 8452 8461
+)
+"xc.ml" 301 9363 9377 "xc.ml" 301 9363 9378
+type(
+  int
+)
+"xc.ml" 301 9363 9371 "xc.ml" 301 9363 9379
+type(
+  string option
+)
+"xc.ml" 302 9385 9389 "xc.ml" 302 9385 9393
+type(
+  string option
+)
+"xc.ml" 302 9385 9397 "xc.ml" 302 9385 9399
+type(
+  unit
+)
+"xc.ml" 303 9400 9409 "xc.ml" 303 9400 9415
+type(
+  string
+)
+ident(
+  def ctxt_i "xc.ml" 303 9400 9419 "xc.ml" 303 9400 9430
+)
+"xc.ml" 303 9400 9404 "xc.ml" 303 9400 9415
+type(
+  string option
+)
+"xc.ml" 303 9400 9419 "xc.ml" 303 9400 9423
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xc.ml" 256 8232 8237 "xc.ml" 256 8232 8241
+)
+"xc.ml" 303 9400 9424 "xc.ml" 303 9400 9430
+type(
+  string
+)
+ident(
+  int_ref ctxt_i "xc.ml" 303 9400 9409 "xc.ml" 303 9400 9415
+)
+"xc.ml" 303 9400 9419 "xc.ml" 303 9400 9430
+type(
+  unit
+)
+"xc.ml" 301 9363 9365 "xc.ml" 303 9400 9430
+type(
+  unit
+)
+"xc.ml" 299 9324 9325 "xc.ml" 304 9431 9436
+type(
+  unit
+)
+"xc.ml" 305 9438 9443 "xc.ml" 305 9438 9447
+type(
+  nativeint array
+)
+"xc.ml" 305 9438 9450 "xc.ml" 305 9438 9469
+type(
+  handle -> domid -> nativeint -> nativeint array
+)
+"xc.ml" 305 9438 9470 "xc.ml" 305 9438 9473
+type(
+  handle
+)
+ident(
+  int_ref xch "xc.ml" 255 8204 8217 "xc.ml" 255 8204 8220
+)
+"xc.ml" 305 9438 9474 "xc.ml" 305 9438 9479
+type(
+  domid
+)
+ident(
+  int_ref domid "xc.ml" 255 8204 8221 "xc.ml" 255 8204 8226
+)
+"xc.ml" 305 9438 9480 "xc.ml" 305 9438 9487
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+)
+"xc.ml" 305 9438 9450 "xc.ml" 305 9438 9487
+type(
+  nativeint array
+)
+"xc.ml" 306 9491 9495 "xc.ml" 306 9491 9507
+type(
+  nativeint array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"xc.ml" 306 9491 9508 "xc.ml" 306 9491 9512
+type(
+  nativeint array
+)
+ident(
+  int_ref pfns "xc.ml" 305 9438 9443 "xc.ml" 305 9438 9447
+)
+"xc.ml" 306 9491 9495 "xc.ml" 306 9491 9512
+type(
+  int
+)
+"xc.ml" 306 9491 9513 "xc.ml" 306 9491 9515
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xc.ml" 306 9491 9516 "xc.ml" 306 9491 9532
+type(
+  nativeint -> int
+)
+ident(
+  ext_ref Nativeint.to_int
+)
+"xc.ml" 306 9491 9533 "xc.ml" 306 9491 9540
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+)
+"xc.ml" 306 9491 9516 "xc.ml" 306 9491 9540
+type(
+  int
+)
+"xc.ml" 306 9491 9495 "xc.ml" 306 9491 9540
+type(
+  bool
+)
+"xc.ml" 307 9546 9548 "xc.ml" 307 9546 9556
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"xc.ml" 307 9546 9557 "xc.ml" 307 9546 9592
+type(
+  string
+)
+"xc.ml" 307 9546 9548 "xc.ml" 307 9546 9592
+type(
+  unit
+)
+"xc.ml" 306 9491 9492 "xc.ml" 307 9546 9592
+type(
+  unit
+)
+"xc.ml" 309 9595 9600 "xc.ml" 309 9595 9609
+type(
+  int
+)
+"xc.ml" 309 9595 9612 "xc.ml" 309 9595 9628
+type(
+  unit -> int
+)
+ident(
+  ext_ref Mmap.getpagesize
+)
+"xc.ml" 309 9595 9629 "xc.ml" 309 9595 9631
+type(
+  unit
+)
+"xc.ml" 309 9595 9612 "xc.ml" 309 9595 9631
+type(
+  int
+)
+"xc.ml" 310 9635 9644 "xc.ml" 310 9635 9645
+type(
+  int
+)
+"xc.ml" 310 9635 9649 "xc.ml" 310 9635 9665
+type(
+  nativeint -> int
+)
+ident(
+  ext_ref Nativeint.to_int
+)
+"xc.ml" 310 9635 9666 "xc.ml" 310 9635 9673
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xc.ml" 264 8410 8415 "xc.ml" 264 8410 8422
+)
+"xc.ml" 310 9635 9649 "xc.ml" 310 9635 9673
+type(
+  int
+)
+"xc.ml" 310 9635 9674 "xc.ml" 310 9635 9675
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xc.ml" 310 9635 9676 "xc.ml" 310 9635 9677
+type(
+  int
+)
+"xc.ml" 310 9635 9649 "xc.ml" 310 9635 9677
+type(
+  int
+)
+"xc.ml" 312 9682 9688 "xc.ml" 312 9682 9692
+type(
+  Mmap.mmap_interface
+)
+ident(
+  def page "xc.ml" 313 9745 9747 "xc.ml" 315 9807 9818
+)
+"xc.ml" 312 9682 9695 "xc.ml" 312 9682 9712
+type(
+  handle -> domid -> int -> nativeint -> Mmap.mmap_interface
+)
+"xc.ml" 312 9682 9713 "xc.ml" 312 9682 9716
+type(
+  handle
+)
+ident(
+  int_ref xch "xc.ml" 255 8204 8217 "xc.ml" 255 8204 8220
+)
+"xc.ml" 312 9682 9717 "xc.ml" 312 9682 9722
+type(
+  domid
+)
+ident(
+  int_ref domid "xc.ml" 255 8204 8221 "xc.ml" 255 8204 8226
+)
+"xc.ml" 312 9682 9723 "xc.ml" 312 9682 9732
+type(
+  int
+)
+ident(
+  int_ref page_size "xc.ml" 309 9595 9600 "xc.ml" 309 9595 9609
+)
+"xc.ml" 312 9682 9733 "xc.ml" 312 9682 9737
+type(
+  nativeint array
+)
+ident(
+  int_ref pfns "xc.ml" 305 9438 9443 "xc.ml" 305 9438 9447
+)
+"xc.ml" 312 9682 9739 "xc.ml" 312 9682 9740
+type(
+  int
+)
+"xc.ml" 312 9682 9733 "xc.ml" 312 9682 9741
+type(
+  nativeint
+)
+"xc.ml" 312 9682 9695 "xc.ml" 312 9682 9741
+type(
+  Mmap.mmap_interface
+)
+"xc.ml" 313 9745 9751 "xc.ml" 313 9745 9755
+type(
+  string
+)
+ident(
+  def data "xc.ml" 314 9788 9790 "xc.ml" 315 9807 9818
+)
+"xc.ml" 313 9745 9758 "xc.ml" 313 9745 9767
+type(
+  Mmap.mmap_interface -> int -> int -> string
+)
+ident(
+  ext_ref Mmap.read
+)
+"xc.ml" 313 9745 9768 "xc.ml" 313 9745 9772
+type(
+  Mmap.mmap_interface
+)
+ident(
+  int_ref page "xc.ml" 312 9682 9688 "xc.ml" 312 9682 9692
+)
+"xc.ml" 313 9745 9773 "xc.ml" 313 9745 9774
+type(
+  int
+)
+"xc.ml" 313 9745 9775 "xc.ml" 313 9745 9784
+type(
+  int
+)
+ident(
+  int_ref page_size "xc.ml" 309 9595 9600 "xc.ml" 309 9595 9609
+)
+"xc.ml" 313 9745 9758 "xc.ml" 313 9745 9784
+type(
+  string
+)
+"xc.ml" 314 9788 9790 "xc.ml" 314 9788 9800
+type(
+  Mmap.mmap_interface -> unit
+)
+ident(
+  ext_ref Mmap.unmap
+)
+"xc.ml" 314 9788 9801 "xc.ml" 314 9788 9805
+type(
+  Mmap.mmap_interface
+)
+ident(
+  int_ref page "xc.ml" 312 9682 9688 "xc.ml" 312 9682 9692
+)
+"xc.ml" 314 9788 9790 "xc.ml" 314 9788 9805
+type(
+  unit
+)
+"xc.ml" 315 9807 9809 "xc.ml" 315 9807 9813
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xc.ml" 256 8232 8237 "xc.ml" 256 8232 8241
+)
+"xc.ml" 315 9807 9814 "xc.ml" 315 9807 9818
+type(
+  string
+)
+ident(
+  int_ref data "xc.ml" 313 9745 9751 "xc.ml" 313 9745 9755
+)
+"xc.ml" 315 9807 9809 "xc.ml" 315 9807 9818
+type(
+  unit
+)
+"xc.ml" 314 9788 9790 "xc.ml" 315 9807 9818
+type(
+  unit
+)
+"xc.ml" 313 9745 9747 "xc.ml" 315 9807 9818
+type(
+  unit
+)
+"xc.ml" 312 9682 9684 "xc.ml" 315 9807 9818
+type(
+  unit
+)
+"xc.ml" 310 9635 9636 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 309 9595 9596 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 306 9491 9492 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 305 9438 9439 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 299 9324 9325 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 298 9287 9288 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 288 8961 8962 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 277 8726 8727 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 267 8525 8526 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 266 8500 8501 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 265 8452 8453 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 264 8410 8411 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 262 8369 8370 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 256 8232 8233 "xc.ml" 316 9819 9824
+type(
+  unit
+)
+"xc.ml" 324 9983 9987 "xc.ml" 324 9983 9999
+type(
+  int64 -> int64
+)
+ident(
+  def pages_to_mib "xc.ml" 326 10046 10046 --
+)
+"xc.ml" 324 9983 10000 "xc.ml" 324 9983 10005
+type(
+  int64
+)
+ident(
+  def pages "xc.ml" 324 9983 10008 "xc.ml" 324 9983 10044
+)
+"xc.ml" 324 9983 10008 "xc.ml" 324 9983 10017
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.div
+)
+"xc.ml" 324 9983 10019 "xc.ml" 324 9983 10031
+type(
+  int64 -> int64
+)
+"xc.ml" 324 9983 10032 "xc.ml" 324 9983 10037
+type(
+  int64
+)
+ident(
+  int_ref pages "xc.ml" 324 9983 10000 "xc.ml" 324 9983 10005
+)
+"xc.ml" 324 9983 10018 "xc.ml" 324 9983 10038
+type(
+  int64
+)
+"xc.ml" 324 9983 10039 "xc.ml" 324 9983 10044
+type(
+  int64
+)
+"xc.ml" 324 9983 10008 "xc.ml" 324 9983 10044
+type(
+  int64
+)
+"xc.ml" 326 10046 10054 "xc.ml" 326 10046 10081
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"xc.ml" 326 10046 10082 "xc.ml" 326 10046 10092
+type(
+  string
+)
+"xc.ml" 326 10046 10100 "xc.ml" 326 10046 10119
+type(
+  string
+)
+"xc.ml" 326 10046 10093 "xc.ml" 326 10046 10120
+type(
+  exn
+)
+"xc.ml" 326 10046 10054 "xc.ml" 326 10046 10120
+type(
+  unit
+)

@@ -1,0 +1,3847 @@
+"log.ml" 36 993 997 "log.ml" 36 993 1009
+type(
+  level -> int
+)
+ident(
+  def int_of_level "log.ml" 39 1077 1077 --
+)
+"log.ml" 36 993 1010 "log.ml" 36 993 1011
+type(
+  level
+)
+ident(
+  def l "log.ml" 37 1014 1015 "log.ml" 37 1014 1075
+)
+"log.ml" 37 1014 1021 "log.ml" 37 1014 1022
+type(
+  level
+)
+ident(
+  int_ref l "log.ml" 36 993 1010 "log.ml" 36 993 1011
+)
+"log.ml" 37 1014 1028 "log.ml" 37 1014 1033
+type(
+  level
+)
+"log.ml" 37 1014 1037 "log.ml" 37 1014 1038
+type(
+  int
+)
+"log.ml" 37 1014 1041 "log.ml" 37 1014 1045
+type(
+  level
+)
+"log.ml" 37 1014 1049 "log.ml" 37 1014 1050
+type(
+  int
+)
+"log.ml" 37 1014 1053 "log.ml" 37 1014 1057
+type(
+  level
+)
+"log.ml" 37 1014 1061 "log.ml" 37 1014 1062
+type(
+  int
+)
+"log.ml" 37 1014 1065 "log.ml" 37 1014 1070
+type(
+  level
+)
+"log.ml" 37 1014 1074 "log.ml" 37 1014 1075
+type(
+  int
+)
+"log.ml" 37 1014 1015 "log.ml" 37 1014 1075
+type(
+  int
+)
+"log.ml" 39 1077 1081 "log.ml" 39 1077 1096
+type(
+  level -> string
+)
+ident(
+  def string_of_level "log.ml" 43 1198 1198 --
+)
+"log.ml" 39 1077 1097 "log.ml" 39 1077 1098
+type(
+  level
+)
+ident(
+  def l "log.ml" 40 1101 1102 "log.ml" 41 1149 1196
+)
+"log.ml" 40 1101 1108 "log.ml" 40 1101 1109
+type(
+  level
+)
+ident(
+  int_ref l "log.ml" 39 1077 1097 "log.ml" 39 1077 1098
+)
+"log.ml" 40 1101 1115 "log.ml" 40 1101 1120
+type(
+  level
+)
+"log.ml" 40 1101 1124 "log.ml" 40 1101 1131
+type(
+  string
+)
+"log.ml" 40 1101 1134 "log.ml" 40 1101 1138
+type(
+  level
+)
+"log.ml" 40 1101 1142 "log.ml" 40 1101 1148
+type(
+  string
+)
+"log.ml" 41 1149 1163 "log.ml" 41 1149 1167
+type(
+  level
+)
+"log.ml" 41 1149 1171 "log.ml" 41 1149 1177
+type(
+  string
+)
+"log.ml" 41 1149 1180 "log.ml" 41 1149 1185
+type(
+  level
+)
+"log.ml" 41 1149 1189 "log.ml" 41 1149 1196
+type(
+  string
+)
+"log.ml" 40 1101 1102 "log.ml" 41 1149 1196
+type(
+  string
+)
+"log.ml" 43 1198 1202 "log.ml" 43 1198 1217
+type(
+  string -> level
+)
+ident(
+  def level_of_string "log.ml" 51 1353 1353 --
+)
+"log.ml" 43 1198 1218 "log.ml" 43 1198 1219
+type(
+  string
+)
+ident(
+  def s "log.ml" 44 1222 1223 "log.ml" 49 1314 1351
+)
+"log.ml" 44 1222 1229 "log.ml" 44 1222 1230
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 43 1198 1218 "log.ml" 43 1198 1219
+)
+"log.ml" 45 1236 1239 "log.ml" 45 1236 1246
+type(
+  string
+)
+"log.ml" 45 1236 1250 "log.ml" 45 1236 1255
+type(
+  level
+)
+"log.ml" 46 1256 1259 "log.ml" 46 1256 1265
+type(
+  string
+)
+"log.ml" 46 1256 1270 "log.ml" 46 1256 1274
+type(
+  level
+)
+"log.ml" 47 1275 1278 "log.ml" 47 1275 1284
+type(
+  string
+)
+"log.ml" 47 1275 1289 "log.ml" 47 1275 1293
+type(
+  level
+)
+"log.ml" 48 1294 1297 "log.ml" 48 1294 1304
+type(
+  string
+)
+"log.ml" 48 1294 1308 "log.ml" 48 1294 1313
+type(
+  level
+)
+"log.ml" 49 1314 1317 "log.ml" 49 1314 1318
+type(
+  string
+)
+"log.ml" 49 1314 1328 "log.ml" 49 1314 1333
+type(
+  exn -> level
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"log.ml" 49 1314 1349 "log.ml" 49 1314 1350
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 43 1198 1218 "log.ml" 43 1198 1219
+)
+"log.ml" 49 1314 1334 "log.ml" 49 1314 1351
+type(
+  exn
+)
+"log.ml" 49 1314 1328 "log.ml" 49 1314 1351
+type(
+  level
+)
+"log.ml" 44 1222 1223 "log.ml" 49 1314 1351
+type(
+  level
+)
+"log.ml" 51 1353 1357 "log.ml" 51 1353 1367
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  def mkdir_safe "log.ml" 54 1425 1425 --
+)
+"log.ml" 51 1353 1368 "log.ml" 51 1353 1371
+type(
+  string
+)
+ident(
+  def dir "log.ml" 51 1353 1372 "log.ml" 52 1379 1423
+)
+"log.ml" 51 1353 1372 "log.ml" 51 1353 1376
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "log.ml" 52 1379 1387 "log.ml" 52 1379 1423
+)
+"log.ml" 52 1379 1391 "log.ml" 52 1379 1401
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  ext_ref Unix.mkdir
+)
+"log.ml" 52 1379 1402 "log.ml" 52 1379 1405
+type(
+  string
+)
+ident(
+  int_ref dir "log.ml" 51 1353 1368 "log.ml" 51 1353 1371
+)
+"log.ml" 52 1379 1406 "log.ml" 52 1379 1410
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "log.ml" 51 1353 1372 "log.ml" 51 1353 1376
+)
+"log.ml" 52 1379 1391 "log.ml" 52 1379 1410
+type(
+  unit
+)
+"log.ml" 52 1379 1416 "log.ml" 52 1379 1417
+type(
+  exn
+)
+"log.ml" 52 1379 1421 "log.ml" 52 1379 1423
+type(
+  unit
+)
+"log.ml" 52 1379 1387 "log.ml" 52 1379 1423
+type(
+  unit
+)
+"log.ml" 54 1425 1429 "log.ml" 54 1425 1438
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  def mkdir_rec "log.ml" 65 1629 1629 --
+)
+"log.ml" 54 1425 1439 "log.ml" 54 1425 1442
+type(
+  string
+)
+ident(
+  def dir "log.ml" 54 1425 1443 "log.ml" 63 1615 1627
+)
+"log.ml" 54 1425 1443 "log.ml" 54 1425 1447
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "log.ml" 55 1450 1451 "log.ml" 63 1615 1627
+)
+"log.ml" 55 1450 1459 "log.ml" 55 1450 1466
+type(
+  string -> unit
+)
+"log.ml" 55 1450 1467 "log.ml" 55 1450 1470
+type(
+  string
+)
+ident(
+  def dir "log.ml" 56 1473 1475 "log.ml" 62 1608 1611
+)
+"log.ml" 56 1473 1479 "log.ml" 56 1473 1485
+type(
+  string
+)
+"log.ml" 56 1473 1488 "log.ml" 56 1473 1504
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"log.ml" 56 1473 1505 "log.ml" 56 1473 1508
+type(
+  string
+)
+ident(
+  int_ref dir "log.ml" 55 1450 1467 "log.ml" 55 1450 1470
+)
+"log.ml" 56 1473 1488 "log.ml" 56 1473 1508
+type(
+  string
+)
+"log.ml" 57 1512 1517 "log.ml" 57 1512 1523
+type(
+  string
+)
+ident(
+  int_ref p_name "log.ml" 56 1473 1479 "log.ml" 56 1473 1485
+)
+"log.ml" 57 1512 1524 "log.ml" 57 1512 1525
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"log.ml" 57 1512 1526 "log.ml" 57 1512 1529
+type(
+  string
+)
+"log.ml" 57 1512 1517 "log.ml" 57 1512 1529
+type(
+  bool
+)
+"log.ml" 57 1512 1530 "log.ml" 57 1512 1532
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"log.ml" 57 1512 1533 "log.ml" 57 1512 1539
+type(
+  string
+)
+ident(
+  int_ref p_name "log.ml" 56 1473 1479 "log.ml" 56 1473 1485
+)
+"log.ml" 57 1512 1540 "log.ml" 57 1512 1541
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"log.ml" 57 1512 1542 "log.ml" 57 1512 1545
+type(
+  string
+)
+"log.ml" 57 1512 1533 "log.ml" 57 1512 1545
+type(
+  bool
+)
+"log.ml" 57 1512 1517 "log.ml" 57 1512 1545
+type(
+  bool
+)
+"log.ml" 58 1551 1554 "log.ml" 58 1551 1556
+type(
+  unit
+)
+"log.ml" 60 1566 1569 "log.ml" 60 1566 1576
+type(
+  string -> unit
+)
+ident(
+  int_ref p_mkdir "log.ml" 55 1450 1459 "log.ml" 55 1450 1466
+)
+"log.ml" 60 1566 1577 "log.ml" 60 1566 1583
+type(
+  string
+)
+ident(
+  int_ref p_name "log.ml" 56 1473 1479 "log.ml" 56 1473 1485
+)
+"log.ml" 60 1566 1569 "log.ml" 60 1566 1583
+type(
+  unit
+)
+"log.ml" 61 1585 1588 "log.ml" 61 1585 1598
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  int_ref mkdir_safe "log.ml" 51 1353 1357 "log.ml" 51 1353 1367
+)
+"log.ml" 61 1585 1599 "log.ml" 61 1585 1602
+type(
+  string
+)
+ident(
+  int_ref dir "log.ml" 55 1450 1467 "log.ml" 55 1450 1470
+)
+"log.ml" 61 1585 1603 "log.ml" 61 1585 1607
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "log.ml" 54 1425 1443 "log.ml" 54 1425 1447
+)
+"log.ml" 61 1585 1588 "log.ml" 61 1585 1607
+type(
+  unit
+)
+"log.ml" 59 1557 1564 "log.ml" 62 1608 1611
+type(
+  unit
+)
+"log.ml" 57 1512 1514 "log.ml" 62 1608 1611
+type(
+  unit
+)
+"log.ml" 56 1473 1475 "log.ml" 62 1608 1611
+type(
+  unit
+)
+"log.ml" 63 1615 1616 "log.ml" 63 1615 1623
+type(
+  string -> unit
+)
+ident(
+  int_ref p_mkdir "log.ml" 55 1450 1459 "log.ml" 55 1450 1466
+)
+"log.ml" 63 1615 1624 "log.ml" 63 1615 1627
+type(
+  string
+)
+ident(
+  int_ref dir "log.ml" 54 1425 1439 "log.ml" 54 1425 1442
+)
+"log.ml" 63 1615 1616 "log.ml" 63 1615 1627
+type(
+  unit
+)
+"log.ml" 55 1450 1451 "log.ml" 63 1615 1627
+type(
+  unit
+)
+"log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+type(
+  output -> level -> t
+)
+ident(
+  def make "log.ml" 69 1742 1742 --
+)
+"log.ml" 67 1681 1690 "log.ml" 67 1681 1696
+type(
+  output
+)
+ident(
+  def output "log.ml" 67 1681 1697 "log.ml" 67 1681 1740
+)
+"log.ml" 67 1681 1697 "log.ml" 67 1681 1702
+type(
+  level
+)
+ident(
+  def level "log.ml" 67 1681 1705 "log.ml" 67 1681 1740
+)
+"log.ml" 67 1681 1716 "log.ml" 67 1681 1722
+type(
+  output
+)
+ident(
+  int_ref output "log.ml" 67 1681 1690 "log.ml" 67 1681 1696
+)
+"log.ml" 67 1681 1732 "log.ml" 67 1681 1737
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 67 1681 1697 "log.ml" 67 1681 1702
+)
+"log.ml" 67 1681 1705 "log.ml" 67 1681 1740
+type(
+  t
+)
+"log.ml" 69 1742 1746 "log.ml" 69 1742 1757
+type(
+  stream_type -> out_channel option -> output
+)
+ident(
+  def make_stream "log.ml" 73 1847 1847 --
+)
+"log.ml" 69 1742 1758 "log.ml" 69 1742 1760
+type(
+  stream_type
+)
+ident(
+  def ty "log.ml" 69 1742 1761 "log.ml" 70 1772 1817
+)
+"log.ml" 69 1742 1761 "log.ml" 69 1742 1768
+type(
+  out_channel option
+)
+ident(
+  def channel "log.ml" 70 1772 1780 "log.ml" 70 1772 1817
+)
+"log.ml" 70 1772 1791 "log.ml" 70 1772 1793
+type(
+  stream_type
+)
+ident(
+  int_ref ty "log.ml" 69 1742 1758 "log.ml" 69 1742 1760
+)
+"log.ml" 70 1772 1803 "log.ml" 70 1772 1806
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"log.ml" 70 1772 1807 "log.ml" 70 1772 1814
+type(
+  out_channel option
+)
+ident(
+  int_ref channel "log.ml" 69 1742 1761 "log.ml" 69 1742 1768
+)
+"log.ml" 70 1772 1803 "log.ml" 70 1772 1814
+type(
+  out_channel option ref
+)
+"log.ml" 70 1772 1787 "log.ml" 70 1772 1817
+type(
+  stream_log
+)
+"log.ml" 70 1772 1780 "log.ml" 70 1772 1817
+type(
+  output
+)
+"log.ml" 73 1847 1851 "log.ml" 73 1847 1861
+type(
+  string -> level -> t
+)
+ident(
+  def opensyslog "log.ml" 77 1924 1924 --
+)
+"log.ml" 73 1847 1862 "log.ml" 73 1847 1863
+type(
+  string
+)
+ident(
+  def k "log.ml" 73 1847 1864 "log.ml" 74 1872 1894
+)
+"log.ml" 73 1847 1864 "log.ml" 73 1847 1869
+type(
+  level
+)
+ident(
+  def level "log.ml" 74 1872 1873 "log.ml" 74 1872 1894
+)
+"log.ml" 74 1872 1873 "log.ml" 74 1872 1877
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 74 1872 1886 "log.ml" 74 1872 1887
+type(
+  string
+)
+ident(
+  int_ref k "log.ml" 73 1847 1862 "log.ml" 73 1847 1863
+)
+"log.ml" 74 1872 1878 "log.ml" 74 1872 1888
+type(
+  output
+)
+"log.ml" 74 1872 1889 "log.ml" 74 1872 1894
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 73 1847 1864 "log.ml" 73 1847 1869
+)
+"log.ml" 74 1872 1873 "log.ml" 74 1872 1894
+type(
+  t
+)
+"log.ml" 77 1924 1928 "log.ml" 77 1924 1935
+type(
+  level -> t
+)
+ident(
+  def openerr "log.ml" 82 2131 2131 --
+)
+"log.ml" 77 1924 1936 "log.ml" 77 1924 1941
+type(
+  level
+)
+ident(
+  def level "log.ml" 78 1944 1945 "log.ml" 80 2064 2128
+)
+"log.ml" 78 1944 1949 "log.ml" 78 1944 1958
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"log.ml" 78 1944 1959 "log.ml" 78 1944 1972
+type(
+  string
+)
+"log.ml" 78 1944 1948 "log.ml" 78 1944 1973
+type(
+  Unix.stats
+)
+"log.ml" 78 1944 1948 "log.ml" 78 1944 1986
+type(
+  Unix.file_kind
+)
+"log.ml" 78 1944 1987 "log.ml" 78 1944 1989
+type(
+  Unix.file_kind -> Unix.file_kind -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"log.ml" 78 1944 1990 "log.ml" 78 1944 2000
+type(
+  Unix.file_kind
+)
+"log.ml" 78 1944 1948 "log.ml" 78 1944 2000
+type(
+  bool
+)
+"log.ml" 79 2006 2008 "log.ml" 79 2006 2016
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 79 2006 2017 "log.ml" 79 2006 2062
+type(
+  string
+)
+"log.ml" 79 2006 2008 "log.ml" 79 2006 2062
+type(
+  unit
+)
+"log.ml" 78 1944 1945 "log.ml" 79 2006 2062
+type(
+  unit
+)
+"log.ml" 80 2064 2065 "log.ml" 80 2064 2069
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 80 2064 2071 "log.ml" 80 2064 2082
+type(
+  stream_type -> out_channel option -> output
+)
+ident(
+  int_ref make_stream "log.ml" 69 1742 1746 "log.ml" 69 1742 1757
+)
+"log.ml" 80 2064 2083 "log.ml" 80 2064 2089
+type(
+  stream_type
+)
+"log.ml" 80 2064 2097 "log.ml" 80 2064 2105
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"log.ml" 80 2064 2106 "log.ml" 80 2064 2119
+type(
+  string
+)
+"log.ml" 80 2064 2096 "log.ml" 80 2064 2120
+type(
+  out_channel
+)
+"log.ml" 80 2064 2090 "log.ml" 80 2064 2121
+type(
+  out_channel option
+)
+"log.ml" 80 2064 2070 "log.ml" 80 2064 2122
+type(
+  output
+)
+"log.ml" 80 2064 2123 "log.ml" 80 2064 2128
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 77 1924 1936 "log.ml" 77 1924 1941
+)
+"log.ml" 80 2064 2065 "log.ml" 80 2064 2128
+type(
+  t
+)
+"log.ml" 78 1944 1945 "log.ml" 80 2064 2128
+type(
+  t
+)
+"log.ml" 82 2131 2135 "log.ml" 82 2131 2142
+type(
+  level -> t
+)
+ident(
+  def openout "log.ml" 90 2470 2470 --
+)
+"log.ml" 82 2131 2143 "log.ml" 82 2131 2148
+type(
+  level
+)
+ident(
+  def level "log.ml" 83 2151 2152 "log.ml" 85 2271 2342
+)
+"log.ml" 83 2151 2156 "log.ml" 83 2151 2165
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"log.ml" 83 2151 2166 "log.ml" 83 2151 2179
+type(
+  string
+)
+"log.ml" 83 2151 2155 "log.ml" 83 2151 2180
+type(
+  Unix.stats
+)
+"log.ml" 83 2151 2155 "log.ml" 83 2151 2193
+type(
+  Unix.file_kind
+)
+"log.ml" 83 2151 2194 "log.ml" 83 2151 2196
+type(
+  Unix.file_kind -> Unix.file_kind -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"log.ml" 83 2151 2197 "log.ml" 83 2151 2207
+type(
+  Unix.file_kind
+)
+"log.ml" 83 2151 2155 "log.ml" 83 2151 2207
+type(
+  bool
+)
+"log.ml" 84 2213 2215 "log.ml" 84 2213 2223
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 84 2213 2224 "log.ml" 84 2213 2269
+type(
+  string
+)
+"log.ml" 84 2213 2215 "log.ml" 84 2213 2269
+type(
+  unit
+)
+"log.ml" 83 2151 2152 "log.ml" 84 2213 2269
+type(
+  unit
+)
+"log.ml" 85 2271 2279 "log.ml" 85 2271 2283
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 85 2271 2285 "log.ml" 85 2271 2296
+type(
+  stream_type -> out_channel option -> output
+)
+ident(
+  int_ref make_stream "log.ml" 69 1742 1746 "log.ml" 69 1742 1757
+)
+"log.ml" 85 2271 2297 "log.ml" 85 2271 2303
+type(
+  stream_type
+)
+"log.ml" 85 2271 2311 "log.ml" 85 2271 2319
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"log.ml" 85 2271 2320 "log.ml" 85 2271 2333
+type(
+  string
+)
+"log.ml" 85 2271 2310 "log.ml" 85 2271 2334
+type(
+  out_channel
+)
+"log.ml" 85 2271 2304 "log.ml" 85 2271 2335
+type(
+  out_channel option
+)
+"log.ml" 85 2271 2284 "log.ml" 85 2271 2336
+type(
+  output
+)
+"log.ml" 85 2271 2337 "log.ml" 85 2271 2342
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 82 2131 2143 "log.ml" 82 2131 2148
+)
+"log.ml" 85 2271 2279 "log.ml" 85 2271 2342
+type(
+  t
+)
+"log.ml" 83 2151 2152 "log.ml" 85 2271 2342
+type(
+  t
+)
+"log.ml" 90 2470 2474 "log.ml" 90 2470 2484
+type(
+  string -> out_channel option
+)
+ident(
+  def doopenfile "log.ml" 101 2798 2798 --
+)
+"log.ml" 90 2470 2485 "log.ml" 90 2470 2493
+type(
+  string
+)
+ident(
+  def filename "log.ml" 91 2496 2504 "log.ml" 98 2738 2740
+)
+"log.ml" 91 2496 2507 "log.ml" 91 2496 2527
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_relative
+)
+"log.ml" 91 2496 2528 "log.ml" 91 2496 2536
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 90 2470 2485 "log.ml" 90 2470 2493
+)
+"log.ml" 91 2496 2507 "log.ml" 91 2496 2536
+type(
+  bool
+)
+"log.ml" 92 2542 2551 "log.ml" 92 2542 2555
+type(
+  out_channel option
+)
+"log.ml" 95 2584 2588 "log.ml" 95 2584 2597
+type(
+  string -> Unix.file_perm -> unit
+)
+ident(
+  int_ref mkdir_rec "log.ml" 54 1425 1429 "log.ml" 54 1425 1438
+)
+"log.ml" 95 2584 2599 "log.ml" 95 2584 2615
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"log.ml" 95 2584 2616 "log.ml" 95 2584 2624
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 90 2470 2485 "log.ml" 90 2470 2493
+)
+"log.ml" 95 2584 2598 "log.ml" 95 2584 2625
+type(
+  string
+)
+"log.ml" 95 2584 2626 "log.ml" 95 2584 2631
+type(
+  Unix.file_perm
+)
+"log.ml" 95 2584 2588 "log.ml" 95 2584 2631
+type(
+  unit
+)
+"log.ml" 96 2633 2650 "log.ml" 96 2633 2662
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"log.ml" 96 2633 2665 "log.ml" 96 2633 2676
+type(
+  open_flag
+)
+"log.ml" 96 2633 2678 "log.ml" 96 2633 2688
+type(
+  open_flag
+)
+"log.ml" 96 2633 2663 "log.ml" 96 2633 2690
+type(
+  open_flag list
+)
+"log.ml" 96 2633 2691 "log.ml" 96 2633 2696
+type(
+  int
+)
+"log.ml" 96 2633 2697 "log.ml" 96 2633 2705
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 90 2470 2485 "log.ml" 90 2470 2493
+)
+"log.ml" 96 2633 2649 "log.ml" 96 2633 2706
+type(
+  out_channel
+)
+"log.ml" 96 2633 2644 "log.ml" 96 2633 2706
+type(
+  out_channel option
+)
+"log.ml" 95 2584 2588 "log.ml" 96 2633 2706
+type(
+  out_channel option
+)
+"log.ml" 97 2707 2728 "log.ml" 97 2707 2729
+type(
+  exn
+)
+"log.ml" 97 2707 2733 "log.ml" 97 2707 2737
+type(
+  out_channel option
+)
+"log.ml" 93 2556 2562 "log.ml" 98 2738 2740
+type(
+  out_channel option
+)
+"log.ml" 91 2496 2504 "log.ml" 98 2738 2740
+type(
+  out_channel option
+)
+"log.ml" 101 2798 2802 "log.ml" 101 2798 2810
+type(
+  string -> level -> t
+)
+ident(
+  def openfile "log.ml" 105 2925 2925 --
+)
+"log.ml" 101 2798 2811 "log.ml" 101 2798 2819
+type(
+  string
+)
+ident(
+  def filename "log.ml" 101 2798 2820 "log.ml" 102 2828 2898
+)
+"log.ml" 101 2798 2820 "log.ml" 101 2798 2825
+type(
+  level
+)
+ident(
+  def level "log.ml" 102 2828 2836 "log.ml" 102 2828 2898
+)
+"log.ml" 102 2828 2836 "log.ml" 102 2828 2840
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 102 2828 2842 "log.ml" 102 2828 2853
+type(
+  stream_type -> out_channel option -> output
+)
+ident(
+  int_ref make_stream "log.ml" 69 1742 1746 "log.ml" 69 1742 1757
+)
+"log.ml" 102 2828 2860 "log.ml" 102 2828 2868
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 101 2798 2811 "log.ml" 101 2798 2819
+)
+"log.ml" 102 2828 2854 "log.ml" 102 2828 2869
+type(
+  stream_type
+)
+"log.ml" 102 2828 2871 "log.ml" 102 2828 2881
+type(
+  string -> out_channel option
+)
+ident(
+  int_ref doopenfile "log.ml" 90 2470 2474 "log.ml" 90 2470 2484
+)
+"log.ml" 102 2828 2882 "log.ml" 102 2828 2890
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 101 2798 2811 "log.ml" 101 2798 2819
+)
+"log.ml" 102 2828 2870 "log.ml" 102 2828 2891
+type(
+  out_channel option
+)
+"log.ml" 102 2828 2841 "log.ml" 102 2828 2892
+type(
+  output
+)
+"log.ml" 102 2828 2893 "log.ml" 102 2828 2898
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 101 2798 2820 "log.ml" 101 2798 2825
+)
+"log.ml" 102 2828 2836 "log.ml" 102 2828 2898
+type(
+  t
+)
+"log.ml" 105 2925 2929 "log.ml" 105 2925 2936
+type(
+  unit -> t
+)
+ident(
+  def opennil "log.ml" 109 2987 2987 --
+)
+"log.ml" 105 2925 2937 "log.ml" 105 2925 2939
+type(
+  unit
+)
+"log.ml" 106 2942 2943 "log.ml" 106 2942 2947
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 106 2942 2948 "log.ml" 106 2942 2951
+type(
+  output
+)
+"log.ml" 106 2942 2952 "log.ml" 106 2942 2957
+type(
+  level
+)
+"log.ml" 106 2942 2943 "log.ml" 106 2942 2957
+type(
+  t
+)
+"log.ml" 109 2987 2991 "log.ml" 109 2987 3001
+type(
+  level -> t
+)
+ident(
+  def openstring "log.ml" 113 3080 3080 --
+)
+"log.ml" 109 2987 3002 "log.ml" 109 2987 3007
+type(
+  level
+)
+ident(
+  def level "log.ml" 110 3010 3018 "log.ml" 110 3010 3048
+)
+"log.ml" 110 3010 3018 "log.ml" 110 3010 3022
+type(
+  output -> level -> t
+)
+ident(
+  int_ref make "log.ml" 67 1681 1685 "log.ml" 67 1681 1689
+)
+"log.ml" 110 3010 3032 "log.ml" 110 3010 3035
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"log.ml" 110 3010 3037 "log.ml" 110 3010 3039
+type(
+  string
+)
+"log.ml" 110 3010 3036 "log.ml" 110 3010 3040
+type(
+  string list
+)
+"log.ml" 110 3010 3031 "log.ml" 110 3010 3041
+type(
+  string list ref
+)
+"log.ml" 110 3010 3023 "log.ml" 110 3010 3042
+type(
+  output
+)
+"log.ml" 110 3010 3043 "log.ml" 110 3010 3048
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 109 2987 3002 "log.ml" 109 2987 3007
+)
+"log.ml" 110 3010 3018 "log.ml" 110 3010 3048
+type(
+  t
+)
+"log.ml" 113 3080 3084 "log.ml" 113 3080 3090
+type(
+  t -> t
+)
+ident(
+  def reopen "log.ml" 124 3428 3428 --
+)
+"log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+type(
+  t
+)
+ident(
+  def t "log.ml" 114 3095 3096 "log.ml" 121 3380 3404
+)
+"log.ml" 114 3095 3102 "log.ml" 114 3095 3103
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 114 3095 3102 "log.ml" 114 3095 3110
+type(
+  output
+)
+"log.ml" 115 3116 3119 "log.ml" 115 3116 3122
+type(
+  output
+)
+"log.ml" 115 3116 3139 "log.ml" 115 3116 3140
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 116 3141 3151 "log.ml" 116 3141 3152
+type(
+  string
+)
+ident(
+  def k "log.ml" 116 3141 3164 "log.ml" 116 3141 3201
+)
+"log.ml" 116 3141 3144 "log.ml" 116 3141 3152
+type(
+  output
+)
+"log.ml" 116 3141 3164 "log.ml" 116 3141 3176
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Syslog.close
+)
+"log.ml" 116 3141 3177 "log.ml" 116 3141 3179
+type(
+  unit
+)
+"log.ml" 116 3141 3164 "log.ml" 116 3141 3179
+type(
+  unit
+)
+"log.ml" 116 3141 3181 "log.ml" 116 3141 3191
+type(
+  string -> level -> t
+)
+ident(
+  int_ref opensyslog "log.ml" 73 1847 1851 "log.ml" 73 1847 1861
+)
+"log.ml" 116 3141 3192 "log.ml" 116 3141 3193
+type(
+  string
+)
+ident(
+  int_ref k "log.ml" 116 3141 3151 "log.ml" 116 3141 3152
+)
+"log.ml" 116 3141 3194 "log.ml" 116 3141 3195
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 116 3141 3194 "log.ml" 116 3141 3201
+type(
+  level
+)
+"log.ml" 116 3141 3181 "log.ml" 116 3141 3201
+type(
+  t
+)
+"log.ml" 116 3141 3164 "log.ml" 116 3141 3201
+type(
+  t
+)
+"log.ml" 117 3202 3212 "log.ml" 117 3202 3213
+type(
+  stream_log
+)
+ident(
+  def s "log.ml" 117 3202 3225 "log.ml" 120 3368 3379
+)
+"log.ml" 117 3202 3205 "log.ml" 117 3202 3213
+type(
+  output
+)
+"log.ml" 118 3227 3241 "log.ml" 118 3227 3242
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 117 3202 3212 "log.ml" 117 3202 3213
+)
+"log.ml" 118 3227 3241 "log.ml" 118 3227 3245
+type(
+  stream_type
+)
+"log.ml" 118 3227 3246 "log.ml" 118 3227 3247
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"log.ml" 118 3227 3248 "log.ml" 118 3227 3249
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 117 3202 3212 "log.ml" 117 3202 3213
+)
+"log.ml" 118 3227 3247 "log.ml" 118 3227 3258
+type(
+  out_channel option ref
+)
+"log.ml" 118 3227 3246 "log.ml" 118 3227 3258
+type(
+  out_channel option
+)
+"log.ml" 118 3227 3240 "log.ml" 118 3227 3259
+type(
+  stream_type * out_channel option
+)
+"log.ml" 119 3266 3276 "log.ml" 119 3266 3284
+type(
+  string
+)
+ident(
+  def filename "log.ml" 119 3266 3297 "log.ml" 119 3266 3366
+)
+"log.ml" 119 3266 3271 "log.ml" 119 3266 3284
+type(
+  stream_type
+)
+"log.ml" 119 3266 3291 "log.ml" 119 3266 3292
+type(
+  out_channel
+)
+ident(
+  def c "log.ml" 119 3266 3297 "log.ml" 119 3266 3366
+)
+"log.ml" 119 3266 3286 "log.ml" 119 3266 3292
+type(
+  out_channel option
+)
+"log.ml" 119 3266 3270 "log.ml" 119 3266 3293
+type(
+  stream_type * out_channel option
+)
+"log.ml" 119 3266 3297 "log.ml" 119 3266 3306
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"log.ml" 119 3266 3307 "log.ml" 119 3266 3308
+type(
+  out_channel
+)
+ident(
+  int_ref c "log.ml" 119 3266 3291 "log.ml" 119 3266 3292
+)
+"log.ml" 119 3266 3297 "log.ml" 119 3266 3308
+type(
+  unit
+)
+"log.ml" 119 3266 3310 "log.ml" 119 3266 3311
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 117 3202 3212 "log.ml" 117 3202 3213
+)
+"log.ml" 119 3266 3310 "log.ml" 119 3266 3319
+type(
+  out_channel option ref
+)
+"log.ml" 119 3266 3320 "log.ml" 119 3266 3322
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"log.ml" 119 3266 3328 "log.ml" 119 3266 3338
+type(
+  string -> out_channel option
+)
+ident(
+  int_ref doopenfile "log.ml" 90 2470 2474 "log.ml" 90 2470 2484
+)
+"log.ml" 119 3266 3339 "log.ml" 119 3266 3347
+type(
+  string
+)
+ident(
+  int_ref filename "log.ml" 119 3266 3276 "log.ml" 119 3266 3284
+)
+"log.ml" 119 3266 3328 "log.ml" 119 3266 3347
+type(
+  out_channel option
+)
+"log.ml" 119 3266 3353 "log.ml" 119 3266 3354
+type(
+  exn
+)
+"log.ml" 119 3266 3358 "log.ml" 119 3266 3362
+type(
+  out_channel option
+)
+"log.ml" 119 3266 3323 "log.ml" 119 3266 3363
+type(
+  out_channel option
+)
+"log.ml" 119 3266 3310 "log.ml" 119 3266 3363
+type(
+  unit
+)
+"log.ml" 119 3266 3365 "log.ml" 119 3266 3366
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 119 3266 3310 "log.ml" 119 3266 3366
+type(
+  t
+)
+"log.ml" 119 3266 3297 "log.ml" 119 3266 3366
+type(
+  t
+)
+"log.ml" 120 3368 3372 "log.ml" 120 3368 3373
+type(
+  stream_type * out_channel option
+)
+"log.ml" 120 3368 3377 "log.ml" 120 3368 3378
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 117 3202 3225 "log.ml" 120 3368 3379
+type(
+  t
+)
+"log.ml" 121 3380 3390 "log.ml" 121 3380 3391
+type(
+  string list ref
+)
+"log.ml" 121 3380 3383 "log.ml" 121 3380 3391
+type(
+  output
+)
+"log.ml" 121 3380 3403 "log.ml" 121 3380 3404
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 113 3080 3091 "log.ml" 113 3080 3092
+)
+"log.ml" 114 3095 3096 "log.ml" 121 3380 3404
+type(
+  t
+)
+"log.ml" 124 3428 3432 "log.ml" 124 3428 3437
+type(
+  t -> unit
+)
+ident(
+  def close "log.ml" 135 3729 3729 --
+)
+"log.ml" 124 3428 3438 "log.ml" 124 3428 3439
+type(
+  t
+)
+ident(
+  def t "log.ml" 125 3442 3443 "log.ml" 132 3638 3660
+)
+"log.ml" 125 3442 3449 "log.ml" 125 3442 3450
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 124 3428 3438 "log.ml" 124 3428 3439
+)
+"log.ml" 125 3442 3449 "log.ml" 125 3442 3457
+type(
+  output
+)
+"log.ml" 126 3463 3466 "log.ml" 126 3463 3469
+type(
+  output
+)
+"log.ml" 126 3463 3483 "log.ml" 126 3463 3485
+type(
+  unit
+)
+"log.ml" 127 3486 3496 "log.ml" 127 3486 3497
+type(
+  string
+)
+ident(
+  def k "log.ml" 127 3486 3506 "log.ml" 127 3486 3522
+)
+"log.ml" 127 3486 3489 "log.ml" 127 3486 3497
+type(
+  output
+)
+"log.ml" 127 3486 3506 "log.ml" 127 3486 3518
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Syslog.close
+)
+"log.ml" 127 3486 3519 "log.ml" 127 3486 3521
+type(
+  unit
+)
+"log.ml" 127 3486 3506 "log.ml" 127 3486 3522
+type(
+  unit
+)
+"log.ml" 128 3523 3533 "log.ml" 128 3523 3534
+type(
+  stream_log
+)
+ident(
+  def s "log.ml" 128 3523 3543 "log.ml" 131 3622 3637
+)
+"log.ml" 128 3523 3526 "log.ml" 128 3523 3534
+type(
+  output
+)
+"log.ml" 129 3545 3558 "log.ml" 129 3545 3559
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"log.ml" 129 3545 3560 "log.ml" 129 3545 3561
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 128 3523 3533 "log.ml" 128 3523 3534
+)
+"log.ml" 129 3545 3559 "log.ml" 129 3545 3570
+type(
+  out_channel option ref
+)
+"log.ml" 129 3545 3558 "log.ml" 129 3545 3570
+type(
+  out_channel option
+)
+"log.ml" 130 3577 3586 "log.ml" 130 3577 3587
+type(
+  out_channel
+)
+ident(
+  def c "log.ml" 130 3577 3591 "log.ml" 130 3577 3621
+)
+"log.ml" 130 3577 3581 "log.ml" 130 3577 3587
+type(
+  out_channel option
+)
+"log.ml" 130 3577 3591 "log.ml" 130 3577 3600
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"log.ml" 130 3577 3601 "log.ml" 130 3577 3602
+type(
+  out_channel
+)
+ident(
+  int_ref c "log.ml" 130 3577 3586 "log.ml" 130 3577 3587
+)
+"log.ml" 130 3577 3591 "log.ml" 130 3577 3602
+type(
+  unit
+)
+"log.ml" 130 3577 3604 "log.ml" 130 3577 3605
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 128 3523 3533 "log.ml" 128 3523 3534
+)
+"log.ml" 130 3577 3604 "log.ml" 130 3577 3613
+type(
+  out_channel option ref
+)
+"log.ml" 130 3577 3614 "log.ml" 130 3577 3616
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"log.ml" 130 3577 3617 "log.ml" 130 3577 3621
+type(
+  out_channel option
+)
+"log.ml" 130 3577 3604 "log.ml" 130 3577 3621
+type(
+  unit
+)
+"log.ml" 130 3577 3591 "log.ml" 130 3577 3621
+type(
+  unit
+)
+"log.ml" 131 3622 3626 "log.ml" 131 3622 3630
+type(
+  out_channel option
+)
+"log.ml" 131 3622 3634 "log.ml" 131 3622 3636
+type(
+  unit
+)
+"log.ml" 128 3523 3543 "log.ml" 131 3622 3637
+type(
+  unit
+)
+"log.ml" 132 3638 3648 "log.ml" 132 3638 3649
+type(
+  string list ref
+)
+"log.ml" 132 3638 3641 "log.ml" 132 3638 3649
+type(
+  output
+)
+"log.ml" 132 3638 3658 "log.ml" 132 3638 3660
+type(
+  unit
+)
+"log.ml" 125 3442 3443 "log.ml" 132 3638 3660
+type(
+  unit
+)
+"log.ml" 135 3729 3733 "log.ml" 135 3729 3749
+type(
+  t -> string
+)
+ident(
+  def string_of_logger "log.ml" 149 4052 4052 --
+)
+"log.ml" 135 3729 3750 "log.ml" 135 3729 3751
+type(
+  t
+)
+ident(
+  def t "log.ml" 136 3754 3755 "log.ml" 146 4008 4016
+)
+"log.ml" 136 3754 3761 "log.ml" 136 3754 3762
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 135 3729 3750 "log.ml" 135 3729 3751
+)
+"log.ml" 136 3754 3761 "log.ml" 136 3754 3769
+type(
+  output
+)
+"log.ml" 137 3775 3778 "log.ml" 137 3775 3781
+type(
+  output
+)
+"log.ml" 137 3775 3795 "log.ml" 137 3775 3800
+type(
+  string
+)
+"log.ml" 138 3801 3811 "log.ml" 138 3801 3812
+type(
+  string
+)
+ident(
+  def k "log.ml" 138 3801 3821 "log.ml" 138 3801 3842
+)
+"log.ml" 138 3801 3804 "log.ml" 138 3801 3812
+type(
+  output
+)
+"log.ml" 138 3801 3821 "log.ml" 138 3801 3828
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"log.ml" 138 3801 3829 "log.ml" 138 3801 3840
+type(
+  (string -> string, unit, string) format
+)
+"log.ml" 138 3801 3841 "log.ml" 138 3801 3842
+type(
+  string
+)
+ident(
+  int_ref k "log.ml" 138 3801 3811 "log.ml" 138 3801 3812
+)
+"log.ml" 138 3801 3821 "log.ml" 138 3801 3842
+type(
+  string
+)
+"log.ml" 139 3843 3853 "log.ml" 139 3843 3854
+type(
+  string list ref
+)
+"log.ml" 139 3843 3846 "log.ml" 139 3843 3854
+type(
+  output
+)
+"log.ml" 139 3843 3863 "log.ml" 139 3843 3871
+type(
+  string
+)
+"log.ml" 140 3872 3882 "log.ml" 140 3872 3883
+type(
+  stream_log
+)
+ident(
+  def s "log.ml" 141 3893 3898 "log.ml" 146 4008 4016
+)
+"log.ml" 140 3872 3875 "log.ml" 140 3872 3883
+type(
+  output
+)
+"log.ml" 142 3904 3917 "log.ml" 142 3904 3918
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 140 3872 3882 "log.ml" 140 3872 3883
+)
+"log.ml" 142 3904 3917 "log.ml" 142 3904 3921
+type(
+  stream_type
+)
+"log.ml" 143 3928 3937 "log.ml" 143 3928 3938
+type(
+  string
+)
+ident(
+  def f "log.ml" 143 3928 3942 "log.ml" 143 3928 3961
+)
+"log.ml" 143 3928 3932 "log.ml" 143 3928 3938
+type(
+  stream_type
+)
+"log.ml" 143 3928 3942 "log.ml" 143 3928 3949
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"log.ml" 143 3928 3950 "log.ml" 143 3928 3959
+type(
+  (string -> string, unit, string) format
+)
+"log.ml" 143 3928 3960 "log.ml" 143 3928 3961
+type(
+  string
+)
+ident(
+  int_ref f "log.ml" 143 3928 3937 "log.ml" 143 3928 3938
+)
+"log.ml" 143 3928 3942 "log.ml" 143 3928 3961
+type(
+  string
+)
+"log.ml" 144 3962 3966 "log.ml" 144 3962 3972
+type(
+  stream_type
+)
+"log.ml" 144 3962 3976 "log.ml" 144 3962 3984
+type(
+  string
+)
+"log.ml" 145 3985 3989 "log.ml" 145 3985 3995
+type(
+  stream_type
+)
+"log.ml" 145 3985 3999 "log.ml" 145 3985 4007
+type(
+  string
+)
+"log.ml" 141 3893 3898 "log.ml" 146 4008 4016
+type(
+  string
+)
+"log.ml" 136 3754 3755 "log.ml" 146 4008 4016
+type(
+  string
+)
+"log.ml" 149 4052 4056 "log.ml" 149 4052 4072
+type(
+  string -> t
+)
+ident(
+  def logger_of_string "log.ml" 170 4602 4602 --
+)
+"log.ml" 149 4052 4073 "log.ml" 149 4052 4074
+type(
+  string
+)
+ident(
+  def s "log.ml" 149 4052 4075 "log.ml" 168 4554 4600
+)
+"log.ml" 150 4081 4088 "log.ml" 150 4081 4089
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 149 4052 4073 "log.ml" 149 4052 4074
+)
+"log.ml" 151 4095 4098 "log.ml" 151 4095 4103
+type(
+  string
+)
+"log.ml" 151 4095 4110 "log.ml" 151 4095 4117
+type(
+  unit -> t
+)
+ident(
+  int_ref opennil "log.ml" 105 2925 2929 "log.ml" 105 2925 2936
+)
+"log.ml" 151 4095 4118 "log.ml" 151 4095 4120
+type(
+  unit
+)
+"log.ml" 151 4095 4110 "log.ml" 151 4095 4120
+type(
+  t
+)
+"log.ml" 152 4121 4124 "log.ml" 152 4121 4132
+type(
+  string
+)
+"log.ml" 152 4121 4136 "log.ml" 152 4121 4143
+type(
+  level -> t
+)
+ident(
+  int_ref openerr "log.ml" 77 1924 1928 "log.ml" 77 1924 1935
+)
+"log.ml" 152 4121 4144 "log.ml" 152 4121 4149
+type(
+  level
+)
+"log.ml" 152 4121 4136 "log.ml" 152 4121 4149
+type(
+  t
+)
+"log.ml" 153 4150 4153 "log.ml" 153 4150 4161
+type(
+  string
+)
+"log.ml" 153 4150 4165 "log.ml" 153 4150 4172
+type(
+  level -> t
+)
+ident(
+  int_ref openout "log.ml" 82 2131 2135 "log.ml" 82 2131 2142
+)
+"log.ml" 153 4150 4173 "log.ml" 153 4150 4178
+type(
+  level
+)
+"log.ml" 153 4150 4165 "log.ml" 153 4150 4178
+type(
+  t
+)
+"log.ml" 154 4179 4182 "log.ml" 154 4179 4190
+type(
+  string
+)
+"log.ml" 154 4179 4194 "log.ml" 154 4179 4204
+type(
+  level -> t
+)
+ident(
+  int_ref openstring "log.ml" 109 2987 2991 "log.ml" 109 2987 3001
+)
+"log.ml" 154 4179 4205 "log.ml" 154 4179 4210
+type(
+  level
+)
+"log.ml" 154 4179 4194 "log.ml" 154 4179 4210
+type(
+  t
+)
+"log.ml" 155 4211 4214 "log.ml" 155 4211 4215
+type(
+  string
+)
+"log.ml" 156 4226 4232 "log.ml" 156 4226 4242
+type(
+  string -> string * string
+)
+"log.ml" 156 4226 4243 "log.ml" 156 4226 4244
+type(
+  string
+)
+ident(
+  def s "log.ml" 157 4247 4250 "log.ml" 162 4376 4435
+)
+"log.ml" 158 4254 4262 "log.ml" 158 4254 4263
+type(
+  int
+)
+ident(
+  def i "log.ml" 159 4288 4292 "log.ml" 160 4312 4362
+)
+"log.ml" 158 4254 4266 "log.ml" 158 4254 4278
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"log.ml" 158 4254 4279 "log.ml" 158 4254 4280
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 156 4226 4243 "log.ml" 156 4226 4244
+)
+"log.ml" 158 4254 4281 "log.ml" 158 4254 4284
+type(
+  char
+)
+"log.ml" 158 4254 4266 "log.ml" 158 4254 4284
+type(
+  int
+)
+"log.ml" 159 4288 4292 "log.ml" 159 4288 4302
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"log.ml" 159 4288 4303 "log.ml" 159 4288 4304
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 156 4226 4243 "log.ml" 156 4226 4244
+)
+"log.ml" 159 4288 4305 "log.ml" 159 4288 4306
+type(
+  int
+)
+"log.ml" 159 4288 4307 "log.ml" 159 4288 4310
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 158 4254 4262 "log.ml" 158 4254 4263
+)
+"log.ml" 159 4288 4292 "log.ml" 159 4288 4310
+type(
+  string
+)
+"log.ml" 160 4312 4316 "log.ml" 160 4312 4326
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"log.ml" 160 4312 4327 "log.ml" 160 4312 4328
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 156 4226 4243 "log.ml" 156 4226 4244
+)
+"log.ml" 160 4312 4330 "log.ml" 160 4312 4331
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 158 4254 4262 "log.ml" 158 4254 4263
+)
+"log.ml" 160 4312 4332 "log.ml" 160 4312 4333
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"log.ml" 160 4312 4334 "log.ml" 160 4312 4335
+type(
+  int
+)
+"log.ml" 160 4312 4329 "log.ml" 160 4312 4336
+type(
+  int
+)
+"log.ml" 160 4312 4338 "log.ml" 160 4312 4351
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"log.ml" 160 4312 4352 "log.ml" 160 4312 4353
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 156 4226 4243 "log.ml" 156 4226 4244
+)
+"log.ml" 160 4312 4338 "log.ml" 160 4312 4353
+type(
+  int
+)
+"log.ml" 160 4312 4354 "log.ml" 160 4312 4355
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"log.ml" 160 4312 4356 "log.ml" 160 4312 4357
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 158 4254 4262 "log.ml" 158 4254 4263
+)
+"log.ml" 160 4312 4338 "log.ml" 160 4312 4357
+type(
+  int
+)
+"log.ml" 160 4312 4358 "log.ml" 160 4312 4359
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"log.ml" 160 4312 4360 "log.ml" 160 4312 4361
+type(
+  int
+)
+"log.ml" 160 4312 4337 "log.ml" 160 4312 4362
+type(
+  int
+)
+"log.ml" 160 4312 4316 "log.ml" 160 4312 4362
+type(
+  string
+)
+"log.ml" 159 4288 4292 "log.ml" 160 4312 4362
+type(
+  string * string
+)
+"log.ml" 158 4254 4258 "log.ml" 160 4312 4362
+type(
+  string * string
+)
+"log.ml" 161 4363 4371 "log.ml" 161 4363 4372
+type(
+  exn
+)
+"log.ml" 162 4376 4380 "log.ml" 162 4376 4388
+type(
+  string -> string * string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 162 4376 4389 "log.ml" 162 4376 4435
+type(
+  string
+)
+"log.ml" 162 4376 4380 "log.ml" 162 4376 4435
+type(
+  string * string
+)
+"log.ml" 157 4247 4250 "log.ml" 162 4376 4435
+type(
+  string * string
+)
+"log.ml" 164 4442 4448 "log.ml" 164 4442 4449
+type(
+  string
+)
+"log.ml" 164 4442 4451 "log.ml" 164 4442 4452
+type(
+  string
+)
+"log.ml" 164 4442 4448 "log.ml" 164 4442 4452
+type(
+  string * string
+)
+"log.ml" 164 4442 4455 "log.ml" 164 4442 4465
+type(
+  string -> string * string
+)
+ident(
+  int_ref split_in_2 "log.ml" 156 4226 4232 "log.ml" 156 4226 4242
+)
+"log.ml" 164 4442 4466 "log.ml" 164 4442 4467
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 149 4052 4073 "log.ml" 149 4052 4074
+)
+"log.ml" 164 4442 4455 "log.ml" 164 4442 4467
+type(
+  string * string
+)
+"log.ml" 165 4471 4479 "log.ml" 165 4471 4480
+type(
+  string
+)
+ident(
+  int_ref k "log.ml" 164 4442 4448 "log.ml" 164 4442 4449
+)
+"log.ml" 166 4486 4490 "log.ml" 166 4486 4498
+type(
+  string
+)
+"log.ml" 166 4486 4502 "log.ml" 166 4486 4512
+type(
+  string -> level -> t
+)
+ident(
+  int_ref opensyslog "log.ml" 73 1847 1851 "log.ml" 73 1847 1861
+)
+"log.ml" 166 4486 4513 "log.ml" 166 4486 4514
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 164 4442 4451 "log.ml" 164 4442 4452
+)
+"log.ml" 166 4486 4515 "log.ml" 166 4486 4520
+type(
+  level
+)
+"log.ml" 166 4486 4502 "log.ml" 166 4486 4520
+type(
+  t
+)
+"log.ml" 167 4521 4525 "log.ml" 167 4521 4531
+type(
+  string
+)
+"log.ml" 167 4521 4537 "log.ml" 167 4521 4545
+type(
+  string -> level -> t
+)
+ident(
+  int_ref openfile "log.ml" 101 2798 2802 "log.ml" 101 2798 2810
+)
+"log.ml" 167 4521 4546 "log.ml" 167 4521 4547
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 164 4442 4451 "log.ml" 164 4442 4452
+)
+"log.ml" 167 4521 4548 "log.ml" 167 4521 4553
+type(
+  level
+)
+"log.ml" 167 4521 4537 "log.ml" 167 4521 4553
+type(
+  t
+)
+"log.ml" 168 4554 4558 "log.ml" 168 4554 4559
+type(
+  string
+)
+"log.ml" 168 4554 4570 "log.ml" 168 4554 4578
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 168 4554 4579 "log.ml" 168 4554 4600
+type(
+  string
+)
+"log.ml" 168 4554 4570 "log.ml" 168 4554 4600
+type(
+  t
+)
+"log.ml" 165 4471 4473 "log.ml" 168 4554 4600
+type(
+  t
+)
+"log.ml" 164 4442 4444 "log.ml" 168 4554 4600
+type(
+  t
+)
+"log.ml" 156 4226 4228 "log.ml" 168 4554 4600
+type(
+  t
+)
+"log.ml" 150 4081 4082 "log.ml" 168 4554 4600
+type(
+  t
+)
+type(
+  t
+)
+"log.ml" 170 4602 4606 "log.ml" 170 4602 4614
+type(
+  string -> unit
+)
+ident(
+  def validate "log.ml" 199 5281 5281 --
+)
+"log.ml" 170 4602 4615 "log.ml" 170 4602 4616
+type(
+  string
+)
+ident(
+  def s "log.ml" 171 4619 4620 "log.ml" 196 5200 5241
+)
+"log.ml" 171 4619 4626 "log.ml" 171 4619 4627
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 170 4602 4615 "log.ml" 170 4602 4616
+)
+"log.ml" 172 4633 4636 "log.ml" 172 4633 4641
+type(
+  string
+)
+"log.ml" 172 4633 4648 "log.ml" 172 4633 4650
+type(
+  unit
+)
+"log.ml" 173 4651 4654 "log.ml" 173 4651 4662
+type(
+  string
+)
+"log.ml" 173 4651 4666 "log.ml" 173 4651 4668
+type(
+  unit
+)
+"log.ml" 174 4669 4672 "log.ml" 174 4669 4680
+type(
+  string
+)
+"log.ml" 174 4669 4684 "log.ml" 174 4669 4686
+type(
+  unit
+)
+"log.ml" 175 4687 4690 "log.ml" 175 4687 4698
+type(
+  string
+)
+"log.ml" 175 4687 4702 "log.ml" 175 4687 4704
+type(
+  unit
+)
+"log.ml" 176 4705 4708 "log.ml" 176 4705 4709
+type(
+  string
+)
+"log.ml" 177 4720 4726 "log.ml" 177 4720 4736
+type(
+  string -> string * string
+)
+"log.ml" 177 4720 4737 "log.ml" 177 4720 4738
+type(
+  string
+)
+ident(
+  def s "log.ml" 178 4741 4744 "log.ml" 183 4870 4929
+)
+"log.ml" 179 4748 4756 "log.ml" 179 4748 4757
+type(
+  int
+)
+ident(
+  def i "log.ml" 180 4782 4786 "log.ml" 181 4806 4856
+)
+"log.ml" 179 4748 4760 "log.ml" 179 4748 4772
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"log.ml" 179 4748 4773 "log.ml" 179 4748 4774
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 177 4720 4737 "log.ml" 177 4720 4738
+)
+"log.ml" 179 4748 4775 "log.ml" 179 4748 4778
+type(
+  char
+)
+"log.ml" 179 4748 4760 "log.ml" 179 4748 4778
+type(
+  int
+)
+"log.ml" 180 4782 4786 "log.ml" 180 4782 4796
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"log.ml" 180 4782 4797 "log.ml" 180 4782 4798
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 177 4720 4737 "log.ml" 177 4720 4738
+)
+"log.ml" 180 4782 4799 "log.ml" 180 4782 4800
+type(
+  int
+)
+"log.ml" 180 4782 4801 "log.ml" 180 4782 4804
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 179 4748 4756 "log.ml" 179 4748 4757
+)
+"log.ml" 180 4782 4786 "log.ml" 180 4782 4804
+type(
+  string
+)
+"log.ml" 181 4806 4810 "log.ml" 181 4806 4820
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"log.ml" 181 4806 4821 "log.ml" 181 4806 4822
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 177 4720 4737 "log.ml" 177 4720 4738
+)
+"log.ml" 181 4806 4824 "log.ml" 181 4806 4825
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 179 4748 4756 "log.ml" 179 4748 4757
+)
+"log.ml" 181 4806 4826 "log.ml" 181 4806 4827
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"log.ml" 181 4806 4828 "log.ml" 181 4806 4829
+type(
+  int
+)
+"log.ml" 181 4806 4823 "log.ml" 181 4806 4830
+type(
+  int
+)
+"log.ml" 181 4806 4832 "log.ml" 181 4806 4845
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"log.ml" 181 4806 4846 "log.ml" 181 4806 4847
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 177 4720 4737 "log.ml" 177 4720 4738
+)
+"log.ml" 181 4806 4832 "log.ml" 181 4806 4847
+type(
+  int
+)
+"log.ml" 181 4806 4848 "log.ml" 181 4806 4849
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"log.ml" 181 4806 4850 "log.ml" 181 4806 4851
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 179 4748 4756 "log.ml" 179 4748 4757
+)
+"log.ml" 181 4806 4832 "log.ml" 181 4806 4851
+type(
+  int
+)
+"log.ml" 181 4806 4852 "log.ml" 181 4806 4853
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"log.ml" 181 4806 4854 "log.ml" 181 4806 4855
+type(
+  int
+)
+"log.ml" 181 4806 4831 "log.ml" 181 4806 4856
+type(
+  int
+)
+"log.ml" 181 4806 4810 "log.ml" 181 4806 4856
+type(
+  string
+)
+"log.ml" 180 4782 4786 "log.ml" 181 4806 4856
+type(
+  string * string
+)
+"log.ml" 179 4748 4752 "log.ml" 181 4806 4856
+type(
+  string * string
+)
+"log.ml" 182 4857 4865 "log.ml" 182 4857 4866
+type(
+  exn
+)
+"log.ml" 183 4870 4874 "log.ml" 183 4870 4882
+type(
+  string -> string * string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 183 4870 4883 "log.ml" 183 4870 4929
+type(
+  string
+)
+"log.ml" 183 4870 4874 "log.ml" 183 4870 4929
+type(
+  string * string
+)
+"log.ml" 178 4741 4744 "log.ml" 183 4870 4929
+type(
+  string * string
+)
+"log.ml" 185 4936 4942 "log.ml" 185 4936 4943
+type(
+  string
+)
+"log.ml" 185 4936 4945 "log.ml" 185 4936 4946
+type(
+  string
+)
+"log.ml" 185 4936 4942 "log.ml" 185 4936 4946
+type(
+  string * string
+)
+"log.ml" 185 4936 4949 "log.ml" 185 4936 4959
+type(
+  string -> string * string
+)
+ident(
+  int_ref split_in_2 "log.ml" 177 4720 4726 "log.ml" 177 4720 4736
+)
+"log.ml" 185 4936 4960 "log.ml" 185 4936 4961
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 170 4602 4615 "log.ml" 170 4602 4616
+)
+"log.ml" 185 4936 4949 "log.ml" 185 4936 4961
+type(
+  string * string
+)
+"log.ml" 186 4965 4973 "log.ml" 186 4965 4974
+type(
+  string
+)
+ident(
+  int_ref k "log.ml" 185 4936 4942 "log.ml" 185 4936 4943
+)
+"log.ml" 187 4980 4984 "log.ml" 187 4980 4992
+type(
+  string
+)
+"log.ml" 187 4980 4996 "log.ml" 187 4980 4998
+type(
+  unit
+)
+"log.ml" 188 4999 5003 "log.ml" 188 4999 5009
+type(
+  string
+)
+"log.ml" 190 5024 5032 "log.ml" 190 5024 5034
+type(
+  Unix.stats
+)
+ident(
+  def st "log.ml" 191 5052 5056 "log.ml" 193 5138 5144
+)
+"log.ml" 190 5024 5037 "log.ml" 190 5024 5046
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"log.ml" 190 5024 5047 "log.ml" 190 5024 5048
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 185 4936 4945 "log.ml" 185 4936 4946
+)
+"log.ml" 190 5024 5037 "log.ml" 190 5024 5048
+type(
+  Unix.stats
+)
+"log.ml" 191 5052 5059 "log.ml" 191 5052 5061
+type(
+  Unix.stats
+)
+ident(
+  int_ref st "log.ml" 190 5024 5032 "log.ml" 190 5024 5034
+)
+"log.ml" 191 5052 5059 "log.ml" 191 5052 5074
+type(
+  Unix.file_kind
+)
+"log.ml" 191 5052 5075 "log.ml" 191 5052 5077
+type(
+  Unix.file_kind -> Unix.file_kind -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"log.ml" 191 5052 5078 "log.ml" 191 5052 5088
+type(
+  Unix.file_kind
+)
+"log.ml" 191 5052 5059 "log.ml" 191 5052 5088
+type(
+  bool
+)
+"log.ml" 192 5094 5099 "log.ml" 192 5094 5107
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 192 5094 5108 "log.ml" 192 5094 5136
+type(
+  string
+)
+"log.ml" 192 5094 5099 "log.ml" 192 5094 5136
+type(
+  unit
+)
+"log.ml" 191 5052 5056 "log.ml" 192 5094 5136
+type(
+  unit
+)
+"log.ml" 193 5138 5142 "log.ml" 193 5138 5144
+type(
+  unit
+)
+"log.ml" 191 5052 5056 "log.ml" 193 5138 5144
+type(
+  unit
+)
+"log.ml" 190 5024 5028 "log.ml" 193 5138 5144
+type(
+  unit
+)
+"log.ml" 194 5145 5170 "log.ml" 194 5145 5181
+type(
+  Unix.error
+)
+"log.ml" 194 5145 5183 "log.ml" 194 5145 5184
+type(
+  string
+)
+"log.ml" 194 5145 5186 "log.ml" 194 5145 5187
+type(
+  string
+)
+"log.ml" 194 5145 5153 "log.ml" 194 5145 5188
+type(
+  exn
+)
+"log.ml" 194 5145 5192 "log.ml" 194 5145 5194
+type(
+  unit
+)
+"log.ml" 188 4999 5015 "log.ml" 195 5195 5199
+type(
+  unit
+)
+"log.ml" 196 5200 5204 "log.ml" 196 5200 5205
+type(
+  string
+)
+"log.ml" 196 5200 5216 "log.ml" 196 5200 5224
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 196 5200 5225 "log.ml" 196 5200 5241
+type(
+  string
+)
+"log.ml" 196 5200 5216 "log.ml" 196 5200 5241
+type(
+  unit
+)
+"log.ml" 186 4965 4967 "log.ml" 196 5200 5241
+type(
+  unit
+)
+"log.ml" 185 4936 4938 "log.ml" 196 5200 5241
+type(
+  unit
+)
+"log.ml" 177 4720 4722 "log.ml" 196 5200 5241
+type(
+  unit
+)
+"log.ml" 171 4619 4620 "log.ml" 196 5200 5241
+type(
+  unit
+)
+"log.ml" 199 5281 5285 "log.ml" 199 5281 5288
+type(
+  t -> level -> unit
+)
+ident(
+  def set "log.ml" 201 5317 5317 --
+)
+"log.ml" 199 5281 5289 "log.ml" 199 5281 5290
+type(
+  t
+)
+ident(
+  def t "log.ml" 199 5281 5291 "log.ml" 199 5281 5315
+)
+"log.ml" 199 5281 5291 "log.ml" 199 5281 5296
+type(
+  level
+)
+ident(
+  def level "log.ml" 199 5281 5299 "log.ml" 199 5281 5315
+)
+"log.ml" 199 5281 5299 "log.ml" 199 5281 5300
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 199 5281 5289 "log.ml" 199 5281 5290
+)
+"log.ml" 199 5281 5310 "log.ml" 199 5281 5315
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 199 5281 5291 "log.ml" 199 5281 5296
+)
+"log.ml" 199 5281 5299 "log.ml" 199 5281 5315
+type(
+  unit
+)
+"log.ml" 201 5317 5321 "log.ml" 201 5317 5334
+type(
+  unit -> string
+)
+ident(
+  def gettimestring "log.ml" 212 5702 5702 --
+)
+"log.ml" 201 5317 5335 "log.ml" 201 5317 5337
+type(
+  unit
+)
+"log.ml" 202 5340 5345 "log.ml" 202 5340 5349
+type(
+  float
+)
+"log.ml" 202 5340 5352 "log.ml" 202 5340 5369
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"log.ml" 202 5340 5370 "log.ml" 202 5340 5372
+type(
+  unit
+)
+"log.ml" 202 5340 5352 "log.ml" 202 5340 5372
+type(
+  float
+)
+"log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+type(
+  Unix.tm
+)
+"log.ml" 203 5376 5386 "log.ml" 203 5376 5400
+type(
+  float -> Unix.tm
+)
+ident(
+  ext_ref Unix.localtime
+)
+"log.ml" 203 5376 5401 "log.ml" 203 5376 5405
+type(
+  float
+)
+ident(
+  int_ref time "log.ml" 202 5340 5345 "log.ml" 202 5340 5349
+)
+"log.ml" 203 5376 5386 "log.ml" 203 5376 5405
+type(
+  Unix.tm
+)
+"log.ml" 204 5409 5421 "log.ml" 204 5409 5425
+type(
+  float
+)
+"log.ml" 204 5409 5428 "log.ml" 204 5409 5432
+type(
+  float
+)
+ident(
+  int_ref time "log.ml" 202 5340 5345 "log.ml" 202 5340 5349
+)
+"log.ml" 204 5409 5433 "log.ml" 204 5409 5435
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.-.
+)
+"log.ml" 204 5409 5437 "log.ml" 204 5409 5442
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.floor
+)
+"log.ml" 204 5409 5443 "log.ml" 204 5409 5447
+type(
+  float
+)
+ident(
+  int_ref time "log.ml" 202 5340 5345 "log.ml" 202 5340 5349
+)
+"log.ml" 204 5409 5436 "log.ml" 204 5409 5448
+type(
+  float
+)
+"log.ml" 204 5409 5428 "log.ml" 204 5409 5448
+type(
+  float
+)
+"log.ml" 205 5452 5453 "log.ml" 205 5452 5460
+type(
+  (int -> int -> int -> int -> int -> int -> int -> string, unit, string)
+  format -> int -> int -> int -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"log.ml" 205 5452 5461 "log.ml" 205 5452 5494
+type(
+  (int -> int -> int -> int -> int -> int -> int -> string, unit, string)
+  format
+)
+"log.ml" 205 5452 5496 "log.ml" 205 5452 5500
+type(
+  int
+)
+"log.ml" 205 5452 5501 "log.ml" 205 5452 5502
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"log.ml" 205 5452 5503 "log.ml" 205 5452 5505
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 205 5452 5503 "log.ml" 205 5452 5518
+type(
+  int
+)
+"log.ml" 205 5452 5495 "log.ml" 205 5452 5519
+type(
+  int
+)
+"log.ml" 206 5520 5530 "log.ml" 206 5520 5532
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 206 5520 5530 "log.ml" 206 5520 5544
+type(
+  int
+)
+"log.ml" 206 5520 5545 "log.ml" 206 5520 5546
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"log.ml" 206 5520 5547 "log.ml" 206 5520 5548
+type(
+  int
+)
+"log.ml" 206 5520 5529 "log.ml" 206 5520 5549
+type(
+  int
+)
+"log.ml" 206 5520 5550 "log.ml" 206 5520 5552
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 206 5520 5550 "log.ml" 206 5520 5565
+type(
+  int
+)
+"log.ml" 207 5566 5575 "log.ml" 207 5566 5577
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 207 5566 5575 "log.ml" 207 5566 5590
+type(
+  int
+)
+"log.ml" 207 5566 5591 "log.ml" 207 5566 5593
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 207 5566 5591 "log.ml" 207 5566 5605
+type(
+  int
+)
+"log.ml" 207 5566 5606 "log.ml" 207 5566 5608
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "log.ml" 203 5376 5381 "log.ml" 203 5376 5383
+)
+"log.ml" 207 5566 5606 "log.ml" 207 5566 5620
+type(
+  int
+)
+"log.ml" 208 5621 5631 "log.ml" 208 5621 5643
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"log.ml" 208 5621 5645 "log.ml" 208 5621 5651
+type(
+  float
+)
+"log.ml" 208 5621 5652 "log.ml" 208 5621 5654
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"log.ml" 208 5621 5655 "log.ml" 208 5621 5659
+type(
+  float
+)
+ident(
+  int_ref msec "log.ml" 204 5409 5421 "log.ml" 204 5409 5425
+)
+"log.ml" 208 5621 5644 "log.ml" 208 5621 5660
+type(
+  float
+)
+"log.ml" 208 5621 5630 "log.ml" 208 5621 5661
+type(
+  int
+)
+"log.ml" 205 5452 5453 "log.ml" 208 5621 5661
+type(
+  string
+)
+"log.ml" 204 5409 5417 "log.ml" 208 5621 5661
+type(
+  string
+)
+"log.ml" 203 5376 5377 "log.ml" 208 5621 5661
+type(
+  string
+)
+"log.ml" 202 5340 5341 "log.ml" 208 5621 5661
+type(
+  string
+)
+"log.ml" 212 5702 5706 "log.ml" 212 5702 5712
+type(
+  t -> ?key:string -> ?extra:string -> level -> string -> unit
+)
+ident(
+  def output "log.ml" 249 7016 7016 --
+)
+"log.ml" 212 5702 5713 "log.ml" 212 5702 5714
+type(
+  t
+)
+ident(
+  def t "log.ml" 212 5702 5715 "log.ml" 247 6960 7014
+)
+"log.ml" 212 5702 5717 "log.ml" 212 5702 5720
+type(
+  string
+)
+"log.ml" 212 5702 5721 "log.ml" 212 5702 5723
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "log.ml" 212 5702 5721 "log.ml" 212 5702 5723
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "log.ml" 212 5702 5721 "log.ml" 212 5702 5723
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "log.ml" 212 5702 5721 "log.ml" 212 5702 5723
+)
+type(
+  string option
+)
+ident(
+  def *opt* "log.ml" 212 5702 5715 "log.ml" 247 6960 7014
+)
+"log.ml" 212 5702 5727 "log.ml" 212 5702 5732
+type(
+  string
+)
+"log.ml" 212 5702 5733 "log.ml" 212 5702 5735
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "log.ml" 212 5702 5733 "log.ml" 212 5702 5735
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "log.ml" 212 5702 5733 "log.ml" 212 5702 5735
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "log.ml" 212 5702 5733 "log.ml" 212 5702 5735
+)
+type(
+  string option
+)
+ident(
+  def *opt* "log.ml" 212 5702 5725 "log.ml" 247 6960 7014
+)
+"log.ml" 212 5702 5737 "log.ml" 212 5702 5745
+type(
+  level
+)
+ident(
+  def priority "log.ml" 212 5702 5746 "log.ml" 247 6960 7014
+)
+"log.ml" 212 5702 5747 "log.ml" 212 5702 5754
+type(
+  string
+)
+ident(
+  def message "log.ml" 213 5766 5768 "log.ml" 247 6960 7014
+)
+"log.ml" 213 5766 5772 "log.ml" 213 5766 5788
+type(
+  bool -> string
+)
+"log.ml" 213 5766 5789 "log.ml" 213 5766 5797
+type(
+  bool
+)
+ident(
+  def withtime "log.ml" 221 6122 6126 "log.ml" 222 6157 6247
+)
+"log.ml" 221 6122 6126 "log.ml" 221 6122 6140
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"log.ml" 221 6122 6141 "log.ml" 221 6122 6155
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"log.ml" 222 6157 6167 "log.ml" 222 6157 6175
+type(
+  bool
+)
+ident(
+  int_ref withtime "log.ml" 213 5766 5789 "log.ml" 213 5766 5797
+)
+"log.ml" 222 6157 6181 "log.ml" 222 6157 6194
+type(
+  unit -> string
+)
+ident(
+  int_ref gettimestring "log.ml" 201 5317 5321 "log.ml" 201 5317 5334
+)
+"log.ml" 222 6157 6195 "log.ml" 222 6157 6197
+type(
+  unit
+)
+"log.ml" 222 6157 6181 "log.ml" 222 6157 6197
+type(
+  string
+)
+"log.ml" 222 6157 6203 "log.ml" 222 6157 6205
+type(
+  string
+)
+"log.ml" 222 6157 6163 "log.ml" 222 6157 6206
+type(
+  string
+)
+"log.ml" 222 6157 6208 "log.ml" 222 6157 6223
+type(
+  level -> string
+)
+ident(
+  int_ref string_of_level "log.ml" 39 1077 1081 "log.ml" 39 1077 1096
+)
+"log.ml" 222 6157 6224 "log.ml" 222 6157 6232
+type(
+  level
+)
+ident(
+  int_ref priority "log.ml" 212 5702 5737 "log.ml" 212 5702 5745
+)
+"log.ml" 222 6157 6207 "log.ml" 222 6157 6233
+type(
+  string
+)
+"log.ml" 222 6157 6234 "log.ml" 222 6157 6239
+type(
+  string
+)
+ident(
+  int_ref extra "log.ml" 212 5702 5727 "log.ml" 212 5702 5732
+)
+"log.ml" 222 6157 6240 "log.ml" 222 6157 6247
+type(
+  string
+)
+ident(
+  int_ref message "log.ml" 212 5702 5747 "log.ml" 212 5702 5754
+)
+"log.ml" 221 6122 6126 "log.ml" 222 6157 6247
+type(
+  string
+)
+"log.ml" 226 6361 6366 "log.ml" 226 6361 6381
+type(
+  out_channel -> unit
+)
+"log.ml" 226 6361 6382 "log.ml" 226 6361 6388
+type(
+  out_channel
+)
+ident(
+  def stream "log.ml" 227 6391 6394 "log.ml" 230 6477 6492
+)
+"log.ml" 227 6391 6398 "log.ml" 227 6391 6404
+type(
+  string
+)
+"log.ml" 227 6391 6408 "log.ml" 227 6391 6424
+type(
+  bool -> string
+)
+ident(
+  int_ref construct_string "log.ml" 213 5766 5772 "log.ml" 213 5766 5788
+)
+"log.ml" 227 6391 6425 "log.ml" 227 6391 6429
+type(
+  bool
+)
+"log.ml" 227 6391 6407 "log.ml" 227 6391 6430
+type(
+  string
+)
+"log.ml" 229 6441 6446 "log.ml" 229 6441 6453
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"log.ml" 229 6441 6454 "log.ml" 229 6441 6460
+type(
+  out_channel
+)
+ident(
+  int_ref stream "log.ml" 226 6361 6382 "log.ml" 226 6361 6388
+)
+"log.ml" 229 6441 6461 "log.ml" 229 6441 6469
+type(
+  (string -> unit, out_channel, unit) format
+)
+"log.ml" 229 6441 6470 "log.ml" 229 6441 6476
+type(
+  string
+)
+ident(
+  int_ref string "log.ml" 227 6391 6398 "log.ml" 227 6391 6404
+)
+"log.ml" 229 6441 6446 "log.ml" 229 6441 6476
+type(
+  unit
+)
+"log.ml" 230 6477 6485 "log.ml" 230 6477 6486
+type(
+  exn
+)
+"log.ml" 230 6477 6490 "log.ml" 230 6477 6492
+type(
+  unit
+)
+"log.ml" 228 6434 6437 "log.ml" 230 6477 6492
+type(
+  unit
+)
+"log.ml" 227 6391 6394 "log.ml" 230 6477 6492
+type(
+  unit
+)
+"log.ml" 233 6552 6556 "log.ml" 233 6552 6569
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"log.ml" 233 6552 6570 "log.ml" 233 6552 6577
+type(
+  string
+)
+ident(
+  int_ref message "log.ml" 212 5702 5747 "log.ml" 212 5702 5754
+)
+"log.ml" 233 6552 6556 "log.ml" 233 6552 6577
+type(
+  int
+)
+"log.ml" 233 6552 6578 "log.ml" 233 6552 6579
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"log.ml" 233 6552 6580 "log.ml" 233 6552 6581
+type(
+  int
+)
+"log.ml" 233 6552 6556 "log.ml" 233 6552 6581
+type(
+  bool
+)
+"log.ml" 234 6587 6594 "log.ml" 234 6587 6595
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 212 5702 5713 "log.ml" 212 5702 5714
+)
+"log.ml" 234 6587 6594 "log.ml" 234 6587 6602
+type(
+  output
+)
+"log.ml" 235 6608 6618 "log.ml" 235 6608 6619
+type(
+  string
+)
+ident(
+  def k "log.ml" 236 6628 6630 "log.ml" 241 6771 6840
+)
+"log.ml" 235 6608 6611 "log.ml" 235 6608 6619
+type(
+  output
+)
+"log.ml" 236 6628 6634 "log.ml" 236 6628 6642
+type(
+  Syslog.level
+)
+"log.ml" 236 6628 6651 "log.ml" 236 6628 6659
+type(
+  level
+)
+ident(
+  int_ref priority "log.ml" 212 5702 5737 "log.ml" 212 5702 5745
+)
+"log.ml" 237 6665 6669 "log.ml" 237 6665 6674
+type(
+  level
+)
+"log.ml" 237 6665 6678 "log.ml" 237 6665 6690
+type(
+  Syslog.level
+)
+"log.ml" 238 6691 6695 "log.ml" 238 6691 6699
+type(
+  level
+)
+"log.ml" 238 6691 6704 "log.ml" 238 6691 6715
+type(
+  Syslog.level
+)
+"log.ml" 239 6716 6720 "log.ml" 239 6716 6724
+type(
+  level
+)
+"log.ml" 239 6716 6729 "log.ml" 239 6716 6743
+type(
+  Syslog.level
+)
+"log.ml" 240 6744 6748 "log.ml" 240 6744 6753
+type(
+  level
+)
+"log.ml" 240 6744 6757 "log.ml" 240 6744 6767
+type(
+  Syslog.level
+)
+"log.ml" 236 6628 6645 "log.ml" 240 6744 6767
+type(
+  Syslog.level
+)
+"log.ml" 241 6771 6773 "log.ml" 241 6771 6783
+type(
+  Syslog.facility -> Syslog.level -> string -> unit
+)
+ident(
+  ext_ref Syslog.log
+)
+"log.ml" 241 6771 6784 "log.ml" 241 6771 6797
+type(
+  Syslog.facility
+)
+"log.ml" 241 6771 6798 "log.ml" 241 6771 6806
+type(
+  Syslog.level
+)
+ident(
+  int_ref sys_prio "log.ml" 236 6628 6634 "log.ml" 236 6628 6642
+)
+"log.ml" 241 6771 6809 "log.ml" 241 6771 6825
+type(
+  bool -> string
+)
+ident(
+  int_ref construct_string "log.ml" 213 5766 5772 "log.ml" 213 5766 5788
+)
+"log.ml" 241 6771 6826 "log.ml" 241 6771 6831
+type(
+  bool
+)
+"log.ml" 241 6771 6808 "log.ml" 241 6771 6832
+type(
+  string
+)
+"log.ml" 241 6771 6833 "log.ml" 241 6771 6834
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"log.ml" 241 6771 6835 "log.ml" 241 6771 6839
+type(
+  string
+)
+"log.ml" 241 6771 6807 "log.ml" 241 6771 6840
+type(
+  string
+)
+"log.ml" 241 6771 6773 "log.ml" 241 6771 6840
+type(
+  unit
+)
+"log.ml" 236 6628 6630 "log.ml" 241 6771 6840
+type(
+  unit
+)
+"log.ml" 242 6841 6851 "log.ml" 242 6841 6852
+type(
+  stream_log
+)
+ident(
+  def s "log.ml" 242 6841 6856 "log.ml" 245 6921 6936
+)
+"log.ml" 242 6841 6844 "log.ml" 242 6841 6852
+type(
+  output
+)
+"log.ml" 243 6858 6871 "log.ml" 243 6858 6872
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"log.ml" 243 6858 6873 "log.ml" 243 6858 6874
+type(
+  stream_log
+)
+ident(
+  int_ref s "log.ml" 242 6841 6851 "log.ml" 242 6841 6852
+)
+"log.ml" 243 6858 6872 "log.ml" 243 6858 6883
+type(
+  out_channel option ref
+)
+"log.ml" 243 6858 6871 "log.ml" 243 6858 6883
+type(
+  out_channel option
+)
+"log.ml" 244 6889 6898 "log.ml" 244 6889 6899
+type(
+  out_channel
+)
+ident(
+  def c "log.ml" 244 6889 6903 "log.ml" 244 6889 6920
+)
+"log.ml" 244 6889 6893 "log.ml" 244 6889 6899
+type(
+  out_channel option
+)
+"log.ml" 244 6889 6903 "log.ml" 244 6889 6918
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref write_to_stream "log.ml" 226 6361 6366 "log.ml" 226 6361 6381
+)
+"log.ml" 244 6889 6919 "log.ml" 244 6889 6920
+type(
+  out_channel
+)
+ident(
+  int_ref c "log.ml" 244 6889 6898 "log.ml" 244 6889 6899
+)
+"log.ml" 244 6889 6903 "log.ml" 244 6889 6920
+type(
+  unit
+)
+"log.ml" 245 6921 6925 "log.ml" 245 6921 6929
+type(
+  out_channel option
+)
+"log.ml" 245 6921 6933 "log.ml" 245 6921 6935
+type(
+  unit
+)
+"log.ml" 242 6841 6856 "log.ml" 245 6921 6936
+type(
+  unit
+)
+"log.ml" 246 6937 6940 "log.ml" 246 6937 6943
+type(
+  output
+)
+"log.ml" 246 6937 6957 "log.ml" 246 6937 6959
+type(
+  unit
+)
+"log.ml" 247 6960 6970 "log.ml" 247 6960 6971
+type(
+  string list ref
+)
+ident(
+  def s "log.ml" 247 6960 6980 "log.ml" 247 6960 7014
+)
+"log.ml" 247 6960 6963 "log.ml" 247 6960 6971
+type(
+  output
+)
+"log.ml" 247 6960 6981 "log.ml" 247 6960 6982
+type(
+  string list ref
+)
+ident(
+  int_ref s "log.ml" 247 6960 6970 "log.ml" 247 6960 6971
+)
+"log.ml" 247 6960 6983 "log.ml" 247 6960 6985
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"log.ml" 247 6960 6987 "log.ml" 247 6960 7003
+type(
+  bool -> string
+)
+ident(
+  int_ref construct_string "log.ml" 213 5766 5772 "log.ml" 213 5766 5788
+)
+"log.ml" 247 6960 7004 "log.ml" 247 6960 7008
+type(
+  bool
+)
+"log.ml" 247 6960 6986 "log.ml" 247 6960 7009
+type(
+  string
+)
+"log.ml" 247 6960 7011 "log.ml" 247 6960 7012
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"log.ml" 247 6960 7012 "log.ml" 247 6960 7013
+type(
+  string list ref
+)
+ident(
+  int_ref s "log.ml" 247 6960 6970 "log.ml" 247 6960 6971
+)
+"log.ml" 247 6960 7011 "log.ml" 247 6960 7013
+type(
+  string list
+)
+"log.ml" 247 6960 6986 "log.ml" 247 6960 7013
+type(
+  string list
+)
+"log.ml" 247 6960 6980 "log.ml" 247 6960 7014
+type(
+  unit
+)
+"log.ml" 234 6587 6588 "log.ml" 247 6960 7014
+type(
+  unit
+)
+"log.ml" 233 6552 6553 "log.ml" 247 6960 7014
+type(
+  unit
+)
+"log.ml" 226 6361 6362 "log.ml" 247 6960 7014
+type(
+  unit
+)
+"log.ml" 213 5766 5768 "log.ml" 247 6960 7014
+type(
+  unit
+)
+"log.ml" 249 7016 7020 "log.ml" 249 7016 7023
+type(
+  t -> level -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def log "log.ml" 255 7312 7312 --
+)
+"log.ml" 249 7016 7024 "log.ml" 249 7016 7025
+type(
+  t
+)
+ident(
+  def t "log.ml" 249 7016 7026 "log.ml" 253 7240 7305
+)
+"log.ml" 249 7016 7026 "log.ml" 249 7016 7031
+type(
+  level
+)
+ident(
+  def level "log.ml" 249 7016 7032 "log.ml" 253 7240 7305
+)
+"log.ml" 249 7016 7033 "log.ml" 249 7016 7036
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "log.ml" 249 7016 7071 "log.ml" 253 7240 7305
+)
+"log.ml" 250 7078 7083 "log.ml" 250 7078 7084
+type(
+  bool
+)
+"log.ml" 250 7078 7088 "log.ml" 250 7078 7100
+type(
+  level -> int
+)
+ident(
+  int_ref int_of_level "log.ml" 36 993 997 "log.ml" 36 993 1009
+)
+"log.ml" 250 7078 7101 "log.ml" 250 7078 7102
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 249 7016 7024 "log.ml" 249 7016 7025
+)
+"log.ml" 250 7078 7101 "log.ml" 250 7078 7108
+type(
+  level
+)
+"log.ml" 250 7078 7087 "log.ml" 250 7078 7109
+type(
+  int
+)
+"log.ml" 250 7078 7110 "log.ml" 250 7078 7112
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"log.ml" 250 7078 7114 "log.ml" 250 7078 7126
+type(
+  level -> int
+)
+ident(
+  int_ref int_of_level "log.ml" 36 993 997 "log.ml" 36 993 1009
+)
+"log.ml" 250 7078 7127 "log.ml" 250 7078 7132
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 249 7016 7026 "log.ml" 249 7016 7031
+)
+"log.ml" 250 7078 7113 "log.ml" 250 7078 7133
+type(
+  int
+)
+"log.ml" 250 7078 7087 "log.ml" 250 7078 7133
+type(
+  bool
+)
+"log.ml" 253 7240 7241 "log.ml" 253 7240 7255
+type(
+  (string -> unit) -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Printf.kprintf
+)
+"log.ml" 253 7240 7260 "log.ml" 253 7240 7261
+type(
+  bool
+)
+ident(
+  int_ref b "log.ml" 250 7078 7083 "log.ml" 250 7078 7084
+)
+"log.ml" 253 7240 7267 "log.ml" 253 7240 7273
+type(
+  t -> ?key:string -> ?extra:string -> level -> string -> unit
+)
+ident(
+  int_ref output "log.ml" 212 5702 5706 "log.ml" 212 5702 5712
+)
+"log.ml" 253 7240 7274 "log.ml" 253 7240 7275
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 249 7016 7024 "log.ml" 249 7016 7025
+)
+"log.ml" 253 7240 7276 "log.ml" 253 7240 7281
+type(
+  level
+)
+ident(
+  int_ref level "log.ml" 249 7016 7026 "log.ml" 249 7016 7031
+)
+"log.ml" 253 7240 7267 "log.ml" 253 7240 7281
+type(
+  string -> unit
+)
+"log.ml" 253 7240 7292 "log.ml" 253 7240 7293
+type(
+  string
+)
+"log.ml" 253 7240 7297 "log.ml" 253 7240 7299
+type(
+  unit
+)
+"log.ml" 253 7240 7287 "log.ml" 253 7240 7300
+type(
+  string -> unit
+)
+"log.ml" 253 7240 7256 "log.ml" 253 7240 7301
+type(
+  string -> unit
+)
+"log.ml" 253 7240 7302 "log.ml" 253 7240 7305
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "log.ml" 249 7016 7033 "log.ml" 249 7016 7036
+)
+"log.ml" 253 7240 7241 "log.ml" 253 7240 7305
+type(
+  'a
+)
+"log.ml" 250 7078 7079 "log.ml" 253 7240 7305
+type(
+  'a
+)
+type(
+  'a
+)
+"log.ml" 255 7312 7316 "log.ml" 255 7312 7321
+type(
+  t -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def debug "log.ml" 256 7383 7383 --
+)
+"log.ml" 255 7312 7322 "log.ml" 255 7312 7323
+type(
+  t
+)
+ident(
+  def t "log.ml" 255 7312 7324 "log.ml" 255 7312 7382
+)
+"log.ml" 255 7312 7325 "log.ml" 255 7312 7328
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "log.ml" 255 7312 7367 "log.ml" 255 7312 7382
+)
+"log.ml" 255 7312 7367 "log.ml" 255 7312 7370
+type(
+  t -> level -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "log.ml" 249 7016 7020 "log.ml" 249 7016 7023
+)
+"log.ml" 255 7312 7371 "log.ml" 255 7312 7372
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 255 7312 7322 "log.ml" 255 7312 7323
+)
+"log.ml" 255 7312 7373 "log.ml" 255 7312 7378
+type(
+  level
+)
+"log.ml" 255 7312 7379 "log.ml" 255 7312 7382
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "log.ml" 255 7312 7325 "log.ml" 255 7312 7328
+)
+"log.ml" 255 7312 7367 "log.ml" 255 7312 7382
+type(
+  'a
+)
+"log.ml" 256 7383 7387 "log.ml" 256 7383 7391
+type(
+  t -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def info "log.ml" 257 7452 7452 --
+)
+"log.ml" 256 7383 7392 "log.ml" 256 7383 7393
+type(
+  t
+)
+ident(
+  def t "log.ml" 256 7383 7394 "log.ml" 256 7383 7451
+)
+"log.ml" 256 7383 7395 "log.ml" 256 7383 7398
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "log.ml" 256 7383 7437 "log.ml" 256 7383 7451
+)
+"log.ml" 256 7383 7437 "log.ml" 256 7383 7440
+type(
+  t -> level -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "log.ml" 249 7016 7020 "log.ml" 249 7016 7023
+)
+"log.ml" 256 7383 7441 "log.ml" 256 7383 7442
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 256 7383 7392 "log.ml" 256 7383 7393
+)
+"log.ml" 256 7383 7443 "log.ml" 256 7383 7447
+type(
+  level
+)
+"log.ml" 256 7383 7448 "log.ml" 256 7383 7451
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "log.ml" 256 7383 7395 "log.ml" 256 7383 7398
+)
+"log.ml" 256 7383 7437 "log.ml" 256 7383 7451
+type(
+  'a
+)
+"log.ml" 257 7452 7456 "log.ml" 257 7452 7460
+type(
+  t -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def warn "log.ml" 258 7521 7521 --
+)
+"log.ml" 257 7452 7461 "log.ml" 257 7452 7462
+type(
+  t
+)
+ident(
+  def t "log.ml" 257 7452 7463 "log.ml" 257 7452 7520
+)
+"log.ml" 257 7452 7464 "log.ml" 257 7452 7467
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "log.ml" 257 7452 7506 "log.ml" 257 7452 7520
+)
+"log.ml" 257 7452 7506 "log.ml" 257 7452 7509
+type(
+  t -> level -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "log.ml" 249 7016 7020 "log.ml" 249 7016 7023
+)
+"log.ml" 257 7452 7510 "log.ml" 257 7452 7511
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 257 7452 7461 "log.ml" 257 7452 7462
+)
+"log.ml" 257 7452 7512 "log.ml" 257 7452 7516
+type(
+  level
+)
+"log.ml" 257 7452 7517 "log.ml" 257 7452 7520
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "log.ml" 257 7452 7464 "log.ml" 257 7452 7467
+)
+"log.ml" 257 7452 7506 "log.ml" 257 7452 7520
+type(
+  'a
+)
+"log.ml" 258 7521 7525 "log.ml" 258 7521 7530
+type(
+  t -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def error "log.ml" 258 7521 7591 --
+)
+"log.ml" 258 7521 7531 "log.ml" 258 7521 7532
+type(
+  t
+)
+ident(
+  def t "log.ml" 258 7521 7533 "log.ml" 258 7521 7591
+)
+"log.ml" 258 7521 7534 "log.ml" 258 7521 7537
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "log.ml" 258 7521 7576 "log.ml" 258 7521 7591
+)
+"log.ml" 258 7521 7576 "log.ml" 258 7521 7579
+type(
+  t -> level -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  int_ref log "log.ml" 249 7016 7020 "log.ml" 249 7016 7023
+)
+"log.ml" 258 7521 7580 "log.ml" 258 7521 7581
+type(
+  t
+)
+ident(
+  int_ref t "log.ml" 258 7521 7531 "log.ml" 258 7521 7532
+)
+"log.ml" 258 7521 7582 "log.ml" 258 7521 7587
+type(
+  level
+)
+"log.ml" 258 7521 7588 "log.ml" 258 7521 7591
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "log.ml" 258 7521 7534 "log.ml" 258 7521 7537
+)
+"log.ml" 258 7521 7576 "log.ml" 258 7521 7591
+type(
+  'a
+)

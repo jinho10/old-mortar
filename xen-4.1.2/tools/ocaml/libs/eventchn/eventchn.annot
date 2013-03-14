@@ -1,0 +1,23 @@
+"eventchn.ml" 30 1248 1256 "eventchn.ml" 30 1248 1283
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"eventchn.ml" 30 1248 1284 "eventchn.ml" 30 1248 1300
+type(
+  string
+)
+"eventchn.ml" 30 1248 1308 "eventchn.ml" 30 1248 1327
+type(
+  string
+)
+"eventchn.ml" 30 1248 1301 "eventchn.ml" 30 1248 1328
+type(
+  exn
+)
+"eventchn.ml" 30 1248 1256 "eventchn.ml" 30 1248 1328
+type(
+  unit
+)

@@ -1,0 +1,5 @@
+version = "4.1"
+description = "Log - logging library"
+requires = "unix"
+archive(byte) = "log.cma"
+archive(native) = "log.cmxa"

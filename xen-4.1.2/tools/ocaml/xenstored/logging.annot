@@ -1,0 +1,3918 @@
+"logging.ml" 20 702 706 "logging.ml" 20 702 711
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def error "logging.ml" 21 743 743 --
+)
+"logging.ml" 20 702 712 "logging.ml" 20 702 715
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logging.ml" 20 702 718 "logging.ml" 20 702 742
+)
+"logging.ml" 20 702 718 "logging.ml" 20 702 728
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Logs.error
+)
+"logging.ml" 20 702 729 "logging.ml" 20 702 738
+type(
+  string
+)
+"logging.ml" 20 702 739 "logging.ml" 20 702 742
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logging.ml" 20 702 712 "logging.ml" 20 702 715
+)
+"logging.ml" 20 702 718 "logging.ml" 20 702 742
+type(
+  'a
+)
+"logging.ml" 21 743 747 "logging.ml" 21 743 751
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def info "logging.ml" 22 782 782 --
+)
+"logging.ml" 21 743 752 "logging.ml" 21 743 755
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logging.ml" 21 743 758 "logging.ml" 21 743 781
+)
+"logging.ml" 21 743 758 "logging.ml" 21 743 767
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Logs.info
+)
+"logging.ml" 21 743 768 "logging.ml" 21 743 777
+type(
+  string
+)
+"logging.ml" 21 743 778 "logging.ml" 21 743 781
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logging.ml" 21 743 752 "logging.ml" 21 743 755
+)
+"logging.ml" 21 743 758 "logging.ml" 21 743 781
+type(
+  'a
+)
+"logging.ml" 22 782 786 "logging.ml" 22 782 791
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def debug "logging.ml" 24 824 824 --
+)
+"logging.ml" 22 782 792 "logging.ml" 22 782 795
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "logging.ml" 22 782 798 "logging.ml" 22 782 822
+)
+"logging.ml" 22 782 798 "logging.ml" 22 782 808
+type(
+  string -> ?extra:string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Logs.debug
+)
+"logging.ml" 22 782 809 "logging.ml" 22 782 818
+type(
+  string
+)
+"logging.ml" 22 782 819 "logging.ml" 22 782 822
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "logging.ml" 22 782 792 "logging.ml" 22 782 795
+)
+"logging.ml" 22 782 798 "logging.ml" 22 782 822
+type(
+  'a
+)
+"logging.ml" 24 824 828 "logging.ml" 24 824 843
+type(
+  string ref
+)
+ident(
+  def access_log_file "logging.ml" 25 882 882 --
+)
+"logging.ml" 24 824 846 "logging.ml" 24 824 849
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 24 824 850 "logging.ml" 24 824 881
+type(
+  string
+)
+"logging.ml" 24 824 846 "logging.ml" 24 824 881
+type(
+  string ref
+)
+"logging.ml" 25 882 886 "logging.ml" 25 882 905
+type(
+  int ref
+)
+ident(
+  def access_log_nb_files "logging.ml" 26 915 915 --
+)
+"logging.ml" 25 882 908 "logging.ml" 25 882 911
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 25 882 912 "logging.ml" 25 882 914
+type(
+  int
+)
+"logging.ml" 25 882 908 "logging.ml" 25 882 914
+type(
+  int ref
+)
+"logging.ml" 26 915 919 "logging.ml" 26 915 938
+type(
+  int ref
+)
+ident(
+  def access_log_nb_lines "logging.ml" 27 951 951 --
+)
+"logging.ml" 26 915 941 "logging.ml" 26 915 944
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 26 915 945 "logging.ml" 26 915 950
+type(
+  int
+)
+"logging.ml" 26 915 941 "logging.ml" 26 915 950
+type(
+  int ref
+)
+"logging.ml" 27 951 955 "logging.ml" 27 951 974
+type(
+  bool ref
+)
+ident(
+  def activate_access_log "logging.ml" 30 1046 1046 --
+)
+"logging.ml" 27 951 977 "logging.ml" 27 951 980
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 27 951 981 "logging.ml" 27 951 985
+type(
+  bool
+)
+"logging.ml" 27 951 977 "logging.ml" 27 951 985
+type(
+  bool ref
+)
+"logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+type(
+  int
+)
+ident(
+  def line_size "logging.ml" 32 1067 1067 --
+)
+"logging.ml" 30 1046 1062 "logging.ml" 30 1046 1065
+type(
+  int
+)
+"logging.ml" 32 1067 1071 "logging.ml" 32 1067 1083
+type(
+  bool ref
+)
+ident(
+  def log_read_ops "logging.ml" 33 1096 1096 --
+)
+"logging.ml" 32 1067 1086 "logging.ml" 32 1067 1089
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 32 1067 1090 "logging.ml" 32 1067 1095
+type(
+  bool
+)
+"logging.ml" 32 1067 1086 "logging.ml" 32 1067 1095
+type(
+  bool ref
+)
+"logging.ml" 33 1096 1100 "logging.ml" 33 1096 1119
+type(
+  bool ref
+)
+ident(
+  def log_transaction_ops "logging.ml" 34 1132 1132 --
+)
+"logging.ml" 33 1096 1122 "logging.ml" 33 1096 1125
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 33 1096 1126 "logging.ml" 33 1096 1131
+type(
+  bool
+)
+"logging.ml" 33 1096 1122 "logging.ml" 33 1096 1131
+type(
+  bool ref
+)
+"logging.ml" 34 1132 1136 "logging.ml" 34 1132 1151
+type(
+  bool ref
+)
+ident(
+  def log_special_ops "logging.ml" 36 1165 1165 --
+)
+"logging.ml" 34 1132 1154 "logging.ml" 34 1132 1157
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 34 1132 1158 "logging.ml" 34 1132 1163
+type(
+  bool
+)
+"logging.ml" 34 1132 1154 "logging.ml" 34 1132 1163
+type(
+  bool ref
+)
+"logging.ml" 51 1403 1407 "logging.ml" 51 1403 1421
+type(
+  unit -> string
+)
+ident(
+  def string_of_date "logging.ml" 63 1727 1727 --
+)
+"logging.ml" 51 1403 1422 "logging.ml" 51 1403 1424
+type(
+  unit
+)
+"logging.ml" 52 1427 1432 "logging.ml" 52 1427 1436
+type(
+  float
+)
+"logging.ml" 52 1427 1439 "logging.ml" 52 1427 1456
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"logging.ml" 52 1427 1457 "logging.ml" 52 1427 1459
+type(
+  unit
+)
+"logging.ml" 52 1427 1439 "logging.ml" 52 1427 1459
+type(
+  float
+)
+"logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+type(
+  Unix.tm
+)
+"logging.ml" 53 1463 1473 "logging.ml" 53 1463 1487
+type(
+  float -> Unix.tm
+)
+ident(
+  ext_ref Unix.localtime
+)
+"logging.ml" 53 1463 1488 "logging.ml" 53 1463 1492
+type(
+  float
+)
+ident(
+  int_ref time "logging.ml" 52 1427 1432 "logging.ml" 52 1427 1436
+)
+"logging.ml" 53 1463 1473 "logging.ml" 53 1463 1492
+type(
+  Unix.tm
+)
+"logging.ml" 54 1496 1501 "logging.ml" 54 1496 1505
+type(
+  float
+)
+"logging.ml" 54 1496 1508 "logging.ml" 54 1496 1512
+type(
+  float
+)
+ident(
+  int_ref time "logging.ml" 52 1427 1432 "logging.ml" 52 1427 1436
+)
+"logging.ml" 54 1496 1513 "logging.ml" 54 1496 1515
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.-.
+)
+"logging.ml" 54 1496 1517 "logging.ml" 54 1496 1522
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.floor
+)
+"logging.ml" 54 1496 1523 "logging.ml" 54 1496 1527
+type(
+  float
+)
+ident(
+  int_ref time "logging.ml" 52 1427 1432 "logging.ml" 52 1427 1436
+)
+"logging.ml" 54 1496 1516 "logging.ml" 54 1496 1528
+type(
+  float
+)
+"logging.ml" 54 1496 1508 "logging.ml" 54 1496 1528
+type(
+  float
+)
+"logging.ml" 55 1532 1533 "logging.ml" 55 1532 1540
+type(
+  (int -> int -> int -> int -> int -> int -> int -> string, unit, string)
+  format -> int -> int -> int -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"logging.ml" 55 1532 1541 "logging.ml" 55 1532 1573
+type(
+  (int -> int -> int -> int -> int -> int -> int -> string, unit, string)
+  format
+)
+"logging.ml" 55 1532 1575 "logging.ml" 55 1532 1579
+type(
+  int
+)
+"logging.ml" 55 1532 1580 "logging.ml" 55 1532 1581
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"logging.ml" 55 1532 1582 "logging.ml" 55 1532 1584
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 55 1532 1582 "logging.ml" 55 1532 1597
+type(
+  int
+)
+"logging.ml" 55 1532 1574 "logging.ml" 55 1532 1598
+type(
+  int
+)
+"logging.ml" 56 1599 1602 "logging.ml" 56 1599 1604
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 56 1599 1602 "logging.ml" 56 1599 1616
+type(
+  int
+)
+"logging.ml" 56 1599 1617 "logging.ml" 56 1599 1618
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"logging.ml" 56 1599 1619 "logging.ml" 56 1599 1620
+type(
+  int
+)
+"logging.ml" 56 1599 1601 "logging.ml" 56 1599 1621
+type(
+  int
+)
+"logging.ml" 57 1622 1624 "logging.ml" 57 1622 1626
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 57 1622 1624 "logging.ml" 57 1622 1639
+type(
+  int
+)
+"logging.ml" 58 1640 1642 "logging.ml" 58 1640 1644
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 58 1640 1642 "logging.ml" 58 1640 1657
+type(
+  int
+)
+"logging.ml" 59 1658 1660 "logging.ml" 59 1658 1662
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 59 1658 1660 "logging.ml" 59 1658 1674
+type(
+  int
+)
+"logging.ml" 60 1675 1677 "logging.ml" 60 1675 1679
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "logging.ml" 53 1463 1468 "logging.ml" 53 1463 1470
+)
+"logging.ml" 60 1675 1677 "logging.ml" 60 1675 1691
+type(
+  int
+)
+"logging.ml" 61 1692 1695 "logging.ml" 61 1692 1707
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"logging.ml" 61 1692 1709 "logging.ml" 61 1692 1715
+type(
+  float
+)
+"logging.ml" 61 1692 1716 "logging.ml" 61 1692 1718
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.*.
+)
+"logging.ml" 61 1692 1719 "logging.ml" 61 1692 1723
+type(
+  float
+)
+ident(
+  int_ref msec "logging.ml" 54 1496 1501 "logging.ml" 54 1496 1505
+)
+"logging.ml" 61 1692 1708 "logging.ml" 61 1692 1724
+type(
+  float
+)
+"logging.ml" 61 1692 1694 "logging.ml" 61 1692 1725
+type(
+  int
+)
+"logging.ml" 55 1532 1533 "logging.ml" 61 1692 1725
+type(
+  string
+)
+"logging.ml" 54 1496 1497 "logging.ml" 61 1692 1725
+type(
+  string
+)
+"logging.ml" 53 1463 1464 "logging.ml" 61 1692 1725
+type(
+  string
+)
+"logging.ml" 52 1427 1428 "logging.ml" 61 1692 1725
+type(
+  string
+)
+"logging.ml" 63 1727 1731 "logging.ml" 63 1727 1746
+type(
+  int -> string -> string
+)
+ident(
+  def fill_with_space "logging.ml" 72 1873 1873 --
+)
+"logging.ml" 63 1727 1747 "logging.ml" 63 1727 1748
+type(
+  int
+)
+ident(
+  def n "logging.ml" 63 1727 1749 "logging.ml" 70 1868 1871
+)
+"logging.ml" 63 1727 1749 "logging.ml" 63 1727 1750
+type(
+  string
+)
+ident(
+  def s "logging.ml" 64 1753 1754 "logging.ml" 70 1868 1871
+)
+"logging.ml" 64 1753 1757 "logging.ml" 64 1753 1770
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"logging.ml" 64 1753 1771 "logging.ml" 64 1753 1772
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 63 1727 1749 "logging.ml" 63 1727 1750
+)
+"logging.ml" 64 1753 1757 "logging.ml" 64 1753 1772
+type(
+  int
+)
+"logging.ml" 64 1753 1773 "logging.ml" 64 1753 1774
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"logging.ml" 64 1753 1775 "logging.ml" 64 1753 1776
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 63 1727 1747 "logging.ml" 63 1727 1748
+)
+"logging.ml" 64 1753 1757 "logging.ml" 64 1753 1776
+type(
+  bool
+)
+"logging.ml" 66 1784 1790 "logging.ml" 66 1784 1791
+type(
+  string
+)
+ident(
+  def r "logging.ml" 67 1815 1817 "logging.ml" 68 1857 1860
+)
+"logging.ml" 66 1784 1794 "logging.ml" 66 1784 1805
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref Stdext.String.make
+)
+"logging.ml" 66 1784 1806 "logging.ml" 66 1784 1807
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 63 1727 1747 "logging.ml" 63 1727 1748
+)
+"logging.ml" 66 1784 1808 "logging.ml" 66 1784 1811
+type(
+  char
+)
+"logging.ml" 66 1784 1794 "logging.ml" 66 1784 1811
+type(
+  string
+)
+"logging.ml" 67 1815 1817 "logging.ml" 67 1815 1828
+type(
+  string -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Stdext.String.blit
+)
+"logging.ml" 67 1815 1829 "logging.ml" 67 1815 1830
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 63 1727 1749 "logging.ml" 63 1727 1750
+)
+"logging.ml" 67 1815 1831 "logging.ml" 67 1815 1832
+type(
+  int
+)
+"logging.ml" 67 1815 1834 "logging.ml" 67 1815 1835
+type(
+  string
+)
+ident(
+  int_ref r "logging.ml" 66 1784 1790 "logging.ml" 66 1784 1791
+)
+"logging.ml" 67 1815 1836 "logging.ml" 67 1815 1837
+type(
+  int
+)
+"logging.ml" 67 1815 1839 "logging.ml" 67 1815 1852
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"logging.ml" 67 1815 1853 "logging.ml" 67 1815 1854
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 63 1727 1749 "logging.ml" 63 1727 1750
+)
+"logging.ml" 67 1815 1838 "logging.ml" 67 1815 1855
+type(
+  int
+)
+"logging.ml" 67 1815 1817 "logging.ml" 67 1815 1855
+type(
+  unit
+)
+"logging.ml" 68 1857 1859 "logging.ml" 68 1857 1860
+type(
+  string
+)
+ident(
+  int_ref r "logging.ml" 66 1784 1790 "logging.ml" 66 1784 1791
+)
+"logging.ml" 67 1815 1817 "logging.ml" 68 1857 1860
+type(
+  string
+)
+"logging.ml" 66 1784 1786 "logging.ml" 68 1857 1860
+type(
+  string
+)
+"logging.ml" 70 1868 1870 "logging.ml" 70 1868 1871
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 63 1727 1749 "logging.ml" 63 1727 1750
+)
+"logging.ml" 64 1753 1754 "logging.ml" 70 1868 1871
+type(
+  string
+)
+"logging.ml" 72 1873 1877 "logging.ml" 72 1873 1890
+type(
+  con:string -> int -> string
+)
+ident(
+  def string_of_tid "logging.ml" 77 2010 2010 --
+)
+"logging.ml" 72 1873 1892 "logging.ml" 72 1873 1895
+type(
+  string
+)
+ident(
+  def con "logging.ml" 72 1873 1896 "logging.ml" 75 1958 2008
+)
+"logging.ml" 72 1873 1896 "logging.ml" 72 1873 1899
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 73 1902 1903 "logging.ml" 75 1958 2008
+)
+"logging.ml" 73 1902 1906 "logging.ml" 73 1902 1909
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 72 1873 1896 "logging.ml" 72 1873 1899
+)
+"logging.ml" 73 1902 1910 "logging.ml" 73 1902 1911
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logging.ml" 73 1902 1912 "logging.ml" 73 1902 1913
+type(
+  int
+)
+"logging.ml" 73 1902 1906 "logging.ml" 73 1902 1913
+type(
+  bool
+)
+"logging.ml" 74 1914 1920 "logging.ml" 74 1914 1935
+type(
+  int -> string -> string
+)
+ident(
+  int_ref fill_with_space "logging.ml" 63 1727 1731 "logging.ml" 63 1727 1746
+)
+"logging.ml" 74 1914 1936 "logging.ml" 74 1914 1938
+type(
+  int
+)
+"logging.ml" 74 1914 1940 "logging.ml" 74 1914 1947
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"logging.ml" 74 1914 1948 "logging.ml" 74 1914 1952
+type(
+  (string -> string, unit, string) format
+)
+"logging.ml" 74 1914 1953 "logging.ml" 74 1914 1956
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 72 1873 1892 "logging.ml" 72 1873 1895
+)
+"logging.ml" 74 1914 1939 "logging.ml" 74 1914 1957
+type(
+  string
+)
+"logging.ml" 74 1914 1920 "logging.ml" 74 1914 1957
+type(
+  string
+)
+"logging.ml" 75 1958 1964 "logging.ml" 75 1958 1979
+type(
+  int -> string -> string
+)
+ident(
+  int_ref fill_with_space "logging.ml" 63 1727 1731 "logging.ml" 63 1727 1746
+)
+"logging.ml" 75 1958 1980 "logging.ml" 75 1958 1982
+type(
+  int
+)
+"logging.ml" 75 1958 1984 "logging.ml" 75 1958 1991
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"logging.ml" 75 1958 1992 "logging.ml" 75 1958 1999
+type(
+  (string -> int -> string, unit, string) format
+)
+"logging.ml" 75 1958 2000 "logging.ml" 75 1958 2003
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 72 1873 1892 "logging.ml" 72 1873 1895
+)
+"logging.ml" 75 1958 2004 "logging.ml" 75 1958 2007
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 72 1873 1896 "logging.ml" 72 1873 1899
+)
+"logging.ml" 75 1958 1983 "logging.ml" 75 1958 2008
+type(
+  string
+)
+"logging.ml" 75 1958 1964 "logging.ml" 75 1958 2008
+type(
+  string
+)
+"logging.ml" 73 1902 1903 "logging.ml" 75 1958 2008
+type(
+  string
+)
+"logging.ml" 77 2010 2014 "logging.ml" 77 2010 2035
+type(
+  access_type -> string
+)
+ident(
+  def string_of_access_type "logging.ml" 115 3229 3229 --
+)
+"logging.ml" 78 2047 2050 "logging.ml" 78 2047 2058
+type(
+  access_type
+)
+"logging.ml" 78 2047 2077 "logging.ml" 78 2047 2088
+type(
+  string
+)
+"logging.ml" 79 2089 2092 "logging.ml" 79 2089 2100
+type(
+  access_type
+)
+"logging.ml" 79 2089 2119 "logging.ml" 79 2089 2130
+type(
+  string
+)
+"logging.ml" 80 2131 2134 "logging.ml" 80 2131 2140
+type(
+  access_type
+)
+"logging.ml" 80 2131 2161 "logging.ml" 80 2131 2172
+type(
+  string
+)
+"logging.ml" 81 2173 2176 "logging.ml" 81 2173 2183
+type(
+  access_type
+)
+"logging.ml" 81 2173 2203 "logging.ml" 81 2173 2214
+type(
+  string
+)
+"logging.ml" 82 2215 2218 "logging.ml" 82 2215 2225
+type(
+  access_type
+)
+"logging.ml" 82 2215 2245 "logging.ml" 82 2215 2256
+type(
+  string
+)
+"logging.ml" 84 2258 2266 "logging.ml" 84 2258 2268
+type(
+  Xb.Op.operation
+)
+ident(
+  def op "logging.ml" 84 2258 2272 "logging.ml" 113 3180 3227
+)
+"logging.ml" 84 2258 2261 "logging.ml" 84 2258 2268
+type(
+  access_type
+)
+"logging.ml" 84 2258 2278 "logging.ml" 84 2258 2280
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref op "logging.ml" 84 2258 2266 "logging.ml" 84 2258 2268
+)
+"logging.ml" 85 2286 2289 "logging.ml" 85 2286 2300
+type(
+  Xb.Op.operation
+)
+"logging.ml" 85 2286 2316 "logging.ml" 85 2286 2327
+type(
+  string
+)
+"logging.ml" 87 2329 2332 "logging.ml" 87 2329 2347
+type(
+  Xb.Op.operation
+)
+"logging.ml" 87 2329 2359 "logging.ml" 87 2329 2370
+type(
+  string
+)
+"logging.ml" 88 2371 2374 "logging.ml" 88 2371 2384
+type(
+  Xb.Op.operation
+)
+"logging.ml" 88 2371 2401 "logging.ml" 88 2371 2412
+type(
+  string
+)
+"logging.ml" 89 2413 2416 "logging.ml" 89 2413 2430
+type(
+  Xb.Op.operation
+)
+"logging.ml" 89 2413 2443 "logging.ml" 89 2413 2454
+type(
+  string
+)
+"logging.ml" 91 2456 2459 "logging.ml" 91 2456 2470
+type(
+  Xb.Op.operation
+)
+"logging.ml" 91 2456 2486 "logging.ml" 91 2456 2497
+type(
+  string
+)
+"logging.ml" 92 2498 2501 "logging.ml" 92 2498 2514
+type(
+  Xb.Op.operation
+)
+"logging.ml" 92 2498 2528 "logging.ml" 92 2498 2539
+type(
+  string
+)
+"logging.ml" 94 2541 2544 "logging.ml" 94 2541 2567
+type(
+  Xb.Op.operation
+)
+"logging.ml" 94 2541 2571 "logging.ml" 94 2541 2582
+type(
+  string
+)
+"logging.ml" 95 2583 2586 "logging.ml" 95 2583 2607
+type(
+  Xb.Op.operation
+)
+"logging.ml" 95 2583 2613 "logging.ml" 95 2583 2624
+type(
+  string
+)
+"logging.ml" 97 2626 2629 "logging.ml" 97 2626 2644
+type(
+  Xb.Op.operation
+)
+"logging.ml" 97 2626 2656 "logging.ml" 97 2626 2667
+type(
+  string
+)
+"logging.ml" 98 2668 2671 "logging.ml" 98 2668 2684
+type(
+  Xb.Op.operation
+)
+"logging.ml" 98 2668 2698 "logging.ml" 98 2668 2709
+type(
+  string
+)
+"logging.ml" 99 2710 2713 "logging.ml" 99 2710 2732
+type(
+  Xb.Op.operation
+)
+"logging.ml" 99 2710 2740 "logging.ml" 99 2710 2751
+type(
+  string
+)
+"logging.ml" 100 2752 2755 "logging.ml" 100 2752 2773
+type(
+  Xb.Op.operation
+)
+"logging.ml" 100 2752 2782 "logging.ml" 100 2752 2797
+type(
+  string
+)
+"logging.ml" 101 2798 2801 "logging.ml" 101 2798 2813
+type(
+  Xb.Op.operation
+)
+"logging.ml" 101 2798 2828 "logging.ml" 101 2798 2839
+type(
+  string
+)
+"logging.ml" 103 2842 2845 "logging.ml" 103 2842 2856
+type(
+  Xb.Op.operation
+)
+"logging.ml" 103 2842 2872 "logging.ml" 103 2842 2883
+type(
+  string
+)
+"logging.ml" 104 2884 2887 "logging.ml" 104 2884 2898
+type(
+  Xb.Op.operation
+)
+"logging.ml" 104 2884 2914 "logging.ml" 104 2884 2925
+type(
+  string
+)
+"logging.ml" 105 2926 2929 "logging.ml" 105 2926 2937
+type(
+  Xb.Op.operation
+)
+"logging.ml" 105 2926 2956 "logging.ml" 105 2926 2967
+type(
+  string
+)
+"logging.ml" 106 2968 2971 "logging.ml" 106 2968 2985
+type(
+  Xb.Op.operation
+)
+"logging.ml" 106 2968 2998 "logging.ml" 106 2968 3009
+type(
+  string
+)
+"logging.ml" 107 3010 3013 "logging.ml" 107 3010 3027
+type(
+  Xb.Op.operation
+)
+"logging.ml" 107 3010 3040 "logging.ml" 107 3010 3051
+type(
+  string
+)
+"logging.ml" 108 3052 3055 "logging.ml" 108 3052 3071
+type(
+  Xb.Op.operation
+)
+"logging.ml" 108 3052 3082 "logging.ml" 108 3052 3093
+type(
+  string
+)
+"logging.ml" 110 3095 3098 "logging.ml" 110 3095 3109
+type(
+  Xb.Op.operation
+)
+"logging.ml" 110 3095 3125 "logging.ml" 110 3095 3136
+type(
+  string
+)
+"logging.ml" 111 3137 3140 "logging.ml" 111 3137 3156
+type(
+  Xb.Op.operation
+)
+"logging.ml" 111 3137 3167 "logging.ml" 111 3137 3178
+type(
+  string
+)
+"logging.ml" 113 3180 3183 "logging.ml" 113 3180 3184
+type(
+  Xb.Op.operation
+)
+ident(
+  def x "logging.ml" 113 3180 3210 "logging.ml" 113 3180 3227
+)
+"logging.ml" 113 3180 3210 "logging.ml" 113 3180 3225
+type(
+  Xb.Op.operation -> string
+)
+ident(
+  ext_ref Xb.Op.to_string
+)
+"logging.ml" 113 3180 3226 "logging.ml" 113 3180 3227
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref x "logging.ml" 113 3180 3183 "logging.ml" 113 3180 3184
+)
+"logging.ml" 113 3180 3210 "logging.ml" 113 3180 3227
+type(
+  string
+)
+"logging.ml" 84 2258 2272 "logging.ml" 113 3180 3227
+type(
+  string
+)
+"logging.ml" 77 2010 2038 "logging.ml" 113 3180 3227
+type(
+  access_type -> string
+)
+"logging.ml" 115 3229 3233 "logging.ml" 115 3229 3244
+type(
+  string -> bool
+)
+ident(
+  def file_exists "logging.ml" 122 3341 3341 --
+)
+"logging.ml" 115 3229 3245 "logging.ml" 115 3229 3249
+type(
+  string
+)
+ident(
+  def file "logging.ml" 116 3252 3253 "logging.ml" 120 3332 3339
+)
+"logging.ml" 117 3257 3259 "logging.ml" 117 3257 3269
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"logging.ml" 117 3257 3271 "logging.ml" 117 3257 3284
+type(
+  string -> Unix.open_flag list -> Unix.file_perm -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.openfile
+)
+"logging.ml" 117 3257 3285 "logging.ml" 117 3257 3289
+type(
+  string
+)
+ident(
+  int_ref file "logging.ml" 115 3229 3245 "logging.ml" 115 3229 3249
+)
+"logging.ml" 117 3257 3291 "logging.ml" 117 3257 3304
+type(
+  Unix.open_flag
+)
+"logging.ml" 117 3257 3290 "logging.ml" 117 3257 3305
+type(
+  Unix.open_flag list
+)
+"logging.ml" 117 3257 3306 "logging.ml" 117 3257 3311
+type(
+  Unix.file_perm
+)
+"logging.ml" 117 3257 3270 "logging.ml" 117 3257 3312
+type(
+  Unix.file_descr
+)
+"logging.ml" 117 3257 3259 "logging.ml" 117 3257 3312
+type(
+  unit
+)
+"logging.ml" 118 3314 3316 "logging.ml" 118 3314 3320
+type(
+  bool
+)
+"logging.ml" 117 3257 3259 "logging.ml" 118 3314 3320
+type(
+  bool
+)
+"logging.ml" 119 3321 3327 "logging.ml" 119 3321 3328
+type(
+  exn
+)
+"logging.ml" 120 3332 3334 "logging.ml" 120 3332 3339
+type(
+  bool
+)
+"logging.ml" 116 3252 3253 "logging.ml" 120 3332 3339
+type(
+  bool
+)
+"logging.ml" 122 3341 3345 "logging.ml" 122 3341 3355
+type(
+  out_channel ref -> unit
+)
+ident(
+  def log_rotate "logging.ml" 148 3915 3915 --
+)
+"logging.ml" 122 3341 3356 "logging.ml" 122 3341 3358
+type(
+  out_channel ref
+)
+ident(
+  def fd "logging.ml" 123 3361 3362 "logging.ml" 146 3881 3913
+)
+"logging.ml" 123 3361 3366 "logging.ml" 123 3361 3370
+type(
+  int -> string
+)
+"logging.ml" 123 3361 3371 "logging.ml" 123 3361 3372
+type(
+  int
+)
+ident(
+  def n "logging.ml" 123 3361 3375 "logging.ml" 123 3361 3409
+)
+"logging.ml" 123 3361 3375 "logging.ml" 123 3361 3382
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"logging.ml" 123 3361 3383 "logging.ml" 123 3361 3390
+type(
+  (string -> int -> string, unit, string) format
+)
+"logging.ml" 123 3361 3391 "logging.ml" 123 3361 3392
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 123 3361 3392 "logging.ml" 123 3361 3407
+type(
+  string ref
+)
+ident(
+  int_ref access_log_file "logging.ml" 24 824 828 "logging.ml" 24 824 843
+)
+"logging.ml" 123 3361 3391 "logging.ml" 123 3361 3407
+type(
+  string
+)
+"logging.ml" 123 3361 3408 "logging.ml" 123 3361 3409
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 123 3361 3371 "logging.ml" 123 3361 3372
+)
+"logging.ml" 123 3361 3375 "logging.ml" 123 3361 3409
+type(
+  string
+)
+"logging.ml" 124 3413 3418 "logging.ml" 124 3413 3427
+type(
+  (string * int) list
+)
+"logging.ml" 125 3430 3440 "logging.ml" 125 3430 3443
+type(
+  (string * int) list -> int -> (string * int) list
+)
+"logging.ml" 125 3430 3444 "logging.ml" 125 3430 3448
+type(
+  (string * int) list
+)
+ident(
+  def accu "logging.ml" 125 3430 3449 "logging.ml" 134 3681 3694
+)
+"logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+type(
+  int
+)
+ident(
+  def n "logging.ml" 126 3453 3456 "logging.ml" 134 3681 3694
+)
+"logging.ml" 126 3453 3459 "logging.ml" 126 3453 3460
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+)
+"logging.ml" 126 3453 3461 "logging.ml" 126 3453 3463
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"logging.ml" 126 3453 3464 "logging.ml" 126 3453 3465
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 126 3453 3465 "logging.ml" 126 3453 3484
+type(
+  int ref
+)
+ident(
+  int_ref access_log_nb_files "logging.ml" 25 882 886 "logging.ml" 25 882 905
+)
+"logging.ml" 126 3453 3464 "logging.ml" 126 3453 3484
+type(
+  int
+)
+"logging.ml" 126 3453 3459 "logging.ml" 126 3453 3484
+type(
+  bool
+)
+"logging.ml" 127 3485 3493 "logging.ml" 127 3485 3497
+type(
+  (string * int) list
+)
+ident(
+  int_ref accu "logging.ml" 125 3430 3444 "logging.ml" 125 3430 3448
+)
+"logging.ml" 128 3498 3509 "logging.ml" 128 3498 3510
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+)
+"logging.ml" 128 3498 3511 "logging.ml" 128 3498 3512
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logging.ml" 128 3498 3513 "logging.ml" 128 3498 3514
+type(
+  int
+)
+"logging.ml" 128 3498 3509 "logging.ml" 128 3498 3514
+type(
+  bool
+)
+"logging.ml" 128 3498 3515 "logging.ml" 128 3498 3517
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"logging.ml" 128 3498 3518 "logging.ml" 128 3498 3529
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "logging.ml" 115 3229 3233 "logging.ml" 115 3229 3244
+)
+"logging.ml" 128 3498 3530 "logging.ml" 128 3498 3531
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 128 3498 3531 "logging.ml" 128 3498 3546
+type(
+  string ref
+)
+ident(
+  int_ref access_log_file "logging.ml" 24 824 828 "logging.ml" 24 824 843
+)
+"logging.ml" 128 3498 3530 "logging.ml" 128 3498 3546
+type(
+  string
+)
+"logging.ml" 128 3498 3518 "logging.ml" 128 3498 3546
+type(
+  bool
+)
+"logging.ml" 128 3498 3509 "logging.ml" 128 3498 3546
+type(
+  bool
+)
+"logging.ml" 129 3547 3555 "logging.ml" 129 3547 3558
+type(
+  (string * int) list -> int -> (string * int) list
+)
+ident(
+  int_ref aux "logging.ml" 125 3430 3440 "logging.ml" 125 3430 3443
+)
+"logging.ml" 129 3547 3560 "logging.ml" 129 3547 3561
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 129 3547 3561 "logging.ml" 129 3547 3576
+type(
+  string ref
+)
+ident(
+  int_ref access_log_file "logging.ml" 24 824 828 "logging.ml" 24 824 843
+)
+"logging.ml" 129 3547 3560 "logging.ml" 129 3547 3576
+type(
+  string
+)
+"logging.ml" 129 3547 3577 "logging.ml" 129 3547 3578
+type(
+  int
+)
+"logging.ml" 129 3547 3560 "logging.ml" 129 3547 3578
+type(
+  string * int
+)
+"logging.ml" 129 3547 3559 "logging.ml" 129 3547 3579
+type(
+  (string * int) list
+)
+"logging.ml" 129 3547 3580 "logging.ml" 129 3547 3581
+type(
+  int
+)
+"logging.ml" 129 3547 3555 "logging.ml" 129 3547 3581
+type(
+  (string * int) list
+)
+"logging.ml" 131 3590 3598 "logging.ml" 131 3590 3602
+type(
+  string
+)
+"logging.ml" 131 3590 3605 "logging.ml" 131 3590 3609
+type(
+  int -> string
+)
+ident(
+  int_ref file "logging.ml" 123 3361 3366 "logging.ml" 123 3361 3370
+)
+"logging.ml" 131 3590 3611 "logging.ml" 131 3590 3612
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+)
+"logging.ml" 131 3590 3612 "logging.ml" 131 3590 3613
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"logging.ml" 131 3590 3613 "logging.ml" 131 3590 3614
+type(
+  int
+)
+"logging.ml" 131 3590 3610 "logging.ml" 131 3590 3615
+type(
+  int
+)
+"logging.ml" 131 3590 3605 "logging.ml" 131 3590 3615
+type(
+  string
+)
+"logging.ml" 132 3619 3626 "logging.ml" 132 3619 3637
+type(
+  string -> bool
+)
+ident(
+  int_ref file_exists "logging.ml" 115 3229 3233 "logging.ml" 115 3229 3244
+)
+"logging.ml" 132 3619 3638 "logging.ml" 132 3619 3642
+type(
+  string
+)
+ident(
+  int_ref file "logging.ml" 131 3590 3598 "logging.ml" 131 3590 3602
+)
+"logging.ml" 132 3619 3626 "logging.ml" 132 3619 3642
+type(
+  bool
+)
+"logging.ml" 133 3643 3652 "logging.ml" 133 3643 3655
+type(
+  (string * int) list -> int -> (string * int) list
+)
+ident(
+  int_ref aux "logging.ml" 125 3430 3440 "logging.ml" 125 3430 3443
+)
+"logging.ml" 133 3643 3658 "logging.ml" 133 3643 3662
+type(
+  string
+)
+ident(
+  int_ref file "logging.ml" 131 3590 3598 "logging.ml" 131 3590 3602
+)
+"logging.ml" 133 3643 3663 "logging.ml" 133 3643 3664
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+)
+"logging.ml" 133 3643 3657 "logging.ml" 133 3643 3665
+type(
+  string * int
+)
+"logging.ml" 133 3643 3669 "logging.ml" 133 3643 3673
+type(
+  (string * int) list
+)
+ident(
+  int_ref accu "logging.ml" 125 3430 3444 "logging.ml" 125 3430 3448
+)
+"logging.ml" 133 3643 3656 "logging.ml" 133 3643 3674
+type(
+  (string * int) list
+)
+"logging.ml" 133 3643 3676 "logging.ml" 133 3643 3677
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 125 3430 3449 "logging.ml" 125 3430 3450
+)
+"logging.ml" 133 3643 3677 "logging.ml" 133 3643 3678
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"logging.ml" 133 3643 3678 "logging.ml" 133 3643 3679
+type(
+  int
+)
+"logging.ml" 133 3643 3675 "logging.ml" 133 3643 3680
+type(
+  int
+)
+"logging.ml" 133 3643 3652 "logging.ml" 133 3643 3680
+type(
+  (string * int) list
+)
+"logging.ml" 134 3681 3690 "logging.ml" 134 3681 3694
+type(
+  (string * int) list
+)
+ident(
+  int_ref accu "logging.ml" 125 3430 3444 "logging.ml" 125 3430 3448
+)
+"logging.ml" 132 3619 3623 "logging.ml" 134 3681 3694
+type(
+  (string * int) list
+)
+"logging.ml" 131 3590 3594 "logging.ml" 134 3681 3694
+type(
+  (string * int) list
+)
+"logging.ml" 128 3498 3506 "logging.ml" 134 3681 3694
+type(
+  (string * int) list
+)
+"logging.ml" 126 3453 3456 "logging.ml" 134 3681 3694
+type(
+  (string * int) list
+)
+"logging.ml" 136 3700 3702 "logging.ml" 136 3700 3705
+type(
+  (string * int) list -> int -> (string * int) list
+)
+ident(
+  int_ref aux "logging.ml" 125 3430 3440 "logging.ml" 125 3430 3443
+)
+"logging.ml" 136 3700 3706 "logging.ml" 136 3700 3708
+type(
+  (string * int) list
+)
+"logging.ml" 136 3700 3709 "logging.ml" 136 3700 3710
+type(
+  int
+)
+"logging.ml" 136 3700 3702 "logging.ml" 136 3700 3710
+type(
+  (string * int) list
+)
+"logging.ml" 125 3430 3432 "logging.ml" 136 3700 3710
+type(
+  (string * int) list
+)
+"logging.ml" 138 3715 3724 "logging.ml" 138 3715 3730
+type(
+  (string * int) list -> unit
+)
+"logging.ml" 139 3742 3747 "logging.ml" 139 3742 3748
+type(
+  string
+)
+ident(
+  def f "logging.ml" 139 3742 3757 "logging.ml" 141 3818 3829
+)
+"logging.ml" 139 3742 3749 "logging.ml" 139 3742 3750
+type(
+  int
+)
+ident(
+  def n "logging.ml" 139 3742 3757 "logging.ml" 141 3818 3829
+)
+"logging.ml" 139 3742 3746 "logging.ml" 139 3742 3751
+type(
+  string * int
+)
+"logging.ml" 139 3742 3755 "logging.ml" 139 3742 3756
+type(
+  (string * int) list
+)
+ident(
+  def t "logging.ml" 139 3742 3757 "logging.ml" 141 3818 3829
+)
+"logging.ml" 139 3742 3746 "logging.ml" 139 3742 3756
+type(
+  (string * int) list
+)
+"logging.ml" 139 3742 3762 "logging.ml" 139 3742 3763
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 139 3742 3749 "logging.ml" 139 3742 3750
+)
+"logging.ml" 139 3742 3764 "logging.ml" 139 3742 3765
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"logging.ml" 139 3742 3766 "logging.ml" 139 3742 3767
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 139 3742 3767 "logging.ml" 139 3742 3786
+type(
+  int ref
+)
+ident(
+  int_ref access_log_nb_files "logging.ml" 25 882 886 "logging.ml" 25 882 905
+)
+"logging.ml" 139 3742 3766 "logging.ml" 139 3742 3786
+type(
+  int
+)
+"logging.ml" 139 3742 3762 "logging.ml" 139 3742 3786
+type(
+  bool
+)
+"logging.ml" 140 3791 3794 "logging.ml" 140 3791 3805
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Unix.rename
+)
+"logging.ml" 140 3791 3806 "logging.ml" 140 3791 3807
+type(
+  string
+)
+ident(
+  int_ref f "logging.ml" 139 3742 3747 "logging.ml" 139 3742 3748
+)
+"logging.ml" 140 3791 3809 "logging.ml" 140 3791 3813
+type(
+  int -> string
+)
+ident(
+  int_ref file "logging.ml" 123 3361 3366 "logging.ml" 123 3361 3370
+)
+"logging.ml" 140 3791 3814 "logging.ml" 140 3791 3815
+type(
+  int
+)
+ident(
+  int_ref n "logging.ml" 139 3742 3749 "logging.ml" 139 3742 3750
+)
+"logging.ml" 140 3791 3808 "logging.ml" 140 3791 3816
+type(
+  string
+)
+"logging.ml" 140 3791 3794 "logging.ml" 140 3791 3816
+type(
+  unit
+)
+"logging.ml" 141 3818 3821 "logging.ml" 141 3818 3827
+type(
+  (string * int) list -> unit
+)
+ident(
+  int_ref rename "logging.ml" 138 3715 3724 "logging.ml" 138 3715 3730
+)
+"logging.ml" 141 3818 3828 "logging.ml" 141 3818 3829
+type(
+  (string * int) list
+)
+ident(
+  int_ref t "logging.ml" 139 3742 3755 "logging.ml" 139 3742 3756
+)
+"logging.ml" 141 3818 3821 "logging.ml" 141 3818 3829
+type(
+  unit
+)
+"logging.ml" 140 3791 3794 "logging.ml" 141 3818 3829
+type(
+  unit
+)
+"logging.ml" 139 3742 3757 "logging.ml" 141 3818 3829
+type(
+  unit
+)
+"logging.ml" 142 3830 3834 "logging.ml" 142 3830 3835
+type(
+  (string * int) list
+)
+"logging.ml" 142 3830 3839 "logging.ml" 142 3830 3841
+type(
+  unit
+)
+"logging.ml" 138 3715 3733 "logging.ml" 142 3830 3841
+type(
+  (string * int) list -> unit
+)
+"logging.ml" 144 3846 3847 "logging.ml" 144 3846 3853
+type(
+  (string * int) list -> unit
+)
+ident(
+  int_ref rename "logging.ml" 138 3715 3724 "logging.ml" 138 3715 3730
+)
+"logging.ml" 144 3846 3854 "logging.ml" 144 3846 3863
+type(
+  (string * int) list
+)
+ident(
+  int_ref log_files "logging.ml" 124 3413 3418 "logging.ml" 124 3413 3427
+)
+"logging.ml" 144 3846 3847 "logging.ml" 144 3846 3863
+type(
+  unit
+)
+"logging.ml" 145 3865 3866 "logging.ml" 145 3865 3875
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"logging.ml" 145 3865 3876 "logging.ml" 145 3865 3877
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 145 3865 3877 "logging.ml" 145 3865 3879
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 122 3341 3356 "logging.ml" 122 3341 3358
+)
+"logging.ml" 145 3865 3876 "logging.ml" 145 3865 3879
+type(
+  out_channel
+)
+"logging.ml" 145 3865 3866 "logging.ml" 145 3865 3879
+type(
+  unit
+)
+"logging.ml" 146 3881 3882 "logging.ml" 146 3881 3884
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 122 3341 3356 "logging.ml" 122 3341 3358
+)
+"logging.ml" 146 3881 3885 "logging.ml" 146 3881 3887
+type(
+  out_channel ref -> out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logging.ml" 146 3881 3888 "logging.ml" 146 3881 3896
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"logging.ml" 146 3881 3897 "logging.ml" 146 3881 3898
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 146 3881 3898 "logging.ml" 146 3881 3913
+type(
+  string ref
+)
+ident(
+  int_ref access_log_file "logging.ml" 24 824 828 "logging.ml" 24 824 843
+)
+"logging.ml" 146 3881 3897 "logging.ml" 146 3881 3913
+type(
+  string
+)
+"logging.ml" 146 3881 3888 "logging.ml" 146 3881 3913
+type(
+  out_channel
+)
+"logging.ml" 146 3881 3882 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 145 3865 3866 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 144 3846 3847 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 138 3715 3716 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 124 3413 3414 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 123 3361 3362 "logging.ml" 146 3881 3913
+type(
+  unit
+)
+"logging.ml" 148 3915 3919 "logging.ml" 148 3915 3932
+type(
+  string -> string
+)
+ident(
+  def sanitize_data "logging.ml" 157 4089 4089 --
+)
+"logging.ml" 148 3915 3933 "logging.ml" 148 3915 3937
+type(
+  string
+)
+ident(
+  def data "logging.ml" 149 3940 3941 "logging.ml" 155 4067 4087
+)
+"logging.ml" 149 3940 3945 "logging.ml" 149 3940 3949
+type(
+  string
+)
+"logging.ml" 149 3940 3952 "logging.ml" 149 3940 3963
+type(
+  string -> string
+)
+ident(
+  ext_ref Stdext.String.copy
+)
+"logging.ml" 149 3940 3964 "logging.ml" 149 3940 3968
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 148 3915 3933 "logging.ml" 148 3915 3937
+)
+"logging.ml" 149 3940 3952 "logging.ml" 149 3940 3968
+type(
+  string
+)
+"logging.ml" 150 3972 3981 "logging.ml" 150 3972 3982
+type(
+  int
+)
+"logging.ml" 150 3972 3986 "logging.ml" 150 3972 3999
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"logging.ml" 150 3972 4000 "logging.ml" 150 3972 4004
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 149 3940 3945 "logging.ml" 149 3940 3949
+)
+"logging.ml" 150 3972 3986 "logging.ml" 150 3972 4004
+type(
+  int
+)
+"logging.ml" 150 3972 4005 "logging.ml" 150 3972 4006
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"logging.ml" 150 3972 4007 "logging.ml" 150 3972 4008
+type(
+  int
+)
+"logging.ml" 150 3972 3986 "logging.ml" 150 3972 4008
+type(
+  int
+)
+"logging.ml" 152 4013 4018 "logging.ml" 152 4013 4022
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 149 3940 3945 "logging.ml" 149 3940 3949
+)
+"logging.ml" 152 4013 4024 "logging.ml" 152 4013 4025
+type(
+  int
+)
+"logging.ml" 152 4013 4018 "logging.ml" 152 4013 4026
+type(
+  char
+)
+"logging.ml" 152 4013 4027 "logging.ml" 152 4013 4028
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logging.ml" 152 4013 4029 "logging.ml" 152 4013 4035
+type(
+  char
+)
+"logging.ml" 152 4013 4018 "logging.ml" 152 4013 4035
+type(
+  bool
+)
+"logging.ml" 153 4041 4044 "logging.ml" 153 4041 4048
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 149 3940 3945 "logging.ml" 149 3940 3949
+)
+"logging.ml" 153 4041 4050 "logging.ml" 153 4041 4051
+type(
+  int
+)
+"logging.ml" 153 4041 4056 "logging.ml" 153 4041 4059
+type(
+  char
+)
+"logging.ml" 153 4041 4044 "logging.ml" 153 4041 4059
+type(
+  unit
+)
+"logging.ml" 152 4013 4015 "logging.ml" 153 4041 4059
+type(
+  unit
+)
+"logging.ml" 150 3972 3973 "logging.ml" 154 4060 4065
+type(
+  unit
+)
+"logging.ml" 155 4067 4068 "logging.ml" 155 4067 4082
+type(
+  string -> string
+)
+ident(
+  ext_ref Stdext.String.escaped
+)
+"logging.ml" 155 4067 4083 "logging.ml" 155 4067 4087
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 149 3940 3945 "logging.ml" 149 3940 3949
+)
+"logging.ml" 155 4067 4068 "logging.ml" 155 4067 4087
+type(
+  string
+)
+"logging.ml" 150 3972 3973 "logging.ml" 155 4067 4087
+type(
+  string
+)
+"logging.ml" 149 3940 3941 "logging.ml" 155 4067 4087
+type(
+  string
+)
+"logging.ml" 157 4089 4093 "logging.ml" 157 4089 4097
+type(
+  (unit -> 'a) -> access
+)
+ident(
+  def make "logging.ml" 191 4994 4994 --
+)
+"logging.ml" 157 4089 4098 "logging.ml" 157 4089 4110
+type(
+  unit -> 'a
+)
+ident(
+  def save_to_disk "logging.ml" 158 4113 4114 "logging.ml" 189 4990 4992
+)
+"logging.ml" 158 4113 4118 "logging.ml" 158 4113 4120
+type(
+  out_channel ref
+)
+"logging.ml" 158 4113 4123 "logging.ml" 158 4113 4126
+type(
+  out_channel -> out_channel ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 158 4113 4128 "logging.ml" 158 4113 4140
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"logging.ml" 158 4113 4142 "logging.ml" 158 4113 4153
+type(
+  open_flag
+)
+"logging.ml" 158 4113 4155 "logging.ml" 158 4113 4165
+type(
+  open_flag
+)
+"logging.ml" 158 4113 4141 "logging.ml" 158 4113 4166
+type(
+  open_flag list
+)
+"logging.ml" 158 4113 4167 "logging.ml" 158 4113 4172
+type(
+  int
+)
+"logging.ml" 158 4113 4173 "logging.ml" 158 4113 4174
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 158 4113 4174 "logging.ml" 158 4113 4189
+type(
+  string ref
+)
+ident(
+  int_ref access_log_file "logging.ml" 24 824 828 "logging.ml" 24 824 843
+)
+"logging.ml" 158 4113 4173 "logging.ml" 158 4113 4189
+type(
+  string
+)
+"logging.ml" 158 4113 4127 "logging.ml" 158 4113 4190
+type(
+  out_channel
+)
+"logging.ml" 158 4113 4123 "logging.ml" 158 4113 4190
+type(
+  out_channel ref
+)
+"logging.ml" 159 4194 4199 "logging.ml" 159 4194 4206
+type(
+  int ref
+)
+"logging.ml" 159 4194 4209 "logging.ml" 159 4194 4212
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 159 4194 4213 "logging.ml" 159 4194 4214
+type(
+  int
+)
+"logging.ml" 159 4194 4209 "logging.ml" 159 4194 4214
+type(
+  int ref
+)
+"logging.ml" 161 4221 4228 "logging.ml" 161 4221 4230
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 158 4113 4118 "logging.ml" 158 4113 4120
+)
+"logging.ml" 162 4232 4244 "logging.ml" 162 4232 4251
+type(
+  int ref
+)
+ident(
+  int_ref counter "logging.ml" 159 4194 4199 "logging.ml" 159 4194 4206
+)
+"logging.ml" 164 4264 4270 "logging.ml" 164 4264 4273
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"logging.ml" 164 4264 4274 "logging.ml" 164 4264 4275
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 164 4264 4275 "logging.ml" 164 4264 4294
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "logging.ml" 27 951 955 "logging.ml" 27 951 974
+)
+"logging.ml" 164 4264 4274 "logging.ml" 164 4264 4294
+type(
+  bool
+)
+"logging.ml" 164 4264 4270 "logging.ml" 164 4264 4294
+type(
+  bool
+)
+"logging.ml" 164 4264 4295 "logging.ml" 164 4264 4297
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"logging.ml" 164 4264 4298 "logging.ml" 164 4264 4299
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 164 4264 4299 "logging.ml" 164 4264 4318
+type(
+  int ref
+)
+ident(
+  int_ref access_log_nb_files "logging.ml" 25 882 886 "logging.ml" 25 882 905
+)
+"logging.ml" 164 4264 4298 "logging.ml" 164 4264 4318
+type(
+  int
+)
+"logging.ml" 164 4264 4319 "logging.ml" 164 4264 4320
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logging.ml" 164 4264 4321 "logging.ml" 164 4264 4322
+type(
+  int
+)
+"logging.ml" 164 4264 4298 "logging.ml" 164 4264 4322
+type(
+  bool
+)
+"logging.ml" 164 4264 4270 "logging.ml" 164 4264 4322
+type(
+  bool
+)
+"logging.ml" 165 4323 4342 "logging.ml" 165 4323 4345
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 165 4323 4346 "logging.ml" 165 4323 4364
+)
+"logging.ml" 165 4323 4347 "logging.ml" 165 4323 4350
+type(
+  string
+)
+ident(
+  def con "logging.ml" 165 4323 4351 "logging.ml" 165 4323 4364
+)
+"logging.ml" 165 4323 4352 "logging.ml" 165 4323 4356
+type(
+  string option
+)
+ident(
+  def data "logging.ml" 165 4323 4357 "logging.ml" 165 4323 4364
+)
+"logging.ml" 165 4323 4357 "logging.ml" 165 4323 4358
+type(
+  access_type
+)
+"logging.ml" 165 4323 4362 "logging.ml" 165 4323 4364
+type(
+  unit
+)
+"logging.ml" 165 4323 4331 "logging.ml" 165 4323 4368
+type(
+  tid:int -> con:string -> ?data:string -> access_type -> unit
+)
+"logging.ml" 166 4369 4382 "logging.ml" 166 4369 4385
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 166 4369 4386 "logging.ml" 188 4982 4989
+)
+"logging.ml" 166 4369 4387 "logging.ml" 166 4369 4390
+type(
+  string
+)
+ident(
+  def con "logging.ml" 166 4369 4391 "logging.ml" 188 4982 4989
+)
+"logging.ml" 166 4369 4393 "logging.ml" 166 4369 4397
+type(
+  string
+)
+"logging.ml" 166 4369 4398 "logging.ml" 166 4369 4400
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "logging.ml" 166 4369 4398 "logging.ml" 166 4369 4400
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+ident(
+  def *sth* "logging.ml" 166 4369 4398 "logging.ml" 166 4369 4400
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "logging.ml" 166 4369 4398 "logging.ml" 166 4369 4400
+)
+type(
+  string option
+)
+ident(
+  def *opt* "logging.ml" 166 4369 4391 "logging.ml" 188 4982 4989
+)
+"logging.ml" 166 4369 4402 "logging.ml" 166 4369 4413
+type(
+  access_type
+)
+ident(
+  def access_type "logging.ml" 167 4417 4421 "logging.ml" 188 4982 4989
+)
+"logging.ml" 167 4417 4425 "logging.ml" 167 4417 4426
+type(
+  string
+)
+"logging.ml" 167 4417 4429 "logging.ml" 167 4417 4443
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"logging.ml" 167 4417 4444 "logging.ml" 167 4417 4461
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"logging.ml" 167 4417 4463 "logging.ml" 167 4417 4477
+type(
+  unit -> string
+)
+ident(
+  int_ref string_of_date "logging.ml" 51 1403 1407 "logging.ml" 51 1403 1421
+)
+"logging.ml" 167 4417 4477 "logging.ml" 167 4417 4479
+type(
+  unit
+)
+"logging.ml" 167 4417 4462 "logging.ml" 167 4417 4480
+type(
+  string
+)
+"logging.ml" 167 4417 4482 "logging.ml" 167 4417 4495
+type(
+  con:string -> int -> string
+)
+ident(
+  int_ref string_of_tid "logging.ml" 72 1873 1877 "logging.ml" 72 1873 1890
+)
+"logging.ml" 167 4417 4497 "logging.ml" 167 4417 4500
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 166 4369 4387 "logging.ml" 166 4369 4390
+)
+"logging.ml" 167 4417 4501 "logging.ml" 167 4417 4504
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 166 4369 4382 "logging.ml" 166 4369 4385
+)
+"logging.ml" 167 4417 4481 "logging.ml" 167 4417 4505
+type(
+  string
+)
+"logging.ml" 168 4507 4513 "logging.ml" 168 4507 4534
+type(
+  access_type -> string
+)
+ident(
+  int_ref string_of_access_type "logging.ml" 77 2010 2014 "logging.ml" 77 2010 2035
+)
+"logging.ml" 168 4507 4535 "logging.ml" 168 4507 4546
+type(
+  access_type
+)
+ident(
+  int_ref access_type "logging.ml" 166 4369 4402 "logging.ml" 166 4369 4413
+)
+"logging.ml" 168 4507 4512 "logging.ml" 168 4507 4547
+type(
+  string
+)
+"logging.ml" 168 4507 4549 "logging.ml" 168 4507 4562
+type(
+  string -> string
+)
+ident(
+  int_ref sanitize_data "logging.ml" 148 3915 3919 "logging.ml" 148 3915 3932
+)
+"logging.ml" 168 4507 4563 "logging.ml" 168 4507 4567
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 166 4369 4393 "logging.ml" 166 4369 4397
+)
+"logging.ml" 168 4507 4548 "logging.ml" 168 4507 4568
+type(
+  string
+)
+"logging.ml" 167 4417 4429 "logging.ml" 168 4507 4568
+type(
+  string
+)
+"logging.ml" 169 4572 4580 "logging.ml" 169 4572 4581
+type(
+  string
+)
+"logging.ml" 170 4584 4592 "logging.ml" 170 4584 4605
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"logging.ml" 170 4584 4606 "logging.ml" 170 4584 4607
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 167 4417 4425 "logging.ml" 167 4417 4426
+)
+"logging.ml" 170 4584 4592 "logging.ml" 170 4584 4607
+type(
+  int
+)
+"logging.ml" 170 4584 4608 "logging.ml" 170 4584 4609
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"logging.ml" 170 4584 4610 "logging.ml" 170 4584 4619
+type(
+  int
+)
+ident(
+  int_ref line_size "logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+)
+"logging.ml" 170 4584 4592 "logging.ml" 170 4584 4619
+type(
+  bool
+)
+"logging.ml" 172 4636 4646 "logging.ml" 172 4636 4647
+type(
+  string
+)
+ident(
+  def s "logging.ml" 173 4678 4684 "logging.ml" 176 4770 4777
+)
+"logging.ml" 172 4636 4650 "logging.ml" 172 4636 4660
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Stdext.String.sub
+)
+"logging.ml" 172 4636 4661 "logging.ml" 172 4636 4662
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 167 4417 4425 "logging.ml" 167 4417 4426
+)
+"logging.ml" 172 4636 4663 "logging.ml" 172 4636 4664
+type(
+  int
+)
+"logging.ml" 172 4636 4665 "logging.ml" 172 4636 4674
+type(
+  int
+)
+ident(
+  int_ref line_size "logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+)
+"logging.ml" 172 4636 4650 "logging.ml" 172 4636 4674
+type(
+  string
+)
+"logging.ml" 173 4678 4684 "logging.ml" 173 4678 4685
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 172 4636 4646 "logging.ml" 172 4636 4647
+)
+"logging.ml" 173 4678 4687 "logging.ml" 173 4678 4696
+type(
+  int
+)
+ident(
+  int_ref line_size "logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+)
+"logging.ml" 173 4678 4696 "logging.ml" 173 4678 4697
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"logging.ml" 173 4678 4697 "logging.ml" 173 4678 4698
+type(
+  int
+)
+"logging.ml" 173 4678 4687 "logging.ml" 173 4678 4698
+type(
+  int
+)
+"logging.ml" 173 4678 4703 "logging.ml" 173 4678 4706
+type(
+  char
+)
+"logging.ml" 173 4678 4684 "logging.ml" 173 4678 4706
+type(
+  unit
+)
+"logging.ml" 174 4709 4715 "logging.ml" 174 4709 4716
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 172 4636 4646 "logging.ml" 172 4636 4647
+)
+"logging.ml" 174 4709 4718 "logging.ml" 174 4709 4727
+type(
+  int
+)
+ident(
+  int_ref line_size "logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+)
+"logging.ml" 174 4709 4727 "logging.ml" 174 4709 4728
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"logging.ml" 174 4709 4728 "logging.ml" 174 4709 4729
+type(
+  int
+)
+"logging.ml" 174 4709 4718 "logging.ml" 174 4709 4729
+type(
+  int
+)
+"logging.ml" 174 4709 4734 "logging.ml" 174 4709 4737
+type(
+  char
+)
+"logging.ml" 174 4709 4715 "logging.ml" 174 4709 4737
+type(
+  unit
+)
+"logging.ml" 175 4739 4745 "logging.ml" 175 4739 4746
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 172 4636 4646 "logging.ml" 172 4636 4647
+)
+"logging.ml" 175 4739 4748 "logging.ml" 175 4739 4757
+type(
+  int
+)
+ident(
+  int_ref line_size "logging.ml" 30 1046 1050 "logging.ml" 30 1046 1059
+)
+"logging.ml" 175 4739 4757 "logging.ml" 175 4739 4758
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"logging.ml" 175 4739 4758 "logging.ml" 175 4739 4759
+type(
+  int
+)
+"logging.ml" 175 4739 4748 "logging.ml" 175 4739 4759
+type(
+  int
+)
+"logging.ml" 175 4739 4764 "logging.ml" 175 4739 4768
+type(
+  char
+)
+"logging.ml" 175 4739 4745 "logging.ml" 175 4739 4768
+type(
+  unit
+)
+"logging.ml" 176 4770 4776 "logging.ml" 176 4770 4777
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 172 4636 4646 "logging.ml" 172 4636 4647
+)
+"logging.ml" 175 4739 4745 "logging.ml" 176 4770 4777
+type(
+  string
+)
+"logging.ml" 174 4709 4715 "logging.ml" 176 4770 4777
+type(
+  string
+)
+"logging.ml" 173 4678 4684 "logging.ml" 176 4770 4777
+type(
+  string
+)
+"logging.ml" 171 4620 4630 "logging.ml" 177 4778 4786
+type(
+  string
+)
+"logging.ml" 178 4792 4798 "logging.ml" 178 4792 4799
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 167 4417 4425 "logging.ml" 167 4417 4426
+)
+"logging.ml" 170 4584 4589 "logging.ml" 178 4792 4799
+type(
+  string
+)
+"logging.ml" 180 4807 4811 "logging.ml" 180 4807 4815
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"logging.ml" 180 4807 4816 "logging.ml" 180 4807 4823
+type(
+  int ref
+)
+ident(
+  int_ref counter "logging.ml" 159 4194 4199 "logging.ml" 159 4194 4206
+)
+"logging.ml" 180 4807 4811 "logging.ml" 180 4807 4823
+type(
+  unit
+)
+"logging.ml" 181 4825 4829 "logging.ml" 181 4825 4842
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"logging.ml" 181 4825 4843 "logging.ml" 181 4825 4844
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 181 4825 4844 "logging.ml" 181 4825 4846
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 158 4113 4118 "logging.ml" 158 4113 4120
+)
+"logging.ml" 181 4825 4843 "logging.ml" 181 4825 4846
+type(
+  out_channel
+)
+"logging.ml" 181 4825 4847 "logging.ml" 181 4825 4848
+type(
+  string
+)
+ident(
+  int_ref s "logging.ml" 169 4572 4580 "logging.ml" 169 4572 4581
+)
+"logging.ml" 181 4825 4829 "logging.ml" 181 4825 4848
+type(
+  unit
+)
+"logging.ml" 182 4850 4854 "logging.ml" 182 4850 4859
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"logging.ml" 182 4850 4860 "logging.ml" 182 4850 4861
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 182 4850 4861 "logging.ml" 182 4850 4863
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 158 4113 4118 "logging.ml" 158 4113 4120
+)
+"logging.ml" 182 4850 4860 "logging.ml" 182 4850 4863
+type(
+  out_channel
+)
+"logging.ml" 182 4850 4854 "logging.ml" 182 4850 4863
+type(
+  unit
+)
+"logging.ml" 183 4865 4872 "logging.ml" 183 4865 4873
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 183 4865 4873 "logging.ml" 183 4865 4880
+type(
+  int ref
+)
+ident(
+  int_ref counter "logging.ml" 159 4194 4199 "logging.ml" 159 4194 4206
+)
+"logging.ml" 183 4865 4872 "logging.ml" 183 4865 4880
+type(
+  int
+)
+"logging.ml" 183 4865 4881 "logging.ml" 183 4865 4882
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"logging.ml" 183 4865 4883 "logging.ml" 183 4865 4884
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 183 4865 4884 "logging.ml" 183 4865 4903
+type(
+  int ref
+)
+ident(
+  int_ref access_log_nb_lines "logging.ml" 26 915 919 "logging.ml" 26 915 938
+)
+"logging.ml" 183 4865 4883 "logging.ml" 183 4865 4903
+type(
+  int
+)
+"logging.ml" 183 4865 4872 "logging.ml" 183 4865 4903
+type(
+  bool
+)
+"logging.ml" 185 4921 4926 "logging.ml" 185 4921 4936
+type(
+  out_channel ref -> unit
+)
+ident(
+  int_ref log_rotate "logging.ml" 122 3341 3345 "logging.ml" 122 3341 3355
+)
+"logging.ml" 185 4921 4937 "logging.ml" 185 4921 4939
+type(
+  out_channel ref
+)
+ident(
+  int_ref fd "logging.ml" 158 4113 4118 "logging.ml" 158 4113 4120
+)
+"logging.ml" 185 4921 4926 "logging.ml" 185 4921 4939
+type(
+  unit
+)
+"logging.ml" 186 4941 4946 "logging.ml" 186 4941 4958
+type(
+  unit -> 'a
+)
+ident(
+  int_ref save_to_disk "logging.ml" 157 4089 4098 "logging.ml" 157 4089 4110
+)
+"logging.ml" 186 4941 4959 "logging.ml" 186 4941 4961
+type(
+  unit
+)
+"logging.ml" 186 4941 4946 "logging.ml" 186 4941 4961
+type(
+  'a
+)
+"logging.ml" 187 4963 4968 "logging.ml" 187 4963 4975
+type(
+  int ref
+)
+ident(
+  int_ref counter "logging.ml" 159 4194 4199 "logging.ml" 159 4194 4206
+)
+"logging.ml" 187 4963 4976 "logging.ml" 187 4963 4978
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logging.ml" 187 4963 4979 "logging.ml" 187 4963 4980
+type(
+  int
+)
+"logging.ml" 187 4963 4968 "logging.ml" 187 4963 4981
+type(
+  unit
+)
+"logging.ml" 186 4941 4946 "logging.ml" 187 4963 4981
+type(
+  unit
+)
+"logging.ml" 184 4905 4914 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 183 4865 4869 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 182 4850 4854 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 181 4825 4829 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 180 4807 4811 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 169 4572 4576 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 167 4417 4421 "logging.ml" 188 4982 4989
+type(
+  unit
+)
+"logging.ml" 166 4369 4377 "logging.ml" 188 4982 4989
+type(
+  tid:int -> con:string -> ?data:string -> access_type -> unit
+)
+"logging.ml" 164 4264 4267 "logging.ml" 188 4982 4989
+type(
+  tid:int -> con:string -> ?data:string -> access_type -> unit
+)
+"logging.ml" 160 4218 4219 "logging.ml" 189 4990 4992
+type(
+  access
+)
+"logging.ml" 159 4194 4195 "logging.ml" 189 4990 4992
+type(
+  access
+)
+"logging.ml" 158 4113 4114 "logging.ml" 189 4990 4992
+type(
+  access
+)
+"logging.ml" 191 4994 4998 "logging.ml" 191 4994 5004
+type(
+  access option ref
+)
+ident(
+  def access "logging.ml" 192 5038 5038 --
+)
+"logging.ml" 191 4994 5029 "logging.ml" 191 4994 5032
+type(
+  access option -> access option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"logging.ml" 191 4994 5033 "logging.ml" 191 4994 5037
+type(
+  access option
+)
+"logging.ml" 191 4994 5029 "logging.ml" 191 4994 5037
+type(
+  access option ref
+)
+type(
+  access option ref
+)
+"logging.ml" 192 5038 5042 "logging.ml" 192 5038 5046
+type(
+  bool -> (unit -> 'a) -> unit
+)
+ident(
+  def init "logging.ml" 196 5132 5132 --
+)
+"logging.ml" 192 5038 5047 "logging.ml" 192 5038 5050
+type(
+  bool
+)
+ident(
+  def aal "logging.ml" 192 5038 5051 "logging.ml" 194 5095 5130
+)
+"logging.ml" 192 5038 5051 "logging.ml" 192 5038 5063
+type(
+  unit -> 'a
+)
+ident(
+  def save_to_disk "logging.ml" 193 5066 5067 "logging.ml" 194 5095 5130
+)
+"logging.ml" 193 5066 5067 "logging.ml" 193 5066 5086
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "logging.ml" 27 951 955 "logging.ml" 27 951 974
+)
+"logging.ml" 193 5066 5087 "logging.ml" 193 5066 5089
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logging.ml" 193 5066 5090 "logging.ml" 193 5066 5093
+type(
+  bool
+)
+ident(
+  int_ref aal "logging.ml" 192 5038 5047 "logging.ml" 192 5038 5050
+)
+"logging.ml" 193 5066 5067 "logging.ml" 193 5066 5093
+type(
+  unit
+)
+"logging.ml" 194 5095 5096 "logging.ml" 194 5095 5102
+type(
+  access option ref
+)
+ident(
+  int_ref access "logging.ml" 191 4994 4998 "logging.ml" 191 4994 5004
+)
+"logging.ml" 194 5095 5103 "logging.ml" 194 5095 5105
+type(
+  access option ref -> access option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"logging.ml" 194 5095 5112 "logging.ml" 194 5095 5116
+type(
+  (unit -> 'a) -> access
+)
+ident(
+  int_ref make "logging.ml" 157 4089 4093 "logging.ml" 157 4089 4097
+)
+"logging.ml" 194 5095 5117 "logging.ml" 194 5095 5129
+type(
+  unit -> 'a
+)
+ident(
+  int_ref save_to_disk "logging.ml" 192 5038 5051 "logging.ml" 192 5038 5063
+)
+"logging.ml" 194 5095 5111 "logging.ml" 194 5095 5130
+type(
+  access
+)
+"logging.ml" 194 5095 5106 "logging.ml" 194 5095 5130
+type(
+  access option
+)
+"logging.ml" 194 5095 5096 "logging.ml" 194 5095 5130
+type(
+  unit
+)
+"logging.ml" 193 5066 5067 "logging.ml" 194 5095 5130
+type(
+  unit
+)
+"logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  def write_access_log "logging.ml" 201 5275 5275 --
+)
+"logging.ml" 196 5132 5154 "logging.ml" 196 5132 5157
+type(
+  string
+)
+ident(
+  def con "logging.ml" 196 5132 5158 "logging.ml" 199 5260 5273
+)
+"logging.ml" 196 5132 5159 "logging.ml" 196 5132 5162
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 196 5132 5163 "logging.ml" 199 5260 5273
+)
+"logging.ml" 196 5132 5164 "logging.ml" 196 5132 5168
+type(
+  string option
+)
+ident(
+  def data "logging.ml" 196 5132 5169 "logging.ml" 199 5260 5273
+)
+"logging.ml" 196 5132 5169 "logging.ml" 196 5132 5180
+type(
+  access_type
+)
+ident(
+  def access_type "logging.ml" 197 5184 5192 "logging.ml" 199 5260 5273
+)
+"logging.ml" 198 5196 5199 "logging.ml" 198 5196 5204
+type(
+  (access -> unit) -> access option -> unit
+)
+ident(
+  ext_ref Stdext.maybe
+)
+"logging.ml" 198 5196 5210 "logging.ml" 198 5196 5211
+type(
+  access
+)
+ident(
+  def a "logging.ml" 198 5196 5215 "logging.ml" 198 5196 5250
+)
+"logging.ml" 198 5196 5215 "logging.ml" 198 5196 5216
+type(
+  access
+)
+ident(
+  int_ref a "logging.ml" 198 5196 5210 "logging.ml" 198 5196 5211
+)
+"logging.ml" 198 5196 5215 "logging.ml" 198 5196 5222
+type(
+  tid:int -> con:string -> ?data:string -> access_type -> unit
+)
+"logging.ml" 198 5196 5223 "logging.ml" 198 5196 5234
+type(
+  access_type
+)
+ident(
+  int_ref access_type "logging.ml" 196 5132 5169 "logging.ml" 196 5132 5180
+)
+"logging.ml" 198 5196 5236 "logging.ml" 198 5196 5239
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 196 5132 5154 "logging.ml" 196 5132 5157
+)
+"logging.ml" 198 5196 5241 "logging.ml" 198 5196 5244
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 196 5132 5159 "logging.ml" 196 5132 5162
+)
+"logging.ml" 198 5196 5246 "logging.ml" 198 5196 5250
+type(
+  string option
+)
+ident(
+  int_ref data "logging.ml" 196 5132 5164 "logging.ml" 196 5132 5168
+)
+"logging.ml" 198 5196 5215 "logging.ml" 198 5196 5250
+type(
+  unit
+)
+"logging.ml" 198 5196 5205 "logging.ml" 198 5196 5251
+type(
+  access -> unit
+)
+"logging.ml" 198 5196 5252 "logging.ml" 198 5196 5253
+type(
+  access option ref -> access option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 198 5196 5253 "logging.ml" 198 5196 5259
+type(
+  access option ref
+)
+ident(
+  int_ref access "logging.ml" 191 4994 4998 "logging.ml" 191 4994 5004
+)
+"logging.ml" 198 5196 5252 "logging.ml" 198 5196 5259
+type(
+  access option
+)
+"logging.ml" 198 5196 5199 "logging.ml" 198 5196 5259
+type(
+  unit
+)
+"logging.ml" 199 5260 5266 "logging.ml" 199 5260 5267
+type(
+  exn
+)
+"logging.ml" 199 5260 5271 "logging.ml" 199 5260 5273
+type(
+  unit
+)
+"logging.ml" 197 5184 5192 "logging.ml" 199 5260 5273
+type(
+  unit
+)
+"logging.ml" 201 5275 5279 "logging.ml" 201 5275 5293
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  def new_connection "logging.ml" 202 5321 5321 --
+)
+"logging.ml" 201 5275 5296 "logging.ml" 201 5275 5312
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 201 5275 5313 "logging.ml" 201 5275 5320
+type(
+  access_type
+)
+"logging.ml" 201 5275 5296 "logging.ml" 201 5275 5320
+type(
+  con:string -> tid:int -> unit
+)
+"logging.ml" 202 5321 5325 "logging.ml" 202 5321 5339
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  def end_connection "logging.ml" 203 5367 5367 --
+)
+"logging.ml" 202 5321 5342 "logging.ml" 202 5321 5358
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 202 5321 5359 "logging.ml" 202 5321 5366
+type(
+  access_type
+)
+"logging.ml" 202 5321 5342 "logging.ml" 202 5321 5366
+type(
+  con:string -> tid:int -> unit
+)
+"logging.ml" 203 5367 5371 "logging.ml" 203 5367 5384
+type(
+  tid:int -> con:string -> string -> unit
+)
+ident(
+  def read_coalesce "logging.ml" 206 5483 5483 --
+)
+"logging.ml" 203 5367 5386 "logging.ml" 203 5367 5389
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 203 5367 5390 "logging.ml" 205 5420 5482
+)
+"logging.ml" 203 5367 5391 "logging.ml" 203 5367 5394
+type(
+  string
+)
+ident(
+  def con "logging.ml" 203 5367 5395 "logging.ml" 205 5420 5482
+)
+"logging.ml" 203 5367 5395 "logging.ml" 203 5367 5399
+type(
+  string
+)
+ident(
+  def data "logging.ml" 204 5402 5403 "logging.ml" 205 5420 5482
+)
+"logging.ml" 204 5402 5406 "logging.ml" 204 5402 5407
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 204 5402 5407 "logging.ml" 204 5402 5419
+type(
+  bool ref
+)
+ident(
+  int_ref log_read_ops "logging.ml" 32 1067 1071 "logging.ml" 32 1067 1083
+)
+"logging.ml" 204 5402 5406 "logging.ml" 204 5402 5419
+type(
+  bool
+)
+"logging.ml" 205 5420 5426 "logging.ml" 205 5420 5442
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 205 5420 5443 "logging.ml" 205 5420 5451
+type(
+  access_type
+)
+"logging.ml" 205 5420 5453 "logging.ml" 205 5420 5456
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 203 5367 5386 "logging.ml" 203 5367 5389
+)
+"logging.ml" 205 5420 5458 "logging.ml" 205 5420 5461
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 203 5367 5391 "logging.ml" 203 5367 5394
+)
+"logging.ml" 205 5420 5469 "logging.ml" 205 5420 5476
+type(
+  string
+)
+"logging.ml" 205 5420 5476 "logging.ml" 205 5420 5477
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"logging.ml" 205 5420 5477 "logging.ml" 205 5420 5481
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 203 5367 5395 "logging.ml" 203 5367 5399
+)
+"logging.ml" 205 5420 5468 "logging.ml" 205 5420 5482
+type(
+  string
+)
+"logging.ml" 205 5420 5426 "logging.ml" 205 5420 5482
+type(
+  unit
+)
+"logging.ml" 204 5402 5403 "logging.ml" 205 5420 5482
+type(
+  unit
+)
+"logging.ml" 206 5483 5487 "logging.ml" 206 5483 5501
+type(
+  string -> con:string -> tid:int -> unit
+)
+ident(
+  def write_coalesce "logging.ml" 207 5557 5557 --
+)
+"logging.ml" 206 5483 5502 "logging.ml" 206 5483 5506
+type(
+  string
+)
+ident(
+  def data "logging.ml" 206 5483 5509 "logging.ml" 206 5483 5556
+)
+"logging.ml" 206 5483 5509 "logging.ml" 206 5483 5525
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 206 5483 5526 "logging.ml" 206 5483 5534
+type(
+  access_type
+)
+"logging.ml" 206 5483 5542 "logging.ml" 206 5483 5550
+type(
+  string
+)
+"logging.ml" 206 5483 5550 "logging.ml" 206 5483 5551
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"logging.ml" 206 5483 5551 "logging.ml" 206 5483 5555
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 206 5483 5502 "logging.ml" 206 5483 5506
+)
+"logging.ml" 206 5483 5541 "logging.ml" 206 5483 5556
+type(
+  string
+)
+"logging.ml" 206 5483 5509 "logging.ml" 206 5483 5556
+type(
+  con:string -> tid:int -> unit
+)
+"logging.ml" 207 5557 5561 "logging.ml" 207 5557 5569
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  def conflict "logging.ml" 208 5598 5598 --
+)
+"logging.ml" 207 5557 5572 "logging.ml" 207 5557 5588
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 207 5557 5589 "logging.ml" 207 5557 5597
+type(
+  access_type
+)
+"logging.ml" 207 5557 5572 "logging.ml" 207 5557 5597
+type(
+  con:string -> tid:int -> unit
+)
+"logging.ml" 208 5598 5602 "logging.ml" 208 5598 5608
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  def commit "logging.ml" 210 5636 5636 --
+)
+"logging.ml" 208 5598 5611 "logging.ml" 208 5598 5627
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 208 5598 5628 "logging.ml" 208 5598 5634
+type(
+  access_type
+)
+"logging.ml" 208 5598 5611 "logging.ml" 208 5598 5634
+type(
+  con:string -> tid:int -> unit
+)
+"logging.ml" 210 5636 5640 "logging.ml" 210 5636 5645
+type(
+  tid:int -> con:string -> ty:Xb.Op.operation -> string -> unit
+)
+ident(
+  def xb_op "logging.ml" 223 6061 6061 --
+)
+"logging.ml" 210 5636 5647 "logging.ml" 210 5636 5650
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 210 5636 5651 "logging.ml" 221 6010 6059
+)
+"logging.ml" 210 5636 5652 "logging.ml" 210 5636 5655
+type(
+  string
+)
+ident(
+  def con "logging.ml" 210 5636 5656 "logging.ml" 221 6010 6059
+)
+"logging.ml" 210 5636 5657 "logging.ml" 210 5636 5659
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "logging.ml" 210 5636 5660 "logging.ml" 221 6010 6059
+)
+"logging.ml" 210 5636 5660 "logging.ml" 210 5636 5664
+type(
+  string
+)
+ident(
+  def data "logging.ml" 211 5667 5668 "logging.ml" 221 6010 6059
+)
+"logging.ml" 211 5667 5672 "logging.ml" 211 5667 5677
+type(
+  bool
+)
+"logging.ml" 212 5680 5687 "logging.ml" 212 5680 5689
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "logging.ml" 210 5636 5657 "logging.ml" 210 5636 5659
+)
+"logging.ml" 213 5695 5699 "logging.ml" 213 5695 5709
+type(
+  Xb.Op.operation
+)
+"logging.ml" 213 5695 5712 "logging.ml" 213 5695 5727
+type(
+  Xb.Op.operation
+)
+"logging.ml" 213 5695 5699 "logging.ml" 213 5695 5727
+type(
+  Xb.Op.operation
+)
+"logging.ml" 213 5695 5730 "logging.ml" 213 5695 5744
+type(
+  Xb.Op.operation
+)
+"logging.ml" 213 5695 5699 "logging.ml" 213 5695 5744
+type(
+  Xb.Op.operation
+)
+"logging.ml" 213 5695 5748 "logging.ml" 213 5695 5749
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 213 5695 5749 "logging.ml" 213 5695 5761
+type(
+  bool ref
+)
+ident(
+  int_ref log_read_ops "logging.ml" 32 1067 1071 "logging.ml" 32 1067 1083
+)
+"logging.ml" 213 5695 5748 "logging.ml" 213 5695 5761
+type(
+  bool
+)
+"logging.ml" 214 5762 5766 "logging.ml" 214 5762 5789
+type(
+  Xb.Op.operation
+)
+"logging.ml" 214 5762 5792 "logging.ml" 214 5762 5813
+type(
+  Xb.Op.operation
+)
+"logging.ml" 214 5762 5766 "logging.ml" 214 5762 5813
+type(
+  Xb.Op.operation
+)
+"logging.ml" 215 5817 5820 "logging.ml" 215 5817 5825
+type(
+  bool
+)
+"logging.ml" 216 5863 5867 "logging.ml" 216 5863 5882
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5885 "logging.ml" 216 5863 5898
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5867 "logging.ml" 216 5863 5898
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5901 "logging.ml" 216 5863 5920
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5867 "logging.ml" 216 5863 5920
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5923 "logging.ml" 216 5863 5941
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5867 "logging.ml" 216 5863 5941
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5944 "logging.ml" 216 5863 5956
+type(
+  Xb.Op.operation
+)
+"logging.ml" 216 5863 5867 "logging.ml" 216 5863 5956
+type(
+  Xb.Op.operation
+)
+"logging.ml" 217 5960 5963 "logging.ml" 217 5960 5964
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 217 5960 5964 "logging.ml" 217 5960 5979
+type(
+  bool ref
+)
+ident(
+  int_ref log_special_ops "logging.ml" 34 1132 1136 "logging.ml" 34 1132 1151
+)
+"logging.ml" 217 5960 5963 "logging.ml" 217 5960 5979
+type(
+  bool
+)
+"logging.ml" 218 5980 5984 "logging.ml" 218 5980 5985
+type(
+  Xb.Op.operation
+)
+"logging.ml" 218 5980 5989 "logging.ml" 218 5980 5993
+type(
+  bool
+)
+"logging.ml" 212 5680 5681 "logging.ml" 218 5980 5993
+type(
+  bool
+)
+"logging.ml" 220 5998 6003 "logging.ml" 220 5998 6008
+type(
+  bool
+)
+ident(
+  int_ref print "logging.ml" 211 5667 5672 "logging.ml" 211 5667 5677
+)
+"logging.ml" 221 6010 6017 "logging.ml" 221 6010 6033
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 221 6010 6035 "logging.ml" 221 6010 6038
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 210 5636 5647 "logging.ml" 210 5636 5650
+)
+"logging.ml" 221 6010 6040 "logging.ml" 221 6010 6043
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 210 5636 5652 "logging.ml" 210 5636 5655
+)
+"logging.ml" 221 6010 6045 "logging.ml" 221 6010 6049
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 210 5636 5660 "logging.ml" 210 5636 5664
+)
+"logging.ml" 221 6010 6056 "logging.ml" 221 6010 6058
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "logging.ml" 210 5636 5657 "logging.ml" 210 5636 5659
+)
+"logging.ml" 221 6010 6050 "logging.ml" 221 6010 6059
+type(
+  access_type
+)
+"logging.ml" 221 6010 6017 "logging.ml" 221 6010 6059
+type(
+  unit
+)
+"logging.ml" 220 5998 6000 "logging.ml" 221 6010 6059
+type(
+  unit
+)
+"logging.ml" 211 5667 5668 "logging.ml" 221 6010 6059
+type(
+  unit
+)
+"logging.ml" 223 6061 6065 "logging.ml" 223 6061 6082
+type(
+  tid:int -> con:string -> unit
+)
+ident(
+  def start_transaction "logging.ml" 227 6198 6198 --
+)
+"logging.ml" 223 6061 6084 "logging.ml" 223 6061 6087
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 223 6061 6088 "logging.ml" 225 6133 6196
+)
+"logging.ml" 223 6061 6089 "logging.ml" 223 6061 6092
+type(
+  string
+)
+ident(
+  def con "logging.ml" 224 6096 6097 "logging.ml" 225 6133 6196
+)
+"logging.ml" 224 6096 6100 "logging.ml" 224 6096 6101
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 224 6096 6101 "logging.ml" 224 6096 6120
+type(
+  bool ref
+)
+ident(
+  int_ref log_transaction_ops "logging.ml" 33 1096 1100 "logging.ml" 33 1096 1119
+)
+"logging.ml" 224 6096 6100 "logging.ml" 224 6096 6120
+type(
+  bool
+)
+"logging.ml" 224 6096 6121 "logging.ml" 224 6096 6123
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"logging.ml" 224 6096 6124 "logging.ml" 224 6096 6127
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 223 6061 6084 "logging.ml" 223 6061 6087
+)
+"logging.ml" 224 6096 6128 "logging.ml" 224 6096 6130
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"logging.ml" 224 6096 6131 "logging.ml" 224 6096 6132
+type(
+  int
+)
+"logging.ml" 224 6096 6124 "logging.ml" 224 6096 6132
+type(
+  bool
+)
+"logging.ml" 224 6096 6100 "logging.ml" 224 6096 6132
+type(
+  bool
+)
+"logging.ml" 225 6133 6139 "logging.ml" 225 6133 6155
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 225 6133 6157 "logging.ml" 225 6133 6160
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 223 6061 6084 "logging.ml" 223 6061 6087
+)
+"logging.ml" 225 6133 6162 "logging.ml" 225 6133 6165
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 223 6061 6089 "logging.ml" 223 6061 6092
+)
+"logging.ml" 225 6133 6172 "logging.ml" 225 6133 6195
+type(
+  Xb.Op.operation
+)
+"logging.ml" 225 6133 6166 "logging.ml" 225 6133 6196
+type(
+  access_type
+)
+"logging.ml" 225 6133 6139 "logging.ml" 225 6133 6196
+type(
+  unit
+)
+"logging.ml" 224 6096 6097 "logging.ml" 225 6133 6196
+type(
+  unit
+)
+"logging.ml" 227 6198 6202 "logging.ml" 227 6198 6217
+type(
+  tid:int -> con:string -> unit
+)
+ident(
+  def end_transaction "logging.ml" 231 6331 6331 --
+)
+"logging.ml" 227 6198 6219 "logging.ml" 227 6198 6222
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 227 6198 6223 "logging.ml" 229 6268 6329
+)
+"logging.ml" 227 6198 6224 "logging.ml" 227 6198 6227
+type(
+  string
+)
+ident(
+  def con "logging.ml" 228 6231 6232 "logging.ml" 229 6268 6329
+)
+"logging.ml" 228 6231 6235 "logging.ml" 228 6231 6236
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 228 6231 6236 "logging.ml" 228 6231 6255
+type(
+  bool ref
+)
+ident(
+  int_ref log_transaction_ops "logging.ml" 33 1096 1100 "logging.ml" 33 1096 1119
+)
+"logging.ml" 228 6231 6235 "logging.ml" 228 6231 6255
+type(
+  bool
+)
+"logging.ml" 228 6231 6256 "logging.ml" 228 6231 6258
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"logging.ml" 228 6231 6259 "logging.ml" 228 6231 6262
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 227 6198 6219 "logging.ml" 227 6198 6222
+)
+"logging.ml" 228 6231 6263 "logging.ml" 228 6231 6265
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"logging.ml" 228 6231 6266 "logging.ml" 228 6231 6267
+type(
+  int
+)
+"logging.ml" 228 6231 6259 "logging.ml" 228 6231 6267
+type(
+  bool
+)
+"logging.ml" 228 6231 6235 "logging.ml" 228 6231 6267
+type(
+  bool
+)
+"logging.ml" 229 6268 6274 "logging.ml" 229 6268 6290
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 229 6268 6292 "logging.ml" 229 6268 6295
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 227 6198 6219 "logging.ml" 227 6198 6222
+)
+"logging.ml" 229 6268 6297 "logging.ml" 229 6268 6300
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 227 6198 6224 "logging.ml" 227 6198 6227
+)
+"logging.ml" 229 6268 6307 "logging.ml" 229 6268 6328
+type(
+  Xb.Op.operation
+)
+"logging.ml" 229 6268 6301 "logging.ml" 229 6268 6329
+type(
+  access_type
+)
+"logging.ml" 229 6268 6274 "logging.ml" 229 6268 6329
+type(
+  unit
+)
+"logging.ml" 228 6231 6232 "logging.ml" 229 6268 6329
+type(
+  unit
+)
+"logging.ml" 231 6331 6335 "logging.ml" 231 6331 6344
+type(
+  tid:int -> con:string -> ty:Xb.Op.operation -> string -> unit
+)
+ident(
+  def xb_answer "logging.ml" 239 6541 6590 --
+)
+"logging.ml" 231 6331 6346 "logging.ml" 231 6331 6349
+type(
+  int
+)
+ident(
+  def tid "logging.ml" 231 6331 6350 "logging.ml" 239 6541 6590
+)
+"logging.ml" 231 6331 6351 "logging.ml" 231 6331 6354
+type(
+  string
+)
+ident(
+  def con "logging.ml" 231 6331 6355 "logging.ml" 239 6541 6590
+)
+"logging.ml" 231 6331 6356 "logging.ml" 231 6331 6358
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "logging.ml" 231 6331 6359 "logging.ml" 239 6541 6590
+)
+"logging.ml" 231 6331 6359 "logging.ml" 231 6331 6363
+type(
+  string
+)
+ident(
+  def data "logging.ml" 232 6366 6367 "logging.ml" 239 6541 6590
+)
+"logging.ml" 232 6366 6371 "logging.ml" 232 6366 6376
+type(
+  bool
+)
+"logging.ml" 232 6366 6385 "logging.ml" 232 6366 6387
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "logging.ml" 231 6331 6356 "logging.ml" 231 6331 6358
+)
+"logging.ml" 233 6393 6397 "logging.ml" 233 6393 6408
+type(
+  Xb.Op.operation
+)
+"logging.ml" 233 6393 6414 "logging.ml" 233 6393 6418
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 231 6331 6359 "logging.ml" 231 6331 6363
+)
+"logging.ml" 233 6393 6418 "logging.ml" 233 6393 6419
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"logging.ml" 233 6393 6419 "logging.ml" 233 6393 6428
+type(
+  string
+)
+"logging.ml" 233 6393 6414 "logging.ml" 233 6393 6428
+type(
+  bool
+)
+"logging.ml" 233 6393 6432 "logging.ml" 233 6393 6433
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 233 6393 6433 "logging.ml" 233 6393 6445
+type(
+  bool ref
+)
+ident(
+  int_ref log_read_ops "logging.ml" 32 1067 1071 "logging.ml" 32 1067 1083
+)
+"logging.ml" 233 6393 6432 "logging.ml" 233 6393 6445
+type(
+  bool
+)
+"logging.ml" 233 6393 6409 "logging.ml" 233 6393 6445
+type(
+  bool
+)
+"logging.ml" 234 6446 6450 "logging.ml" 234 6446 6461
+type(
+  Xb.Op.operation
+)
+"logging.ml" 234 6446 6465 "logging.ml" 234 6446 6466
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"logging.ml" 234 6446 6466 "logging.ml" 234 6446 6481
+type(
+  bool ref
+)
+ident(
+  int_ref log_special_ops "logging.ml" 34 1132 1136 "logging.ml" 34 1132 1151
+)
+"logging.ml" 234 6446 6465 "logging.ml" 234 6446 6481
+type(
+  bool
+)
+"logging.ml" 235 6482 6486 "logging.ml" 235 6482 6502
+type(
+  Xb.Op.operation
+)
+"logging.ml" 235 6482 6506 "logging.ml" 235 6482 6510
+type(
+  bool
+)
+"logging.ml" 236 6511 6515 "logging.ml" 236 6511 6516
+type(
+  Xb.Op.operation
+)
+"logging.ml" 236 6511 6520 "logging.ml" 236 6511 6525
+type(
+  bool
+)
+"logging.ml" 232 6366 6379 "logging.ml" 236 6511 6525
+type(
+  bool
+)
+"logging.ml" 238 6530 6535 "logging.ml" 238 6530 6540
+type(
+  bool
+)
+ident(
+  int_ref print "logging.ml" 232 6366 6371 "logging.ml" 232 6366 6376
+)
+"logging.ml" 239 6541 6548 "logging.ml" 239 6541 6564
+type(
+  con:string -> tid:int -> ?data:string -> access_type -> unit
+)
+ident(
+  int_ref write_access_log "logging.ml" 196 5132 5136 "logging.ml" 196 5132 5152
+)
+"logging.ml" 239 6541 6566 "logging.ml" 239 6541 6569
+type(
+  int
+)
+ident(
+  int_ref tid "logging.ml" 231 6331 6346 "logging.ml" 231 6331 6349
+)
+"logging.ml" 239 6541 6571 "logging.ml" 239 6541 6574
+type(
+  string
+)
+ident(
+  int_ref con "logging.ml" 231 6331 6351 "logging.ml" 231 6331 6354
+)
+"logging.ml" 239 6541 6576 "logging.ml" 239 6541 6580
+type(
+  string
+)
+ident(
+  int_ref data "logging.ml" 231 6331 6359 "logging.ml" 231 6331 6363
+)
+"logging.ml" 239 6541 6587 "logging.ml" 239 6541 6589
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "logging.ml" 231 6331 6356 "logging.ml" 231 6331 6358
+)
+"logging.ml" 239 6541 6581 "logging.ml" 239 6541 6590
+type(
+  access_type
+)
+"logging.ml" 239 6541 6548 "logging.ml" 239 6541 6590
+type(
+  unit
+)
+"logging.ml" 238 6530 6532 "logging.ml" 239 6541 6590
+type(
+  unit
+)
+"logging.ml" 232 6366 6367 "logging.ml" 239 6541 6590
+type(
+  unit
+)

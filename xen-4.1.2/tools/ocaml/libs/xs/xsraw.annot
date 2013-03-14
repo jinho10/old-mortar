@@ -1,0 +1,5747 @@
+"xsraw.ml" 23 842 846 "xsraw.ml" 23 842 863
+type(
+  Xb.Op.operation -> Xb.Op.operation -> 'a
+)
+ident(
+  def unexpected_packet "xsraw.ml" 29 1070 1070 --
+)
+"xsraw.ml" 23 842 864 "xsraw.ml" 23 842 872
+type(
+  Xb.Op.operation
+)
+ident(
+  def expected "xsraw.ml" 23 842 873 "xsraw.ml" 27 1040 1068
+)
+"xsraw.ml" 23 842 873 "xsraw.ml" 23 842 881
+type(
+  Xb.Op.operation
+)
+ident(
+  def received "xsraw.ml" 24 884 885 "xsraw.ml" 27 1040 1068
+)
+"xsraw.ml" 24 884 889 "xsraw.ml" 24 884 890
+type(
+  string
+)
+"xsraw.ml" 24 884 893 "xsraw.ml" 24 884 907
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xsraw.ml" 24 884 908 "xsraw.ml" 24 884 934
+type(
+  (string -> string -> string, unit, string) format
+)
+"xsraw.ml" 25 935 960 "xsraw.ml" 25 935 975
+type(
+  Xb.Op.operation -> string
+)
+ident(
+  ext_ref Xb.Op.to_string
+)
+"xsraw.ml" 25 935 976 "xsraw.ml" 25 935 984
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref expected "xsraw.ml" 23 842 864 "xsraw.ml" 23 842 872
+)
+"xsraw.ml" 25 935 959 "xsraw.ml" 25 935 985
+type(
+  string
+)
+"xsraw.ml" 26 986 1011 "xsraw.ml" 26 986 1026
+type(
+  Xb.Op.operation -> string
+)
+ident(
+  ext_ref Xb.Op.to_string
+)
+"xsraw.ml" 26 986 1027 "xsraw.ml" 26 986 1035
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref received "xsraw.ml" 23 842 873 "xsraw.ml" 23 842 881
+)
+"xsraw.ml" 26 986 1010 "xsraw.ml" 26 986 1036
+type(
+  string
+)
+"xsraw.ml" 24 884 893 "xsraw.ml" 26 986 1036
+type(
+  string
+)
+"xsraw.ml" 27 1040 1041 "xsraw.ml" 27 1040 1046
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 27 1040 1066 "xsraw.ml" 27 1040 1067
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 24 884 889 "xsraw.ml" 24 884 890
+)
+"xsraw.ml" 27 1040 1047 "xsraw.ml" 27 1040 1068
+type(
+  exn
+)
+"xsraw.ml" 27 1040 1041 "xsraw.ml" 27 1040 1068
+type(
+  'a
+)
+"xsraw.ml" 24 884 885 "xsraw.ml" 27 1040 1068
+type(
+  'a
+)
+"xsraw.ml" 34 1138 1142 "xsraw.ml" 34 1138 1147
+type(
+  con -> unit
+)
+ident(
+  def close "xsraw.ml" 37 1172 1172 --
+)
+"xsraw.ml" 34 1138 1148 "xsraw.ml" 34 1138 1151
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 35 1154 1155 "xsraw.ml" 35 1154 1170
+)
+"xsraw.ml" 35 1154 1155 "xsraw.ml" 35 1154 1163
+type(
+  Xb.t -> unit
+)
+ident(
+  ext_ref Xb.close
+)
+"xsraw.ml" 35 1154 1164 "xsraw.ml" 35 1154 1167
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 34 1138 1148 "xsraw.ml" 34 1138 1151
+)
+"xsraw.ml" 35 1154 1164 "xsraw.ml" 35 1154 1170
+type(
+  Xb.t
+)
+"xsraw.ml" 35 1154 1155 "xsraw.ml" 35 1154 1170
+type(
+  unit
+)
+"xsraw.ml" 37 1172 1176 "xsraw.ml" 37 1172 1183
+type(
+  Unix.file_descr -> con
+)
+ident(
+  def open_fd "xsraw.ml" 42 1247 1247 --
+)
+"xsraw.ml" 37 1172 1184 "xsraw.ml" 37 1172 1186
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "xsraw.ml" 37 1172 1189 "xsraw.ml" 40 1244 1245
+)
+"xsraw.ml" 38 1191 1197 "xsraw.ml" 38 1191 1207
+type(
+  Unix.file_descr -> Xb.t
+)
+ident(
+  ext_ref Xb.open_fd
+)
+"xsraw.ml" 38 1191 1208 "xsraw.ml" 38 1191 1210
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xsraw.ml" 37 1172 1184 "xsraw.ml" 37 1172 1186
+)
+"xsraw.ml" 38 1191 1197 "xsraw.ml" 38 1191 1210
+type(
+  Xb.t
+)
+"xsraw.ml" 39 1212 1227 "xsraw.ml" 39 1212 1239
+type(
+  unit -> (string * string) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"xsraw.ml" 39 1212 1240 "xsraw.ml" 39 1212 1242
+type(
+  unit
+)
+"xsraw.ml" 39 1212 1227 "xsraw.ml" 39 1212 1242
+type(
+  (string * string) Queue.t
+)
+"xsraw.ml" 37 1172 1189 "xsraw.ml" 40 1244 1245
+type(
+  con
+)
+"xsraw.ml" 42 1247 1255 "xsraw.ml" 42 1247 1267
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  def split_string "xsraw.ml" 42 1247 1247 --
+)
+"xsraw.ml" 42 1247 1276 "xsraw.ml" 42 1247 1281
+type(
+  int
+)
+"xsraw.ml" 42 1247 1282 "xsraw.ml" 42 1247 1286
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "xsraw.ml" 42 1247 1282 "xsraw.ml" 42 1247 1286
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "xsraw.ml" 42 1247 1282 "xsraw.ml" 42 1247 1286
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "xsraw.ml" 42 1247 1282 "xsraw.ml" 42 1247 1286
+)
+type(
+  int option
+)
+ident(
+  def *opt* "xsraw.ml" 42 1247 1268 "xsraw.ml" 50 1549 1589
+)
+"xsraw.ml" 42 1247 1288 "xsraw.ml" 42 1247 1289
+type(
+  char
+)
+ident(
+  def c "xsraw.ml" 42 1247 1290 "xsraw.ml" 50 1549 1589
+)
+"xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 43 1294 1295 "xsraw.ml" 50 1549 1589
+)
+"xsraw.ml" 43 1294 1299 "xsraw.ml" 43 1294 1300
+type(
+  int
+)
+"xsraw.ml" 43 1294 1307 "xsraw.ml" 43 1294 1319
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"xsraw.ml" 43 1294 1320 "xsraw.ml" 43 1294 1321
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+)
+"xsraw.ml" 43 1294 1322 "xsraw.ml" 43 1294 1323
+type(
+  char
+)
+ident(
+  int_ref c "xsraw.ml" 42 1247 1288 "xsraw.ml" 42 1247 1289
+)
+"xsraw.ml" 43 1294 1307 "xsraw.ml" 43 1294 1323
+type(
+  int
+)
+"xsraw.ml" 43 1294 1329 "xsraw.ml" 43 1294 1338
+type(
+  exn
+)
+"xsraw.ml" 43 1294 1342 "xsraw.ml" 43 1294 1344
+type(
+  int
+)
+"xsraw.ml" 43 1294 1303 "xsraw.ml" 43 1294 1344
+type(
+  int
+)
+"xsraw.ml" 44 1348 1353 "xsraw.ml" 44 1348 1359
+type(
+  int
+)
+"xsraw.ml" 44 1348 1365 "xsraw.ml" 44 1348 1370
+type(
+  int
+)
+ident(
+  int_ref limit "xsraw.ml" 42 1247 1276 "xsraw.ml" 42 1247 1281
+)
+"xsraw.ml" 44 1348 1371 "xsraw.ml" 44 1348 1372
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 44 1348 1373 "xsraw.ml" 44 1348 1375
+type(
+  int
+)
+"xsraw.ml" 44 1348 1365 "xsraw.ml" 44 1348 1375
+type(
+  bool
+)
+"xsraw.ml" 44 1348 1376 "xsraw.ml" 44 1348 1378
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"xsraw.ml" 44 1348 1379 "xsraw.ml" 44 1348 1384
+type(
+  int
+)
+ident(
+  int_ref limit "xsraw.ml" 42 1247 1276 "xsraw.ml" 42 1247 1281
+)
+"xsraw.ml" 44 1348 1385 "xsraw.ml" 44 1348 1386
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 44 1348 1387 "xsraw.ml" 44 1348 1388
+type(
+  int
+)
+"xsraw.ml" 44 1348 1379 "xsraw.ml" 44 1348 1388
+type(
+  bool
+)
+"xsraw.ml" 44 1348 1365 "xsraw.ml" 44 1348 1388
+type(
+  bool
+)
+"xsraw.ml" 44 1348 1394 "xsraw.ml" 44 1348 1399
+type(
+  int
+)
+ident(
+  int_ref limit "xsraw.ml" 42 1247 1276 "xsraw.ml" 42 1247 1281
+)
+"xsraw.ml" 44 1348 1405 "xsraw.ml" 44 1348 1410
+type(
+  int
+)
+ident(
+  int_ref limit "xsraw.ml" 42 1247 1276 "xsraw.ml" 42 1247 1281
+)
+"xsraw.ml" 44 1348 1411 "xsraw.ml" 44 1348 1412
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 44 1348 1413 "xsraw.ml" 44 1348 1414
+type(
+  int
+)
+"xsraw.ml" 44 1348 1405 "xsraw.ml" 44 1348 1414
+type(
+  int
+)
+"xsraw.ml" 44 1348 1362 "xsraw.ml" 44 1348 1414
+type(
+  int
+)
+"xsraw.ml" 45 1418 1422 "xsraw.ml" 45 1418 1423
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 43 1294 1299 "xsraw.ml" 43 1294 1300
+)
+"xsraw.ml" 45 1418 1424 "xsraw.ml" 45 1418 1425
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 45 1418 1426 "xsraw.ml" 45 1418 1428
+type(
+  int
+)
+"xsraw.ml" 45 1418 1422 "xsraw.ml" 45 1418 1428
+type(
+  bool
+)
+"xsraw.ml" 45 1418 1429 "xsraw.ml" 45 1418 1431
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"xsraw.ml" 45 1418 1432 "xsraw.ml" 45 1418 1438
+type(
+  int
+)
+ident(
+  int_ref nlimit "xsraw.ml" 44 1348 1353 "xsraw.ml" 44 1348 1359
+)
+"xsraw.ml" 45 1418 1439 "xsraw.ml" 45 1418 1440
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 45 1418 1441 "xsraw.ml" 45 1418 1442
+type(
+  int
+)
+"xsraw.ml" 45 1418 1432 "xsraw.ml" 45 1418 1442
+type(
+  bool
+)
+"xsraw.ml" 45 1418 1422 "xsraw.ml" 45 1418 1442
+type(
+  bool
+)
+"xsraw.ml" 46 1448 1452 "xsraw.ml" 46 1448 1453
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+)
+"xsraw.ml" 46 1448 1450 "xsraw.ml" 46 1448 1455
+type(
+  string list
+)
+"xsraw.ml" 48 1462 1468 "xsraw.ml" 48 1462 1469
+type(
+  string
+)
+"xsraw.ml" 48 1462 1472 "xsraw.ml" 48 1462 1482
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 48 1462 1483 "xsraw.ml" 48 1462 1484
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+)
+"xsraw.ml" 48 1462 1485 "xsraw.ml" 48 1462 1486
+type(
+  int
+)
+"xsraw.ml" 48 1462 1487 "xsraw.ml" 48 1462 1488
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 43 1294 1299 "xsraw.ml" 43 1294 1300
+)
+"xsraw.ml" 48 1462 1472 "xsraw.ml" 48 1462 1488
+type(
+  string
+)
+"xsraw.ml" 49 1489 1495 "xsraw.ml" 49 1489 1496
+type(
+  string
+)
+"xsraw.ml" 49 1489 1499 "xsraw.ml" 49 1489 1509
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 49 1489 1510 "xsraw.ml" 49 1489 1511
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+)
+"xsraw.ml" 49 1489 1513 "xsraw.ml" 49 1489 1514
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 43 1294 1299 "xsraw.ml" 43 1294 1300
+)
+"xsraw.ml" 49 1489 1515 "xsraw.ml" 49 1489 1516
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"xsraw.ml" 49 1489 1517 "xsraw.ml" 49 1489 1518
+type(
+  int
+)
+"xsraw.ml" 49 1489 1512 "xsraw.ml" 49 1489 1519
+type(
+  int
+)
+"xsraw.ml" 49 1489 1521 "xsraw.ml" 49 1489 1534
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 49 1489 1535 "xsraw.ml" 49 1489 1536
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 42 1247 1290 "xsraw.ml" 42 1247 1291
+)
+"xsraw.ml" 49 1489 1521 "xsraw.ml" 49 1489 1536
+type(
+  int
+)
+"xsraw.ml" 49 1489 1537 "xsraw.ml" 49 1489 1538
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 49 1489 1539 "xsraw.ml" 49 1489 1540
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 43 1294 1299 "xsraw.ml" 43 1294 1300
+)
+"xsraw.ml" 49 1489 1521 "xsraw.ml" 49 1489 1540
+type(
+  int
+)
+"xsraw.ml" 49 1489 1541 "xsraw.ml" 49 1489 1542
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 49 1489 1543 "xsraw.ml" 49 1489 1544
+type(
+  int
+)
+"xsraw.ml" 49 1489 1520 "xsraw.ml" 49 1489 1545
+type(
+  int
+)
+"xsraw.ml" 49 1489 1499 "xsraw.ml" 49 1489 1545
+type(
+  string
+)
+"xsraw.ml" 50 1549 1551 "xsraw.ml" 50 1549 1552
+type(
+  string
+)
+ident(
+  int_ref a "xsraw.ml" 48 1462 1468 "xsraw.ml" 48 1462 1469
+)
+"xsraw.ml" 50 1549 1557 "xsraw.ml" 50 1549 1569
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split_string "xsraw.ml" 42 1247 1255 "xsraw.ml" 42 1247 1267
+)
+"xsraw.ml" 50 1549 1578 "xsraw.ml" 50 1549 1584
+type(
+  int
+)
+ident(
+  int_ref nlimit "xsraw.ml" 44 1348 1353 "xsraw.ml" 44 1348 1359
+)
+"xsraw.ml" 50 1549 1585 "xsraw.ml" 50 1549 1586
+type(
+  char
+)
+ident(
+  int_ref c "xsraw.ml" 42 1247 1288 "xsraw.ml" 42 1247 1289
+)
+"xsraw.ml" 50 1549 1587 "xsraw.ml" 50 1549 1588
+type(
+  string
+)
+ident(
+  int_ref b "xsraw.ml" 49 1489 1495 "xsraw.ml" 49 1489 1496
+)
+"xsraw.ml" 50 1549 1556 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 50 1549 1551 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 48 1462 1464 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 45 1418 1419 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 44 1348 1349 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 43 1294 1295 "xsraw.ml" 50 1549 1589
+type(
+  string list
+)
+"xsraw.ml" 56 1696 1700 "xsraw.ml" 56 1696 1715
+type(
+  int * perm * (int * perm) list -> string
+)
+ident(
+  def string_of_perms "xsraw.ml" 64 2041 2041 --
+)
+"xsraw.ml" 56 1696 1716 "xsraw.ml" 56 1696 1721
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  def perms "xsraw.ml" 57 1724 1725 "xsraw.ml" 62 1969 2039
+)
+"xsraw.ml" 57 1724 1729 "xsraw.ml" 57 1724 1734
+type(
+  int
+)
+"xsraw.ml" 57 1724 1736 "xsraw.ml" 57 1724 1741
+type(
+  perm
+)
+"xsraw.ml" 57 1724 1743 "xsraw.ml" 57 1724 1746
+type(
+  (int * perm) list
+)
+"xsraw.ml" 57 1724 1729 "xsraw.ml" 57 1724 1746
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 57 1724 1749 "xsraw.ml" 57 1724 1754
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  int_ref perms "xsraw.ml" 56 1696 1716 "xsraw.ml" 56 1696 1721
+)
+"xsraw.ml" 58 1758 1763 "xsraw.ml" 58 1758 1775
+type(
+  perm -> char
+)
+"xsraw.ml" 58 1758 1776 "xsraw.ml" 58 1758 1780
+type(
+  perm
+)
+ident(
+  def perm "xsraw.ml" 59 1783 1785 "xsraw.ml" 60 1837 1884
+)
+"xsraw.ml" 59 1783 1791 "xsraw.ml" 59 1783 1795
+type(
+  perm
+)
+ident(
+  int_ref perm "xsraw.ml" 58 1758 1776 "xsraw.ml" 58 1758 1780
+)
+"xsraw.ml" 59 1783 1801 "xsraw.ml" 59 1783 1810
+type(
+  perm
+)
+"xsraw.ml" 59 1783 1814 "xsraw.ml" 59 1783 1817
+type(
+  char
+)
+"xsraw.ml" 59 1783 1820 "xsraw.ml" 59 1783 1829
+type(
+  perm
+)
+"xsraw.ml" 59 1783 1833 "xsraw.ml" 59 1783 1836
+type(
+  char
+)
+"xsraw.ml" 60 1837 1848 "xsraw.ml" 60 1837 1858
+type(
+  perm
+)
+"xsraw.ml" 60 1837 1862 "xsraw.ml" 60 1837 1865
+type(
+  char
+)
+"xsraw.ml" 60 1837 1868 "xsraw.ml" 60 1837 1877
+type(
+  perm
+)
+"xsraw.ml" 60 1837 1881 "xsraw.ml" 60 1837 1884
+type(
+  char
+)
+"xsraw.ml" 59 1783 1785 "xsraw.ml" 60 1837 1884
+type(
+  char
+)
+"xsraw.ml" 61 1888 1893 "xsraw.ml" 61 1888 1907
+type(
+  int * perm -> string
+)
+"xsraw.ml" 61 1888 1909 "xsraw.ml" 61 1888 1911
+type(
+  int
+)
+ident(
+  def id "xsraw.ml" 61 1888 1921 "xsraw.ml" 61 1888 1965
+)
+"xsraw.ml" 61 1888 1913 "xsraw.ml" 61 1888 1917
+type(
+  perm
+)
+ident(
+  def perm "xsraw.ml" 61 1888 1921 "xsraw.ml" 61 1888 1965
+)
+"xsraw.ml" 61 1888 1908 "xsraw.ml" 61 1888 1918
+type(
+  int * perm
+)
+"xsraw.ml" 61 1888 1921 "xsraw.ml" 61 1888 1935
+type(
+  (char -> int -> string, unit, string) format -> char -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xsraw.ml" 61 1888 1936 "xsraw.ml" 61 1888 1942
+type(
+  (char -> int -> string, unit, string) format
+)
+"xsraw.ml" 61 1888 1944 "xsraw.ml" 61 1888 1956
+type(
+  perm -> char
+)
+ident(
+  int_ref char_of_perm "xsraw.ml" 58 1758 1763 "xsraw.ml" 58 1758 1775
+)
+"xsraw.ml" 61 1888 1957 "xsraw.ml" 61 1888 1961
+type(
+  perm
+)
+ident(
+  int_ref perm "xsraw.ml" 61 1888 1913 "xsraw.ml" 61 1888 1917
+)
+"xsraw.ml" 61 1888 1943 "xsraw.ml" 61 1888 1962
+type(
+  char
+)
+"xsraw.ml" 61 1888 1963 "xsraw.ml" 61 1888 1965
+type(
+  int
+)
+ident(
+  int_ref id "xsraw.ml" 61 1888 1909 "xsraw.ml" 61 1888 1911
+)
+"xsraw.ml" 61 1888 1921 "xsraw.ml" 61 1888 1965
+type(
+  string
+)
+"xsraw.ml" 62 1969 1970 "xsraw.ml" 62 1969 1983
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"xsraw.ml" 62 1969 1984 "xsraw.ml" 62 1969 1990
+type(
+  string
+)
+"xsraw.ml" 62 1969 1992 "xsraw.ml" 62 1969 2000
+type(
+  (int * perm -> string) -> (int * perm) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"xsraw.ml" 62 1969 2001 "xsraw.ml" 62 1969 2015
+type(
+  int * perm -> string
+)
+ident(
+  int_ref string_of_perm "xsraw.ml" 61 1888 1893 "xsraw.ml" 61 1888 1907
+)
+"xsraw.ml" 62 1969 2018 "xsraw.ml" 62 1969 2023
+type(
+  int
+)
+ident(
+  int_ref owner "xsraw.ml" 57 1724 1729 "xsraw.ml" 57 1724 1734
+)
+"xsraw.ml" 62 1969 2024 "xsraw.ml" 62 1969 2029
+type(
+  perm
+)
+ident(
+  int_ref other "xsraw.ml" 57 1724 1736 "xsraw.ml" 57 1724 1741
+)
+"xsraw.ml" 62 1969 2017 "xsraw.ml" 62 1969 2030
+type(
+  int * perm
+)
+"xsraw.ml" 62 1969 2034 "xsraw.ml" 62 1969 2037
+type(
+  (int * perm) list
+)
+ident(
+  int_ref acl "xsraw.ml" 57 1724 1743 "xsraw.ml" 57 1724 1746
+)
+"xsraw.ml" 62 1969 2016 "xsraw.ml" 62 1969 2038
+type(
+  (int * perm) list
+)
+"xsraw.ml" 62 1969 1991 "xsraw.ml" 62 1969 2039
+type(
+  string list
+)
+"xsraw.ml" 62 1969 1970 "xsraw.ml" 62 1969 2039
+type(
+  string
+)
+"xsraw.ml" 61 1888 1889 "xsraw.ml" 62 1969 2039
+type(
+  string
+)
+"xsraw.ml" 58 1758 1759 "xsraw.ml" 62 1969 2039
+type(
+  string
+)
+"xsraw.ml" 57 1724 1725 "xsraw.ml" 62 1969 2039
+type(
+  string
+)
+"xsraw.ml" 64 2041 2045 "xsraw.ml" 64 2041 2060
+type(
+  string -> int * perm * (int * perm) list
+)
+ident(
+  def perms_of_string "xsraw.ml" 85 2868 2868 --
+)
+"xsraw.ml" 64 2041 2061 "xsraw.ml" 64 2041 2062
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 65 2065 2066 "xsraw.ml" 82 2764 2832
+)
+"xsraw.ml" 65 2065 2070 "xsraw.ml" 65 2065 2082
+type(
+  char -> perm
+)
+"xsraw.ml" 65 2065 2083 "xsraw.ml" 65 2065 2084
+type(
+  char
+)
+ident(
+  def c "xsraw.ml" 66 2087 2089 "xsraw.ml" 68 2190 2270
+)
+"xsraw.ml" 66 2087 2095 "xsraw.ml" 66 2087 2096
+type(
+  char
+)
+ident(
+  int_ref c "xsraw.ml" 65 2065 2083 "xsraw.ml" 65 2065 2084
+)
+"xsraw.ml" 66 2087 2102 "xsraw.ml" 66 2087 2105
+type(
+  char
+)
+"xsraw.ml" 66 2087 2109 "xsraw.ml" 66 2087 2118
+type(
+  perm
+)
+"xsraw.ml" 66 2087 2121 "xsraw.ml" 66 2087 2124
+type(
+  char
+)
+"xsraw.ml" 66 2087 2128 "xsraw.ml" 66 2087 2137
+type(
+  perm
+)
+"xsraw.ml" 67 2138 2153 "xsraw.ml" 67 2138 2156
+type(
+  char
+)
+"xsraw.ml" 67 2138 2160 "xsraw.ml" 67 2138 2170
+type(
+  perm
+)
+"xsraw.ml" 67 2138 2173 "xsraw.ml" 67 2138 2176
+type(
+  char
+)
+"xsraw.ml" 67 2138 2180 "xsraw.ml" 67 2138 2189
+type(
+  perm
+)
+"xsraw.ml" 68 2190 2205 "xsraw.ml" 68 2190 2206
+type(
+  char
+)
+ident(
+  def c "xsraw.ml" 68 2190 2210 "xsraw.ml" 68 2190 2270
+)
+"xsraw.ml" 68 2190 2210 "xsraw.ml" 68 2190 2221
+type(
+  string -> perm
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"xsraw.ml" 68 2190 2223 "xsraw.ml" 68 2190 2237
+type(
+  (char -> string, unit, string) format -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xsraw.ml" 68 2190 2238 "xsraw.ml" 68 2190 2267
+type(
+  (char -> string, unit, string) format
+)
+"xsraw.ml" 68 2190 2268 "xsraw.ml" 68 2190 2269
+type(
+  char
+)
+ident(
+  int_ref c "xsraw.ml" 68 2190 2205 "xsraw.ml" 68 2190 2206
+)
+"xsraw.ml" 68 2190 2222 "xsraw.ml" 68 2190 2270
+type(
+  string
+)
+"xsraw.ml" 68 2190 2210 "xsraw.ml" 68 2190 2270
+type(
+  perm
+)
+"xsraw.ml" 66 2087 2089 "xsraw.ml" 68 2190 2270
+type(
+  perm
+)
+"xsraw.ml" 69 2274 2279 "xsraw.ml" 69 2274 2293
+type(
+  string -> int * perm
+)
+"xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 70 2298 2300 "xsraw.ml" 76 2522 2527
+)
+"xsraw.ml" 70 2298 2303 "xsraw.ml" 70 2298 2316
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 70 2298 2317 "xsraw.ml" 70 2298 2318
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 70 2298 2303 "xsraw.ml" 70 2298 2318
+type(
+  int
+)
+"xsraw.ml" 70 2298 2319 "xsraw.ml" 70 2298 2320
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"xsraw.ml" 70 2298 2321 "xsraw.ml" 70 2298 2322
+type(
+  int
+)
+"xsraw.ml" 70 2298 2303 "xsraw.ml" 70 2298 2322
+type(
+  bool
+)
+"xsraw.ml" 71 2324 2331 "xsraw.ml" 71 2324 2342
+type(
+  string -> int * perm
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"xsraw.ml" 71 2324 2344 "xsraw.ml" 71 2324 2358
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xsraw.ml" 71 2324 2359 "xsraw.ml" 71 2324 2405
+type(
+  (int -> string -> string, unit, string) format
+)
+"xsraw.ml" 71 2324 2407 "xsraw.ml" 71 2324 2420
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 71 2324 2421 "xsraw.ml" 71 2324 2422
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 71 2324 2406 "xsraw.ml" 71 2324 2423
+type(
+  int
+)
+"xsraw.ml" 71 2324 2424 "xsraw.ml" 71 2324 2425
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 71 2324 2343 "xsraw.ml" 71 2324 2426
+type(
+  string
+)
+"xsraw.ml" 71 2324 2331 "xsraw.ml" 71 2324 2426
+type(
+  int * perm
+)
+"xsraw.ml" 74 2443 2446 "xsraw.ml" 74 2443 2459
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"xsraw.ml" 74 2443 2461 "xsraw.ml" 74 2443 2471
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 74 2443 2472 "xsraw.ml" 74 2443 2473
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 74 2443 2474 "xsraw.ml" 74 2443 2475
+type(
+  int
+)
+"xsraw.ml" 74 2443 2477 "xsraw.ml" 74 2443 2490
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 74 2443 2491 "xsraw.ml" 74 2443 2492
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 74 2443 2477 "xsraw.ml" 74 2443 2492
+type(
+  int
+)
+"xsraw.ml" 74 2443 2493 "xsraw.ml" 74 2443 2494
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 74 2443 2495 "xsraw.ml" 74 2443 2496
+type(
+  int
+)
+"xsraw.ml" 74 2443 2476 "xsraw.ml" 74 2443 2497
+type(
+  int
+)
+"xsraw.ml" 74 2443 2460 "xsraw.ml" 74 2443 2498
+type(
+  string
+)
+"xsraw.ml" 74 2443 2446 "xsraw.ml" 74 2443 2498
+type(
+  int
+)
+"xsraw.ml" 75 2500 2503 "xsraw.ml" 75 2500 2515
+type(
+  char -> perm
+)
+ident(
+  int_ref perm_of_char "xsraw.ml" 65 2065 2070 "xsraw.ml" 65 2065 2082
+)
+"xsraw.ml" 75 2500 2516 "xsraw.ml" 75 2500 2517
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 69 2274 2294 "xsraw.ml" 69 2274 2295
+)
+"xsraw.ml" 75 2500 2519 "xsraw.ml" 75 2500 2520
+type(
+  int
+)
+"xsraw.ml" 75 2500 2516 "xsraw.ml" 75 2500 2521
+type(
+  char
+)
+"xsraw.ml" 75 2500 2503 "xsraw.ml" 75 2500 2521
+type(
+  perm
+)
+"xsraw.ml" 73 2435 2437 "xsraw.ml" 76 2522 2527
+type(
+  int * perm
+)
+"xsraw.ml" 70 2298 2300 "xsraw.ml" 76 2522 2527
+type(
+  int * perm
+)
+"xsraw.ml" 77 2531 2540 "xsraw.ml" 77 2531 2545
+type(
+  string -> string list
+)
+"xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 78 2550 2552 "xsraw.ml" 80 2666 2714
+)
+"xsraw.ml" 78 2550 2560 "xsraw.ml" 78 2550 2561
+type(
+  int
+)
+ident(
+  def i "xsraw.ml" 79 2589 2591 "xsraw.ml" 79 2589 2665
+)
+"xsraw.ml" 78 2550 2564 "xsraw.ml" 78 2550 2576
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"xsraw.ml" 78 2550 2577 "xsraw.ml" 78 2550 2578
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 78 2550 2579 "xsraw.ml" 78 2550 2585
+type(
+  char
+)
+"xsraw.ml" 78 2550 2564 "xsraw.ml" 78 2550 2585
+type(
+  int
+)
+"xsraw.ml" 79 2589 2591 "xsraw.ml" 79 2589 2601
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 79 2589 2602 "xsraw.ml" 79 2589 2603
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 79 2589 2604 "xsraw.ml" 79 2589 2605
+type(
+  int
+)
+"xsraw.ml" 79 2589 2606 "xsraw.ml" 79 2589 2607
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 78 2550 2560 "xsraw.ml" 78 2550 2561
+)
+"xsraw.ml" 79 2589 2591 "xsraw.ml" 79 2589 2607
+type(
+  string
+)
+"xsraw.ml" 79 2589 2611 "xsraw.ml" 79 2589 2616
+type(
+  string -> string list
+)
+ident(
+  int_ref split "xsraw.ml" 77 2531 2540 "xsraw.ml" 77 2531 2545
+)
+"xsraw.ml" 79 2589 2618 "xsraw.ml" 79 2589 2628
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 79 2589 2629 "xsraw.ml" 79 2589 2630
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 79 2589 2632 "xsraw.ml" 79 2589 2633
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 78 2550 2560 "xsraw.ml" 78 2550 2561
+)
+"xsraw.ml" 79 2589 2634 "xsraw.ml" 79 2589 2635
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"xsraw.ml" 79 2589 2636 "xsraw.ml" 79 2589 2637
+type(
+  int
+)
+"xsraw.ml" 79 2589 2631 "xsraw.ml" 79 2589 2638
+type(
+  int
+)
+"xsraw.ml" 79 2589 2640 "xsraw.ml" 79 2589 2653
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 79 2589 2654 "xsraw.ml" 79 2589 2655
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 79 2589 2640 "xsraw.ml" 79 2589 2655
+type(
+  int
+)
+"xsraw.ml" 79 2589 2656 "xsraw.ml" 79 2589 2657
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 79 2589 2658 "xsraw.ml" 79 2589 2659
+type(
+  int
+)
+"xsraw.ml" 79 2589 2640 "xsraw.ml" 79 2589 2659
+type(
+  int
+)
+"xsraw.ml" 79 2589 2660 "xsraw.ml" 79 2589 2661
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 79 2589 2662 "xsraw.ml" 79 2589 2663
+type(
+  int
+)
+ident(
+  int_ref i "xsraw.ml" 78 2550 2560 "xsraw.ml" 78 2550 2561
+)
+"xsraw.ml" 79 2589 2639 "xsraw.ml" 79 2589 2664
+type(
+  int
+)
+"xsraw.ml" 79 2589 2617 "xsraw.ml" 79 2589 2665
+type(
+  string
+)
+"xsraw.ml" 79 2589 2611 "xsraw.ml" 79 2589 2665
+type(
+  string list
+)
+"xsraw.ml" 79 2589 2591 "xsraw.ml" 79 2589 2665
+type(
+  string list
+)
+"xsraw.ml" 78 2550 2556 "xsraw.ml" 79 2589 2665
+type(
+  string list
+)
+"xsraw.ml" 80 2666 2673 "xsraw.ml" 80 2666 2682
+type(
+  exn
+)
+"xsraw.ml" 80 2666 2689 "xsraw.ml" 80 2666 2690
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 80 2666 2691 "xsraw.ml" 80 2666 2692
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 80 2666 2693 "xsraw.ml" 80 2666 2695
+type(
+  string
+)
+"xsraw.ml" 80 2666 2689 "xsraw.ml" 80 2666 2695
+type(
+  bool
+)
+"xsraw.ml" 80 2666 2701 "xsraw.ml" 80 2666 2703
+type(
+  string list
+)
+"xsraw.ml" 80 2666 2711 "xsraw.ml" 80 2666 2712
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 77 2531 2546 "xsraw.ml" 77 2531 2547
+)
+"xsraw.ml" 80 2666 2709 "xsraw.ml" 80 2666 2714
+type(
+  string list
+)
+"xsraw.ml" 80 2666 2686 "xsraw.ml" 80 2666 2714
+type(
+  string list
+)
+"xsraw.ml" 78 2550 2552 "xsraw.ml" 80 2666 2714
+type(
+  string list
+)
+"xsraw.ml" 81 2718 2723 "xsraw.ml" 81 2718 2724
+type(
+  (int * perm) list
+)
+"xsraw.ml" 81 2718 2727 "xsraw.ml" 81 2718 2735
+type(
+  (string -> int * perm) -> string list -> (int * perm) list
+)
+ident(
+  ext_ref List.map
+)
+"xsraw.ml" 81 2718 2736 "xsraw.ml" 81 2718 2750
+type(
+  string -> int * perm
+)
+ident(
+  int_ref perm_of_string "xsraw.ml" 69 2274 2279 "xsraw.ml" 69 2274 2293
+)
+"xsraw.ml" 81 2718 2752 "xsraw.ml" 81 2718 2757
+type(
+  string -> string list
+)
+ident(
+  int_ref split "xsraw.ml" 77 2531 2540 "xsraw.ml" 77 2531 2545
+)
+"xsraw.ml" 81 2718 2758 "xsraw.ml" 81 2718 2759
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 64 2041 2061 "xsraw.ml" 64 2041 2062
+)
+"xsraw.ml" 81 2718 2751 "xsraw.ml" 81 2718 2760
+type(
+  string list
+)
+"xsraw.ml" 81 2718 2727 "xsraw.ml" 81 2718 2760
+type(
+  (int * perm) list
+)
+"xsraw.ml" 82 2764 2771 "xsraw.ml" 82 2764 2772
+type(
+  (int * perm) list
+)
+ident(
+  int_ref l "xsraw.ml" 81 2718 2723 "xsraw.ml" 81 2718 2724
+)
+"xsraw.ml" 82 2764 2778 "xsraw.ml" 82 2764 2779
+type(
+  int * perm
+)
+ident(
+  def h "xsraw.ml" 82 2764 2788 "xsraw.ml" 82 2764 2805
+)
+"xsraw.ml" 82 2764 2783 "xsraw.ml" 82 2764 2784
+type(
+  (int * perm) list
+)
+ident(
+  def l "xsraw.ml" 82 2764 2788 "xsraw.ml" 82 2764 2805
+)
+"xsraw.ml" 82 2764 2778 "xsraw.ml" 82 2764 2784
+type(
+  (int * perm) list
+)
+"xsraw.ml" 82 2764 2789 "xsraw.ml" 82 2764 2792
+type(
+  int * perm -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"xsraw.ml" 82 2764 2793 "xsraw.ml" 82 2764 2794
+type(
+  int * perm
+)
+ident(
+  int_ref h "xsraw.ml" 82 2764 2778 "xsraw.ml" 82 2764 2779
+)
+"xsraw.ml" 82 2764 2789 "xsraw.ml" 82 2764 2794
+type(
+  int
+)
+"xsraw.ml" 82 2764 2796 "xsraw.ml" 82 2764 2799
+type(
+  int * perm -> perm
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"xsraw.ml" 82 2764 2800 "xsraw.ml" 82 2764 2801
+type(
+  int * perm
+)
+ident(
+  int_ref h "xsraw.ml" 82 2764 2778 "xsraw.ml" 82 2764 2779
+)
+"xsraw.ml" 82 2764 2796 "xsraw.ml" 82 2764 2801
+type(
+  perm
+)
+"xsraw.ml" 82 2764 2803 "xsraw.ml" 82 2764 2804
+type(
+  (int * perm) list
+)
+ident(
+  int_ref l "xsraw.ml" 82 2764 2783 "xsraw.ml" 82 2764 2784
+)
+"xsraw.ml" 82 2764 2788 "xsraw.ml" 82 2764 2805
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 82 2764 2808 "xsraw.ml" 82 2764 2810
+type(
+  (int * perm) list
+)
+"xsraw.ml" 82 2764 2815 "xsraw.ml" 82 2764 2816
+type(
+  int
+)
+"xsraw.ml" 82 2764 2818 "xsraw.ml" 82 2764 2827
+type(
+  perm
+)
+"xsraw.ml" 82 2764 2829 "xsraw.ml" 82 2764 2831
+type(
+  (int * perm) list
+)
+"xsraw.ml" 82 2764 2814 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 82 2764 2765 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 81 2718 2719 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 77 2531 2532 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 69 2274 2275 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 65 2065 2066 "xsraw.ml" 82 2764 2832
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 85 2868 2872 "xsraw.ml" 85 2868 2880
+type(
+  con -> unit
+)
+ident(
+  def pkt_send "xsraw.ml" 95 3077 3077 --
+)
+"xsraw.ml" 85 2868 2881 "xsraw.ml" 85 2868 2884
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 86 2887 2888 "xsraw.ml" 92 3033 3038
+)
+"xsraw.ml" 86 2887 2891 "xsraw.ml" 86 2887 2908
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.has_old_output
+)
+"xsraw.ml" 86 2887 2909 "xsraw.ml" 86 2887 2912
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 85 2868 2881 "xsraw.ml" 85 2868 2884
+)
+"xsraw.ml" 86 2887 2909 "xsraw.ml" 86 2887 2915
+type(
+  Xb.t
+)
+"xsraw.ml" 86 2887 2891 "xsraw.ml" 86 2887 2915
+type(
+  bool
+)
+"xsraw.ml" 87 2921 2923 "xsraw.ml" 87 2921 2928
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 87 2921 2929 "xsraw.ml" 87 2921 2946
+type(
+  exn
+)
+"xsraw.ml" 87 2921 2923 "xsraw.ml" 87 2921 2946
+type(
+  unit
+)
+"xsraw.ml" 86 2887 2888 "xsraw.ml" 87 2921 2946
+type(
+  unit
+)
+"xsraw.ml" 88 2948 2953 "xsraw.ml" 88 2948 2961
+type(
+  bool ref
+)
+"xsraw.ml" 88 2948 2964 "xsraw.ml" 88 2948 2967
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xsraw.ml" 88 2948 2968 "xsraw.ml" 88 2948 2973
+type(
+  bool
+)
+"xsraw.ml" 88 2948 2964 "xsraw.ml" 88 2948 2973
+type(
+  bool ref
+)
+"xsraw.ml" 89 2977 2984 "xsraw.ml" 89 2977 2987
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"xsraw.ml" 89 2977 2988 "xsraw.ml" 89 2977 2989
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xsraw.ml" 89 2977 2989 "xsraw.ml" 89 2977 2997
+type(
+  bool ref
+)
+ident(
+  int_ref workdone "xsraw.ml" 88 2948 2953 "xsraw.ml" 88 2948 2961
+)
+"xsraw.ml" 89 2977 2988 "xsraw.ml" 89 2977 2997
+type(
+  bool
+)
+"xsraw.ml" 89 2977 2984 "xsraw.ml" 89 2977 2997
+type(
+  bool
+)
+"xsraw.ml" 91 3002 3004 "xsraw.ml" 91 3002 3012
+type(
+  bool ref
+)
+ident(
+  int_ref workdone "xsraw.ml" 88 2948 2953 "xsraw.ml" 88 2948 2961
+)
+"xsraw.ml" 91 3002 3013 "xsraw.ml" 91 3002 3015
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"xsraw.ml" 91 3002 3016 "xsraw.ml" 91 3002 3025
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.output
+)
+"xsraw.ml" 91 3002 3026 "xsraw.ml" 91 3002 3029
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 85 2868 2881 "xsraw.ml" 85 2868 2884
+)
+"xsraw.ml" 91 3002 3026 "xsraw.ml" 91 3002 3032
+type(
+  Xb.t
+)
+"xsraw.ml" 91 3002 3016 "xsraw.ml" 91 3002 3032
+type(
+  bool
+)
+"xsraw.ml" 91 3002 3004 "xsraw.ml" 91 3002 3032
+type(
+  unit
+)
+"xsraw.ml" 89 2977 2978 "xsraw.ml" 92 3033 3038
+type(
+  unit
+)
+"xsraw.ml" 88 2948 2949 "xsraw.ml" 92 3033 3038
+type(
+  unit
+)
+"xsraw.ml" 86 2887 2888 "xsraw.ml" 92 3033 3038
+type(
+  unit
+)
+"xsraw.ml" 95 3077 3081 "xsraw.ml" 95 3077 3089
+type(
+  con -> Xb.Packet.t
+)
+ident(
+  def pkt_recv "xsraw.ml" 103 3213 3213 --
+)
+"xsraw.ml" 95 3077 3090 "xsraw.ml" 95 3077 3093
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 96 3096 3097 "xsraw.ml" 101 3187 3211
+)
+"xsraw.ml" 96 3096 3101 "xsraw.ml" 96 3096 3109
+type(
+  bool ref
+)
+"xsraw.ml" 96 3096 3112 "xsraw.ml" 96 3096 3115
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xsraw.ml" 96 3096 3116 "xsraw.ml" 96 3096 3121
+type(
+  bool
+)
+"xsraw.ml" 96 3096 3112 "xsraw.ml" 96 3096 3121
+type(
+  bool ref
+)
+"xsraw.ml" 97 3125 3132 "xsraw.ml" 97 3125 3135
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"xsraw.ml" 97 3125 3136 "xsraw.ml" 97 3125 3137
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xsraw.ml" 97 3125 3137 "xsraw.ml" 97 3125 3145
+type(
+  bool ref
+)
+ident(
+  int_ref workdone "xsraw.ml" 96 3096 3101 "xsraw.ml" 96 3096 3109
+)
+"xsraw.ml" 97 3125 3136 "xsraw.ml" 97 3125 3145
+type(
+  bool
+)
+"xsraw.ml" 97 3125 3132 "xsraw.ml" 97 3125 3145
+type(
+  bool
+)
+"xsraw.ml" 99 3150 3152 "xsraw.ml" 99 3150 3160
+type(
+  bool ref
+)
+ident(
+  int_ref workdone "xsraw.ml" 96 3096 3101 "xsraw.ml" 96 3096 3109
+)
+"xsraw.ml" 99 3150 3161 "xsraw.ml" 99 3150 3163
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"xsraw.ml" 99 3150 3164 "xsraw.ml" 99 3150 3172
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.input
+)
+"xsraw.ml" 99 3150 3173 "xsraw.ml" 99 3150 3176
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 95 3077 3090 "xsraw.ml" 95 3077 3093
+)
+"xsraw.ml" 99 3150 3173 "xsraw.ml" 99 3150 3179
+type(
+  Xb.t
+)
+"xsraw.ml" 99 3150 3164 "xsraw.ml" 99 3150 3179
+type(
+  bool
+)
+"xsraw.ml" 99 3150 3152 "xsraw.ml" 99 3150 3179
+type(
+  unit
+)
+"xsraw.ml" 97 3125 3126 "xsraw.ml" 100 3180 3185
+type(
+  unit
+)
+"xsraw.ml" 101 3187 3188 "xsraw.ml" 101 3187 3204
+type(
+  Xb.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.get_in_packet
+)
+"xsraw.ml" 101 3187 3205 "xsraw.ml" 101 3187 3208
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 95 3077 3090 "xsraw.ml" 95 3077 3093
+)
+"xsraw.ml" 101 3187 3205 "xsraw.ml" 101 3187 3211
+type(
+  Xb.t
+)
+"xsraw.ml" 101 3187 3188 "xsraw.ml" 101 3187 3211
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 97 3125 3126 "xsraw.ml" 101 3187 3211
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 96 3096 3097 "xsraw.ml" 101 3187 3211
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 103 3213 3217 "xsraw.ml" 103 3213 3233
+type(
+  con -> float -> bool * Xb.Packet.t option
+)
+ident(
+  def pkt_recv_timeout "xsraw.ml" 116 3490 3490 --
+)
+"xsraw.ml" 103 3213 3234 "xsraw.ml" 103 3213 3237
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 103 3213 3238 "xsraw.ml" 114 3486 3488
+)
+"xsraw.ml" 103 3213 3238 "xsraw.ml" 103 3213 3245
+type(
+  float
+)
+ident(
+  def timeout "xsraw.ml" 104 3248 3249 "xsraw.ml" 114 3486 3488
+)
+"xsraw.ml" 104 3248 3253 "xsraw.ml" 104 3248 3255
+type(
+  Unix.file_descr
+)
+"xsraw.ml" 104 3248 3258 "xsraw.ml" 104 3248 3267
+type(
+  Xb.t -> Unix.file_descr
+)
+ident(
+  ext_ref Xb.get_fd
+)
+"xsraw.ml" 104 3248 3268 "xsraw.ml" 104 3248 3271
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 103 3213 3234 "xsraw.ml" 103 3213 3237
+)
+"xsraw.ml" 104 3248 3268 "xsraw.ml" 104 3248 3274
+type(
+  Xb.t
+)
+"xsraw.ml" 104 3248 3258 "xsraw.ml" 104 3248 3274
+type(
+  Unix.file_descr
+)
+"xsraw.ml" 105 3278 3283 "xsraw.ml" 105 3278 3284
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3286 "xsraw.ml" 105 3278 3287
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3289 "xsraw.ml" 105 3278 3290
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3283 "xsraw.ml" 105 3278 3290
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3293 "xsraw.ml" 105 3278 3304
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"xsraw.ml" 105 3278 3307 "xsraw.ml" 105 3278 3309
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xsraw.ml" 104 3248 3253 "xsraw.ml" 104 3248 3255
+)
+"xsraw.ml" 105 3278 3305 "xsraw.ml" 105 3278 3311
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3312 "xsraw.ml" 105 3278 3314
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3315 "xsraw.ml" 105 3278 3317
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 105 3278 3318 "xsraw.ml" 105 3278 3325
+type(
+  float
+)
+ident(
+  int_ref timeout "xsraw.ml" 103 3213 3238 "xsraw.ml" 103 3213 3245
+)
+"xsraw.ml" 105 3278 3293 "xsraw.ml" 105 3278 3325
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"xsraw.ml" 106 3329 3333 "xsraw.ml" 106 3329 3334
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref r "xsraw.ml" 105 3278 3283 "xsraw.ml" 105 3278 3284
+)
+"xsraw.ml" 106 3329 3335 "xsraw.ml" 106 3329 3336
+type(
+  Unix.file_descr list -> Unix.file_descr list -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 106 3329 3337 "xsraw.ml" 106 3329 3339
+type(
+  Unix.file_descr list
+)
+"xsraw.ml" 106 3329 3333 "xsraw.ml" 106 3329 3339
+type(
+  bool
+)
+"xsraw.ml" 107 3345 3347 "xsraw.ml" 107 3345 3351
+type(
+  bool
+)
+"xsraw.ml" 107 3345 3353 "xsraw.ml" 107 3345 3357
+type(
+  Xb.Packet.t option
+)
+"xsraw.ml" 107 3345 3347 "xsraw.ml" 107 3345 3357
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 109 3366 3372 "xsraw.ml" 109 3366 3380
+type(
+  bool
+)
+"xsraw.ml" 109 3366 3383 "xsraw.ml" 109 3366 3391
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.input
+)
+"xsraw.ml" 109 3366 3392 "xsraw.ml" 109 3366 3395
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 103 3213 3234 "xsraw.ml" 103 3213 3237
+)
+"xsraw.ml" 109 3366 3392 "xsraw.ml" 109 3366 3398
+type(
+  Xb.t
+)
+"xsraw.ml" 109 3366 3383 "xsraw.ml" 109 3366 3398
+type(
+  bool
+)
+"xsraw.ml" 110 3402 3407 "xsraw.ml" 110 3402 3415
+type(
+  bool
+)
+ident(
+  int_ref workdone "xsraw.ml" 109 3366 3372 "xsraw.ml" 109 3366 3380
+)
+"xsraw.ml" 111 3421 3424 "xsraw.ml" 111 3421 3429
+type(
+  bool
+)
+"xsraw.ml" 111 3421 3438 "xsraw.ml" 111 3421 3454
+type(
+  Xb.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.get_in_packet
+)
+"xsraw.ml" 111 3421 3455 "xsraw.ml" 111 3421 3458
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 103 3213 3234 "xsraw.ml" 103 3213 3237
+)
+"xsraw.ml" 111 3421 3455 "xsraw.ml" 111 3421 3461
+type(
+  Xb.t
+)
+"xsraw.ml" 111 3421 3437 "xsraw.ml" 111 3421 3462
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 111 3421 3431 "xsraw.ml" 111 3421 3463
+type(
+  Xb.Packet.t option
+)
+"xsraw.ml" 111 3421 3424 "xsraw.ml" 111 3421 3463
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 113 3471 3474 "xsraw.ml" 113 3471 3479
+type(
+  bool
+)
+"xsraw.ml" 113 3471 3481 "xsraw.ml" 113 3471 3485
+type(
+  Xb.Packet.t option
+)
+"xsraw.ml" 113 3471 3474 "xsraw.ml" 113 3471 3485
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 110 3402 3404 "xsraw.ml" 113 3471 3485
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 108 3358 3364 "xsraw.ml" 114 3486 3488
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 106 3329 3330 "xsraw.ml" 114 3486 3488
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 105 3278 3279 "xsraw.ml" 114 3486 3488
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 104 3248 3249 "xsraw.ml" 114 3486 3488
+type(
+  bool * Xb.Packet.t option
+)
+"xsraw.ml" 116 3490 3494 "xsraw.ml" 116 3490 3510
+type(
+  con -> string -> unit
+)
+ident(
+  def queue_watchevent "xsraw.ml" 124 3768 3768 --
+)
+"xsraw.ml" 116 3490 3511 "xsraw.ml" 116 3490 3514
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 116 3490 3515 "xsraw.ml" 122 3719 3766
+)
+"xsraw.ml" 116 3490 3515 "xsraw.ml" 116 3490 3519
+type(
+  string
+)
+ident(
+  def data "xsraw.ml" 117 3522 3523 "xsraw.ml" 122 3719 3766
+)
+"xsraw.ml" 117 3522 3527 "xsraw.ml" 117 3522 3529
+type(
+  string list
+)
+"xsraw.ml" 117 3522 3532 "xsraw.ml" 117 3522 3544
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split_string "xsraw.ml" 42 1247 1255 "xsraw.ml" 42 1247 1267
+)
+"xsraw.ml" 117 3522 3552 "xsraw.ml" 117 3522 3553
+type(
+  int
+)
+"xsraw.ml" 117 3522 3554 "xsraw.ml" 117 3522 3560
+type(
+  char
+)
+"xsraw.ml" 117 3522 3561 "xsraw.ml" 117 3522 3565
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 116 3490 3515 "xsraw.ml" 116 3490 3519
+)
+"xsraw.ml" 117 3522 3532 "xsraw.ml" 117 3522 3565
+type(
+  string list
+)
+"xsraw.ml" 118 3569 3573 "xsraw.ml" 118 3569 3584
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"xsraw.ml" 118 3569 3585 "xsraw.ml" 118 3569 3587
+type(
+  string list
+)
+ident(
+  int_ref ls "xsraw.ml" 117 3522 3527 "xsraw.ml" 117 3522 3529
+)
+"xsraw.ml" 118 3569 3573 "xsraw.ml" 118 3569 3587
+type(
+  int
+)
+"xsraw.ml" 118 3569 3588 "xsraw.ml" 118 3569 3590
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.!=
+)
+"xsraw.ml" 118 3569 3591 "xsraw.ml" 118 3569 3592
+type(
+  int
+)
+"xsraw.ml" 118 3569 3573 "xsraw.ml" 118 3569 3592
+type(
+  bool
+)
+"xsraw.ml" 119 3598 3600 "xsraw.ml" 119 3598 3605
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 119 3598 3627 "xsraw.ml" 119 3598 3654
+type(
+  string
+)
+"xsraw.ml" 119 3598 3606 "xsraw.ml" 119 3598 3655
+type(
+  exn
+)
+"xsraw.ml" 119 3598 3600 "xsraw.ml" 119 3598 3655
+type(
+  unit
+)
+"xsraw.ml" 118 3569 3570 "xsraw.ml" 119 3598 3655
+type(
+  unit
+)
+"xsraw.ml" 120 3657 3662 "xsraw.ml" 120 3657 3667
+type(
+  string
+)
+"xsraw.ml" 120 3657 3670 "xsraw.ml" 120 3657 3678
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"xsraw.ml" 120 3657 3679 "xsraw.ml" 120 3657 3681
+type(
+  string list
+)
+ident(
+  int_ref ls "xsraw.ml" 117 3522 3527 "xsraw.ml" 117 3522 3529
+)
+"xsraw.ml" 120 3657 3682 "xsraw.ml" 120 3657 3683
+type(
+  int
+)
+"xsraw.ml" 120 3657 3670 "xsraw.ml" 120 3657 3683
+type(
+  string
+)
+"xsraw.ml" 121 3684 3689 "xsraw.ml" 121 3684 3699
+type(
+  string
+)
+"xsraw.ml" 121 3684 3702 "xsraw.ml" 121 3684 3710
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"xsraw.ml" 121 3684 3711 "xsraw.ml" 121 3684 3713
+type(
+  string list
+)
+ident(
+  int_ref ls "xsraw.ml" 117 3522 3527 "xsraw.ml" 117 3522 3529
+)
+"xsraw.ml" 121 3684 3714 "xsraw.ml" 121 3684 3715
+type(
+  int
+)
+"xsraw.ml" 121 3684 3702 "xsraw.ml" 121 3684 3715
+type(
+  string
+)
+"xsraw.ml" 122 3719 3720 "xsraw.ml" 122 3719 3730
+type(
+  string * string -> (string * string) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"xsraw.ml" 122 3719 3732 "xsraw.ml" 122 3719 3737
+type(
+  string
+)
+ident(
+  int_ref event "xsraw.ml" 120 3657 3662 "xsraw.ml" 120 3657 3667
+)
+"xsraw.ml" 122 3719 3739 "xsraw.ml" 122 3719 3749
+type(
+  string
+)
+ident(
+  int_ref event_data "xsraw.ml" 121 3684 3689 "xsraw.ml" 121 3684 3699
+)
+"xsraw.ml" 122 3719 3731 "xsraw.ml" 122 3719 3750
+type(
+  string * string
+)
+"xsraw.ml" 122 3719 3751 "xsraw.ml" 122 3719 3754
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 116 3490 3511 "xsraw.ml" 116 3490 3514
+)
+"xsraw.ml" 122 3719 3751 "xsraw.ml" 122 3719 3766
+type(
+  (string * string) Queue.t
+)
+"xsraw.ml" 122 3719 3720 "xsraw.ml" 122 3719 3766
+type(
+  unit
+)
+"xsraw.ml" 120 3657 3658 "xsraw.ml" 122 3719 3766
+type(
+  unit
+)
+"xsraw.ml" 118 3569 3570 "xsraw.ml" 122 3719 3766
+type(
+  unit
+)
+"xsraw.ml" 117 3522 3523 "xsraw.ml" 122 3719 3766
+type(
+  unit
+)
+"xsraw.ml" 124 3768 3772 "xsraw.ml" 124 3768 3787
+type(
+  con -> bool
+)
+ident(
+  def has_watchevents "xsraw.ml" 125 3827 3827 --
+)
+"xsraw.ml" 124 3768 3788 "xsraw.ml" 124 3768 3791
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 124 3768 3794 "xsraw.ml" 124 3768 3826
+)
+"xsraw.ml" 124 3768 3794 "xsraw.ml" 124 3768 3806
+type(
+  (string * string) Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xsraw.ml" 124 3768 3807 "xsraw.ml" 124 3768 3810
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 124 3768 3788 "xsraw.ml" 124 3768 3791
+)
+"xsraw.ml" 124 3768 3807 "xsraw.ml" 124 3768 3822
+type(
+  (string * string) Queue.t
+)
+"xsraw.ml" 124 3768 3794 "xsraw.ml" 124 3768 3822
+type(
+  int
+)
+"xsraw.ml" 124 3768 3823 "xsraw.ml" 124 3768 3824
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"xsraw.ml" 124 3768 3825 "xsraw.ml" 124 3768 3826
+type(
+  int
+)
+"xsraw.ml" 124 3768 3794 "xsraw.ml" 124 3768 3826
+type(
+  bool
+)
+"xsraw.ml" 125 3827 3831 "xsraw.ml" 125 3827 3845
+type(
+  con -> string * string
+)
+ident(
+  def get_watchevent "xsraw.ml" 127 3879 3879 --
+)
+"xsraw.ml" 125 3827 3846 "xsraw.ml" 125 3827 3849
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 125 3827 3852 "xsraw.ml" 125 3827 3877
+)
+"xsraw.ml" 125 3827 3852 "xsraw.ml" 125 3827 3861
+type(
+  (string * string) Queue.t -> string * string
+)
+ident(
+  ext_ref Queue.pop
+)
+"xsraw.ml" 125 3827 3862 "xsraw.ml" 125 3827 3865
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 125 3827 3846 "xsraw.ml" 125 3827 3849
+)
+"xsraw.ml" 125 3827 3862 "xsraw.ml" 125 3827 3877
+type(
+  (string * string) Queue.t
+)
+"xsraw.ml" 125 3827 3852 "xsraw.ml" 125 3827 3877
+type(
+  string * string
+)
+"xsraw.ml" 127 3879 3883 "xsraw.ml" 127 3879 3898
+type(
+  con -> string * string
+)
+ident(
+  def read_watchevent "xsraw.ml" 136 4182 4182 --
+)
+"xsraw.ml" 127 3879 3899 "xsraw.ml" 127 3879 3902
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 128 3905 3906 "xsraw.ml" 133 4065 4125
+)
+"xsraw.ml" 128 3905 3910 "xsraw.ml" 128 3905 3913
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 128 3905 3916 "xsraw.ml" 128 3905 3924
+type(
+  con -> Xb.Packet.t
+)
+ident(
+  int_ref pkt_recv "xsraw.ml" 95 3077 3081 "xsraw.ml" 95 3077 3089
+)
+"xsraw.ml" 128 3905 3925 "xsraw.ml" 128 3905 3928
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 127 3879 3899 "xsraw.ml" 127 3879 3902
+)
+"xsraw.ml" 128 3905 3916 "xsraw.ml" 128 3905 3928
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 129 3932 3939 "xsraw.ml" 129 3932 3955
+type(
+  Xb.Packet.t -> Xb.Op.operation
+)
+ident(
+  ext_ref Xb.Packet.get_ty
+)
+"xsraw.ml" 129 3932 3956 "xsraw.ml" 129 3932 3959
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 128 3905 3910 "xsraw.ml" 128 3905 3913
+)
+"xsraw.ml" 129 3932 3939 "xsraw.ml" 129 3932 3959
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 130 3965 3968 "xsraw.ml" 130 3965 3984
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 131 3988 3990 "xsraw.ml" 131 3988 4006
+type(
+  con -> string -> unit
+)
+ident(
+  int_ref queue_watchevent "xsraw.ml" 116 3490 3494 "xsraw.ml" 116 3490 3510
+)
+"xsraw.ml" 131 3988 4007 "xsraw.ml" 131 3988 4010
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 127 3879 3899 "xsraw.ml" 127 3879 3902
+)
+"xsraw.ml" 131 3988 4012 "xsraw.ml" 131 3988 4030
+type(
+  Xb.Packet.t -> string
+)
+ident(
+  ext_ref Xb.Packet.get_data
+)
+"xsraw.ml" 131 3988 4031 "xsraw.ml" 131 3988 4034
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 128 3905 3910 "xsraw.ml" 128 3905 3913
+)
+"xsraw.ml" 131 3988 4011 "xsraw.ml" 131 3988 4035
+type(
+  string
+)
+"xsraw.ml" 131 3988 3990 "xsraw.ml" 131 3988 4035
+type(
+  unit
+)
+"xsraw.ml" 132 4037 4039 "xsraw.ml" 132 4037 4048
+type(
+  (string * string) Queue.t -> string * string
+)
+ident(
+  ext_ref Queue.pop
+)
+"xsraw.ml" 132 4037 4049 "xsraw.ml" 132 4037 4052
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 127 3879 3899 "xsraw.ml" 127 3879 3902
+)
+"xsraw.ml" 132 4037 4049 "xsraw.ml" 132 4037 4064
+type(
+  (string * string) Queue.t
+)
+"xsraw.ml" 132 4037 4039 "xsraw.ml" 132 4037 4064
+type(
+  string * string
+)
+"xsraw.ml" 131 3988 3990 "xsraw.ml" 132 4037 4064
+type(
+  string * string
+)
+"xsraw.ml" 133 4065 4068 "xsraw.ml" 133 4065 4070
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "xsraw.ml" 133 4065 4088 "xsraw.ml" 133 4065 4125
+)
+"xsraw.ml" 133 4065 4088 "xsraw.ml" 133 4065 4105
+type(
+  Xb.Op.operation -> Xb.Op.operation -> string * string
+)
+ident(
+  int_ref unexpected_packet "xsraw.ml" 23 842 846 "xsraw.ml" 23 842 863
+)
+"xsraw.ml" 133 4065 4106 "xsraw.ml" 133 4065 4122
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 133 4065 4123 "xsraw.ml" 133 4065 4125
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "xsraw.ml" 133 4065 4068 "xsraw.ml" 133 4065 4070
+)
+"xsraw.ml" 133 4065 4088 "xsraw.ml" 133 4065 4125
+type(
+  string * string
+)
+"xsraw.ml" 129 3932 3933 "xsraw.ml" 133 4065 4125
+type(
+  string * string
+)
+"xsraw.ml" 128 3905 3906 "xsraw.ml" 133 4065 4125
+type(
+  string * string
+)
+"xsraw.ml" 136 4182 4190 "xsraw.ml" 136 4182 4199
+type(
+  Xb.Op.operation -> con -> string
+)
+ident(
+  def sync_recv "xsraw.ml" 136 4182 4182 --
+)
+"xsraw.ml" 136 4182 4200 "xsraw.ml" 136 4182 4202
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "xsraw.ml" 136 4182 4203 "xsraw.ml" 149 4609 4657
+)
+"xsraw.ml" 136 4182 4203 "xsraw.ml" 136 4182 4206
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 137 4209 4210 "xsraw.ml" 149 4609 4657
+)
+"xsraw.ml" 137 4209 4214 "xsraw.ml" 137 4209 4217
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 137 4209 4220 "xsraw.ml" 137 4209 4228
+type(
+  con -> Xb.Packet.t
+)
+ident(
+  int_ref pkt_recv "xsraw.ml" 95 3077 3081 "xsraw.ml" 95 3077 3089
+)
+"xsraw.ml" 137 4209 4229 "xsraw.ml" 137 4209 4232
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 136 4182 4203 "xsraw.ml" 136 4182 4206
+)
+"xsraw.ml" 137 4209 4220 "xsraw.ml" 137 4209 4232
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 138 4236 4243 "xsraw.ml" 138 4236 4259
+type(
+  Xb.Packet.t -> Xb.Op.operation
+)
+ident(
+  ext_ref Xb.Packet.get_ty
+)
+"xsraw.ml" 138 4236 4260 "xsraw.ml" 138 4236 4263
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 137 4209 4214 "xsraw.ml" 137 4209 4217
+)
+"xsraw.ml" 138 4236 4243 "xsraw.ml" 138 4236 4263
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 139 4269 4272 "xsraw.ml" 139 4269 4283
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 140 4295 4303 "xsraw.ml" 140 4295 4321
+type(
+  Xb.Packet.t -> string
+)
+ident(
+  ext_ref Xb.Packet.get_data
+)
+"xsraw.ml" 140 4295 4322 "xsraw.ml" 140 4295 4325
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 137 4209 4214 "xsraw.ml" 137 4209 4217
+)
+"xsraw.ml" 140 4295 4303 "xsraw.ml" 140 4295 4325
+type(
+  string
+)
+"xsraw.ml" 141 4331 4335 "xsraw.ml" 141 4331 4343
+type(
+  string
+)
+"xsraw.ml" 141 4331 4347 "xsraw.ml" 141 4331 4352
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 141 4331 4353 "xsraw.ml" 141 4331 4361
+type(
+  exn
+)
+"xsraw.ml" 141 4331 4347 "xsraw.ml" 141 4331 4361
+type(
+  string
+)
+"xsraw.ml" 142 4362 4366 "xsraw.ml" 142 4362 4374
+type(
+  string
+)
+"xsraw.ml" 142 4362 4378 "xsraw.ml" 142 4362 4383
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 142 4362 4384 "xsraw.ml" 142 4362 4393
+type(
+  exn
+)
+"xsraw.ml" 142 4362 4378 "xsraw.ml" 142 4362 4393
+type(
+  string
+)
+"xsraw.ml" 143 4394 4398 "xsraw.ml" 143 4394 4406
+type(
+  string
+)
+"xsraw.ml" 143 4394 4410 "xsraw.ml" 143 4394 4415
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 143 4394 4416 "xsraw.ml" 143 4394 4426
+type(
+  exn
+)
+"xsraw.ml" 143 4394 4410 "xsraw.ml" 143 4394 4426
+type(
+  string
+)
+"xsraw.ml" 144 4427 4431 "xsraw.ml" 144 4427 4432
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 144 4427 4443 "xsraw.ml" 144 4427 4468
+)
+"xsraw.ml" 144 4427 4443 "xsraw.ml" 144 4427 4448
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 144 4427 4466 "xsraw.ml" 144 4427 4467
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 144 4427 4431 "xsraw.ml" 144 4427 4432
+)
+"xsraw.ml" 144 4427 4449 "xsraw.ml" 144 4427 4468
+type(
+  exn
+)
+"xsraw.ml" 144 4427 4443 "xsraw.ml" 144 4427 4468
+type(
+  string
+)
+"xsraw.ml" 139 4269 4293 "xsraw.ml" 144 4427 4469
+type(
+  string
+)
+"xsraw.ml" 145 4470 4473 "xsraw.ml" 145 4470 4489
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 146 4494 4496 "xsraw.ml" 146 4494 4512
+type(
+  con -> string -> unit
+)
+ident(
+  int_ref queue_watchevent "xsraw.ml" 116 3490 3494 "xsraw.ml" 116 3490 3510
+)
+"xsraw.ml" 146 4494 4513 "xsraw.ml" 146 4494 4516
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 136 4182 4203 "xsraw.ml" 136 4182 4206
+)
+"xsraw.ml" 146 4494 4518 "xsraw.ml" 146 4494 4536
+type(
+  Xb.Packet.t -> string
+)
+ident(
+  ext_ref Xb.Packet.get_data
+)
+"xsraw.ml" 146 4494 4537 "xsraw.ml" 146 4494 4540
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 137 4209 4214 "xsraw.ml" 137 4209 4217
+)
+"xsraw.ml" 146 4494 4517 "xsraw.ml" 146 4494 4541
+type(
+  string
+)
+"xsraw.ml" 146 4494 4496 "xsraw.ml" 146 4494 4541
+type(
+  unit
+)
+"xsraw.ml" 147 4543 4545 "xsraw.ml" 147 4543 4554
+type(
+  Xb.Op.operation -> con -> string
+)
+ident(
+  int_ref sync_recv "xsraw.ml" 136 4182 4190 "xsraw.ml" 136 4182 4199
+)
+"xsraw.ml" 147 4543 4555 "xsraw.ml" 147 4543 4557
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "xsraw.ml" 136 4182 4200 "xsraw.ml" 136 4182 4202
+)
+"xsraw.ml" 147 4543 4558 "xsraw.ml" 147 4543 4561
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 136 4182 4203 "xsraw.ml" 136 4182 4206
+)
+"xsraw.ml" 147 4543 4545 "xsraw.ml" 147 4543 4561
+type(
+  string
+)
+"xsraw.ml" 146 4494 4496 "xsraw.ml" 147 4543 4561
+type(
+  string
+)
+"xsraw.ml" 148 4562 4565 "xsraw.ml" 148 4562 4568
+type(
+  Xb.Op.operation
+)
+ident(
+  def rty "xsraw.ml" 148 4562 4569 "xsraw.ml" 148 4562 4608
+)
+"xsraw.ml" 148 4562 4574 "xsraw.ml" 148 4562 4577
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref rty "xsraw.ml" 148 4562 4565 "xsraw.ml" 148 4562 4568
+)
+"xsraw.ml" 148 4562 4578 "xsraw.ml" 148 4562 4579
+type(
+  Xb.Op.operation -> Xb.Op.operation -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 148 4562 4580 "xsraw.ml" 148 4562 4582
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "xsraw.ml" 136 4182 4200 "xsraw.ml" 136 4182 4202
+)
+"xsraw.ml" 148 4562 4574 "xsraw.ml" 148 4562 4582
+type(
+  bool
+)
+"xsraw.ml" 148 4562 4586 "xsraw.ml" 148 4562 4604
+type(
+  Xb.Packet.t -> string
+)
+ident(
+  ext_ref Xb.Packet.get_data
+)
+"xsraw.ml" 148 4562 4605 "xsraw.ml" 148 4562 4608
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref pkt "xsraw.ml" 137 4209 4214 "xsraw.ml" 137 4209 4217
+)
+"xsraw.ml" 148 4562 4586 "xsraw.ml" 148 4562 4608
+type(
+  string
+)
+"xsraw.ml" 148 4562 4569 "xsraw.ml" 148 4562 4608
+type(
+  string
+)
+"xsraw.ml" 149 4609 4612 "xsraw.ml" 149 4609 4615
+type(
+  Xb.Op.operation
+)
+ident(
+  def rty "xsraw.ml" 149 4609 4633 "xsraw.ml" 149 4609 4657
+)
+"xsraw.ml" 149 4609 4633 "xsraw.ml" 149 4609 4650
+type(
+  Xb.Op.operation -> Xb.Op.operation -> string
+)
+ident(
+  int_ref unexpected_packet "xsraw.ml" 23 842 846 "xsraw.ml" 23 842 863
+)
+"xsraw.ml" 149 4609 4651 "xsraw.ml" 149 4609 4653
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "xsraw.ml" 136 4182 4200 "xsraw.ml" 136 4182 4202
+)
+"xsraw.ml" 149 4609 4654 "xsraw.ml" 149 4609 4657
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref rty "xsraw.ml" 149 4609 4612 "xsraw.ml" 149 4609 4615
+)
+"xsraw.ml" 149 4609 4633 "xsraw.ml" 149 4609 4657
+type(
+  string
+)
+"xsraw.ml" 138 4236 4237 "xsraw.ml" 149 4609 4657
+type(
+  string
+)
+"xsraw.ml" 137 4209 4210 "xsraw.ml" 149 4609 4657
+type(
+  string
+)
+"xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+type(
+  (Xb.t -> 'a) -> con -> string
+)
+ident(
+  def sync "xsraw.ml" 160 4885 4885 --
+)
+"xsraw.ml" 151 4659 4668 "xsraw.ml" 151 4659 4669
+type(
+  Xb.t -> 'a
+)
+ident(
+  def f "xsraw.ml" 151 4659 4670 "xsraw.ml" 158 4866 4883
+)
+"xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 153 4714 4715 "xsraw.ml" 158 4866 4883
+)
+"xsraw.ml" 153 4714 4715 "xsraw.ml" 153 4714 4716
+type(
+  Xb.t -> 'a
+)
+ident(
+  int_ref f "xsraw.ml" 151 4659 4668 "xsraw.ml" 151 4659 4669
+)
+"xsraw.ml" 153 4714 4717 "xsraw.ml" 153 4714 4720
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+)
+"xsraw.ml" 153 4714 4717 "xsraw.ml" 153 4714 4723
+type(
+  Xb.t
+)
+"xsraw.ml" 153 4714 4715 "xsraw.ml" 153 4714 4723
+type(
+  'a
+)
+"xsraw.ml" 154 4725 4729 "xsraw.ml" 154 4725 4742
+type(
+  Xb.t -> int
+)
+ident(
+  ext_ref Xb.output_len
+)
+"xsraw.ml" 154 4725 4743 "xsraw.ml" 154 4725 4746
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+)
+"xsraw.ml" 154 4725 4743 "xsraw.ml" 154 4725 4749
+type(
+  Xb.t
+)
+"xsraw.ml" 154 4725 4729 "xsraw.ml" 154 4725 4749
+type(
+  int
+)
+"xsraw.ml" 154 4725 4750 "xsraw.ml" 154 4725 4751
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 154 4725 4752 "xsraw.ml" 154 4725 4753
+type(
+  int
+)
+"xsraw.ml" 154 4725 4729 "xsraw.ml" 154 4725 4753
+type(
+  bool
+)
+"xsraw.ml" 155 4759 4761 "xsraw.ml" 155 4759 4774
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"xsraw.ml" 155 4759 4775 "xsraw.ml" 155 4759 4795
+type(
+  (unit, out_channel, unit) format
+)
+"xsraw.ml" 155 4759 4761 "xsraw.ml" 155 4759 4795
+type(
+  unit
+)
+"xsraw.ml" 154 4725 4726 "xsraw.ml" 155 4759 4795
+type(
+  unit
+)
+"xsraw.ml" 156 4797 4802 "xsraw.ml" 156 4797 4804
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 156 4797 4807 "xsraw.ml" 156 4797 4823
+type(
+  Xb.Packet.t -> Xb.Op.operation
+)
+ident(
+  ext_ref Xb.Packet.get_ty
+)
+"xsraw.ml" 156 4797 4825 "xsraw.ml" 156 4797 4839
+type(
+  Xb.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.peek_output
+)
+"xsraw.ml" 156 4797 4840 "xsraw.ml" 156 4797 4843
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+)
+"xsraw.ml" 156 4797 4840 "xsraw.ml" 156 4797 4846
+type(
+  Xb.t
+)
+"xsraw.ml" 156 4797 4824 "xsraw.ml" 156 4797 4847
+type(
+  Xb.Packet.t
+)
+"xsraw.ml" 156 4797 4807 "xsraw.ml" 156 4797 4847
+type(
+  Xb.Op.operation
+)
+"xsraw.ml" 157 4851 4852 "xsraw.ml" 157 4851 4860
+type(
+  con -> unit
+)
+ident(
+  int_ref pkt_send "xsraw.ml" 85 2868 2872 "xsraw.ml" 85 2868 2880
+)
+"xsraw.ml" 157 4851 4861 "xsraw.ml" 157 4851 4864
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+)
+"xsraw.ml" 157 4851 4852 "xsraw.ml" 157 4851 4864
+type(
+  unit
+)
+"xsraw.ml" 158 4866 4867 "xsraw.ml" 158 4866 4876
+type(
+  Xb.Op.operation -> con -> string
+)
+ident(
+  int_ref sync_recv "xsraw.ml" 136 4182 4190 "xsraw.ml" 136 4182 4199
+)
+"xsraw.ml" 158 4866 4877 "xsraw.ml" 158 4866 4879
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "xsraw.ml" 156 4797 4802 "xsraw.ml" 156 4797 4804
+)
+"xsraw.ml" 158 4866 4880 "xsraw.ml" 158 4866 4883
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 151 4659 4670 "xsraw.ml" 151 4659 4673
+)
+"xsraw.ml" 158 4866 4867 "xsraw.ml" 158 4866 4883
+type(
+  string
+)
+"xsraw.ml" 157 4851 4852 "xsraw.ml" 158 4866 4883
+type(
+  string
+)
+"xsraw.ml" 156 4797 4798 "xsraw.ml" 158 4866 4883
+type(
+  string
+)
+"xsraw.ml" 154 4725 4726 "xsraw.ml" 158 4866 4883
+type(
+  string
+)
+"xsraw.ml" 153 4714 4715 "xsraw.ml" 158 4866 4883
+type(
+  string
+)
+"xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+type(
+  string -> unit
+)
+ident(
+  def ack "xsraw.ml" 164 5038 5038 --
+)
+"xsraw.ml" 160 4885 4893 "xsraw.ml" 160 4885 4894
+type(
+  string
+)
+ident(
+  def s "xsraw.ml" 161 4897 4898 "xsraw.ml" 161 4897 4952
+)
+"xsraw.ml" 161 4897 4901 "xsraw.ml" 161 4897 4902
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 160 4885 4893 "xsraw.ml" 160 4885 4894
+)
+"xsraw.ml" 161 4897 4903 "xsraw.ml" 161 4897 4904
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 161 4897 4905 "xsraw.ml" 161 4897 4909
+type(
+  string
+)
+"xsraw.ml" 161 4897 4901 "xsraw.ml" 161 4897 4909
+type(
+  bool
+)
+"xsraw.ml" 161 4897 4915 "xsraw.ml" 161 4897 4917
+type(
+  unit
+)
+"xsraw.ml" 161 4897 4923 "xsraw.ml" 161 4897 4928
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 161 4897 4950 "xsraw.ml" 161 4897 4951
+type(
+  string
+)
+ident(
+  int_ref s "xsraw.ml" 160 4885 4893 "xsraw.ml" 160 4885 4894
+)
+"xsraw.ml" 161 4897 4929 "xsraw.ml" 161 4897 4952
+type(
+  exn
+)
+"xsraw.ml" 161 4897 4923 "xsraw.ml" 161 4897 4952
+type(
+  unit
+)
+"xsraw.ml" 161 4897 4898 "xsraw.ml" 161 4897 4952
+type(
+  unit
+)
+"xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+type(
+  string -> unit
+)
+ident(
+  def validate_path "xsraw.ml" 176 5512 5512 --
+)
+"xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 166 5112 5113 "xsraw.ml" 173 5429 5456
+)
+"xsraw.ml" 166 5112 5117 "xsraw.ml" 166 5112 5120
+type(
+  string
+)
+"xsraw.ml" 166 5112 5123 "xsraw.ml" 166 5112 5127
+type(
+  string
+)
+"xsraw.ml" 167 5131 5145 "xsraw.ml" 167 5131 5146
+type(
+  int
+)
+"xsraw.ml" 167 5131 5150 "xsraw.ml" 167 5131 5163
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 167 5131 5164 "xsraw.ml" 167 5131 5168
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 167 5131 5150 "xsraw.ml" 167 5131 5168
+type(
+  int
+)
+"xsraw.ml" 167 5131 5169 "xsraw.ml" 167 5131 5170
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 167 5131 5172 "xsraw.ml" 167 5131 5185
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 167 5131 5186 "xsraw.ml" 167 5131 5189
+type(
+  string
+)
+ident(
+  int_ref bad "xsraw.ml" 166 5112 5117 "xsraw.ml" 166 5112 5120
+)
+"xsraw.ml" 167 5131 5171 "xsraw.ml" 167 5131 5190
+type(
+  int
+)
+"xsraw.ml" 167 5131 5150 "xsraw.ml" 167 5131 5190
+type(
+  int
+)
+"xsraw.ml" 168 5194 5199 "xsraw.ml" 168 5194 5209
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xsraw.ml" 168 5194 5210 "xsraw.ml" 168 5194 5214
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 168 5194 5215 "xsraw.ml" 168 5194 5221
+type(
+  int
+)
+"xsraw.ml" 168 5194 5223 "xsraw.ml" 168 5194 5236
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 168 5194 5237 "xsraw.ml" 168 5194 5240
+type(
+  string
+)
+ident(
+  int_ref bad "xsraw.ml" 166 5112 5117 "xsraw.ml" 166 5112 5120
+)
+"xsraw.ml" 168 5194 5222 "xsraw.ml" 168 5194 5241
+type(
+  int
+)
+"xsraw.ml" 168 5194 5199 "xsraw.ml" 168 5194 5241
+type(
+  string
+)
+"xsraw.ml" 168 5194 5242 "xsraw.ml" 168 5194 5243
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 168 5194 5244 "xsraw.ml" 168 5194 5247
+type(
+  string
+)
+ident(
+  int_ref bad "xsraw.ml" 166 5112 5117 "xsraw.ml" 166 5112 5120
+)
+"xsraw.ml" 168 5194 5199 "xsraw.ml" 168 5194 5247
+type(
+  bool
+)
+"xsraw.ml" 169 5253 5256 "xsraw.ml" 169 5253 5261
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 169 5253 5276 "xsraw.ml" 169 5253 5280
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 169 5253 5262 "xsraw.ml" 169 5253 5281
+type(
+  exn
+)
+"xsraw.ml" 169 5253 5256 "xsraw.ml" 169 5253 5281
+type(
+  unit
+)
+"xsraw.ml" 168 5194 5196 "xsraw.ml" 169 5253 5281
+type(
+  unit
+)
+"xsraw.ml" 167 5131 5132 "xsraw.ml" 170 5282 5287
+type(
+  unit
+)
+"xsraw.ml" 172 5355 5359 "xsraw.ml" 172 5355 5363
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 172 5355 5364 "xsraw.ml" 172 5355 5366
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 172 5355 5367 "xsraw.ml" 172 5355 5370
+type(
+  string
+)
+"xsraw.ml" 172 5355 5359 "xsraw.ml" 172 5355 5370
+type(
+  bool
+)
+"xsraw.ml" 172 5355 5371 "xsraw.ml" 172 5355 5373
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"xsraw.ml" 172 5355 5374 "xsraw.ml" 172 5355 5378
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 172 5355 5379 "xsraw.ml" 172 5355 5381
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 172 5355 5382 "xsraw.ml" 172 5355 5384
+type(
+  string
+)
+"xsraw.ml" 172 5355 5374 "xsraw.ml" 172 5355 5384
+type(
+  bool
+)
+"xsraw.ml" 172 5355 5385 "xsraw.ml" 172 5355 5387
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"xsraw.ml" 172 5355 5388 "xsraw.ml" 172 5355 5392
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 172 5355 5394 "xsraw.ml" 172 5355 5407
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xsraw.ml" 172 5355 5408 "xsraw.ml" 172 5355 5412
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 172 5355 5394 "xsraw.ml" 172 5355 5412
+type(
+  int
+)
+"xsraw.ml" 172 5355 5413 "xsraw.ml" 172 5355 5414
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"xsraw.ml" 172 5355 5415 "xsraw.ml" 172 5355 5416
+type(
+  int
+)
+"xsraw.ml" 172 5355 5394 "xsraw.ml" 172 5355 5416
+type(
+  int
+)
+"xsraw.ml" 172 5355 5388 "xsraw.ml" 172 5355 5417
+type(
+  char
+)
+"xsraw.ml" 172 5355 5418 "xsraw.ml" 172 5355 5419
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 172 5355 5420 "xsraw.ml" 172 5355 5423
+type(
+  char
+)
+"xsraw.ml" 172 5355 5388 "xsraw.ml" 172 5355 5423
+type(
+  bool
+)
+"xsraw.ml" 172 5355 5374 "xsraw.ml" 172 5355 5423
+type(
+  bool
+)
+"xsraw.ml" 172 5355 5359 "xsraw.ml" 172 5355 5423
+type(
+  bool
+)
+"xsraw.ml" 173 5429 5431 "xsraw.ml" 173 5429 5436
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 173 5429 5451 "xsraw.ml" 173 5429 5455
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 164 5038 5056 "xsraw.ml" 164 5038 5060
+)
+"xsraw.ml" 173 5429 5437 "xsraw.ml" 173 5429 5456
+type(
+  exn
+)
+"xsraw.ml" 173 5429 5431 "xsraw.ml" 173 5429 5456
+type(
+  unit
+)
+"xsraw.ml" 172 5355 5356 "xsraw.ml" 173 5429 5456
+type(
+  unit
+)
+"xsraw.ml" 167 5131 5132 "xsraw.ml" 173 5429 5456
+type(
+  unit
+)
+"xsraw.ml" 166 5112 5113 "xsraw.ml" 173 5429 5456
+type(
+  unit
+)
+"xsraw.ml" 176 5512 5516 "xsraw.ml" 176 5512 5535
+type(
+  string -> unit
+)
+ident(
+  def validate_watch_path "xsraw.ml" 181 5663 5663 --
+)
+"xsraw.ml" 176 5512 5536 "xsraw.ml" 176 5512 5540
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 178 5596 5597 "xsraw.ml" 179 5637 5661
+)
+"xsraw.ml" 178 5596 5600 "xsraw.ml" 178 5596 5604
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 176 5512 5536 "xsraw.ml" 176 5512 5540
+)
+"xsraw.ml" 178 5596 5605 "xsraw.ml" 178 5596 5607
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 178 5596 5608 "xsraw.ml" 178 5596 5610
+type(
+  string
+)
+"xsraw.ml" 178 5596 5600 "xsraw.ml" 178 5596 5610
+type(
+  bool
+)
+"xsraw.ml" 178 5596 5611 "xsraw.ml" 178 5596 5613
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"xsraw.ml" 178 5596 5614 "xsraw.ml" 178 5596 5618
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 176 5512 5536 "xsraw.ml" 176 5512 5540
+)
+"xsraw.ml" 178 5596 5620 "xsraw.ml" 178 5596 5621
+type(
+  int
+)
+"xsraw.ml" 178 5596 5614 "xsraw.ml" 178 5596 5622
+type(
+  char
+)
+"xsraw.ml" 178 5596 5623 "xsraw.ml" 178 5596 5624
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"xsraw.ml" 178 5596 5625 "xsraw.ml" 178 5596 5628
+type(
+  char
+)
+"xsraw.ml" 178 5596 5614 "xsraw.ml" 178 5596 5628
+type(
+  bool
+)
+"xsraw.ml" 178 5596 5600 "xsraw.ml" 178 5596 5628
+type(
+  bool
+)
+"xsraw.ml" 178 5596 5634 "xsraw.ml" 178 5596 5636
+type(
+  unit
+)
+"xsraw.ml" 179 5637 5643 "xsraw.ml" 179 5637 5656
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 179 5637 5657 "xsraw.ml" 179 5637 5661
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 176 5512 5536 "xsraw.ml" 176 5512 5540
+)
+"xsraw.ml" 179 5637 5643 "xsraw.ml" 179 5637 5661
+type(
+  unit
+)
+"xsraw.ml" 178 5596 5597 "xsraw.ml" 179 5637 5661
+type(
+  unit
+)
+"xsraw.ml" 181 5663 5667 "xsraw.ml" 181 5663 5672
+type(
+  string list -> con -> string
+)
+ident(
+  def debug "xsraw.ml" 184 5722 5722 --
+)
+"xsraw.ml" 181 5663 5673 "xsraw.ml" 181 5663 5680
+type(
+  string list
+)
+ident(
+  def command "xsraw.ml" 181 5663 5681 "xsraw.ml" 182 5687 5720
+)
+"xsraw.ml" 181 5663 5681 "xsraw.ml" 181 5663 5684
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 182 5687 5688 "xsraw.ml" 182 5687 5720
+)
+"xsraw.ml" 182 5687 5688 "xsraw.ml" 182 5687 5692
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 182 5687 5694 "xsraw.ml" 182 5687 5707
+type(
+  string list -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.debug
+)
+"xsraw.ml" 182 5687 5708 "xsraw.ml" 182 5687 5715
+type(
+  string list
+)
+ident(
+  int_ref command "xsraw.ml" 181 5663 5673 "xsraw.ml" 181 5663 5680
+)
+"xsraw.ml" 182 5687 5693 "xsraw.ml" 182 5687 5716
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 182 5687 5717 "xsraw.ml" 182 5687 5720
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 181 5663 5681 "xsraw.ml" 181 5663 5684
+)
+"xsraw.ml" 182 5687 5688 "xsraw.ml" 182 5687 5720
+type(
+  string
+)
+"xsraw.ml" 184 5722 5726 "xsraw.ml" 184 5722 5735
+type(
+  int -> string -> con -> string list
+)
+ident(
+  def directory "xsraw.ml" 189 5852 5852 --
+)
+"xsraw.ml" 184 5722 5736 "xsraw.ml" 184 5722 5739
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 184 5722 5740 "xsraw.ml" 187 5825 5850
+)
+"xsraw.ml" 184 5722 5740 "xsraw.ml" 184 5722 5744
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 184 5722 5745 "xsraw.ml" 187 5825 5850
+)
+"xsraw.ml" 184 5722 5745 "xsraw.ml" 184 5722 5748
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 185 5751 5752 "xsraw.ml" 187 5825 5850
+)
+"xsraw.ml" 185 5751 5752 "xsraw.ml" 185 5751 5765
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 185 5751 5766 "xsraw.ml" 185 5751 5770
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 184 5722 5740 "xsraw.ml" 184 5722 5744
+)
+"xsraw.ml" 185 5751 5752 "xsraw.ml" 185 5751 5770
+type(
+  unit
+)
+"xsraw.ml" 186 5772 5777 "xsraw.ml" 186 5772 5781
+type(
+  string
+)
+"xsraw.ml" 186 5772 5784 "xsraw.ml" 186 5772 5788
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 186 5772 5790 "xsraw.ml" 186 5772 5807
+type(
+  int -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.directory
+)
+"xsraw.ml" 186 5772 5808 "xsraw.ml" 186 5772 5811
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 184 5722 5736 "xsraw.ml" 184 5722 5739
+)
+"xsraw.ml" 186 5772 5812 "xsraw.ml" 186 5772 5816
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 184 5722 5740 "xsraw.ml" 184 5722 5744
+)
+"xsraw.ml" 186 5772 5789 "xsraw.ml" 186 5772 5817
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 186 5772 5818 "xsraw.ml" 186 5772 5821
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 184 5722 5745 "xsraw.ml" 184 5722 5748
+)
+"xsraw.ml" 186 5772 5784 "xsraw.ml" 186 5772 5821
+type(
+  string
+)
+"xsraw.ml" 187 5825 5826 "xsraw.ml" 187 5825 5838
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split_string "xsraw.ml" 42 1247 1255 "xsraw.ml" 42 1247 1267
+)
+"xsraw.ml" 187 5825 5839 "xsraw.ml" 187 5825 5845
+type(
+  char
+)
+"xsraw.ml" 187 5825 5846 "xsraw.ml" 187 5825 5850
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 186 5772 5777 "xsraw.ml" 186 5772 5781
+)
+"xsraw.ml" 187 5825 5826 "xsraw.ml" 187 5825 5850
+type(
+  string list
+)
+"xsraw.ml" 186 5772 5773 "xsraw.ml" 187 5825 5850
+type(
+  string list
+)
+"xsraw.ml" 185 5751 5752 "xsraw.ml" 187 5825 5850
+type(
+  string list
+)
+"xsraw.ml" 189 5852 5856 "xsraw.ml" 189 5852 5860
+type(
+  int -> string -> con -> string
+)
+ident(
+  def read "xsraw.ml" 193 5932 5932 --
+)
+"xsraw.ml" 189 5852 5861 "xsraw.ml" 189 5852 5864
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 189 5852 5865 "xsraw.ml" 191 5897 5930
+)
+"xsraw.ml" 189 5852 5865 "xsraw.ml" 189 5852 5869
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 189 5852 5870 "xsraw.ml" 191 5897 5930
+)
+"xsraw.ml" 189 5852 5870 "xsraw.ml" 189 5852 5873
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 190 5876 5877 "xsraw.ml" 191 5897 5930
+)
+"xsraw.ml" 190 5876 5877 "xsraw.ml" 190 5876 5890
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 190 5876 5891 "xsraw.ml" 190 5876 5895
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 189 5852 5865 "xsraw.ml" 189 5852 5869
+)
+"xsraw.ml" 190 5876 5877 "xsraw.ml" 190 5876 5895
+type(
+  unit
+)
+"xsraw.ml" 191 5897 5898 "xsraw.ml" 191 5897 5902
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 191 5897 5904 "xsraw.ml" 191 5897 5916
+type(
+  int -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.read
+)
+"xsraw.ml" 191 5897 5917 "xsraw.ml" 191 5897 5920
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 189 5852 5861 "xsraw.ml" 189 5852 5864
+)
+"xsraw.ml" 191 5897 5921 "xsraw.ml" 191 5897 5925
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 189 5852 5865 "xsraw.ml" 189 5852 5869
+)
+"xsraw.ml" 191 5897 5903 "xsraw.ml" 191 5897 5926
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 191 5897 5927 "xsraw.ml" 191 5897 5930
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 189 5852 5870 "xsraw.ml" 189 5852 5873
+)
+"xsraw.ml" 191 5897 5898 "xsraw.ml" 191 5897 5930
+type(
+  string
+)
+"xsraw.ml" 190 5876 5877 "xsraw.ml" 191 5897 5930
+type(
+  string
+)
+"xsraw.ml" 193 5932 5936 "xsraw.ml" 193 5932 5941
+type(
+  int -> string -> string list -> con -> string list
+)
+ident(
+  def readv "xsraw.ml" 198 6097 6097 --
+)
+"xsraw.ml" 193 5932 5942 "xsraw.ml" 193 5932 5945
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 193 5932 5946 "xsraw.ml" 196 6043 6095
+)
+"xsraw.ml" 193 5932 5946 "xsraw.ml" 193 5932 5949
+type(
+  string
+)
+ident(
+  def dir "xsraw.ml" 193 5932 5950 "xsraw.ml" 196 6043 6095
+)
+"xsraw.ml" 193 5932 5950 "xsraw.ml" 193 5932 5953
+type(
+  string list
+)
+ident(
+  def vec "xsraw.ml" 193 5932 5954 "xsraw.ml" 196 6043 6095
+)
+"xsraw.ml" 193 5932 5954 "xsraw.ml" 193 5932 5957
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 194 5960 5961 "xsraw.ml" 196 6043 6095
+)
+"xsraw.ml" 194 5960 5961 "xsraw.ml" 194 5960 5969
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"xsraw.ml" 194 5960 5975 "xsraw.ml" 194 5960 5979
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 194 5960 5983 "xsraw.ml" 194 5960 6020
+)
+"xsraw.ml" 194 5960 5983 "xsraw.ml" 194 5960 5996
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 194 5960 5997 "xsraw.ml" 194 5960 6001
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 194 5960 5975 "xsraw.ml" 194 5960 5979
+)
+"xsraw.ml" 194 5960 5983 "xsraw.ml" 194 5960 6001
+type(
+  unit
+)
+"xsraw.ml" 194 5960 6003 "xsraw.ml" 194 5960 6007
+type(
+  int -> string -> con -> string
+)
+ident(
+  int_ref read "xsraw.ml" 189 5852 5856 "xsraw.ml" 189 5852 5860
+)
+"xsraw.ml" 194 5960 6008 "xsraw.ml" 194 5960 6011
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 193 5932 5942 "xsraw.ml" 193 5932 5945
+)
+"xsraw.ml" 194 5960 6012 "xsraw.ml" 194 5960 6016
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 194 5960 5975 "xsraw.ml" 194 5960 5979
+)
+"xsraw.ml" 194 5960 6017 "xsraw.ml" 194 5960 6020
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 193 5932 5954 "xsraw.ml" 193 5932 5957
+)
+"xsraw.ml" 194 5960 6003 "xsraw.ml" 194 5960 6020
+type(
+  string
+)
+"xsraw.ml" 194 5960 5983 "xsraw.ml" 194 5960 6020
+type(
+  string
+)
+"xsraw.ml" 194 5960 5970 "xsraw.ml" 194 5960 6021
+type(
+  string -> string
+)
+"xsraw.ml" 195 6022 6028 "xsraw.ml" 195 6022 6031
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 193 5932 5946 "xsraw.ml" 193 5932 5949
+)
+"xsraw.ml" 195 6022 6032 "xsraw.ml" 195 6022 6034
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 195 6022 6035 "xsraw.ml" 195 6022 6037
+type(
+  string
+)
+"xsraw.ml" 195 6022 6028 "xsraw.ml" 195 6022 6037
+type(
+  bool
+)
+"xsraw.ml" 196 6043 6047 "xsraw.ml" 196 6043 6055
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"xsraw.ml" 196 6043 6061 "xsraw.ml" 196 6043 6062
+type(
+  string
+)
+ident(
+  def v "xsraw.ml" 196 6043 6066 "xsraw.ml" 196 6043 6079
+)
+"xsraw.ml" 196 6043 6066 "xsraw.ml" 196 6043 6069
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 193 5932 5946 "xsraw.ml" 193 5932 5949
+)
+"xsraw.ml" 196 6043 6070 "xsraw.ml" 196 6043 6071
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 196 6043 6072 "xsraw.ml" 196 6043 6075
+type(
+  string
+)
+"xsraw.ml" 196 6043 6076 "xsraw.ml" 196 6043 6077
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 196 6043 6078 "xsraw.ml" 196 6043 6079
+type(
+  string
+)
+ident(
+  int_ref v "xsraw.ml" 196 6043 6061 "xsraw.ml" 196 6043 6062
+)
+"xsraw.ml" 196 6043 6072 "xsraw.ml" 196 6043 6079
+type(
+  string
+)
+"xsraw.ml" 196 6043 6066 "xsraw.ml" 196 6043 6079
+type(
+  string
+)
+"xsraw.ml" 196 6043 6056 "xsraw.ml" 196 6043 6080
+type(
+  string -> string
+)
+"xsraw.ml" 196 6043 6081 "xsraw.ml" 196 6043 6084
+type(
+  string list
+)
+ident(
+  int_ref vec "xsraw.ml" 193 5932 5950 "xsraw.ml" 193 5932 5953
+)
+"xsraw.ml" 196 6043 6046 "xsraw.ml" 196 6043 6085
+type(
+  string list
+)
+"xsraw.ml" 196 6043 6091 "xsraw.ml" 196 6043 6094
+type(
+  string list
+)
+ident(
+  int_ref vec "xsraw.ml" 193 5932 5950 "xsraw.ml" 193 5932 5953
+)
+"xsraw.ml" 195 6022 6024 "xsraw.ml" 196 6043 6095
+type(
+  string list
+)
+"xsraw.ml" 194 5960 5961 "xsraw.ml" 196 6043 6095
+type(
+  string list
+)
+"xsraw.ml" 198 6097 6101 "xsraw.ml" 198 6097 6109
+type(
+  int -> string -> con -> int * perm * (int * perm) list
+)
+ident(
+  def getperms "xsraw.ml" 202 6203 6203 --
+)
+"xsraw.ml" 198 6097 6110 "xsraw.ml" 198 6097 6113
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 198 6097 6114 "xsraw.ml" 200 6146 6201
+)
+"xsraw.ml" 198 6097 6114 "xsraw.ml" 198 6097 6118
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 198 6097 6119 "xsraw.ml" 200 6146 6201
+)
+"xsraw.ml" 198 6097 6119 "xsraw.ml" 198 6097 6122
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 199 6125 6126 "xsraw.ml" 200 6146 6201
+)
+"xsraw.ml" 199 6125 6126 "xsraw.ml" 199 6125 6139
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 199 6125 6140 "xsraw.ml" 199 6125 6144
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 198 6097 6114 "xsraw.ml" 198 6097 6118
+)
+"xsraw.ml" 199 6125 6126 "xsraw.ml" 199 6125 6144
+type(
+  unit
+)
+"xsraw.ml" 200 6146 6147 "xsraw.ml" 200 6146 6162
+type(
+  string -> int * perm * (int * perm) list
+)
+ident(
+  int_ref perms_of_string "xsraw.ml" 64 2041 2045 "xsraw.ml" 64 2041 2060
+)
+"xsraw.ml" 200 6146 6164 "xsraw.ml" 200 6146 6168
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 200 6146 6170 "xsraw.ml" 200 6146 6186
+type(
+  int -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.getperms
+)
+"xsraw.ml" 200 6146 6187 "xsraw.ml" 200 6146 6190
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 198 6097 6110 "xsraw.ml" 198 6097 6113
+)
+"xsraw.ml" 200 6146 6191 "xsraw.ml" 200 6146 6195
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 198 6097 6114 "xsraw.ml" 198 6097 6118
+)
+"xsraw.ml" 200 6146 6169 "xsraw.ml" 200 6146 6196
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 200 6146 6197 "xsraw.ml" 200 6146 6200
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 198 6097 6119 "xsraw.ml" 198 6097 6122
+)
+"xsraw.ml" 200 6146 6163 "xsraw.ml" 200 6146 6201
+type(
+  string
+)
+"xsraw.ml" 200 6146 6147 "xsraw.ml" 200 6146 6201
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 199 6125 6126 "xsraw.ml" 200 6146 6201
+type(
+  int * perm * (int * perm) list
+)
+"xsraw.ml" 202 6203 6207 "xsraw.ml" 202 6203 6212
+type(
+  string -> string -> con -> unit
+)
+ident(
+  def watch "xsraw.ml" 206 6299 6299 --
+)
+"xsraw.ml" 202 6203 6213 "xsraw.ml" 202 6203 6217
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 202 6203 6218 "xsraw.ml" 204 6256 6297
+)
+"xsraw.ml" 202 6203 6218 "xsraw.ml" 202 6203 6222
+type(
+  string
+)
+ident(
+  def data "xsraw.ml" 202 6203 6223 "xsraw.ml" 204 6256 6297
+)
+"xsraw.ml" 202 6203 6223 "xsraw.ml" 202 6203 6226
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 203 6229 6230 "xsraw.ml" 204 6256 6297
+)
+"xsraw.ml" 203 6229 6230 "xsraw.ml" 203 6229 6249
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_watch_path "xsraw.ml" 176 5512 5516 "xsraw.ml" 176 5512 5535
+)
+"xsraw.ml" 203 6229 6250 "xsraw.ml" 203 6229 6254
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 202 6203 6213 "xsraw.ml" 202 6203 6217
+)
+"xsraw.ml" 203 6229 6230 "xsraw.ml" 203 6229 6254
+type(
+  unit
+)
+"xsraw.ml" 204 6256 6257 "xsraw.ml" 204 6256 6260
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 204 6256 6262 "xsraw.ml" 204 6256 6266
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 204 6256 6268 "xsraw.ml" 204 6256 6281
+type(
+  string -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.watch
+)
+"xsraw.ml" 204 6256 6282 "xsraw.ml" 204 6256 6286
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 202 6203 6213 "xsraw.ml" 202 6203 6217
+)
+"xsraw.ml" 204 6256 6287 "xsraw.ml" 204 6256 6291
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 202 6203 6218 "xsraw.ml" 202 6203 6222
+)
+"xsraw.ml" 204 6256 6267 "xsraw.ml" 204 6256 6292
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 204 6256 6293 "xsraw.ml" 204 6256 6296
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 202 6203 6223 "xsraw.ml" 202 6203 6226
+)
+"xsraw.ml" 204 6256 6261 "xsraw.ml" 204 6256 6297
+type(
+  string
+)
+"xsraw.ml" 204 6256 6257 "xsraw.ml" 204 6256 6297
+type(
+  unit
+)
+"xsraw.ml" 203 6229 6230 "xsraw.ml" 204 6256 6297
+type(
+  unit
+)
+"xsraw.ml" 206 6299 6303 "xsraw.ml" 206 6299 6310
+type(
+  string -> string -> con -> unit
+)
+ident(
+  def unwatch "xsraw.ml" 210 6399 6399 --
+)
+"xsraw.ml" 206 6299 6311 "xsraw.ml" 206 6299 6315
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 206 6299 6316 "xsraw.ml" 208 6354 6397
+)
+"xsraw.ml" 206 6299 6316 "xsraw.ml" 206 6299 6320
+type(
+  string
+)
+ident(
+  def data "xsraw.ml" 206 6299 6321 "xsraw.ml" 208 6354 6397
+)
+"xsraw.ml" 206 6299 6321 "xsraw.ml" 206 6299 6324
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 207 6327 6328 "xsraw.ml" 208 6354 6397
+)
+"xsraw.ml" 207 6327 6328 "xsraw.ml" 207 6327 6347
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_watch_path "xsraw.ml" 176 5512 5516 "xsraw.ml" 176 5512 5535
+)
+"xsraw.ml" 207 6327 6348 "xsraw.ml" 207 6327 6352
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 206 6299 6311 "xsraw.ml" 206 6299 6315
+)
+"xsraw.ml" 207 6327 6328 "xsraw.ml" 207 6327 6352
+type(
+  unit
+)
+"xsraw.ml" 208 6354 6355 "xsraw.ml" 208 6354 6358
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 208 6354 6360 "xsraw.ml" 208 6354 6364
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 208 6354 6366 "xsraw.ml" 208 6354 6381
+type(
+  string -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.unwatch
+)
+"xsraw.ml" 208 6354 6382 "xsraw.ml" 208 6354 6386
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 206 6299 6311 "xsraw.ml" 206 6299 6315
+)
+"xsraw.ml" 208 6354 6387 "xsraw.ml" 208 6354 6391
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 206 6299 6316 "xsraw.ml" 206 6299 6320
+)
+"xsraw.ml" 208 6354 6365 "xsraw.ml" 208 6354 6392
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 208 6354 6393 "xsraw.ml" 208 6354 6396
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 206 6299 6321 "xsraw.ml" 206 6299 6324
+)
+"xsraw.ml" 208 6354 6359 "xsraw.ml" 208 6354 6397
+type(
+  string
+)
+"xsraw.ml" 208 6354 6355 "xsraw.ml" 208 6354 6397
+type(
+  unit
+)
+"xsraw.ml" 207 6327 6328 "xsraw.ml" 208 6354 6397
+type(
+  unit
+)
+"xsraw.ml" 210 6399 6403 "xsraw.ml" 210 6399 6420
+type(
+  con -> int
+)
+ident(
+  def transaction_start "xsraw.ml" 217 6591 6591 --
+)
+"xsraw.ml" 210 6399 6421 "xsraw.ml" 210 6399 6424
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 211 6427 6428 "xsraw.ml" 215 6511 6589
+)
+"xsraw.ml" 211 6427 6432 "xsraw.ml" 211 6427 6436
+type(
+  string
+)
+"xsraw.ml" 211 6427 6439 "xsraw.ml" 211 6427 6443
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 211 6427 6444 "xsraw.ml" 211 6427 6471
+type(
+  Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.transaction_start
+)
+"xsraw.ml" 211 6427 6472 "xsraw.ml" 211 6427 6475
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 210 6399 6421 "xsraw.ml" 210 6399 6424
+)
+"xsraw.ml" 211 6427 6439 "xsraw.ml" 211 6427 6475
+type(
+  string
+)
+"xsraw.ml" 213 6484 6486 "xsraw.ml" 213 6484 6499
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"xsraw.ml" 213 6484 6500 "xsraw.ml" 213 6484 6504
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 211 6427 6432 "xsraw.ml" 211 6427 6436
+)
+"xsraw.ml" 213 6484 6486 "xsraw.ml" 213 6484 6504
+type(
+  int
+)
+"xsraw.ml" 215 6511 6513 "xsraw.ml" 215 6511 6514
+type(
+  exn
+)
+"xsraw.ml" 215 6511 6518 "xsraw.ml" 215 6511 6523
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xsraw.ml" 215 6511 6543 "xsraw.ml" 215 6511 6557
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xsraw.ml" 215 6511 6558 "xsraw.ml" 215 6511 6582
+type(
+  (string -> string, unit, string) format
+)
+"xsraw.ml" 215 6511 6583 "xsraw.ml" 215 6511 6587
+type(
+  string
+)
+ident(
+  int_ref data "xsraw.ml" 211 6427 6432 "xsraw.ml" 211 6427 6436
+)
+"xsraw.ml" 215 6511 6542 "xsraw.ml" 215 6511 6588
+type(
+  string
+)
+"xsraw.ml" 215 6511 6524 "xsraw.ml" 215 6511 6589
+type(
+  exn
+)
+"xsraw.ml" 215 6511 6518 "xsraw.ml" 215 6511 6589
+type(
+  int
+)
+"xsraw.ml" 212 6479 6480 "xsraw.ml" 215 6511 6589
+type(
+  int
+)
+"xsraw.ml" 211 6427 6428 "xsraw.ml" 215 6511 6589
+type(
+  int
+)
+"xsraw.ml" 217 6591 6595 "xsraw.ml" 217 6591 6610
+type(
+  int -> bool -> con -> bool
+)
+ident(
+  def transaction_end "xsraw.ml" 224 6723 6723 --
+)
+"xsraw.ml" 217 6591 6611 "xsraw.ml" 217 6591 6614
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 217 6591 6615 "xsraw.ml" 222 6701 6721
+)
+"xsraw.ml" 217 6591 6615 "xsraw.ml" 217 6591 6621
+type(
+  bool
+)
+ident(
+  def commit "xsraw.ml" 217 6591 6622 "xsraw.ml" 222 6701 6721
+)
+"xsraw.ml" 217 6591 6622 "xsraw.ml" 217 6591 6625
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 218 6628 6629 "xsraw.ml" 222 6701 6721
+)
+"xsraw.ml" 219 6633 6635 "xsraw.ml" 219 6633 6638
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 219 6633 6640 "xsraw.ml" 219 6633 6644
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 219 6633 6646 "xsraw.ml" 219 6633 6669
+type(
+  int -> bool -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.transaction_end
+)
+"xsraw.ml" 219 6633 6670 "xsraw.ml" 219 6633 6673
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 217 6591 6611 "xsraw.ml" 217 6591 6614
+)
+"xsraw.ml" 219 6633 6674 "xsraw.ml" 219 6633 6680
+type(
+  bool
+)
+ident(
+  int_ref commit "xsraw.ml" 217 6591 6615 "xsraw.ml" 217 6591 6621
+)
+"xsraw.ml" 219 6633 6645 "xsraw.ml" 219 6633 6681
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 219 6633 6682 "xsraw.ml" 219 6633 6685
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 217 6591 6622 "xsraw.ml" 217 6591 6625
+)
+"xsraw.ml" 219 6633 6639 "xsraw.ml" 219 6633 6686
+type(
+  string
+)
+"xsraw.ml" 219 6633 6635 "xsraw.ml" 219 6633 6686
+type(
+  unit
+)
+"xsraw.ml" 220 6688 6690 "xsraw.ml" 220 6688 6694
+type(
+  bool
+)
+"xsraw.ml" 219 6633 6635 "xsraw.ml" 220 6688 6694
+type(
+  bool
+)
+"xsraw.ml" 222 6701 6703 "xsraw.ml" 222 6701 6712
+type(
+  exn
+)
+"xsraw.ml" 222 6701 6716 "xsraw.ml" 222 6701 6721
+type(
+  bool
+)
+"xsraw.ml" 218 6628 6629 "xsraw.ml" 222 6701 6721
+type(
+  bool
+)
+"xsraw.ml" 224 6723 6727 "xsraw.ml" 224 6723 6736
+type(
+  int -> nativeint -> int -> con -> unit
+)
+ident(
+  def introduce "xsraw.ml" 227 6810 6810 --
+)
+"xsraw.ml" 224 6723 6737 "xsraw.ml" 224 6723 6742
+type(
+  int
+)
+ident(
+  def domid "xsraw.ml" 224 6723 6743 "xsraw.ml" 225 6758 6808
+)
+"xsraw.ml" 224 6723 6743 "xsraw.ml" 224 6723 6746
+type(
+  nativeint
+)
+ident(
+  def mfn "xsraw.ml" 224 6723 6747 "xsraw.ml" 225 6758 6808
+)
+"xsraw.ml" 224 6723 6747 "xsraw.ml" 224 6723 6751
+type(
+  int
+)
+ident(
+  def port "xsraw.ml" 224 6723 6752 "xsraw.ml" 225 6758 6808
+)
+"xsraw.ml" 224 6723 6752 "xsraw.ml" 224 6723 6755
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 225 6758 6759 "xsraw.ml" 225 6758 6808
+)
+"xsraw.ml" 225 6758 6759 "xsraw.ml" 225 6758 6762
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 225 6758 6764 "xsraw.ml" 225 6758 6768
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 225 6758 6770 "xsraw.ml" 225 6758 6787
+type(
+  int -> nativeint -> int -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.introduce
+)
+"xsraw.ml" 225 6758 6788 "xsraw.ml" 225 6758 6793
+type(
+  int
+)
+ident(
+  int_ref domid "xsraw.ml" 224 6723 6737 "xsraw.ml" 224 6723 6742
+)
+"xsraw.ml" 225 6758 6794 "xsraw.ml" 225 6758 6797
+type(
+  nativeint
+)
+ident(
+  int_ref mfn "xsraw.ml" 224 6723 6743 "xsraw.ml" 224 6723 6746
+)
+"xsraw.ml" 225 6758 6798 "xsraw.ml" 225 6758 6802
+type(
+  int
+)
+ident(
+  int_ref port "xsraw.ml" 224 6723 6747 "xsraw.ml" 224 6723 6751
+)
+"xsraw.ml" 225 6758 6769 "xsraw.ml" 225 6758 6803
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 225 6758 6804 "xsraw.ml" 225 6758 6807
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 224 6723 6752 "xsraw.ml" 224 6723 6755
+)
+"xsraw.ml" 225 6758 6763 "xsraw.ml" 225 6758 6808
+type(
+  string
+)
+"xsraw.ml" 225 6758 6759 "xsraw.ml" 225 6758 6808
+type(
+  unit
+)
+"xsraw.ml" 227 6810 6814 "xsraw.ml" 227 6810 6821
+type(
+  int -> con -> unit
+)
+ident(
+  def release "xsraw.ml" 230 6875 6875 --
+)
+"xsraw.ml" 227 6810 6822 "xsraw.ml" 227 6810 6827
+type(
+  int
+)
+ident(
+  def domid "xsraw.ml" 227 6810 6828 "xsraw.ml" 228 6834 6873
+)
+"xsraw.ml" 227 6810 6828 "xsraw.ml" 227 6810 6831
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 228 6834 6835 "xsraw.ml" 228 6834 6873
+)
+"xsraw.ml" 228 6834 6835 "xsraw.ml" 228 6834 6838
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 228 6834 6840 "xsraw.ml" 228 6834 6844
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 228 6834 6846 "xsraw.ml" 228 6834 6861
+type(
+  int -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.release
+)
+"xsraw.ml" 228 6834 6862 "xsraw.ml" 228 6834 6867
+type(
+  int
+)
+ident(
+  int_ref domid "xsraw.ml" 227 6810 6822 "xsraw.ml" 227 6810 6827
+)
+"xsraw.ml" 228 6834 6845 "xsraw.ml" 228 6834 6868
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 228 6834 6869 "xsraw.ml" 228 6834 6872
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 227 6810 6828 "xsraw.ml" 227 6810 6831
+)
+"xsraw.ml" 228 6834 6839 "xsraw.ml" 228 6834 6873
+type(
+  string
+)
+"xsraw.ml" 228 6834 6835 "xsraw.ml" 228 6834 6873
+type(
+  unit
+)
+"xsraw.ml" 230 6875 6879 "xsraw.ml" 230 6875 6885
+type(
+  int -> con -> unit
+)
+ident(
+  def resume "xsraw.ml" 233 6938 6938 --
+)
+"xsraw.ml" 230 6875 6886 "xsraw.ml" 230 6875 6891
+type(
+  int
+)
+ident(
+  def domid "xsraw.ml" 230 6875 6892 "xsraw.ml" 231 6898 6936
+)
+"xsraw.ml" 230 6875 6892 "xsraw.ml" 230 6875 6895
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 231 6898 6899 "xsraw.ml" 231 6898 6936
+)
+"xsraw.ml" 231 6898 6899 "xsraw.ml" 231 6898 6902
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 231 6898 6904 "xsraw.ml" 231 6898 6908
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 231 6898 6910 "xsraw.ml" 231 6898 6924
+type(
+  int -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.resume
+)
+"xsraw.ml" 231 6898 6925 "xsraw.ml" 231 6898 6930
+type(
+  int
+)
+ident(
+  int_ref domid "xsraw.ml" 230 6875 6886 "xsraw.ml" 230 6875 6891
+)
+"xsraw.ml" 231 6898 6909 "xsraw.ml" 231 6898 6931
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 231 6898 6932 "xsraw.ml" 231 6898 6935
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 230 6875 6892 "xsraw.ml" 230 6875 6895
+)
+"xsraw.ml" 231 6898 6903 "xsraw.ml" 231 6898 6936
+type(
+  string
+)
+"xsraw.ml" 231 6898 6899 "xsraw.ml" 231 6898 6936
+type(
+  unit
+)
+"xsraw.ml" 233 6938 6942 "xsraw.ml" 233 6938 6955
+type(
+  int -> con -> string
+)
+ident(
+  def getdomainpath "xsraw.ml" 236 7009 7009 --
+)
+"xsraw.ml" 233 6938 6956 "xsraw.ml" 233 6938 6961
+type(
+  int
+)
+ident(
+  def domid "xsraw.ml" 233 6938 6962 "xsraw.ml" 234 6968 7007
+)
+"xsraw.ml" 233 6938 6962 "xsraw.ml" 233 6938 6965
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 234 6968 6969 "xsraw.ml" 234 6968 7007
+)
+"xsraw.ml" 234 6968 6969 "xsraw.ml" 234 6968 6973
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 234 6968 6975 "xsraw.ml" 234 6968 6996
+type(
+  int -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.getdomainpath
+)
+"xsraw.ml" 234 6968 6997 "xsraw.ml" 234 6968 7002
+type(
+  int
+)
+ident(
+  int_ref domid "xsraw.ml" 233 6938 6956 "xsraw.ml" 233 6938 6961
+)
+"xsraw.ml" 234 6968 6974 "xsraw.ml" 234 6968 7003
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 234 6968 7004 "xsraw.ml" 234 6968 7007
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 233 6938 6962 "xsraw.ml" 233 6938 6965
+)
+"xsraw.ml" 234 6968 6969 "xsraw.ml" 234 6968 7007
+type(
+  string
+)
+"xsraw.ml" 236 7009 7013 "xsraw.ml" 236 7009 7018
+type(
+  int -> string -> string -> con -> unit
+)
+ident(
+  def write "xsraw.ml" 240 7109 7109 --
+)
+"xsraw.ml" 236 7009 7019 "xsraw.ml" 236 7009 7022
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 236 7009 7023 "xsraw.ml" 238 7061 7107
+)
+"xsraw.ml" 236 7009 7023 "xsraw.ml" 236 7009 7027
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 236 7009 7028 "xsraw.ml" 238 7061 7107
+)
+"xsraw.ml" 236 7009 7028 "xsraw.ml" 236 7009 7033
+type(
+  string
+)
+ident(
+  def value "xsraw.ml" 236 7009 7034 "xsraw.ml" 238 7061 7107
+)
+"xsraw.ml" 236 7009 7034 "xsraw.ml" 236 7009 7037
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 237 7040 7041 "xsraw.ml" 238 7061 7107
+)
+"xsraw.ml" 237 7040 7041 "xsraw.ml" 237 7040 7054
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 237 7040 7055 "xsraw.ml" 237 7040 7059
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 236 7009 7023 "xsraw.ml" 236 7009 7027
+)
+"xsraw.ml" 237 7040 7041 "xsraw.ml" 237 7040 7059
+type(
+  unit
+)
+"xsraw.ml" 238 7061 7062 "xsraw.ml" 238 7061 7065
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 238 7061 7067 "xsraw.ml" 238 7061 7071
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 238 7061 7073 "xsraw.ml" 238 7061 7086
+type(
+  int -> string -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.write
+)
+"xsraw.ml" 238 7061 7087 "xsraw.ml" 238 7061 7090
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 236 7009 7019 "xsraw.ml" 236 7009 7022
+)
+"xsraw.ml" 238 7061 7091 "xsraw.ml" 238 7061 7095
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 236 7009 7023 "xsraw.ml" 236 7009 7027
+)
+"xsraw.ml" 238 7061 7096 "xsraw.ml" 238 7061 7101
+type(
+  string
+)
+ident(
+  int_ref value "xsraw.ml" 236 7009 7028 "xsraw.ml" 236 7009 7033
+)
+"xsraw.ml" 238 7061 7072 "xsraw.ml" 238 7061 7102
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 238 7061 7103 "xsraw.ml" 238 7061 7106
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 236 7009 7034 "xsraw.ml" 236 7009 7037
+)
+"xsraw.ml" 238 7061 7066 "xsraw.ml" 238 7061 7107
+type(
+  string
+)
+"xsraw.ml" 238 7061 7062 "xsraw.ml" 238 7061 7107
+type(
+  unit
+)
+"xsraw.ml" 237 7040 7041 "xsraw.ml" 238 7061 7107
+type(
+  unit
+)
+"xsraw.ml" 240 7109 7113 "xsraw.ml" 240 7109 7119
+type(
+  int -> string -> (string * string) list -> con -> unit
+)
+ident(
+  def writev "xsraw.ml" 246 7306 7306 --
+)
+"xsraw.ml" 240 7109 7120 "xsraw.ml" 240 7109 7123
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 240 7109 7124 "xsraw.ml" 244 7273 7304
+)
+"xsraw.ml" 240 7109 7124 "xsraw.ml" 240 7109 7127
+type(
+  string
+)
+ident(
+  def dir "xsraw.ml" 240 7109 7128 "xsraw.ml" 244 7273 7304
+)
+"xsraw.ml" 240 7109 7128 "xsraw.ml" 240 7109 7131
+type(
+  (string * string) list
+)
+ident(
+  def vec "xsraw.ml" 240 7109 7132 "xsraw.ml" 244 7273 7304
+)
+"xsraw.ml" 240 7109 7132 "xsraw.ml" 240 7109 7135
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 241 7138 7139 "xsraw.ml" 244 7273 7304
+)
+"xsraw.ml" 241 7138 7139 "xsraw.ml" 241 7138 7148
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"xsraw.ml" 241 7138 7155 "xsraw.ml" 241 7138 7160
+type(
+  string
+)
+ident(
+  def entry "xsraw.ml" 242 7172 7174 "xsraw.ml" 244 7273 7299
+)
+"xsraw.ml" 241 7138 7162 "xsraw.ml" 241 7138 7167
+type(
+  string
+)
+ident(
+  def value "xsraw.ml" 242 7172 7174 "xsraw.ml" 244 7273 7299
+)
+"xsraw.ml" 241 7138 7154 "xsraw.ml" 241 7138 7168
+type(
+  string * string
+)
+"xsraw.ml" 242 7172 7178 "xsraw.ml" 242 7172 7182
+type(
+  string
+)
+"xsraw.ml" 242 7172 7189 "xsraw.ml" 242 7172 7192
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 240 7109 7124 "xsraw.ml" 240 7109 7127
+)
+"xsraw.ml" 242 7172 7193 "xsraw.ml" 242 7172 7195
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 242 7172 7196 "xsraw.ml" 242 7172 7198
+type(
+  string
+)
+"xsraw.ml" 242 7172 7189 "xsraw.ml" 242 7172 7198
+type(
+  bool
+)
+"xsraw.ml" 242 7172 7204 "xsraw.ml" 242 7172 7207
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 240 7109 7124 "xsraw.ml" 240 7109 7127
+)
+"xsraw.ml" 242 7172 7208 "xsraw.ml" 242 7172 7209
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 242 7172 7210 "xsraw.ml" 242 7172 7213
+type(
+  string
+)
+"xsraw.ml" 242 7172 7214 "xsraw.ml" 242 7172 7215
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 242 7172 7216 "xsraw.ml" 242 7172 7221
+type(
+  string
+)
+ident(
+  int_ref entry "xsraw.ml" 241 7138 7155 "xsraw.ml" 241 7138 7160
+)
+"xsraw.ml" 242 7172 7210 "xsraw.ml" 242 7172 7221
+type(
+  string
+)
+"xsraw.ml" 242 7172 7204 "xsraw.ml" 242 7172 7221
+type(
+  string
+)
+"xsraw.ml" 242 7172 7227 "xsraw.ml" 242 7172 7232
+type(
+  string
+)
+ident(
+  int_ref entry "xsraw.ml" 241 7138 7155 "xsraw.ml" 241 7138 7160
+)
+"xsraw.ml" 242 7172 7185 "xsraw.ml" 242 7172 7233
+type(
+  string
+)
+"xsraw.ml" 243 7237 7253 "xsraw.ml" 243 7237 7266
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 243 7237 7267 "xsraw.ml" 243 7237 7271
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 242 7172 7178 "xsraw.ml" 242 7172 7182
+)
+"xsraw.ml" 243 7237 7253 "xsraw.ml" 243 7237 7271
+type(
+  unit
+)
+"xsraw.ml" 244 7273 7275 "xsraw.ml" 244 7273 7280
+type(
+  int -> string -> string -> con -> unit
+)
+ident(
+  int_ref write "xsraw.ml" 236 7009 7013 "xsraw.ml" 236 7009 7018
+)
+"xsraw.ml" 244 7273 7281 "xsraw.ml" 244 7273 7284
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 240 7109 7120 "xsraw.ml" 240 7109 7123
+)
+"xsraw.ml" 244 7273 7285 "xsraw.ml" 244 7273 7289
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 242 7172 7178 "xsraw.ml" 242 7172 7182
+)
+"xsraw.ml" 244 7273 7290 "xsraw.ml" 244 7273 7295
+type(
+  string
+)
+ident(
+  int_ref value "xsraw.ml" 241 7138 7162 "xsraw.ml" 241 7138 7167
+)
+"xsraw.ml" 244 7273 7296 "xsraw.ml" 244 7273 7299
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 240 7109 7132 "xsraw.ml" 240 7109 7135
+)
+"xsraw.ml" 244 7273 7275 "xsraw.ml" 244 7273 7299
+type(
+  unit
+)
+"xsraw.ml" 243 7237 7253 "xsraw.ml" 244 7273 7299
+type(
+  unit
+)
+"xsraw.ml" 242 7172 7174 "xsraw.ml" 244 7273 7299
+type(
+  unit
+)
+"xsraw.ml" 241 7138 7149 "xsraw.ml" 244 7273 7300
+type(
+  string * string -> unit
+)
+"xsraw.ml" 244 7273 7301 "xsraw.ml" 244 7273 7304
+type(
+  (string * string) list
+)
+ident(
+  int_ref vec "xsraw.ml" 240 7109 7128 "xsraw.ml" 240 7109 7131
+)
+"xsraw.ml" 241 7138 7139 "xsraw.ml" 244 7273 7304
+type(
+  unit
+)
+"xsraw.ml" 246 7306 7310 "xsraw.ml" 246 7306 7315
+type(
+  int -> string -> con -> unit
+)
+ident(
+  def mkdir "xsraw.ml" 250 7394 7394 --
+)
+"xsraw.ml" 246 7306 7316 "xsraw.ml" 246 7306 7319
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 246 7306 7320 "xsraw.ml" 248 7352 7392
+)
+"xsraw.ml" 246 7306 7320 "xsraw.ml" 246 7306 7324
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 246 7306 7325 "xsraw.ml" 248 7352 7392
+)
+"xsraw.ml" 246 7306 7325 "xsraw.ml" 246 7306 7328
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 247 7331 7332 "xsraw.ml" 248 7352 7392
+)
+"xsraw.ml" 247 7331 7332 "xsraw.ml" 247 7331 7345
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 247 7331 7346 "xsraw.ml" 247 7331 7350
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 246 7306 7320 "xsraw.ml" 246 7306 7324
+)
+"xsraw.ml" 247 7331 7332 "xsraw.ml" 247 7331 7350
+type(
+  unit
+)
+"xsraw.ml" 248 7352 7353 "xsraw.ml" 248 7352 7356
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 248 7352 7358 "xsraw.ml" 248 7352 7362
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 248 7352 7364 "xsraw.ml" 248 7352 7377
+type(
+  int -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.mkdir
+)
+"xsraw.ml" 248 7352 7378 "xsraw.ml" 248 7352 7381
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 246 7306 7316 "xsraw.ml" 246 7306 7319
+)
+"xsraw.ml" 248 7352 7382 "xsraw.ml" 248 7352 7386
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 246 7306 7320 "xsraw.ml" 246 7306 7324
+)
+"xsraw.ml" 248 7352 7363 "xsraw.ml" 248 7352 7387
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 248 7352 7388 "xsraw.ml" 248 7352 7391
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 246 7306 7325 "xsraw.ml" 246 7306 7328
+)
+"xsraw.ml" 248 7352 7357 "xsraw.ml" 248 7352 7392
+type(
+  string
+)
+"xsraw.ml" 248 7352 7353 "xsraw.ml" 248 7352 7392
+type(
+  unit
+)
+"xsraw.ml" 247 7331 7332 "xsraw.ml" 248 7352 7392
+type(
+  unit
+)
+"xsraw.ml" 250 7394 7398 "xsraw.ml" 250 7394 7400
+type(
+  int -> string -> con -> unit
+)
+ident(
+  def rm "xsraw.ml" 257 7512 7512 --
+)
+"xsraw.ml" 250 7394 7401 "xsraw.ml" 250 7394 7404
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 250 7394 7405 "xsraw.ml" 255 7494 7510
+)
+"xsraw.ml" 250 7394 7405 "xsraw.ml" 250 7394 7409
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 250 7394 7410 "xsraw.ml" 255 7494 7510
+)
+"xsraw.ml" 250 7394 7410 "xsraw.ml" 250 7394 7413
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 251 7416 7424 "xsraw.ml" 255 7494 7510
+)
+"xsraw.ml" 251 7416 7424 "xsraw.ml" 251 7416 7437
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 251 7416 7438 "xsraw.ml" 251 7416 7442
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 250 7394 7405 "xsraw.ml" 250 7394 7409
+)
+"xsraw.ml" 251 7416 7424 "xsraw.ml" 251 7416 7442
+type(
+  unit
+)
+"xsraw.ml" 253 7449 7451 "xsraw.ml" 253 7449 7454
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 253 7449 7456 "xsraw.ml" 253 7449 7460
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 253 7449 7462 "xsraw.ml" 253 7449 7472
+type(
+  int -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.rm
+)
+"xsraw.ml" 253 7449 7473 "xsraw.ml" 253 7449 7476
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 250 7394 7401 "xsraw.ml" 250 7394 7404
+)
+"xsraw.ml" 253 7449 7477 "xsraw.ml" 253 7449 7481
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 250 7394 7405 "xsraw.ml" 250 7394 7409
+)
+"xsraw.ml" 253 7449 7461 "xsraw.ml" 253 7449 7482
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 253 7449 7483 "xsraw.ml" 253 7449 7486
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 250 7394 7410 "xsraw.ml" 250 7394 7413
+)
+"xsraw.ml" 253 7449 7455 "xsraw.ml" 253 7449 7487
+type(
+  string
+)
+"xsraw.ml" 253 7449 7451 "xsraw.ml" 253 7449 7487
+type(
+  unit
+)
+"xsraw.ml" 255 7494 7496 "xsraw.ml" 255 7494 7504
+type(
+  exn
+)
+"xsraw.ml" 255 7494 7508 "xsraw.ml" 255 7494 7510
+type(
+  unit
+)
+"xsraw.ml" 252 7444 7445 "xsraw.ml" 255 7494 7510
+type(
+  unit
+)
+"xsraw.ml" 251 7416 7424 "xsraw.ml" 255 7494 7510
+type(
+  unit
+)
+"xsraw.ml" 257 7512 7516 "xsraw.ml" 257 7512 7524
+type(
+  int -> string -> int * perm * (int * perm) list -> con -> unit
+)
+ident(
+  def setperms "xsraw.ml" 261 7636 7636 --
+)
+"xsraw.ml" 257 7512 7525 "xsraw.ml" 257 7512 7528
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 257 7512 7529 "xsraw.ml" 259 7567 7634
+)
+"xsraw.ml" 257 7512 7529 "xsraw.ml" 257 7512 7533
+type(
+  string
+)
+ident(
+  def path "xsraw.ml" 257 7512 7534 "xsraw.ml" 259 7567 7634
+)
+"xsraw.ml" 257 7512 7534 "xsraw.ml" 257 7512 7539
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  def perms "xsraw.ml" 257 7512 7540 "xsraw.ml" 259 7567 7634
+)
+"xsraw.ml" 257 7512 7540 "xsraw.ml" 257 7512 7543
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 258 7546 7547 "xsraw.ml" 259 7567 7634
+)
+"xsraw.ml" 258 7546 7547 "xsraw.ml" 258 7546 7560
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 258 7546 7561 "xsraw.ml" 258 7546 7565
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 257 7512 7529 "xsraw.ml" 257 7512 7533
+)
+"xsraw.ml" 258 7546 7547 "xsraw.ml" 258 7546 7565
+type(
+  unit
+)
+"xsraw.ml" 259 7567 7568 "xsraw.ml" 259 7567 7571
+type(
+  string -> unit
+)
+ident(
+  int_ref ack "xsraw.ml" 160 4885 4889 "xsraw.ml" 160 4885 4892
+)
+"xsraw.ml" 259 7567 7573 "xsraw.ml" 259 7567 7577
+type(
+  (Xb.t -> unit) -> con -> string
+)
+ident(
+  int_ref sync "xsraw.ml" 151 4659 4663 "xsraw.ml" 151 4659 4667
+)
+"xsraw.ml" 259 7567 7579 "xsraw.ml" 259 7567 7595
+type(
+  int -> string -> string -> Xb.t -> unit
+)
+ident(
+  ext_ref Queueop.setperms
+)
+"xsraw.ml" 259 7567 7596 "xsraw.ml" 259 7567 7599
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 257 7512 7525 "xsraw.ml" 257 7512 7528
+)
+"xsraw.ml" 259 7567 7600 "xsraw.ml" 259 7567 7604
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 257 7512 7529 "xsraw.ml" 257 7512 7533
+)
+"xsraw.ml" 259 7567 7606 "xsraw.ml" 259 7567 7621
+type(
+  int * perm * (int * perm) list -> string
+)
+ident(
+  int_ref string_of_perms "xsraw.ml" 56 1696 1700 "xsraw.ml" 56 1696 1715
+)
+"xsraw.ml" 259 7567 7622 "xsraw.ml" 259 7567 7627
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  int_ref perms "xsraw.ml" 257 7512 7534 "xsraw.ml" 257 7512 7539
+)
+"xsraw.ml" 259 7567 7605 "xsraw.ml" 259 7567 7628
+type(
+  string
+)
+"xsraw.ml" 259 7567 7578 "xsraw.ml" 259 7567 7629
+type(
+  Xb.t -> unit
+)
+"xsraw.ml" 259 7567 7630 "xsraw.ml" 259 7567 7633
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 257 7512 7540 "xsraw.ml" 257 7512 7543
+)
+"xsraw.ml" 259 7567 7572 "xsraw.ml" 259 7567 7634
+type(
+  string
+)
+"xsraw.ml" 259 7567 7568 "xsraw.ml" 259 7567 7634
+type(
+  unit
+)
+"xsraw.ml" 258 7546 7547 "xsraw.ml" 259 7567 7634
+type(
+  unit
+)
+"xsraw.ml" 261 7636 7640 "xsraw.ml" 261 7636 7649
+type(
+  int ->
+  string -> string list -> int * perm * (int * perm) list -> con -> unit
+)
+ident(
+  def setpermsv "xsraw.ml" 265 7786 7820 --
+)
+"xsraw.ml" 261 7636 7650 "xsraw.ml" 261 7636 7653
+type(
+  int
+)
+ident(
+  def tid "xsraw.ml" 261 7636 7654 "xsraw.ml" 265 7786 7820
+)
+"xsraw.ml" 261 7636 7654 "xsraw.ml" 261 7636 7657
+type(
+  string
+)
+ident(
+  def dir "xsraw.ml" 261 7636 7658 "xsraw.ml" 265 7786 7820
+)
+"xsraw.ml" 261 7636 7658 "xsraw.ml" 261 7636 7661
+type(
+  string list
+)
+ident(
+  def vec "xsraw.ml" 261 7636 7662 "xsraw.ml" 265 7786 7820
+)
+"xsraw.ml" 261 7636 7662 "xsraw.ml" 261 7636 7667
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  def perms "xsraw.ml" 261 7636 7668 "xsraw.ml" 265 7786 7820
+)
+"xsraw.ml" 261 7636 7668 "xsraw.ml" 261 7636 7671
+type(
+  con
+)
+ident(
+  def con "xsraw.ml" 262 7674 7675 "xsraw.ml" 265 7786 7820
+)
+"xsraw.ml" 262 7674 7675 "xsraw.ml" 262 7674 7684
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"xsraw.ml" 262 7674 7690 "xsraw.ml" 262 7674 7695
+type(
+  string
+)
+ident(
+  def entry "xsraw.ml" 263 7699 7701 "xsraw.ml" 265 7786 7815
+)
+"xsraw.ml" 263 7699 7705 "xsraw.ml" 263 7699 7709
+type(
+  string
+)
+"xsraw.ml" 263 7699 7716 "xsraw.ml" 263 7699 7719
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 261 7636 7654 "xsraw.ml" 261 7636 7657
+)
+"xsraw.ml" 263 7699 7720 "xsraw.ml" 263 7699 7722
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"xsraw.ml" 263 7699 7723 "xsraw.ml" 263 7699 7725
+type(
+  string
+)
+"xsraw.ml" 263 7699 7716 "xsraw.ml" 263 7699 7725
+type(
+  bool
+)
+"xsraw.ml" 263 7699 7731 "xsraw.ml" 263 7699 7734
+type(
+  string
+)
+ident(
+  int_ref dir "xsraw.ml" 261 7636 7654 "xsraw.ml" 261 7636 7657
+)
+"xsraw.ml" 263 7699 7735 "xsraw.ml" 263 7699 7736
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 263 7699 7737 "xsraw.ml" 263 7699 7740
+type(
+  string
+)
+"xsraw.ml" 263 7699 7741 "xsraw.ml" 263 7699 7742
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"xsraw.ml" 263 7699 7743 "xsraw.ml" 263 7699 7748
+type(
+  string
+)
+ident(
+  int_ref entry "xsraw.ml" 262 7674 7690 "xsraw.ml" 262 7674 7695
+)
+"xsraw.ml" 263 7699 7737 "xsraw.ml" 263 7699 7748
+type(
+  string
+)
+"xsraw.ml" 263 7699 7731 "xsraw.ml" 263 7699 7748
+type(
+  string
+)
+"xsraw.ml" 263 7699 7754 "xsraw.ml" 263 7699 7759
+type(
+  string
+)
+ident(
+  int_ref entry "xsraw.ml" 262 7674 7690 "xsraw.ml" 262 7674 7695
+)
+"xsraw.ml" 263 7699 7712 "xsraw.ml" 263 7699 7760
+type(
+  string
+)
+"xsraw.ml" 264 7764 7766 "xsraw.ml" 264 7764 7779
+type(
+  string -> unit
+)
+ident(
+  int_ref validate_path "xsraw.ml" 164 5038 5042 "xsraw.ml" 164 5038 5055
+)
+"xsraw.ml" 264 7764 7780 "xsraw.ml" 264 7764 7784
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 263 7699 7705 "xsraw.ml" 263 7699 7709
+)
+"xsraw.ml" 264 7764 7766 "xsraw.ml" 264 7764 7784
+type(
+  unit
+)
+"xsraw.ml" 265 7786 7788 "xsraw.ml" 265 7786 7796
+type(
+  int -> string -> int * perm * (int * perm) list -> con -> unit
+)
+ident(
+  int_ref setperms "xsraw.ml" 257 7512 7516 "xsraw.ml" 257 7512 7524
+)
+"xsraw.ml" 265 7786 7797 "xsraw.ml" 265 7786 7800
+type(
+  int
+)
+ident(
+  int_ref tid "xsraw.ml" 261 7636 7650 "xsraw.ml" 261 7636 7653
+)
+"xsraw.ml" 265 7786 7801 "xsraw.ml" 265 7786 7805
+type(
+  string
+)
+ident(
+  int_ref path "xsraw.ml" 263 7699 7705 "xsraw.ml" 263 7699 7709
+)
+"xsraw.ml" 265 7786 7806 "xsraw.ml" 265 7786 7811
+type(
+  int * perm * (int * perm) list
+)
+ident(
+  int_ref perms "xsraw.ml" 261 7636 7662 "xsraw.ml" 261 7636 7667
+)
+"xsraw.ml" 265 7786 7812 "xsraw.ml" 265 7786 7815
+type(
+  con
+)
+ident(
+  int_ref con "xsraw.ml" 261 7636 7668 "xsraw.ml" 261 7636 7671
+)
+"xsraw.ml" 265 7786 7788 "xsraw.ml" 265 7786 7815
+type(
+  unit
+)
+"xsraw.ml" 264 7764 7766 "xsraw.ml" 265 7786 7815
+type(
+  unit
+)
+"xsraw.ml" 263 7699 7701 "xsraw.ml" 265 7786 7815
+type(
+  unit
+)
+"xsraw.ml" 262 7674 7685 "xsraw.ml" 265 7786 7816
+type(
+  string -> unit
+)
+"xsraw.ml" 265 7786 7817 "xsraw.ml" 265 7786 7820
+type(
+  string list
+)
+ident(
+  int_ref vec "xsraw.ml" 261 7636 7658 "xsraw.ml" 261 7636 7661
+)
+"xsraw.ml" 262 7674 7675 "xsraw.ml" 265 7786 7820
+type(
+  unit
+)

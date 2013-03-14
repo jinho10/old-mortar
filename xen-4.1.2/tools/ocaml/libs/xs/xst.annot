@@ -1,0 +1,930 @@
+"xst.ml" 31 1062 1066 "xst.ml" 31 1062 1080
+type(
+  int -> Xsraw.con -> ops
+)
+ident(
+  def get_operations "xst.ml" 44 1662 1662 --
+)
+"xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+type(
+  int
+)
+ident(
+  def tid "xst.ml" 31 1062 1085 "xst.ml" 42 1659 1660
+)
+"xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+type(
+  Xsraw.con
+)
+ident(
+  def xsh "xst.ml" 31 1062 1091 "xst.ml" 42 1659 1660
+)
+"xst.ml" 32 1093 1111 "xst.ml" 32 1093 1115
+type(
+  string
+)
+ident(
+  def path "xst.ml" 32 1093 1119 "xst.ml" 32 1093 1147
+)
+"xst.ml" 32 1093 1119 "xst.ml" 32 1093 1134
+type(
+  int -> string -> Xsraw.con -> string list
+)
+ident(
+  ext_ref Xsraw.directory
+)
+"xst.ml" 32 1093 1135 "xst.ml" 32 1093 1138
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 32 1093 1139 "xst.ml" 32 1093 1143
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 32 1093 1111 "xst.ml" 32 1093 1115
+)
+"xst.ml" 32 1093 1144 "xst.ml" 32 1093 1147
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 32 1093 1119 "xst.ml" 32 1093 1147
+type(
+  string list
+)
+"xst.ml" 32 1093 1106 "xst.ml" 32 1093 1148
+type(
+  string -> string list
+)
+"xst.ml" 33 1150 1163 "xst.ml" 33 1150 1167
+type(
+  string
+)
+ident(
+  def path "xst.ml" 33 1150 1171 "xst.ml" 33 1150 1194
+)
+"xst.ml" 33 1150 1171 "xst.ml" 33 1150 1181
+type(
+  int -> string -> Xsraw.con -> string
+)
+ident(
+  ext_ref Xsraw.read
+)
+"xst.ml" 33 1150 1182 "xst.ml" 33 1150 1185
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 33 1150 1186 "xst.ml" 33 1150 1190
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 33 1150 1163 "xst.ml" 33 1150 1167
+)
+"xst.ml" 33 1150 1191 "xst.ml" 33 1150 1194
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 33 1150 1171 "xst.ml" 33 1150 1194
+type(
+  string
+)
+"xst.ml" 33 1150 1158 "xst.ml" 33 1150 1195
+type(
+  string -> string
+)
+"xst.ml" 34 1197 1211 "xst.ml" 34 1197 1214
+type(
+  string
+)
+ident(
+  def dir "xst.ml" 34 1197 1215 "xst.ml" 34 1197 1249
+)
+"xst.ml" 34 1197 1215 "xst.ml" 34 1197 1218
+type(
+  string list
+)
+ident(
+  def vec "xst.ml" 34 1197 1222 "xst.ml" 34 1197 1249
+)
+"xst.ml" 34 1197 1222 "xst.ml" 34 1197 1233
+type(
+  int -> string -> string list -> Xsraw.con -> string list
+)
+ident(
+  ext_ref Xsraw.readv
+)
+"xst.ml" 34 1197 1234 "xst.ml" 34 1197 1237
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 34 1197 1238 "xst.ml" 34 1197 1241
+type(
+  string
+)
+ident(
+  int_ref dir "xst.ml" 34 1197 1211 "xst.ml" 34 1197 1214
+)
+"xst.ml" 34 1197 1242 "xst.ml" 34 1197 1245
+type(
+  string list
+)
+ident(
+  int_ref vec "xst.ml" 34 1197 1215 "xst.ml" 34 1197 1218
+)
+"xst.ml" 34 1197 1246 "xst.ml" 34 1197 1249
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 34 1197 1222 "xst.ml" 34 1197 1249
+type(
+  string list
+)
+"xst.ml" 34 1197 1206 "xst.ml" 34 1197 1250
+type(
+  string -> string list -> string list
+)
+"xst.ml" 35 1252 1266 "xst.ml" 35 1252 1270
+type(
+  string
+)
+ident(
+  def path "xst.ml" 35 1252 1271 "xst.ml" 35 1252 1310
+)
+"xst.ml" 35 1252 1271 "xst.ml" 35 1252 1276
+type(
+  string
+)
+ident(
+  def value "xst.ml" 35 1252 1280 "xst.ml" 35 1252 1310
+)
+"xst.ml" 35 1252 1280 "xst.ml" 35 1252 1291
+type(
+  int -> string -> string -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.write
+)
+"xst.ml" 35 1252 1292 "xst.ml" 35 1252 1295
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 35 1252 1296 "xst.ml" 35 1252 1300
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 35 1252 1266 "xst.ml" 35 1252 1270
+)
+"xst.ml" 35 1252 1301 "xst.ml" 35 1252 1306
+type(
+  string
+)
+ident(
+  int_ref value "xst.ml" 35 1252 1271 "xst.ml" 35 1252 1276
+)
+"xst.ml" 35 1252 1307 "xst.ml" 35 1252 1310
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 35 1252 1280 "xst.ml" 35 1252 1310
+type(
+  unit
+)
+"xst.ml" 35 1252 1261 "xst.ml" 35 1252 1311
+type(
+  string -> string -> unit
+)
+"xst.ml" 36 1313 1328 "xst.ml" 36 1313 1331
+type(
+  string
+)
+ident(
+  def dir "xst.ml" 36 1313 1332 "xst.ml" 36 1313 1367
+)
+"xst.ml" 36 1313 1332 "xst.ml" 36 1313 1335
+type(
+  (string * string) list
+)
+ident(
+  def vec "xst.ml" 36 1313 1339 "xst.ml" 36 1313 1367
+)
+"xst.ml" 36 1313 1339 "xst.ml" 36 1313 1351
+type(
+  int -> string -> (string * string) list -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.writev
+)
+"xst.ml" 36 1313 1352 "xst.ml" 36 1313 1355
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 36 1313 1356 "xst.ml" 36 1313 1359
+type(
+  string
+)
+ident(
+  int_ref dir "xst.ml" 36 1313 1328 "xst.ml" 36 1313 1331
+)
+"xst.ml" 36 1313 1360 "xst.ml" 36 1313 1363
+type(
+  (string * string) list
+)
+ident(
+  int_ref vec "xst.ml" 36 1313 1332 "xst.ml" 36 1313 1335
+)
+"xst.ml" 36 1313 1364 "xst.ml" 36 1313 1367
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 36 1313 1339 "xst.ml" 36 1313 1367
+type(
+  unit
+)
+"xst.ml" 36 1313 1323 "xst.ml" 36 1313 1368
+type(
+  string -> (string * string) list -> unit
+)
+"xst.ml" 37 1370 1384 "xst.ml" 37 1370 1388
+type(
+  string
+)
+ident(
+  def path "xst.ml" 37 1370 1392 "xst.ml" 37 1370 1416
+)
+"xst.ml" 37 1370 1392 "xst.ml" 37 1370 1403
+type(
+  int -> string -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.mkdir
+)
+"xst.ml" 37 1370 1404 "xst.ml" 37 1370 1407
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 37 1370 1408 "xst.ml" 37 1370 1412
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 37 1370 1384 "xst.ml" 37 1370 1388
+)
+"xst.ml" 37 1370 1413 "xst.ml" 37 1370 1416
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 37 1370 1392 "xst.ml" 37 1370 1416
+type(
+  unit
+)
+"xst.ml" 37 1370 1379 "xst.ml" 37 1370 1417
+type(
+  string -> unit
+)
+"xst.ml" 38 1419 1430 "xst.ml" 38 1419 1434
+type(
+  string
+)
+ident(
+  def path "xst.ml" 38 1419 1438 "xst.ml" 38 1419 1459
+)
+"xst.ml" 38 1419 1438 "xst.ml" 38 1419 1446
+type(
+  int -> string -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.rm
+)
+"xst.ml" 38 1419 1447 "xst.ml" 38 1419 1450
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 38 1419 1451 "xst.ml" 38 1419 1455
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 38 1419 1430 "xst.ml" 38 1419 1434
+)
+"xst.ml" 38 1419 1456 "xst.ml" 38 1419 1459
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 38 1419 1438 "xst.ml" 38 1419 1459
+type(
+  unit
+)
+"xst.ml" 38 1419 1425 "xst.ml" 38 1419 1460
+type(
+  string -> unit
+)
+"xst.ml" 39 1462 1479 "xst.ml" 39 1462 1483
+type(
+  string
+)
+ident(
+  def path "xst.ml" 39 1462 1487 "xst.ml" 39 1462 1514
+)
+"xst.ml" 39 1462 1487 "xst.ml" 39 1462 1501
+type(
+  int -> string -> Xsraw.con -> Xsraw.perms
+)
+ident(
+  ext_ref Xsraw.getperms
+)
+"xst.ml" 39 1462 1502 "xst.ml" 39 1462 1505
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 39 1462 1506 "xst.ml" 39 1462 1510
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 39 1462 1479 "xst.ml" 39 1462 1483
+)
+"xst.ml" 39 1462 1511 "xst.ml" 39 1462 1514
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 39 1462 1487 "xst.ml" 39 1462 1514
+type(
+  Xsraw.perms
+)
+"xst.ml" 39 1462 1474 "xst.ml" 39 1462 1515
+type(
+  string -> Xsraw.perms
+)
+"xst.ml" 40 1517 1534 "xst.ml" 40 1517 1538
+type(
+  string
+)
+ident(
+  def path "xst.ml" 40 1517 1539 "xst.ml" 40 1517 1581
+)
+"xst.ml" 40 1517 1539 "xst.ml" 40 1517 1544
+type(
+  Xsraw.perms
+)
+ident(
+  def perms "xst.ml" 40 1517 1548 "xst.ml" 40 1517 1581
+)
+"xst.ml" 40 1517 1548 "xst.ml" 40 1517 1562
+type(
+  int -> string -> Xsraw.perms -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.setperms
+)
+"xst.ml" 40 1517 1563 "xst.ml" 40 1517 1566
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 40 1517 1567 "xst.ml" 40 1517 1571
+type(
+  string
+)
+ident(
+  int_ref path "xst.ml" 40 1517 1534 "xst.ml" 40 1517 1538
+)
+"xst.ml" 40 1517 1572 "xst.ml" 40 1517 1577
+type(
+  Xsraw.perms
+)
+ident(
+  int_ref perms "xst.ml" 40 1517 1539 "xst.ml" 40 1517 1544
+)
+"xst.ml" 40 1517 1578 "xst.ml" 40 1517 1581
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 40 1517 1548 "xst.ml" 40 1517 1581
+type(
+  unit
+)
+"xst.ml" 40 1517 1529 "xst.ml" 40 1517 1582
+type(
+  string -> Xsraw.perms -> unit
+)
+"xst.ml" 41 1584 1602 "xst.ml" 41 1584 1605
+type(
+  string
+)
+ident(
+  def dir "xst.ml" 41 1584 1606 "xst.ml" 41 1584 1656
+)
+"xst.ml" 41 1584 1606 "xst.ml" 41 1584 1609
+type(
+  string list
+)
+ident(
+  def vec "xst.ml" 41 1584 1610 "xst.ml" 41 1584 1656
+)
+"xst.ml" 41 1584 1610 "xst.ml" 41 1584 1615
+type(
+  Xsraw.perms
+)
+ident(
+  def perms "xst.ml" 41 1584 1619 "xst.ml" 41 1584 1656
+)
+"xst.ml" 41 1584 1619 "xst.ml" 41 1584 1634
+type(
+  int -> string -> string list -> Xsraw.perms -> Xsraw.con -> unit
+)
+ident(
+  ext_ref Xsraw.setpermsv
+)
+"xst.ml" 41 1584 1635 "xst.ml" 41 1584 1638
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 31 1062 1081 "xst.ml" 31 1062 1084
+)
+"xst.ml" 41 1584 1639 "xst.ml" 41 1584 1642
+type(
+  string
+)
+ident(
+  int_ref dir "xst.ml" 41 1584 1602 "xst.ml" 41 1584 1605
+)
+"xst.ml" 41 1584 1643 "xst.ml" 41 1584 1646
+type(
+  string list
+)
+ident(
+  int_ref vec "xst.ml" 41 1584 1606 "xst.ml" 41 1584 1609
+)
+"xst.ml" 41 1584 1647 "xst.ml" 41 1584 1652
+type(
+  Xsraw.perms
+)
+ident(
+  int_ref perms "xst.ml" 41 1584 1610 "xst.ml" 41 1584 1615
+)
+"xst.ml" 41 1584 1653 "xst.ml" 41 1584 1656
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 31 1062 1085 "xst.ml" 31 1062 1088
+)
+"xst.ml" 41 1584 1619 "xst.ml" 41 1584 1656
+type(
+  unit
+)
+"xst.ml" 41 1584 1597 "xst.ml" 41 1584 1657
+type(
+  string -> string list -> Xsraw.perms -> unit
+)
+"xst.ml" 31 1062 1091 "xst.ml" 42 1659 1660
+type(
+  ops
+)
+"xst.ml" 44 1662 1666 "xst.ml" 44 1662 1677
+type(
+  Xsraw.con -> (ops -> 'a) -> 'a
+)
+ident(
+  def transaction "xst.ml" 61 2114 2138 --
+)
+"xst.ml" 44 1662 1678 "xst.ml" 44 1662 1681
+type(
+  Xsraw.con
+)
+ident(
+  def xsh "xst.ml" 44 1662 1682 "xst.ml" 61 2114 2138
+)
+"xst.ml" 44 1662 1683 "xst.ml" 44 1662 1684
+type(
+  ops -> 'a
+)
+ident(
+  def f "xst.ml" 44 1662 1697 "xst.ml" 61 2114 2138
+)
+"xst.ml" 45 1704 1709 "xst.ml" 45 1704 1717
+type(
+  bool ref
+)
+"xst.ml" 45 1704 1720 "xst.ml" 45 1704 1723
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xst.ml" 45 1704 1724 "xst.ml" 45 1704 1729
+type(
+  bool
+)
+"xst.ml" 45 1704 1720 "xst.ml" 45 1704 1729
+type(
+  bool ref
+)
+"xst.ml" 45 1704 1734 "xst.ml" 45 1704 1740
+type(
+  'a option ref
+)
+"xst.ml" 45 1704 1743 "xst.ml" 45 1704 1746
+type(
+  'a option -> 'a option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xst.ml" 45 1704 1747 "xst.ml" 45 1704 1751
+type(
+  'a option
+)
+"xst.ml" 45 1704 1743 "xst.ml" 45 1704 1751
+type(
+  'a option ref
+)
+"xst.ml" 46 1755 1762 "xst.ml" 46 1755 1765
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"xst.ml" 46 1755 1766 "xst.ml" 46 1755 1767
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xst.ml" 46 1755 1767 "xst.ml" 46 1755 1775
+type(
+  bool ref
+)
+ident(
+  int_ref commited "xst.ml" 45 1704 1709 "xst.ml" 45 1704 1717
+)
+"xst.ml" 46 1755 1766 "xst.ml" 46 1755 1775
+type(
+  bool
+)
+"xst.ml" 46 1755 1762 "xst.ml" 46 1755 1775
+type(
+  bool
+)
+"xst.ml" 48 1780 1786 "xst.ml" 48 1780 1789
+type(
+  int
+)
+ident(
+  def tid "xst.ml" 49 1823 1825 "xst.ml" 57 1979 2027
+)
+"xst.ml" 48 1780 1792 "xst.ml" 48 1780 1815
+type(
+  Xsraw.con -> int
+)
+ident(
+  ext_ref Xsraw.transaction_start
+)
+"xst.ml" 48 1780 1816 "xst.ml" 48 1780 1819
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 44 1662 1678 "xst.ml" 44 1662 1681
+)
+"xst.ml" 48 1780 1792 "xst.ml" 48 1780 1819
+type(
+  int
+)
+"xst.ml" 49 1823 1829 "xst.ml" 49 1823 1830
+type(
+  ops
+)
+ident(
+  def t "xst.ml" 51 1860 1862 "xst.ml" 57 1979 2027
+)
+"xst.ml" 49 1823 1833 "xst.ml" 49 1823 1847
+type(
+  int -> Xsraw.con -> ops
+)
+ident(
+  int_ref get_operations "xst.ml" 31 1062 1066 "xst.ml" 31 1062 1080
+)
+"xst.ml" 49 1823 1848 "xst.ml" 49 1823 1851
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 48 1780 1786 "xst.ml" 48 1780 1789
+)
+"xst.ml" 49 1823 1852 "xst.ml" 49 1823 1855
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 44 1662 1678 "xst.ml" 44 1662 1681
+)
+"xst.ml" 49 1823 1833 "xst.ml" 49 1823 1855
+type(
+  ops
+)
+"xst.ml" 52 1872 1875 "xst.ml" 52 1872 1881
+type(
+  'a option ref
+)
+ident(
+  int_ref result "xst.ml" 45 1704 1734 "xst.ml" 45 1704 1740
+)
+"xst.ml" 52 1872 1882 "xst.ml" 52 1872 1884
+type(
+  'a option ref -> 'a option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"xst.ml" 52 1872 1891 "xst.ml" 52 1872 1892
+type(
+  ops -> 'a
+)
+ident(
+  int_ref f "xst.ml" 44 1662 1683 "xst.ml" 44 1662 1684
+)
+"xst.ml" 52 1872 1893 "xst.ml" 52 1872 1894
+type(
+  ops
+)
+ident(
+  int_ref t "xst.ml" 49 1823 1829 "xst.ml" 49 1823 1830
+)
+"xst.ml" 52 1872 1890 "xst.ml" 52 1872 1895
+type(
+  'a
+)
+"xst.ml" 52 1872 1885 "xst.ml" 52 1872 1895
+type(
+  'a option
+)
+"xst.ml" 52 1872 1875 "xst.ml" 52 1872 1895
+type(
+  unit
+)
+"xst.ml" 53 1896 1903 "xst.ml" 53 1896 1906
+type(
+  exn
+)
+ident(
+  def exn "xst.ml" 54 1910 1913 "xst.ml" 55 1959 1971
+)
+"xst.ml" 54 1910 1913 "xst.ml" 54 1910 1919
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"xst.ml" 54 1910 1921 "xst.ml" 54 1910 1942
+type(
+  int -> bool -> Xsraw.con -> bool
+)
+ident(
+  ext_ref Xsraw.transaction_end
+)
+"xst.ml" 54 1910 1943 "xst.ml" 54 1910 1946
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 48 1780 1786 "xst.ml" 48 1780 1789
+)
+"xst.ml" 54 1910 1947 "xst.ml" 54 1910 1952
+type(
+  bool
+)
+"xst.ml" 54 1910 1953 "xst.ml" 54 1910 1956
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 44 1662 1678 "xst.ml" 44 1662 1681
+)
+"xst.ml" 54 1910 1920 "xst.ml" 54 1910 1957
+type(
+  bool
+)
+"xst.ml" 54 1910 1913 "xst.ml" 54 1910 1957
+type(
+  unit
+)
+"xst.ml" 55 1959 1962 "xst.ml" 55 1959 1967
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xst.ml" 55 1959 1968 "xst.ml" 55 1959 1971
+type(
+  exn
+)
+ident(
+  int_ref exn "xst.ml" 53 1896 1903 "xst.ml" 53 1896 1906
+)
+"xst.ml" 55 1959 1962 "xst.ml" 55 1959 1971
+type(
+  unit
+)
+"xst.ml" 54 1910 1913 "xst.ml" 55 1959 1971
+type(
+  unit
+)
+"xst.ml" 51 1860 1862 "xst.ml" 56 1972 1977
+type(
+  unit
+)
+"xst.ml" 57 1979 1981 "xst.ml" 57 1979 1989
+type(
+  bool ref
+)
+ident(
+  int_ref commited "xst.ml" 45 1704 1709 "xst.ml" 45 1704 1717
+)
+"xst.ml" 57 1979 1990 "xst.ml" 57 1979 1992
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"xst.ml" 57 1979 1993 "xst.ml" 57 1979 2014
+type(
+  int -> bool -> Xsraw.con -> bool
+)
+ident(
+  ext_ref Xsraw.transaction_end
+)
+"xst.ml" 57 1979 2015 "xst.ml" 57 1979 2018
+type(
+  int
+)
+ident(
+  int_ref tid "xst.ml" 48 1780 1786 "xst.ml" 48 1780 1789
+)
+"xst.ml" 57 1979 2019 "xst.ml" 57 1979 2023
+type(
+  bool
+)
+"xst.ml" 57 1979 2024 "xst.ml" 57 1979 2027
+type(
+  Xsraw.con
+)
+ident(
+  int_ref xsh "xst.ml" 44 1662 1678 "xst.ml" 44 1662 1681
+)
+"xst.ml" 57 1979 1993 "xst.ml" 57 1979 2027
+type(
+  bool
+)
+"xst.ml" 57 1979 1981 "xst.ml" 57 1979 2027
+type(
+  unit
+)
+"xst.ml" 51 1860 1862 "xst.ml" 57 1979 2027
+type(
+  unit
+)
+"xst.ml" 49 1823 1825 "xst.ml" 57 1979 2027
+type(
+  unit
+)
+"xst.ml" 48 1780 1782 "xst.ml" 57 1979 2027
+type(
+  unit
+)
+"xst.ml" 46 1755 1756 "xst.ml" 58 2028 2033
+type(
+  unit
+)
+"xst.ml" 59 2035 2042 "xst.ml" 59 2035 2043
+type(
+  'a option ref -> 'a option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"xst.ml" 59 2035 2043 "xst.ml" 59 2035 2049
+type(
+  'a option ref
+)
+ident(
+  int_ref result "xst.ml" 45 1704 1734 "xst.ml" 45 1704 1740
+)
+"xst.ml" 59 2035 2042 "xst.ml" 59 2035 2049
+type(
+  'a option
+)
+"xst.ml" 60 2055 2058 "xst.ml" 60 2055 2062
+type(
+  'a option
+)
+"xst.ml" 60 2055 2073 "xst.ml" 60 2055 2081
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"xst.ml" 60 2055 2082 "xst.ml" 60 2055 2113
+type(
+  string
+)
+"xst.ml" 60 2055 2073 "xst.ml" 60 2055 2113
+type(
+  'a
+)
+"xst.ml" 61 2114 2122 "xst.ml" 61 2114 2128
+type(
+  'a
+)
+ident(
+  def result "xst.ml" 61 2114 2132 "xst.ml" 61 2114 2138
+)
+"xst.ml" 61 2114 2117 "xst.ml" 61 2114 2128
+type(
+  'a option
+)
+"xst.ml" 61 2114 2132 "xst.ml" 61 2114 2138
+type(
+  'a
+)
+ident(
+  int_ref result "xst.ml" 61 2114 2122 "xst.ml" 61 2114 2128
+)
+"xst.ml" 59 2035 2036 "xst.ml" 61 2114 2138
+type(
+  'a
+)
+"xst.ml" 46 1755 1756 "xst.ml" 61 2114 2138
+type(
+  'a
+)
+"xst.ml" 45 1704 1705 "xst.ml" 61 2114 2138
+type(
+  'a
+)
+type(
+  'a
+)

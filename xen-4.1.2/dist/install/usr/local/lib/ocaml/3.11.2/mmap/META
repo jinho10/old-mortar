@@ -1,0 +1,4 @@
+version = "4.1"
+description = "Mmap interface extension"
+archive(byte) = "mmap.cma"
+archive(native) = "mmap.cmxa"

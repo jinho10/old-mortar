@@ -1,0 +1,38 @@
+
+                               mortar
+            a hypervisor-controlled memory cache system
+
+Developer
+---------
+Jinho Hwang (hwang.jinho@gmail.com)
+http://home.gwu.edu/~jinho10
+The George Washington University
+
+What is it?
+-----------
+
+mortar is a hypervisor-controlled memory cache system that 
+exposes the spare memory to applications so that it utilizes 
+all the memory left in the system for the future uses. 
+
+For more information see https://github.com/jinho10/mortar
+
+Compile
+-------
+linux kernel
+xen-4.1.2
+cmemcached (modified memcached to access mortar)
+
+Grub Setting
+--------------
+Add this:
+multiboot /boot/xen.gz mcd
+
+Running
+-------
+refer to the example contained in 'examples' folder
+the example code should be run inside of virtual machine
+
+Paper
+-----
+TBD

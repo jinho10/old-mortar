@@ -1,0 +1,1007 @@
+"symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  def int_string_tbl "symbol.ml" 21 820 820 --
+)
+"symbol.ml" 20 747 800 "symbol.ml" 20 747 814
+type(
+  int -> (int, string record) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"symbol.ml" 20 747 815 "symbol.ml" 20 747 819
+type(
+  int
+)
+"symbol.ml" 20 747 800 "symbol.ml" 20 747 819
+type(
+  (int, string record) Hashtbl.t
+)
+type(
+  (int, string record) Hashtbl.t
+)
+"symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  def string_int_tbl "symbol.ml" 23 887 887 --
+)
+"symbol.ml" 21 820 866 "symbol.ml" 21 820 880
+type(
+  int -> (string, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"symbol.ml" 21 820 881 "symbol.ml" 21 820 885
+type(
+  int
+)
+"symbol.ml" 21 820 866 "symbol.ml" 21 820 885
+type(
+  (string, int) Hashtbl.t
+)
+type(
+  (string, int) Hashtbl.t
+)
+"symbol.ml" 23 887 891 "symbol.ml" 23 887 906
+type(
+  int ref
+)
+ident(
+  def created_counter "symbol.ml" 24 915 915 --
+)
+"symbol.ml" 23 887 909 "symbol.ml" 23 887 912
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"symbol.ml" 23 887 913 "symbol.ml" 23 887 914
+type(
+  int
+)
+"symbol.ml" 23 887 909 "symbol.ml" 23 887 914
+type(
+  int ref
+)
+"symbol.ml" 24 915 919 "symbol.ml" 24 915 931
+type(
+  int ref
+)
+ident(
+  def used_counter "symbol.ml" 26 941 941 --
+)
+"symbol.ml" 24 915 934 "symbol.ml" 24 915 937
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"symbol.ml" 24 915 938 "symbol.ml" 24 915 939
+type(
+  int
+)
+"symbol.ml" 24 915 934 "symbol.ml" 24 915 939
+type(
+  int ref
+)
+"symbol.ml" 26 941 945 "symbol.ml" 26 941 950
+type(
+  int ref
+)
+ident(
+  def count "symbol.ml" 27 959 959 --
+)
+"symbol.ml" 26 941 953 "symbol.ml" 26 941 956
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"symbol.ml" 26 941 957 "symbol.ml" 26 941 958
+type(
+  int
+)
+"symbol.ml" 26 941 953 "symbol.ml" 26 941 958
+type(
+  int ref
+)
+"symbol.ml" 27 959 967 "symbol.ml" 27 959 972
+type(
+  unit -> int
+)
+ident(
+  def fresh "symbol.ml" 27 959 959 --
+)
+"symbol.ml" 27 959 973 "symbol.ml" 27 959 975
+type(
+  unit
+)
+"symbol.ml" 28 978 982 "symbol.ml" 28 978 993
+type(
+  (int, string record) Hashtbl.t -> int -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"symbol.ml" 28 978 994 "symbol.ml" 28 978 1008
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 28 978 1009 "symbol.ml" 28 978 1010
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"symbol.ml" 28 978 1010 "symbol.ml" 28 978 1015
+type(
+  int ref
+)
+ident(
+  int_ref count "symbol.ml" 26 941 945 "symbol.ml" 26 941 950
+)
+"symbol.ml" 28 978 1009 "symbol.ml" 28 978 1015
+type(
+  int
+)
+"symbol.ml" 28 978 982 "symbol.ml" 28 978 1015
+type(
+  bool
+)
+"symbol.ml" 30 1028 1030 "symbol.ml" 30 1028 1034
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"symbol.ml" 30 1028 1035 "symbol.ml" 30 1028 1040
+type(
+  int ref
+)
+ident(
+  int_ref count "symbol.ml" 26 941 945 "symbol.ml" 26 941 950
+)
+"symbol.ml" 30 1028 1030 "symbol.ml" 30 1028 1040
+type(
+  unit
+)
+"symbol.ml" 31 1042 1044 "symbol.ml" 31 1042 1049
+type(
+  unit -> int
+)
+ident(
+  int_ref fresh "symbol.ml" 27 959 967 "symbol.ml" 27 959 972
+)
+"symbol.ml" 31 1042 1050 "symbol.ml" 31 1042 1052
+type(
+  unit
+)
+"symbol.ml" 31 1042 1044 "symbol.ml" 31 1042 1052
+type(
+  int
+)
+"symbol.ml" 29 1016 1022 "symbol.ml" 32 1053 1057
+type(
+  int
+)
+"symbol.ml" 33 1063 1065 "symbol.ml" 33 1063 1066
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"symbol.ml" 33 1063 1066 "symbol.ml" 33 1063 1071
+type(
+  int ref
+)
+ident(
+  int_ref count "symbol.ml" 26 941 945 "symbol.ml" 26 941 950
+)
+"symbol.ml" 33 1063 1065 "symbol.ml" 33 1063 1071
+type(
+  int
+)
+"symbol.ml" 28 978 979 "symbol.ml" 33 1063 1071
+type(
+  int
+)
+"symbol.ml" 35 1073 1077 "symbol.ml" 35 1073 1087
+type(
+  'a -> 'a record
+)
+ident(
+  def new_record "symbol.ml" 37 1119 1119 --
+)
+"symbol.ml" 35 1073 1088 "symbol.ml" 35 1073 1089
+type(
+  'a
+)
+ident(
+  def v "symbol.ml" 35 1073 1092 "symbol.ml" 35 1073 1117
+)
+"symbol.ml" 35 1073 1099 "symbol.ml" 35 1073 1100
+type(
+  'a
+)
+ident(
+  int_ref v "symbol.ml" 35 1073 1088 "symbol.ml" 35 1073 1089
+)
+"symbol.ml" 35 1073 1110 "symbol.ml" 35 1073 1115
+type(
+  bool
+)
+"symbol.ml" 35 1073 1092 "symbol.ml" 35 1073 1117
+type(
+  'a record
+)
+"symbol.ml" 37 1119 1123 "symbol.ml" 37 1119 1132
+type(
+  string -> int
+)
+ident(
+  def of_string "symbol.ml" 50 1403 1403 --
+)
+"symbol.ml" 37 1119 1133 "symbol.ml" 37 1119 1137
+type(
+  string
+)
+ident(
+  def name "symbol.ml" 38 1140 1141 "symbol.ml" 48 1397 1401
+)
+"symbol.ml" 38 1140 1144 "symbol.ml" 38 1140 1155
+type(
+  (string, int) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"symbol.ml" 38 1140 1156 "symbol.ml" 38 1140 1170
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref string_int_tbl "symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+)
+"symbol.ml" 38 1140 1171 "symbol.ml" 38 1140 1175
+type(
+  string
+)
+ident(
+  int_ref name "symbol.ml" 37 1119 1133 "symbol.ml" 37 1119 1137
+)
+"symbol.ml" 38 1140 1144 "symbol.ml" 38 1140 1175
+type(
+  bool
+)
+"symbol.ml" 40 1188 1190 "symbol.ml" 40 1188 1194
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"symbol.ml" 40 1188 1195 "symbol.ml" 40 1188 1207
+type(
+  int ref
+)
+ident(
+  int_ref used_counter "symbol.ml" 24 915 919 "symbol.ml" 24 915 931
+)
+"symbol.ml" 40 1188 1190 "symbol.ml" 40 1188 1207
+type(
+  unit
+)
+"symbol.ml" 41 1209 1211 "symbol.ml" 41 1209 1223
+type(
+  (string, int) Hashtbl.t -> string -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"symbol.ml" 41 1209 1224 "symbol.ml" 41 1209 1238
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref string_int_tbl "symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+)
+"symbol.ml" 41 1209 1239 "symbol.ml" 41 1209 1243
+type(
+  string
+)
+ident(
+  int_ref name "symbol.ml" 37 1119 1133 "symbol.ml" 37 1119 1137
+)
+"symbol.ml" 41 1209 1211 "symbol.ml" 41 1209 1243
+type(
+  int
+)
+"symbol.ml" 39 1176 1182 "symbol.ml" 42 1244 1248
+type(
+  int
+)
+"symbol.ml" 43 1260 1266 "symbol.ml" 43 1260 1267
+type(
+  int
+)
+"symbol.ml" 43 1260 1270 "symbol.ml" 43 1260 1275
+type(
+  unit -> int
+)
+ident(
+  int_ref fresh "symbol.ml" 27 959 967 "symbol.ml" 27 959 972
+)
+"symbol.ml" 43 1260 1276 "symbol.ml" 43 1260 1278
+type(
+  unit
+)
+"symbol.ml" 43 1260 1270 "symbol.ml" 43 1260 1278
+type(
+  int
+)
+"symbol.ml" 44 1282 1284 "symbol.ml" 44 1282 1288
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"symbol.ml" 44 1282 1289 "symbol.ml" 44 1282 1304
+type(
+  int ref
+)
+ident(
+  int_ref created_counter "symbol.ml" 23 887 891 "symbol.ml" 23 887 906
+)
+"symbol.ml" 44 1282 1284 "symbol.ml" 44 1282 1304
+type(
+  unit
+)
+"symbol.ml" 45 1306 1308 "symbol.ml" 45 1306 1319
+type(
+  (string, int) Hashtbl.t -> string -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"symbol.ml" 45 1306 1320 "symbol.ml" 45 1306 1334
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref string_int_tbl "symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+)
+"symbol.ml" 45 1306 1335 "symbol.ml" 45 1306 1339
+type(
+  string
+)
+ident(
+  int_ref name "symbol.ml" 37 1119 1133 "symbol.ml" 37 1119 1137
+)
+"symbol.ml" 45 1306 1340 "symbol.ml" 45 1306 1341
+type(
+  int
+)
+ident(
+  int_ref i "symbol.ml" 43 1260 1266 "symbol.ml" 43 1260 1267
+)
+"symbol.ml" 45 1306 1308 "symbol.ml" 45 1306 1341
+type(
+  unit
+)
+"symbol.ml" 46 1343 1345 "symbol.ml" 46 1343 1356
+type(
+  (int, string record) Hashtbl.t -> int -> string record -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"symbol.ml" 46 1343 1357 "symbol.ml" 46 1343 1371
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 46 1343 1372 "symbol.ml" 46 1343 1373
+type(
+  int
+)
+ident(
+  int_ref i "symbol.ml" 43 1260 1266 "symbol.ml" 43 1260 1267
+)
+"symbol.ml" 46 1343 1375 "symbol.ml" 46 1343 1385
+type(
+  string -> string record
+)
+ident(
+  int_ref new_record "symbol.ml" 35 1073 1077 "symbol.ml" 35 1073 1087
+)
+"symbol.ml" 46 1343 1386 "symbol.ml" 46 1343 1390
+type(
+  string
+)
+ident(
+  int_ref name "symbol.ml" 37 1119 1133 "symbol.ml" 37 1119 1137
+)
+"symbol.ml" 46 1343 1374 "symbol.ml" 46 1343 1391
+type(
+  string record
+)
+"symbol.ml" 46 1343 1345 "symbol.ml" 46 1343 1391
+type(
+  unit
+)
+"symbol.ml" 47 1393 1395 "symbol.ml" 47 1393 1396
+type(
+  int
+)
+ident(
+  int_ref i "symbol.ml" 43 1260 1266 "symbol.ml" 43 1260 1267
+)
+"symbol.ml" 46 1343 1345 "symbol.ml" 47 1393 1396
+type(
+  int
+)
+"symbol.ml" 45 1306 1308 "symbol.ml" 47 1393 1396
+type(
+  int
+)
+"symbol.ml" 44 1282 1284 "symbol.ml" 47 1393 1396
+type(
+  int
+)
+"symbol.ml" 42 1244 1254 "symbol.ml" 48 1397 1401
+type(
+  int
+)
+"symbol.ml" 38 1140 1141 "symbol.ml" 48 1397 1401
+type(
+  int
+)
+"symbol.ml" 50 1403 1407 "symbol.ml" 50 1403 1416
+type(
+  int -> string
+)
+ident(
+  def to_string "symbol.ml" 53 1460 1460 --
+)
+"symbol.ml" 50 1403 1417 "symbol.ml" 50 1403 1418
+type(
+  int
+)
+ident(
+  def i "symbol.ml" 51 1421 1422 "symbol.ml" 51 1421 1458
+)
+"symbol.ml" 51 1421 1423 "symbol.ml" 51 1421 1435
+type(
+  (int, string record) Hashtbl.t -> int -> string record
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"symbol.ml" 51 1421 1436 "symbol.ml" 51 1421 1450
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 51 1421 1451 "symbol.ml" 51 1421 1452
+type(
+  int
+)
+ident(
+  int_ref i "symbol.ml" 50 1403 1417 "symbol.ml" 50 1403 1418
+)
+"symbol.ml" 51 1421 1422 "symbol.ml" 51 1421 1453
+type(
+  string record
+)
+"symbol.ml" 51 1421 1422 "symbol.ml" 51 1421 1458
+type(
+  string
+)
+"symbol.ml" 53 1460 1464 "symbol.ml" 53 1460 1482
+type(
+  unit -> unit
+)
+ident(
+  def mark_all_as_unused "symbol.ml" 56 1549 1549 --
+)
+"symbol.ml" 53 1460 1483 "symbol.ml" 53 1460 1485
+type(
+  unit
+)
+"symbol.ml" 54 1488 1489 "symbol.ml" 54 1488 1501
+type(
+  (int -> string record -> unit) -> (int, string record) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"symbol.ml" 54 1488 1507 "symbol.ml" 54 1488 1508
+type(
+  int
+)
+"symbol.ml" 54 1488 1509 "symbol.ml" 54 1488 1510
+type(
+  string record
+)
+ident(
+  def v "symbol.ml" 54 1488 1514 "symbol.ml" 54 1488 1531
+)
+"symbol.ml" 54 1488 1514 "symbol.ml" 54 1488 1515
+type(
+  string record
+)
+ident(
+  int_ref v "symbol.ml" 54 1488 1509 "symbol.ml" 54 1488 1510
+)
+"symbol.ml" 54 1488 1527 "symbol.ml" 54 1488 1531
+type(
+  bool
+)
+"symbol.ml" 54 1488 1514 "symbol.ml" 54 1488 1531
+type(
+  unit
+)
+"symbol.ml" 54 1488 1502 "symbol.ml" 54 1488 1532
+type(
+  int -> string record -> unit
+)
+"symbol.ml" 54 1488 1533 "symbol.ml" 54 1488 1547
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 54 1488 1489 "symbol.ml" 54 1488 1547
+type(
+  unit
+)
+"symbol.ml" 56 1549 1553 "symbol.ml" 56 1549 1565
+type(
+  int -> unit
+)
+ident(
+  def mark_as_used "symbol.ml" 60 1652 1652 --
+)
+"symbol.ml" 56 1549 1566 "symbol.ml" 56 1549 1570
+type(
+  int
+)
+ident(
+  def symb "symbol.ml" 57 1573 1574 "symbol.ml" 58 1624 1650
+)
+"symbol.ml" 57 1573 1578 "symbol.ml" 57 1573 1585
+type(
+  string record
+)
+"symbol.ml" 57 1573 1588 "symbol.ml" 57 1573 1600
+type(
+  (int, string record) Hashtbl.t -> int -> string record
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"symbol.ml" 57 1573 1601 "symbol.ml" 57 1573 1615
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 57 1573 1616 "symbol.ml" 57 1573 1620
+type(
+  int
+)
+ident(
+  int_ref symb "symbol.ml" 56 1549 1566 "symbol.ml" 56 1549 1570
+)
+"symbol.ml" 57 1573 1588 "symbol.ml" 57 1573 1620
+type(
+  string record
+)
+"symbol.ml" 58 1624 1626 "symbol.ml" 58 1624 1633
+type(
+  string record
+)
+ident(
+  int_ref record1 "symbol.ml" 57 1573 1578 "symbol.ml" 57 1573 1585
+)
+"symbol.ml" 58 1624 1645 "symbol.ml" 58 1624 1650
+type(
+  bool
+)
+"symbol.ml" 58 1624 1626 "symbol.ml" 58 1624 1650
+type(
+  unit
+)
+"symbol.ml" 57 1573 1574 "symbol.ml" 58 1624 1650
+type(
+  unit
+)
+"symbol.ml" 60 1652 1656 "symbol.ml" 60 1652 1663
+type(
+  unit -> unit
+)
+ident(
+  def garbage "symbol.ml" 72 1986 1986 --
+)
+"symbol.ml" 60 1652 1664 "symbol.ml" 60 1652 1666
+type(
+  unit
+)
+"symbol.ml" 61 1669 1674 "symbol.ml" 61 1669 1681
+type(
+  (int * string) list
+)
+"symbol.ml" 61 1669 1684 "symbol.ml" 61 1669 1696
+type(
+  (int -> string record -> (int * string) list -> (int * string) list) ->
+  (int, string record) Hashtbl.t ->
+  (int * string) list -> (int * string) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"symbol.ml" 61 1669 1702 "symbol.ml" 61 1669 1706
+type(
+  int
+)
+ident(
+  def symb "symbol.ml" 61 1669 1707 "symbol.ml" 62 1722 1784
+)
+"symbol.ml" 61 1669 1707 "symbol.ml" 61 1669 1713
+type(
+  string record
+)
+ident(
+  def record "symbol.ml" 61 1669 1714 "symbol.ml" 62 1722 1784
+)
+"symbol.ml" 61 1669 1714 "symbol.ml" 61 1669 1718
+type(
+  (int * string) list
+)
+ident(
+  def accu "symbol.ml" 62 1722 1724 "symbol.ml" 62 1722 1784
+)
+"symbol.ml" 62 1722 1727 "symbol.ml" 62 1722 1733
+type(
+  string record
+)
+ident(
+  int_ref record "symbol.ml" 61 1669 1707 "symbol.ml" 61 1669 1713
+)
+"symbol.ml" 62 1722 1727 "symbol.ml" 62 1722 1741
+type(
+  bool
+)
+"symbol.ml" 62 1722 1748 "symbol.ml" 62 1722 1752
+type(
+  int
+)
+ident(
+  int_ref symb "symbol.ml" 61 1669 1702 "symbol.ml" 61 1669 1706
+)
+"symbol.ml" 62 1722 1754 "symbol.ml" 62 1722 1760
+type(
+  string record
+)
+ident(
+  int_ref record "symbol.ml" 61 1669 1707 "symbol.ml" 61 1669 1713
+)
+"symbol.ml" 62 1722 1754 "symbol.ml" 62 1722 1765
+type(
+  string
+)
+"symbol.ml" 62 1722 1747 "symbol.ml" 62 1722 1766
+type(
+  int * string
+)
+"symbol.ml" 62 1722 1770 "symbol.ml" 62 1722 1774
+type(
+  (int * string) list
+)
+ident(
+  int_ref accu "symbol.ml" 61 1669 1714 "symbol.ml" 61 1669 1718
+)
+"symbol.ml" 62 1722 1747 "symbol.ml" 62 1722 1774
+type(
+  (int * string) list
+)
+"symbol.ml" 62 1722 1780 "symbol.ml" 62 1722 1784
+type(
+  (int * string) list
+)
+ident(
+  int_ref accu "symbol.ml" 61 1669 1714 "symbol.ml" 61 1669 1718
+)
+"symbol.ml" 62 1722 1724 "symbol.ml" 62 1722 1784
+type(
+  (int * string) list
+)
+"symbol.ml" 61 1669 1697 "symbol.ml" 63 1785 1787
+type(
+  int -> string record -> (int * string) list -> (int * string) list
+)
+"symbol.ml" 63 1785 1788 "symbol.ml" 63 1785 1802
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 63 1785 1803 "symbol.ml" 63 1785 1805
+type(
+  (int * string) list
+)
+"symbol.ml" 61 1669 1684 "symbol.ml" 63 1785 1805
+type(
+  (int * string) list
+)
+"symbol.ml" 64 1809 1814 "symbol.ml" 64 1809 1820
+type(
+  int * string -> unit
+)
+"symbol.ml" 64 1809 1822 "symbol.ml" 64 1809 1825
+type(
+  int
+)
+ident(
+  def int "symbol.ml" 65 1836 1838 "symbol.ml" 66 1873 1911
+)
+"symbol.ml" 64 1809 1826 "symbol.ml" 64 1809 1832
+type(
+  string
+)
+ident(
+  def string "symbol.ml" 65 1836 1838 "symbol.ml" 66 1873 1911
+)
+"symbol.ml" 64 1809 1821 "symbol.ml" 64 1809 1833
+type(
+  int * string
+)
+"symbol.ml" 65 1836 1838 "symbol.ml" 65 1836 1852
+type(
+  (int, string record) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"symbol.ml" 65 1836 1853 "symbol.ml" 65 1836 1867
+type(
+  (int, string record) Hashtbl.t
+)
+ident(
+  int_ref int_string_tbl "symbol.ml" 20 747 751 "symbol.ml" 20 747 765
+)
+"symbol.ml" 65 1836 1868 "symbol.ml" 65 1836 1871
+type(
+  int
+)
+ident(
+  int_ref int "symbol.ml" 64 1809 1822 "symbol.ml" 64 1809 1825
+)
+"symbol.ml" 65 1836 1838 "symbol.ml" 65 1836 1871
+type(
+  unit
+)
+"symbol.ml" 66 1873 1875 "symbol.ml" 66 1873 1889
+type(
+  (string, int) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"symbol.ml" 66 1873 1890 "symbol.ml" 66 1873 1904
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref string_int_tbl "symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+)
+"symbol.ml" 66 1873 1905 "symbol.ml" 66 1873 1911
+type(
+  string
+)
+ident(
+  int_ref string "symbol.ml" 64 1809 1826 "symbol.ml" 64 1809 1832
+)
+"symbol.ml" 66 1873 1875 "symbol.ml" 66 1873 1911
+type(
+  unit
+)
+"symbol.ml" 65 1836 1838 "symbol.ml" 66 1873 1911
+type(
+  unit
+)
+"symbol.ml" 68 1916 1917 "symbol.ml" 68 1916 1932
+type(
+  int ref
+)
+ident(
+  int_ref created_counter "symbol.ml" 23 887 891 "symbol.ml" 23 887 906
+)
+"symbol.ml" 68 1916 1933 "symbol.ml" 68 1916 1935
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"symbol.ml" 68 1916 1936 "symbol.ml" 68 1916 1937
+type(
+  int
+)
+"symbol.ml" 68 1916 1917 "symbol.ml" 68 1916 1937
+type(
+  unit
+)
+"symbol.ml" 69 1939 1940 "symbol.ml" 69 1939 1952
+type(
+  int ref
+)
+ident(
+  int_ref used_counter "symbol.ml" 24 915 919 "symbol.ml" 24 915 931
+)
+"symbol.ml" 69 1939 1953 "symbol.ml" 69 1939 1955
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"symbol.ml" 69 1939 1956 "symbol.ml" 69 1939 1957
+type(
+  int
+)
+"symbol.ml" 69 1939 1940 "symbol.ml" 69 1939 1957
+type(
+  unit
+)
+"symbol.ml" 70 1959 1960 "symbol.ml" 70 1959 1969
+type(
+  (int * string -> unit) -> (int * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"symbol.ml" 70 1959 1970 "symbol.ml" 70 1959 1976
+type(
+  int * string -> unit
+)
+ident(
+  int_ref remove "symbol.ml" 64 1809 1814 "symbol.ml" 64 1809 1820
+)
+"symbol.ml" 70 1959 1977 "symbol.ml" 70 1959 1984
+type(
+  (int * string) list
+)
+ident(
+  int_ref records "symbol.ml" 61 1669 1674 "symbol.ml" 61 1669 1681
+)
+"symbol.ml" 70 1959 1960 "symbol.ml" 70 1959 1984
+type(
+  unit
+)
+"symbol.ml" 69 1939 1940 "symbol.ml" 70 1959 1984
+type(
+  unit
+)
+"symbol.ml" 68 1916 1917 "symbol.ml" 70 1959 1984
+type(
+  unit
+)
+"symbol.ml" 64 1809 1810 "symbol.ml" 70 1959 1984
+type(
+  unit
+)
+"symbol.ml" 61 1669 1670 "symbol.ml" 70 1959 1984
+type(
+  unit
+)
+"symbol.ml" 72 1986 1990 "symbol.ml" 72 1986 1995
+type(
+  unit -> int
+)
+ident(
+  def stats "symbol.ml" 75 2033 2033 --
+)
+"symbol.ml" 72 1986 1996 "symbol.ml" 72 1986 1998
+type(
+  unit
+)
+"symbol.ml" 73 2001 2002 "symbol.ml" 73 2001 2016
+type(
+  (string, int) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"symbol.ml" 73 2001 2017 "symbol.ml" 73 2001 2031
+type(
+  (string, int) Hashtbl.t
+)
+ident(
+  int_ref string_int_tbl "symbol.ml" 21 820 824 "symbol.ml" 21 820 838
+)
+"symbol.ml" 73 2001 2002 "symbol.ml" 73 2001 2031
+type(
+  int
+)
+"symbol.ml" 75 2033 2037 "symbol.ml" 75 2033 2044
+type(
+  unit -> int
+)
+ident(
+  def created "symbol.ml" 76 2067 2067 --
+)
+"symbol.ml" 75 2033 2045 "symbol.ml" 75 2033 2047
+type(
+  unit
+)
+"symbol.ml" 75 2033 2050 "symbol.ml" 75 2033 2051
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"symbol.ml" 75 2033 2051 "symbol.ml" 75 2033 2066
+type(
+  int ref
+)
+ident(
+  int_ref created_counter "symbol.ml" 23 887 891 "symbol.ml" 23 887 906
+)
+"symbol.ml" 75 2033 2050 "symbol.ml" 75 2033 2066
+type(
+  int
+)
+"symbol.ml" 76 2067 2071 "symbol.ml" 76 2067 2075
+type(
+  unit -> int
+)
+ident(
+  def used "symbol.ml" 76 2067 2094 --
+)
+"symbol.ml" 76 2067 2076 "symbol.ml" 76 2067 2078
+type(
+  unit
+)
+"symbol.ml" 76 2067 2081 "symbol.ml" 76 2067 2082
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"symbol.ml" 76 2067 2082 "symbol.ml" 76 2067 2094
+type(
+  int ref
+)
+ident(
+  int_ref used_counter "symbol.ml" 24 915 919 "symbol.ml" 24 915 931
+)
+"symbol.ml" 76 2067 2081 "symbol.ml" 76 2067 2094
+type(
+  int
+)

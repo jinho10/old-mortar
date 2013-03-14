@@ -1,0 +1,874 @@
+"parse_arg.ml" 30 975 979 "parse_arg.ml" 30 975 986
+type(
+  config
+)
+ident(
+  def do_argv "parse_arg.ml" 68 2806 2808 --
+)
+"parse_arg.ml" 31 989 994 "parse_arg.ml" 31 989 1001
+type(
+  string ref
+)
+"parse_arg.ml" 31 989 1004 "parse_arg.ml" 31 989 1007
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 31 989 1008 "parse_arg.ml" 31 989 1010
+type(
+  string
+)
+"parse_arg.ml" 31 989 1004 "parse_arg.ml" 31 989 1010
+type(
+  string ref
+)
+"parse_arg.ml" 31 989 1015 "parse_arg.ml" 31 989 1024
+type(
+  string ref
+)
+"parse_arg.ml" 31 989 1027 "parse_arg.ml" 31 989 1030
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 31 989 1031 "parse_arg.ml" 31 989 1033
+type(
+  string
+)
+"parse_arg.ml" 31 989 1027 "parse_arg.ml" 31 989 1033
+type(
+  string ref
+)
+"parse_arg.ml" 32 1068 1073 "parse_arg.ml" 32 1068 1084
+type(
+  bool ref
+)
+"parse_arg.ml" 32 1068 1087 "parse_arg.ml" 32 1068 1090
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 32 1068 1091 "parse_arg.ml" 32 1068 1095
+type(
+  bool
+)
+"parse_arg.ml" 32 1068 1087 "parse_arg.ml" 32 1068 1095
+type(
+  bool ref
+)
+"parse_arg.ml" 33 1096 1101 "parse_arg.ml" 33 1096 1120
+type(
+  bool ref
+)
+"parse_arg.ml" 33 1096 1123 "parse_arg.ml" 33 1096 1126
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 33 1096 1127 "parse_arg.ml" 33 1096 1131
+type(
+  bool
+)
+"parse_arg.ml" 33 1096 1123 "parse_arg.ml" 33 1096 1131
+type(
+  bool ref
+)
+"parse_arg.ml" 34 1132 1137 "parse_arg.ml" 34 1132 1146
+type(
+  bool ref
+)
+"parse_arg.ml" 34 1132 1149 "parse_arg.ml" 34 1132 1152
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 34 1132 1153 "parse_arg.ml" 34 1132 1157
+type(
+  bool
+)
+"parse_arg.ml" 34 1132 1149 "parse_arg.ml" 34 1132 1157
+type(
+  bool ref
+)
+"parse_arg.ml" 35 1158 1163 "parse_arg.ml" 35 1158 1180
+type(
+  bool ref
+)
+"parse_arg.ml" 35 1158 1183 "parse_arg.ml" 35 1158 1186
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 35 1158 1187 "parse_arg.ml" 35 1158 1192
+type(
+  bool
+)
+"parse_arg.ml" 35 1158 1183 "parse_arg.ml" 35 1158 1192
+type(
+  bool ref
+)
+"parse_arg.ml" 36 1193 1198 "parse_arg.ml" 36 1193 1209
+type(
+  string ref
+)
+"parse_arg.ml" 36 1193 1212 "parse_arg.ml" 36 1193 1215
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 36 1193 1216 "parse_arg.ml" 36 1193 1218
+type(
+  string
+)
+"parse_arg.ml" 36 1193 1212 "parse_arg.ml" 36 1193 1218
+type(
+  string ref
+)
+"parse_arg.ml" 37 1219 1224 "parse_arg.ml" 37 1219 1231
+type(
+  bool ref
+)
+"parse_arg.ml" 37 1219 1234 "parse_arg.ml" 37 1219 1237
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 37 1219 1238 "parse_arg.ml" 37 1219 1243
+type(
+  bool
+)
+"parse_arg.ml" 37 1219 1234 "parse_arg.ml" 37 1219 1243
+type(
+  bool ref
+)
+"parse_arg.ml" 38 1244 1249 "parse_arg.ml" 38 1244 1263
+type(
+  bool ref
+)
+"parse_arg.ml" 38 1244 1266 "parse_arg.ml" 38 1244 1269
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"parse_arg.ml" 38 1244 1270 "parse_arg.ml" 38 1244 1275
+type(
+  bool
+)
+"parse_arg.ml" 38 1244 1266 "parse_arg.ml" 38 1244 1275
+type(
+  bool ref
+)
+"parse_arg.ml" 40 1280 1285 "parse_arg.ml" 40 1280 1293
+type(
+  (string * Arg.spec * string) list
+)
+"parse_arg.ml" 41 1296 1301 "parse_arg.ml" 41 1296 1319
+type(
+  string
+)
+"parse_arg.ml" 41 1296 1335 "parse_arg.ml" 41 1296 1337
+type(
+  unit
+)
+"parse_arg.ml" 41 1296 1341 "parse_arg.ml" 41 1296 1352
+type(
+  bool ref
+)
+ident(
+  int_ref domain_init "parse_arg.ml" 32 1068 1073 "parse_arg.ml" 32 1068 1084
+)
+"parse_arg.ml" 41 1296 1353 "parse_arg.ml" 41 1296 1355
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"parse_arg.ml" 41 1296 1356 "parse_arg.ml" 41 1296 1361
+type(
+  bool
+)
+"parse_arg.ml" 41 1296 1341 "parse_arg.ml" 41 1296 1361
+type(
+  unit
+)
+"parse_arg.ml" 41 1296 1330 "parse_arg.ml" 41 1296 1362
+type(
+  unit -> unit
+)
+"parse_arg.ml" 41 1296 1321 "parse_arg.ml" 41 1296 1362
+type(
+  Arg.spec
+)
+"parse_arg.ml" 42 1364 1369 "parse_arg.ml" 42 1364 1421
+type(
+  string
+)
+"parse_arg.ml" 41 1296 1300 "parse_arg.ml" 42 1364 1422
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 43 1424 1429 "parse_arg.ml" 43 1424 1444
+type(
+  string
+)
+"parse_arg.ml" 43 1424 1461 "parse_arg.ml" 43 1424 1472
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 36 1193 1198 "parse_arg.ml" 36 1193 1209
+)
+"parse_arg.ml" 43 1424 1446 "parse_arg.ml" 43 1424 1472
+type(
+  Arg.spec
+)
+"parse_arg.ml" 44 1474 1479 "parse_arg.ml" 44 1474 1535
+type(
+  string
+)
+"parse_arg.ml" 43 1424 1428 "parse_arg.ml" 44 1474 1536
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 45 1538 1543 "parse_arg.ml" 45 1538 1554
+type(
+  string
+)
+"parse_arg.ml" 45 1538 1570 "parse_arg.ml" 45 1538 1572
+type(
+  unit
+)
+"parse_arg.ml" 45 1538 1576 "parse_arg.ml" 45 1538 1585
+type(
+  bool ref
+)
+ident(
+  int_ref daemonize "parse_arg.ml" 34 1132 1137 "parse_arg.ml" 34 1132 1146
+)
+"parse_arg.ml" 45 1538 1586 "parse_arg.ml" 45 1538 1588
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"parse_arg.ml" 45 1538 1589 "parse_arg.ml" 45 1538 1594
+type(
+  bool
+)
+"parse_arg.ml" 45 1538 1576 "parse_arg.ml" 45 1538 1594
+type(
+  unit
+)
+"parse_arg.ml" 45 1538 1565 "parse_arg.ml" 45 1538 1595
+type(
+  unit -> unit
+)
+"parse_arg.ml" 45 1538 1556 "parse_arg.ml" 45 1538 1595
+type(
+  Arg.spec
+)
+"parse_arg.ml" 46 1597 1602 "parse_arg.ml" 46 1597 1644
+type(
+  string
+)
+"parse_arg.ml" 45 1538 1542 "parse_arg.ml" 46 1597 1645
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 47 1647 1652 "parse_arg.ml" 47 1647 1673
+type(
+  string
+)
+"parse_arg.ml" 47 1647 1689 "parse_arg.ml" 47 1647 1691
+type(
+  unit
+)
+"parse_arg.ml" 47 1647 1695 "parse_arg.ml" 47 1647 1712
+type(
+  bool ref
+)
+ident(
+  int_ref reraise_top_level "parse_arg.ml" 35 1158 1163 "parse_arg.ml" 35 1158 1180
+)
+"parse_arg.ml" 47 1647 1713 "parse_arg.ml" 47 1647 1715
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"parse_arg.ml" 47 1647 1716 "parse_arg.ml" 47 1647 1720
+type(
+  bool
+)
+"parse_arg.ml" 47 1647 1695 "parse_arg.ml" 47 1647 1720
+type(
+  unit
+)
+"parse_arg.ml" 47 1647 1684 "parse_arg.ml" 47 1647 1721
+type(
+  unit -> unit
+)
+"parse_arg.ml" 47 1647 1675 "parse_arg.ml" 47 1647 1721
+type(
+  Arg.spec
+)
+"parse_arg.ml" 48 1723 1728 "parse_arg.ml" 48 1723 1772
+type(
+  string
+)
+"parse_arg.ml" 47 1647 1651 "parse_arg.ml" 48 1723 1773
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 49 1775 1780 "parse_arg.ml" 49 1775 1797
+type(
+  string
+)
+"parse_arg.ml" 49 1775 1813 "parse_arg.ml" 49 1775 1815
+type(
+  unit
+)
+"parse_arg.ml" 49 1775 1819 "parse_arg.ml" 49 1775 1838
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "parse_arg.ml" 33 1096 1101 "parse_arg.ml" 33 1096 1120
+)
+"parse_arg.ml" 49 1775 1839 "parse_arg.ml" 49 1775 1841
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"parse_arg.ml" 49 1775 1842 "parse_arg.ml" 49 1775 1847
+type(
+  bool
+)
+"parse_arg.ml" 49 1775 1819 "parse_arg.ml" 49 1775 1847
+type(
+  unit
+)
+"parse_arg.ml" 49 1775 1808 "parse_arg.ml" 49 1775 1848
+type(
+  unit -> unit
+)
+"parse_arg.ml" 49 1775 1799 "parse_arg.ml" 49 1775 1848
+type(
+  Arg.spec
+)
+"parse_arg.ml" 50 1850 1854 "parse_arg.ml" 50 1850 1896
+type(
+  string
+)
+"parse_arg.ml" 49 1775 1779 "parse_arg.ml" 50 1850 1897
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 51 1899 1904 "parse_arg.ml" 51 1899 1916
+type(
+  string
+)
+"parse_arg.ml" 51 1899 1933 "parse_arg.ml" 51 1899 1940
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 31 989 994 "parse_arg.ml" 31 989 1001
+)
+"parse_arg.ml" 51 1899 1918 "parse_arg.ml" 51 1899 1940
+type(
+  Arg.spec
+)
+"parse_arg.ml" 51 1899 1942 "parse_arg.ml" 51 1899 1944
+type(
+  string
+)
+"parse_arg.ml" 51 1899 1903 "parse_arg.ml" 51 1899 1945
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 52 1971 1976 "parse_arg.ml" 52 1971 1980
+type(
+  string
+)
+"parse_arg.ml" 52 1971 1997 "parse_arg.ml" 52 1971 2006
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 31 989 1015 "parse_arg.ml" 31 989 1024
+)
+"parse_arg.ml" 52 1971 1982 "parse_arg.ml" 52 1971 2006
+type(
+  Arg.spec
+)
+"parse_arg.ml" 52 1971 2008 "parse_arg.ml" 52 1971 2010
+type(
+  string
+)
+"parse_arg.ml" 52 1971 1975 "parse_arg.ml" 52 1971 2011
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 53 2037 2042 "parse_arg.ml" 53 2037 2053
+type(
+  string
+)
+"parse_arg.ml" 53 2037 2063 "parse_arg.ml" 53 2037 2070
+type(
+  bool ref
+)
+ident(
+  int_ref restart "parse_arg.ml" 37 1219 1224 "parse_arg.ml" 37 1219 1231
+)
+"parse_arg.ml" 53 2037 2055 "parse_arg.ml" 53 2037 2070
+type(
+  Arg.spec
+)
+"parse_arg.ml" 53 2037 2072 "parse_arg.ml" 53 2037 2099
+type(
+  string
+)
+"parse_arg.ml" 53 2037 2041 "parse_arg.ml" 53 2037 2100
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 54 2102 2107 "parse_arg.ml" 54 2102 2125
+type(
+  string
+)
+"parse_arg.ml" 54 2102 2141 "parse_arg.ml" 54 2102 2143
+type(
+  unit
+)
+"parse_arg.ml" 54 2102 2147 "parse_arg.ml" 54 2102 2161
+type(
+  bool ref
+)
+ident(
+  int_ref disable_socket "parse_arg.ml" 38 1244 1249 "parse_arg.ml" 38 1244 1263
+)
+"parse_arg.ml" 54 2102 2162 "parse_arg.ml" 54 2102 2164
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"parse_arg.ml" 54 2102 2165 "parse_arg.ml" 54 2102 2169
+type(
+  bool
+)
+"parse_arg.ml" 54 2102 2147 "parse_arg.ml" 54 2102 2169
+type(
+  unit
+)
+"parse_arg.ml" 54 2102 2136 "parse_arg.ml" 54 2102 2170
+type(
+  unit -> unit
+)
+"parse_arg.ml" 54 2102 2127 "parse_arg.ml" 54 2102 2170
+type(
+  Arg.spec
+)
+"parse_arg.ml" 54 2102 2172 "parse_arg.ml" 54 2102 2188
+type(
+  string
+)
+"parse_arg.ml" 54 2102 2106 "parse_arg.ml" 54 2102 2189
+type(
+  string * Arg.spec * string
+)
+"parse_arg.ml" 41 1296 1298 "parse_arg.ml" 55 2191 2194
+type(
+  (string * Arg.spec * string) list
+)
+"parse_arg.ml" 56 2198 2203 "parse_arg.ml" 56 2198 2212
+type(
+  string
+)
+"parse_arg.ml" 56 2198 2215 "parse_arg.ml" 56 2198 2354
+type(
+  string
+)
+"parse_arg.ml" 57 2358 2359 "parse_arg.ml" 57 2358 2368
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"parse_arg.ml" 57 2358 2369 "parse_arg.ml" 57 2358 2377
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "parse_arg.ml" 40 1280 1285 "parse_arg.ml" 40 1280 1293
+)
+"parse_arg.ml" 57 2358 2383 "parse_arg.ml" 57 2358 2384
+type(
+  string
+)
+ident(
+  def s "parse_arg.ml" 57 2358 2388 "parse_arg.ml" 57 2358 2390
+)
+"parse_arg.ml" 57 2358 2388 "parse_arg.ml" 57 2358 2390
+type(
+  unit
+)
+"parse_arg.ml" 57 2358 2378 "parse_arg.ml" 57 2358 2391
+type(
+  string -> unit
+)
+"parse_arg.ml" 57 2358 2392 "parse_arg.ml" 57 2358 2401
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "parse_arg.ml" 56 2198 2203 "parse_arg.ml" 56 2198 2212
+)
+"parse_arg.ml" 57 2358 2359 "parse_arg.ml" 57 2358 2401
+type(
+  unit
+)
+"parse_arg.ml" 59 2406 2422 "parse_arg.ml" 59 2406 2423
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 59 2406 2423 "parse_arg.ml" 59 2406 2434
+type(
+  bool ref
+)
+ident(
+  int_ref domain_init "parse_arg.ml" 32 1068 1073 "parse_arg.ml" 32 1068 1084
+)
+"parse_arg.ml" 59 2406 2422 "parse_arg.ml" 59 2406 2434
+type(
+  bool
+)
+"parse_arg.ml" 60 2436 2460 "parse_arg.ml" 60 2436 2461
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 60 2436 2461 "parse_arg.ml" 60 2436 2480
+type(
+  bool ref
+)
+ident(
+  int_ref activate_access_log "parse_arg.ml" 33 1096 1101 "parse_arg.ml" 33 1096 1120
+)
+"parse_arg.ml" 60 2436 2460 "parse_arg.ml" 60 2436 2480
+type(
+  bool
+)
+"parse_arg.ml" 61 2482 2496 "parse_arg.ml" 61 2482 2497
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 61 2482 2497 "parse_arg.ml" 61 2482 2506
+type(
+  bool ref
+)
+ident(
+  int_ref daemonize "parse_arg.ml" 34 1132 1137 "parse_arg.ml" 34 1132 1146
+)
+"parse_arg.ml" 61 2482 2496 "parse_arg.ml" 61 2482 2506
+type(
+  bool
+)
+"parse_arg.ml" 62 2508 2530 "parse_arg.ml" 62 2508 2531
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 62 2508 2531 "parse_arg.ml" 62 2508 2548
+type(
+  bool ref
+)
+ident(
+  int_ref reraise_top_level "parse_arg.ml" 35 1158 1163 "parse_arg.ml" 35 1158 1180
+)
+"parse_arg.ml" 62 2508 2530 "parse_arg.ml" 62 2508 2548
+type(
+  bool
+)
+"parse_arg.ml" 63 2550 2569 "parse_arg.ml" 63 2550 2570
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 63 2550 2570 "parse_arg.ml" 63 2550 2581
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 36 1193 1198 "parse_arg.ml" 36 1193 1209
+)
+"parse_arg.ml" 63 2550 2569 "parse_arg.ml" 63 2550 2581
+type(
+  string
+)
+"parse_arg.ml" 63 2550 2582 "parse_arg.ml" 63 2550 2584
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"parse_arg.ml" 63 2550 2585 "parse_arg.ml" 63 2550 2587
+type(
+  string
+)
+"parse_arg.ml" 63 2550 2569 "parse_arg.ml" 63 2550 2587
+type(
+  bool
+)
+"parse_arg.ml" 63 2550 2598 "parse_arg.ml" 63 2550 2599
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 63 2550 2599 "parse_arg.ml" 63 2550 2610
+type(
+  string ref
+)
+ident(
+  int_ref config_file "parse_arg.ml" 36 1193 1198 "parse_arg.ml" 36 1193 1209
+)
+"parse_arg.ml" 63 2550 2598 "parse_arg.ml" 63 2550 2610
+type(
+  string
+)
+"parse_arg.ml" 63 2550 2593 "parse_arg.ml" 63 2550 2610
+type(
+  string option
+)
+"parse_arg.ml" 63 2550 2616 "parse_arg.ml" 63 2550 2620
+type(
+  string option
+)
+"parse_arg.ml" 63 2550 2566 "parse_arg.ml" 63 2550 2620
+type(
+  string option
+)
+"parse_arg.ml" 64 2622 2637 "parse_arg.ml" 64 2622 2638
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 64 2622 2638 "parse_arg.ml" 64 2622 2645
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 31 989 994 "parse_arg.ml" 31 989 1001
+)
+"parse_arg.ml" 64 2622 2637 "parse_arg.ml" 64 2622 2645
+type(
+  string
+)
+"parse_arg.ml" 64 2622 2646 "parse_arg.ml" 64 2622 2648
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"parse_arg.ml" 64 2622 2649 "parse_arg.ml" 64 2622 2651
+type(
+  string
+)
+"parse_arg.ml" 64 2622 2637 "parse_arg.ml" 64 2622 2651
+type(
+  bool
+)
+"parse_arg.ml" 64 2622 2662 "parse_arg.ml" 64 2622 2663
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 64 2622 2663 "parse_arg.ml" 64 2622 2670
+type(
+  string ref
+)
+ident(
+  int_ref pidfile "parse_arg.ml" 31 989 994 "parse_arg.ml" 31 989 1001
+)
+"parse_arg.ml" 64 2622 2662 "parse_arg.ml" 64 2622 2670
+type(
+  string
+)
+"parse_arg.ml" 64 2622 2657 "parse_arg.ml" 64 2622 2670
+type(
+  string option
+)
+"parse_arg.ml" 64 2622 2676 "parse_arg.ml" 64 2622 2680
+type(
+  string option
+)
+"parse_arg.ml" 64 2622 2634 "parse_arg.ml" 64 2622 2680
+type(
+  string option
+)
+"parse_arg.ml" 65 2682 2699 "parse_arg.ml" 65 2682 2700
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 65 2682 2700 "parse_arg.ml" 65 2682 2709
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 31 989 1015 "parse_arg.ml" 31 989 1024
+)
+"parse_arg.ml" 65 2682 2699 "parse_arg.ml" 65 2682 2709
+type(
+  string
+)
+"parse_arg.ml" 65 2682 2710 "parse_arg.ml" 65 2682 2712
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"parse_arg.ml" 65 2682 2713 "parse_arg.ml" 65 2682 2715
+type(
+  string
+)
+"parse_arg.ml" 65 2682 2699 "parse_arg.ml" 65 2682 2715
+type(
+  bool
+)
+"parse_arg.ml" 65 2682 2726 "parse_arg.ml" 65 2682 2727
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 65 2682 2727 "parse_arg.ml" 65 2682 2736
+type(
+  string ref
+)
+ident(
+  int_ref tracefile "parse_arg.ml" 31 989 1015 "parse_arg.ml" 31 989 1024
+)
+"parse_arg.ml" 65 2682 2726 "parse_arg.ml" 65 2682 2736
+type(
+  string
+)
+"parse_arg.ml" 65 2682 2721 "parse_arg.ml" 65 2682 2736
+type(
+  string option
+)
+"parse_arg.ml" 65 2682 2742 "parse_arg.ml" 65 2682 2746
+type(
+  string option
+)
+"parse_arg.ml" 65 2682 2696 "parse_arg.ml" 65 2682 2746
+type(
+  string option
+)
+"parse_arg.ml" 66 2748 2760 "parse_arg.ml" 66 2748 2761
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 66 2748 2761 "parse_arg.ml" 66 2748 2768
+type(
+  bool ref
+)
+ident(
+  int_ref restart "parse_arg.ml" 37 1219 1224 "parse_arg.ml" 37 1219 1231
+)
+"parse_arg.ml" 66 2748 2760 "parse_arg.ml" 66 2748 2768
+type(
+  bool
+)
+"parse_arg.ml" 67 2770 2789 "parse_arg.ml" 67 2770 2790
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"parse_arg.ml" 67 2770 2790 "parse_arg.ml" 67 2770 2804
+type(
+  bool ref
+)
+ident(
+  int_ref disable_socket "parse_arg.ml" 38 1244 1249 "parse_arg.ml" 38 1244 1263
+)
+"parse_arg.ml" 67 2770 2789 "parse_arg.ml" 67 2770 2804
+type(
+  bool
+)
+"parse_arg.ml" 58 2403 2404 "parse_arg.ml" 68 2806 2808
+type(
+  config
+)
+"parse_arg.ml" 57 2358 2359 "parse_arg.ml" 68 2806 2808
+type(
+  config
+)
+"parse_arg.ml" 56 2198 2199 "parse_arg.ml" 68 2806 2808
+type(
+  config
+)
+"parse_arg.ml" 40 1280 1281 "parse_arg.ml" 68 2806 2808
+type(
+  config
+)
+"parse_arg.ml" 31 989 990 "parse_arg.ml" 68 2806 2808
+type(
+  config
+)

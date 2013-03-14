@@ -1,0 +1,2018 @@
+"uuid.ml" 21 729 733 "uuid.ml" 21 729 742
+type(
+  'a -> 'a
+)
+ident(
+  def of_string "uuid.ml" 22 749 749 --
+)
+"uuid.ml" 21 729 743 "uuid.ml" 21 729 744
+type(
+  'a
+)
+ident(
+  def s "uuid.ml" 21 729 747 "uuid.ml" 21 729 748
+)
+"uuid.ml" 21 729 747 "uuid.ml" 21 729 748
+type(
+  'a
+)
+ident(
+  int_ref s "uuid.ml" 21 729 743 "uuid.ml" 21 729 744
+)
+"uuid.ml" 22 749 753 "uuid.ml" 22 749 762
+type(
+  'a -> 'a
+)
+ident(
+  def to_string "uuid.ml" 24 770 770 --
+)
+"uuid.ml" 22 749 763 "uuid.ml" 22 749 764
+type(
+  'a
+)
+ident(
+  def s "uuid.ml" 22 749 767 "uuid.ml" 22 749 768
+)
+"uuid.ml" 22 749 767 "uuid.ml" 22 749 768
+type(
+  'a
+)
+ident(
+  int_ref s "uuid.ml" 22 749 763 "uuid.ml" 22 749 764
+)
+"uuid.ml" 24 770 774 "uuid.ml" 24 770 778
+type(
+  string
+)
+ident(
+  def null "uuid.ml" 27 853 853 --
+)
+"uuid.ml" 24 770 781 "uuid.ml" 24 770 783
+type(
+  string
+)
+"uuid.ml" 27 853 857 "uuid.ml" 27 853 871
+type(
+  'a -> 'a
+)
+ident(
+  def uuid_of_string "uuid.ml" 28 884 884 --
+)
+"uuid.ml" 27 853 874 "uuid.ml" 27 853 883
+type(
+  'a -> 'a
+)
+ident(
+  int_ref of_string "uuid.ml" 21 729 733 "uuid.ml" 21 729 742
+)
+"uuid.ml" 28 884 888 "uuid.ml" 28 884 902
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_uuid "uuid.ml" 30 916 916 --
+)
+"uuid.ml" 28 884 905 "uuid.ml" 28 884 914
+type(
+  'a -> 'a
+)
+ident(
+  int_ref to_string "uuid.ml" 22 749 753 "uuid.ml" 22 749 762
+)
+"uuid.ml" 30 916 920 "uuid.ml" 30 916 936
+type(
+  'a -> 'a
+)
+ident(
+  def string_of_cookie "uuid.ml" 32 944 944 --
+)
+"uuid.ml" 30 916 937 "uuid.ml" 30 916 938
+type(
+  'a
+)
+ident(
+  def s "uuid.ml" 30 916 941 "uuid.ml" 30 916 942
+)
+"uuid.ml" 30 916 941 "uuid.ml" 30 916 942
+type(
+  'a
+)
+ident(
+  int_ref s "uuid.ml" 30 916 937 "uuid.ml" 30 916 938
+)
+"uuid.ml" 32 944 948 "uuid.ml" 32 944 964
+type(
+  'a -> 'a
+)
+ident(
+  def cookie_of_string "uuid.ml" 34 972 972 --
+)
+"uuid.ml" 32 944 965 "uuid.ml" 32 944 966
+type(
+  'a
+)
+ident(
+  def s "uuid.ml" 32 944 969 "uuid.ml" 32 944 970
+)
+"uuid.ml" 32 944 969 "uuid.ml" 32 944 970
+type(
+  'a
+)
+ident(
+  int_ref s "uuid.ml" 32 944 965 "uuid.ml" 32 944 966
+)
+"uuid.ml" 34 972 976 "uuid.ml" 34 972 986
+type(
+  string
+)
+ident(
+  def dev_random "uuid.ml" 35 1003 1003 --
+)
+"uuid.ml" 34 972 989 "uuid.ml" 34 972 1002
+type(
+  string
+)
+"uuid.ml" 35 1003 1007 "uuid.ml" 35 1003 1018
+type(
+  string
+)
+ident(
+  def dev_urandom "uuid.ml" 37 1037 1037 --
+)
+"uuid.ml" 35 1003 1021 "uuid.ml" 35 1003 1035
+type(
+  string
+)
+"uuid.ml" 37 1037 1041 "uuid.ml" 37 1037 1050
+type(
+  int -> int array
+)
+ident(
+  def rnd_array "uuid.ml" 60 1576 1576 --
+)
+"uuid.ml" 37 1037 1051 "uuid.ml" 37 1037 1052
+type(
+  int
+)
+ident(
+  def n "uuid.ml" 38 1055 1056 "uuid.ml" 58 1544 1574
+)
+"uuid.ml" 38 1055 1060 "uuid.ml" 38 1055 1067
+type(
+  int -> int
+)
+"uuid.ml" 38 1055 1068 "uuid.ml" 38 1055 1069
+type(
+  int
+)
+ident(
+  def i "uuid.ml" 38 1055 1072 "uuid.ml" 38 1055 1083
+)
+"uuid.ml" 38 1055 1072 "uuid.ml" 38 1055 1076
+type(
+  int
+)
+"uuid.ml" 38 1055 1077 "uuid.ml" 38 1055 1081
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.land
+)
+"uuid.ml" 38 1055 1082 "uuid.ml" 38 1055 1083
+type(
+  int
+)
+ident(
+  int_ref i "uuid.ml" 38 1055 1068 "uuid.ml" 38 1055 1069
+)
+"uuid.ml" 38 1055 1072 "uuid.ml" 38 1055 1083
+type(
+  int
+)
+"uuid.ml" 39 1087 1092 "uuid.ml" 39 1087 1099
+type(
+  int -> int
+)
+"uuid.ml" 39 1087 1100 "uuid.ml" 39 1087 1101
+type(
+  int
+)
+ident(
+  def i "uuid.ml" 39 1087 1104 "uuid.ml" 39 1087 1121
+)
+"uuid.ml" 39 1087 1104 "uuid.ml" 39 1087 1111
+type(
+  int -> int
+)
+ident(
+  int_ref fstbyte "uuid.ml" 38 1055 1060 "uuid.ml" 38 1055 1067
+)
+"uuid.ml" 39 1087 1113 "uuid.ml" 39 1087 1114
+type(
+  int
+)
+ident(
+  int_ref i "uuid.ml" 39 1087 1100 "uuid.ml" 39 1087 1101
+)
+"uuid.ml" 39 1087 1115 "uuid.ml" 39 1087 1118
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.lsr
+)
+"uuid.ml" 39 1087 1119 "uuid.ml" 39 1087 1120
+type(
+  int
+)
+"uuid.ml" 39 1087 1112 "uuid.ml" 39 1087 1121
+type(
+  int
+)
+"uuid.ml" 39 1087 1104 "uuid.ml" 39 1087 1121
+type(
+  int
+)
+"uuid.ml" 40 1125 1130 "uuid.ml" 40 1125 1137
+type(
+  int -> int
+)
+"uuid.ml" 40 1125 1138 "uuid.ml" 40 1125 1139
+type(
+  int
+)
+ident(
+  def i "uuid.ml" 40 1125 1142 "uuid.ml" 40 1125 1159
+)
+"uuid.ml" 40 1125 1142 "uuid.ml" 40 1125 1149
+type(
+  int -> int
+)
+ident(
+  int_ref sndbyte "uuid.ml" 39 1087 1092 "uuid.ml" 39 1087 1099
+)
+"uuid.ml" 40 1125 1151 "uuid.ml" 40 1125 1152
+type(
+  int
+)
+ident(
+  int_ref i "uuid.ml" 40 1125 1138 "uuid.ml" 40 1125 1139
+)
+"uuid.ml" 40 1125 1153 "uuid.ml" 40 1125 1156
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.lsr
+)
+"uuid.ml" 40 1125 1157 "uuid.ml" 40 1125 1158
+type(
+  int
+)
+"uuid.ml" 40 1125 1150 "uuid.ml" 40 1125 1159
+type(
+  int
+)
+"uuid.ml" 40 1125 1142 "uuid.ml" 40 1125 1159
+type(
+  int
+)
+"uuid.ml" 41 1163 1172 "uuid.ml" 41 1163 1180
+type(
+  int -> int list -> int list
+)
+"uuid.ml" 41 1163 1181 "uuid.ml" 41 1163 1182
+type(
+  int
+)
+ident(
+  def n "uuid.ml" 41 1163 1183 "uuid.ml" 56 1496 1539
+)
+"uuid.ml" 41 1163 1183 "uuid.ml" 41 1163 1186
+type(
+  int list
+)
+ident(
+  def acc "uuid.ml" 41 1163 1189 "uuid.ml" 56 1496 1539
+)
+"uuid.ml" 41 1163 1195 "uuid.ml" 41 1163 1196
+type(
+  int
+)
+ident(
+  int_ref n "uuid.ml" 41 1163 1181 "uuid.ml" 41 1163 1182
+)
+"uuid.ml" 42 1202 1206 "uuid.ml" 42 1202 1207
+type(
+  int
+)
+"uuid.ml" 42 1202 1211 "uuid.ml" 42 1202 1214
+type(
+  int list
+)
+ident(
+  int_ref acc "uuid.ml" 41 1163 1183 "uuid.ml" 41 1163 1186
+)
+"uuid.ml" 43 1215 1219 "uuid.ml" 43 1215 1220
+type(
+  int
+)
+"uuid.ml" 44 1224 1231 "uuid.ml" 44 1224 1232
+type(
+  int
+)
+"uuid.ml" 44 1224 1235 "uuid.ml" 44 1224 1242
+type(
+  int -> int
+)
+ident(
+  int_ref fstbyte "uuid.ml" 38 1055 1060 "uuid.ml" 38 1055 1067
+)
+"uuid.ml" 44 1224 1244 "uuid.ml" 44 1224 1255
+type(
+  unit -> int
+)
+ident(
+  ext_ref Random.bits
+)
+"uuid.ml" 44 1224 1256 "uuid.ml" 44 1224 1258
+type(
+  unit
+)
+"uuid.ml" 44 1224 1243 "uuid.ml" 44 1224 1259
+type(
+  int
+)
+"uuid.ml" 44 1224 1235 "uuid.ml" 44 1224 1259
+type(
+  int
+)
+"uuid.ml" 45 1263 1266 "uuid.ml" 45 1263 1267
+type(
+  int
+)
+ident(
+  int_ref b "uuid.ml" 44 1224 1231 "uuid.ml" 44 1224 1232
+)
+"uuid.ml" 45 1263 1271 "uuid.ml" 45 1263 1274
+type(
+  int list
+)
+ident(
+  int_ref acc "uuid.ml" 41 1163 1183 "uuid.ml" 41 1163 1186
+)
+"uuid.ml" 45 1263 1266 "uuid.ml" 45 1263 1274
+type(
+  int list
+)
+"uuid.ml" 44 1224 1227 "uuid.ml" 45 1263 1274
+type(
+  int list
+)
+"uuid.ml" 46 1275 1279 "uuid.ml" 46 1275 1280
+type(
+  int
+)
+"uuid.ml" 47 1284 1291 "uuid.ml" 47 1284 1292
+type(
+  int
+)
+"uuid.ml" 47 1284 1295 "uuid.ml" 47 1284 1306
+type(
+  unit -> int
+)
+ident(
+  ext_ref Random.bits
+)
+"uuid.ml" 47 1284 1307 "uuid.ml" 47 1284 1309
+type(
+  unit
+)
+"uuid.ml" 47 1284 1295 "uuid.ml" 47 1284 1309
+type(
+  int
+)
+"uuid.ml" 48 1313 1320 "uuid.ml" 48 1313 1322
+type(
+  int
+)
+"uuid.ml" 48 1313 1325 "uuid.ml" 48 1313 1332
+type(
+  int -> int
+)
+ident(
+  int_ref fstbyte "uuid.ml" 38 1055 1060 "uuid.ml" 38 1055 1067
+)
+"uuid.ml" 48 1313 1333 "uuid.ml" 48 1313 1334
+type(
+  int
+)
+ident(
+  int_ref r "uuid.ml" 47 1284 1291 "uuid.ml" 47 1284 1292
+)
+"uuid.ml" 48 1313 1325 "uuid.ml" 48 1313 1334
+type(
+  int
+)
+"uuid.ml" 49 1338 1345 "uuid.ml" 49 1338 1347
+type(
+  int
+)
+"uuid.ml" 49 1338 1350 "uuid.ml" 49 1338 1357
+type(
+  int -> int
+)
+ident(
+  int_ref sndbyte "uuid.ml" 39 1087 1092 "uuid.ml" 39 1087 1099
+)
+"uuid.ml" 49 1338 1358 "uuid.ml" 49 1338 1359
+type(
+  int
+)
+ident(
+  int_ref r "uuid.ml" 47 1284 1291 "uuid.ml" 47 1284 1292
+)
+"uuid.ml" 49 1338 1350 "uuid.ml" 49 1338 1359
+type(
+  int
+)
+"uuid.ml" 50 1363 1366 "uuid.ml" 50 1363 1368
+type(
+  int
+)
+ident(
+  int_ref b1 "uuid.ml" 48 1313 1320 "uuid.ml" 48 1313 1322
+)
+"uuid.ml" 50 1363 1372 "uuid.ml" 50 1363 1374
+type(
+  int
+)
+ident(
+  int_ref b2 "uuid.ml" 49 1338 1345 "uuid.ml" 49 1338 1347
+)
+"uuid.ml" 50 1363 1378 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+ident(
+  int_ref acc "uuid.ml" 41 1163 1183 "uuid.ml" 41 1163 1186
+)
+"uuid.ml" 50 1363 1372 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+"uuid.ml" 50 1363 1366 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+"uuid.ml" 49 1338 1341 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+"uuid.ml" 48 1313 1316 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+"uuid.ml" 47 1284 1287 "uuid.ml" 50 1363 1381
+type(
+  int list
+)
+"uuid.ml" 51 1382 1386 "uuid.ml" 51 1382 1387
+type(
+  int
+)
+ident(
+  def n "uuid.ml" 52 1392 1395 "uuid.ml" 56 1496 1539
+)
+"uuid.ml" 52 1392 1399 "uuid.ml" 52 1392 1400
+type(
+  int
+)
+"uuid.ml" 52 1392 1403 "uuid.ml" 52 1392 1414
+type(
+  unit -> int
+)
+ident(
+  ext_ref Random.bits
+)
+"uuid.ml" 52 1392 1415 "uuid.ml" 52 1392 1417
+type(
+  unit
+)
+"uuid.ml" 52 1392 1403 "uuid.ml" 52 1392 1417
+type(
+  int
+)
+"uuid.ml" 53 1421 1428 "uuid.ml" 53 1421 1430
+type(
+  int
+)
+"uuid.ml" 53 1421 1433 "uuid.ml" 53 1421 1440
+type(
+  int -> int
+)
+ident(
+  int_ref fstbyte "uuid.ml" 38 1055 1060 "uuid.ml" 38 1055 1067
+)
+"uuid.ml" 53 1421 1441 "uuid.ml" 53 1421 1442
+type(
+  int
+)
+ident(
+  int_ref r "uuid.ml" 52 1392 1399 "uuid.ml" 52 1392 1400
+)
+"uuid.ml" 53 1421 1433 "uuid.ml" 53 1421 1442
+type(
+  int
+)
+"uuid.ml" 54 1446 1453 "uuid.ml" 54 1446 1455
+type(
+  int
+)
+"uuid.ml" 54 1446 1458 "uuid.ml" 54 1446 1465
+type(
+  int -> int
+)
+ident(
+  int_ref sndbyte "uuid.ml" 39 1087 1092 "uuid.ml" 39 1087 1099
+)
+"uuid.ml" 54 1446 1466 "uuid.ml" 54 1446 1467
+type(
+  int
+)
+ident(
+  int_ref r "uuid.ml" 52 1392 1399 "uuid.ml" 52 1392 1400
+)
+"uuid.ml" 54 1446 1458 "uuid.ml" 54 1446 1467
+type(
+  int
+)
+"uuid.ml" 55 1471 1478 "uuid.ml" 55 1471 1480
+type(
+  int
+)
+"uuid.ml" 55 1471 1483 "uuid.ml" 55 1471 1490
+type(
+  int -> int
+)
+ident(
+  int_ref thdbyte "uuid.ml" 40 1125 1130 "uuid.ml" 40 1125 1137
+)
+"uuid.ml" 55 1471 1491 "uuid.ml" 55 1471 1492
+type(
+  int
+)
+ident(
+  int_ref r "uuid.ml" 52 1392 1399 "uuid.ml" 52 1392 1400
+)
+"uuid.ml" 55 1471 1483 "uuid.ml" 55 1471 1492
+type(
+  int
+)
+"uuid.ml" 56 1496 1499 "uuid.ml" 56 1496 1507
+type(
+  int -> int list -> int list
+)
+ident(
+  int_ref rnd_list "uuid.ml" 41 1163 1172 "uuid.ml" 41 1163 1180
+)
+"uuid.ml" 56 1496 1509 "uuid.ml" 56 1496 1510
+type(
+  int
+)
+ident(
+  int_ref n "uuid.ml" 51 1382 1386 "uuid.ml" 51 1382 1387
+)
+"uuid.ml" 56 1496 1511 "uuid.ml" 56 1496 1512
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"uuid.ml" 56 1496 1513 "uuid.ml" 56 1496 1514
+type(
+  int
+)
+"uuid.ml" 56 1496 1508 "uuid.ml" 56 1496 1515
+type(
+  int
+)
+"uuid.ml" 56 1496 1517 "uuid.ml" 56 1496 1519
+type(
+  int
+)
+ident(
+  int_ref b1 "uuid.ml" 53 1421 1428 "uuid.ml" 53 1421 1430
+)
+"uuid.ml" 56 1496 1523 "uuid.ml" 56 1496 1525
+type(
+  int
+)
+ident(
+  int_ref b2 "uuid.ml" 54 1446 1453 "uuid.ml" 54 1446 1455
+)
+"uuid.ml" 56 1496 1529 "uuid.ml" 56 1496 1531
+type(
+  int
+)
+ident(
+  int_ref b3 "uuid.ml" 55 1471 1478 "uuid.ml" 55 1471 1480
+)
+"uuid.ml" 56 1496 1535 "uuid.ml" 56 1496 1538
+type(
+  int list
+)
+ident(
+  int_ref acc "uuid.ml" 41 1163 1183 "uuid.ml" 41 1163 1186
+)
+"uuid.ml" 56 1496 1529 "uuid.ml" 56 1496 1538
+type(
+  int list
+)
+"uuid.ml" 56 1496 1523 "uuid.ml" 56 1496 1538
+type(
+  int list
+)
+"uuid.ml" 56 1496 1516 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 56 1496 1499 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 55 1471 1474 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 54 1446 1449 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 53 1421 1424 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 52 1392 1395 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 41 1163 1189 "uuid.ml" 56 1496 1539
+type(
+  int list
+)
+"uuid.ml" 58 1544 1545 "uuid.ml" 58 1544 1558
+type(
+  int list -> int array
+)
+ident(
+  ext_ref Array.of_list
+)
+"uuid.ml" 58 1544 1560 "uuid.ml" 58 1544 1568
+type(
+  int -> int list -> int list
+)
+ident(
+  int_ref rnd_list "uuid.ml" 41 1163 1172 "uuid.ml" 41 1163 1180
+)
+"uuid.ml" 58 1544 1569 "uuid.ml" 58 1544 1570
+type(
+  int
+)
+ident(
+  int_ref n "uuid.ml" 37 1037 1051 "uuid.ml" 37 1037 1052
+)
+"uuid.ml" 58 1544 1571 "uuid.ml" 58 1544 1573
+type(
+  int list
+)
+"uuid.ml" 58 1544 1559 "uuid.ml" 58 1544 1574
+type(
+  int list
+)
+"uuid.ml" 58 1544 1545 "uuid.ml" 58 1544 1574
+type(
+  int array
+)
+"uuid.ml" 41 1163 1164 "uuid.ml" 58 1544 1574
+type(
+  int array
+)
+"uuid.ml" 40 1125 1126 "uuid.ml" 58 1544 1574
+type(
+  int array
+)
+"uuid.ml" 39 1087 1088 "uuid.ml" 58 1544 1574
+type(
+  int array
+)
+"uuid.ml" 38 1055 1056 "uuid.ml" 58 1544 1574
+type(
+  int array
+)
+"uuid.ml" 60 1576 1580 "uuid.ml" 60 1576 1590
+type(
+  string -> int -> int array
+)
+ident(
+  def read_array "uuid.ml" 70 1764 1764 --
+)
+"uuid.ml" 60 1576 1591 "uuid.ml" 60 1576 1594
+type(
+  string
+)
+ident(
+  def dev "uuid.ml" 60 1576 1595 "uuid.ml" 68 1751 1762
+)
+"uuid.ml" 60 1576 1595 "uuid.ml" 60 1576 1596
+type(
+  int
+)
+ident(
+  def n "uuid.ml" 61 1600 1602 "uuid.ml" 68 1751 1762
+)
+"uuid.ml" 61 1600 1606 "uuid.ml" 61 1600 1608
+type(
+  in_channel
+)
+"uuid.ml" 61 1600 1611 "uuid.ml" 61 1600 1622
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"uuid.ml" 61 1600 1623 "uuid.ml" 61 1600 1626
+type(
+  string
+)
+ident(
+  int_ref dev "uuid.ml" 60 1576 1591 "uuid.ml" 60 1576 1594
+)
+"uuid.ml" 61 1600 1611 "uuid.ml" 61 1600 1626
+type(
+  in_channel
+)
+"uuid.ml" 63 1636 1644 "uuid.ml" 63 1636 1650
+type(
+  int array
+)
+ident(
+  def result "uuid.ml" 64 1694 1698 "uuid.ml" 65 1711 1721
+)
+"uuid.ml" 63 1636 1653 "uuid.ml" 63 1636 1663
+type(
+  int -> (int -> int) -> int array
+)
+ident(
+  ext_ref Array.init
+)
+"uuid.ml" 63 1636 1664 "uuid.ml" 63 1636 1665
+type(
+  int
+)
+ident(
+  int_ref n "uuid.ml" 60 1576 1595 "uuid.ml" 60 1576 1596
+)
+"uuid.ml" 63 1636 1671 "uuid.ml" 63 1636 1672
+type(
+  int
+)
+"uuid.ml" 63 1636 1676 "uuid.ml" 63 1636 1686
+type(
+  in_channel -> int
+)
+ident(
+  ext_ref Pervasives.input_byte
+)
+"uuid.ml" 63 1636 1687 "uuid.ml" 63 1636 1689
+type(
+  in_channel
+)
+ident(
+  int_ref ic "uuid.ml" 61 1600 1606 "uuid.ml" 61 1600 1608
+)
+"uuid.ml" 63 1636 1676 "uuid.ml" 63 1636 1689
+type(
+  int
+)
+"uuid.ml" 63 1636 1666 "uuid.ml" 63 1636 1690
+type(
+  int -> int
+)
+"uuid.ml" 63 1636 1653 "uuid.ml" 63 1636 1690
+type(
+  int array
+)
+"uuid.ml" 64 1694 1698 "uuid.ml" 64 1694 1706
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"uuid.ml" 64 1694 1707 "uuid.ml" 64 1694 1709
+type(
+  in_channel
+)
+ident(
+  int_ref ic "uuid.ml" 61 1600 1606 "uuid.ml" 61 1600 1608
+)
+"uuid.ml" 64 1694 1698 "uuid.ml" 64 1694 1709
+type(
+  unit
+)
+"uuid.ml" 65 1711 1715 "uuid.ml" 65 1711 1721
+type(
+  int array
+)
+ident(
+  int_ref result "uuid.ml" 63 1636 1644 "uuid.ml" 63 1636 1650
+)
+"uuid.ml" 64 1694 1698 "uuid.ml" 65 1711 1721
+type(
+  int array
+)
+"uuid.ml" 63 1636 1640 "uuid.ml" 65 1711 1721
+type(
+  int array
+)
+"uuid.ml" 66 1722 1729 "uuid.ml" 66 1722 1730
+type(
+  exn
+)
+ident(
+  def e "uuid.ml" 67 1734 1738 "uuid.ml" 68 1751 1762
+)
+"uuid.ml" 67 1734 1738 "uuid.ml" 67 1734 1746
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"uuid.ml" 67 1734 1747 "uuid.ml" 67 1734 1749
+type(
+  in_channel
+)
+ident(
+  int_ref ic "uuid.ml" 61 1600 1606 "uuid.ml" 61 1600 1608
+)
+"uuid.ml" 67 1734 1738 "uuid.ml" 67 1734 1749
+type(
+  unit
+)
+"uuid.ml" 68 1751 1755 "uuid.ml" 68 1751 1760
+type(
+  exn -> int array
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"uuid.ml" 68 1751 1761 "uuid.ml" 68 1751 1762
+type(
+  exn
+)
+ident(
+  int_ref e "uuid.ml" 66 1722 1729 "uuid.ml" 66 1722 1730
+)
+"uuid.ml" 68 1751 1755 "uuid.ml" 68 1751 1762
+type(
+  int array
+)
+"uuid.ml" 67 1734 1738 "uuid.ml" 68 1751 1762
+type(
+  int array
+)
+"uuid.ml" 62 1630 1632 "uuid.ml" 68 1751 1762
+type(
+  int array
+)
+"uuid.ml" 61 1600 1602 "uuid.ml" 68 1751 1762
+type(
+  int array
+)
+"uuid.ml" 70 1764 1768 "uuid.ml" 70 1764 1785
+type(
+  int array -> string
+)
+ident(
+  def uuid_of_int_array "uuid.ml" 76 2044 2044 --
+)
+"uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+type(
+  int array
+)
+ident(
+  def uuid "uuid.ml" 71 1793 1795 "uuid.ml" 74 1999 2042
+)
+"uuid.ml" 71 1793 1795 "uuid.ml" 71 1793 1809
+type(
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> string,
+   unit, string)
+  format ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int -> int -> int -> int -> int -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"uuid.ml" 71 1793 1810 "uuid.ml" 71 1793 1880
+type(
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> string,
+   unit, string)
+  format
+)
+"uuid.ml" 72 1881 1885 "uuid.ml" 72 1881 1889
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1891 "uuid.ml" 72 1881 1892
+type(
+  int
+)
+"uuid.ml" 72 1881 1885 "uuid.ml" 72 1881 1893
+type(
+  int
+)
+"uuid.ml" 72 1881 1894 "uuid.ml" 72 1881 1898
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1900 "uuid.ml" 72 1881 1901
+type(
+  int
+)
+"uuid.ml" 72 1881 1894 "uuid.ml" 72 1881 1902
+type(
+  int
+)
+"uuid.ml" 72 1881 1903 "uuid.ml" 72 1881 1907
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1909 "uuid.ml" 72 1881 1910
+type(
+  int
+)
+"uuid.ml" 72 1881 1903 "uuid.ml" 72 1881 1911
+type(
+  int
+)
+"uuid.ml" 72 1881 1912 "uuid.ml" 72 1881 1916
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1918 "uuid.ml" 72 1881 1919
+type(
+  int
+)
+"uuid.ml" 72 1881 1912 "uuid.ml" 72 1881 1920
+type(
+  int
+)
+"uuid.ml" 72 1881 1921 "uuid.ml" 72 1881 1925
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1927 "uuid.ml" 72 1881 1928
+type(
+  int
+)
+"uuid.ml" 72 1881 1921 "uuid.ml" 72 1881 1929
+type(
+  int
+)
+"uuid.ml" 72 1881 1930 "uuid.ml" 72 1881 1934
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 72 1881 1936 "uuid.ml" 72 1881 1937
+type(
+  int
+)
+"uuid.ml" 72 1881 1930 "uuid.ml" 72 1881 1938
+type(
+  int
+)
+"uuid.ml" 73 1939 1943 "uuid.ml" 73 1939 1947
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1949 "uuid.ml" 73 1939 1950
+type(
+  int
+)
+"uuid.ml" 73 1939 1943 "uuid.ml" 73 1939 1951
+type(
+  int
+)
+"uuid.ml" 73 1939 1952 "uuid.ml" 73 1939 1956
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1958 "uuid.ml" 73 1939 1959
+type(
+  int
+)
+"uuid.ml" 73 1939 1952 "uuid.ml" 73 1939 1960
+type(
+  int
+)
+"uuid.ml" 73 1939 1961 "uuid.ml" 73 1939 1965
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1967 "uuid.ml" 73 1939 1968
+type(
+  int
+)
+"uuid.ml" 73 1939 1961 "uuid.ml" 73 1939 1969
+type(
+  int
+)
+"uuid.ml" 73 1939 1970 "uuid.ml" 73 1939 1974
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1976 "uuid.ml" 73 1939 1977
+type(
+  int
+)
+"uuid.ml" 73 1939 1970 "uuid.ml" 73 1939 1978
+type(
+  int
+)
+"uuid.ml" 73 1939 1979 "uuid.ml" 73 1939 1983
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1985 "uuid.ml" 73 1939 1987
+type(
+  int
+)
+"uuid.ml" 73 1939 1979 "uuid.ml" 73 1939 1988
+type(
+  int
+)
+"uuid.ml" 73 1939 1989 "uuid.ml" 73 1939 1993
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 73 1939 1995 "uuid.ml" 73 1939 1997
+type(
+  int
+)
+"uuid.ml" 73 1939 1989 "uuid.ml" 73 1939 1998
+type(
+  int
+)
+"uuid.ml" 74 1999 2003 "uuid.ml" 74 1999 2007
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 74 1999 2009 "uuid.ml" 74 1999 2011
+type(
+  int
+)
+"uuid.ml" 74 1999 2003 "uuid.ml" 74 1999 2012
+type(
+  int
+)
+"uuid.ml" 74 1999 2013 "uuid.ml" 74 1999 2017
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 74 1999 2019 "uuid.ml" 74 1999 2021
+type(
+  int
+)
+"uuid.ml" 74 1999 2013 "uuid.ml" 74 1999 2022
+type(
+  int
+)
+"uuid.ml" 74 1999 2023 "uuid.ml" 74 1999 2027
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 74 1999 2029 "uuid.ml" 74 1999 2031
+type(
+  int
+)
+"uuid.ml" 74 1999 2023 "uuid.ml" 74 1999 2032
+type(
+  int
+)
+"uuid.ml" 74 1999 2033 "uuid.ml" 74 1999 2037
+type(
+  int array
+)
+ident(
+  int_ref uuid "uuid.ml" 70 1764 1786 "uuid.ml" 70 1764 1790
+)
+"uuid.ml" 74 1999 2039 "uuid.ml" 74 1999 2041
+type(
+  int
+)
+"uuid.ml" 74 1999 2033 "uuid.ml" 74 1999 2042
+type(
+  int
+)
+"uuid.ml" 71 1793 1795 "uuid.ml" 74 1999 2042
+type(
+  string
+)
+"uuid.ml" 76 2044 2048 "uuid.ml" 76 2044 2062
+type(
+  unit -> string
+)
+ident(
+  def make_uuid_prng "uuid.ml" 77 2101 2101 --
+)
+"uuid.ml" 76 2044 2063 "uuid.ml" 76 2044 2065
+type(
+  unit
+)
+"uuid.ml" 76 2044 2068 "uuid.ml" 76 2044 2085
+type(
+  int array -> string
+)
+ident(
+  int_ref uuid_of_int_array "uuid.ml" 70 1764 1768 "uuid.ml" 70 1764 1785
+)
+"uuid.ml" 76 2044 2087 "uuid.ml" 76 2044 2096
+type(
+  int -> int array
+)
+ident(
+  int_ref rnd_array "uuid.ml" 37 1037 1041 "uuid.ml" 37 1037 1050
+)
+"uuid.ml" 76 2044 2097 "uuid.ml" 76 2044 2099
+type(
+  int
+)
+"uuid.ml" 76 2044 2086 "uuid.ml" 76 2044 2100
+type(
+  int array
+)
+"uuid.ml" 76 2044 2068 "uuid.ml" 76 2044 2100
+type(
+  string
+)
+"uuid.ml" 77 2101 2105 "uuid.ml" 77 2101 2119
+type(
+  unit -> string
+)
+ident(
+  def make_uuid_urnd "uuid.ml" 78 2171 2171 --
+)
+"uuid.ml" 77 2101 2120 "uuid.ml" 77 2101 2122
+type(
+  unit
+)
+"uuid.ml" 77 2101 2125 "uuid.ml" 77 2101 2142
+type(
+  int array -> string
+)
+ident(
+  int_ref uuid_of_int_array "uuid.ml" 70 1764 1768 "uuid.ml" 70 1764 1785
+)
+"uuid.ml" 77 2101 2144 "uuid.ml" 77 2101 2154
+type(
+  string -> int -> int array
+)
+ident(
+  int_ref read_array "uuid.ml" 60 1576 1580 "uuid.ml" 60 1576 1590
+)
+"uuid.ml" 77 2101 2155 "uuid.ml" 77 2101 2166
+type(
+  string
+)
+ident(
+  int_ref dev_urandom "uuid.ml" 35 1003 1007 "uuid.ml" 35 1003 1018
+)
+"uuid.ml" 77 2101 2167 "uuid.ml" 77 2101 2169
+type(
+  int
+)
+"uuid.ml" 77 2101 2143 "uuid.ml" 77 2101 2170
+type(
+  int array
+)
+"uuid.ml" 77 2101 2125 "uuid.ml" 77 2101 2170
+type(
+  string
+)
+"uuid.ml" 78 2171 2175 "uuid.ml" 78 2171 2188
+type(
+  unit -> string
+)
+ident(
+  def make_uuid_rnd "uuid.ml" 79 2239 2239 --
+)
+"uuid.ml" 78 2171 2189 "uuid.ml" 78 2171 2191
+type(
+  unit
+)
+"uuid.ml" 78 2171 2194 "uuid.ml" 78 2171 2211
+type(
+  int array -> string
+)
+ident(
+  int_ref uuid_of_int_array "uuid.ml" 70 1764 1768 "uuid.ml" 70 1764 1785
+)
+"uuid.ml" 78 2171 2213 "uuid.ml" 78 2171 2223
+type(
+  string -> int -> int array
+)
+ident(
+  int_ref read_array "uuid.ml" 60 1576 1580 "uuid.ml" 60 1576 1590
+)
+"uuid.ml" 78 2171 2224 "uuid.ml" 78 2171 2234
+type(
+  string
+)
+ident(
+  int_ref dev_random "uuid.ml" 34 972 976 "uuid.ml" 34 972 986
+)
+"uuid.ml" 78 2171 2235 "uuid.ml" 78 2171 2237
+type(
+  int
+)
+"uuid.ml" 78 2171 2212 "uuid.ml" 78 2171 2238
+type(
+  int array
+)
+"uuid.ml" 78 2171 2194 "uuid.ml" 78 2171 2238
+type(
+  string
+)
+"uuid.ml" 79 2239 2243 "uuid.ml" 79 2239 2252
+type(
+  unit -> string
+)
+ident(
+  def make_uuid "uuid.ml" 81 2271 2271 --
+)
+"uuid.ml" 79 2239 2255 "uuid.ml" 79 2239 2269
+type(
+  unit -> string
+)
+ident(
+  int_ref make_uuid_urnd "uuid.ml" 77 2101 2105 "uuid.ml" 77 2101 2119
+)
+"uuid.ml" 81 2271 2275 "uuid.ml" 81 2271 2286
+type(
+  unit -> string
+)
+ident(
+  def make_cookie "uuid.ml" 85 2410 2410 --
+)
+"uuid.ml" 81 2271 2286 "uuid.ml" 81 2271 2288
+type(
+  unit
+)
+"uuid.ml" 82 2291 2297 "uuid.ml" 82 2291 2302
+type(
+  int list
+)
+"uuid.ml" 82 2291 2305 "uuid.ml" 82 2291 2318
+type(
+  int array -> int list
+)
+ident(
+  ext_ref Array.to_list
+)
+"uuid.ml" 82 2291 2320 "uuid.ml" 82 2291 2330
+type(
+  string -> int -> int array
+)
+ident(
+  int_ref read_array "uuid.ml" 60 1576 1580 "uuid.ml" 60 1576 1590
+)
+"uuid.ml" 82 2291 2331 "uuid.ml" 82 2291 2342
+type(
+  string
+)
+ident(
+  int_ref dev_urandom "uuid.ml" 35 1003 1007 "uuid.ml" 35 1003 1018
+)
+"uuid.ml" 82 2291 2343 "uuid.ml" 82 2291 2345
+type(
+  int
+)
+"uuid.ml" 82 2291 2319 "uuid.ml" 82 2291 2346
+type(
+  int array
+)
+"uuid.ml" 82 2291 2305 "uuid.ml" 82 2291 2346
+type(
+  int list
+)
+"uuid.ml" 83 2350 2352 "uuid.ml" 83 2350 2365
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"uuid.ml" 83 2350 2366 "uuid.ml" 83 2350 2368
+type(
+  string
+)
+"uuid.ml" 83 2350 2370 "uuid.ml" 83 2350 2378
+type(
+  (int -> string) -> int list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"uuid.ml" 83 2350 2380 "uuid.ml" 83 2350 2394
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"uuid.ml" 83 2350 2395 "uuid.ml" 83 2350 2400
+type(
+  (int -> string, unit, string) format
+)
+"uuid.ml" 83 2350 2379 "uuid.ml" 83 2350 2401
+type(
+  int -> string
+)
+"uuid.ml" 83 2350 2402 "uuid.ml" 83 2350 2407
+type(
+  int list
+)
+ident(
+  int_ref bytes "uuid.ml" 82 2291 2297 "uuid.ml" 82 2291 2302
+)
+"uuid.ml" 83 2350 2369 "uuid.ml" 83 2350 2408
+type(
+  string list
+)
+"uuid.ml" 83 2350 2352 "uuid.ml" 83 2350 2408
+type(
+  string
+)
+"uuid.ml" 82 2291 2293 "uuid.ml" 83 2350 2408
+type(
+  string
+)
+"uuid.ml" 85 2410 2414 "uuid.ml" 85 2410 2431
+type(
+  string -> int array
+)
+ident(
+  def int_array_of_uuid "uuid.ml" 95 2793 2793 --
+)
+"uuid.ml" 85 2410 2432 "uuid.ml" 85 2410 2433
+type(
+  string
+)
+ident(
+  def s "uuid.ml" 86 2436 2438 "uuid.ml" 93 2743 2791
+)
+"uuid.ml" 87 2442 2450 "uuid.ml" 87 2442 2451
+type(
+  int list ref
+)
+ident(
+  def l "uuid.ml" 88 2464 2468 "uuid.ml" 92 2722 2742
+)
+"uuid.ml" 87 2442 2454 "uuid.ml" 87 2442 2457
+type(
+  int list -> int list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"uuid.ml" 87 2442 2458 "uuid.ml" 87 2442 2460
+type(
+  int list
+)
+"uuid.ml" 87 2442 2454 "uuid.ml" 87 2442 2460
+type(
+  int list ref
+)
+"uuid.ml" 88 2464 2468 "uuid.ml" 88 2464 2480
+type(
+  string ->
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> unit,
+   '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> unit) ->
+   unit, unit)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"uuid.ml" 88 2464 2481 "uuid.ml" 88 2464 2482
+type(
+  string
+)
+ident(
+  int_ref s "uuid.ml" 85 2410 2432 "uuid.ml" 85 2410 2433
+)
+"uuid.ml" 88 2464 2483 "uuid.ml" 88 2464 2553
+type(
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> unit,
+   Scanf.Scanning.scanbuf, '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> unit) ->
+   unit,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> unit) ->
+   unit, unit)
+  format6
+)
+"uuid.ml" 89 2554 2565 "uuid.ml" 89 2554 2567
+type(
+  int
+)
+ident(
+  def a0 "uuid.ml" 89 2554 2568 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2568 "uuid.ml" 89 2554 2570
+type(
+  int
+)
+ident(
+  def a1 "uuid.ml" 89 2554 2571 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2571 "uuid.ml" 89 2554 2573
+type(
+  int
+)
+ident(
+  def a2 "uuid.ml" 89 2554 2574 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2574 "uuid.ml" 89 2554 2576
+type(
+  int
+)
+ident(
+  def a3 "uuid.ml" 89 2554 2577 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2577 "uuid.ml" 89 2554 2579
+type(
+  int
+)
+ident(
+  def a4 "uuid.ml" 89 2554 2580 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2580 "uuid.ml" 89 2554 2582
+type(
+  int
+)
+ident(
+  def a5 "uuid.ml" 89 2554 2583 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2583 "uuid.ml" 89 2554 2585
+type(
+  int
+)
+ident(
+  def a6 "uuid.ml" 89 2554 2586 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2586 "uuid.ml" 89 2554 2588
+type(
+  int
+)
+ident(
+  def a7 "uuid.ml" 89 2554 2589 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2589 "uuid.ml" 89 2554 2591
+type(
+  int
+)
+ident(
+  def a8 "uuid.ml" 89 2554 2592 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2592 "uuid.ml" 89 2554 2594
+type(
+  int
+)
+ident(
+  def a9 "uuid.ml" 89 2554 2595 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2595 "uuid.ml" 89 2554 2598
+type(
+  int
+)
+ident(
+  def a10 "uuid.ml" 89 2554 2599 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2599 "uuid.ml" 89 2554 2602
+type(
+  int
+)
+ident(
+  def a11 "uuid.ml" 89 2554 2603 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2603 "uuid.ml" 89 2554 2606
+type(
+  int
+)
+ident(
+  def a12 "uuid.ml" 89 2554 2607 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2607 "uuid.ml" 89 2554 2610
+type(
+  int
+)
+ident(
+  def a13 "uuid.ml" 89 2554 2611 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2611 "uuid.ml" 89 2554 2614
+type(
+  int
+)
+ident(
+  def a14 "uuid.ml" 89 2554 2615 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 89 2554 2615 "uuid.ml" 89 2554 2618
+type(
+  int
+)
+ident(
+  def a15 "uuid.ml" 90 2622 2628 "uuid.ml" 91 2675 2719
+)
+"uuid.ml" 90 2622 2628 "uuid.ml" 90 2622 2629
+type(
+  int list ref
+)
+ident(
+  int_ref l "uuid.ml" 87 2442 2450 "uuid.ml" 87 2442 2451
+)
+"uuid.ml" 90 2622 2630 "uuid.ml" 90 2622 2632
+type(
+  int list ref -> int list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"uuid.ml" 90 2622 2635 "uuid.ml" 90 2622 2637
+type(
+  int
+)
+ident(
+  int_ref a0 "uuid.ml" 89 2554 2565 "uuid.ml" 89 2554 2567
+)
+"uuid.ml" 90 2622 2639 "uuid.ml" 90 2622 2641
+type(
+  int
+)
+ident(
+  int_ref a1 "uuid.ml" 89 2554 2568 "uuid.ml" 89 2554 2570
+)
+"uuid.ml" 90 2622 2643 "uuid.ml" 90 2622 2645
+type(
+  int
+)
+ident(
+  int_ref a2 "uuid.ml" 89 2554 2571 "uuid.ml" 89 2554 2573
+)
+"uuid.ml" 90 2622 2647 "uuid.ml" 90 2622 2649
+type(
+  int
+)
+ident(
+  int_ref a3 "uuid.ml" 89 2554 2574 "uuid.ml" 89 2554 2576
+)
+"uuid.ml" 90 2622 2651 "uuid.ml" 90 2622 2653
+type(
+  int
+)
+ident(
+  int_ref a4 "uuid.ml" 89 2554 2577 "uuid.ml" 89 2554 2579
+)
+"uuid.ml" 90 2622 2655 "uuid.ml" 90 2622 2657
+type(
+  int
+)
+ident(
+  int_ref a5 "uuid.ml" 89 2554 2580 "uuid.ml" 89 2554 2582
+)
+"uuid.ml" 90 2622 2659 "uuid.ml" 90 2622 2661
+type(
+  int
+)
+ident(
+  int_ref a6 "uuid.ml" 89 2554 2583 "uuid.ml" 89 2554 2585
+)
+"uuid.ml" 90 2622 2663 "uuid.ml" 90 2622 2665
+type(
+  int
+)
+ident(
+  int_ref a7 "uuid.ml" 89 2554 2586 "uuid.ml" 89 2554 2588
+)
+"uuid.ml" 90 2622 2667 "uuid.ml" 90 2622 2669
+type(
+  int
+)
+ident(
+  int_ref a8 "uuid.ml" 89 2554 2589 "uuid.ml" 89 2554 2591
+)
+"uuid.ml" 90 2622 2671 "uuid.ml" 90 2622 2673
+type(
+  int
+)
+ident(
+  int_ref a9 "uuid.ml" 89 2554 2592 "uuid.ml" 89 2554 2594
+)
+"uuid.ml" 91 2675 2688 "uuid.ml" 91 2675 2691
+type(
+  int
+)
+ident(
+  int_ref a10 "uuid.ml" 89 2554 2595 "uuid.ml" 89 2554 2598
+)
+"uuid.ml" 91 2675 2693 "uuid.ml" 91 2675 2696
+type(
+  int
+)
+ident(
+  int_ref a11 "uuid.ml" 89 2554 2599 "uuid.ml" 89 2554 2602
+)
+"uuid.ml" 91 2675 2698 "uuid.ml" 91 2675 2701
+type(
+  int
+)
+ident(
+  int_ref a12 "uuid.ml" 89 2554 2603 "uuid.ml" 89 2554 2606
+)
+"uuid.ml" 91 2675 2703 "uuid.ml" 91 2675 2706
+type(
+  int
+)
+ident(
+  int_ref a13 "uuid.ml" 89 2554 2607 "uuid.ml" 89 2554 2610
+)
+"uuid.ml" 91 2675 2708 "uuid.ml" 91 2675 2711
+type(
+  int
+)
+ident(
+  int_ref a14 "uuid.ml" 89 2554 2611 "uuid.ml" 89 2554 2614
+)
+"uuid.ml" 91 2675 2713 "uuid.ml" 91 2675 2716
+type(
+  int
+)
+ident(
+  int_ref a15 "uuid.ml" 89 2554 2615 "uuid.ml" 89 2554 2618
+)
+"uuid.ml" 90 2622 2633 "uuid.ml" 91 2675 2719
+type(
+  int list
+)
+"uuid.ml" 90 2622 2628 "uuid.ml" 91 2675 2719
+type(
+  unit
+)
+"uuid.ml" 89 2554 2560 "uuid.ml" 91 2675 2720
+type(
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> unit
+)
+"uuid.ml" 88 2464 2468 "uuid.ml" 91 2675 2720
+type(
+  unit
+)
+"uuid.ml" 92 2722 2726 "uuid.ml" 92 2722 2739
+type(
+  int list -> int array
+)
+ident(
+  ext_ref Array.of_list
+)
+"uuid.ml" 92 2722 2740 "uuid.ml" 92 2722 2741
+type(
+  int list ref -> int list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"uuid.ml" 92 2722 2741 "uuid.ml" 92 2722 2742
+type(
+  int list ref
+)
+ident(
+  int_ref l "uuid.ml" 87 2442 2450 "uuid.ml" 87 2442 2451
+)
+"uuid.ml" 92 2722 2740 "uuid.ml" 92 2722 2742
+type(
+  int list
+)
+"uuid.ml" 92 2722 2726 "uuid.ml" 92 2722 2742
+type(
+  int array
+)
+"uuid.ml" 88 2464 2468 "uuid.ml" 92 2722 2742
+type(
+  int array
+)
+"uuid.ml" 87 2442 2446 "uuid.ml" 92 2722 2742
+type(
+  int array
+)
+"uuid.ml" 93 2743 2750 "uuid.ml" 93 2743 2751
+type(
+  exn
+)
+"uuid.ml" 93 2743 2755 "uuid.ml" 93 2743 2766
+type(
+  string -> int array
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"uuid.ml" 93 2743 2767 "uuid.ml" 93 2743 2791
+type(
+  string
+)
+"uuid.ml" 93 2743 2755 "uuid.ml" 93 2743 2791
+type(
+  int array
+)
+"uuid.ml" 86 2436 2438 "uuid.ml" 93 2743 2791
+type(
+  int array
+)
+"uuid.ml" 95 2793 2797 "uuid.ml" 95 2793 2804
+type(
+  string -> bool
+)
+ident(
+  def is_uuid "uuid.ml" 100 2958 2974 --
+)
+"uuid.ml" 95 2793 2805 "uuid.ml" 95 2793 2808
+type(
+  string
+)
+ident(
+  def str "uuid.ml" 96 2811 2812 "uuid.ml" 100 2958 2974
+)
+"uuid.ml" 97 2816 2818 "uuid.ml" 97 2816 2830
+type(
+  string ->
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> bool,
+   '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> bool) ->
+   bool, bool)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"uuid.ml" 97 2816 2831 "uuid.ml" 97 2816 2834
+type(
+  string
+)
+ident(
+  int_ref str "uuid.ml" 95 2793 2805 "uuid.ml" 95 2793 2808
+)
+"uuid.ml" 98 2835 2838 "uuid.ml" 98 2835 2908
+type(
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> bool,
+   Scanf.Scanning.scanbuf, '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> bool) ->
+   bool,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> bool) ->
+   bool, bool)
+  format6
+)
+"uuid.ml" 99 2909 2917 "uuid.ml" 99 2909 2918
+type(
+  int
+)
+"uuid.ml" 99 2909 2919 "uuid.ml" 99 2909 2920
+type(
+  int
+)
+"uuid.ml" 99 2909 2921 "uuid.ml" 99 2909 2922
+type(
+  int
+)
+"uuid.ml" 99 2909 2923 "uuid.ml" 99 2909 2924
+type(
+  int
+)
+"uuid.ml" 99 2909 2925 "uuid.ml" 99 2909 2926
+type(
+  int
+)
+"uuid.ml" 99 2909 2927 "uuid.ml" 99 2909 2928
+type(
+  int
+)
+"uuid.ml" 99 2909 2929 "uuid.ml" 99 2909 2930
+type(
+  int
+)
+"uuid.ml" 99 2909 2931 "uuid.ml" 99 2909 2932
+type(
+  int
+)
+"uuid.ml" 99 2909 2933 "uuid.ml" 99 2909 2934
+type(
+  int
+)
+"uuid.ml" 99 2909 2935 "uuid.ml" 99 2909 2936
+type(
+  int
+)
+"uuid.ml" 99 2909 2937 "uuid.ml" 99 2909 2938
+type(
+  int
+)
+"uuid.ml" 99 2909 2939 "uuid.ml" 99 2909 2940
+type(
+  int
+)
+"uuid.ml" 99 2909 2941 "uuid.ml" 99 2909 2942
+type(
+  int
+)
+"uuid.ml" 99 2909 2943 "uuid.ml" 99 2909 2944
+type(
+  int
+)
+"uuid.ml" 99 2909 2945 "uuid.ml" 99 2909 2946
+type(
+  int
+)
+"uuid.ml" 99 2909 2947 "uuid.ml" 99 2909 2948
+type(
+  int
+)
+"uuid.ml" 99 2909 2952 "uuid.ml" 99 2909 2956
+type(
+  bool
+)
+"uuid.ml" 99 2909 2912 "uuid.ml" 99 2909 2957
+type(
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int -> int -> int -> int -> int -> int -> int -> int -> int -> int -> bool
+)
+"uuid.ml" 97 2816 2818 "uuid.ml" 99 2909 2957
+type(
+  bool
+)
+"uuid.ml" 100 2958 2964 "uuid.ml" 100 2958 2965
+type(
+  exn
+)
+"uuid.ml" 100 2958 2969 "uuid.ml" 100 2958 2974
+type(
+  bool
+)
+"uuid.ml" 96 2811 2812 "uuid.ml" 100 2958 2974
+type(
+  bool
+)

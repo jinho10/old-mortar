@@ -1,0 +1,5 @@
+version = "4.1"
+description = "Eventchn interface extension"
+requires = "unix"
+archive(byte) = "eventchn.cma"
+archive(native) = "eventchn.cmxa"

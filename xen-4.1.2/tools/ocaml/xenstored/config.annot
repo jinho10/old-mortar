@@ -1,0 +1,2569 @@
+"config.ml" 30 964 968 "config.ml" 30 964 978
+type(
+  char list -> string -> string
+)
+ident(
+  def trim_start "config.ml" 38 1144 1144 --
+)
+"config.ml" 30 964 979 "config.ml" 30 964 981
+type(
+  char list
+)
+ident(
+  def lc "config.ml" 30 964 982 "config.ml" 36 1090 1142
+)
+"config.ml" 30 964 982 "config.ml" 30 964 983
+type(
+  string
+)
+ident(
+  def s "config.ml" 31 986 987 "config.ml" 36 1090 1142
+)
+"config.ml" 31 986 991 "config.ml" 31 986 994
+type(
+  int
+)
+"config.ml" 31 986 997 "config.ml" 31 986 1010
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"config.ml" 31 986 1011 "config.ml" 31 986 1012
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 30 964 982 "config.ml" 30 964 983
+)
+"config.ml" 31 986 997 "config.ml" 31 986 1012
+type(
+  int
+)
+"config.ml" 31 986 1017 "config.ml" 31 986 1018
+type(
+  int ref
+)
+"config.ml" 31 986 1021 "config.ml" 31 986 1024
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"config.ml" 31 986 1025 "config.ml" 31 986 1026
+type(
+  int
+)
+"config.ml" 31 986 1021 "config.ml" 31 986 1026
+type(
+  int ref
+)
+"config.ml" 32 1030 1037 "config.ml" 32 1030 1038
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 32 1030 1038 "config.ml" 32 1030 1039
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 32 1030 1037 "config.ml" 32 1030 1039
+type(
+  int
+)
+"config.ml" 32 1030 1040 "config.ml" 32 1030 1041
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"config.ml" 32 1030 1042 "config.ml" 32 1030 1045
+type(
+  int
+)
+ident(
+  int_ref len "config.ml" 31 986 991 "config.ml" 31 986 994
+)
+"config.ml" 32 1030 1037 "config.ml" 32 1030 1045
+type(
+  bool
+)
+"config.ml" 32 1030 1046 "config.ml" 32 1030 1048
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"config.ml" 32 1030 1050 "config.ml" 32 1030 1058
+type(
+  char -> char list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"config.ml" 32 1030 1059 "config.ml" 32 1030 1060
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 30 964 982 "config.ml" 30 964 983
+)
+"config.ml" 32 1030 1062 "config.ml" 32 1030 1063
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 32 1030 1063 "config.ml" 32 1030 1064
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 32 1030 1062 "config.ml" 32 1030 1064
+type(
+  int
+)
+"config.ml" 32 1030 1059 "config.ml" 32 1030 1065
+type(
+  char
+)
+"config.ml" 32 1030 1066 "config.ml" 32 1030 1068
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 30 964 979 "config.ml" 30 964 981
+)
+"config.ml" 32 1030 1049 "config.ml" 32 1030 1069
+type(
+  bool
+)
+"config.ml" 32 1030 1037 "config.ml" 32 1030 1069
+type(
+  bool
+)
+"config.ml" 34 1074 1076 "config.ml" 34 1074 1080
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"config.ml" 34 1074 1081 "config.ml" 34 1074 1082
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 34 1074 1076 "config.ml" 34 1074 1082
+type(
+  unit
+)
+"config.ml" 32 1030 1031 "config.ml" 35 1083 1088
+type(
+  unit
+)
+"config.ml" 36 1090 1094 "config.ml" 36 1090 1095
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 36 1090 1095 "config.ml" 36 1090 1096
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 36 1090 1094 "config.ml" 36 1090 1096
+type(
+  int
+)
+"config.ml" 36 1090 1097 "config.ml" 36 1090 1098
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"config.ml" 36 1090 1099 "config.ml" 36 1090 1102
+type(
+  int
+)
+ident(
+  int_ref len "config.ml" 31 986 991 "config.ml" 31 986 994
+)
+"config.ml" 36 1090 1094 "config.ml" 36 1090 1102
+type(
+  bool
+)
+"config.ml" 36 1090 1108 "config.ml" 36 1090 1118
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"config.ml" 36 1090 1119 "config.ml" 36 1090 1120
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 30 964 982 "config.ml" 30 964 983
+)
+"config.ml" 36 1090 1121 "config.ml" 36 1090 1122
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 36 1090 1122 "config.ml" 36 1090 1123
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 36 1090 1121 "config.ml" 36 1090 1123
+type(
+  int
+)
+"config.ml" 36 1090 1125 "config.ml" 36 1090 1128
+type(
+  int
+)
+ident(
+  int_ref len "config.ml" 31 986 991 "config.ml" 31 986 994
+)
+"config.ml" 36 1090 1129 "config.ml" 36 1090 1130
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 36 1090 1131 "config.ml" 36 1090 1132
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 36 1090 1132 "config.ml" 36 1090 1133
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 31 986 1017 "config.ml" 31 986 1018
+)
+"config.ml" 36 1090 1131 "config.ml" 36 1090 1133
+type(
+  int
+)
+"config.ml" 36 1090 1124 "config.ml" 36 1090 1134
+type(
+  int
+)
+"config.ml" 36 1090 1108 "config.ml" 36 1090 1134
+type(
+  string
+)
+"config.ml" 36 1090 1140 "config.ml" 36 1090 1142
+type(
+  string
+)
+"config.ml" 36 1090 1091 "config.ml" 36 1090 1142
+type(
+  string
+)
+"config.ml" 32 1030 1031 "config.ml" 36 1090 1142
+type(
+  string
+)
+"config.ml" 31 986 987 "config.ml" 36 1090 1142
+type(
+  string
+)
+"config.ml" 38 1144 1148 "config.ml" 38 1144 1156
+type(
+  char list -> string -> string
+)
+ident(
+  def trim_end "config.ml" 46 1310 1310 --
+)
+"config.ml" 38 1144 1157 "config.ml" 38 1144 1159
+type(
+  char list
+)
+ident(
+  def lc "config.ml" 38 1144 1160 "config.ml" 44 1260 1308
+)
+"config.ml" 38 1144 1160 "config.ml" 38 1144 1161
+type(
+  string
+)
+ident(
+  def s "config.ml" 39 1164 1165 "config.ml" 44 1260 1308
+)
+"config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+type(
+  int ref
+)
+"config.ml" 39 1164 1173 "config.ml" 39 1164 1176
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"config.ml" 39 1164 1178 "config.ml" 39 1164 1191
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"config.ml" 39 1164 1192 "config.ml" 39 1164 1193
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 38 1144 1160 "config.ml" 38 1144 1161
+)
+"config.ml" 39 1164 1178 "config.ml" 39 1164 1193
+type(
+  int
+)
+"config.ml" 39 1164 1194 "config.ml" 39 1164 1195
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 39 1164 1196 "config.ml" 39 1164 1197
+type(
+  int
+)
+"config.ml" 39 1164 1177 "config.ml" 39 1164 1198
+type(
+  int
+)
+"config.ml" 39 1164 1173 "config.ml" 39 1164 1198
+type(
+  int ref
+)
+"config.ml" 40 1202 1209 "config.ml" 40 1202 1210
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 40 1202 1210 "config.ml" 40 1202 1211
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+)
+"config.ml" 40 1202 1209 "config.ml" 40 1202 1211
+type(
+  int
+)
+"config.ml" 40 1202 1212 "config.ml" 40 1202 1213
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"config.ml" 40 1202 1214 "config.ml" 40 1202 1215
+type(
+  int
+)
+"config.ml" 40 1202 1209 "config.ml" 40 1202 1215
+type(
+  bool
+)
+"config.ml" 40 1202 1216 "config.ml" 40 1202 1218
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"config.ml" 40 1202 1220 "config.ml" 40 1202 1228
+type(
+  char -> char list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"config.ml" 40 1202 1229 "config.ml" 40 1202 1230
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 38 1144 1160 "config.ml" 38 1144 1161
+)
+"config.ml" 40 1202 1232 "config.ml" 40 1202 1233
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 40 1202 1233 "config.ml" 40 1202 1234
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+)
+"config.ml" 40 1202 1232 "config.ml" 40 1202 1234
+type(
+  int
+)
+"config.ml" 40 1202 1229 "config.ml" 40 1202 1235
+type(
+  char
+)
+"config.ml" 40 1202 1236 "config.ml" 40 1202 1238
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 38 1144 1157 "config.ml" 38 1144 1159
+)
+"config.ml" 40 1202 1219 "config.ml" 40 1202 1239
+type(
+  bool
+)
+"config.ml" 40 1202 1209 "config.ml" 40 1202 1239
+type(
+  bool
+)
+"config.ml" 42 1244 1246 "config.ml" 42 1244 1250
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"config.ml" 42 1244 1251 "config.ml" 42 1244 1252
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+)
+"config.ml" 42 1244 1246 "config.ml" 42 1244 1252
+type(
+  unit
+)
+"config.ml" 40 1202 1203 "config.ml" 43 1253 1258
+type(
+  unit
+)
+"config.ml" 44 1260 1264 "config.ml" 44 1260 1265
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 44 1260 1265 "config.ml" 44 1260 1266
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+)
+"config.ml" 44 1260 1264 "config.ml" 44 1260 1266
+type(
+  int
+)
+"config.ml" 44 1260 1267 "config.ml" 44 1260 1269
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"config.ml" 44 1260 1270 "config.ml" 44 1260 1271
+type(
+  int
+)
+"config.ml" 44 1260 1264 "config.ml" 44 1260 1271
+type(
+  bool
+)
+"config.ml" 44 1260 1277 "config.ml" 44 1260 1287
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"config.ml" 44 1260 1288 "config.ml" 44 1260 1289
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 38 1144 1160 "config.ml" 38 1144 1161
+)
+"config.ml" 44 1260 1290 "config.ml" 44 1260 1291
+type(
+  int
+)
+"config.ml" 44 1260 1293 "config.ml" 44 1260 1294
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 44 1260 1294 "config.ml" 44 1260 1295
+type(
+  int ref
+)
+ident(
+  int_ref i "config.ml" 39 1164 1169 "config.ml" 39 1164 1170
+)
+"config.ml" 44 1260 1293 "config.ml" 44 1260 1295
+type(
+  int
+)
+"config.ml" 44 1260 1296 "config.ml" 44 1260 1297
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"config.ml" 44 1260 1298 "config.ml" 44 1260 1299
+type(
+  int
+)
+"config.ml" 44 1260 1292 "config.ml" 44 1260 1300
+type(
+  int
+)
+"config.ml" 44 1260 1277 "config.ml" 44 1260 1300
+type(
+  string
+)
+"config.ml" 44 1260 1306 "config.ml" 44 1260 1308
+type(
+  string
+)
+"config.ml" 44 1260 1261 "config.ml" 44 1260 1308
+type(
+  string
+)
+"config.ml" 40 1202 1203 "config.ml" 44 1260 1308
+type(
+  string
+)
+"config.ml" 39 1164 1165 "config.ml" 44 1260 1308
+type(
+  string
+)
+"config.ml" 46 1310 1318 "config.ml" 46 1310 1323
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  def split "config.ml" 46 1310 1310 --
+)
+"config.ml" 46 1310 1332 "config.ml" 46 1310 1337
+type(
+  int
+)
+"config.ml" 46 1310 1338 "config.ml" 46 1310 1342
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "config.ml" 46 1310 1338 "config.ml" 46 1310 1342
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "config.ml" 46 1310 1338 "config.ml" 46 1310 1342
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "config.ml" 46 1310 1338 "config.ml" 46 1310 1342
+)
+type(
+  int option
+)
+ident(
+  def *opt* "config.ml" 46 1310 1324 "config.ml" 54 1605 1638
+)
+"config.ml" 46 1310 1344 "config.ml" 46 1310 1345
+type(
+  char
+)
+ident(
+  def c "config.ml" 46 1310 1346 "config.ml" 54 1605 1638
+)
+"config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+type(
+  string
+)
+ident(
+  def s "config.ml" 47 1350 1351 "config.ml" 54 1605 1638
+)
+"config.ml" 47 1350 1355 "config.ml" 47 1350 1356
+type(
+  int
+)
+"config.ml" 47 1350 1363 "config.ml" 47 1350 1375
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"config.ml" 47 1350 1376 "config.ml" 47 1350 1377
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+)
+"config.ml" 47 1350 1378 "config.ml" 47 1350 1379
+type(
+  char
+)
+ident(
+  int_ref c "config.ml" 46 1310 1344 "config.ml" 46 1310 1345
+)
+"config.ml" 47 1350 1363 "config.ml" 47 1350 1379
+type(
+  int
+)
+"config.ml" 47 1350 1385 "config.ml" 47 1350 1394
+type(
+  exn
+)
+"config.ml" 47 1350 1398 "config.ml" 47 1350 1400
+type(
+  int
+)
+"config.ml" 47 1350 1359 "config.ml" 47 1350 1400
+type(
+  int
+)
+"config.ml" 48 1404 1409 "config.ml" 48 1404 1415
+type(
+  int
+)
+"config.ml" 48 1404 1421 "config.ml" 48 1404 1426
+type(
+  int
+)
+ident(
+  int_ref limit "config.ml" 46 1310 1332 "config.ml" 46 1310 1337
+)
+"config.ml" 48 1404 1427 "config.ml" 48 1404 1428
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 48 1404 1429 "config.ml" 48 1404 1431
+type(
+  int
+)
+"config.ml" 48 1404 1421 "config.ml" 48 1404 1431
+type(
+  bool
+)
+"config.ml" 48 1404 1432 "config.ml" 48 1404 1434
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"config.ml" 48 1404 1435 "config.ml" 48 1404 1440
+type(
+  int
+)
+ident(
+  int_ref limit "config.ml" 46 1310 1332 "config.ml" 46 1310 1337
+)
+"config.ml" 48 1404 1441 "config.ml" 48 1404 1442
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 48 1404 1443 "config.ml" 48 1404 1444
+type(
+  int
+)
+"config.ml" 48 1404 1435 "config.ml" 48 1404 1444
+type(
+  bool
+)
+"config.ml" 48 1404 1421 "config.ml" 48 1404 1444
+type(
+  bool
+)
+"config.ml" 48 1404 1450 "config.ml" 48 1404 1455
+type(
+  int
+)
+ident(
+  int_ref limit "config.ml" 46 1310 1332 "config.ml" 46 1310 1337
+)
+"config.ml" 48 1404 1461 "config.ml" 48 1404 1466
+type(
+  int
+)
+ident(
+  int_ref limit "config.ml" 46 1310 1332 "config.ml" 46 1310 1337
+)
+"config.ml" 48 1404 1467 "config.ml" 48 1404 1468
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 48 1404 1469 "config.ml" 48 1404 1470
+type(
+  int
+)
+"config.ml" 48 1404 1461 "config.ml" 48 1404 1470
+type(
+  int
+)
+"config.ml" 48 1404 1418 "config.ml" 48 1404 1470
+type(
+  int
+)
+"config.ml" 49 1474 1478 "config.ml" 49 1474 1479
+type(
+  int
+)
+ident(
+  int_ref i "config.ml" 47 1350 1355 "config.ml" 47 1350 1356
+)
+"config.ml" 49 1474 1480 "config.ml" 49 1474 1481
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 49 1474 1482 "config.ml" 49 1474 1484
+type(
+  int
+)
+"config.ml" 49 1474 1478 "config.ml" 49 1474 1484
+type(
+  bool
+)
+"config.ml" 49 1474 1485 "config.ml" 49 1474 1487
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"config.ml" 49 1474 1488 "config.ml" 49 1474 1494
+type(
+  int
+)
+ident(
+  int_ref nlimit "config.ml" 48 1404 1409 "config.ml" 48 1404 1415
+)
+"config.ml" 49 1474 1495 "config.ml" 49 1474 1496
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 49 1474 1497 "config.ml" 49 1474 1498
+type(
+  int
+)
+"config.ml" 49 1474 1488 "config.ml" 49 1474 1498
+type(
+  bool
+)
+"config.ml" 49 1474 1478 "config.ml" 49 1474 1498
+type(
+  bool
+)
+"config.ml" 50 1504 1508 "config.ml" 50 1504 1509
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+)
+"config.ml" 50 1504 1506 "config.ml" 50 1504 1511
+type(
+  string list
+)
+"config.ml" 52 1518 1524 "config.ml" 52 1518 1525
+type(
+  string
+)
+"config.ml" 52 1518 1528 "config.ml" 52 1518 1538
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"config.ml" 52 1518 1539 "config.ml" 52 1518 1540
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+)
+"config.ml" 52 1518 1541 "config.ml" 52 1518 1542
+type(
+  int
+)
+"config.ml" 52 1518 1543 "config.ml" 52 1518 1544
+type(
+  int
+)
+ident(
+  int_ref i "config.ml" 47 1350 1355 "config.ml" 47 1350 1356
+)
+"config.ml" 52 1518 1528 "config.ml" 52 1518 1544
+type(
+  string
+)
+"config.ml" 53 1545 1551 "config.ml" 53 1545 1552
+type(
+  string
+)
+"config.ml" 53 1545 1555 "config.ml" 53 1545 1565
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"config.ml" 53 1545 1566 "config.ml" 53 1545 1567
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+)
+"config.ml" 53 1545 1569 "config.ml" 53 1545 1570
+type(
+  int
+)
+ident(
+  int_ref i "config.ml" 47 1350 1355 "config.ml" 47 1350 1356
+)
+"config.ml" 53 1545 1571 "config.ml" 53 1545 1572
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"config.ml" 53 1545 1573 "config.ml" 53 1545 1574
+type(
+  int
+)
+"config.ml" 53 1545 1568 "config.ml" 53 1545 1575
+type(
+  int
+)
+"config.ml" 53 1545 1577 "config.ml" 53 1545 1590
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"config.ml" 53 1545 1591 "config.ml" 53 1545 1592
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 46 1310 1346 "config.ml" 46 1310 1347
+)
+"config.ml" 53 1545 1577 "config.ml" 53 1545 1592
+type(
+  int
+)
+"config.ml" 53 1545 1593 "config.ml" 53 1545 1594
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 53 1545 1595 "config.ml" 53 1545 1596
+type(
+  int
+)
+ident(
+  int_ref i "config.ml" 47 1350 1355 "config.ml" 47 1350 1356
+)
+"config.ml" 53 1545 1577 "config.ml" 53 1545 1596
+type(
+  int
+)
+"config.ml" 53 1545 1597 "config.ml" 53 1545 1598
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 53 1545 1599 "config.ml" 53 1545 1600
+type(
+  int
+)
+"config.ml" 53 1545 1576 "config.ml" 53 1545 1601
+type(
+  int
+)
+"config.ml" 53 1545 1555 "config.ml" 53 1545 1601
+type(
+  string
+)
+"config.ml" 54 1605 1607 "config.ml" 54 1605 1608
+type(
+  string
+)
+ident(
+  int_ref a "config.ml" 52 1518 1524 "config.ml" 52 1518 1525
+)
+"config.ml" 54 1605 1613 "config.ml" 54 1605 1618
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split "config.ml" 46 1310 1318 "config.ml" 46 1310 1323
+)
+"config.ml" 54 1605 1627 "config.ml" 54 1605 1633
+type(
+  int
+)
+ident(
+  int_ref nlimit "config.ml" 48 1404 1409 "config.ml" 48 1404 1415
+)
+"config.ml" 54 1605 1634 "config.ml" 54 1605 1635
+type(
+  char
+)
+ident(
+  int_ref c "config.ml" 46 1310 1344 "config.ml" 46 1310 1345
+)
+"config.ml" 54 1605 1636 "config.ml" 54 1605 1637
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 53 1545 1551 "config.ml" 53 1545 1552
+)
+"config.ml" 54 1605 1612 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 54 1605 1607 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 52 1518 1520 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 49 1474 1475 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 48 1404 1405 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 47 1350 1351 "config.ml" 54 1605 1638
+type(
+  string list
+)
+"config.ml" 56 1640 1644 "config.ml" 56 1640 1654
+type(
+  in_channel -> (string * string) list
+)
+ident(
+  def parse_line "config.ml" 76 2215 2215 --
+)
+"config.ml" 56 1640 1655 "config.ml" 56 1640 1661
+type(
+  in_channel
+)
+ident(
+  def stream "config.ml" 57 1664 1665 "config.ml" 74 2193 2213
+)
+"config.ml" 57 1664 1669 "config.ml" 57 1664 1671
+type(
+  char list
+)
+"config.ml" 57 1664 1676 "config.ml" 57 1664 1679
+type(
+  char
+)
+"config.ml" 57 1664 1681 "config.ml" 57 1664 1685
+type(
+  char
+)
+"config.ml" 57 1664 1674 "config.ml" 57 1664 1687
+type(
+  char list
+)
+"config.ml" 58 1691 1696 "config.ml" 58 1691 1707
+type(
+  string -> string
+)
+"config.ml" 58 1691 1708 "config.ml" 58 1691 1709
+type(
+  string
+)
+ident(
+  def s "config.ml" 58 1691 1712 "config.ml" 58 1691 1741
+)
+"config.ml" 58 1691 1712 "config.ml" 58 1691 1720
+type(
+  char list -> string -> string
+)
+ident(
+  int_ref trim_end "config.ml" 38 1144 1148 "config.ml" 38 1144 1156
+)
+"config.ml" 58 1691 1721 "config.ml" 58 1691 1723
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 57 1664 1669 "config.ml" 57 1664 1671
+)
+"config.ml" 58 1691 1725 "config.ml" 58 1691 1735
+type(
+  char list -> string -> string
+)
+ident(
+  int_ref trim_start "config.ml" 30 964 968 "config.ml" 30 964 978
+)
+"config.ml" 58 1691 1736 "config.ml" 58 1691 1738
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 57 1664 1669 "config.ml" 57 1664 1671
+)
+"config.ml" 58 1691 1739 "config.ml" 58 1691 1740
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 58 1691 1708 "config.ml" 58 1691 1709
+)
+"config.ml" 58 1691 1724 "config.ml" 58 1691 1741
+type(
+  string
+)
+"config.ml" 58 1691 1712 "config.ml" 58 1691 1741
+type(
+  string
+)
+"config.ml" 59 1745 1750 "config.ml" 59 1745 1759
+type(
+  string -> (string * string) option
+)
+"config.ml" 59 1745 1760 "config.ml" 59 1745 1761
+type(
+  string
+)
+ident(
+  def s "config.ml" 60 1764 1766 "config.ml" 62 1856 1880
+)
+"config.ml" 60 1764 1772 "config.ml" 60 1764 1777
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  int_ref split "config.ml" 46 1310 1318 "config.ml" 46 1310 1323
+)
+"config.ml" 60 1764 1785 "config.ml" 60 1764 1786
+type(
+  int
+)
+"config.ml" 60 1764 1787 "config.ml" 60 1764 1790
+type(
+  char
+)
+"config.ml" 60 1764 1791 "config.ml" 60 1764 1792
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 59 1745 1760 "config.ml" 59 1745 1761
+)
+"config.ml" 60 1764 1772 "config.ml" 60 1764 1792
+type(
+  string list
+)
+"config.ml" 61 1798 1802 "config.ml" 61 1798 1803
+type(
+  string
+)
+ident(
+  def k "config.ml" 61 1798 1818 "config.ml" 61 1798 1855
+)
+"config.ml" 61 1798 1807 "config.ml" 61 1798 1808
+type(
+  string
+)
+ident(
+  def v "config.ml" 61 1798 1818 "config.ml" 61 1798 1855
+)
+"config.ml" 61 1798 1812 "config.ml" 61 1798 1814
+type(
+  string list
+)
+"config.ml" 61 1798 1807 "config.ml" 61 1798 1814
+type(
+  string list
+)
+"config.ml" 61 1798 1802 "config.ml" 61 1798 1814
+type(
+  string list
+)
+"config.ml" 61 1798 1824 "config.ml" 61 1798 1832
+type(
+  char list -> string -> string
+)
+ident(
+  int_ref trim_end "config.ml" 38 1144 1148 "config.ml" 38 1144 1156
+)
+"config.ml" 61 1798 1833 "config.ml" 61 1798 1835
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 57 1664 1669 "config.ml" 57 1664 1671
+)
+"config.ml" 61 1798 1836 "config.ml" 61 1798 1837
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 61 1798 1802 "config.ml" 61 1798 1803
+)
+"config.ml" 61 1798 1824 "config.ml" 61 1798 1837
+type(
+  string
+)
+"config.ml" 61 1798 1839 "config.ml" 61 1798 1849
+type(
+  char list -> string -> string
+)
+ident(
+  int_ref trim_start "config.ml" 30 964 968 "config.ml" 30 964 978
+)
+"config.ml" 61 1798 1850 "config.ml" 61 1798 1852
+type(
+  char list
+)
+ident(
+  int_ref lc "config.ml" 57 1664 1669 "config.ml" 57 1664 1671
+)
+"config.ml" 61 1798 1853 "config.ml" 61 1798 1854
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 61 1798 1807 "config.ml" 61 1798 1808
+)
+"config.ml" 61 1798 1839 "config.ml" 61 1798 1854
+type(
+  string
+)
+"config.ml" 61 1798 1823 "config.ml" 61 1798 1855
+type(
+  string * string
+)
+"config.ml" 61 1798 1818 "config.ml" 61 1798 1855
+type(
+  (string * string) option
+)
+"config.ml" 62 1856 1860 "config.ml" 62 1856 1861
+type(
+  string list
+)
+"config.ml" 62 1856 1876 "config.ml" 62 1856 1880
+type(
+  (string * string) option
+)
+"config.ml" 60 1764 1766 "config.ml" 62 1856 1880
+type(
+  (string * string) option
+)
+"config.ml" 63 1884 1893 "config.ml" 63 1884 1909
+type(
+  unit -> (string * string) list
+)
+"config.ml" 63 1884 1910 "config.ml" 63 1884 1912
+type(
+  unit
+)
+"config.ml" 65 1921 1928 "config.ml" 65 1921 1932
+type(
+  string
+)
+ident(
+  def line "config.ml" 66 1970 1973 "config.ml" 71 2138 2161
+)
+"config.ml" 65 1921 1935 "config.ml" 65 1921 1946
+type(
+  string -> string
+)
+ident(
+  int_ref trim_spaces "config.ml" 58 1691 1696 "config.ml" 58 1691 1707
+)
+"config.ml" 65 1921 1948 "config.ml" 65 1921 1958
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"config.ml" 65 1921 1959 "config.ml" 65 1921 1965
+type(
+  in_channel
+)
+ident(
+  int_ref stream "config.ml" 56 1640 1655 "config.ml" 56 1640 1661
+)
+"config.ml" 65 1921 1947 "config.ml" 65 1921 1966
+type(
+  string
+)
+"config.ml" 65 1921 1935 "config.ml" 65 1921 1966
+type(
+  string
+)
+"config.ml" 66 1970 1976 "config.ml" 66 1970 1989
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"config.ml" 66 1970 1990 "config.ml" 66 1970 1994
+type(
+  string
+)
+ident(
+  int_ref line "config.ml" 65 1921 1928 "config.ml" 65 1921 1932
+)
+"config.ml" 66 1970 1976 "config.ml" 66 1970 1994
+type(
+  int
+)
+"config.ml" 66 1970 1995 "config.ml" 66 1970 1996
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"config.ml" 66 1970 1997 "config.ml" 66 1970 1998
+type(
+  int
+)
+"config.ml" 66 1970 1976 "config.ml" 66 1970 1998
+type(
+  bool
+)
+"config.ml" 66 1970 1999 "config.ml" 66 1970 2001
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"config.ml" 66 1970 2002 "config.ml" 66 1970 2006
+type(
+  string
+)
+ident(
+  int_ref line "config.ml" 65 1921 1928 "config.ml" 65 1921 1932
+)
+"config.ml" 66 1970 2008 "config.ml" 66 1970 2009
+type(
+  int
+)
+"config.ml" 66 1970 2002 "config.ml" 66 1970 2010
+type(
+  char
+)
+"config.ml" 66 1970 2011 "config.ml" 66 1970 2013
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"config.ml" 66 1970 2014 "config.ml" 66 1970 2017
+type(
+  char
+)
+"config.ml" 66 1970 2002 "config.ml" 66 1970 2017
+type(
+  bool
+)
+"config.ml" 66 1970 1976 "config.ml" 66 1970 2017
+type(
+  bool
+)
+"config.ml" 67 2023 2033 "config.ml" 67 2023 2042
+type(
+  string -> (string * string) option
+)
+ident(
+  int_ref to_config "config.ml" 59 1745 1750 "config.ml" 59 1745 1759
+)
+"config.ml" 67 2023 2043 "config.ml" 67 2023 2047
+type(
+  string
+)
+ident(
+  int_ref line "config.ml" 65 1921 1928 "config.ml" 65 1921 1932
+)
+"config.ml" 67 2023 2033 "config.ml" 67 2023 2047
+type(
+  (string * string) option
+)
+"config.ml" 68 2053 2059 "config.ml" 68 2053 2063
+type(
+  (string * string) option
+)
+"config.ml" 68 2053 2069 "config.ml" 68 2053 2085
+type(
+  unit -> (string * string) list
+)
+ident(
+  int_ref read_filter_line "config.ml" 63 1884 1893 "config.ml" 63 1884 1909
+)
+"config.ml" 68 2053 2086 "config.ml" 68 2053 2088
+type(
+  unit
+)
+"config.ml" 68 2053 2069 "config.ml" 68 2053 2088
+type(
+  (string * string) list
+)
+"config.ml" 69 2089 2100 "config.ml" 69 2089 2101
+type(
+  string * string
+)
+ident(
+  def x "config.ml" 69 2089 2105 "config.ml" 69 2089 2129
+)
+"config.ml" 69 2089 2095 "config.ml" 69 2089 2101
+type(
+  (string * string) option
+)
+"config.ml" 69 2089 2105 "config.ml" 69 2089 2106
+type(
+  string * string
+)
+ident(
+  int_ref x "config.ml" 69 2089 2100 "config.ml" 69 2089 2101
+)
+"config.ml" 69 2089 2110 "config.ml" 69 2089 2126
+type(
+  unit -> (string * string) list
+)
+ident(
+  int_ref read_filter_line "config.ml" 63 1884 1893 "config.ml" 63 1884 1909
+)
+"config.ml" 69 2089 2127 "config.ml" 69 2089 2129
+type(
+  unit
+)
+"config.ml" 69 2089 2110 "config.ml" 69 2089 2129
+type(
+  (string * string) list
+)
+"config.ml" 69 2089 2105 "config.ml" 69 2089 2129
+type(
+  (string * string) list
+)
+"config.ml" 67 2023 2027 "config.ml" 69 2089 2129
+type(
+  (string * string) list
+)
+"config.ml" 71 2138 2142 "config.ml" 71 2138 2158
+type(
+  unit -> (string * string) list
+)
+ident(
+  int_ref read_filter_line "config.ml" 63 1884 1893 "config.ml" 63 1884 1909
+)
+"config.ml" 71 2138 2159 "config.ml" 71 2138 2161
+type(
+  unit
+)
+"config.ml" 71 2138 2142 "config.ml" 71 2138 2161
+type(
+  (string * string) list
+)
+"config.ml" 66 1970 1973 "config.ml" 71 2138 2161
+type(
+  (string * string) list
+)
+"config.ml" 65 1921 1924 "config.ml" 71 2138 2161
+type(
+  (string * string) list
+)
+"config.ml" 73 2169 2172 "config.ml" 73 2169 2183
+type(
+  exn
+)
+"config.ml" 73 2169 2187 "config.ml" 73 2169 2189
+type(
+  (string * string) list
+)
+"config.ml" 64 1915 1917 "config.ml" 73 2169 2189
+type(
+  (string * string) list
+)
+"config.ml" 74 2193 2194 "config.ml" 74 2193 2210
+type(
+  unit -> (string * string) list
+)
+ident(
+  int_ref read_filter_line "config.ml" 63 1884 1893 "config.ml" 63 1884 1909
+)
+"config.ml" 74 2193 2211 "config.ml" 74 2193 2213
+type(
+  unit
+)
+"config.ml" 74 2193 2194 "config.ml" 74 2193 2213
+type(
+  (string * string) list
+)
+"config.ml" 63 1884 1885 "config.ml" 74 2193 2213
+type(
+  (string * string) list
+)
+"config.ml" 59 1745 1746 "config.ml" 74 2193 2213
+type(
+  (string * string) list
+)
+"config.ml" 58 1691 1692 "config.ml" 74 2193 2213
+type(
+  (string * string) list
+)
+"config.ml" 57 1664 1665 "config.ml" 74 2193 2213
+type(
+  (string * string) list
+)
+"config.ml" 76 2215 2219 "config.ml" 76 2215 2224
+type(
+  string -> (string * string) list
+)
+ident(
+  def parse "config.ml" 82 2324 2324 --
+)
+"config.ml" 76 2215 2225 "config.ml" 76 2215 2233
+type(
+  string
+)
+ident(
+  def filename "config.ml" 77 2236 2237 "config.ml" 80 2319 2322
+)
+"config.ml" 77 2236 2241 "config.ml" 77 2236 2247
+type(
+  in_channel
+)
+"config.ml" 77 2236 2250 "config.ml" 77 2236 2257
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"config.ml" 77 2236 2258 "config.ml" 77 2236 2266
+type(
+  string
+)
+ident(
+  int_ref filename "config.ml" 76 2215 2225 "config.ml" 76 2215 2233
+)
+"config.ml" 77 2236 2250 "config.ml" 77 2236 2266
+type(
+  in_channel
+)
+"config.ml" 78 2270 2275 "config.ml" 78 2270 2277
+type(
+  (string * string) list
+)
+"config.ml" 78 2270 2280 "config.ml" 78 2270 2290
+type(
+  in_channel -> (string * string) list
+)
+ident(
+  int_ref parse_line "config.ml" 56 1640 1644 "config.ml" 56 1640 1654
+)
+"config.ml" 78 2270 2291 "config.ml" 78 2270 2297
+type(
+  in_channel
+)
+ident(
+  int_ref stream "config.ml" 77 2236 2241 "config.ml" 77 2236 2247
+)
+"config.ml" 78 2270 2280 "config.ml" 78 2270 2297
+type(
+  (string * string) list
+)
+"config.ml" 79 2301 2302 "config.ml" 79 2301 2310
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"config.ml" 79 2301 2311 "config.ml" 79 2301 2317
+type(
+  in_channel
+)
+ident(
+  int_ref stream "config.ml" 77 2236 2241 "config.ml" 77 2236 2247
+)
+"config.ml" 79 2301 2302 "config.ml" 79 2301 2317
+type(
+  unit
+)
+"config.ml" 80 2319 2320 "config.ml" 80 2319 2322
+type(
+  (string * string) list
+)
+ident(
+  int_ref cf "config.ml" 78 2270 2275 "config.ml" 78 2270 2277
+)
+"config.ml" 79 2301 2302 "config.ml" 80 2319 2322
+type(
+  (string * string) list
+)
+"config.ml" 78 2270 2271 "config.ml" 80 2319 2322
+type(
+  (string * string) list
+)
+"config.ml" 77 2236 2237 "config.ml" 80 2319 2322
+type(
+  (string * string) list
+)
+"config.ml" 82 2324 2328 "config.ml" 82 2324 2336
+type(
+  (string * string) list ->
+  (string * ty) list -> (string -> string -> unit) -> unit
+)
+ident(
+  def validate "config.ml" 110 3344 3344 --
+)
+"config.ml" 82 2324 2337 "config.ml" 82 2324 2339
+type(
+  (string * string) list
+)
+ident(
+  def cf "config.ml" 82 2324 2340 "config.ml" 107 3231 3269
+)
+"config.ml" 82 2324 2340 "config.ml" 82 2324 2348
+type(
+  (string * ty) list
+)
+ident(
+  def expected "config.ml" 82 2324 2349 "config.ml" 107 3231 3269
+)
+"config.ml" 82 2324 2349 "config.ml" 82 2324 2354
+type(
+  string -> string -> unit
+)
+ident(
+  def other "config.ml" 83 2357 2358 "config.ml" 107 3231 3269
+)
+"config.ml" 83 2357 2362 "config.ml" 83 2357 2365
+type(
+  (string * string) list ref
+)
+"config.ml" 83 2357 2368 "config.ml" 83 2357 2371
+type(
+  (string * string) list -> (string * string) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"config.ml" 83 2357 2372 "config.ml" 83 2357 2374
+type(
+  (string * string) list
+)
+"config.ml" 83 2357 2368 "config.ml" 83 2357 2374
+type(
+  (string * string) list ref
+)
+"config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+type(
+  string * string -> unit
+)
+"config.ml" 84 2378 2390 "config.ml" 84 2378 2391
+type(
+  string * string
+)
+ident(
+  def x "config.ml" 84 2378 2394 "config.ml" 84 2378 2410
+)
+"config.ml" 84 2378 2394 "config.ml" 84 2378 2397
+type(
+  (string * string) list ref
+)
+ident(
+  int_ref err "config.ml" 83 2357 2362 "config.ml" 83 2357 2365
+)
+"config.ml" 84 2378 2398 "config.ml" 84 2378 2400
+type(
+  (string * string) list ref -> (string * string) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"config.ml" 84 2378 2401 "config.ml" 84 2378 2402
+type(
+  string * string
+)
+ident(
+  int_ref x "config.ml" 84 2378 2390 "config.ml" 84 2378 2391
+)
+"config.ml" 84 2378 2406 "config.ml" 84 2378 2407
+type(
+  (string * string) list ref -> (string * string) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 84 2378 2407 "config.ml" 84 2378 2410
+type(
+  (string * string) list ref
+)
+ident(
+  int_ref err "config.ml" 83 2357 2362 "config.ml" 83 2357 2365
+)
+"config.ml" 84 2378 2406 "config.ml" 84 2378 2410
+type(
+  (string * string) list
+)
+"config.ml" 84 2378 2401 "config.ml" 84 2378 2410
+type(
+  (string * string) list
+)
+"config.ml" 84 2378 2394 "config.ml" 84 2378 2410
+type(
+  unit
+)
+"config.ml" 85 2414 2415 "config.ml" 85 2414 2424
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+type(
+  string
+)
+ident(
+  def k "config.ml" 86 2440 2442 "config.ml" 105 3155 3222
+)
+"config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+type(
+  string
+)
+ident(
+  def v "config.ml" 86 2440 2442 "config.ml" 105 3155 3222
+)
+"config.ml" 85 2414 2430 "config.ml" 85 2414 2436
+type(
+  string * string
+)
+"config.ml" 87 2446 2452 "config.ml" 87 2446 2455
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"config.ml" 87 2446 2457 "config.ml" 87 2446 2471
+type(
+  string -> (string * ty) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"config.ml" 87 2446 2472 "config.ml" 87 2446 2473
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 87 2446 2474 "config.ml" 87 2446 2482
+type(
+  (string * ty) list
+)
+ident(
+  int_ref expected "config.ml" 82 2324 2340 "config.ml" 82 2324 2348
+)
+"config.ml" 87 2446 2456 "config.ml" 87 2446 2483
+type(
+  bool
+)
+"config.ml" 87 2446 2452 "config.ml" 87 2446 2483
+type(
+  bool
+)
+"config.ml" 88 2489 2493 "config.ml" 88 2489 2498
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref other "config.ml" 82 2324 2349 "config.ml" 82 2324 2354
+)
+"config.ml" 88 2489 2499 "config.ml" 88 2489 2500
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 88 2489 2501 "config.ml" 88 2489 2502
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 88 2489 2493 "config.ml" 88 2489 2502
+type(
+  unit
+)
+"config.ml" 89 2503 2515 "config.ml" 89 2503 2517
+type(
+  ty
+)
+"config.ml" 89 2503 2520 "config.ml" 89 2503 2530
+type(
+  string -> (string * ty) list -> ty
+)
+ident(
+  ext_ref List.assoc
+)
+"config.ml" 89 2503 2531 "config.ml" 89 2503 2532
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 89 2503 2533 "config.ml" 89 2503 2541
+type(
+  (string * ty) list
+)
+ident(
+  int_ref expected "config.ml" 82 2324 2340 "config.ml" 82 2324 2348
+)
+"config.ml" 89 2503 2520 "config.ml" 89 2503 2541
+type(
+  ty
+)
+"config.ml" 90 2545 2554 "config.ml" 90 2545 2556
+type(
+  ty
+)
+ident(
+  int_ref ty "config.ml" 89 2503 2515 "config.ml" 89 2503 2517
+)
+"config.ml" 91 2562 2572 "config.ml" 91 2562 2573
+type(
+  unit -> unit
+)
+ident(
+  def f "config.ml" 91 2562 2583 "config.ml" 91 2562 2587
+)
+"config.ml" 91 2562 2567 "config.ml" 91 2562 2573
+type(
+  ty
+)
+"config.ml" 91 2562 2583 "config.ml" 91 2562 2584
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "config.ml" 91 2562 2572 "config.ml" 91 2562 2573
+)
+"config.ml" 91 2562 2585 "config.ml" 91 2562 2587
+type(
+  unit
+)
+"config.ml" 91 2562 2583 "config.ml" 91 2562 2587
+type(
+  unit
+)
+"config.ml" 92 2588 2598 "config.ml" 92 2588 2599
+type(
+  bool -> unit
+)
+ident(
+  def f "config.ml" 92 2588 2609 "config.ml" 92 2588 2629
+)
+"config.ml" 92 2588 2593 "config.ml" 92 2588 2599
+type(
+  ty
+)
+"config.ml" 92 2588 2609 "config.ml" 92 2588 2610
+type(
+  bool -> unit
+)
+ident(
+  int_ref f "config.ml" 92 2588 2598 "config.ml" 92 2588 2599
+)
+"config.ml" 92 2588 2612 "config.ml" 92 2588 2626
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.bool_of_string
+)
+"config.ml" 92 2588 2627 "config.ml" 92 2588 2628
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 92 2588 2611 "config.ml" 92 2588 2629
+type(
+  bool
+)
+"config.ml" 92 2588 2609 "config.ml" 92 2588 2629
+type(
+  unit
+)
+"config.ml" 93 2630 2642 "config.ml" 93 2630 2643
+type(
+  string -> unit
+)
+ident(
+  def f "config.ml" 93 2630 2651 "config.ml" 93 2630 2654
+)
+"config.ml" 93 2630 2635 "config.ml" 93 2630 2643
+type(
+  ty
+)
+"config.ml" 93 2630 2651 "config.ml" 93 2630 2652
+type(
+  string -> unit
+)
+ident(
+  int_ref f "config.ml" 93 2630 2642 "config.ml" 93 2630 2643
+)
+"config.ml" 93 2630 2653 "config.ml" 93 2630 2654
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 93 2630 2651 "config.ml" 93 2630 2654
+type(
+  unit
+)
+"config.ml" 94 2655 2664 "config.ml" 94 2655 2665
+type(
+  int -> unit
+)
+ident(
+  def f "config.ml" 94 2655 2676 "config.ml" 94 2655 2695
+)
+"config.ml" 94 2655 2660 "config.ml" 94 2655 2665
+type(
+  ty
+)
+"config.ml" 94 2655 2676 "config.ml" 94 2655 2677
+type(
+  int -> unit
+)
+ident(
+  int_ref f "config.ml" 94 2655 2664 "config.ml" 94 2655 2665
+)
+"config.ml" 94 2655 2679 "config.ml" 94 2655 2692
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"config.ml" 94 2655 2693 "config.ml" 94 2655 2694
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 94 2655 2678 "config.ml" 94 2655 2695
+type(
+  int
+)
+"config.ml" 94 2655 2676 "config.ml" 94 2655 2695
+type(
+  unit
+)
+"config.ml" 95 2696 2707 "config.ml" 95 2696 2708
+type(
+  float -> unit
+)
+ident(
+  def f "config.ml" 95 2696 2717 "config.ml" 95 2696 2738
+)
+"config.ml" 95 2696 2701 "config.ml" 95 2696 2708
+type(
+  ty
+)
+"config.ml" 95 2696 2717 "config.ml" 95 2696 2718
+type(
+  float -> unit
+)
+ident(
+  int_ref f "config.ml" 95 2696 2707 "config.ml" 95 2696 2708
+)
+"config.ml" 95 2696 2720 "config.ml" 95 2696 2735
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"config.ml" 95 2696 2736 "config.ml" 95 2696 2737
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 95 2696 2719 "config.ml" 95 2696 2738
+type(
+  float
+)
+"config.ml" 95 2696 2717 "config.ml" 95 2696 2738
+type(
+  unit
+)
+"config.ml" 96 2739 2753 "config.ml" 96 2739 2754
+type(
+  bool ref
+)
+ident(
+  def r "config.ml" 96 2739 2760 "config.ml" 96 2739 2783
+)
+"config.ml" 96 2739 2744 "config.ml" 96 2739 2754
+type(
+  ty
+)
+"config.ml" 96 2739 2760 "config.ml" 96 2739 2761
+type(
+  bool ref
+)
+ident(
+  int_ref r "config.ml" 96 2739 2753 "config.ml" 96 2739 2754
+)
+"config.ml" 96 2739 2762 "config.ml" 96 2739 2764
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"config.ml" 96 2739 2766 "config.ml" 96 2739 2780
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.bool_of_string
+)
+"config.ml" 96 2739 2781 "config.ml" 96 2739 2782
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 96 2739 2765 "config.ml" 96 2739 2783
+type(
+  bool
+)
+"config.ml" 96 2739 2760 "config.ml" 96 2739 2783
+type(
+  unit
+)
+"config.ml" 97 2784 2800 "config.ml" 97 2784 2801
+type(
+  string ref
+)
+ident(
+  def r "config.ml" 97 2784 2805 "config.ml" 97 2784 2811
+)
+"config.ml" 97 2784 2789 "config.ml" 97 2784 2801
+type(
+  ty
+)
+"config.ml" 97 2784 2805 "config.ml" 97 2784 2806
+type(
+  string ref
+)
+ident(
+  int_ref r "config.ml" 97 2784 2800 "config.ml" 97 2784 2801
+)
+"config.ml" 97 2784 2807 "config.ml" 97 2784 2809
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"config.ml" 97 2784 2810 "config.ml" 97 2784 2811
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 97 2784 2805 "config.ml" 97 2784 2811
+type(
+  unit
+)
+"config.ml" 98 2812 2825 "config.ml" 98 2812 2826
+type(
+  int ref
+)
+ident(
+  def r "config.ml" 98 2812 2833 "config.ml" 98 2812 2853
+)
+"config.ml" 98 2812 2817 "config.ml" 98 2812 2826
+type(
+  ty
+)
+"config.ml" 98 2812 2833 "config.ml" 98 2812 2834
+type(
+  int ref
+)
+ident(
+  int_ref r "config.ml" 98 2812 2825 "config.ml" 98 2812 2826
+)
+"config.ml" 98 2812 2835 "config.ml" 98 2812 2837
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"config.ml" 98 2812 2838 "config.ml" 98 2812 2851
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"config.ml" 98 2812 2852 "config.ml" 98 2812 2853
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 98 2812 2838 "config.ml" 98 2812 2853
+type(
+  int
+)
+"config.ml" 98 2812 2833 "config.ml" 98 2812 2853
+type(
+  unit
+)
+"config.ml" 99 2854 2869 "config.ml" 99 2854 2870
+type(
+  float ref
+)
+ident(
+  def r "config.ml" 99 2854 2875 "config.ml" 99 2854 2899
+)
+"config.ml" 99 2854 2859 "config.ml" 99 2854 2870
+type(
+  ty
+)
+"config.ml" 99 2854 2875 "config.ml" 99 2854 2876
+type(
+  float ref
+)
+ident(
+  int_ref r "config.ml" 99 2854 2869 "config.ml" 99 2854 2870
+)
+"config.ml" 99 2854 2877 "config.ml" 99 2854 2879
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"config.ml" 99 2854 2881 "config.ml" 99 2854 2896
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"config.ml" 99 2854 2897 "config.ml" 99 2854 2898
+type(
+  string
+)
+ident(
+  int_ref v "config.ml" 85 2414 2434 "config.ml" 85 2414 2435
+)
+"config.ml" 99 2854 2880 "config.ml" 99 2854 2899
+type(
+  float
+)
+"config.ml" 99 2854 2875 "config.ml" 99 2854 2899
+type(
+  unit
+)
+"config.ml" 90 2545 2548 "config.ml" 99 2854 2899
+type(
+  unit
+)
+"config.ml" 89 2503 2511 "config.ml" 99 2854 2899
+type(
+  unit
+)
+"config.ml" 87 2446 2449 "config.ml" 99 2854 2899
+type(
+  unit
+)
+"config.ml" 101 2907 2911 "config.ml" 101 2907 2920
+type(
+  exn
+)
+"config.ml" 101 2907 2940 "config.ml" 101 2907 2946
+type(
+  string * string -> unit
+)
+ident(
+  int_ref append "config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+)
+"config.ml" 101 2907 2948 "config.ml" 101 2907 2949
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 101 2907 2951 "config.ml" 101 2907 2964
+type(
+  string
+)
+"config.ml" 101 2907 2947 "config.ml" 101 2907 2965
+type(
+  string * string
+)
+"config.ml" 101 2907 2940 "config.ml" 101 2907 2965
+type(
+  unit
+)
+"config.ml" 102 2966 2978 "config.ml" 102 2966 2993
+type(
+  string
+)
+"config.ml" 102 2966 2970 "config.ml" 102 2966 2993
+type(
+  exn
+)
+"config.ml" 102 2966 2999 "config.ml" 102 2966 3005
+type(
+  string * string -> unit
+)
+ident(
+  int_ref append "config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+)
+"config.ml" 102 2966 3007 "config.ml" 102 2966 3008
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 102 2966 3010 "config.ml" 102 2966 3026
+type(
+  string
+)
+"config.ml" 102 2966 3006 "config.ml" 102 2966 3027
+type(
+  string * string
+)
+"config.ml" 102 2966 2999 "config.ml" 102 2966 3027
+type(
+  unit
+)
+"config.ml" 103 3028 3040 "config.ml" 103 3028 3056
+type(
+  string
+)
+"config.ml" 103 3028 3032 "config.ml" 103 3028 3056
+type(
+  exn
+)
+"config.ml" 103 3028 3061 "config.ml" 103 3028 3067
+type(
+  string * string -> unit
+)
+ident(
+  int_ref append "config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+)
+"config.ml" 103 3028 3069 "config.ml" 103 3028 3070
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 103 3028 3072 "config.ml" 103 3028 3089
+type(
+  string
+)
+"config.ml" 103 3028 3068 "config.ml" 103 3028 3090
+type(
+  string * string
+)
+"config.ml" 103 3028 3061 "config.ml" 103 3028 3090
+type(
+  unit
+)
+"config.ml" 104 3091 3103 "config.ml" 104 3091 3120
+type(
+  string
+)
+"config.ml" 104 3091 3095 "config.ml" 104 3091 3120
+type(
+  exn
+)
+"config.ml" 104 3091 3124 "config.ml" 104 3091 3130
+type(
+  string * string -> unit
+)
+ident(
+  int_ref append "config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+)
+"config.ml" 104 3091 3132 "config.ml" 104 3091 3133
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 104 3091 3135 "config.ml" 104 3091 3153
+type(
+  string
+)
+"config.ml" 104 3091 3131 "config.ml" 104 3091 3154
+type(
+  string * string
+)
+"config.ml" 104 3091 3124 "config.ml" 104 3091 3154
+type(
+  unit
+)
+"config.ml" 105 3155 3159 "config.ml" 105 3155 3162
+type(
+  exn
+)
+ident(
+  def exn "config.ml" 105 3155 3188 "config.ml" 105 3155 3222
+)
+"config.ml" 105 3155 3188 "config.ml" 105 3155 3194
+type(
+  string * string -> unit
+)
+ident(
+  int_ref append "config.ml" 84 2378 2383 "config.ml" 84 2378 2389
+)
+"config.ml" 105 3155 3196 "config.ml" 105 3155 3197
+type(
+  string
+)
+ident(
+  int_ref k "config.ml" 85 2414 2431 "config.ml" 85 2414 2432
+)
+"config.ml" 105 3155 3199 "config.ml" 105 3155 3217
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"config.ml" 105 3155 3218 "config.ml" 105 3155 3221
+type(
+  exn
+)
+ident(
+  int_ref exn "config.ml" 105 3155 3159 "config.ml" 105 3155 3162
+)
+"config.ml" 105 3155 3199 "config.ml" 105 3155 3221
+type(
+  string
+)
+"config.ml" 105 3155 3195 "config.ml" 105 3155 3222
+type(
+  string * string
+)
+"config.ml" 105 3155 3188 "config.ml" 105 3155 3222
+type(
+  unit
+)
+"config.ml" 86 2440 2442 "config.ml" 105 3155 3222
+type(
+  unit
+)
+"config.ml" 85 2414 2425 "config.ml" 106 3223 3226
+type(
+  string * string -> unit
+)
+"config.ml" 106 3223 3227 "config.ml" 106 3223 3229
+type(
+  (string * string) list
+)
+ident(
+  int_ref cf "config.ml" 82 2324 2337 "config.ml" 82 2324 2339
+)
+"config.ml" 85 2414 2415 "config.ml" 106 3223 3229
+type(
+  unit
+)
+"config.ml" 107 3231 3235 "config.ml" 107 3231 3236
+type(
+  (string * string) list ref -> (string * string) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 107 3231 3236 "config.ml" 107 3231 3239
+type(
+  (string * string) list ref
+)
+ident(
+  int_ref err "config.ml" 83 2357 2362 "config.ml" 83 2357 2365
+)
+"config.ml" 107 3231 3235 "config.ml" 107 3231 3239
+type(
+  (string * string) list
+)
+"config.ml" 107 3231 3240 "config.ml" 107 3231 3242
+type(
+  (string * string) list -> (string * string) list -> bool
+)
+ident(
+  ext_ref Pervasives.!=
+)
+"config.ml" 107 3231 3243 "config.ml" 107 3231 3245
+type(
+  (string * string) list
+)
+"config.ml" 107 3231 3235 "config.ml" 107 3231 3245
+type(
+  bool
+)
+"config.ml" 107 3231 3251 "config.ml" 107 3231 3256
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"config.ml" 107 3231 3264 "config.ml" 107 3231 3265
+type(
+  (string * string) list ref -> (string * string) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"config.ml" 107 3231 3265 "config.ml" 107 3231 3268
+type(
+  (string * string) list ref
+)
+ident(
+  int_ref err "config.ml" 83 2357 2362 "config.ml" 83 2357 2365
+)
+"config.ml" 107 3231 3264 "config.ml" 107 3231 3268
+type(
+  (string * string) list
+)
+"config.ml" 107 3231 3257 "config.ml" 107 3231 3269
+type(
+  exn
+)
+"config.ml" 107 3231 3251 "config.ml" 107 3231 3269
+type(
+  unit
+)
+"config.ml" 107 3231 3232 "config.ml" 107 3231 3269
+type(
+  unit
+)
+"config.ml" 85 2414 2415 "config.ml" 107 3231 3269
+type(
+  unit
+)
+"config.ml" 84 2378 2379 "config.ml" 107 3231 3269
+type(
+  unit
+)
+"config.ml" 83 2357 2358 "config.ml" 107 3231 3269
+type(
+  unit
+)
+"config.ml" 110 3344 3348 "config.ml" 110 3344 3352
+type(
+  string -> (string * ty) list -> (string -> string -> unit) -> unit
+)
+ident(
+  def read "config.ml" 112 3407 3434 --
+)
+"config.ml" 110 3344 3353 "config.ml" 110 3344 3361
+type(
+  string
+)
+ident(
+  def filename "config.ml" 110 3344 3362 "config.ml" 112 3407 3434
+)
+"config.ml" 110 3344 3362 "config.ml" 110 3344 3370
+type(
+  (string * ty) list
+)
+ident(
+  def expected "config.ml" 110 3344 3371 "config.ml" 112 3407 3434
+)
+"config.ml" 110 3344 3371 "config.ml" 110 3344 3376
+type(
+  string -> string -> unit
+)
+ident(
+  def other "config.ml" 111 3379 3380 "config.ml" 112 3407 3434
+)
+"config.ml" 111 3379 3384 "config.ml" 111 3379 3386
+type(
+  (string * string) list
+)
+"config.ml" 111 3379 3389 "config.ml" 111 3379 3394
+type(
+  string -> (string * string) list
+)
+ident(
+  int_ref parse "config.ml" 76 2215 2219 "config.ml" 76 2215 2224
+)
+"config.ml" 111 3379 3395 "config.ml" 111 3379 3403
+type(
+  string
+)
+ident(
+  int_ref filename "config.ml" 110 3344 3353 "config.ml" 110 3344 3361
+)
+"config.ml" 111 3379 3389 "config.ml" 111 3379 3403
+type(
+  (string * string) list
+)
+"config.ml" 112 3407 3408 "config.ml" 112 3407 3416
+type(
+  (string * string) list ->
+  (string * ty) list -> (string -> string -> unit) -> unit
+)
+ident(
+  int_ref validate "config.ml" 82 2324 2328 "config.ml" 82 2324 2336
+)
+"config.ml" 112 3407 3417 "config.ml" 112 3407 3419
+type(
+  (string * string) list
+)
+ident(
+  int_ref cf "config.ml" 111 3379 3384 "config.ml" 111 3379 3386
+)
+"config.ml" 112 3407 3420 "config.ml" 112 3407 3428
+type(
+  (string * ty) list
+)
+ident(
+  int_ref expected "config.ml" 110 3344 3362 "config.ml" 110 3344 3370
+)
+"config.ml" 112 3407 3429 "config.ml" 112 3407 3434
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref other "config.ml" 110 3344 3371 "config.ml" 110 3344 3376
+)
+"config.ml" 112 3407 3408 "config.ml" 112 3407 3434
+type(
+  unit
+)
+"config.ml" 111 3379 3380 "config.ml" 112 3407 3434
+type(
+  unit
+)

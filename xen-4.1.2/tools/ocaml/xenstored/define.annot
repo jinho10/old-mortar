@@ -1,0 +1,132 @@
+"define.ml" 17 676 680 "define.ml" 17 676 695
+type(
+  int
+)
+ident(
+  def xenstored_major "define.ml" 18 700 700 --
+)
+"define.ml" 17 676 698 "define.ml" 17 676 699
+type(
+  int
+)
+"define.ml" 18 700 704 "define.ml" 18 700 719
+type(
+  int
+)
+ident(
+  def xenstored_minor "define.ml" 20 725 725 --
+)
+"define.ml" 18 700 722 "define.ml" 18 700 723
+type(
+  int
+)
+"define.ml" 20 725 729 "define.ml" 20 725 747
+type(
+  string
+)
+ident(
+  def xenstored_proc_kva "define.ml" 21 770 770 --
+)
+"define.ml" 20 725 750 "define.ml" 20 725 769
+type(
+  string
+)
+"define.ml" 21 770 774 "define.ml" 21 770 793
+type(
+  string
+)
+ident(
+  def xenstored_proc_port "define.ml" 23 818 818 --
+)
+"define.ml" 21 770 796 "define.ml" 21 770 816
+type(
+  string
+)
+"define.ml" 23 818 822 "define.ml" 23 818 838
+type(
+  string
+)
+ident(
+  def xs_daemon_socket "define.ml" 24 869 869 --
+)
+"define.ml" 23 818 841 "define.ml" 23 818 868
+type(
+  string
+)
+"define.ml" 24 869 873 "define.ml" 24 869 892
+type(
+  string
+)
+ident(
+  def xs_daemon_socket_ro "define.ml" 26 927 927 --
+)
+"define.ml" 24 869 895 "define.ml" 24 869 925
+type(
+  string
+)
+"define.ml" 26 927 931 "define.ml" 26 927 949
+type(
+  string
+)
+ident(
+  def default_config_dir "define.ml" 28 970 970 --
+)
+"define.ml" 26 927 952 "define.ml" 26 927 968
+type(
+  string
+)
+"define.ml" 28 970 974 "define.ml" 28 970 982
+type(
+  int ref
+)
+ident(
+  def maxwatch "define.ml" 29 994 994 --
+)
+"define.ml" 28 970 985 "define.ml" 28 970 988
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"define.ml" 28 970 989 "define.ml" 28 970 993
+type(
+  int
+)
+"define.ml" 28 970 985 "define.ml" 28 970 993
+type(
+  int ref
+)
+"define.ml" 29 994 998 "define.ml" 29 994 1012
+type(
+  int ref
+)
+ident(
+  def maxtransaction "define.ml" 31 1025 1025 --
+)
+"define.ml" 29 994 1015 "define.ml" 29 994 1018
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"define.ml" 29 994 1019 "define.ml" 29 994 1023
+type(
+  int
+)
+"define.ml" 29 994 1015 "define.ml" 29 994 1023
+type(
+  int ref
+)
+"define.ml" 31 1025 1029 "define.ml" 31 1025 1039
+type(
+  int
+)
+ident(
+  def domid_self "define.ml" 33 1050 1050 --
+)
+"define.ml" 31 1025 1042 "define.ml" 31 1025 1048
+type(
+  int
+)

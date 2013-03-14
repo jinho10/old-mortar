@@ -1,0 +1,9099 @@
+"process.ml" 25 813 817 "process.ml" 25 813 828
+type(
+  bool ref
+)
+ident(
+  def allow_debug "process.ml" 27 842 842 --
+)
+"process.ml" 25 813 831 "process.ml" 25 813 834
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"process.ml" 25 813 835 "process.ml" 25 813 840
+type(
+  bool
+)
+"process.ml" 25 813 831 "process.ml" 25 813 840
+type(
+  bool ref
+)
+"process.ml" 27 842 846 "process.ml" 27 842 861
+type(
+  string -> int
+)
+ident(
+  def c_int_of_string "process.ml" 44 1322 1322 --
+)
+"process.ml" 27 842 862 "process.ml" 27 842 863
+type(
+  string
+)
+ident(
+  def s "process.ml" 28 866 867 "process.ml" 39 1156 1159
+)
+"process.ml" 28 866 871 "process.ml" 28 866 872
+type(
+  int ref
+)
+"process.ml" 28 866 875 "process.ml" 28 866 878
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"process.ml" 28 866 879 "process.ml" 28 866 880
+type(
+  int
+)
+"process.ml" 28 866 875 "process.ml" 28 866 880
+type(
+  int ref
+)
+"process.ml" 29 884 889 "process.ml" 29 884 897
+type(
+  char -> bool
+)
+"process.ml" 29 884 898 "process.ml" 29 884 899
+type(
+  char
+)
+ident(
+  def c "process.ml" 29 884 902 "process.ml" 29 884 922
+)
+"process.ml" 29 884 902 "process.ml" 29 884 903
+type(
+  char
+)
+ident(
+  int_ref c "process.ml" 29 884 898 "process.ml" 29 884 899
+)
+"process.ml" 29 884 904 "process.ml" 29 884 906
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"process.ml" 29 884 907 "process.ml" 29 884 910
+type(
+  char
+)
+"process.ml" 29 884 902 "process.ml" 29 884 910
+type(
+  bool
+)
+"process.ml" 29 884 911 "process.ml" 29 884 913
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"process.ml" 29 884 914 "process.ml" 29 884 915
+type(
+  char
+)
+ident(
+  int_ref c "process.ml" 29 884 898 "process.ml" 29 884 899
+)
+"process.ml" 29 884 916 "process.ml" 29 884 918
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"process.ml" 29 884 919 "process.ml" 29 884 922
+type(
+  char
+)
+"process.ml" 29 884 914 "process.ml" 29 884 922
+type(
+  bool
+)
+"process.ml" 29 884 902 "process.ml" 29 884 922
+type(
+  bool
+)
+"process.ml" 30 926 931 "process.ml" 30 926 934
+type(
+  int
+)
+"process.ml" 30 926 937 "process.ml" 30 926 950
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"process.ml" 30 926 951 "process.ml" 30 926 952
+type(
+  string
+)
+ident(
+  int_ref s "process.ml" 27 842 862 "process.ml" 27 842 863
+)
+"process.ml" 30 926 937 "process.ml" 30 926 952
+type(
+  int
+)
+"process.ml" 31 956 961 "process.ml" 31 956 962
+type(
+  int ref
+)
+"process.ml" 31 956 965 "process.ml" 31 956 968
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"process.ml" 31 956 969 "process.ml" 31 956 970
+type(
+  int
+)
+"process.ml" 31 956 965 "process.ml" 31 956 970
+type(
+  int ref
+)
+"process.ml" 32 974 981 "process.ml" 32 974 982
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 32 974 982 "process.ml" 32 974 983
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 32 974 981 "process.ml" 32 974 983
+type(
+  int
+)
+"process.ml" 32 974 984 "process.ml" 32 974 985
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"process.ml" 32 974 986 "process.ml" 32 974 989
+type(
+  int
+)
+ident(
+  int_ref len "process.ml" 30 926 931 "process.ml" 30 926 934
+)
+"process.ml" 32 974 981 "process.ml" 32 974 989
+type(
+  bool
+)
+"process.ml" 32 974 990 "process.ml" 32 974 992
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"process.ml" 32 974 993 "process.ml" 32 974 996
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 32 974 998 "process.ml" 32 974 1006
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "process.ml" 29 884 889 "process.ml" 29 884 897
+)
+"process.ml" 32 974 1007 "process.ml" 32 974 1008
+type(
+  string
+)
+ident(
+  int_ref s "process.ml" 27 842 862 "process.ml" 27 842 863
+)
+"process.ml" 32 974 1010 "process.ml" 32 974 1011
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 32 974 1011 "process.ml" 32 974 1012
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 32 974 1010 "process.ml" 32 974 1012
+type(
+  int
+)
+"process.ml" 32 974 1007 "process.ml" 32 974 1013
+type(
+  char
+)
+"process.ml" 32 974 997 "process.ml" 32 974 1014
+type(
+  bool
+)
+"process.ml" 32 974 993 "process.ml" 32 974 1014
+type(
+  bool
+)
+"process.ml" 32 974 981 "process.ml" 32 974 1014
+type(
+  bool
+)
+"process.ml" 32 974 1018 "process.ml" 32 974 1022
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"process.ml" 32 974 1023 "process.ml" 32 974 1024
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 32 974 1018 "process.ml" 32 974 1024
+type(
+  unit
+)
+"process.ml" 32 974 975 "process.ml" 32 974 1029
+type(
+  unit
+)
+"process.ml" 33 1031 1038 "process.ml" 33 1031 1039
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 33 1031 1039 "process.ml" 33 1031 1040
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 33 1031 1038 "process.ml" 33 1031 1040
+type(
+  int
+)
+"process.ml" 33 1031 1041 "process.ml" 33 1031 1042
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"process.ml" 33 1031 1043 "process.ml" 33 1031 1046
+type(
+  int
+)
+ident(
+  int_ref len "process.ml" 30 926 931 "process.ml" 30 926 934
+)
+"process.ml" 33 1031 1038 "process.ml" 33 1031 1046
+type(
+  bool
+)
+"process.ml" 33 1031 1047 "process.ml" 33 1031 1049
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"process.ml" 33 1031 1050 "process.ml" 33 1031 1058
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "process.ml" 29 884 889 "process.ml" 29 884 897
+)
+"process.ml" 33 1031 1059 "process.ml" 33 1031 1060
+type(
+  string
+)
+ident(
+  int_ref s "process.ml" 27 842 862 "process.ml" 27 842 863
+)
+"process.ml" 33 1031 1062 "process.ml" 33 1031 1063
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 33 1031 1063 "process.ml" 33 1031 1064
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 33 1031 1062 "process.ml" 33 1031 1064
+type(
+  int
+)
+"process.ml" 33 1031 1059 "process.ml" 33 1031 1065
+type(
+  char
+)
+"process.ml" 33 1031 1050 "process.ml" 33 1031 1065
+type(
+  bool
+)
+"process.ml" 33 1031 1038 "process.ml" 33 1031 1065
+type(
+  bool
+)
+"process.ml" 35 1070 1076 "process.ml" 35 1070 1077
+type(
+  int
+)
+ident(
+  def x "process.ml" 36 1120 1122 "process.ml" 37 1140 1148
+)
+"process.ml" 35 1070 1081 "process.ml" 35 1070 1090
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"process.ml" 35 1070 1091 "process.ml" 35 1070 1092
+type(
+  string
+)
+ident(
+  int_ref s "process.ml" 27 842 862 "process.ml" 27 842 863
+)
+"process.ml" 35 1070 1094 "process.ml" 35 1070 1095
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 35 1070 1095 "process.ml" 35 1070 1096
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 35 1070 1094 "process.ml" 35 1070 1096
+type(
+  int
+)
+"process.ml" 35 1070 1091 "process.ml" 35 1070 1097
+type(
+  char
+)
+"process.ml" 35 1070 1080 "process.ml" 35 1070 1098
+type(
+  int
+)
+"process.ml" 35 1070 1099 "process.ml" 35 1070 1100
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"process.ml" 35 1070 1102 "process.ml" 35 1070 1111
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"process.ml" 35 1070 1112 "process.ml" 35 1070 1115
+type(
+  char
+)
+"process.ml" 35 1070 1101 "process.ml" 35 1070 1116
+type(
+  int
+)
+"process.ml" 35 1070 1080 "process.ml" 35 1070 1116
+type(
+  int
+)
+"process.ml" 36 1120 1122 "process.ml" 36 1120 1123
+type(
+  int ref
+)
+ident(
+  int_ref v "process.ml" 28 866 871 "process.ml" 28 866 872
+)
+"process.ml" 36 1120 1124 "process.ml" 36 1120 1126
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"process.ml" 36 1120 1127 "process.ml" 36 1120 1128
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 36 1120 1128 "process.ml" 36 1120 1129
+type(
+  int ref
+)
+ident(
+  int_ref v "process.ml" 28 866 871 "process.ml" 28 866 872
+)
+"process.ml" 36 1120 1127 "process.ml" 36 1120 1129
+type(
+  int
+)
+"process.ml" 36 1120 1130 "process.ml" 36 1120 1131
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"process.ml" 36 1120 1132 "process.ml" 36 1120 1134
+type(
+  int
+)
+"process.ml" 36 1120 1127 "process.ml" 36 1120 1134
+type(
+  int
+)
+"process.ml" 36 1120 1135 "process.ml" 36 1120 1136
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"process.ml" 36 1120 1137 "process.ml" 36 1120 1138
+type(
+  int
+)
+ident(
+  int_ref x "process.ml" 35 1070 1076 "process.ml" 35 1070 1077
+)
+"process.ml" 36 1120 1127 "process.ml" 36 1120 1138
+type(
+  int
+)
+"process.ml" 36 1120 1122 "process.ml" 36 1120 1138
+type(
+  unit
+)
+"process.ml" 37 1140 1142 "process.ml" 37 1140 1146
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"process.ml" 37 1140 1147 "process.ml" 37 1140 1148
+type(
+  int ref
+)
+ident(
+  int_ref i "process.ml" 31 956 961 "process.ml" 31 956 962
+)
+"process.ml" 37 1140 1142 "process.ml" 37 1140 1148
+type(
+  unit
+)
+"process.ml" 36 1120 1122 "process.ml" 37 1140 1148
+type(
+  unit
+)
+"process.ml" 35 1070 1072 "process.ml" 37 1140 1148
+type(
+  unit
+)
+"process.ml" 33 1031 1032 "process.ml" 38 1149 1154
+type(
+  unit
+)
+"process.ml" 39 1156 1157 "process.ml" 39 1156 1158
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 39 1156 1158 "process.ml" 39 1156 1159
+type(
+  int ref
+)
+ident(
+  int_ref v "process.ml" 28 866 871 "process.ml" 28 866 872
+)
+"process.ml" 39 1156 1157 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 33 1031 1032 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 32 974 975 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 31 956 957 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 30 926 927 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 29 884 885 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 28 866 867 "process.ml" 39 1156 1159
+type(
+  int
+)
+"process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  def split "process.ml" 48 1427 1427 --
+)
+"process.ml" 44 1322 1332 "process.ml" 44 1322 1337
+type(
+  int option
+)
+ident(
+  def limit "process.ml" 44 1322 1338 "process.ml" 46 1401 1425
+)
+"process.ml" 44 1322 1338 "process.ml" 44 1322 1339
+type(
+  char
+)
+ident(
+  def c "process.ml" 44 1322 1340 "process.ml" 46 1401 1425
+)
+"process.ml" 44 1322 1340 "process.ml" 44 1322 1341
+type(
+  string
+)
+ident(
+  def s "process.ml" 45 1344 1345 "process.ml" 46 1401 1425
+)
+"process.ml" 45 1344 1349 "process.ml" 45 1344 1354
+type(
+  int
+)
+"process.ml" 45 1344 1363 "process.ml" 45 1344 1368
+type(
+  int option
+)
+ident(
+  int_ref limit "process.ml" 44 1322 1332 "process.ml" 44 1322 1337
+)
+"process.ml" 45 1344 1374 "process.ml" 45 1344 1378
+type(
+  int option
+)
+"process.ml" 45 1344 1382 "process.ml" 45 1344 1383
+type(
+  int
+)
+"process.ml" 45 1344 1391 "process.ml" 45 1344 1392
+type(
+  int
+)
+ident(
+  def x "process.ml" 45 1344 1396 "process.ml" 45 1344 1397
+)
+"process.ml" 45 1344 1386 "process.ml" 45 1344 1392
+type(
+  int option
+)
+"process.ml" 45 1344 1396 "process.ml" 45 1344 1397
+type(
+  int
+)
+ident(
+  int_ref x "process.ml" 45 1344 1391 "process.ml" 45 1344 1392
+)
+"process.ml" 45 1344 1357 "process.ml" 45 1344 1397
+type(
+  int
+)
+"process.ml" 46 1401 1402 "process.ml" 46 1401 1414
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  ext_ref Stdext.String.split
+)
+"process.ml" 46 1401 1416 "process.ml" 46 1401 1421
+type(
+  int
+)
+ident(
+  int_ref limit "process.ml" 45 1344 1349 "process.ml" 45 1344 1354
+)
+"process.ml" 46 1401 1422 "process.ml" 46 1401 1423
+type(
+  char
+)
+ident(
+  int_ref c "process.ml" 44 1322 1338 "process.ml" 44 1322 1339
+)
+"process.ml" 46 1401 1424 "process.ml" 46 1401 1425
+type(
+  string
+)
+ident(
+  int_ref s "process.ml" 44 1322 1340 "process.ml" 44 1322 1341
+)
+"process.ml" 46 1401 1402 "process.ml" 46 1401 1425
+type(
+  string list
+)
+"process.ml" 45 1344 1345 "process.ml" 46 1401 1425
+type(
+  string list
+)
+"process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  def split_one_path "process.ml" 54 1635 1635 --
+)
+"process.ml" 48 1427 1446 "process.ml" 48 1427 1450
+type(
+  string
+)
+ident(
+  def data "process.ml" 48 1427 1451 "process.ml" 52 1588 1633
+)
+"process.ml" 48 1427 1451 "process.ml" 48 1427 1454
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 49 1457 1458 "process.ml" 52 1588 1633
+)
+"process.ml" 49 1457 1462 "process.ml" 49 1457 1466
+type(
+  string list
+)
+"process.ml" 49 1457 1469 "process.ml" 49 1457 1474
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 49 1457 1481 "process.ml" 49 1457 1482
+type(
+  int
+)
+"process.ml" 49 1457 1475 "process.ml" 49 1457 1483
+type(
+  int option
+)
+"process.ml" 49 1457 1484 "process.ml" 49 1457 1490
+type(
+  char
+)
+"process.ml" 49 1457 1491 "process.ml" 49 1457 1495
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 48 1427 1446 "process.ml" 48 1427 1450
+)
+"process.ml" 49 1457 1469 "process.ml" 49 1457 1495
+type(
+  string list
+)
+"process.ml" 50 1499 1506 "process.ml" 50 1499 1510
+type(
+  string list
+)
+ident(
+  int_ref args "process.ml" 49 1457 1462 "process.ml" 49 1457 1466
+)
+"process.ml" 51 1516 1519 "process.ml" 51 1516 1523
+type(
+  string
+)
+ident(
+  def path "process.ml" 51 1516 1539 "process.ml" 51 1516 1587
+)
+"process.ml" 51 1516 1527 "process.ml" 51 1516 1529
+type(
+  string
+)
+"process.ml" 51 1516 1533 "process.ml" 51 1516 1535
+type(
+  string list
+)
+"process.ml" 51 1516 1527 "process.ml" 51 1516 1535
+type(
+  string list
+)
+"process.ml" 51 1516 1519 "process.ml" 51 1516 1535
+type(
+  string list
+)
+"process.ml" 51 1516 1539 "process.ml" 51 1516 1556
+type(
+  string -> string -> string list
+)
+ident(
+  ext_ref Store.Path.create
+)
+"process.ml" 51 1516 1557 "process.ml" 51 1516 1561
+type(
+  string
+)
+ident(
+  int_ref path "process.ml" 51 1516 1519 "process.ml" 51 1516 1523
+)
+"process.ml" 51 1516 1563 "process.ml" 51 1516 1582
+type(
+  Connection.t -> string
+)
+ident(
+  ext_ref Connection.get_path
+)
+"process.ml" 51 1516 1583 "process.ml" 51 1516 1586
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 48 1427 1451 "process.ml" 48 1427 1454
+)
+"process.ml" 51 1516 1562 "process.ml" 51 1516 1587
+type(
+  string
+)
+"process.ml" 51 1516 1539 "process.ml" 51 1516 1587
+type(
+  string list
+)
+"process.ml" 52 1588 1591 "process.ml" 52 1588 1592
+type(
+  string list
+)
+"process.ml" 52 1588 1611 "process.ml" 52 1588 1616
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 52 1588 1617 "process.ml" 52 1588 1633
+type(
+  exn
+)
+"process.ml" 52 1588 1611 "process.ml" 52 1588 1633
+type(
+  string list
+)
+"process.ml" 50 1499 1500 "process.ml" 52 1588 1633
+type(
+  string list
+)
+"process.ml" 49 1457 1458 "process.ml" 52 1588 1633
+type(
+  string list
+)
+"process.ml" 54 1635 1639 "process.ml" 54 1635 1652
+type(
+  (Xb.Op.operation * string list) list -> Connections.t -> unit
+)
+ident(
+  def process_watch "process.ml" 65 1987 1987 --
+)
+"process.ml" 54 1635 1653 "process.ml" 54 1635 1656
+type(
+  (Xb.Op.operation * string list) list
+)
+ident(
+  def ops "process.ml" 54 1635 1657 "process.ml" 63 1939 1985
+)
+"process.ml" 54 1635 1657 "process.ml" 54 1635 1661
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 55 1664 1665 "process.ml" 63 1939 1985
+)
+"process.ml" 55 1664 1669 "process.ml" 55 1664 1680
+type(
+  Xb.Op.operation * string list -> Connections.t -> unit
+)
+"process.ml" 55 1664 1681 "process.ml" 55 1664 1683
+type(
+  Xb.Op.operation * string list
+)
+ident(
+  def op "process.ml" 55 1664 1684 "process.ml" 62 1887 1935
+)
+"process.ml" 55 1664 1684 "process.ml" 55 1664 1688
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 56 1691 1693 "process.ml" 62 1887 1935
+)
+"process.ml" 56 1691 1697 "process.ml" 56 1691 1704
+type(
+  bool
+)
+"process.ml" 56 1691 1714 "process.ml" 56 1691 1717
+type(
+  Xb.Op.operation * string list -> Xb.Op.operation
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"process.ml" 56 1691 1718 "process.ml" 56 1691 1720
+type(
+  Xb.Op.operation * string list
+)
+ident(
+  int_ref op "process.ml" 55 1664 1681 "process.ml" 55 1664 1683
+)
+"process.ml" 56 1691 1713 "process.ml" 56 1691 1721
+type(
+  Xb.Op.operation
+)
+"process.ml" 57 1727 1731 "process.ml" 57 1727 1742
+type(
+  Xb.Op.operation
+)
+"process.ml" 57 1727 1749 "process.ml" 57 1727 1754
+type(
+  bool
+)
+"process.ml" 58 1755 1759 "process.ml" 58 1755 1770
+type(
+  Xb.Op.operation
+)
+"process.ml" 58 1755 1777 "process.ml" 58 1755 1782
+type(
+  bool
+)
+"process.ml" 59 1783 1787 "process.ml" 59 1783 1795
+type(
+  Xb.Op.operation
+)
+"process.ml" 59 1783 1805 "process.ml" 59 1783 1809
+type(
+  bool
+)
+"process.ml" 60 1810 1814 "process.ml" 60 1810 1828
+type(
+  Xb.Op.operation
+)
+"process.ml" 60 1810 1832 "process.ml" 60 1810 1837
+type(
+  bool
+)
+"process.ml" 61 1838 1842 "process.ml" 61 1838 1843
+type(
+  Xb.Op.operation
+)
+"process.ml" 61 1838 1860 "process.ml" 61 1838 1865
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 61 1838 1875 "process.ml" 61 1838 1882
+type(
+  string
+)
+"process.ml" 61 1838 1866 "process.ml" 61 1838 1883
+type(
+  exn
+)
+"process.ml" 61 1838 1860 "process.ml" 61 1838 1883
+type(
+  bool
+)
+"process.ml" 56 1691 1707 "process.ml" 61 1838 1883
+type(
+  bool
+)
+"process.ml" 62 1887 1889 "process.ml" 62 1887 1913
+type(
+  Connections.t -> string list -> bool -> unit
+)
+ident(
+  ext_ref Connections.fire_watches
+)
+"process.ml" 62 1887 1914 "process.ml" 62 1887 1918
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 55 1664 1684 "process.ml" 55 1664 1688
+)
+"process.ml" 62 1887 1920 "process.ml" 62 1887 1923
+type(
+  Xb.Op.operation * string list -> string list
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"process.ml" 62 1887 1924 "process.ml" 62 1887 1926
+type(
+  Xb.Op.operation * string list
+)
+ident(
+  int_ref op "process.ml" 55 1664 1681 "process.ml" 55 1664 1683
+)
+"process.ml" 62 1887 1919 "process.ml" 62 1887 1927
+type(
+  string list
+)
+"process.ml" 62 1887 1928 "process.ml" 62 1887 1935
+type(
+  bool
+)
+ident(
+  int_ref recurse "process.ml" 56 1691 1697 "process.ml" 56 1691 1704
+)
+"process.ml" 62 1887 1889 "process.ml" 62 1887 1935
+type(
+  unit
+)
+"process.ml" 56 1691 1693 "process.ml" 62 1887 1935
+type(
+  unit
+)
+"process.ml" 63 1939 1940 "process.ml" 63 1939 1949
+type(
+  (Xb.Op.operation * string list -> unit) ->
+  (Xb.Op.operation * string list) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"process.ml" 63 1939 1955 "process.ml" 63 1939 1957
+type(
+  Xb.Op.operation * string list
+)
+ident(
+  def op "process.ml" 63 1939 1961 "process.ml" 63 1939 1980
+)
+"process.ml" 63 1939 1961 "process.ml" 63 1939 1972
+type(
+  Xb.Op.operation * string list -> Connections.t -> unit
+)
+ident(
+  int_ref do_op_watch "process.ml" 55 1664 1669 "process.ml" 55 1664 1680
+)
+"process.ml" 63 1939 1973 "process.ml" 63 1939 1975
+type(
+  Xb.Op.operation * string list
+)
+ident(
+  int_ref op "process.ml" 63 1939 1955 "process.ml" 63 1939 1957
+)
+"process.ml" 63 1939 1976 "process.ml" 63 1939 1980
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 54 1635 1657 "process.ml" 54 1635 1661
+)
+"process.ml" 63 1939 1961 "process.ml" 63 1939 1980
+type(
+  unit
+)
+"process.ml" 63 1939 1950 "process.ml" 63 1939 1981
+type(
+  Xb.Op.operation * string list -> unit
+)
+"process.ml" 63 1939 1982 "process.ml" 63 1939 1985
+type(
+  (Xb.Op.operation * string list) list
+)
+ident(
+  int_ref ops "process.ml" 54 1635 1653 "process.ml" 54 1635 1656
+)
+"process.ml" 63 1939 1940 "process.ml" 63 1939 1985
+type(
+  unit
+)
+"process.ml" 55 1664 1665 "process.ml" 63 1939 1985
+type(
+  unit
+)
+"process.ml" 65 1987 1991 "process.ml" 65 1987 2011
+type(
+  Transaction.t -> Perms.Connection.t -> string list -> unit
+)
+ident(
+  def create_implicit_path "process.ml" 81 2436 2436 --
+)
+"process.ml" 65 1987 2012 "process.ml" 65 1987 2013
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 65 1987 2014 "process.ml" 78 2418 2420
+)
+"process.ml" 65 1987 2014 "process.ml" 65 1987 2018
+type(
+  Perms.Connection.t
+)
+ident(
+  def perm "process.ml" 65 1987 2019 "process.ml" 78 2418 2420
+)
+"process.ml" 65 1987 2019 "process.ml" 65 1987 2023
+type(
+  string list
+)
+ident(
+  def path "process.ml" 66 2026 2027 "process.ml" 78 2418 2420
+)
+"process.ml" 66 2026 2031 "process.ml" 66 2026 2038
+type(
+  string list
+)
+"process.ml" 66 2026 2041 "process.ml" 66 2026 2062
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Store.Path.get_parent
+)
+"process.ml" 66 2026 2063 "process.ml" 66 2026 2067
+type(
+  string list
+)
+ident(
+  int_ref path "process.ml" 65 1987 2019 "process.ml" 65 1987 2023
+)
+"process.ml" 66 2026 2041 "process.ml" 66 2026 2067
+type(
+  string list
+)
+"process.ml" 67 2071 2075 "process.ml" 67 2071 2078
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 67 2071 2080 "process.ml" 67 2071 2103
+type(
+  Transaction.t -> string list -> bool
+)
+ident(
+  ext_ref Transaction.path_exists
+)
+"process.ml" 67 2071 2104 "process.ml" 67 2071 2105
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 65 1987 2012 "process.ml" 65 1987 2013
+)
+"process.ml" 67 2071 2106 "process.ml" 67 2071 2113
+type(
+  string list
+)
+ident(
+  int_ref dirname "process.ml" 66 2026 2031 "process.ml" 66 2026 2038
+)
+"process.ml" 67 2071 2079 "process.ml" 67 2071 2114
+type(
+  bool
+)
+"process.ml" 67 2071 2075 "process.ml" 67 2071 2114
+type(
+  bool
+)
+"process.ml" 68 2122 2132 "process.ml" 68 2122 2142
+type(
+  string list list -> string list list
+)
+"process.ml" 68 2122 2143 "process.ml" 68 2122 2144
+type(
+  string list list
+)
+ident(
+  def p "process.ml" 69 2147 2150 "process.ml" 75 2265 2271
+)
+"process.ml" 69 2147 2156 "process.ml" 69 2147 2157
+type(
+  string list list
+)
+ident(
+  int_ref p "process.ml" 68 2122 2143 "process.ml" 68 2122 2144
+)
+"process.ml" 70 2163 2168 "process.ml" 70 2163 2170
+type(
+  string list list
+)
+"process.ml" 70 2163 2179 "process.ml" 70 2163 2181
+type(
+  string list list
+)
+"process.ml" 71 2182 2187 "process.ml" 71 2182 2188
+type(
+  string list
+)
+ident(
+  def h "process.ml" 72 2198 2202 "process.ml" 75 2265 2271
+)
+"process.ml" 71 2182 2192 "process.ml" 71 2182 2193
+type(
+  string list list
+)
+ident(
+  def l "process.ml" 72 2198 2202 "process.ml" 75 2265 2271
+)
+"process.ml" 71 2182 2187 "process.ml" 71 2182 2193
+type(
+  string list list
+)
+"process.ml" 72 2198 2205 "process.ml" 72 2198 2228
+type(
+  Transaction.t -> string list -> bool
+)
+ident(
+  ext_ref Transaction.path_exists
+)
+"process.ml" 72 2198 2229 "process.ml" 72 2198 2230
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 65 1987 2012 "process.ml" 65 1987 2013
+)
+"process.ml" 72 2198 2231 "process.ml" 72 2198 2232
+type(
+  string list
+)
+ident(
+  int_ref h "process.ml" 71 2182 2187 "process.ml" 71 2182 2188
+)
+"process.ml" 72 2198 2205 "process.ml" 72 2198 2232
+type(
+  bool
+)
+"process.ml" 73 2238 2243 "process.ml" 73 2238 2253
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref check_path "process.ml" 68 2122 2132 "process.ml" 68 2122 2142
+)
+"process.ml" 73 2238 2254 "process.ml" 73 2238 2255
+type(
+  string list list
+)
+ident(
+  int_ref l "process.ml" 71 2182 2192 "process.ml" 71 2182 2193
+)
+"process.ml" 73 2238 2243 "process.ml" 73 2238 2255
+type(
+  string list list
+)
+"process.ml" 75 2265 2270 "process.ml" 75 2265 2271
+type(
+  string list list
+)
+ident(
+  int_ref p "process.ml" 68 2122 2143 "process.ml" 68 2122 2144
+)
+"process.ml" 72 2198 2202 "process.ml" 75 2265 2271
+type(
+  string list list
+)
+"process.ml" 69 2147 2150 "process.ml" 75 2265 2271
+type(
+  string list list
+)
+"process.ml" 76 2275 2281 "process.ml" 76 2275 2284
+type(
+  string list list
+)
+"process.ml" 76 2275 2287 "process.ml" 76 2275 2297
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref check_path "process.ml" 68 2122 2132 "process.ml" 68 2122 2142
+)
+"process.ml" 76 2275 2299 "process.ml" 76 2275 2306
+type(
+  string list list -> string list list
+)
+ident(
+  ext_ref List.tl
+)
+"process.ml" 76 2275 2308 "process.ml" 76 2275 2332
+type(
+  string list -> string list list
+)
+ident(
+  ext_ref Store.Path.get_hierarchy
+)
+"process.ml" 76 2275 2333 "process.ml" 76 2275 2340
+type(
+  string list
+)
+ident(
+  int_ref dirname "process.ml" 66 2026 2031 "process.ml" 66 2026 2038
+)
+"process.ml" 76 2275 2307 "process.ml" 76 2275 2341
+type(
+  string list list
+)
+"process.ml" 76 2275 2298 "process.ml" 76 2275 2342
+type(
+  string list list
+)
+"process.ml" 76 2275 2287 "process.ml" 76 2275 2342
+type(
+  string list list
+)
+"process.ml" 77 2346 2348 "process.ml" 77 2346 2357
+type(
+  (Store.Path.t -> unit) -> Store.Path.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"process.ml" 77 2346 2363 "process.ml" 77 2346 2364
+type(
+  Store.Path.t
+)
+ident(
+  def s "process.ml" 77 2346 2368 "process.ml" 77 2346 2412
+)
+"process.ml" 77 2346 2368 "process.ml" 77 2346 2385
+type(
+  ?with_watch:bool ->
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  ext_ref Transaction.mkdir
+)
+"process.ml" 77 2346 2398 "process.ml" 77 2346 2403
+type(
+  bool
+)
+"process.ml" 77 2346 2404 "process.ml" 77 2346 2405
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 65 1987 2012 "process.ml" 65 1987 2013
+)
+"process.ml" 77 2346 2406 "process.ml" 77 2346 2410
+type(
+  Perms.Connection.t
+)
+ident(
+  int_ref perm "process.ml" 65 1987 2014 "process.ml" 65 1987 2018
+)
+"process.ml" 77 2346 2411 "process.ml" 77 2346 2412
+type(
+  Store.Path.t
+)
+ident(
+  int_ref s "process.ml" 77 2346 2363 "process.ml" 77 2346 2364
+)
+"process.ml" 77 2346 2368 "process.ml" 77 2346 2412
+type(
+  unit
+)
+"process.ml" 77 2346 2358 "process.ml" 77 2346 2413
+type(
+  Store.Path.t -> unit
+)
+"process.ml" 77 2346 2414 "process.ml" 77 2346 2417
+type(
+  Store.Path.t list
+)
+ident(
+  int_ref ret "process.ml" 76 2275 2281 "process.ml" 76 2275 2284
+)
+"process.ml" 77 2346 2348 "process.ml" 77 2346 2417
+type(
+  unit
+)
+"process.ml" 76 2275 2277 "process.ml" 77 2346 2417
+type(
+  unit
+)
+"process.ml" 67 2071 2120 "process.ml" 78 2418 2420
+type(
+  unit
+)
+"process.ml" 67 2071 2072 "process.ml" 78 2418 2420
+type(
+  unit
+)
+"process.ml" 66 2026 2027 "process.ml" 78 2418 2420
+type(
+  unit
+)
+"process.ml" 81 2436 2440 "process.ml" 81 2436 2448
+type(
+  'a -> Transaction.t -> 'b -> Connections.t -> string -> string option
+)
+ident(
+  def do_debug "process.ml" 99 3046 3046 --
+)
+"process.ml" 81 2436 2449 "process.ml" 81 2436 2452
+type(
+  'a
+)
+ident(
+  def con "process.ml" 81 2436 2453 "process.ml" 97 3029 3044
+)
+"process.ml" 81 2436 2453 "process.ml" 81 2436 2454
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 81 2436 2455 "process.ml" 97 3029 3044
+)
+"process.ml" 81 2436 2455 "process.ml" 81 2436 2462
+type(
+  'b
+)
+ident(
+  def domains "process.ml" 81 2436 2463 "process.ml" 97 3029 3044
+)
+"process.ml" 81 2436 2463 "process.ml" 81 2436 2467
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 81 2436 2468 "process.ml" 97 3029 3044
+)
+"process.ml" 81 2436 2468 "process.ml" 81 2436 2472
+type(
+  string
+)
+ident(
+  def data "process.ml" 82 2475 2476 "process.ml" 97 3029 3044
+)
+"process.ml" 82 2475 2479 "process.ml" 82 2475 2482
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 82 2475 2483 "process.ml" 82 2475 2484
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"process.ml" 82 2475 2484 "process.ml" 82 2475 2495
+type(
+  bool ref
+)
+ident(
+  int_ref allow_debug "process.ml" 25 813 817 "process.ml" 25 813 828
+)
+"process.ml" 82 2475 2483 "process.ml" 82 2475 2495
+type(
+  bool
+)
+"process.ml" 82 2475 2479 "process.ml" 82 2475 2495
+type(
+  bool
+)
+"process.ml" 83 2496 2502 "process.ml" 83 2496 2506
+type(
+  string option
+)
+"process.ml" 84 2507 2523 "process.ml" 84 2507 2528
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 84 2507 2529 "process.ml" 84 2507 2533
+type(
+  int option
+)
+"process.ml" 84 2507 2534 "process.ml" 84 2507 2540
+type(
+  char
+)
+"process.ml" 84 2507 2541 "process.ml" 84 2507 2545
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 81 2436 2468 "process.ml" 81 2436 2472
+)
+"process.ml" 84 2507 2523 "process.ml" 84 2507 2545
+type(
+  string list
+)
+"process.ml" 85 2551 2554 "process.ml" 85 2551 2561
+type(
+  string
+)
+"process.ml" 85 2551 2565 "process.ml" 85 2551 2568
+type(
+  string
+)
+ident(
+  def msg "process.ml" 86 2577 2579 "process.ml" 87 2637 2643
+)
+"process.ml" 85 2551 2572 "process.ml" 85 2551 2573
+type(
+  string list
+)
+"process.ml" 85 2551 2565 "process.ml" 85 2551 2573
+type(
+  string list
+)
+"process.ml" 85 2551 2554 "process.ml" 85 2551 2573
+type(
+  string list
+)
+"process.ml" 86 2577 2579 "process.ml" 86 2577 2592
+type(
+  tid:int -> con:string -> ty:Xb.Op.operation -> string -> unit
+)
+ident(
+  ext_ref Logging.xb_op
+)
+"process.ml" 86 2577 2598 "process.ml" 86 2577 2599
+type(
+  int
+)
+"process.ml" 86 2577 2604 "process.ml" 86 2577 2615
+type(
+  Xb.Op.operation
+)
+"process.ml" 86 2577 2621 "process.ml" 86 2577 2631
+type(
+  string
+)
+"process.ml" 86 2577 2632 "process.ml" 86 2577 2635
+type(
+  string
+)
+ident(
+  int_ref msg "process.ml" 85 2551 2565 "process.ml" 85 2551 2568
+)
+"process.ml" 86 2577 2579 "process.ml" 86 2577 2635
+type(
+  unit
+)
+"process.ml" 87 2637 2639 "process.ml" 87 2637 2643
+type(
+  string option
+)
+"process.ml" 86 2577 2579 "process.ml" 87 2637 2643
+type(
+  string option
+)
+"process.ml" 88 2644 2647 "process.ml" 88 2644 2654
+type(
+  string
+)
+"process.ml" 88 2644 2658 "process.ml" 88 2644 2663
+type(
+  string
+)
+ident(
+  def domid "process.ml" 89 2672 2674 "process.ml" 91 2764 2809
+)
+"process.ml" 88 2644 2667 "process.ml" 88 2644 2668
+type(
+  string list
+)
+"process.ml" 88 2644 2658 "process.ml" 88 2644 2668
+type(
+  string list
+)
+"process.ml" 88 2644 2647 "process.ml" 88 2644 2668
+type(
+  string list
+)
+"process.ml" 89 2672 2678 "process.ml" 89 2672 2683
+type(
+  int
+)
+"process.ml" 89 2672 2686 "process.ml" 89 2672 2699
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 89 2672 2700 "process.ml" 89 2672 2705
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 88 2644 2658 "process.ml" 88 2644 2663
+)
+"process.ml" 89 2672 2686 "process.ml" 89 2672 2705
+type(
+  int
+)
+"process.ml" 90 2709 2715 "process.ml" 90 2709 2720
+type(
+  Quota.t
+)
+"process.ml" 90 2709 2724 "process.ml" 90 2709 2739
+type(
+  Store.t -> Quota.t
+)
+ident(
+  ext_ref Store.get_quota
+)
+"process.ml" 90 2709 2740 "process.ml" 90 2709 2741
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 81 2436 2453 "process.ml" 81 2436 2454
+)
+"process.ml" 90 2709 2740 "process.ml" 90 2709 2759
+type(
+  Store.t
+)
+"process.ml" 90 2709 2723 "process.ml" 90 2709 2760
+type(
+  Quota.t
+)
+"process.ml" 91 2764 2772 "process.ml" 91 2764 2787
+type(
+  Quota.t -> Xc.domid -> string
+)
+ident(
+  ext_ref Quota.to_string
+)
+"process.ml" 91 2764 2788 "process.ml" 91 2764 2793
+type(
+  Quota.t
+)
+ident(
+  int_ref quota "process.ml" 90 2709 2715 "process.ml" 90 2709 2720
+)
+"process.ml" 91 2764 2794 "process.ml" 91 2764 2799
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 89 2672 2678 "process.ml" 89 2672 2683
+)
+"process.ml" 91 2764 2772 "process.ml" 91 2764 2799
+type(
+  string
+)
+"process.ml" 91 2764 2800 "process.ml" 91 2764 2801
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"process.ml" 91 2764 2802 "process.ml" 91 2764 2808
+type(
+  string
+)
+"process.ml" 91 2764 2771 "process.ml" 91 2764 2809
+type(
+  string
+)
+"process.ml" 91 2764 2766 "process.ml" 91 2764 2809
+type(
+  string option
+)
+"process.ml" 90 2709 2711 "process.ml" 91 2764 2809
+type(
+  string option
+)
+"process.ml" 89 2672 2674 "process.ml" 91 2764 2809
+type(
+  string option
+)
+"process.ml" 92 2810 2813 "process.ml" 92 2810 2818
+type(
+  string
+)
+"process.ml" 92 2810 2822 "process.ml" 92 2810 2827
+type(
+  string
+)
+ident(
+  def domid "process.ml" 93 2836 2838 "process.ml" 95 2923 3015
+)
+"process.ml" 92 2810 2831 "process.ml" 92 2810 2832
+type(
+  string list
+)
+"process.ml" 92 2810 2822 "process.ml" 92 2810 2832
+type(
+  string list
+)
+"process.ml" 92 2810 2813 "process.ml" 92 2810 2832
+type(
+  string list
+)
+"process.ml" 93 2836 2842 "process.ml" 93 2836 2847
+type(
+  int
+)
+"process.ml" 93 2836 2850 "process.ml" 93 2836 2863
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 93 2836 2864 "process.ml" 93 2836 2869
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 92 2810 2822 "process.ml" 92 2810 2827
+)
+"process.ml" 93 2836 2850 "process.ml" 93 2836 2869
+type(
+  int
+)
+"process.ml" 94 2873 2879 "process.ml" 94 2873 2882
+type(
+  Connection.t
+)
+"process.ml" 94 2873 2885 "process.ml" 94 2873 2908
+type(
+  Connections.t -> int -> Connection.t
+)
+ident(
+  ext_ref Connections.find_domain
+)
+"process.ml" 94 2873 2909 "process.ml" 94 2873 2913
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 81 2436 2463 "process.ml" 81 2436 2467
+)
+"process.ml" 94 2873 2914 "process.ml" 94 2873 2919
+type(
+  int
+)
+ident(
+  int_ref domid "process.ml" 93 2836 2842 "process.ml" 93 2836 2847
+)
+"process.ml" 94 2873 2885 "process.ml" 94 2873 2919
+type(
+  Connection.t
+)
+"process.ml" 95 2923 2925 "process.ml" 95 2923 2928
+type(
+  (Domain.t -> string) -> Domain.t option -> string option
+)
+ident(
+  ext_ref Stdext.may
+)
+"process.ml" 95 2923 2934 "process.ml" 95 2923 2937
+type(
+  Domain.t
+)
+ident(
+  def dom "process.ml" 95 2923 2941 "process.ml" 95 2923 2986
+)
+"process.ml" 95 2923 2941 "process.ml" 95 2923 2955
+type(
+  (nativeint -> string, unit, string) format -> nativeint -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"process.ml" 95 2923 2956 "process.ml" 95 2923 2965
+type(
+  (nativeint -> string, unit, string) format
+)
+"process.ml" 95 2923 2967 "process.ml" 95 2923 2981
+type(
+  Domain.t -> nativeint
+)
+ident(
+  ext_ref Domain.get_mfn
+)
+"process.ml" 95 2923 2982 "process.ml" 95 2923 2985
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "process.ml" 95 2923 2934 "process.ml" 95 2923 2937
+)
+"process.ml" 95 2923 2966 "process.ml" 95 2923 2986
+type(
+  nativeint
+)
+"process.ml" 95 2923 2941 "process.ml" 95 2923 2986
+type(
+  string
+)
+"process.ml" 95 2923 2929 "process.ml" 95 2923 2987
+type(
+  Domain.t -> string
+)
+"process.ml" 95 2923 2989 "process.ml" 95 2923 3010
+type(
+  Connection.t -> Domain.t option
+)
+ident(
+  ext_ref Connection.get_domain
+)
+"process.ml" 95 2923 3011 "process.ml" 95 2923 3014
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 94 2873 2879 "process.ml" 94 2873 2882
+)
+"process.ml" 95 2923 2988 "process.ml" 95 2923 3015
+type(
+  Domain.t option
+)
+"process.ml" 95 2923 2925 "process.ml" 95 2923 3015
+type(
+  string option
+)
+"process.ml" 94 2873 2875 "process.ml" 95 2923 3015
+type(
+  string option
+)
+"process.ml" 93 2836 2838 "process.ml" 95 2923 3015
+type(
+  string option
+)
+"process.ml" 96 3016 3019 "process.ml" 96 3016 3020
+type(
+  string list
+)
+"process.ml" 96 3016 3024 "process.ml" 96 3016 3028
+type(
+  string option
+)
+"process.ml" 84 2507 2517 "process.ml" 96 3016 3028
+type(
+  string option
+)
+"process.ml" 97 3029 3035 "process.ml" 97 3029 3036
+type(
+  exn
+)
+"process.ml" 97 3029 3040 "process.ml" 97 3029 3044
+type(
+  string option
+)
+"process.ml" 84 2507 2513 "process.ml" 97 3029 3044
+type(
+  string option
+)
+"process.ml" 82 2475 2476 "process.ml" 97 3029 3044
+type(
+  string option
+)
+"process.ml" 99 3046 3050 "process.ml" 99 3046 3062
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> string
+)
+ident(
+  def do_directory "process.ml" 107 3279 3279 --
+)
+"process.ml" 99 3046 3063 "process.ml" 99 3046 3066
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 99 3046 3067 "process.ml" 105 3273 3277
+)
+"process.ml" 99 3046 3067 "process.ml" 99 3046 3068
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 99 3046 3069 "process.ml" 105 3273 3277
+)
+"process.ml" 99 3046 3069 "process.ml" 99 3046 3076
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 99 3046 3077 "process.ml" 105 3273 3277
+)
+"process.ml" 99 3046 3077 "process.ml" 99 3046 3081
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 99 3046 3082 "process.ml" 105 3273 3277
+)
+"process.ml" 99 3046 3082 "process.ml" 99 3046 3086
+type(
+  string
+)
+ident(
+  def data "process.ml" 100 3089 3090 "process.ml" 105 3273 3277
+)
+"process.ml" 100 3089 3094 "process.ml" 100 3089 3098
+type(
+  string list
+)
+"process.ml" 100 3089 3101 "process.ml" 100 3089 3115
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  int_ref split_one_path "process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+)
+"process.ml" 100 3089 3116 "process.ml" 100 3089 3120
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 99 3046 3082 "process.ml" 99 3046 3086
+)
+"process.ml" 100 3089 3121 "process.ml" 100 3089 3124
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 99 3046 3063 "process.ml" 99 3046 3066
+)
+"process.ml" 100 3089 3101 "process.ml" 100 3089 3124
+type(
+  string list
+)
+"process.ml" 101 3128 3133 "process.ml" 101 3128 3140
+type(
+  string list
+)
+"process.ml" 101 3128 3143 "process.ml" 101 3128 3157
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> string list
+)
+ident(
+  ext_ref Transaction.ls
+)
+"process.ml" 101 3128 3158 "process.ml" 101 3128 3159
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 99 3046 3067 "process.ml" 99 3046 3068
+)
+"process.ml" 101 3128 3161 "process.ml" 101 3128 3180
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 101 3128 3181 "process.ml" 101 3128 3184
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 99 3046 3063 "process.ml" 99 3046 3066
+)
+"process.ml" 101 3128 3160 "process.ml" 101 3128 3185
+type(
+  Perms.Connection.t
+)
+"process.ml" 101 3128 3186 "process.ml" 101 3128 3190
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 100 3089 3094 "process.ml" 100 3089 3098
+)
+"process.ml" 101 3128 3143 "process.ml" 101 3128 3190
+type(
+  string list
+)
+"process.ml" 102 3194 3198 "process.ml" 102 3194 3209
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"process.ml" 102 3194 3210 "process.ml" 102 3194 3217
+type(
+  string list
+)
+ident(
+  int_ref entries "process.ml" 101 3128 3133 "process.ml" 101 3128 3140
+)
+"process.ml" 102 3194 3198 "process.ml" 102 3194 3217
+type(
+  int
+)
+"process.ml" 102 3194 3218 "process.ml" 102 3194 3219
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"process.ml" 102 3194 3220 "process.ml" 102 3194 3221
+type(
+  int
+)
+"process.ml" 102 3194 3198 "process.ml" 102 3194 3221
+type(
+  bool
+)
+"process.ml" 103 3227 3230 "process.ml" 103 3227 3248
+type(
+  string list -> string
+)
+ident(
+  ext_ref Utils.join_by_null
+)
+"process.ml" 103 3227 3249 "process.ml" 103 3227 3256
+type(
+  string list
+)
+ident(
+  int_ref entries "process.ml" 101 3128 3133 "process.ml" 101 3128 3140
+)
+"process.ml" 103 3227 3229 "process.ml" 103 3227 3257
+type(
+  string
+)
+"process.ml" 103 3227 3258 "process.ml" 103 3227 3259
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"process.ml" 103 3227 3260 "process.ml" 103 3227 3266
+type(
+  string
+)
+"process.ml" 103 3227 3229 "process.ml" 103 3227 3266
+type(
+  string
+)
+"process.ml" 105 3273 3275 "process.ml" 105 3273 3277
+type(
+  string
+)
+"process.ml" 102 3194 3195 "process.ml" 105 3273 3277
+type(
+  string
+)
+"process.ml" 101 3128 3129 "process.ml" 105 3273 3277
+type(
+  string
+)
+"process.ml" 100 3089 3090 "process.ml" 105 3273 3277
+type(
+  string
+)
+"process.ml" 107 3279 3283 "process.ml" 107 3279 3290
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> string
+)
+ident(
+  def do_read "process.ml" 111 3408 3408 --
+)
+"process.ml" 107 3279 3291 "process.ml" 107 3279 3294
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 107 3279 3295 "process.ml" 109 3356 3406
+)
+"process.ml" 107 3279 3295 "process.ml" 107 3279 3296
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 107 3279 3297 "process.ml" 109 3356 3406
+)
+"process.ml" 107 3279 3297 "process.ml" 107 3279 3304
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 107 3279 3305 "process.ml" 109 3356 3406
+)
+"process.ml" 107 3279 3305 "process.ml" 107 3279 3309
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 107 3279 3310 "process.ml" 109 3356 3406
+)
+"process.ml" 107 3279 3310 "process.ml" 107 3279 3314
+type(
+  string
+)
+ident(
+  def data "process.ml" 108 3317 3318 "process.ml" 109 3356 3406
+)
+"process.ml" 108 3317 3322 "process.ml" 108 3317 3326
+type(
+  string list
+)
+"process.ml" 108 3317 3329 "process.ml" 108 3317 3343
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  int_ref split_one_path "process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+)
+"process.ml" 108 3317 3344 "process.ml" 108 3317 3348
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 107 3279 3310 "process.ml" 107 3279 3314
+)
+"process.ml" 108 3317 3349 "process.ml" 108 3317 3352
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 107 3279 3291 "process.ml" 107 3279 3294
+)
+"process.ml" 108 3317 3329 "process.ml" 108 3317 3352
+type(
+  string list
+)
+"process.ml" 109 3356 3357 "process.ml" 109 3356 3373
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> string
+)
+ident(
+  ext_ref Transaction.read
+)
+"process.ml" 109 3356 3374 "process.ml" 109 3356 3375
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 107 3279 3295 "process.ml" 107 3279 3296
+)
+"process.ml" 109 3356 3377 "process.ml" 109 3356 3396
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 109 3356 3397 "process.ml" 109 3356 3400
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 107 3279 3291 "process.ml" 107 3279 3294
+)
+"process.ml" 109 3356 3376 "process.ml" 109 3356 3401
+type(
+  Perms.Connection.t
+)
+"process.ml" 109 3356 3402 "process.ml" 109 3356 3406
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 108 3317 3322 "process.ml" 108 3317 3326
+)
+"process.ml" 109 3356 3357 "process.ml" 109 3356 3406
+type(
+  string
+)
+"process.ml" 108 3317 3318 "process.ml" 109 3356 3406
+type(
+  string
+)
+"process.ml" 111 3408 3412 "process.ml" 111 3408 3423
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> string
+)
+ident(
+  def do_getperms "process.ml" 116 3597 3597 --
+)
+"process.ml" 111 3408 3424 "process.ml" 111 3408 3427
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 111 3408 3428 "process.ml" 114 3559 3595
+)
+"process.ml" 111 3408 3428 "process.ml" 111 3408 3429
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 111 3408 3430 "process.ml" 114 3559 3595
+)
+"process.ml" 111 3408 3430 "process.ml" 111 3408 3437
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 111 3408 3438 "process.ml" 114 3559 3595
+)
+"process.ml" 111 3408 3438 "process.ml" 111 3408 3442
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 111 3408 3443 "process.ml" 114 3559 3595
+)
+"process.ml" 111 3408 3443 "process.ml" 111 3408 3447
+type(
+  string
+)
+ident(
+  def data "process.ml" 112 3450 3451 "process.ml" 114 3559 3595
+)
+"process.ml" 112 3450 3455 "process.ml" 112 3450 3459
+type(
+  string list
+)
+"process.ml" 112 3450 3462 "process.ml" 112 3450 3476
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  int_ref split_one_path "process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+)
+"process.ml" 112 3450 3477 "process.ml" 112 3450 3481
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 111 3408 3443 "process.ml" 111 3408 3447
+)
+"process.ml" 112 3450 3482 "process.ml" 112 3450 3485
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 111 3408 3424 "process.ml" 111 3408 3427
+)
+"process.ml" 112 3450 3462 "process.ml" 112 3450 3485
+type(
+  string list
+)
+"process.ml" 113 3489 3494 "process.ml" 113 3489 3499
+type(
+  Perms.Node.t
+)
+"process.ml" 113 3489 3502 "process.ml" 113 3489 3522
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t
+)
+ident(
+  ext_ref Transaction.getperms
+)
+"process.ml" 113 3489 3523 "process.ml" 113 3489 3524
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 111 3408 3428 "process.ml" 111 3408 3429
+)
+"process.ml" 113 3489 3526 "process.ml" 113 3489 3545
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 113 3489 3546 "process.ml" 113 3489 3549
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 111 3408 3424 "process.ml" 111 3408 3427
+)
+"process.ml" 113 3489 3525 "process.ml" 113 3489 3550
+type(
+  Perms.Connection.t
+)
+"process.ml" 113 3489 3551 "process.ml" 113 3489 3555
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 112 3450 3455 "process.ml" 112 3450 3459
+)
+"process.ml" 113 3489 3502 "process.ml" 113 3489 3555
+type(
+  Perms.Node.t
+)
+"process.ml" 114 3559 3560 "process.ml" 114 3559 3580
+type(
+  Perms.Node.t -> string
+)
+ident(
+  ext_ref Perms.Node.to_string
+)
+"process.ml" 114 3559 3581 "process.ml" 114 3559 3586
+type(
+  Perms.Node.t
+)
+ident(
+  int_ref perms "process.ml" 113 3489 3494 "process.ml" 113 3489 3499
+)
+"process.ml" 114 3559 3560 "process.ml" 114 3559 3586
+type(
+  string
+)
+"process.ml" 114 3559 3587 "process.ml" 114 3559 3588
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"process.ml" 114 3559 3589 "process.ml" 114 3559 3595
+type(
+  string
+)
+"process.ml" 114 3559 3560 "process.ml" 114 3559 3595
+type(
+  string
+)
+"process.ml" 113 3489 3490 "process.ml" 114 3559 3595
+type(
+  string
+)
+"process.ml" 112 3450 3451 "process.ml" 114 3559 3595
+type(
+  string
+)
+"process.ml" 116 3597 3601 "process.ml" 116 3597 3609
+type(
+  Connection.t ->
+  Transaction.t -> int -> 'a -> Connections.t -> string -> unit
+)
+ident(
+  def do_watch "process.ml" 126 3954 3954 --
+)
+"process.ml" 116 3597 3610 "process.ml" 116 3597 3613
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 116 3597 3614 "process.ml" 124 3917 3952
+)
+"process.ml" 116 3597 3614 "process.ml" 116 3597 3615
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 116 3597 3616 "process.ml" 124 3917 3952
+)
+"process.ml" 116 3597 3616 "process.ml" 116 3597 3619
+type(
+  int
+)
+ident(
+  def rid "process.ml" 116 3597 3620 "process.ml" 124 3917 3952
+)
+"process.ml" 116 3597 3620 "process.ml" 116 3597 3627
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 116 3597 3628 "process.ml" 124 3917 3952
+)
+"process.ml" 116 3597 3628 "process.ml" 116 3597 3632
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 116 3597 3633 "process.ml" 124 3917 3952
+)
+"process.ml" 116 3597 3633 "process.ml" 116 3597 3637
+type(
+  string
+)
+ident(
+  def data "process.ml" 117 3640 3641 "process.ml" 124 3917 3952
+)
+"process.ml" 117 3640 3646 "process.ml" 117 3640 3650
+type(
+  string
+)
+"process.ml" 117 3640 3652 "process.ml" 117 3640 3657
+type(
+  string
+)
+"process.ml" 117 3640 3645 "process.ml" 117 3640 3658
+type(
+  string * string
+)
+"process.ml" 118 3662 3671 "process.ml" 118 3662 3676
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 118 3662 3677 "process.ml" 118 3662 3681
+type(
+  int option
+)
+"process.ml" 118 3662 3682 "process.ml" 118 3662 3688
+type(
+  char
+)
+"process.ml" 118 3662 3689 "process.ml" 118 3662 3693
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 116 3597 3633 "process.ml" 116 3597 3637
+)
+"process.ml" 118 3662 3670 "process.ml" 118 3662 3694
+type(
+  string list
+)
+"process.ml" 119 3700 3705 "process.ml" 119 3700 3709
+type(
+  string
+)
+ident(
+  def node "process.ml" 119 3700 3727 "process.ml" 119 3700 3738
+)
+"process.ml" 119 3700 3711 "process.ml" 119 3700 3716
+type(
+  string
+)
+ident(
+  def token "process.ml" 119 3700 3727 "process.ml" 119 3700 3738
+)
+"process.ml" 119 3700 3718 "process.ml" 119 3700 3720
+type(
+  string
+)
+"process.ml" 119 3700 3704 "process.ml" 119 3700 3721
+type(
+  string list
+)
+"process.ml" 119 3700 3727 "process.ml" 119 3700 3731
+type(
+  string
+)
+ident(
+  int_ref node "process.ml" 119 3700 3705 "process.ml" 119 3700 3709
+)
+"process.ml" 119 3700 3733 "process.ml" 119 3700 3738
+type(
+  string
+)
+ident(
+  int_ref token "process.ml" 119 3700 3711 "process.ml" 119 3700 3716
+)
+"process.ml" 119 3700 3727 "process.ml" 119 3700 3738
+type(
+  string * string
+)
+"process.ml" 120 3739 3743 "process.ml" 120 3739 3744
+type(
+  string list
+)
+"process.ml" 120 3739 3766 "process.ml" 120 3739 3771
+type(
+  exn -> string * string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 120 3739 3772 "process.ml" 120 3739 3788
+type(
+  exn
+)
+"process.ml" 120 3739 3766 "process.ml" 120 3739 3788
+type(
+  string * string
+)
+"process.ml" 118 3662 3664 "process.ml" 120 3739 3788
+type(
+  string * string
+)
+"process.ml" 122 3794 3799 "process.ml" 122 3794 3804
+type(
+  Connection.watch
+)
+"process.ml" 122 3794 3807 "process.ml" 122 3794 3828
+type(
+  Connections.t -> Connection.t -> string -> string -> Connection.watch
+)
+ident(
+  ext_ref Connections.add_watch
+)
+"process.ml" 122 3794 3829 "process.ml" 122 3794 3833
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 116 3597 3628 "process.ml" 116 3597 3632
+)
+"process.ml" 122 3794 3834 "process.ml" 122 3794 3837
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 116 3597 3610 "process.ml" 116 3597 3613
+)
+"process.ml" 122 3794 3838 "process.ml" 122 3794 3842
+type(
+  string
+)
+ident(
+  int_ref node "process.ml" 117 3640 3646 "process.ml" 117 3640 3650
+)
+"process.ml" 122 3794 3843 "process.ml" 122 3794 3848
+type(
+  string
+)
+ident(
+  int_ref token "process.ml" 117 3640 3652 "process.ml" 117 3640 3657
+)
+"process.ml" 122 3794 3807 "process.ml" 122 3794 3848
+type(
+  Connection.watch
+)
+"process.ml" 123 3852 3853 "process.ml" 123 3852 3872
+type(
+  Connection.t -> int -> int -> Xb.Op.operation -> unit
+)
+ident(
+  ext_ref Connection.send_ack
+)
+"process.ml" 123 3852 3873 "process.ml" 123 3852 3876
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 116 3597 3610 "process.ml" 116 3597 3613
+)
+"process.ml" 123 3852 3878 "process.ml" 123 3852 3896
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 123 3852 3897 "process.ml" 123 3852 3898
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 116 3597 3614 "process.ml" 116 3597 3615
+)
+"process.ml" 123 3852 3877 "process.ml" 123 3852 3899
+type(
+  int
+)
+"process.ml" 123 3852 3900 "process.ml" 123 3852 3903
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 116 3597 3616 "process.ml" 116 3597 3619
+)
+"process.ml" 123 3852 3904 "process.ml" 123 3852 3915
+type(
+  Xb.Op.operation
+)
+"process.ml" 123 3852 3853 "process.ml" 123 3852 3915
+type(
+  unit
+)
+"process.ml" 124 3917 3918 "process.ml" 124 3917 3946
+type(
+  Connection.watch -> unit
+)
+ident(
+  ext_ref Connection.fire_single_watch
+)
+"process.ml" 124 3917 3947 "process.ml" 124 3917 3952
+type(
+  Connection.watch
+)
+ident(
+  int_ref watch "process.ml" 122 3794 3799 "process.ml" 122 3794 3804
+)
+"process.ml" 124 3917 3918 "process.ml" 124 3917 3952
+type(
+  unit
+)
+"process.ml" 123 3852 3853 "process.ml" 124 3917 3952
+type(
+  unit
+)
+"process.ml" 122 3794 3795 "process.ml" 124 3917 3952
+type(
+  unit
+)
+"process.ml" 117 3640 3641 "process.ml" 124 3917 3952
+type(
+  unit
+)
+"process.ml" 126 3954 3958 "process.ml" 126 3954 3968
+type(
+  Connection.t -> 'a -> 'b -> Connections.t -> string -> Connection.watch
+)
+ident(
+  def do_unwatch "process.ml" 134 4192 4192 --
+)
+"process.ml" 126 3954 3969 "process.ml" 126 3954 3972
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 126 3954 3973 "process.ml" 132 4148 4190
+)
+"process.ml" 126 3954 3973 "process.ml" 126 3954 3974
+type(
+  'a
+)
+ident(
+  def t "process.ml" 126 3954 3975 "process.ml" 132 4148 4190
+)
+"process.ml" 126 3954 3975 "process.ml" 126 3954 3982
+type(
+  'b
+)
+ident(
+  def domains "process.ml" 126 3954 3983 "process.ml" 132 4148 4190
+)
+"process.ml" 126 3954 3983 "process.ml" 126 3954 3987
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 126 3954 3988 "process.ml" 132 4148 4190
+)
+"process.ml" 126 3954 3988 "process.ml" 126 3954 3992
+type(
+  string
+)
+ident(
+  def data "process.ml" 127 3995 3996 "process.ml" 132 4148 4190
+)
+"process.ml" 127 3995 4001 "process.ml" 127 3995 4005
+type(
+  string
+)
+"process.ml" 127 3995 4007 "process.ml" 127 3995 4012
+type(
+  string
+)
+"process.ml" 127 3995 4000 "process.ml" 127 3995 4013
+type(
+  string * string
+)
+"process.ml" 128 4016 4025 "process.ml" 128 4016 4030
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 128 4016 4031 "process.ml" 128 4016 4035
+type(
+  int option
+)
+"process.ml" 128 4016 4036 "process.ml" 128 4016 4042
+type(
+  char
+)
+"process.ml" 128 4016 4043 "process.ml" 128 4016 4047
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 126 3954 3988 "process.ml" 126 3954 3992
+)
+"process.ml" 128 4016 4024 "process.ml" 128 4016 4048
+type(
+  string list
+)
+"process.ml" 129 4054 4059 "process.ml" 129 4054 4063
+type(
+  string
+)
+ident(
+  def node "process.ml" 129 4054 4081 "process.ml" 129 4054 4092
+)
+"process.ml" 129 4054 4065 "process.ml" 129 4054 4070
+type(
+  string
+)
+ident(
+  def token "process.ml" 129 4054 4081 "process.ml" 129 4054 4092
+)
+"process.ml" 129 4054 4072 "process.ml" 129 4054 4074
+type(
+  string
+)
+"process.ml" 129 4054 4058 "process.ml" 129 4054 4075
+type(
+  string list
+)
+"process.ml" 129 4054 4081 "process.ml" 129 4054 4085
+type(
+  string
+)
+ident(
+  int_ref node "process.ml" 129 4054 4059 "process.ml" 129 4054 4063
+)
+"process.ml" 129 4054 4087 "process.ml" 129 4054 4092
+type(
+  string
+)
+ident(
+  int_ref token "process.ml" 129 4054 4065 "process.ml" 129 4054 4070
+)
+"process.ml" 129 4054 4081 "process.ml" 129 4054 4092
+type(
+  string * string
+)
+"process.ml" 130 4093 4097 "process.ml" 130 4093 4098
+type(
+  string list
+)
+"process.ml" 130 4093 4120 "process.ml" 130 4093 4125
+type(
+  exn -> string * string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 130 4093 4126 "process.ml" 130 4093 4142
+type(
+  exn
+)
+"process.ml" 130 4093 4120 "process.ml" 130 4093 4142
+type(
+  string * string
+)
+"process.ml" 128 4016 4018 "process.ml" 130 4093 4142
+type(
+  string * string
+)
+"process.ml" 132 4148 4149 "process.ml" 132 4148 4170
+type(
+  Connections.t -> Connection.t -> string -> string -> Connection.watch
+)
+ident(
+  ext_ref Connections.del_watch
+)
+"process.ml" 132 4148 4171 "process.ml" 132 4148 4175
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 126 3954 3983 "process.ml" 126 3954 3987
+)
+"process.ml" 132 4148 4176 "process.ml" 132 4148 4179
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 126 3954 3969 "process.ml" 126 3954 3972
+)
+"process.ml" 132 4148 4180 "process.ml" 132 4148 4184
+type(
+  string
+)
+ident(
+  int_ref node "process.ml" 127 3995 4001 "process.ml" 127 3995 4005
+)
+"process.ml" 132 4148 4185 "process.ml" 132 4148 4190
+type(
+  string
+)
+ident(
+  int_ref token "process.ml" 127 3995 4007 "process.ml" 127 3995 4012
+)
+"process.ml" 132 4148 4149 "process.ml" 132 4148 4190
+type(
+  Connection.watch
+)
+"process.ml" 127 3995 3996 "process.ml" 132 4148 4190
+type(
+  Connection.watch
+)
+"process.ml" 134 4192 4196 "process.ml" 134 4192 4216
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string
+)
+ident(
+  def do_transaction_start "process.ml" 140 4427 4427 --
+)
+"process.ml" 134 4192 4217 "process.ml" 134 4192 4220
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 134 4192 4221 "process.ml" 138 4361 4425
+)
+"process.ml" 134 4192 4221 "process.ml" 134 4192 4222
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 134 4192 4223 "process.ml" 138 4361 4425
+)
+"process.ml" 134 4192 4223 "process.ml" 134 4192 4230
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 134 4192 4231 "process.ml" 138 4361 4425
+)
+"process.ml" 134 4192 4231 "process.ml" 134 4192 4235
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 134 4192 4236 "process.ml" 138 4361 4425
+)
+"process.ml" 134 4192 4236 "process.ml" 134 4192 4240
+type(
+  'c
+)
+ident(
+  def data "process.ml" 135 4243 4244 "process.ml" 138 4361 4425
+)
+"process.ml" 135 4243 4247 "process.ml" 135 4243 4265
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 135 4243 4266 "process.ml" 135 4243 4267
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 134 4192 4221 "process.ml" 134 4192 4222
+)
+"process.ml" 135 4243 4247 "process.ml" 135 4243 4267
+type(
+  int
+)
+"process.ml" 135 4243 4268 "process.ml" 135 4243 4270
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"process.ml" 135 4243 4271 "process.ml" 135 4243 4287
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"process.ml" 135 4243 4247 "process.ml" 135 4243 4287
+type(
+  bool
+)
+"process.ml" 136 4293 4295 "process.ml" 136 4293 4300
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 136 4293 4301 "process.ml" 136 4293 4319
+type(
+  exn
+)
+"process.ml" 136 4293 4295 "process.ml" 136 4293 4319
+type(
+  unit
+)
+"process.ml" 135 4243 4244 "process.ml" 136 4293 4319
+type(
+  unit
+)
+"process.ml" 137 4321 4326 "process.ml" 137 4321 4331
+type(
+  Store.t
+)
+"process.ml" 137 4321 4334 "process.ml" 137 4321 4355
+type(
+  Transaction.t -> Store.t
+)
+ident(
+  ext_ref Transaction.get_store
+)
+"process.ml" 137 4321 4356 "process.ml" 137 4321 4357
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 134 4192 4221 "process.ml" 134 4192 4222
+)
+"process.ml" 137 4321 4334 "process.ml" 137 4321 4357
+type(
+  Store.t
+)
+"process.ml" 138 4361 4362 "process.ml" 138 4361 4375
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"process.ml" 138 4361 4377 "process.ml" 138 4361 4405
+type(
+  Connection.t -> Store.t -> int
+)
+ident(
+  ext_ref Connection.start_transaction
+)
+"process.ml" 138 4361 4406 "process.ml" 138 4361 4409
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 134 4192 4217 "process.ml" 134 4192 4220
+)
+"process.ml" 138 4361 4410 "process.ml" 138 4361 4415
+type(
+  Store.t
+)
+ident(
+  int_ref store "process.ml" 137 4321 4326 "process.ml" 137 4321 4331
+)
+"process.ml" 138 4361 4376 "process.ml" 138 4361 4416
+type(
+  int
+)
+"process.ml" 138 4361 4362 "process.ml" 138 4361 4416
+type(
+  string
+)
+"process.ml" 138 4361 4417 "process.ml" 138 4361 4418
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"process.ml" 138 4361 4419 "process.ml" 138 4361 4425
+type(
+  string
+)
+"process.ml" 138 4361 4362 "process.ml" 138 4361 4425
+type(
+  string
+)
+"process.ml" 137 4321 4322 "process.ml" 138 4361 4425
+type(
+  string
+)
+"process.ml" 135 4243 4244 "process.ml" 138 4361 4425
+type(
+  string
+)
+"process.ml" 140 4427 4431 "process.ml" 140 4427 4449
+type(
+  Connection.t -> Transaction.t -> 'a -> Connections.t -> string -> unit
+)
+ident(
+  def do_transaction_end "process.ml" 155 4860 4860 --
+)
+"process.ml" 140 4427 4450 "process.ml" 140 4427 4453
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 140 4427 4454 "process.ml" 153 4803 4858
+)
+"process.ml" 140 4427 4454 "process.ml" 140 4427 4455
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 140 4427 4456 "process.ml" 153 4803 4858
+)
+"process.ml" 140 4427 4456 "process.ml" 140 4427 4463
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 140 4427 4464 "process.ml" 153 4803 4858
+)
+"process.ml" 140 4427 4464 "process.ml" 140 4427 4468
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 140 4427 4469 "process.ml" 153 4803 4858
+)
+"process.ml" 140 4427 4469 "process.ml" 140 4427 4473
+type(
+  string
+)
+ident(
+  def data "process.ml" 141 4476 4477 "process.ml" 153 4803 4858
+)
+"process.ml" 141 4476 4481 "process.ml" 141 4476 4487
+type(
+  bool
+)
+"process.ml" 142 4490 4499 "process.ml" 142 4490 4504
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 142 4490 4505 "process.ml" 142 4490 4509
+type(
+  int option
+)
+"process.ml" 142 4490 4510 "process.ml" 142 4490 4516
+type(
+  char
+)
+"process.ml" 142 4490 4517 "process.ml" 142 4490 4521
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 140 4427 4469 "process.ml" 140 4427 4473
+)
+"process.ml" 142 4490 4498 "process.ml" 142 4490 4522
+type(
+  string list
+)
+"process.ml" 143 4528 4532 "process.ml" 143 4528 4535
+type(
+  string
+)
+"process.ml" 143 4528 4539 "process.ml" 143 4528 4540
+type(
+  string list
+)
+"process.ml" 143 4528 4532 "process.ml" 143 4528 4540
+type(
+  string list
+)
+"process.ml" 143 4528 4544 "process.ml" 143 4528 4548
+type(
+  bool
+)
+"process.ml" 144 4549 4553 "process.ml" 144 4549 4556
+type(
+  string
+)
+"process.ml" 144 4549 4560 "process.ml" 144 4549 4561
+type(
+  string list
+)
+"process.ml" 144 4549 4553 "process.ml" 144 4549 4561
+type(
+  string list
+)
+"process.ml" 144 4549 4565 "process.ml" 144 4549 4570
+type(
+  bool
+)
+"process.ml" 145 4571 4575 "process.ml" 145 4571 4576
+type(
+  string
+)
+ident(
+  def x "process.ml" 145 4571 4587 "process.ml" 145 4571 4613
+)
+"process.ml" 145 4571 4580 "process.ml" 145 4571 4581
+type(
+  string list
+)
+"process.ml" 145 4571 4575 "process.ml" 145 4571 4581
+type(
+  string list
+)
+"process.ml" 145 4571 4587 "process.ml" 145 4571 4592
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 145 4571 4611 "process.ml" 145 4571 4612
+type(
+  string
+)
+ident(
+  int_ref x "process.ml" 145 4571 4575 "process.ml" 145 4571 4576
+)
+"process.ml" 145 4571 4593 "process.ml" 145 4571 4613
+type(
+  exn
+)
+"process.ml" 145 4571 4587 "process.ml" 145 4571 4613
+type(
+  bool
+)
+"process.ml" 146 4614 4618 "process.ml" 146 4614 4619
+type(
+  string list
+)
+"process.ml" 146 4614 4630 "process.ml" 146 4614 4635
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 146 4614 4636 "process.ml" 146 4614 4652
+type(
+  exn
+)
+"process.ml" 146 4614 4630 "process.ml" 146 4614 4652
+type(
+  bool
+)
+"process.ml" 142 4490 4492 "process.ml" 146 4614 4652
+type(
+  bool
+)
+"process.ml" 148 4658 4663 "process.ml" 148 4658 4670
+type(
+  bool
+)
+"process.ml" 149 4673 4675 "process.ml" 149 4673 4701
+type(
+  Connection.t -> int -> bool -> bool
+)
+ident(
+  ext_ref Connection.end_transaction
+)
+"process.ml" 149 4673 4702 "process.ml" 149 4673 4705
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 140 4427 4450 "process.ml" 140 4427 4453
+)
+"process.ml" 149 4673 4707 "process.ml" 149 4673 4725
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 149 4673 4726 "process.ml" 149 4673 4727
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 140 4427 4454 "process.ml" 140 4427 4455
+)
+"process.ml" 149 4673 4706 "process.ml" 149 4673 4728
+type(
+  int
+)
+"process.ml" 149 4673 4729 "process.ml" 149 4673 4735
+type(
+  bool
+)
+ident(
+  int_ref commit "process.ml" 141 4476 4481 "process.ml" 141 4476 4487
+)
+"process.ml" 149 4673 4675 "process.ml" 149 4673 4735
+type(
+  bool
+)
+"process.ml" 150 4739 4743 "process.ml" 150 4739 4746
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 150 4739 4747 "process.ml" 150 4739 4754
+type(
+  bool
+)
+ident(
+  int_ref success "process.ml" 148 4658 4663 "process.ml" 148 4658 4670
+)
+"process.ml" 150 4739 4743 "process.ml" 150 4739 4754
+type(
+  bool
+)
+"process.ml" 151 4760 4762 "process.ml" 151 4760 4767
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 151 4760 4768 "process.ml" 151 4760 4785
+type(
+  exn
+)
+"process.ml" 151 4760 4762 "process.ml" 151 4760 4785
+type(
+  unit
+)
+"process.ml" 150 4739 4740 "process.ml" 151 4760 4785
+type(
+  unit
+)
+"process.ml" 152 4787 4791 "process.ml" 152 4787 4797
+type(
+  bool
+)
+ident(
+  int_ref commit "process.ml" 141 4476 4481 "process.ml" 141 4476 4487
+)
+"process.ml" 153 4803 4805 "process.ml" 153 4803 4818
+type(
+  (Xb.Op.operation * Store.Path.t) list -> Connections.t -> unit
+)
+ident(
+  int_ref process_watch "process.ml" 54 1635 1639 "process.ml" 54 1635 1652
+)
+"process.ml" 153 4803 4820 "process.ml" 153 4803 4828
+type(
+  (Xb.Op.operation * Store.Path.t) list ->
+  (Xb.Op.operation * Store.Path.t) list
+)
+ident(
+  ext_ref List.rev
+)
+"process.ml" 153 4803 4830 "process.ml" 153 4803 4849
+type(
+  Transaction.t -> (Xb.Op.operation * Store.Path.t) list
+)
+ident(
+  ext_ref Transaction.get_ops
+)
+"process.ml" 153 4803 4850 "process.ml" 153 4803 4851
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 140 4427 4454 "process.ml" 140 4427 4455
+)
+"process.ml" 153 4803 4829 "process.ml" 153 4803 4852
+type(
+  (Xb.Op.operation * Store.Path.t) list
+)
+"process.ml" 153 4803 4819 "process.ml" 153 4803 4853
+type(
+  (Xb.Op.operation * Store.Path.t) list
+)
+"process.ml" 153 4803 4854 "process.ml" 153 4803 4858
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 140 4427 4464 "process.ml" 140 4427 4468
+)
+"process.ml" 153 4803 4805 "process.ml" 153 4803 4858
+type(
+  unit
+)
+"process.ml" 152 4787 4788 "process.ml" 153 4803 4858
+type(
+  unit
+)
+"process.ml" 150 4739 4740 "process.ml" 153 4803 4858
+type(
+  unit
+)
+"process.ml" 148 4658 4659 "process.ml" 153 4803 4858
+type(
+  unit
+)
+"process.ml" 141 4476 4477 "process.ml" 153 4803 4858
+type(
+  unit
+)
+"process.ml" 155 4860 4864 "process.ml" 155 4860 4876
+type(
+  Connection.t -> 'a -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  def do_introduce "process.ml" 178 5623 5623 --
+)
+"process.ml" 155 4860 4877 "process.ml" 155 4860 4880
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 155 4860 4881 "process.ml" 176 5597 5621
+)
+"process.ml" 155 4860 4881 "process.ml" 155 4860 4882
+type(
+  'a
+)
+ident(
+  def t "process.ml" 155 4860 4883 "process.ml" 176 5597 5621
+)
+"process.ml" 155 4860 4883 "process.ml" 155 4860 4890
+type(
+  Domains.domains
+)
+ident(
+  def domains "process.ml" 155 4860 4891 "process.ml" 176 5597 5621
+)
+"process.ml" 155 4860 4891 "process.ml" 155 4860 4895
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 155 4860 4896 "process.ml" 176 5597 5621
+)
+"process.ml" 155 4860 4896 "process.ml" 155 4860 4900
+type(
+  string
+)
+ident(
+  def data "process.ml" 156 4903 4904 "process.ml" 176 5597 5621
+)
+"process.ml" 156 4903 4907 "process.ml" 156 4903 4910
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 156 4903 4912 "process.ml" 156 4903 4930
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"process.ml" 156 4903 4931 "process.ml" 156 4903 4934
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 155 4860 4877 "process.ml" 155 4860 4880
+)
+"process.ml" 156 4903 4911 "process.ml" 156 4903 4935
+type(
+  bool
+)
+"process.ml" 156 4903 4907 "process.ml" 156 4903 4935
+type(
+  bool
+)
+"process.ml" 157 4936 4942 "process.ml" 157 4936 4947
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 157 4936 4948 "process.ml" 157 4936 4972
+type(
+  exn
+)
+"process.ml" 157 4936 4942 "process.ml" 157 4936 4972
+type(
+  unit
+)
+"process.ml" 156 4903 4904 "process.ml" 157 4936 4972
+type(
+  unit
+)
+"process.ml" 158 4974 4980 "process.ml" 158 4974 4985
+type(
+  int
+)
+"process.ml" 158 4974 4987 "process.ml" 158 4974 4990
+type(
+  nativeint
+)
+"process.ml" 158 4974 4992 "process.ml" 158 4974 4996
+type(
+  int
+)
+"process.ml" 158 4974 4979 "process.ml" 158 4974 4997
+type(
+  int * nativeint * int
+)
+"process.ml" 159 5000 5009 "process.ml" 159 5000 5014
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 159 5000 5015 "process.ml" 159 5000 5019
+type(
+  int option
+)
+"process.ml" 159 5000 5020 "process.ml" 159 5000 5026
+type(
+  char
+)
+"process.ml" 159 5000 5027 "process.ml" 159 5000 5031
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 155 4860 4896 "process.ml" 155 4860 4900
+)
+"process.ml" 159 5000 5008 "process.ml" 159 5000 5032
+type(
+  string list
+)
+"process.ml" 160 5038 5042 "process.ml" 160 5038 5047
+type(
+  string
+)
+ident(
+  def domid "process.ml" 161 5071 5074 "process.ml" 161 5071 5138
+)
+"process.ml" 160 5038 5051 "process.ml" 160 5038 5054
+type(
+  string
+)
+ident(
+  def mfn "process.ml" 161 5071 5074 "process.ml" 161 5071 5138
+)
+"process.ml" 160 5038 5058 "process.ml" 160 5038 5062
+type(
+  string
+)
+ident(
+  def port "process.ml" 161 5071 5074 "process.ml" 161 5071 5138
+)
+"process.ml" 160 5038 5066 "process.ml" 160 5038 5067
+type(
+  string list
+)
+"process.ml" 160 5038 5058 "process.ml" 160 5038 5067
+type(
+  string list
+)
+"process.ml" 160 5038 5051 "process.ml" 160 5038 5067
+type(
+  string list
+)
+"process.ml" 160 5038 5042 "process.ml" 160 5038 5067
+type(
+  string list
+)
+"process.ml" 161 5071 5074 "process.ml" 161 5071 5087
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 161 5071 5088 "process.ml" 161 5071 5093
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 160 5038 5042 "process.ml" 160 5038 5047
+)
+"process.ml" 161 5071 5074 "process.ml" 161 5071 5093
+type(
+  int
+)
+"process.ml" 161 5071 5095 "process.ml" 161 5071 5114
+type(
+  string -> nativeint
+)
+ident(
+  ext_ref Nativeint.of_string
+)
+"process.ml" 161 5071 5115 "process.ml" 161 5071 5118
+type(
+  string
+)
+ident(
+  int_ref mfn "process.ml" 160 5038 5051 "process.ml" 160 5038 5054
+)
+"process.ml" 161 5071 5095 "process.ml" 161 5071 5118
+type(
+  nativeint
+)
+"process.ml" 161 5071 5120 "process.ml" 161 5071 5133
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 161 5071 5134 "process.ml" 161 5071 5138
+type(
+  string
+)
+ident(
+  int_ref port "process.ml" 160 5038 5058 "process.ml" 160 5038 5062
+)
+"process.ml" 161 5071 5120 "process.ml" 161 5071 5138
+type(
+  int
+)
+"process.ml" 161 5071 5074 "process.ml" 161 5071 5138
+type(
+  int * nativeint * int
+)
+"process.ml" 162 5139 5143 "process.ml" 162 5139 5144
+type(
+  string list
+)
+"process.ml" 162 5139 5172 "process.ml" 162 5139 5177
+type(
+  exn -> int * nativeint * int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 162 5139 5178 "process.ml" 162 5139 5194
+type(
+  exn
+)
+"process.ml" 162 5139 5172 "process.ml" 162 5139 5195
+type(
+  int * nativeint * int
+)
+"process.ml" 159 5000 5002 "process.ml" 162 5139 5195
+type(
+  int * nativeint * int
+)
+"process.ml" 164 5201 5206 "process.ml" 164 5201 5209
+type(
+  Domain.t
+)
+"process.ml" 165 5212 5217 "process.ml" 165 5212 5230
+type(
+  Domains.domains -> Xc.domid -> bool
+)
+ident(
+  ext_ref Domains.exist
+)
+"process.ml" 165 5212 5231 "process.ml" 165 5212 5238
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 155 4860 4883 "process.ml" 155 4860 4890
+)
+"process.ml" 165 5212 5239 "process.ml" 165 5212 5244
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 158 4974 4980 "process.ml" 158 4974 4985
+)
+"process.ml" 165 5212 5217 "process.ml" 165 5212 5244
+type(
+  bool
+)
+"process.ml" 166 5250 5253 "process.ml" 166 5250 5265
+type(
+  Domains.domains -> Xc.domid -> Domain.t
+)
+ident(
+  ext_ref Domains.find
+)
+"process.ml" 166 5250 5266 "process.ml" 166 5250 5273
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 155 4860 4883 "process.ml" 155 4860 4890
+)
+"process.ml" 166 5250 5274 "process.ml" 166 5250 5279
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 158 4974 4980 "process.ml" 158 4974 4985
+)
+"process.ml" 166 5250 5253 "process.ml" 166 5250 5279
+type(
+  Domain.t
+)
+"process.ml" 168 5291 5298 "process.ml" 168 5291 5302
+type(
+  Domain.t
+)
+ident(
+  def ndom "process.ml" 170 5378 5381 "process.ml" 172 5473 5480
+)
+"process.ml" 168 5291 5305 "process.ml" 168 5291 5317
+type(
+  (Xc.handle -> Domain.t) -> Domain.t
+)
+ident(
+  ext_ref Xc.with_intf
+)
+"process.ml" 168 5291 5323 "process.ml" 168 5291 5325
+type(
+  Xc.handle
+)
+ident(
+  def xc "process.ml" 169 5329 5333 "process.ml" 169 5329 5373
+)
+"process.ml" 169 5329 5333 "process.ml" 169 5329 5347
+type(
+  Xc.handle -> Domains.domains -> Xc.domid -> nativeint -> int -> Domain.t
+)
+ident(
+  ext_ref Domains.create
+)
+"process.ml" 169 5329 5348 "process.ml" 169 5329 5350
+type(
+  Xc.handle
+)
+ident(
+  int_ref xc "process.ml" 168 5291 5323 "process.ml" 168 5291 5325
+)
+"process.ml" 169 5329 5351 "process.ml" 169 5329 5358
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 155 4860 4883 "process.ml" 155 4860 4890
+)
+"process.ml" 169 5329 5359 "process.ml" 169 5329 5364
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 158 4974 4980 "process.ml" 158 4974 4985
+)
+"process.ml" 169 5329 5365 "process.ml" 169 5329 5368
+type(
+  nativeint
+)
+ident(
+  int_ref mfn "process.ml" 158 4974 4987 "process.ml" 158 4974 4990
+)
+"process.ml" 169 5329 5369 "process.ml" 169 5329 5373
+type(
+  int
+)
+ident(
+  int_ref port "process.ml" 158 4974 4992 "process.ml" 158 4974 4996
+)
+"process.ml" 169 5329 5333 "process.ml" 169 5329 5373
+type(
+  Domain.t
+)
+"process.ml" 168 5291 5318 "process.ml" 169 5329 5374
+type(
+  Xc.handle -> Domain.t
+)
+"process.ml" 168 5291 5305 "process.ml" 169 5329 5374
+type(
+  Domain.t
+)
+"process.ml" 170 5378 5381 "process.ml" 170 5378 5403
+type(
+  Connections.t -> Domain.t -> unit
+)
+ident(
+  ext_ref Connections.add_domain
+)
+"process.ml" 170 5378 5404 "process.ml" 170 5378 5408
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 155 4860 4891 "process.ml" 155 4860 4895
+)
+"process.ml" 170 5378 5409 "process.ml" 170 5378 5413
+type(
+  Domain.t
+)
+ident(
+  int_ref ndom "process.ml" 168 5291 5298 "process.ml" 168 5291 5302
+)
+"process.ml" 170 5378 5381 "process.ml" 170 5378 5413
+type(
+  unit
+)
+"process.ml" 171 5415 5418 "process.ml" 171 5415 5447
+type(
+  Connections.t -> string -> unit
+)
+ident(
+  ext_ref Connections.fire_spec_watches
+)
+"process.ml" 171 5415 5448 "process.ml" 171 5415 5452
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 155 4860 4891 "process.ml" 155 4860 4895
+)
+"process.ml" 171 5415 5453 "process.ml" 171 5415 5471
+type(
+  string
+)
+"process.ml" 171 5415 5418 "process.ml" 171 5415 5471
+type(
+  unit
+)
+"process.ml" 172 5473 5476 "process.ml" 172 5473 5480
+type(
+  Domain.t
+)
+ident(
+  int_ref ndom "process.ml" 168 5291 5298 "process.ml" 168 5291 5302
+)
+"process.ml" 171 5415 5418 "process.ml" 172 5473 5480
+type(
+  Domain.t
+)
+"process.ml" 170 5378 5381 "process.ml" 172 5473 5480
+type(
+  Domain.t
+)
+"process.ml" 168 5291 5294 "process.ml" 172 5473 5480
+type(
+  Domain.t
+)
+"process.ml" 173 5481 5488 "process.ml" 173 5481 5489
+type(
+  exn
+)
+"process.ml" 173 5481 5493 "process.ml" 173 5481 5498
+type(
+  exn -> Domain.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 173 5481 5499 "process.ml" 173 5481 5515
+type(
+  exn
+)
+"process.ml" 173 5481 5493 "process.ml" 173 5481 5515
+type(
+  Domain.t
+)
+"process.ml" 167 5280 5287 "process.ml" 173 5481 5515
+type(
+  Domain.t
+)
+"process.ml" 165 5212 5214 "process.ml" 173 5481 5515
+type(
+  Domain.t
+)
+"process.ml" 175 5520 5525 "process.ml" 175 5520 5547
+type(
+  Domain.t -> int
+)
+ident(
+  ext_ref Domain.get_remote_port
+)
+"process.ml" 175 5520 5548 "process.ml" 175 5520 5551
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "process.ml" 164 5201 5206 "process.ml" 164 5201 5209
+)
+"process.ml" 175 5520 5524 "process.ml" 175 5520 5552
+type(
+  int
+)
+"process.ml" 175 5520 5553 "process.ml" 175 5520 5555
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"process.ml" 175 5520 5556 "process.ml" 175 5520 5560
+type(
+  int
+)
+ident(
+  int_ref port "process.ml" 158 4974 4992 "process.ml" 158 4974 4996
+)
+"process.ml" 175 5520 5524 "process.ml" 175 5520 5560
+type(
+  bool
+)
+"process.ml" 175 5520 5561 "process.ml" 175 5520 5563
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"process.ml" 175 5520 5565 "process.ml" 175 5520 5579
+type(
+  Domain.t -> nativeint
+)
+ident(
+  ext_ref Domain.get_mfn
+)
+"process.ml" 175 5520 5580 "process.ml" 175 5520 5583
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "process.ml" 164 5201 5206 "process.ml" 164 5201 5209
+)
+"process.ml" 175 5520 5564 "process.ml" 175 5520 5584
+type(
+  nativeint
+)
+"process.ml" 175 5520 5585 "process.ml" 175 5520 5587
+type(
+  nativeint -> nativeint -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"process.ml" 175 5520 5588 "process.ml" 175 5520 5591
+type(
+  nativeint
+)
+ident(
+  int_ref mfn "process.ml" 158 4974 4987 "process.ml" 158 4974 4990
+)
+"process.ml" 175 5520 5564 "process.ml" 175 5520 5591
+type(
+  bool
+)
+"process.ml" 175 5520 5524 "process.ml" 175 5520 5591
+type(
+  bool
+)
+"process.ml" 176 5597 5599 "process.ml" 176 5597 5604
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 176 5597 5605 "process.ml" 176 5597 5621
+type(
+  exn
+)
+"process.ml" 176 5597 5599 "process.ml" 176 5597 5621
+type(
+  unit
+)
+"process.ml" 175 5520 5521 "process.ml" 176 5597 5621
+type(
+  unit
+)
+"process.ml" 164 5201 5202 "process.ml" 176 5597 5621
+type(
+  unit
+)
+"process.ml" 158 4974 4975 "process.ml" 176 5597 5621
+type(
+  unit
+)
+"process.ml" 156 4903 4904 "process.ml" 176 5597 5621
+type(
+  unit
+)
+"process.ml" 178 5623 5627 "process.ml" 178 5623 5637
+type(
+  Connection.t -> 'a -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  def do_release "process.ml" 193 6101 6101 --
+)
+"process.ml" 178 5623 5638 "process.ml" 178 5623 5641
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 178 5623 5642 "process.ml" 191 6071 6099
+)
+"process.ml" 178 5623 5642 "process.ml" 178 5623 5643
+type(
+  'a
+)
+ident(
+  def t "process.ml" 178 5623 5644 "process.ml" 191 6071 6099
+)
+"process.ml" 178 5623 5644 "process.ml" 178 5623 5651
+type(
+  Domains.domains
+)
+ident(
+  def domains "process.ml" 178 5623 5652 "process.ml" 191 6071 6099
+)
+"process.ml" 178 5623 5652 "process.ml" 178 5623 5656
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 178 5623 5657 "process.ml" 191 6071 6099
+)
+"process.ml" 178 5623 5657 "process.ml" 178 5623 5661
+type(
+  string
+)
+ident(
+  def data "process.ml" 179 5664 5665 "process.ml" 191 6071 6099
+)
+"process.ml" 179 5664 5668 "process.ml" 179 5664 5671
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 179 5664 5673 "process.ml" 179 5664 5691
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"process.ml" 179 5664 5692 "process.ml" 179 5664 5695
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 178 5623 5638 "process.ml" 178 5623 5641
+)
+"process.ml" 179 5664 5672 "process.ml" 179 5664 5696
+type(
+  bool
+)
+"process.ml" 179 5664 5668 "process.ml" 179 5664 5696
+type(
+  bool
+)
+"process.ml" 180 5697 5703 "process.ml" 180 5697 5708
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 180 5697 5709 "process.ml" 180 5697 5733
+type(
+  exn
+)
+"process.ml" 180 5697 5703 "process.ml" 180 5697 5733
+type(
+  unit
+)
+"process.ml" 179 5664 5665 "process.ml" 180 5697 5733
+type(
+  unit
+)
+"process.ml" 181 5735 5740 "process.ml" 181 5735 5745
+type(
+  int
+)
+"process.ml" 182 5748 5757 "process.ml" 182 5748 5762
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 182 5748 5763 "process.ml" 182 5748 5767
+type(
+  int option
+)
+"process.ml" 182 5748 5768 "process.ml" 182 5748 5774
+type(
+  char
+)
+"process.ml" 182 5748 5775 "process.ml" 182 5748 5779
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 178 5623 5657 "process.ml" 178 5623 5661
+)
+"process.ml" 182 5748 5756 "process.ml" 182 5748 5780
+type(
+  string list
+)
+"process.ml" 183 5786 5791 "process.ml" 183 5786 5796
+type(
+  string
+)
+ident(
+  def domid "process.ml" 183 5786 5804 "process.ml" 183 5786 5823
+)
+"process.ml" 183 5786 5797 "process.ml" 183 5786 5799
+type(
+  string
+)
+"process.ml" 183 5786 5790 "process.ml" 183 5786 5800
+type(
+  string list
+)
+"process.ml" 183 5786 5804 "process.ml" 183 5786 5817
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 183 5786 5818 "process.ml" 183 5786 5823
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 183 5786 5791 "process.ml" 183 5786 5796
+)
+"process.ml" 183 5786 5804 "process.ml" 183 5786 5823
+type(
+  int
+)
+"process.ml" 184 5824 5828 "process.ml" 184 5824 5829
+type(
+  string list
+)
+"process.ml" 184 5824 5842 "process.ml" 184 5824 5847
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 184 5824 5848 "process.ml" 184 5824 5864
+type(
+  exn
+)
+"process.ml" 184 5824 5842 "process.ml" 184 5824 5864
+type(
+  int
+)
+"process.ml" 182 5748 5750 "process.ml" 184 5824 5864
+type(
+  int
+)
+"process.ml" 186 5870 5875 "process.ml" 186 5870 5892
+type(
+  bool
+)
+"process.ml" 186 5870 5895 "process.ml" 186 5870 5908
+type(
+  Domains.domains -> Xc.domid -> bool
+)
+ident(
+  ext_ref Domains.exist
+)
+"process.ml" 186 5870 5909 "process.ml" 186 5870 5916
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 178 5623 5644 "process.ml" 178 5623 5651
+)
+"process.ml" 186 5870 5917 "process.ml" 186 5870 5922
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 181 5735 5740 "process.ml" 181 5735 5745
+)
+"process.ml" 186 5870 5895 "process.ml" 186 5870 5922
+type(
+  bool
+)
+"process.ml" 187 5926 5927 "process.ml" 187 5926 5938
+type(
+  Domains.domains -> Xc.domid -> unit
+)
+ident(
+  ext_ref Domains.del
+)
+"process.ml" 187 5926 5939 "process.ml" 187 5926 5946
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 178 5623 5644 "process.ml" 178 5623 5651
+)
+"process.ml" 187 5926 5947 "process.ml" 187 5926 5952
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 181 5735 5740 "process.ml" 181 5735 5745
+)
+"process.ml" 187 5926 5927 "process.ml" 187 5926 5952
+type(
+  unit
+)
+"process.ml" 188 5954 5955 "process.ml" 188 5954 5977
+type(
+  Connections.t -> int -> unit
+)
+ident(
+  ext_ref Connections.del_domain
+)
+"process.ml" 188 5954 5978 "process.ml" 188 5954 5982
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 178 5623 5652 "process.ml" 178 5623 5656
+)
+"process.ml" 188 5954 5983 "process.ml" 188 5954 5988
+type(
+  int
+)
+ident(
+  int_ref domid "process.ml" 181 5735 5740 "process.ml" 181 5735 5745
+)
+"process.ml" 188 5954 5955 "process.ml" 188 5954 5988
+type(
+  unit
+)
+"process.ml" 189 5990 5994 "process.ml" 189 5990 6011
+type(
+  bool
+)
+ident(
+  int_ref fire_spec_watches "process.ml" 186 5870 5875 "process.ml" 186 5870 5892
+)
+"process.ml" 190 6013 6019 "process.ml" 190 6013 6048
+type(
+  Connections.t -> string -> unit
+)
+ident(
+  ext_ref Connections.fire_spec_watches
+)
+"process.ml" 190 6013 6049 "process.ml" 190 6013 6053
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 178 5623 5652 "process.ml" 178 5623 5656
+)
+"process.ml" 190 6013 6054 "process.ml" 190 6013 6070
+type(
+  string
+)
+"process.ml" 190 6013 6019 "process.ml" 190 6013 6070
+type(
+  unit
+)
+"process.ml" 191 6071 6077 "process.ml" 191 6071 6082
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 191 6071 6083 "process.ml" 191 6071 6099
+type(
+  exn
+)
+"process.ml" 191 6071 6077 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 189 5990 5991 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 188 5954 5955 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 187 5926 5927 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 186 5870 5871 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 181 5735 5736 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 179 5664 5665 "process.ml" 191 6071 6099
+type(
+  unit
+)
+"process.ml" 193 6101 6105 "process.ml" 193 6101 6114
+type(
+  Connection.t -> 'a -> Domains.domains -> 'b -> string -> unit
+)
+ident(
+  def do_resume "process.ml" 205 6444 6444 --
+)
+"process.ml" 193 6101 6115 "process.ml" 193 6101 6118
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 193 6101 6119 "process.ml" 203 6414 6442
+)
+"process.ml" 193 6101 6119 "process.ml" 193 6101 6120
+type(
+  'a
+)
+ident(
+  def t "process.ml" 193 6101 6121 "process.ml" 203 6414 6442
+)
+"process.ml" 193 6101 6121 "process.ml" 193 6101 6128
+type(
+  Domains.domains
+)
+ident(
+  def domains "process.ml" 193 6101 6129 "process.ml" 203 6414 6442
+)
+"process.ml" 193 6101 6129 "process.ml" 193 6101 6133
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 193 6101 6134 "process.ml" 203 6414 6442
+)
+"process.ml" 193 6101 6134 "process.ml" 193 6101 6138
+type(
+  string
+)
+ident(
+  def data "process.ml" 194 6141 6142 "process.ml" 203 6414 6442
+)
+"process.ml" 194 6141 6145 "process.ml" 194 6141 6148
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 194 6141 6150 "process.ml" 194 6141 6168
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"process.ml" 194 6141 6169 "process.ml" 194 6141 6172
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 193 6101 6115 "process.ml" 193 6101 6118
+)
+"process.ml" 194 6141 6149 "process.ml" 194 6141 6173
+type(
+  bool
+)
+"process.ml" 194 6141 6145 "process.ml" 194 6141 6173
+type(
+  bool
+)
+"process.ml" 195 6174 6180 "process.ml" 195 6174 6185
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 195 6174 6186 "process.ml" 195 6174 6210
+type(
+  exn
+)
+"process.ml" 195 6174 6180 "process.ml" 195 6174 6210
+type(
+  unit
+)
+"process.ml" 194 6141 6142 "process.ml" 195 6174 6210
+type(
+  unit
+)
+"process.ml" 196 6212 6217 "process.ml" 196 6212 6222
+type(
+  int
+)
+"process.ml" 197 6225 6234 "process.ml" 197 6225 6239
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 197 6225 6240 "process.ml" 197 6225 6244
+type(
+  int option
+)
+"process.ml" 197 6225 6245 "process.ml" 197 6225 6251
+type(
+  char
+)
+"process.ml" 197 6225 6252 "process.ml" 197 6225 6256
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 193 6101 6134 "process.ml" 193 6101 6138
+)
+"process.ml" 197 6225 6233 "process.ml" 197 6225 6257
+type(
+  string list
+)
+"process.ml" 198 6263 6267 "process.ml" 198 6263 6272
+type(
+  string
+)
+ident(
+  def domid "process.ml" 198 6263 6281 "process.ml" 198 6263 6300
+)
+"process.ml" 198 6263 6276 "process.ml" 198 6263 6277
+type(
+  string list
+)
+"process.ml" 198 6263 6267 "process.ml" 198 6263 6277
+type(
+  string list
+)
+"process.ml" 198 6263 6281 "process.ml" 198 6263 6294
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 198 6263 6295 "process.ml" 198 6263 6300
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 198 6263 6267 "process.ml" 198 6263 6272
+)
+"process.ml" 198 6263 6281 "process.ml" 198 6263 6300
+type(
+  int
+)
+"process.ml" 199 6301 6305 "process.ml" 199 6301 6306
+type(
+  string list
+)
+"process.ml" 199 6301 6319 "process.ml" 199 6301 6324
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 199 6301 6325 "process.ml" 199 6301 6341
+type(
+  exn
+)
+"process.ml" 199 6301 6319 "process.ml" 199 6301 6341
+type(
+  int
+)
+"process.ml" 197 6225 6227 "process.ml" 199 6301 6341
+type(
+  int
+)
+"process.ml" 201 6347 6351 "process.ml" 201 6347 6364
+type(
+  Domains.domains -> Xc.domid -> bool
+)
+ident(
+  ext_ref Domains.exist
+)
+"process.ml" 201 6347 6365 "process.ml" 201 6347 6372
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 193 6101 6121 "process.ml" 193 6101 6128
+)
+"process.ml" 201 6347 6373 "process.ml" 201 6347 6378
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 196 6212 6217 "process.ml" 196 6212 6222
+)
+"process.ml" 201 6347 6351 "process.ml" 201 6347 6378
+type(
+  bool
+)
+"process.ml" 202 6379 6385 "process.ml" 202 6379 6399
+type(
+  Domains.domains -> int -> unit
+)
+ident(
+  ext_ref Domains.resume
+)
+"process.ml" 202 6379 6400 "process.ml" 202 6379 6407
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 193 6101 6121 "process.ml" 193 6101 6128
+)
+"process.ml" 202 6379 6408 "process.ml" 202 6379 6413
+type(
+  int
+)
+ident(
+  int_ref domid "process.ml" 196 6212 6217 "process.ml" 196 6212 6222
+)
+"process.ml" 202 6379 6385 "process.ml" 202 6379 6413
+type(
+  unit
+)
+"process.ml" 203 6414 6420 "process.ml" 203 6414 6425
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 203 6414 6426 "process.ml" 203 6414 6442
+type(
+  exn
+)
+"process.ml" 203 6414 6420 "process.ml" 203 6414 6442
+type(
+  unit
+)
+"process.ml" 201 6347 6348 "process.ml" 203 6414 6442
+type(
+  unit
+)
+"process.ml" 196 6212 6213 "process.ml" 203 6414 6442
+type(
+  unit
+)
+"process.ml" 194 6141 6142 "process.ml" 203 6414 6442
+type(
+  unit
+)
+"process.ml" 205 6444 6448 "process.ml" 205 6444 6464
+type(
+  'a -> 'b -> 'c -> 'd -> string -> string
+)
+ident(
+  def do_getdomainpath "process.ml" 213 6681 6681 --
+)
+"process.ml" 205 6444 6465 "process.ml" 205 6444 6468
+type(
+  'a
+)
+ident(
+  def con "process.ml" 205 6444 6469 "process.ml" 211 6642 6679
+)
+"process.ml" 205 6444 6469 "process.ml" 205 6444 6470
+type(
+  'b
+)
+ident(
+  def t "process.ml" 205 6444 6471 "process.ml" 211 6642 6679
+)
+"process.ml" 205 6444 6471 "process.ml" 205 6444 6478
+type(
+  'c
+)
+ident(
+  def domains "process.ml" 205 6444 6479 "process.ml" 211 6642 6679
+)
+"process.ml" 205 6444 6479 "process.ml" 205 6444 6483
+type(
+  'd
+)
+ident(
+  def cons "process.ml" 205 6444 6484 "process.ml" 211 6642 6679
+)
+"process.ml" 205 6444 6484 "process.ml" 205 6444 6488
+type(
+  string
+)
+ident(
+  def data "process.ml" 206 6491 6492 "process.ml" 211 6642 6679
+)
+"process.ml" 206 6491 6496 "process.ml" 206 6491 6501
+type(
+  int
+)
+"process.ml" 207 6504 6513 "process.ml" 207 6504 6518
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 207 6504 6519 "process.ml" 207 6504 6523
+type(
+  int option
+)
+"process.ml" 207 6504 6524 "process.ml" 207 6504 6530
+type(
+  char
+)
+"process.ml" 207 6504 6531 "process.ml" 207 6504 6535
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 205 6444 6484 "process.ml" 205 6444 6488
+)
+"process.ml" 207 6504 6512 "process.ml" 207 6504 6536
+type(
+  string list
+)
+"process.ml" 208 6542 6546 "process.ml" 208 6542 6551
+type(
+  string
+)
+ident(
+  def domid "process.ml" 208 6542 6567 "process.ml" 208 6542 6588
+)
+"process.ml" 208 6542 6555 "process.ml" 208 6542 6557
+type(
+  string
+)
+"process.ml" 208 6542 6561 "process.ml" 208 6542 6563
+type(
+  string list
+)
+"process.ml" 208 6542 6555 "process.ml" 208 6542 6563
+type(
+  string list
+)
+"process.ml" 208 6542 6546 "process.ml" 208 6542 6563
+type(
+  string list
+)
+"process.ml" 208 6542 6567 "process.ml" 208 6542 6582
+type(
+  string -> int
+)
+ident(
+  int_ref c_int_of_string "process.ml" 27 842 846 "process.ml" 27 842 861
+)
+"process.ml" 208 6542 6583 "process.ml" 208 6542 6588
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 208 6542 6546 "process.ml" 208 6542 6551
+)
+"process.ml" 208 6542 6567 "process.ml" 208 6542 6588
+type(
+  int
+)
+"process.ml" 209 6589 6593 "process.ml" 209 6589 6594
+type(
+  string list
+)
+"process.ml" 209 6589 6614 "process.ml" 209 6589 6619
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 209 6589 6620 "process.ml" 209 6589 6636
+type(
+  exn
+)
+"process.ml" 209 6589 6614 "process.ml" 209 6589 6636
+type(
+  int
+)
+"process.ml" 207 6504 6506 "process.ml" 209 6589 6636
+type(
+  int
+)
+"process.ml" 211 6642 6643 "process.ml" 211 6642 6650
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"process.ml" 211 6642 6651 "process.ml" 211 6642 6673
+type(
+  (int -> string, unit, string) format
+)
+"process.ml" 211 6642 6674 "process.ml" 211 6642 6679
+type(
+  int
+)
+ident(
+  int_ref domid "process.ml" 206 6491 6496 "process.ml" 206 6491 6501
+)
+"process.ml" 211 6642 6643 "process.ml" 211 6642 6679
+type(
+  string
+)
+"process.ml" 206 6491 6492 "process.ml" 211 6642 6679
+type(
+  string
+)
+"process.ml" 213 6681 6685 "process.ml" 213 6681 6693
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> unit
+)
+ident(
+  def do_write "process.ml" 222 7034 7034 --
+)
+"process.ml" 213 6681 6694 "process.ml" 213 6681 6697
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 213 6681 6698 "process.ml" 220 6975 7032
+)
+"process.ml" 213 6681 6698 "process.ml" 213 6681 6699
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 213 6681 6700 "process.ml" 220 6975 7032
+)
+"process.ml" 213 6681 6700 "process.ml" 213 6681 6707
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 213 6681 6708 "process.ml" 220 6975 7032
+)
+"process.ml" 213 6681 6708 "process.ml" 213 6681 6712
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 213 6681 6713 "process.ml" 220 6975 7032
+)
+"process.ml" 213 6681 6713 "process.ml" 213 6681 6717
+type(
+  string
+)
+ident(
+  def data "process.ml" 214 6720 6721 "process.ml" 220 6975 7032
+)
+"process.ml" 214 6720 6725 "process.ml" 214 6720 6729
+type(
+  string list
+)
+"process.ml" 214 6720 6731 "process.ml" 214 6720 6736
+type(
+  string
+)
+"process.ml" 214 6720 6725 "process.ml" 214 6720 6736
+type(
+  string list * string
+)
+"process.ml" 215 6739 6748 "process.ml" 215 6739 6753
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 215 6739 6760 "process.ml" 215 6739 6761
+type(
+  int
+)
+"process.ml" 215 6739 6754 "process.ml" 215 6739 6762
+type(
+  int option
+)
+"process.ml" 215 6739 6763 "process.ml" 215 6739 6769
+type(
+  char
+)
+"process.ml" 215 6739 6770 "process.ml" 215 6739 6774
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 213 6681 6713 "process.ml" 213 6681 6717
+)
+"process.ml" 215 6739 6747 "process.ml" 215 6739 6775
+type(
+  string list
+)
+"process.ml" 216 6781 6785 "process.ml" 216 6781 6789
+type(
+  string
+)
+ident(
+  def path "process.ml" 216 6781 6808 "process.ml" 216 6781 6863
+)
+"process.ml" 216 6781 6793 "process.ml" 216 6781 6798
+type(
+  string
+)
+ident(
+  def value "process.ml" 216 6781 6808 "process.ml" 216 6781 6863
+)
+"process.ml" 216 6781 6802 "process.ml" 216 6781 6804
+type(
+  string list
+)
+"process.ml" 216 6781 6793 "process.ml" 216 6781 6804
+type(
+  string list
+)
+"process.ml" 216 6781 6785 "process.ml" 216 6781 6804
+type(
+  string list
+)
+"process.ml" 216 6781 6808 "process.ml" 216 6781 6825
+type(
+  string -> string -> string list
+)
+ident(
+  ext_ref Store.Path.create
+)
+"process.ml" 216 6781 6826 "process.ml" 216 6781 6830
+type(
+  string
+)
+ident(
+  int_ref path "process.ml" 216 6781 6785 "process.ml" 216 6781 6789
+)
+"process.ml" 216 6781 6832 "process.ml" 216 6781 6851
+type(
+  Connection.t -> string
+)
+ident(
+  ext_ref Connection.get_path
+)
+"process.ml" 216 6781 6852 "process.ml" 216 6781 6855
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 213 6681 6694 "process.ml" 213 6681 6697
+)
+"process.ml" 216 6781 6831 "process.ml" 216 6781 6856
+type(
+  string
+)
+"process.ml" 216 6781 6808 "process.ml" 216 6781 6856
+type(
+  string list
+)
+"process.ml" 216 6781 6858 "process.ml" 216 6781 6863
+type(
+  string
+)
+ident(
+  int_ref value "process.ml" 216 6781 6793 "process.ml" 216 6781 6798
+)
+"process.ml" 216 6781 6808 "process.ml" 216 6781 6863
+type(
+  string list * string
+)
+"process.ml" 217 6864 6868 "process.ml" 217 6864 6869
+type(
+  string list
+)
+"process.ml" 217 6864 6891 "process.ml" 217 6864 6896
+type(
+  exn -> string list * string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 217 6864 6897 "process.ml" 217 6864 6913
+type(
+  exn
+)
+"process.ml" 217 6864 6891 "process.ml" 217 6864 6913
+type(
+  string list * string
+)
+"process.ml" 215 6739 6741 "process.ml" 217 6864 6913
+type(
+  string list * string
+)
+"process.ml" 219 6919 6920 "process.ml" 219 6919 6940
+type(
+  Transaction.t -> Perms.Connection.t -> string list -> unit
+)
+ident(
+  int_ref create_implicit_path "process.ml" 65 1987 1991 "process.ml" 65 1987 2011
+)
+"process.ml" 219 6919 6941 "process.ml" 219 6919 6942
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 213 6681 6698 "process.ml" 213 6681 6699
+)
+"process.ml" 219 6919 6944 "process.ml" 219 6919 6963
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 219 6919 6964 "process.ml" 219 6919 6967
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 213 6681 6694 "process.ml" 213 6681 6697
+)
+"process.ml" 219 6919 6943 "process.ml" 219 6919 6968
+type(
+  Perms.Connection.t
+)
+"process.ml" 219 6919 6969 "process.ml" 219 6919 6973
+type(
+  string list
+)
+ident(
+  int_ref path "process.ml" 214 6720 6725 "process.ml" 214 6720 6729
+)
+"process.ml" 219 6919 6920 "process.ml" 219 6919 6973
+type(
+  unit
+)
+"process.ml" 220 6975 6976 "process.ml" 220 6975 6993
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> string -> unit
+)
+ident(
+  ext_ref Transaction.write
+)
+"process.ml" 220 6975 6994 "process.ml" 220 6975 6995
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 213 6681 6698 "process.ml" 213 6681 6699
+)
+"process.ml" 220 6975 6997 "process.ml" 220 6975 7016
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 220 6975 7017 "process.ml" 220 6975 7020
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 213 6681 6694 "process.ml" 213 6681 6697
+)
+"process.ml" 220 6975 6996 "process.ml" 220 6975 7021
+type(
+  Perms.Connection.t
+)
+"process.ml" 220 6975 7022 "process.ml" 220 6975 7026
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 214 6720 6725 "process.ml" 214 6720 6729
+)
+"process.ml" 220 6975 7027 "process.ml" 220 6975 7032
+type(
+  string
+)
+ident(
+  int_ref value "process.ml" 214 6720 6731 "process.ml" 214 6720 6736
+)
+"process.ml" 220 6975 6976 "process.ml" 220 6975 7032
+type(
+  unit
+)
+"process.ml" 219 6919 6920 "process.ml" 220 6975 7032
+type(
+  unit
+)
+"process.ml" 214 6720 6721 "process.ml" 220 6975 7032
+type(
+  unit
+)
+"process.ml" 222 7034 7038 "process.ml" 222 7034 7046
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> unit
+)
+ident(
+  def do_mkdir "process.ml" 230 7262 7262 --
+)
+"process.ml" 222 7034 7047 "process.ml" 222 7034 7050
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 222 7034 7051 "process.ml" 228 7232 7260
+)
+"process.ml" 222 7034 7051 "process.ml" 222 7034 7052
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 222 7034 7053 "process.ml" 228 7232 7260
+)
+"process.ml" 222 7034 7053 "process.ml" 222 7034 7060
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 222 7034 7061 "process.ml" 228 7232 7260
+)
+"process.ml" 222 7034 7061 "process.ml" 222 7034 7065
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 222 7034 7066 "process.ml" 228 7232 7260
+)
+"process.ml" 222 7034 7066 "process.ml" 222 7034 7070
+type(
+  string
+)
+ident(
+  def data "process.ml" 223 7073 7074 "process.ml" 228 7232 7260
+)
+"process.ml" 223 7073 7078 "process.ml" 223 7073 7082
+type(
+  string list
+)
+"process.ml" 223 7073 7085 "process.ml" 223 7073 7099
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  int_ref split_one_path "process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+)
+"process.ml" 223 7073 7100 "process.ml" 223 7073 7104
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 222 7034 7066 "process.ml" 222 7034 7070
+)
+"process.ml" 223 7073 7105 "process.ml" 223 7073 7108
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 222 7034 7047 "process.ml" 222 7034 7050
+)
+"process.ml" 223 7073 7085 "process.ml" 223 7073 7108
+type(
+  string list
+)
+"process.ml" 224 7112 7113 "process.ml" 224 7112 7133
+type(
+  Transaction.t -> Perms.Connection.t -> string list -> unit
+)
+ident(
+  int_ref create_implicit_path "process.ml" 65 1987 1991 "process.ml" 65 1987 2011
+)
+"process.ml" 224 7112 7134 "process.ml" 224 7112 7135
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 222 7034 7051 "process.ml" 222 7034 7052
+)
+"process.ml" 224 7112 7137 "process.ml" 224 7112 7156
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 224 7112 7157 "process.ml" 224 7112 7160
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 222 7034 7047 "process.ml" 222 7034 7050
+)
+"process.ml" 224 7112 7136 "process.ml" 224 7112 7161
+type(
+  Perms.Connection.t
+)
+"process.ml" 224 7112 7162 "process.ml" 224 7112 7166
+type(
+  string list
+)
+ident(
+  int_ref path "process.ml" 223 7073 7078 "process.ml" 223 7073 7082
+)
+"process.ml" 224 7112 7113 "process.ml" 224 7112 7166
+type(
+  unit
+)
+"process.ml" 226 7173 7175 "process.ml" 226 7173 7192
+type(
+  ?with_watch:bool ->
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  ext_ref Transaction.mkdir
+)
+"process.ml" 226 7173 7193 "process.ml" 226 7173 7194
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 222 7034 7051 "process.ml" 222 7034 7052
+)
+"process.ml" 226 7173 7196 "process.ml" 226 7173 7215
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 226 7173 7216 "process.ml" 226 7173 7219
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 222 7034 7047 "process.ml" 222 7034 7050
+)
+"process.ml" 226 7173 7195 "process.ml" 226 7173 7220
+type(
+  Perms.Connection.t
+)
+"process.ml" 226 7173 7221 "process.ml" 226 7173 7225
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 223 7073 7078 "process.ml" 223 7073 7082
+)
+"process.ml" 226 7173 7175 "process.ml" 226 7173 7225
+type(
+  unit
+)
+"process.ml" 228 7232 7234 "process.ml" 228 7232 7254
+type(
+  exn
+)
+"process.ml" 228 7232 7258 "process.ml" 228 7232 7260
+type(
+  unit
+)
+"process.ml" 225 7168 7169 "process.ml" 228 7232 7260
+type(
+  unit
+)
+"process.ml" 224 7112 7113 "process.ml" 228 7232 7260
+type(
+  unit
+)
+"process.ml" 223 7073 7074 "process.ml" 228 7232 7260
+type(
+  unit
+)
+"process.ml" 230 7262 7266 "process.ml" 230 7262 7271
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> unit
+)
+ident(
+  def do_rm "process.ml" 237 7427 7427 --
+)
+"process.ml" 230 7262 7272 "process.ml" 230 7262 7275
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 230 7262 7276 "process.ml" 235 7398 7425
+)
+"process.ml" 230 7262 7276 "process.ml" 230 7262 7277
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 230 7262 7278 "process.ml" 235 7398 7425
+)
+"process.ml" 230 7262 7278 "process.ml" 230 7262 7285
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 230 7262 7286 "process.ml" 235 7398 7425
+)
+"process.ml" 230 7262 7286 "process.ml" 230 7262 7290
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 230 7262 7291 "process.ml" 235 7398 7425
+)
+"process.ml" 230 7262 7291 "process.ml" 230 7262 7295
+type(
+  string
+)
+ident(
+  def data "process.ml" 231 7298 7299 "process.ml" 235 7398 7425
+)
+"process.ml" 231 7298 7303 "process.ml" 231 7298 7307
+type(
+  string list
+)
+"process.ml" 231 7298 7310 "process.ml" 231 7298 7324
+type(
+  string -> Connection.t -> string list
+)
+ident(
+  int_ref split_one_path "process.ml" 48 1427 1431 "process.ml" 48 1427 1445
+)
+"process.ml" 231 7298 7325 "process.ml" 231 7298 7329
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 230 7262 7291 "process.ml" 230 7262 7295
+)
+"process.ml" 231 7298 7330 "process.ml" 231 7298 7333
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 230 7262 7272 "process.ml" 230 7262 7275
+)
+"process.ml" 231 7298 7310 "process.ml" 231 7298 7333
+type(
+  string list
+)
+"process.ml" 233 7342 7344 "process.ml" 233 7342 7358
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> unit
+)
+ident(
+  ext_ref Transaction.rm
+)
+"process.ml" 233 7342 7359 "process.ml" 233 7342 7360
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 230 7262 7276 "process.ml" 230 7262 7277
+)
+"process.ml" 233 7342 7362 "process.ml" 233 7342 7381
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 233 7342 7382 "process.ml" 233 7342 7385
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 230 7262 7272 "process.ml" 230 7262 7275
+)
+"process.ml" 233 7342 7361 "process.ml" 233 7342 7386
+type(
+  Perms.Connection.t
+)
+"process.ml" 233 7342 7387 "process.ml" 233 7342 7391
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 231 7298 7303 "process.ml" 231 7298 7307
+)
+"process.ml" 233 7342 7344 "process.ml" 233 7342 7391
+type(
+  unit
+)
+"process.ml" 235 7398 7400 "process.ml" 235 7398 7419
+type(
+  exn
+)
+"process.ml" 235 7398 7423 "process.ml" 235 7398 7425
+type(
+  unit
+)
+"process.ml" 232 7337 7338 "process.ml" 235 7398 7425
+type(
+  unit
+)
+"process.ml" 231 7298 7299 "process.ml" 235 7398 7425
+type(
+  unit
+)
+"process.ml" 237 7427 7431 "process.ml" 237 7427 7442
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> string -> unit
+)
+ident(
+  def do_setperms "process.ml" 247 7758 7758 --
+)
+"process.ml" 237 7427 7443 "process.ml" 237 7427 7446
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 237 7427 7447 "process.ml" 245 7696 7756
+)
+"process.ml" 237 7427 7447 "process.ml" 237 7427 7448
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 237 7427 7449 "process.ml" 245 7696 7756
+)
+"process.ml" 237 7427 7449 "process.ml" 237 7427 7456
+type(
+  'a
+)
+ident(
+  def domains "process.ml" 237 7427 7457 "process.ml" 245 7696 7756
+)
+"process.ml" 237 7427 7457 "process.ml" 237 7427 7461
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 237 7427 7462 "process.ml" 245 7696 7756
+)
+"process.ml" 237 7427 7462 "process.ml" 237 7427 7466
+type(
+  string
+)
+ident(
+  def data "process.ml" 238 7469 7470 "process.ml" 245 7696 7756
+)
+"process.ml" 238 7469 7474 "process.ml" 238 7469 7478
+type(
+  string list
+)
+"process.ml" 238 7469 7480 "process.ml" 238 7469 7485
+type(
+  Perms.Node.t
+)
+"process.ml" 238 7469 7474 "process.ml" 238 7469 7485
+type(
+  string list * Perms.Node.t
+)
+"process.ml" 239 7488 7497 "process.ml" 239 7488 7502
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 239 7488 7509 "process.ml" 239 7488 7510
+type(
+  int
+)
+"process.ml" 239 7488 7503 "process.ml" 239 7488 7511
+type(
+  int option
+)
+"process.ml" 239 7488 7512 "process.ml" 239 7488 7518
+type(
+  char
+)
+"process.ml" 239 7488 7519 "process.ml" 239 7488 7523
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 237 7427 7462 "process.ml" 237 7427 7466
+)
+"process.ml" 239 7488 7496 "process.ml" 239 7488 7524
+type(
+  string list
+)
+"process.ml" 240 7530 7534 "process.ml" 240 7530 7538
+type(
+  string
+)
+ident(
+  def path "process.ml" 241 7556 7559 "process.ml" 242 7609 7640
+)
+"process.ml" 240 7530 7542 "process.ml" 240 7530 7547
+type(
+  string
+)
+ident(
+  def perms "process.ml" 241 7556 7559 "process.ml" 242 7609 7640
+)
+"process.ml" 240 7530 7551 "process.ml" 240 7530 7552
+type(
+  string list
+)
+"process.ml" 240 7530 7542 "process.ml" 240 7530 7552
+type(
+  string list
+)
+"process.ml" 240 7530 7534 "process.ml" 240 7530 7552
+type(
+  string list
+)
+"process.ml" 241 7556 7559 "process.ml" 241 7556 7576
+type(
+  string -> string -> string list
+)
+ident(
+  ext_ref Store.Path.create
+)
+"process.ml" 241 7556 7577 "process.ml" 241 7556 7581
+type(
+  string
+)
+ident(
+  int_ref path "process.ml" 240 7530 7534 "process.ml" 240 7530 7538
+)
+"process.ml" 241 7556 7583 "process.ml" 241 7556 7602
+type(
+  Connection.t -> string
+)
+ident(
+  ext_ref Connection.get_path
+)
+"process.ml" 241 7556 7603 "process.ml" 241 7556 7606
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 237 7427 7443 "process.ml" 237 7427 7446
+)
+"process.ml" 241 7556 7582 "process.ml" 241 7556 7607
+type(
+  string
+)
+"process.ml" 241 7556 7559 "process.ml" 241 7556 7607
+type(
+  string list
+)
+"process.ml" 242 7609 7613 "process.ml" 242 7609 7633
+type(
+  string -> Perms.Node.t
+)
+ident(
+  ext_ref Perms.Node.of_string
+)
+"process.ml" 242 7609 7634 "process.ml" 242 7609 7639
+type(
+  string
+)
+ident(
+  int_ref perms "process.ml" 240 7530 7542 "process.ml" 240 7530 7547
+)
+"process.ml" 242 7609 7612 "process.ml" 242 7609 7640
+type(
+  Perms.Node.t
+)
+"process.ml" 241 7556 7559 "process.ml" 242 7609 7640
+type(
+  string list * Perms.Node.t
+)
+"process.ml" 243 7641 7645 "process.ml" 243 7641 7646
+type(
+  string list
+)
+"process.ml" 243 7641 7668 "process.ml" 243 7641 7673
+type(
+  exn -> string list * Perms.Node.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 243 7641 7674 "process.ml" 243 7641 7690
+type(
+  exn
+)
+"process.ml" 243 7641 7668 "process.ml" 243 7641 7690
+type(
+  string list * Perms.Node.t
+)
+"process.ml" 239 7488 7490 "process.ml" 243 7641 7690
+type(
+  string list * Perms.Node.t
+)
+"process.ml" 245 7696 7697 "process.ml" 245 7696 7717
+type(
+  Transaction.t -> Perms.Connection.t -> Store.Path.t -> Perms.Node.t -> unit
+)
+ident(
+  ext_ref Transaction.setperms
+)
+"process.ml" 245 7696 7718 "process.ml" 245 7696 7719
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 237 7427 7447 "process.ml" 237 7427 7448
+)
+"process.ml" 245 7696 7721 "process.ml" 245 7696 7740
+type(
+  Connection.t -> Perms.Connection.t
+)
+ident(
+  ext_ref Connection.get_perm
+)
+"process.ml" 245 7696 7741 "process.ml" 245 7696 7744
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 237 7427 7443 "process.ml" 237 7427 7446
+)
+"process.ml" 245 7696 7720 "process.ml" 245 7696 7745
+type(
+  Perms.Connection.t
+)
+"process.ml" 245 7696 7746 "process.ml" 245 7696 7750
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "process.ml" 238 7469 7474 "process.ml" 238 7469 7478
+)
+"process.ml" 245 7696 7751 "process.ml" 245 7696 7756
+type(
+  Perms.Node.t
+)
+ident(
+  int_ref perms "process.ml" 238 7469 7480 "process.ml" 238 7469 7485
+)
+"process.ml" 245 7696 7697 "process.ml" 245 7696 7756
+type(
+  unit
+)
+"process.ml" 238 7469 7470 "process.ml" 245 7696 7756
+type(
+  unit
+)
+"process.ml" 247 7758 7762 "process.ml" 247 7758 7770
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f
+)
+ident(
+  def do_error "process.ml" 250 7830 7830 --
+)
+"process.ml" 247 7758 7771 "process.ml" 247 7758 7774
+type(
+  'a
+)
+ident(
+  def con "process.ml" 247 7758 7775 "process.ml" 248 7797 7828
+)
+"process.ml" 247 7758 7775 "process.ml" 247 7758 7776
+type(
+  'b
+)
+ident(
+  def t "process.ml" 247 7758 7777 "process.ml" 248 7797 7828
+)
+"process.ml" 247 7758 7777 "process.ml" 247 7758 7784
+type(
+  'c
+)
+ident(
+  def domains "process.ml" 247 7758 7785 "process.ml" 248 7797 7828
+)
+"process.ml" 247 7758 7785 "process.ml" 247 7758 7789
+type(
+  'd
+)
+ident(
+  def cons "process.ml" 247 7758 7790 "process.ml" 248 7797 7828
+)
+"process.ml" 247 7758 7790 "process.ml" 247 7758 7794
+type(
+  'e
+)
+ident(
+  def data "process.ml" 248 7797 7798 "process.ml" 248 7797 7828
+)
+"process.ml" 248 7797 7798 "process.ml" 248 7797 7803
+type(
+  exn -> 'f
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 248 7797 7804 "process.ml" 248 7797 7828
+type(
+  exn
+)
+"process.ml" 248 7797 7798 "process.ml" 248 7797 7828
+type(
+  'f
+)
+"process.ml" 250 7830 7834 "process.ml" 250 7830 7849
+type(
+  'a -> 'b -> Domains.domains -> 'c -> string -> string
+)
+ident(
+  def do_isintroduced "process.ml" 259 8151 8151 --
+)
+"process.ml" 250 7830 7850 "process.ml" 250 7830 7853
+type(
+  'a
+)
+ident(
+  def con "process.ml" 250 7830 7854 "process.ml" 256 8011 8097
+)
+"process.ml" 250 7830 7854 "process.ml" 250 7830 7855
+type(
+  'b
+)
+ident(
+  def t "process.ml" 250 7830 7856 "process.ml" 256 8011 8097
+)
+"process.ml" 250 7830 7856 "process.ml" 250 7830 7863
+type(
+  Domains.domains
+)
+ident(
+  def domains "process.ml" 250 7830 7864 "process.ml" 256 8011 8097
+)
+"process.ml" 250 7830 7864 "process.ml" 250 7830 7868
+type(
+  'c
+)
+ident(
+  def cons "process.ml" 250 7830 7869 "process.ml" 256 8011 8097
+)
+"process.ml" 250 7830 7869 "process.ml" 250 7830 7873
+type(
+  string
+)
+ident(
+  def data "process.ml" 251 7876 7877 "process.ml" 256 8011 8097
+)
+"process.ml" 251 7876 7881 "process.ml" 251 7876 7886
+type(
+  int
+)
+"process.ml" 252 7889 7898 "process.ml" 252 7889 7903
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 252 7889 7904 "process.ml" 252 7889 7908
+type(
+  int option
+)
+"process.ml" 252 7889 7909 "process.ml" 252 7889 7915
+type(
+  char
+)
+"process.ml" 252 7889 7916 "process.ml" 252 7889 7920
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 250 7830 7869 "process.ml" 250 7830 7873
+)
+"process.ml" 252 7889 7897 "process.ml" 252 7889 7921
+type(
+  string list
+)
+"process.ml" 253 7927 7931 "process.ml" 253 7927 7936
+type(
+  string
+)
+ident(
+  def domid "process.ml" 253 7927 7945 "process.ml" 253 7927 7964
+)
+"process.ml" 253 7927 7940 "process.ml" 253 7927 7941
+type(
+  string list
+)
+"process.ml" 253 7927 7931 "process.ml" 253 7927 7941
+type(
+  string list
+)
+"process.ml" 253 7927 7945 "process.ml" 253 7927 7958
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"process.ml" 253 7927 7959 "process.ml" 253 7927 7964
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 253 7927 7931 "process.ml" 253 7927 7936
+)
+"process.ml" 253 7927 7945 "process.ml" 253 7927 7964
+type(
+  int
+)
+"process.ml" 254 7965 7969 "process.ml" 254 7965 7970
+type(
+  string list
+)
+"process.ml" 254 7965 7983 "process.ml" 254 7965 7988
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 254 7965 7989 "process.ml" 254 7965 8005
+type(
+  exn
+)
+"process.ml" 254 7965 7983 "process.ml" 254 7965 8005
+type(
+  int
+)
+"process.ml" 252 7889 7891 "process.ml" 254 7965 8005
+type(
+  int
+)
+"process.ml" 256 8011 8015 "process.ml" 256 8011 8020
+type(
+  int
+)
+ident(
+  int_ref domid "process.ml" 251 7876 7881 "process.ml" 251 7876 7886
+)
+"process.ml" 256 8011 8021 "process.ml" 256 8011 8022
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"process.ml" 256 8011 8023 "process.ml" 256 8011 8040
+type(
+  int
+)
+ident(
+  ext_ref Define.domid_self
+)
+"process.ml" 256 8011 8015 "process.ml" 256 8011 8040
+type(
+  bool
+)
+"process.ml" 256 8011 8041 "process.ml" 256 8011 8043
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"process.ml" 256 8011 8044 "process.ml" 256 8011 8057
+type(
+  Domains.domains -> Xc.domid -> bool
+)
+ident(
+  ext_ref Domains.exist
+)
+"process.ml" 256 8011 8058 "process.ml" 256 8011 8065
+type(
+  Domains.domains
+)
+ident(
+  int_ref domains "process.ml" 250 7830 7856 "process.ml" 250 7830 7863
+)
+"process.ml" 256 8011 8066 "process.ml" 256 8011 8071
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 251 7876 7881 "process.ml" 251 7876 7886
+)
+"process.ml" 256 8011 8044 "process.ml" 256 8011 8071
+type(
+  bool
+)
+"process.ml" 256 8011 8015 "process.ml" 256 8011 8071
+type(
+  bool
+)
+"process.ml" 256 8011 8077 "process.ml" 256 8011 8084
+type(
+  string
+)
+"process.ml" 256 8011 8090 "process.ml" 256 8011 8097
+type(
+  string
+)
+"process.ml" 256 8011 8012 "process.ml" 256 8011 8097
+type(
+  string
+)
+"process.ml" 251 7876 7877 "process.ml" 256 8011 8097
+type(
+  string
+)
+"process.ml" 259 8151 8155 "process.ml" 259 8151 8166
+type(
+  Connection.t -> 'a -> 'b -> 'c -> string -> unit
+)
+ident(
+  def do_restrict "process.ml" 272 8756 8756 --
+)
+"process.ml" 259 8151 8167 "process.ml" 259 8151 8170
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 259 8151 8171 "process.ml" 267 8403 8433
+)
+"process.ml" 259 8151 8171 "process.ml" 259 8151 8172
+type(
+  'a
+)
+ident(
+  def t "process.ml" 259 8151 8173 "process.ml" 267 8403 8433
+)
+"process.ml" 259 8151 8173 "process.ml" 259 8151 8180
+type(
+  'b
+)
+ident(
+  def domains "process.ml" 259 8151 8181 "process.ml" 267 8403 8433
+)
+"process.ml" 259 8151 8181 "process.ml" 259 8151 8185
+type(
+  'c
+)
+ident(
+  def cons "process.ml" 259 8151 8186 "process.ml" 267 8403 8433
+)
+"process.ml" 259 8151 8186 "process.ml" 259 8151 8190
+type(
+  string
+)
+ident(
+  def data "process.ml" 260 8193 8194 "process.ml" 267 8403 8433
+)
+"process.ml" 260 8193 8197 "process.ml" 260 8193 8200
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 260 8193 8202 "process.ml" 260 8193 8220
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"process.ml" 260 8193 8221 "process.ml" 260 8193 8224
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 259 8151 8167 "process.ml" 259 8151 8170
+)
+"process.ml" 260 8193 8201 "process.ml" 260 8193 8225
+type(
+  bool
+)
+"process.ml" 260 8193 8197 "process.ml" 260 8193 8225
+type(
+  bool
+)
+"process.ml" 261 8226 8232 "process.ml" 261 8226 8237
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 261 8226 8238 "process.ml" 261 8226 8262
+type(
+  exn
+)
+"process.ml" 261 8226 8232 "process.ml" 261 8226 8262
+type(
+  unit
+)
+"process.ml" 260 8193 8194 "process.ml" 261 8226 8262
+type(
+  unit
+)
+"process.ml" 262 8264 8269 "process.ml" 262 8264 8274
+type(
+  int
+)
+"process.ml" 263 8277 8286 "process.ml" 263 8277 8291
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 263 8277 8292 "process.ml" 263 8277 8296
+type(
+  int option
+)
+"process.ml" 263 8277 8297 "process.ml" 263 8277 8303
+type(
+  char
+)
+"process.ml" 263 8277 8304 "process.ml" 263 8277 8308
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 259 8151 8186 "process.ml" 259 8151 8190
+)
+"process.ml" 263 8277 8285 "process.ml" 263 8277 8309
+type(
+  string list
+)
+"process.ml" 264 8315 8321 "process.ml" 264 8315 8326
+type(
+  string
+)
+ident(
+  def domid "process.ml" 264 8315 8336 "process.ml" 264 8315 8357
+)
+"process.ml" 264 8315 8328 "process.ml" 264 8315 8330
+type(
+  string
+)
+"process.ml" 264 8315 8319 "process.ml" 264 8315 8332
+type(
+  string list
+)
+"process.ml" 264 8315 8336 "process.ml" 264 8315 8351
+type(
+  string -> int
+)
+ident(
+  int_ref c_int_of_string "process.ml" 27 842 846 "process.ml" 27 842 861
+)
+"process.ml" 264 8315 8352 "process.ml" 264 8315 8357
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 264 8315 8321 "process.ml" 264 8315 8326
+)
+"process.ml" 264 8315 8336 "process.ml" 264 8315 8357
+type(
+  int
+)
+"process.ml" 265 8358 8362 "process.ml" 265 8358 8363
+type(
+  string list
+)
+"process.ml" 265 8358 8376 "process.ml" 265 8358 8381
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 265 8358 8382 "process.ml" 265 8358 8398
+type(
+  exn
+)
+"process.ml" 265 8358 8376 "process.ml" 265 8358 8398
+type(
+  int
+)
+"process.ml" 263 8277 8279 "process.ml" 265 8358 8398
+type(
+  int
+)
+"process.ml" 267 8403 8404 "process.ml" 267 8403 8423
+type(
+  Connection.t -> Xc.domid -> unit
+)
+ident(
+  ext_ref Connection.restrict
+)
+"process.ml" 267 8403 8424 "process.ml" 267 8403 8427
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 259 8151 8167 "process.ml" 259 8151 8170
+)
+"process.ml" 267 8403 8428 "process.ml" 267 8403 8433
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "process.ml" 262 8264 8269 "process.ml" 262 8264 8274
+)
+"process.ml" 267 8403 8404 "process.ml" 267 8403 8433
+type(
+  unit
+)
+"process.ml" 262 8264 8265 "process.ml" 267 8403 8433
+type(
+  unit
+)
+"process.ml" 260 8193 8194 "process.ml" 267 8403 8433
+type(
+  unit
+)
+"process.ml" 272 8756 8760 "process.ml" 272 8756 8773
+type(
+  Connection.t -> 'a -> 'b -> Connections.t -> string -> unit
+)
+ident(
+  def do_set_target "process.ml" 281 9257 9257 --
+)
+"process.ml" 272 8756 8774 "process.ml" 272 8756 8777
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 272 8756 8778 "process.ml" 278 9138 9195
+)
+"process.ml" 272 8756 8778 "process.ml" 272 8756 8779
+type(
+  'a
+)
+ident(
+  def t "process.ml" 272 8756 8780 "process.ml" 278 9138 9195
+)
+"process.ml" 272 8756 8780 "process.ml" 272 8756 8787
+type(
+  'b
+)
+ident(
+  def domains "process.ml" 272 8756 8788 "process.ml" 278 9138 9195
+)
+"process.ml" 272 8756 8788 "process.ml" 272 8756 8792
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 272 8756 8793 "process.ml" 278 9138 9195
+)
+"process.ml" 272 8756 8793 "process.ml" 272 8756 8797
+type(
+  string
+)
+ident(
+  def data "process.ml" 273 8800 8801 "process.ml" 278 9138 9195
+)
+"process.ml" 273 8800 8804 "process.ml" 273 8800 8807
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"process.ml" 273 8800 8809 "process.ml" 273 8800 8827
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"process.ml" 273 8800 8828 "process.ml" 273 8800 8831
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 272 8756 8774 "process.ml" 272 8756 8777
+)
+"process.ml" 273 8800 8808 "process.ml" 273 8800 8832
+type(
+  bool
+)
+"process.ml" 273 8800 8804 "process.ml" 273 8800 8832
+type(
+  bool
+)
+"process.ml" 274 8833 8839 "process.ml" 274 8833 8844
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 274 8833 8845 "process.ml" 274 8833 8869
+type(
+  exn
+)
+"process.ml" 274 8833 8839 "process.ml" 274 8833 8869
+type(
+  unit
+)
+"process.ml" 273 8800 8801 "process.ml" 274 8833 8869
+type(
+  unit
+)
+"process.ml" 275 8871 8878 "process.ml" 275 8871 8883
+type(
+  int option -> char -> string -> string list
+)
+ident(
+  int_ref split "process.ml" 44 1322 1326 "process.ml" 44 1322 1331
+)
+"process.ml" 275 8871 8884 "process.ml" 275 8871 8888
+type(
+  int option
+)
+"process.ml" 275 8871 8889 "process.ml" 275 8871 8895
+type(
+  char
+)
+"process.ml" 275 8871 8896 "process.ml" 275 8871 8900
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 272 8756 8793 "process.ml" 272 8756 8797
+)
+"process.ml" 275 8871 8878 "process.ml" 275 8871 8900
+type(
+  string list
+)
+"process.ml" 276 8906 8912 "process.ml" 276 8906 8917
+type(
+  string
+)
+ident(
+  def domid "process.ml" 276 8906 8941 "process.ml" 276 8906 8975
+)
+"process.ml" 276 8906 8919 "process.ml" 276 8906 8921
+type(
+  string
+)
+"process.ml" 276 8906 8910 "process.ml" 276 8906 8923
+type(
+  string list
+)
+"process.ml" 276 8906 8941 "process.ml" 276 8906 8952
+type(
+  Connection.t -> 'a -> 'b -> Connection.t -> string -> unit
+)
+ident(
+  int_ref do_restrict "process.ml" 259 8151 8155 "process.ml" 259 8151 8166
+)
+"process.ml" 276 8906 8953 "process.ml" 276 8906 8956
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 272 8756 8774 "process.ml" 272 8756 8777
+)
+"process.ml" 276 8906 8957 "process.ml" 276 8906 8958
+type(
+  'a
+)
+ident(
+  int_ref t "process.ml" 272 8756 8778 "process.ml" 272 8756 8779
+)
+"process.ml" 276 8906 8959 "process.ml" 276 8906 8966
+type(
+  'b
+)
+ident(
+  int_ref domains "process.ml" 272 8756 8780 "process.ml" 272 8756 8787
+)
+"process.ml" 276 8906 8967 "process.ml" 276 8906 8970
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 272 8756 8774 "process.ml" 272 8756 8777
+)
+"process.ml" 276 8906 8971 "process.ml" 276 8906 8975
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 272 8756 8793 "process.ml" 272 8756 8797
+)
+"process.ml" 276 8906 8941 "process.ml" 276 8906 8975
+type(
+  unit
+)
+"process.ml" 277 9020 9026 "process.ml" 277 9020 9031
+type(
+  string
+)
+ident(
+  def domid "process.ml" 277 9020 9055 "process.ml" 277 9020 9137
+)
+"process.ml" 277 9020 9033 "process.ml" 277 9020 9045
+type(
+  string
+)
+ident(
+  def target_domid "process.ml" 277 9020 9055 "process.ml" 277 9020 9137
+)
+"process.ml" 277 9020 9047 "process.ml" 277 9020 9049
+type(
+  string
+)
+"process.ml" 277 9020 9024 "process.ml" 277 9020 9051
+type(
+  string list
+)
+"process.ml" 277 9020 9055 "process.ml" 277 9020 9077
+type(
+  Connections.t -> int -> Xc.domid -> unit
+)
+ident(
+  ext_ref Connections.set_target
+)
+"process.ml" 277 9020 9078 "process.ml" 277 9020 9082
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 272 8756 8788 "process.ml" 272 8756 8792
+)
+"process.ml" 277 9020 9084 "process.ml" 277 9020 9099
+type(
+  string -> int
+)
+ident(
+  int_ref c_int_of_string "process.ml" 27 842 846 "process.ml" 27 842 861
+)
+"process.ml" 277 9020 9100 "process.ml" 277 9020 9105
+type(
+  string
+)
+ident(
+  int_ref domid "process.ml" 277 9020 9026 "process.ml" 277 9020 9031
+)
+"process.ml" 277 9020 9083 "process.ml" 277 9020 9106
+type(
+  int
+)
+"process.ml" 277 9020 9108 "process.ml" 277 9020 9123
+type(
+  string -> Xc.domid
+)
+ident(
+  int_ref c_int_of_string "process.ml" 27 842 846 "process.ml" 27 842 861
+)
+"process.ml" 277 9020 9124 "process.ml" 277 9020 9136
+type(
+  string
+)
+ident(
+  int_ref target_domid "process.ml" 277 9020 9033 "process.ml" 277 9020 9045
+)
+"process.ml" 277 9020 9107 "process.ml" 277 9020 9137
+type(
+  Xc.domid
+)
+"process.ml" 277 9020 9055 "process.ml" 277 9020 9137
+type(
+  unit
+)
+"process.ml" 278 9138 9142 "process.ml" 278 9138 9143
+type(
+  string list
+)
+"process.ml" 278 9138 9173 "process.ml" 278 9138 9178
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"process.ml" 278 9138 9179 "process.ml" 278 9138 9195
+type(
+  exn
+)
+"process.ml" 278 9138 9173 "process.ml" 278 9138 9195
+type(
+  unit
+)
+"process.ml" 275 8871 8872 "process.ml" 278 9138 9195
+type(
+  unit
+)
+"process.ml" 273 8800 8801 "process.ml" 278 9138 9195
+type(
+  unit
+)
+"process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+type(
+  (Connection.t -> Transaction.t -> 'a -> Connections.t -> 'b -> 'c) ->
+  Xb.Op.operation ->
+  Connection.t -> Transaction.t -> int -> 'a -> Connections.t -> 'b -> unit
+)
+ident(
+  def reply_ack "process.ml" 287 9483 9483 --
+)
+"process.ml" 281 9257 9271 "process.ml" 281 9257 9274
+type(
+  Connection.t -> Transaction.t -> 'a -> Connections.t -> 'b -> 'c
+)
+ident(
+  def fct "process.ml" 281 9257 9275 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9275 "process.ml" 281 9257 9277
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 281 9257 9278 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9278 "process.ml" 281 9257 9281
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 281 9257 9282 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9282 "process.ml" 281 9257 9283
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 281 9257 9284 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9284 "process.ml" 281 9257 9287
+type(
+  int
+)
+ident(
+  def rid "process.ml" 281 9257 9288 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9288 "process.ml" 281 9257 9292
+type(
+  'a
+)
+ident(
+  def doms "process.ml" 281 9257 9293 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9293 "process.ml" 281 9257 9297
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 281 9257 9298 "process.ml" 285 9437 9481
+)
+"process.ml" 281 9257 9298 "process.ml" 281 9257 9302
+type(
+  'b
+)
+ident(
+  def data "process.ml" 282 9305 9306 "process.ml" 285 9437 9481
+)
+"process.ml" 282 9305 9306 "process.ml" 282 9305 9309
+type(
+  Connection.t -> Transaction.t -> 'a -> Connections.t -> 'b -> 'c
+)
+ident(
+  int_ref fct "process.ml" 281 9257 9271 "process.ml" 281 9257 9274
+)
+"process.ml" 282 9305 9310 "process.ml" 282 9305 9313
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 281 9257 9278 "process.ml" 281 9257 9281
+)
+"process.ml" 282 9305 9314 "process.ml" 282 9305 9315
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 281 9257 9282 "process.ml" 281 9257 9283
+)
+"process.ml" 282 9305 9316 "process.ml" 282 9305 9320
+type(
+  'a
+)
+ident(
+  int_ref doms "process.ml" 281 9257 9288 "process.ml" 281 9257 9292
+)
+"process.ml" 282 9305 9321 "process.ml" 282 9305 9325
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 281 9257 9293 "process.ml" 281 9257 9297
+)
+"process.ml" 282 9305 9326 "process.ml" 282 9305 9330
+type(
+  'b
+)
+ident(
+  int_ref data "process.ml" 281 9257 9298 "process.ml" 281 9257 9302
+)
+"process.ml" 282 9305 9306 "process.ml" 282 9305 9330
+type(
+  'c
+)
+"process.ml" 283 9332 9333 "process.ml" 283 9332 9352
+type(
+  Connection.t -> int -> int -> Xb.Op.operation -> unit
+)
+ident(
+  ext_ref Connection.send_ack
+)
+"process.ml" 283 9332 9353 "process.ml" 283 9332 9356
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 281 9257 9278 "process.ml" 281 9257 9281
+)
+"process.ml" 283 9332 9358 "process.ml" 283 9332 9376
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 283 9332 9377 "process.ml" 283 9332 9378
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 281 9257 9282 "process.ml" 281 9257 9283
+)
+"process.ml" 283 9332 9357 "process.ml" 283 9332 9379
+type(
+  int
+)
+"process.ml" 283 9332 9380 "process.ml" 283 9332 9383
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 281 9257 9284 "process.ml" 281 9257 9287
+)
+"process.ml" 283 9332 9384 "process.ml" 283 9332 9386
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 281 9257 9275 "process.ml" 281 9257 9277
+)
+"process.ml" 283 9332 9333 "process.ml" 283 9332 9386
+type(
+  unit
+)
+"process.ml" 284 9388 9392 "process.ml" 284 9388 9410
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 284 9388 9411 "process.ml" 284 9388 9412
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 281 9257 9282 "process.ml" 281 9257 9283
+)
+"process.ml" 284 9388 9392 "process.ml" 284 9388 9412
+type(
+  int
+)
+"process.ml" 284 9388 9413 "process.ml" 284 9388 9414
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"process.ml" 284 9388 9415 "process.ml" 284 9388 9431
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"process.ml" 284 9388 9392 "process.ml" 284 9388 9431
+type(
+  bool
+)
+"process.ml" 285 9437 9439 "process.ml" 285 9437 9452
+type(
+  (Xb.Op.operation * Store.Path.t) list -> Connections.t -> unit
+)
+ident(
+  int_ref process_watch "process.ml" 54 1635 1639 "process.ml" 54 1635 1652
+)
+"process.ml" 285 9437 9454 "process.ml" 285 9437 9473
+type(
+  Transaction.t -> (Xb.Op.operation * Store.Path.t) list
+)
+ident(
+  ext_ref Transaction.get_ops
+)
+"process.ml" 285 9437 9474 "process.ml" 285 9437 9475
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 281 9257 9282 "process.ml" 281 9257 9283
+)
+"process.ml" 285 9437 9453 "process.ml" 285 9437 9476
+type(
+  (Xb.Op.operation * Store.Path.t) list
+)
+"process.ml" 285 9437 9477 "process.ml" 285 9437 9481
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 281 9257 9293 "process.ml" 281 9257 9297
+)
+"process.ml" 285 9437 9439 "process.ml" 285 9437 9481
+type(
+  unit
+)
+"process.ml" 284 9388 9389 "process.ml" 285 9437 9481
+type(
+  unit
+)
+"process.ml" 283 9332 9333 "process.ml" 285 9437 9481
+type(
+  unit
+)
+"process.ml" 282 9305 9306 "process.ml" 285 9437 9481
+type(
+  unit
+)
+"process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+type(
+  (Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string) ->
+  Xb.Op.operation ->
+  Connection.t -> Transaction.t -> int -> 'a -> 'b -> 'c -> unit
+)
+ident(
+  def reply_data "process.ml" 291 9633 9633 --
+)
+"process.ml" 287 9483 9498 "process.ml" 287 9483 9501
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string
+)
+ident(
+  def fct "process.ml" 287 9483 9502 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9502 "process.ml" 287 9483 9504
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 287 9483 9505 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9505 "process.ml" 287 9483 9508
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 287 9483 9509 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9509 "process.ml" 287 9483 9510
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 287 9483 9511 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9511 "process.ml" 287 9483 9514
+type(
+  int
+)
+ident(
+  def rid "process.ml" 287 9483 9515 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9515 "process.ml" 287 9483 9519
+type(
+  'a
+)
+ident(
+  def doms "process.ml" 287 9483 9520 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9520 "process.ml" 287 9483 9524
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 287 9483 9525 "process.ml" 289 9571 9631
+)
+"process.ml" 287 9483 9525 "process.ml" 287 9483 9529
+type(
+  'c
+)
+ident(
+  def data "process.ml" 288 9532 9533 "process.ml" 289 9571 9631
+)
+"process.ml" 288 9532 9537 "process.ml" 288 9532 9540
+type(
+  string
+)
+"process.ml" 288 9532 9543 "process.ml" 288 9532 9546
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string
+)
+ident(
+  int_ref fct "process.ml" 287 9483 9498 "process.ml" 287 9483 9501
+)
+"process.ml" 288 9532 9547 "process.ml" 288 9532 9550
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 287 9483 9505 "process.ml" 287 9483 9508
+)
+"process.ml" 288 9532 9551 "process.ml" 288 9532 9552
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 287 9483 9509 "process.ml" 287 9483 9510
+)
+"process.ml" 288 9532 9553 "process.ml" 288 9532 9557
+type(
+  'a
+)
+ident(
+  int_ref doms "process.ml" 287 9483 9515 "process.ml" 287 9483 9519
+)
+"process.ml" 288 9532 9558 "process.ml" 288 9532 9562
+type(
+  'b
+)
+ident(
+  int_ref cons "process.ml" 287 9483 9520 "process.ml" 287 9483 9524
+)
+"process.ml" 288 9532 9563 "process.ml" 288 9532 9567
+type(
+  'c
+)
+ident(
+  int_ref data "process.ml" 287 9483 9525 "process.ml" 287 9483 9529
+)
+"process.ml" 288 9532 9543 "process.ml" 288 9532 9567
+type(
+  string
+)
+"process.ml" 289 9571 9572 "process.ml" 289 9571 9593
+type(
+  Connection.t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  ext_ref Connection.send_reply
+)
+"process.ml" 289 9571 9594 "process.ml" 289 9571 9597
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 287 9483 9505 "process.ml" 287 9483 9508
+)
+"process.ml" 289 9571 9599 "process.ml" 289 9571 9617
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 289 9571 9618 "process.ml" 289 9571 9619
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 287 9483 9509 "process.ml" 287 9483 9510
+)
+"process.ml" 289 9571 9598 "process.ml" 289 9571 9620
+type(
+  int
+)
+"process.ml" 289 9571 9621 "process.ml" 289 9571 9624
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 287 9483 9511 "process.ml" 287 9483 9514
+)
+"process.ml" 289 9571 9625 "process.ml" 289 9571 9627
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 287 9483 9502 "process.ml" 287 9483 9504
+)
+"process.ml" 289 9571 9628 "process.ml" 289 9571 9631
+type(
+  string
+)
+ident(
+  int_ref ret "process.ml" 288 9532 9537 "process.ml" 288 9532 9540
+)
+"process.ml" 289 9571 9572 "process.ml" 289 9571 9631
+type(
+  unit
+)
+"process.ml" 288 9532 9533 "process.ml" 289 9571 9631
+type(
+  unit
+)
+"process.ml" 291 9633 9637 "process.ml" 291 9633 9654
+type(
+  (Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string option) ->
+  Xb.Op.operation ->
+  Connection.t -> Transaction.t -> int -> 'a -> 'b -> 'c -> unit
+)
+ident(
+  def reply_data_or_ack "process.ml" 296 9869 9869 --
+)
+"process.ml" 291 9633 9655 "process.ml" 291 9633 9658
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string option
+)
+ident(
+  def fct "process.ml" 291 9633 9659 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9659 "process.ml" 291 9633 9661
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 291 9633 9662 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9662 "process.ml" 291 9633 9665
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 291 9633 9666 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9666 "process.ml" 291 9633 9667
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 291 9633 9668 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9668 "process.ml" 291 9633 9671
+type(
+  int
+)
+ident(
+  def rid "process.ml" 291 9633 9672 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9672 "process.ml" 291 9633 9676
+type(
+  'a
+)
+ident(
+  def doms "process.ml" 291 9633 9677 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9677 "process.ml" 291 9633 9681
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 291 9633 9682 "process.ml" 294 9802 9867
+)
+"process.ml" 291 9633 9682 "process.ml" 291 9633 9686
+type(
+  'c
+)
+ident(
+  def data "process.ml" 292 9689 9690 "process.ml" 294 9802 9867
+)
+"process.ml" 292 9689 9696 "process.ml" 292 9689 9699
+type(
+  Connection.t -> Transaction.t -> 'a -> 'b -> 'c -> string option
+)
+ident(
+  int_ref fct "process.ml" 291 9633 9655 "process.ml" 291 9633 9658
+)
+"process.ml" 292 9689 9700 "process.ml" 292 9689 9703
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 291 9633 9662 "process.ml" 291 9633 9665
+)
+"process.ml" 292 9689 9704 "process.ml" 292 9689 9705
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 291 9633 9666 "process.ml" 291 9633 9667
+)
+"process.ml" 292 9689 9706 "process.ml" 292 9689 9710
+type(
+  'a
+)
+ident(
+  int_ref doms "process.ml" 291 9633 9672 "process.ml" 291 9633 9676
+)
+"process.ml" 292 9689 9711 "process.ml" 292 9689 9715
+type(
+  'b
+)
+ident(
+  int_ref cons "process.ml" 291 9633 9677 "process.ml" 291 9633 9681
+)
+"process.ml" 292 9689 9716 "process.ml" 292 9689 9720
+type(
+  'c
+)
+ident(
+  int_ref data "process.ml" 291 9633 9682 "process.ml" 291 9633 9686
+)
+"process.ml" 292 9689 9696 "process.ml" 292 9689 9720
+type(
+  string option
+)
+"process.ml" 293 9726 9735 "process.ml" 293 9726 9738
+type(
+  string
+)
+ident(
+  def ret "process.ml" 293 9726 9742 "process.ml" 293 9726 9801
+)
+"process.ml" 293 9726 9730 "process.ml" 293 9726 9738
+type(
+  string option
+)
+"process.ml" 293 9726 9742 "process.ml" 293 9726 9763
+type(
+  Connection.t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  ext_ref Connection.send_reply
+)
+"process.ml" 293 9726 9764 "process.ml" 293 9726 9767
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 291 9633 9662 "process.ml" 291 9633 9665
+)
+"process.ml" 293 9726 9769 "process.ml" 293 9726 9787
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 293 9726 9788 "process.ml" 293 9726 9789
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 291 9633 9666 "process.ml" 291 9633 9667
+)
+"process.ml" 293 9726 9768 "process.ml" 293 9726 9790
+type(
+  int
+)
+"process.ml" 293 9726 9791 "process.ml" 293 9726 9794
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 291 9633 9668 "process.ml" 291 9633 9671
+)
+"process.ml" 293 9726 9795 "process.ml" 293 9726 9797
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 291 9633 9659 "process.ml" 291 9633 9661
+)
+"process.ml" 293 9726 9798 "process.ml" 293 9726 9801
+type(
+  string
+)
+ident(
+  int_ref ret "process.ml" 293 9726 9735 "process.ml" 293 9726 9738
+)
+"process.ml" 293 9726 9742 "process.ml" 293 9726 9801
+type(
+  unit
+)
+"process.ml" 294 9802 9806 "process.ml" 294 9802 9810
+type(
+  string option
+)
+"process.ml" 294 9802 9814 "process.ml" 294 9802 9833
+type(
+  Connection.t -> int -> int -> Xb.Op.operation -> unit
+)
+ident(
+  ext_ref Connection.send_ack
+)
+"process.ml" 294 9802 9834 "process.ml" 294 9802 9837
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 291 9633 9662 "process.ml" 291 9633 9665
+)
+"process.ml" 294 9802 9839 "process.ml" 294 9802 9857
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 294 9802 9858 "process.ml" 294 9802 9859
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 291 9633 9666 "process.ml" 291 9633 9667
+)
+"process.ml" 294 9802 9838 "process.ml" 294 9802 9860
+type(
+  int
+)
+"process.ml" 294 9802 9861 "process.ml" 294 9802 9864
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 291 9633 9668 "process.ml" 291 9633 9671
+)
+"process.ml" 294 9802 9865 "process.ml" 294 9802 9867
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 291 9633 9659 "process.ml" 291 9633 9661
+)
+"process.ml" 294 9802 9814 "process.ml" 294 9802 9867
+type(
+  unit
+)
+"process.ml" 292 9689 9690 "process.ml" 294 9802 9867
+type(
+  unit
+)
+"process.ml" 296 9869 9873 "process.ml" 296 9869 9883
+type(
+  ('a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g) ->
+  'h -> 'a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g
+)
+ident(
+  def reply_none "process.ml" 300 9979 9979 --
+)
+"process.ml" 296 9869 9884 "process.ml" 296 9869 9887
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g
+)
+ident(
+  def fct "process.ml" 296 9869 9888 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9888 "process.ml" 296 9869 9890
+type(
+  'h
+)
+ident(
+  def ty "process.ml" 296 9869 9891 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9891 "process.ml" 296 9869 9894
+type(
+  'a
+)
+ident(
+  def con "process.ml" 296 9869 9895 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9895 "process.ml" 296 9869 9896
+type(
+  'b
+)
+ident(
+  def t "process.ml" 296 9869 9897 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9897 "process.ml" 296 9869 9900
+type(
+  'c
+)
+ident(
+  def rid "process.ml" 296 9869 9901 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9901 "process.ml" 296 9869 9905
+type(
+  'd
+)
+ident(
+  def doms "process.ml" 296 9869 9906 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9906 "process.ml" 296 9869 9910
+type(
+  'e
+)
+ident(
+  def cons "process.ml" 296 9869 9911 "process.ml" 298 9948 9977
+)
+"process.ml" 296 9869 9911 "process.ml" 296 9869 9915
+type(
+  'f
+)
+ident(
+  def data "process.ml" 298 9948 9949 "process.ml" 298 9948 9977
+)
+"process.ml" 298 9948 9949 "process.ml" 298 9948 9952
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g
+)
+ident(
+  int_ref fct "process.ml" 296 9869 9884 "process.ml" 296 9869 9887
+)
+"process.ml" 298 9948 9953 "process.ml" 298 9948 9956
+type(
+  'a
+)
+ident(
+  int_ref con "process.ml" 296 9869 9891 "process.ml" 296 9869 9894
+)
+"process.ml" 298 9948 9957 "process.ml" 298 9948 9958
+type(
+  'b
+)
+ident(
+  int_ref t "process.ml" 296 9869 9895 "process.ml" 296 9869 9896
+)
+"process.ml" 298 9948 9959 "process.ml" 298 9948 9962
+type(
+  'c
+)
+ident(
+  int_ref rid "process.ml" 296 9869 9897 "process.ml" 296 9869 9900
+)
+"process.ml" 298 9948 9963 "process.ml" 298 9948 9967
+type(
+  'd
+)
+ident(
+  int_ref doms "process.ml" 296 9869 9901 "process.ml" 296 9869 9905
+)
+"process.ml" 298 9948 9968 "process.ml" 298 9948 9972
+type(
+  'e
+)
+ident(
+  int_ref cons "process.ml" 296 9869 9906 "process.ml" 296 9869 9910
+)
+"process.ml" 298 9948 9973 "process.ml" 298 9948 9977
+type(
+  'f
+)
+ident(
+  int_ref data "process.ml" 296 9869 9911 "process.ml" 296 9869 9915
+)
+"process.ml" 298 9948 9949 "process.ml" 298 9948 9977
+type(
+  'g
+)
+"process.ml" 300 9979 9983 "process.ml" 300 9979 9999
+type(
+  Xb.Op.operation ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  def function_of_type "process.ml" 323 11076 11076 --
+)
+"process.ml" 300 9979 10000 "process.ml" 300 9979 10002
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 301 10005 10006 "process.ml" 321 11026 11074
+)
+"process.ml" 301 10005 10012 "process.ml" 301 10005 10014
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 300 9979 10000 "process.ml" 300 9979 10002
+)
+"process.ml" 302 10020 10023 "process.ml" 302 10020 10034
+type(
+  Xb.Op.operation
+)
+"process.ml" 302 10020 10050 "process.ml" 302 10020 10067
+type(
+  (Connection.t ->
+   Transaction.t ->
+   Domains.domains -> Connections.t -> string -> string option) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data_or_ack "process.ml" 291 9633 9637 "process.ml" 291 9633 9654
+)
+"process.ml" 302 10020 10068 "process.ml" 302 10020 10076
+type(
+  Connection.t ->
+  Transaction.t ->
+  Domains.domains -> Connections.t -> string -> string option
+)
+ident(
+  int_ref do_debug "process.ml" 81 2436 2440 "process.ml" 81 2436 2448
+)
+"process.ml" 302 10020 10050 "process.ml" 302 10020 10076
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 303 10077 10080 "process.ml" 303 10077 10095
+type(
+  Xb.Op.operation
+)
+"process.ml" 303 10077 10107 "process.ml" 303 10077 10117
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 303 10077 10118 "process.ml" 303 10077 10130
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_directory "process.ml" 99 3046 3050 "process.ml" 99 3046 3062
+)
+"process.ml" 303 10077 10107 "process.ml" 303 10077 10130
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 304 10131 10134 "process.ml" 304 10131 10144
+type(
+  Xb.Op.operation
+)
+"process.ml" 304 10131 10161 "process.ml" 304 10131 10171
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 304 10131 10172 "process.ml" 304 10131 10179
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_read "process.ml" 107 3279 3283 "process.ml" 107 3279 3290
+)
+"process.ml" 304 10131 10161 "process.ml" 304 10131 10179
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 305 10180 10183 "process.ml" 305 10180 10197
+type(
+  Xb.Op.operation
+)
+"process.ml" 305 10180 10210 "process.ml" 305 10180 10220
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 305 10180 10221 "process.ml" 305 10180 10232
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_getperms "process.ml" 111 3408 3412 "process.ml" 111 3408 3423
+)
+"process.ml" 305 10180 10210 "process.ml" 305 10180 10232
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 306 10233 10236 "process.ml" 306 10233 10247
+type(
+  Xb.Op.operation
+)
+"process.ml" 306 10233 10263 "process.ml" 306 10233 10273
+type(
+  (Connection.t ->
+   Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_none "process.ml" 296 9869 9873 "process.ml" 296 9869 9883
+)
+"process.ml" 306 10233 10274 "process.ml" 306 10233 10282
+type(
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_watch "process.ml" 116 3597 3601 "process.ml" 116 3597 3609
+)
+"process.ml" 306 10233 10263 "process.ml" 306 10233 10282
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 307 10283 10286 "process.ml" 307 10283 10299
+type(
+  Xb.Op.operation
+)
+"process.ml" 307 10283 10313 "process.ml" 307 10283 10322
+type(
+  (Connection.t ->
+   Transaction.t ->
+   Domains.domains -> Connections.t -> string -> Connection.watch) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 307 10283 10323 "process.ml" 307 10283 10333
+type(
+  Connection.t ->
+  Transaction.t ->
+  Domains.domains -> Connections.t -> string -> Connection.watch
+)
+ident(
+  int_ref do_unwatch "process.ml" 126 3954 3958 "process.ml" 126 3954 3968
+)
+"process.ml" 307 10283 10313 "process.ml" 307 10283 10333
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 308 10334 10337 "process.ml" 308 10334 10360
+type(
+  Xb.Op.operation
+)
+"process.ml" 308 10334 10364 "process.ml" 308 10334 10374
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 308 10334 10375 "process.ml" 308 10334 10395
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_transaction_start "process.ml" 134 4192 4196 "process.ml" 134 4192 4216
+)
+"process.ml" 308 10334 10364 "process.ml" 308 10334 10395
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 309 10396 10399 "process.ml" 309 10396 10420
+type(
+  Xb.Op.operation
+)
+"process.ml" 309 10396 10426 "process.ml" 309 10396 10435
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 309 10396 10436 "process.ml" 309 10396 10454
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_transaction_end "process.ml" 140 4427 4431 "process.ml" 140 4427 4449
+)
+"process.ml" 309 10396 10426 "process.ml" 309 10396 10454
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 310 10455 10458 "process.ml" 310 10455 10473
+type(
+  Xb.Op.operation
+)
+"process.ml" 310 10455 10485 "process.ml" 310 10455 10494
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 310 10455 10495 "process.ml" 310 10455 10507
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_introduce "process.ml" 155 4860 4864 "process.ml" 155 4860 4876
+)
+"process.ml" 310 10455 10485 "process.ml" 310 10455 10507
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 311 10508 10511 "process.ml" 311 10508 10524
+type(
+  Xb.Op.operation
+)
+"process.ml" 311 10508 10538 "process.ml" 311 10508 10547
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 311 10508 10548 "process.ml" 311 10508 10558
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_release "process.ml" 178 5623 5627 "process.ml" 178 5623 5637
+)
+"process.ml" 311 10508 10538 "process.ml" 311 10508 10558
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 312 10559 10562 "process.ml" 312 10559 10581
+type(
+  Xb.Op.operation
+)
+"process.ml" 312 10559 10589 "process.ml" 312 10559 10599
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 312 10559 10600 "process.ml" 312 10559 10616
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_getdomainpath "process.ml" 205 6444 6448 "process.ml" 205 6444 6464
+)
+"process.ml" 312 10559 10589 "process.ml" 312 10559 10616
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 313 10617 10620 "process.ml" 313 10617 10631
+type(
+  Xb.Op.operation
+)
+"process.ml" 313 10617 10647 "process.ml" 313 10617 10656
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 313 10617 10657 "process.ml" 313 10617 10665
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_write "process.ml" 213 6681 6685 "process.ml" 213 6681 6693
+)
+"process.ml" 313 10617 10647 "process.ml" 313 10617 10665
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 314 10666 10669 "process.ml" 314 10666 10680
+type(
+  Xb.Op.operation
+)
+"process.ml" 314 10666 10696 "process.ml" 314 10666 10705
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 314 10666 10706 "process.ml" 314 10666 10714
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_mkdir "process.ml" 222 7034 7038 "process.ml" 222 7034 7046
+)
+"process.ml" 314 10666 10696 "process.ml" 314 10666 10714
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 315 10715 10718 "process.ml" 315 10715 10726
+type(
+  Xb.Op.operation
+)
+"process.ml" 315 10715 10745 "process.ml" 315 10715 10754
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 315 10715 10755 "process.ml" 315 10715 10760
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_rm "process.ml" 230 7262 7266 "process.ml" 230 7262 7271
+)
+"process.ml" 315 10715 10745 "process.ml" 315 10715 10760
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 316 10761 10764 "process.ml" 316 10761 10778
+type(
+  Xb.Op.operation
+)
+"process.ml" 316 10761 10791 "process.ml" 316 10761 10800
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 316 10761 10801 "process.ml" 316 10761 10812
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_setperms "process.ml" 237 7427 7431 "process.ml" 237 7427 7442
+)
+"process.ml" 316 10761 10791 "process.ml" 316 10761 10812
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 317 10813 10816 "process.ml" 317 10813 10834
+type(
+  Xb.Op.operation
+)
+"process.ml" 317 10813 10843 "process.ml" 317 10813 10853
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> string) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_data "process.ml" 287 9483 9487 "process.ml" 287 9483 9497
+)
+"process.ml" 317 10813 10854 "process.ml" 317 10813 10869
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> string
+)
+ident(
+  int_ref do_isintroduced "process.ml" 250 7830 7834 "process.ml" 250 7830 7849
+)
+"process.ml" 317 10813 10843 "process.ml" 317 10813 10869
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 318 10870 10873 "process.ml" 318 10870 10885
+type(
+  Xb.Op.operation
+)
+"process.ml" 318 10870 10900 "process.ml" 318 10870 10909
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 318 10870 10910 "process.ml" 318 10870 10919
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_resume "process.ml" 193 6101 6105 "process.ml" 193 6101 6114
+)
+"process.ml" 318 10870 10900 "process.ml" 318 10870 10919
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 319 10920 10923 "process.ml" 319 10920 10939
+type(
+  Xb.Op.operation
+)
+"process.ml" 319 10920 10950 "process.ml" 319 10920 10959
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 319 10920 10960 "process.ml" 319 10920 10973
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_set_target "process.ml" 272 8756 8760 "process.ml" 272 8756 8773
+)
+"process.ml" 319 10920 10950 "process.ml" 319 10920 10973
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 320 10974 10977 "process.ml" 320 10974 10991
+type(
+  Xb.Op.operation
+)
+"process.ml" 320 10974 11004 "process.ml" 320 10974 11013
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> unit) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 320 10974 11014 "process.ml" 320 10974 11025
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref do_restrict "process.ml" 259 8151 8155 "process.ml" 259 8151 8166
+)
+"process.ml" 320 10974 11004 "process.ml" 320 10974 11025
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 321 11026 11029 "process.ml" 321 11026 11030
+type(
+  Xb.Op.operation
+)
+"process.ml" 321 11026 11056 "process.ml" 321 11026 11065
+type(
+  (Connection.t ->
+   Transaction.t -> Domains.domains -> Connections.t -> string -> '_a) ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref reply_ack "process.ml" 281 9257 9261 "process.ml" 281 9257 9270
+)
+"process.ml" 321 11026 11066 "process.ml" 321 11026 11074
+type(
+  Connection.t ->
+  Transaction.t -> Domains.domains -> Connections.t -> string -> '_a
+)
+ident(
+  int_ref do_error "process.ml" 247 7758 7762 "process.ml" 247 7758 7770
+)
+"process.ml" 321 11026 11056 "process.ml" 321 11026 11074
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 301 10005 10006 "process.ml" 321 11026 11074
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 323 11076 11080 "process.ml" 323 11076 11098
+type(
+  cons:'a ->
+  doms:'b ->
+  fct:('c -> Connection.t -> Transaction.t -> int -> 'b -> 'a -> 'd -> unit) ->
+  ty:'c -> con:Connection.t -> t:Transaction.t -> rid:int -> data:'d -> unit
+)
+ident(
+  def input_handle_error "process.ml" 349 12192 12192 --
+)
+"process.ml" 323 11076 11100 "process.ml" 323 11076 11104
+type(
+  'a
+)
+ident(
+  def cons "process.ml" 323 11076 11105 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11106 "process.ml" 323 11076 11110
+type(
+  'b
+)
+ident(
+  def doms "process.ml" 323 11076 11111 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11112 "process.ml" 323 11076 11115
+type(
+  'c -> Connection.t -> Transaction.t -> int -> 'b -> 'a -> 'd -> unit
+)
+ident(
+  def fct "process.ml" 323 11076 11116 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11117 "process.ml" 323 11076 11119
+type(
+  'c
+)
+ident(
+  def ty "process.ml" 323 11076 11120 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11121 "process.ml" 323 11076 11124
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 323 11076 11125 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11126 "process.ml" 323 11076 11127
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 323 11076 11128 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11129 "process.ml" 323 11076 11132
+type(
+  int
+)
+ident(
+  def rid "process.ml" 323 11076 11133 "process.ml" 344 12105 12160
+)
+"process.ml" 323 11076 11134 "process.ml" 323 11076 11138
+type(
+  'd
+)
+ident(
+  def data "process.ml" 324 11141 11142 "process.ml" 344 12105 12160
+)
+"process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+type(
+  string -> unit
+)
+"process.ml" 324 11141 11158 "process.ml" 324 11141 11159
+type(
+  string
+)
+ident(
+  def e "process.ml" 325 11162 11164 "process.ml" 325 11162 11218
+)
+"process.ml" 325 11162 11164 "process.ml" 325 11162 11185
+type(
+  Connection.t -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Connection.send_error
+)
+"process.ml" 325 11162 11186 "process.ml" 325 11162 11189
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 323 11076 11121 "process.ml" 323 11076 11124
+)
+"process.ml" 325 11162 11191 "process.ml" 325 11162 11209
+type(
+  Transaction.t -> int
+)
+ident(
+  ext_ref Transaction.get_id
+)
+"process.ml" 325 11162 11210 "process.ml" 325 11162 11211
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 323 11076 11126 "process.ml" 323 11076 11127
+)
+"process.ml" 325 11162 11190 "process.ml" 325 11162 11212
+type(
+  int
+)
+"process.ml" 325 11162 11213 "process.ml" 325 11162 11216
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 323 11076 11129 "process.ml" 323 11076 11132
+)
+"process.ml" 325 11162 11217 "process.ml" 325 11162 11218
+type(
+  string
+)
+ident(
+  int_ref e "process.ml" 324 11141 11158 "process.ml" 324 11141 11159
+)
+"process.ml" 325 11162 11164 "process.ml" 325 11162 11218
+type(
+  unit
+)
+"process.ml" 327 11227 11229 "process.ml" 327 11227 11232
+type(
+  'c -> Connection.t -> Transaction.t -> int -> 'b -> 'a -> 'd -> unit
+)
+ident(
+  int_ref fct "process.ml" 323 11076 11112 "process.ml" 323 11076 11115
+)
+"process.ml" 327 11227 11233 "process.ml" 327 11227 11235
+type(
+  'c
+)
+ident(
+  int_ref ty "process.ml" 323 11076 11117 "process.ml" 323 11076 11119
+)
+"process.ml" 327 11227 11236 "process.ml" 327 11227 11239
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 323 11076 11121 "process.ml" 323 11076 11124
+)
+"process.ml" 327 11227 11240 "process.ml" 327 11227 11241
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 323 11076 11126 "process.ml" 323 11076 11127
+)
+"process.ml" 327 11227 11242 "process.ml" 327 11227 11245
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 323 11076 11129 "process.ml" 323 11076 11132
+)
+"process.ml" 327 11227 11246 "process.ml" 327 11227 11250
+type(
+  'b
+)
+ident(
+  int_ref doms "process.ml" 323 11076 11106 "process.ml" 323 11076 11110
+)
+"process.ml" 327 11227 11251 "process.ml" 327 11227 11255
+type(
+  'a
+)
+ident(
+  int_ref cons "process.ml" 323 11076 11100 "process.ml" 323 11076 11104
+)
+"process.ml" 327 11227 11256 "process.ml" 327 11227 11260
+type(
+  'd
+)
+ident(
+  int_ref data "process.ml" 323 11076 11134 "process.ml" 323 11076 11138
+)
+"process.ml" 327 11227 11229 "process.ml" 327 11227 11260
+type(
+  unit
+)
+"process.ml" 329 11267 11270 "process.ml" 329 11267 11289
+type(
+  exn
+)
+"process.ml" 329 11267 11302 "process.ml" 329 11267 11313
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 329 11267 11314 "process.ml" 329 11267 11322
+type(
+  string
+)
+"process.ml" 329 11267 11302 "process.ml" 329 11267 11322
+type(
+  unit
+)
+"process.ml" 330 11323 11326 "process.ml" 330 11323 11346
+type(
+  exn
+)
+"process.ml" 330 11323 11358 "process.ml" 330 11323 11369
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 330 11323 11370 "process.ml" 330 11323 11378
+type(
+  string
+)
+"process.ml" 330 11323 11358 "process.ml" 330 11323 11378
+type(
+  unit
+)
+"process.ml" 331 11379 11382 "process.ml" 331 11379 11401
+type(
+  exn
+)
+"process.ml" 331 11379 11414 "process.ml" 331 11379 11425
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 331 11379 11426 "process.ml" 331 11379 11434
+type(
+  string
+)
+"process.ml" 331 11379 11414 "process.ml" 331 11379 11434
+type(
+  unit
+)
+"process.ml" 332 11435 11465 "process.ml" 332 11435 11466
+type(
+  string
+)
+ident(
+  def s "process.ml" 332 11435 11470 "process.ml" 332 11435 11490
+)
+"process.ml" 332 11435 11438 "process.ml" 332 11435 11466
+type(
+  exn
+)
+"process.ml" 332 11435 11470 "process.ml" 332 11435 11481
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 332 11435 11482 "process.ml" 332 11435 11490
+type(
+  string
+)
+"process.ml" 332 11435 11470 "process.ml" 332 11435 11490
+type(
+  unit
+)
+"process.ml" 333 11491 11494 "process.ml" 333 11491 11518
+type(
+  exn
+)
+"process.ml" 333 11491 11526 "process.ml" 333 11491 11537
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 333 11491 11538 "process.ml" 333 11491 11546
+type(
+  string
+)
+"process.ml" 333 11491 11526 "process.ml" 333 11491 11546
+type(
+  unit
+)
+"process.ml" 334 11547 11550 "process.ml" 334 11547 11559
+type(
+  exn
+)
+"process.ml" 334 11547 11582 "process.ml" 334 11547 11593
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 334 11547 11594 "process.ml" 334 11547 11602
+type(
+  string
+)
+"process.ml" 334 11547 11582 "process.ml" 334 11547 11602
+type(
+  unit
+)
+"process.ml" 335 11603 11606 "process.ml" 335 11603 11622
+type(
+  exn
+)
+"process.ml" 335 11603 11638 "process.ml" 335 11603 11649
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 335 11603 11650 "process.ml" 335 11603 11658
+type(
+  string
+)
+"process.ml" 335 11603 11638 "process.ml" 335 11603 11658
+type(
+  unit
+)
+"process.ml" 336 11659 11679 "process.ml" 336 11659 11680
+type(
+  string
+)
+ident(
+  def i "process.ml" 336 11659 11694 "process.ml" 336 11659 11714
+)
+"process.ml" 336 11659 11662 "process.ml" 336 11659 11680
+type(
+  exn
+)
+"process.ml" 336 11659 11694 "process.ml" 336 11659 11705
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 336 11659 11706 "process.ml" 336 11659 11714
+type(
+  string
+)
+"process.ml" 336 11659 11694 "process.ml" 336 11659 11714
+type(
+  unit
+)
+"process.ml" 337 11715 11718 "process.ml" 337 11715 11735
+type(
+  exn
+)
+"process.ml" 337 11715 11750 "process.ml" 337 11715 11761
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 337 11715 11762 "process.ml" 337 11715 11770
+type(
+  string
+)
+"process.ml" 337 11715 11750 "process.ml" 337 11715 11770
+type(
+  unit
+)
+"process.ml" 338 11771 11774 "process.ml" 338 11771 11792
+type(
+  exn
+)
+"process.ml" 338 11771 11806 "process.ml" 338 11771 11817
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 338 11771 11818 "process.ml" 338 11771 11825
+type(
+  string
+)
+"process.ml" 338 11771 11806 "process.ml" 338 11771 11825
+type(
+  unit
+)
+"process.ml" 339 11826 11829 "process.ml" 339 11826 11845
+type(
+  exn
+)
+"process.ml" 339 11826 11861 "process.ml" 339 11826 11872
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 339 11826 11873 "process.ml" 339 11826 11881
+type(
+  string
+)
+"process.ml" 339 11826 11861 "process.ml" 339 11826 11881
+type(
+  unit
+)
+"process.ml" 340 11882 11885 "process.ml" 340 11882 11904
+type(
+  exn
+)
+"process.ml" 340 11882 11917 "process.ml" 340 11882 11928
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 340 11882 11929 "process.ml" 340 11882 11937
+type(
+  string
+)
+"process.ml" 340 11882 11917 "process.ml" 340 11882 11937
+type(
+  unit
+)
+"process.ml" 341 11938 11941 "process.ml" 341 11938 11959
+type(
+  exn
+)
+"process.ml" 341 11938 11973 "process.ml" 341 11938 11984
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 341 11938 11985 "process.ml" 341 11938 11992
+type(
+  string
+)
+"process.ml" 341 11938 11973 "process.ml" 341 11938 11992
+type(
+  unit
+)
+"process.ml" 342 11993 11996 "process.ml" 342 11993 12020
+type(
+  exn
+)
+"process.ml" 342 11993 12028 "process.ml" 342 11993 12039
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 342 11993 12040 "process.ml" 342 11993 12048
+type(
+  string
+)
+"process.ml" 342 11993 12028 "process.ml" 342 11993 12048
+type(
+  unit
+)
+"process.ml" 343 12049 12061 "process.ml" 343 12049 12076
+type(
+  string
+)
+"process.ml" 343 12049 12052 "process.ml" 343 12049 12077
+type(
+  exn
+)
+"process.ml" 343 12049 12084 "process.ml" 343 12049 12095
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 343 12049 12096 "process.ml" 343 12049 12104
+type(
+  string
+)
+"process.ml" 343 12049 12084 "process.ml" 343 12049 12104
+type(
+  unit
+)
+"process.ml" 344 12105 12108 "process.ml" 344 12105 12132
+type(
+  exn
+)
+"process.ml" 344 12105 12140 "process.ml" 344 12105 12151
+type(
+  string -> unit
+)
+ident(
+  int_ref reply_error "process.ml" 324 11141 11146 "process.ml" 324 11141 11157
+)
+"process.ml" 344 12105 12152 "process.ml" 344 12105 12160
+type(
+  string
+)
+"process.ml" 344 12105 12140 "process.ml" 344 12105 12160
+type(
+  unit
+)
+"process.ml" 326 11222 11223 "process.ml" 344 12105 12160
+type(
+  unit
+)
+"process.ml" 324 11141 11142 "process.ml" 344 12105 12160
+type(
+  unit
+)
+"process.ml" 349 12192 12196 "process.ml" 349 12192 12210
+type(
+  store:Store.t ->
+  cons:Connections.t ->
+  doms:Domains.domains ->
+  con:Connection.t ->
+  tid:int -> rid:int -> ty:Xb.Op.operation -> data:string -> unit
+)
+ident(
+  def process_packet "process.ml" 364 12625 12625 --
+)
+"process.ml" 349 12192 12212 "process.ml" 349 12192 12217
+type(
+  Store.t
+)
+ident(
+  def store "process.ml" 349 12192 12218 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12219 "process.ml" 349 12192 12223
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 349 12192 12224 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12225 "process.ml" 349 12192 12229
+type(
+  Domains.domains
+)
+ident(
+  def doms "process.ml" 349 12192 12230 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12231 "process.ml" 349 12192 12234
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 349 12192 12235 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12236 "process.ml" 349 12192 12239
+type(
+  int
+)
+ident(
+  def tid "process.ml" 349 12192 12240 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12241 "process.ml" 349 12192 12244
+type(
+  int
+)
+ident(
+  def rid "process.ml" 349 12192 12245 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12246 "process.ml" 349 12192 12248
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 349 12192 12249 "process.ml" 362 12582 12623
+)
+"process.ml" 349 12192 12250 "process.ml" 349 12192 12254
+type(
+  string
+)
+ident(
+  def data "process.ml" 350 12257 12258 "process.ml" 362 12582 12623
+)
+"process.ml" 351 12262 12268 "process.ml" 351 12262 12271
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  def fct "process.ml" 352 12297 12299 "process.ml" 358 12425 12486
+)
+"process.ml" 351 12262 12274 "process.ml" 351 12262 12290
+type(
+  Xb.Op.operation ->
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref function_of_type "process.ml" 300 9979 9983 "process.ml" 300 9979 9999
+)
+"process.ml" 351 12262 12291 "process.ml" 351 12262 12293
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 349 12192 12246 "process.ml" 349 12192 12248
+)
+"process.ml" 351 12262 12274 "process.ml" 351 12262 12293
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+"process.ml" 352 12297 12303 "process.ml" 352 12297 12304
+type(
+  Transaction.t
+)
+ident(
+  def t "process.ml" 358 12425 12427 "process.ml" 358 12425 12486
+)
+"process.ml" 353 12307 12313 "process.ml" 353 12307 12316
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 349 12192 12236 "process.ml" 349 12192 12239
+)
+"process.ml" 353 12307 12317 "process.ml" 353 12307 12318
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"process.ml" 353 12307 12319 "process.ml" 353 12307 12335
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"process.ml" 353 12307 12313 "process.ml" 353 12307 12335
+type(
+  bool
+)
+"process.ml" 354 12341 12345 "process.ml" 354 12341 12361
+type(
+  int -> Store.t -> Transaction.t
+)
+ident(
+  ext_ref Transaction.make
+)
+"process.ml" 354 12341 12362 "process.ml" 354 12341 12365
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 349 12192 12236 "process.ml" 349 12192 12239
+)
+"process.ml" 354 12341 12366 "process.ml" 354 12341 12371
+type(
+  Store.t
+)
+ident(
+  int_ref store "process.ml" 349 12192 12212 "process.ml" 349 12192 12217
+)
+"process.ml" 354 12341 12345 "process.ml" 354 12341 12371
+type(
+  Transaction.t
+)
+"process.ml" 356 12380 12384 "process.ml" 356 12380 12410
+type(
+  Connection.t -> int -> Transaction.t
+)
+ident(
+  ext_ref Connection.get_transaction
+)
+"process.ml" 356 12380 12411 "process.ml" 356 12380 12414
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 349 12192 12231 "process.ml" 349 12192 12234
+)
+"process.ml" 356 12380 12415 "process.ml" 356 12380 12418
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 349 12192 12236 "process.ml" 349 12192 12239
+)
+"process.ml" 356 12380 12384 "process.ml" 356 12380 12418
+type(
+  Transaction.t
+)
+"process.ml" 353 12307 12310 "process.ml" 356 12380 12418
+type(
+  Transaction.t
+)
+"process.ml" 358 12425 12427 "process.ml" 358 12425 12445
+type(
+  cons:Connections.t ->
+  doms:Domains.domains ->
+  fct:(Xb.Op.operation ->
+       Connection.t ->
+       Transaction.t ->
+       int -> Domains.domains -> Connections.t -> string -> unit) ->
+  ty:Xb.Op.operation ->
+  con:Connection.t -> t:Transaction.t -> rid:int -> data:string -> unit
+)
+ident(
+  int_ref input_handle_error "process.ml" 323 11076 11080 "process.ml" 323 11076 11098
+)
+"process.ml" 358 12425 12447 "process.ml" 358 12425 12451
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 349 12192 12219 "process.ml" 349 12192 12223
+)
+"process.ml" 358 12425 12453 "process.ml" 358 12425 12457
+type(
+  Domains.domains
+)
+ident(
+  int_ref doms "process.ml" 349 12192 12225 "process.ml" 349 12192 12229
+)
+"process.ml" 358 12425 12459 "process.ml" 358 12425 12462
+type(
+  Xb.Op.operation ->
+  Connection.t ->
+  Transaction.t -> int -> Domains.domains -> Connections.t -> string -> unit
+)
+ident(
+  int_ref fct "process.ml" 351 12262 12268 "process.ml" 351 12262 12271
+)
+"process.ml" 358 12425 12464 "process.ml" 358 12425 12466
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 349 12192 12246 "process.ml" 349 12192 12248
+)
+"process.ml" 358 12425 12468 "process.ml" 358 12425 12471
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 349 12192 12231 "process.ml" 349 12192 12234
+)
+"process.ml" 358 12425 12473 "process.ml" 358 12425 12474
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "process.ml" 352 12297 12303 "process.ml" 352 12297 12304
+)
+"process.ml" 358 12425 12476 "process.ml" 358 12425 12479
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 349 12192 12241 "process.ml" 349 12192 12244
+)
+"process.ml" 358 12425 12481 "process.ml" 358 12425 12485
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 349 12192 12250 "process.ml" 349 12192 12254
+)
+"process.ml" 358 12425 12427 "process.ml" 358 12425 12486
+type(
+  unit
+)
+"process.ml" 352 12297 12299 "process.ml" 358 12425 12486
+type(
+  unit
+)
+"process.ml" 351 12262 12264 "process.ml" 358 12425 12486
+type(
+  unit
+)
+"process.ml" 359 12487 12493 "process.ml" 359 12487 12496
+type(
+  exn
+)
+ident(
+  def exn "process.ml" 360 12500 12502 "process.ml" 362 12582 12623
+)
+"process.ml" 360 12500 12502 "process.ml" 360 12500 12512
+type(
+  string ->
+  ?extra:string ->
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Logs.error
+)
+"process.ml" 360 12500 12513 "process.ml" 360 12500 12522
+type(
+  string
+)
+"process.ml" 360 12500 12523 "process.ml" 360 12500 12543
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"process.ml" 361 12544 12557 "process.ml" 361 12544 12575
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"process.ml" 361 12544 12576 "process.ml" 361 12544 12579
+type(
+  exn
+)
+ident(
+  int_ref exn "process.ml" 359 12487 12493 "process.ml" 359 12487 12496
+)
+"process.ml" 361 12544 12556 "process.ml" 361 12544 12580
+type(
+  string
+)
+"process.ml" 360 12500 12502 "process.ml" 361 12544 12580
+type(
+  unit
+)
+"process.ml" 362 12582 12584 "process.ml" 362 12582 12605
+type(
+  Connection.t -> int -> int -> string -> unit
+)
+ident(
+  ext_ref Connection.send_error
+)
+"process.ml" 362 12582 12606 "process.ml" 362 12582 12609
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 349 12192 12231 "process.ml" 349 12192 12234
+)
+"process.ml" 362 12582 12610 "process.ml" 362 12582 12613
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 349 12192 12236 "process.ml" 349 12192 12239
+)
+"process.ml" 362 12582 12614 "process.ml" 362 12582 12617
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 349 12192 12241 "process.ml" 349 12192 12244
+)
+"process.ml" 362 12582 12618 "process.ml" 362 12582 12623
+type(
+  string
+)
+"process.ml" 362 12582 12584 "process.ml" 362 12582 12623
+type(
+  unit
+)
+"process.ml" 360 12500 12502 "process.ml" 362 12582 12623
+type(
+  unit
+)
+"process.ml" 350 12257 12258 "process.ml" 362 12582 12623
+type(
+  unit
+)
+"process.ml" 364 12625 12629 "process.ml" 364 12625 12645
+type(
+  ty:Xb.Op.operation -> tid:int -> con:Connection.t -> data:string -> unit
+)
+ident(
+  def write_access_log "process.ml" 367 12731 12731 --
+)
+"process.ml" 364 12625 12647 "process.ml" 364 12625 12649
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 364 12625 12650 "process.ml" 365 12668 12729
+)
+"process.ml" 364 12625 12651 "process.ml" 364 12625 12654
+type(
+  int
+)
+ident(
+  def tid "process.ml" 364 12625 12655 "process.ml" 365 12668 12729
+)
+"process.ml" 364 12625 12656 "process.ml" 364 12625 12659
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 364 12625 12660 "process.ml" 365 12668 12729
+)
+"process.ml" 364 12625 12661 "process.ml" 364 12625 12665
+type(
+  string
+)
+ident(
+  def data "process.ml" 365 12668 12669 "process.ml" 365 12668 12729
+)
+"process.ml" 365 12668 12669 "process.ml" 365 12668 12682
+type(
+  tid:int -> con:string -> ty:Xb.Op.operation -> string -> unit
+)
+ident(
+  ext_ref Logging.xb_op
+)
+"process.ml" 365 12668 12684 "process.ml" 365 12668 12686
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 364 12625 12647 "process.ml" 364 12625 12649
+)
+"process.ml" 365 12668 12688 "process.ml" 365 12668 12691
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 364 12625 12651 "process.ml" 364 12625 12654
+)
+"process.ml" 365 12668 12698 "process.ml" 365 12668 12719
+type(
+  Connection.t -> string
+)
+ident(
+  ext_ref Connection.get_domstr
+)
+"process.ml" 365 12668 12720 "process.ml" 365 12668 12723
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 364 12625 12656 "process.ml" 364 12625 12659
+)
+"process.ml" 365 12668 12697 "process.ml" 365 12668 12724
+type(
+  string
+)
+"process.ml" 365 12668 12725 "process.ml" 365 12668 12729
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 364 12625 12661 "process.ml" 364 12625 12665
+)
+"process.ml" 365 12668 12669 "process.ml" 365 12668 12729
+type(
+  unit
+)
+"process.ml" 367 12731 12735 "process.ml" 367 12731 12751
+type(
+  ty:Xb.Op.operation -> tid:int -> con:Connection.t -> data:string -> unit
+)
+ident(
+  def write_answer_log "process.ml" 370 12841 12841 --
+)
+"process.ml" 367 12731 12753 "process.ml" 367 12731 12755
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "process.ml" 367 12731 12756 "process.ml" 368 12774 12839
+)
+"process.ml" 367 12731 12757 "process.ml" 367 12731 12760
+type(
+  int
+)
+ident(
+  def tid "process.ml" 367 12731 12761 "process.ml" 368 12774 12839
+)
+"process.ml" 367 12731 12762 "process.ml" 367 12731 12765
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 367 12731 12766 "process.ml" 368 12774 12839
+)
+"process.ml" 367 12731 12767 "process.ml" 367 12731 12771
+type(
+  string
+)
+ident(
+  def data "process.ml" 368 12774 12775 "process.ml" 368 12774 12839
+)
+"process.ml" 368 12774 12775 "process.ml" 368 12774 12792
+type(
+  tid:int -> con:string -> ty:Xb.Op.operation -> string -> unit
+)
+ident(
+  ext_ref Logging.xb_answer
+)
+"process.ml" 368 12774 12794 "process.ml" 368 12774 12796
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 367 12731 12753 "process.ml" 367 12731 12755
+)
+"process.ml" 368 12774 12798 "process.ml" 368 12774 12801
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 367 12731 12757 "process.ml" 367 12731 12760
+)
+"process.ml" 368 12774 12808 "process.ml" 368 12774 12829
+type(
+  Connection.t -> string
+)
+ident(
+  ext_ref Connection.get_domstr
+)
+"process.ml" 368 12774 12830 "process.ml" 368 12774 12833
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 367 12731 12762 "process.ml" 367 12731 12765
+)
+"process.ml" 368 12774 12807 "process.ml" 368 12774 12834
+type(
+  string
+)
+"process.ml" 368 12774 12835 "process.ml" 368 12774 12839
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 367 12731 12767 "process.ml" 367 12731 12771
+)
+"process.ml" 368 12774 12775 "process.ml" 368 12774 12839
+type(
+  unit
+)
+"process.ml" 370 12841 12845 "process.ml" 370 12841 12853
+type(
+  Store.t -> Connections.t -> Domains.domains -> Connection.t -> unit
+)
+ident(
+  def do_input "process.ml" 383 13350 13350 --
+)
+"process.ml" 370 12841 12854 "process.ml" 370 12841 12859
+type(
+  Store.t
+)
+ident(
+  def store "process.ml" 370 12841 12860 "process.ml" 381 13346 13348
+)
+"process.ml" 370 12841 12860 "process.ml" 370 12841 12864
+type(
+  Connections.t
+)
+ident(
+  def cons "process.ml" 370 12841 12865 "process.ml" 381 13346 13348
+)
+"process.ml" 370 12841 12865 "process.ml" 370 12841 12869
+type(
+  Domains.domains
+)
+ident(
+  def doms "process.ml" 370 12841 12870 "process.ml" 381 13346 13348
+)
+"process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 371 12876 12877 "process.ml" 381 13346 13348
+)
+"process.ml" 371 12876 12880 "process.ml" 371 12876 12899
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.do_input
+)
+"process.ml" 371 12876 12900 "process.ml" 371 12876 12903
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+)
+"process.ml" 371 12876 12880 "process.ml" 371 12876 12903
+type(
+  bool
+)
+"process.ml" 372 12911 12917 "process.ml" 372 12911 12923
+type(
+  Xb.Packet.t
+)
+"process.ml" 372 12911 12926 "process.ml" 372 12911 12943
+type(
+  Connection.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Connection.pop_in
+)
+"process.ml" 372 12911 12944 "process.ml" 372 12911 12947
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+)
+"process.ml" 372 12911 12926 "process.ml" 372 12911 12947
+type(
+  Xb.Packet.t
+)
+"process.ml" 373 12951 12957 "process.ml" 373 12951 12960
+type(
+  int
+)
+"process.ml" 373 12951 12962 "process.ml" 373 12951 12965
+type(
+  int
+)
+"process.ml" 373 12951 12967 "process.ml" 373 12951 12969
+type(
+  Xb.Op.operation
+)
+"process.ml" 373 12951 12971 "process.ml" 373 12951 12975
+type(
+  string
+)
+"process.ml" 373 12951 12957 "process.ml" 373 12951 12975
+type(
+  int * int * Xb.Op.operation * string
+)
+"process.ml" 373 12951 12978 "process.ml" 373 12951 12994
+type(
+  Xb.Packet.t -> int * int * Xb.Op.operation * string
+)
+ident(
+  ext_ref Xb.Packet.unpack
+)
+"process.ml" 373 12951 12995 "process.ml" 373 12951 13001
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref packet "process.ml" 372 12911 12917 "process.ml" 372 12911 12923
+)
+"process.ml" 373 12951 12978 "process.ml" 373 12951 13001
+type(
+  int * int * Xb.Op.operation * string
+)
+"process.ml" 378 13217 13219 "process.ml" 378 13217 13233
+type(
+  store:Store.t ->
+  cons:Connections.t ->
+  doms:Domains.domains ->
+  con:Connection.t ->
+  tid:int -> rid:int -> ty:Xb.Op.operation -> data:string -> unit
+)
+ident(
+  int_ref process_packet "process.ml" 349 12192 12196 "process.ml" 349 12192 12210
+)
+"process.ml" 378 13217 13235 "process.ml" 378 13217 13240
+type(
+  Store.t
+)
+ident(
+  int_ref store "process.ml" 370 12841 12854 "process.ml" 370 12841 12859
+)
+"process.ml" 378 13217 13242 "process.ml" 378 13217 13246
+type(
+  Connections.t
+)
+ident(
+  int_ref cons "process.ml" 370 12841 12860 "process.ml" 370 12841 12864
+)
+"process.ml" 378 13217 13248 "process.ml" 378 13217 13252
+type(
+  Domains.domains
+)
+ident(
+  int_ref doms "process.ml" 370 12841 12865 "process.ml" 370 12841 12869
+)
+"process.ml" 378 13217 13254 "process.ml" 378 13217 13257
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+)
+"process.ml" 378 13217 13259 "process.ml" 378 13217 13262
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 373 12951 12957 "process.ml" 373 12951 12960
+)
+"process.ml" 378 13217 13264 "process.ml" 378 13217 13267
+type(
+  int
+)
+ident(
+  int_ref rid "process.ml" 373 12951 12962 "process.ml" 373 12951 12965
+)
+"process.ml" 378 13217 13269 "process.ml" 378 13217 13271
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 373 12951 12967 "process.ml" 373 12951 12969
+)
+"process.ml" 378 13217 13273 "process.ml" 378 13217 13277
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 373 12951 12971 "process.ml" 373 12951 12975
+)
+"process.ml" 378 13217 13219 "process.ml" 378 13217 13277
+type(
+  unit
+)
+"process.ml" 379 13279 13281 "process.ml" 379 13279 13297
+type(
+  ty:Xb.Op.operation -> tid:int -> con:Connection.t -> data:string -> unit
+)
+ident(
+  int_ref write_access_log "process.ml" 364 12625 12629 "process.ml" 364 12625 12645
+)
+"process.ml" 379 13279 13299 "process.ml" 379 13279 13301
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 373 12951 12967 "process.ml" 373 12951 12969
+)
+"process.ml" 379 13279 13303 "process.ml" 379 13279 13306
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 373 12951 12957 "process.ml" 373 12951 12960
+)
+"process.ml" 379 13279 13308 "process.ml" 379 13279 13311
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+)
+"process.ml" 379 13279 13313 "process.ml" 379 13279 13317
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 373 12951 12971 "process.ml" 373 12951 12975
+)
+"process.ml" 379 13279 13281 "process.ml" 379 13279 13317
+type(
+  unit
+)
+"process.ml" 380 13319 13321 "process.ml" 380 13319 13340
+type(
+  Connection.t -> unit
+)
+ident(
+  ext_ref Connection.incr_ops
+)
+"process.ml" 380 13319 13341 "process.ml" 380 13319 13344
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 370 12841 12870 "process.ml" 370 12841 12873
+)
+"process.ml" 380 13319 13321 "process.ml" 380 13319 13345
+type(
+  unit
+)
+"process.ml" 379 13279 13281 "process.ml" 380 13319 13345
+type(
+  unit
+)
+"process.ml" 378 13217 13219 "process.ml" 380 13319 13345
+type(
+  unit
+)
+"process.ml" 373 12951 12953 "process.ml" 380 13319 13345
+type(
+  unit
+)
+"process.ml" 371 12876 12909 "process.ml" 381 13346 13348
+type(
+  unit
+)
+"process.ml" 371 12876 12877 "process.ml" 381 13346 13348
+type(
+  unit
+)
+"process.ml" 383 13350 13354 "process.ml" 383 13350 13363
+type(
+  'a -> 'b -> 'c -> Connection.t -> unit
+)
+ident(
+  def do_output "process.ml" 395 13854 13856 --
+)
+"process.ml" 383 13350 13364 "process.ml" 383 13350 13369
+type(
+  'a
+)
+ident(
+  def store "process.ml" 383 13350 13370 "process.ml" 395 13854 13856
+)
+"process.ml" 383 13350 13370 "process.ml" 383 13350 13374
+type(
+  'b
+)
+ident(
+  def cons "process.ml" 383 13350 13375 "process.ml" 395 13854 13856
+)
+"process.ml" 383 13350 13375 "process.ml" 383 13350 13379
+type(
+  'c
+)
+ident(
+  def doms "process.ml" 383 13350 13380 "process.ml" 395 13854 13856
+)
+"process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+type(
+  Connection.t
+)
+ident(
+  def con "process.ml" 384 13386 13387 "process.ml" 395 13854 13856
+)
+"process.ml" 384 13386 13390 "process.ml" 384 13386 13411
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.has_output
+)
+"process.ml" 384 13386 13412 "process.ml" 384 13386 13415
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+)
+"process.ml" 384 13386 13390 "process.ml" 384 13386 13415
+type(
+  bool
+)
+"process.ml" 385 13423 13428 "process.ml" 385 13423 13453
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.has_new_output
+)
+"process.ml" 385 13423 13454 "process.ml" 385 13423 13457
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+)
+"process.ml" 385 13423 13428 "process.ml" 385 13423 13457
+type(
+  bool
+)
+"process.ml" 386 13465 13472 "process.ml" 386 13465 13478
+type(
+  Xb.Packet.t
+)
+"process.ml" 386 13465 13481 "process.ml" 386 13465 13503
+type(
+  Connection.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Connection.peek_output
+)
+"process.ml" 386 13465 13504 "process.ml" 386 13465 13507
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+)
+"process.ml" 386 13465 13481 "process.ml" 386 13465 13507
+type(
+  Xb.Packet.t
+)
+"process.ml" 387 13511 13518 "process.ml" 387 13511 13521
+type(
+  int
+)
+"process.ml" 387 13511 13523 "process.ml" 387 13511 13526
+type(
+  int
+)
+"process.ml" 387 13511 13528 "process.ml" 387 13511 13530
+type(
+  Xb.Op.operation
+)
+"process.ml" 387 13511 13532 "process.ml" 387 13511 13536
+type(
+  string
+)
+"process.ml" 387 13511 13518 "process.ml" 387 13511 13536
+type(
+  int * int * Xb.Op.operation * string
+)
+"process.ml" 387 13511 13539 "process.ml" 387 13511 13555
+type(
+  Xb.Packet.t -> int * int * Xb.Op.operation * string
+)
+ident(
+  ext_ref Xb.Packet.unpack
+)
+"process.ml" 387 13511 13556 "process.ml" 387 13511 13562
+type(
+  Xb.Packet.t
+)
+ident(
+  int_ref packet "process.ml" 386 13465 13472 "process.ml" 386 13465 13478
+)
+"process.ml" 387 13511 13539 "process.ml" 387 13511 13562
+type(
+  int * int * Xb.Op.operation * string
+)
+"process.ml" 392 13772 13775 "process.ml" 392 13772 13791
+type(
+  ty:Xb.Op.operation -> tid:int -> con:Connection.t -> data:string -> unit
+)
+ident(
+  int_ref write_answer_log "process.ml" 367 12731 12735 "process.ml" 367 12731 12751
+)
+"process.ml" 392 13772 13793 "process.ml" 392 13772 13795
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "process.ml" 387 13511 13528 "process.ml" 387 13511 13530
+)
+"process.ml" 392 13772 13797 "process.ml" 392 13772 13800
+type(
+  int
+)
+ident(
+  int_ref tid "process.ml" 387 13511 13518 "process.ml" 387 13511 13521
+)
+"process.ml" 392 13772 13802 "process.ml" 392 13772 13805
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+)
+"process.ml" 392 13772 13807 "process.ml" 392 13772 13811
+type(
+  string
+)
+ident(
+  int_ref data "process.ml" 387 13511 13532 "process.ml" 387 13511 13536
+)
+"process.ml" 392 13772 13775 "process.ml" 392 13772 13812
+type(
+  unit
+)
+"process.ml" 387 13511 13514 "process.ml" 392 13772 13812
+type(
+  unit
+)
+"process.ml" 385 13423 13463 "process.ml" 393 13813 13816
+type(
+  unit
+)
+"process.ml" 385 13423 13425 "process.ml" 393 13813 13816
+type(
+  unit
+)
+"process.ml" 394 13818 13820 "process.ml" 394 13818 13826
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"process.ml" 394 13818 13828 "process.ml" 394 13818 13848
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.do_output
+)
+"process.ml" 394 13818 13849 "process.ml" 394 13818 13852
+type(
+  Connection.t
+)
+ident(
+  int_ref con "process.ml" 383 13350 13380 "process.ml" 383 13350 13383
+)
+"process.ml" 394 13818 13827 "process.ml" 394 13818 13853
+type(
+  bool
+)
+"process.ml" 394 13818 13820 "process.ml" 394 13818 13853
+type(
+  unit
+)
+"process.ml" 384 13386 13421 "process.ml" 395 13854 13856
+type(
+  unit
+)
+"process.ml" 384 13386 13387 "process.ml" 395 13854 13856
+type(
+  unit
+)

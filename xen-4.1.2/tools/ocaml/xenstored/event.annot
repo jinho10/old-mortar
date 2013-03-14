@@ -1,0 +1,367 @@
+"event.ml" 23 796 800 "event.ml" 23 796 804
+type(
+  unit -> t
+)
+ident(
+  def init "event.ml" 24 857 857 --
+)
+"event.ml" 23 796 805 "event.ml" 23 796 807
+type(
+  unit
+)
+"event.ml" 23 796 821 "event.ml" 23 796 834
+type(
+  unit -> Eventchn.handle
+)
+ident(
+  ext_ref Eventchn.init
+)
+"event.ml" 23 796 835 "event.ml" 23 796 837
+type(
+  unit
+)
+"event.ml" 23 796 821 "event.ml" 23 796 837
+type(
+  Eventchn.handle
+)
+"event.ml" 23 796 851 "event.ml" 23 796 853
+type(
+  int
+)
+"event.ml" 23 796 810 "event.ml" 23 796 856
+type(
+  t
+)
+"event.ml" 24 857 861 "event.ml" 24 857 863
+type(
+  t -> Unix.file_descr
+)
+ident(
+  def fd "event.ml" 25 903 903 --
+)
+"event.ml" 24 857 864 "event.ml" 24 857 872
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 24 857 875 "event.ml" 24 857 902
+)
+"event.ml" 24 857 875 "event.ml" 24 857 886
+type(
+  Eventchn.handle -> Unix.file_descr
+)
+ident(
+  ext_ref Eventchn.fd
+)
+"event.ml" 24 857 887 "event.ml" 24 857 895
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 24 857 864 "event.ml" 24 857 872
+)
+"event.ml" 24 857 887 "event.ml" 24 857 902
+type(
+  Eventchn.handle
+)
+"event.ml" 24 857 875 "event.ml" 24 857 902
+type(
+  Unix.file_descr
+)
+"event.ml" 25 903 907 "event.ml" 25 903 924
+type(
+  t -> unit
+)
+ident(
+  def bind_dom_exc_virq "event.ml" 26 1001 1001 --
+)
+"event.ml" 25 903 925 "event.ml" 25 903 933
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 25 903 936 "event.ml" 25 903 1000
+)
+"event.ml" 25 903 936 "event.ml" 25 903 944
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 25 903 925 "event.ml" 25 903 933
+)
+"event.ml" 25 903 958 "event.ml" 25 903 984
+type(
+  Eventchn.handle -> int
+)
+ident(
+  ext_ref Eventchn.bind_dom_exc_virq
+)
+"event.ml" 25 903 985 "event.ml" 25 903 993
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 25 903 925 "event.ml" 25 903 933
+)
+"event.ml" 25 903 985 "event.ml" 25 903 1000
+type(
+  Eventchn.handle
+)
+"event.ml" 25 903 958 "event.ml" 25 903 1000
+type(
+  int
+)
+"event.ml" 25 903 936 "event.ml" 25 903 1000
+type(
+  unit
+)
+"event.ml" 26 1001 1005 "event.ml" 26 1001 1021
+type(
+  t -> int -> int -> int
+)
+ident(
+  def bind_interdomain "event.ml" 27 1097 1097 --
+)
+"event.ml" 26 1001 1022 "event.ml" 26 1001 1030
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 26 1001 1031 "event.ml" 26 1001 1096
+)
+"event.ml" 26 1001 1031 "event.ml" 26 1001 1036
+type(
+  int
+)
+ident(
+  def domid "event.ml" 26 1001 1037 "event.ml" 26 1001 1096
+)
+"event.ml" 26 1001 1037 "event.ml" 26 1001 1041
+type(
+  int
+)
+ident(
+  def port "event.ml" 26 1001 1044 "event.ml" 26 1001 1096
+)
+"event.ml" 26 1001 1044 "event.ml" 26 1001 1069
+type(
+  Eventchn.handle -> int -> int -> int
+)
+ident(
+  ext_ref Eventchn.bind_interdomain
+)
+"event.ml" 26 1001 1070 "event.ml" 26 1001 1078
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 26 1001 1022 "event.ml" 26 1001 1030
+)
+"event.ml" 26 1001 1070 "event.ml" 26 1001 1085
+type(
+  Eventchn.handle
+)
+"event.ml" 26 1001 1086 "event.ml" 26 1001 1091
+type(
+  int
+)
+ident(
+  int_ref domid "event.ml" 26 1001 1031 "event.ml" 26 1001 1036
+)
+"event.ml" 26 1001 1092 "event.ml" 26 1001 1096
+type(
+  int
+)
+ident(
+  int_ref port "event.ml" 26 1001 1037 "event.ml" 26 1001 1041
+)
+"event.ml" 26 1001 1044 "event.ml" 26 1001 1096
+type(
+  int
+)
+"event.ml" 27 1097 1101 "event.ml" 27 1097 1107
+type(
+  t -> int -> unit
+)
+ident(
+  def unbind "event.ml" 28 1161 1161 --
+)
+"event.ml" 27 1097 1108 "event.ml" 27 1097 1116
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 27 1097 1117 "event.ml" 27 1097 1160
+)
+"event.ml" 27 1097 1117 "event.ml" 27 1097 1121
+type(
+  int
+)
+ident(
+  def port "event.ml" 27 1097 1124 "event.ml" 27 1097 1160
+)
+"event.ml" 27 1097 1124 "event.ml" 27 1097 1139
+type(
+  Eventchn.handle -> int -> unit
+)
+ident(
+  ext_ref Eventchn.unbind
+)
+"event.ml" 27 1097 1140 "event.ml" 27 1097 1148
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 27 1097 1108 "event.ml" 27 1097 1116
+)
+"event.ml" 27 1097 1140 "event.ml" 27 1097 1155
+type(
+  Eventchn.handle
+)
+"event.ml" 27 1097 1156 "event.ml" 27 1097 1160
+type(
+  int
+)
+ident(
+  int_ref port "event.ml" 27 1097 1117 "event.ml" 27 1097 1121
+)
+"event.ml" 27 1097 1124 "event.ml" 27 1097 1160
+type(
+  unit
+)
+"event.ml" 28 1161 1165 "event.ml" 28 1161 1171
+type(
+  t -> int -> unit
+)
+ident(
+  def notify "event.ml" 29 1225 1225 --
+)
+"event.ml" 28 1161 1172 "event.ml" 28 1161 1180
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 28 1161 1181 "event.ml" 28 1161 1224
+)
+"event.ml" 28 1161 1181 "event.ml" 28 1161 1185
+type(
+  int
+)
+ident(
+  def port "event.ml" 28 1161 1188 "event.ml" 28 1161 1224
+)
+"event.ml" 28 1161 1188 "event.ml" 28 1161 1203
+type(
+  Eventchn.handle -> int -> unit
+)
+ident(
+  ext_ref Eventchn.notify
+)
+"event.ml" 28 1161 1204 "event.ml" 28 1161 1212
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 28 1161 1172 "event.ml" 28 1161 1180
+)
+"event.ml" 28 1161 1204 "event.ml" 28 1161 1219
+type(
+  Eventchn.handle
+)
+"event.ml" 28 1161 1220 "event.ml" 28 1161 1224
+type(
+  int
+)
+ident(
+  int_ref port "event.ml" 28 1161 1181 "event.ml" 28 1161 1185
+)
+"event.ml" 28 1161 1188 "event.ml" 28 1161 1224
+type(
+  unit
+)
+"event.ml" 29 1225 1229 "event.ml" 29 1225 1236
+type(
+  t -> int
+)
+ident(
+  def pending "event.ml" 30 1281 1281 --
+)
+"event.ml" 29 1225 1237 "event.ml" 29 1225 1245
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 29 1225 1248 "event.ml" 29 1225 1280
+)
+"event.ml" 29 1225 1248 "event.ml" 29 1225 1264
+type(
+  Eventchn.handle -> int
+)
+ident(
+  ext_ref Eventchn.pending
+)
+"event.ml" 29 1225 1265 "event.ml" 29 1225 1273
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 29 1225 1237 "event.ml" 29 1225 1245
+)
+"event.ml" 29 1225 1265 "event.ml" 29 1225 1280
+type(
+  Eventchn.handle
+)
+"event.ml" 29 1225 1248 "event.ml" 29 1225 1280
+type(
+  int
+)
+"event.ml" 30 1281 1285 "event.ml" 30 1281 1291
+type(
+  t -> int -> unit
+)
+ident(
+  def unmask "event.ml" 30 1281 1344 --
+)
+"event.ml" 30 1281 1292 "event.ml" 30 1281 1300
+type(
+  t
+)
+ident(
+  def eventchn "event.ml" 30 1281 1301 "event.ml" 30 1281 1344
+)
+"event.ml" 30 1281 1301 "event.ml" 30 1281 1305
+type(
+  int
+)
+ident(
+  def port "event.ml" 30 1281 1308 "event.ml" 30 1281 1344
+)
+"event.ml" 30 1281 1308 "event.ml" 30 1281 1323
+type(
+  Eventchn.handle -> int -> unit
+)
+ident(
+  ext_ref Eventchn.unmask
+)
+"event.ml" 30 1281 1324 "event.ml" 30 1281 1332
+type(
+  t
+)
+ident(
+  int_ref eventchn "event.ml" 30 1281 1292 "event.ml" 30 1281 1300
+)
+"event.ml" 30 1281 1324 "event.ml" 30 1281 1339
+type(
+  Eventchn.handle
+)
+"event.ml" 30 1281 1340 "event.ml" 30 1281 1344
+type(
+  int
+)
+ident(
+  int_ref port "event.ml" 30 1281 1301 "event.ml" 30 1281 1305
+)
+"event.ml" 30 1281 1308 "event.ml" 30 1281 1344
+type(
+  unit
+)

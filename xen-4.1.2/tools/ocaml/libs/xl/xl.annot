@@ -1,0 +1,23 @@
+"xl.ml" 213 4702 4710 "xl.ml" 213 4702 4737
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"xl.ml" 213 4702 4738 "xl.ml" 213 4702 4748
+type(
+  string
+)
+"xl.ml" 213 4702 4756 "xl.ml" 213 4702 4775
+type(
+  string
+)
+"xl.ml" 213 4702 4749 "xl.ml" 213 4702 4776
+type(
+  exn
+)
+"xl.ml" 213 4702 4710 "xl.ml" 213 4702 4776
+type(
+  unit
+)

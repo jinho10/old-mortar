@@ -1,0 +1,2557 @@
+"perms.ml" 20 751 755 "perms.ml" 20 751 763
+type(
+  bool ref
+)
+ident(
+  def activate "perms.ml" 22 776 776 --
+)
+"perms.ml" 20 751 766 "perms.ml" 20 751 769
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"perms.ml" 20 751 770 "perms.ml" 20 751 774
+type(
+  bool
+)
+"perms.ml" 20 751 766 "perms.ml" 20 751 774
+type(
+  bool ref
+)
+"perms.ml" 24 818 822 "perms.ml" 24 818 836
+type(
+  permty -> char
+)
+ident(
+  def char_of_permty "perms.ml" 31 923 923 --
+)
+"perms.ml" 24 818 837 "perms.ml" 24 818 841
+type(
+  permty
+)
+ident(
+  def perm "perms.ml" 25 844 845 "perms.ml" 29 907 921
+)
+"perms.ml" 25 844 851 "perms.ml" 25 844 855
+type(
+  permty
+)
+ident(
+  int_ref perm "perms.ml" 24 818 837 "perms.ml" 24 818 841
+)
+"perms.ml" 26 861 864 "perms.ml" 26 861 868
+type(
+  permty
+)
+"perms.ml" 26 861 872 "perms.ml" 26 861 875
+type(
+  char
+)
+"perms.ml" 27 876 879 "perms.ml" 27 876 884
+type(
+  permty
+)
+"perms.ml" 27 876 888 "perms.ml" 27 876 891
+type(
+  char
+)
+"perms.ml" 28 892 895 "perms.ml" 28 892 899
+type(
+  permty
+)
+"perms.ml" 28 892 903 "perms.ml" 28 892 906
+type(
+  char
+)
+"perms.ml" 29 907 910 "perms.ml" 29 907 914
+type(
+  permty
+)
+"perms.ml" 29 907 918 "perms.ml" 29 907 921
+type(
+  char
+)
+"perms.ml" 25 844 845 "perms.ml" 29 907 921
+type(
+  char
+)
+"perms.ml" 31 923 927 "perms.ml" 31 923 941
+type(
+  char -> permty
+)
+ident(
+  def permty_of_char "perms.ml" 41 1092 1092 --
+)
+"perms.ml" 31 923 942 "perms.ml" 31 923 943
+type(
+  char
+)
+ident(
+  def c "perms.ml" 32 946 947 "perms.ml" 37 1021 1066
+)
+"perms.ml" 32 946 953 "perms.ml" 32 946 954
+type(
+  char
+)
+ident(
+  int_ref c "perms.ml" 31 923 942 "perms.ml" 31 923 943
+)
+"perms.ml" 33 960 963 "perms.ml" 33 960 966
+type(
+  char
+)
+"perms.ml" 33 960 970 "perms.ml" 33 960 974
+type(
+  permty
+)
+"perms.ml" 34 975 978 "perms.ml" 34 975 981
+type(
+  char
+)
+"perms.ml" 34 975 985 "perms.ml" 34 975 990
+type(
+  permty
+)
+"perms.ml" 35 991 994 "perms.ml" 35 991 997
+type(
+  char
+)
+"perms.ml" 35 991 1001 "perms.ml" 35 991 1005
+type(
+  permty
+)
+"perms.ml" 36 1006 1009 "perms.ml" 36 1006 1012
+type(
+  char
+)
+"perms.ml" 36 1006 1016 "perms.ml" 36 1006 1020
+type(
+  permty
+)
+"perms.ml" 37 1021 1024 "perms.ml" 37 1021 1025
+type(
+  char
+)
+"perms.ml" 37 1021 1029 "perms.ml" 37 1021 1040
+type(
+  string -> permty
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"perms.ml" 37 1021 1041 "perms.ml" 37 1021 1066
+type(
+  string
+)
+"perms.ml" 37 1021 1029 "perms.ml" 37 1021 1066
+type(
+  permty
+)
+"perms.ml" 32 946 947 "perms.ml" 37 1021 1066
+type(
+  permty
+)
+"perms.ml" 51 1194 1198 "perms.ml" 51 1194 1204
+type(
+  Xc.domid -> permty -> (Xc.domid * permty) list -> t
+)
+ident(
+  def create "perms.ml" 54 1269 1269 "perms.ml" 84 2081 2084
+)
+"perms.ml" 51 1194 1205 "perms.ml" 51 1194 1210
+type(
+  Xc.domid
+)
+ident(
+  def owner "perms.ml" 51 1194 1211 "perms.ml" 52 1223 1267
+)
+"perms.ml" 51 1194 1211 "perms.ml" 51 1194 1216
+type(
+  permty
+)
+ident(
+  def other "perms.ml" 51 1194 1217 "perms.ml" 52 1223 1267
+)
+"perms.ml" 51 1194 1217 "perms.ml" 51 1194 1220
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  def acl "perms.ml" 52 1223 1224 "perms.ml" 52 1223 1267
+)
+"perms.ml" 52 1223 1234 "perms.ml" 52 1223 1239
+type(
+  Xc.domid
+)
+ident(
+  int_ref owner "perms.ml" 51 1194 1205 "perms.ml" 51 1194 1210
+)
+"perms.ml" 52 1223 1249 "perms.ml" 52 1223 1254
+type(
+  permty
+)
+ident(
+  int_ref other "perms.ml" 51 1194 1211 "perms.ml" 51 1194 1216
+)
+"perms.ml" 52 1223 1262 "perms.ml" 52 1223 1265
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  int_ref acl "perms.ml" 51 1194 1217 "perms.ml" 51 1194 1220
+)
+"perms.ml" 52 1223 1224 "perms.ml" 52 1223 1267
+type(
+  t
+)
+"perms.ml" 54 1269 1273 "perms.ml" 54 1269 1282
+type(
+  t -> permty
+)
+ident(
+  def get_other "perms.ml" 55 1303 1303 "perms.ml" 84 2081 2084
+)
+"perms.ml" 54 1269 1283 "perms.ml" 54 1269 1288
+type(
+  t
+)
+ident(
+  def perms "perms.ml" 54 1269 1291 "perms.ml" 54 1269 1302
+)
+"perms.ml" 54 1269 1291 "perms.ml" 54 1269 1296
+type(
+  t
+)
+ident(
+  int_ref perms "perms.ml" 54 1269 1283 "perms.ml" 54 1269 1288
+)
+"perms.ml" 54 1269 1291 "perms.ml" 54 1269 1302
+type(
+  permty
+)
+"perms.ml" 55 1303 1307 "perms.ml" 55 1303 1314
+type(
+  t -> (Xc.domid * permty) list
+)
+ident(
+  def get_acl "perms.ml" 56 1333 1333 "perms.ml" 84 2081 2084
+)
+"perms.ml" 55 1303 1315 "perms.ml" 55 1303 1320
+type(
+  t
+)
+ident(
+  def perms "perms.ml" 55 1303 1323 "perms.ml" 55 1303 1332
+)
+"perms.ml" 55 1303 1323 "perms.ml" 55 1303 1328
+type(
+  t
+)
+ident(
+  int_ref perms "perms.ml" 55 1303 1315 "perms.ml" 55 1303 1320
+)
+"perms.ml" 55 1303 1323 "perms.ml" 55 1303 1332
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 56 1333 1337 "perms.ml" 56 1333 1346
+type(
+  t -> Xc.domid
+)
+ident(
+  def get_owner "perms.ml" 58 1366 1366 "perms.ml" 84 2081 2084
+)
+"perms.ml" 56 1333 1347 "perms.ml" 56 1333 1351
+type(
+  t
+)
+ident(
+  def perm "perms.ml" 56 1333 1354 "perms.ml" 56 1333 1364
+)
+"perms.ml" 56 1333 1354 "perms.ml" 56 1333 1358
+type(
+  t
+)
+ident(
+  int_ref perm "perms.ml" 56 1333 1347 "perms.ml" 56 1333 1351
+)
+"perms.ml" 56 1333 1354 "perms.ml" 56 1333 1364
+type(
+  Xc.domid
+)
+"perms.ml" 58 1366 1370 "perms.ml" 58 1366 1378
+type(
+  t
+)
+ident(
+  def default0 "perms.ml" 60 1399 1399 "perms.ml" 84 2081 2084
+)
+"perms.ml" 58 1366 1381 "perms.ml" 58 1366 1387
+type(
+  Xc.domid -> permty -> (Xc.domid * permty) list -> t
+)
+ident(
+  int_ref create "perms.ml" 51 1194 1198 "perms.ml" 51 1194 1204
+)
+"perms.ml" 58 1366 1388 "perms.ml" 58 1366 1389
+type(
+  Xc.domid
+)
+"perms.ml" 58 1366 1390 "perms.ml" 58 1366 1394
+type(
+  permty
+)
+"perms.ml" 58 1366 1395 "perms.ml" 58 1366 1397
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 58 1366 1381 "perms.ml" 58 1366 1397
+type(
+  t
+)
+"perms.ml" 60 1399 1403 "perms.ml" 60 1399 1417
+type(
+  string -> int * permty
+)
+ident(
+  def perm_of_string "perms.ml" 65 1530 1530 "perms.ml" 84 2081 2084
+)
+"perms.ml" 60 1399 1418 "perms.ml" 60 1399 1419
+type(
+  string
+)
+ident(
+  def s "perms.ml" 61 1422 1423 "perms.ml" 63 1519 1528
+)
+"perms.ml" 61 1422 1427 "perms.ml" 61 1422 1429
+type(
+  permty
+)
+"perms.ml" 61 1422 1432 "perms.ml" 61 1422 1446
+type(
+  char -> permty
+)
+ident(
+  int_ref permty_of_char "perms.ml" 31 923 927 "perms.ml" 31 923 941
+)
+"perms.ml" 61 1422 1447 "perms.ml" 61 1422 1448
+type(
+  string
+)
+ident(
+  int_ref s "perms.ml" 60 1399 1418 "perms.ml" 60 1399 1419
+)
+"perms.ml" 61 1422 1450 "perms.ml" 61 1422 1451
+type(
+  int
+)
+"perms.ml" 61 1422 1447 "perms.ml" 61 1422 1452
+type(
+  char
+)
+"perms.ml" 61 1422 1432 "perms.ml" 61 1422 1452
+type(
+  permty
+)
+"perms.ml" 62 1453 1458 "perms.ml" 62 1453 1460
+type(
+  int
+)
+"perms.ml" 62 1453 1463 "perms.ml" 62 1453 1476
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"perms.ml" 62 1453 1478 "perms.ml" 62 1453 1488
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Stdext.String.sub
+)
+"perms.ml" 62 1453 1489 "perms.ml" 62 1453 1490
+type(
+  string
+)
+ident(
+  int_ref s "perms.ml" 60 1399 1418 "perms.ml" 60 1399 1419
+)
+"perms.ml" 62 1453 1491 "perms.ml" 62 1453 1492
+type(
+  int
+)
+"perms.ml" 62 1453 1494 "perms.ml" 62 1453 1507
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"perms.ml" 62 1453 1508 "perms.ml" 62 1453 1509
+type(
+  string
+)
+ident(
+  int_ref s "perms.ml" 60 1399 1418 "perms.ml" 60 1399 1419
+)
+"perms.ml" 62 1453 1494 "perms.ml" 62 1453 1509
+type(
+  int
+)
+"perms.ml" 62 1453 1510 "perms.ml" 62 1453 1511
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"perms.ml" 62 1453 1512 "perms.ml" 62 1453 1513
+type(
+  int
+)
+"perms.ml" 62 1453 1493 "perms.ml" 62 1453 1514
+type(
+  int
+)
+"perms.ml" 62 1453 1477 "perms.ml" 62 1453 1515
+type(
+  string
+)
+"perms.ml" 62 1453 1463 "perms.ml" 62 1453 1515
+type(
+  int
+)
+"perms.ml" 63 1519 1521 "perms.ml" 63 1519 1523
+type(
+  int
+)
+ident(
+  int_ref id "perms.ml" 62 1453 1458 "perms.ml" 62 1453 1460
+)
+"perms.ml" 63 1519 1525 "perms.ml" 63 1519 1527
+type(
+  permty
+)
+ident(
+  int_ref ty "perms.ml" 61 1422 1427 "perms.ml" 61 1422 1429
+)
+"perms.ml" 63 1519 1520 "perms.ml" 63 1519 1528
+type(
+  int * permty
+)
+"perms.ml" 61 1422 1423 "perms.ml" 63 1519 1528
+type(
+  int * permty
+)
+"perms.ml" 65 1530 1534 "perms.ml" 65 1530 1544
+type(
+  string list -> t
+)
+ident(
+  def of_strings "perms.ml" 72 1718 1718 "perms.ml" 84 2081 2084
+)
+"perms.ml" 65 1530 1545 "perms.ml" 65 1530 1547
+type(
+  string list
+)
+ident(
+  def ls "perms.ml" 66 1550 1551 "perms.ml" 69 1648 1685
+)
+"perms.ml" 66 1550 1555 "perms.ml" 66 1550 1559
+type(
+  (int * permty) list
+)
+"perms.ml" 66 1550 1562 "perms.ml" 66 1550 1570
+type(
+  (string -> int * permty) -> string list -> (int * permty) list
+)
+ident(
+  ext_ref List.map
+)
+"perms.ml" 66 1550 1571 "perms.ml" 66 1550 1587
+type(
+  string -> int * permty
+)
+ident(
+  int_ref perm_of_string "perms.ml" 60 1399 1403 "perms.ml" 60 1399 1417
+)
+"perms.ml" 66 1550 1588 "perms.ml" 66 1550 1590
+type(
+  string list
+)
+ident(
+  int_ref ls "perms.ml" 65 1530 1545 "perms.ml" 65 1530 1547
+)
+"perms.ml" 66 1550 1562 "perms.ml" 66 1550 1590
+type(
+  (int * permty) list
+)
+"perms.ml" 67 1594 1601 "perms.ml" 67 1594 1605
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  int_ref vect "perms.ml" 66 1550 1555 "perms.ml" 66 1550 1559
+)
+"perms.ml" 68 1611 1614 "perms.ml" 68 1611 1616
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 68 1611 1620 "perms.ml" 68 1611 1631
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"perms.ml" 68 1611 1632 "perms.ml" 68 1611 1647
+type(
+  string
+)
+"perms.ml" 68 1611 1620 "perms.ml" 68 1611 1647
+type(
+  t
+)
+"perms.ml" 69 1648 1651 "perms.ml" 69 1648 1652
+type(
+  Xc.domid * permty
+)
+ident(
+  def h "perms.ml" 69 1648 1661 "perms.ml" 69 1648 1685
+)
+"perms.ml" 69 1648 1656 "perms.ml" 69 1648 1657
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  def l "perms.ml" 69 1648 1661 "perms.ml" 69 1648 1685
+)
+"perms.ml" 69 1648 1651 "perms.ml" 69 1648 1657
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 69 1648 1661 "perms.ml" 69 1648 1667
+type(
+  Xc.domid -> permty -> (Xc.domid * permty) list -> t
+)
+ident(
+  int_ref create "perms.ml" 51 1194 1198 "perms.ml" 51 1194 1204
+)
+"perms.ml" 69 1648 1669 "perms.ml" 69 1648 1672
+type(
+  Xc.domid * permty -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 69 1648 1673 "perms.ml" 69 1648 1674
+type(
+  Xc.domid * permty
+)
+ident(
+  int_ref h "perms.ml" 69 1648 1651 "perms.ml" 69 1648 1652
+)
+"perms.ml" 69 1648 1668 "perms.ml" 69 1648 1675
+type(
+  Xc.domid
+)
+"perms.ml" 69 1648 1677 "perms.ml" 69 1648 1680
+type(
+  Xc.domid * permty -> permty
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"perms.ml" 69 1648 1681 "perms.ml" 69 1648 1682
+type(
+  Xc.domid * permty
+)
+ident(
+  int_ref h "perms.ml" 69 1648 1651 "perms.ml" 69 1648 1652
+)
+"perms.ml" 69 1648 1676 "perms.ml" 69 1648 1683
+type(
+  permty
+)
+"perms.ml" 69 1648 1684 "perms.ml" 69 1648 1685
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  int_ref l "perms.ml" 69 1648 1656 "perms.ml" 69 1648 1657
+)
+"perms.ml" 69 1648 1661 "perms.ml" 69 1648 1685
+type(
+  t
+)
+"perms.ml" 67 1594 1595 "perms.ml" 69 1648 1685
+type(
+  t
+)
+"perms.ml" 66 1550 1551 "perms.ml" 69 1648 1685
+type(
+  t
+)
+"perms.ml" 72 1718 1722 "perms.ml" 72 1718 1731
+type(
+  string -> t
+)
+ident(
+  def of_string "perms.ml" 77 1857 1857 "perms.ml" 84 2081 2084
+)
+"perms.ml" 72 1718 1732 "perms.ml" 72 1718 1733
+type(
+  string
+)
+ident(
+  def s "perms.ml" 73 1736 1737 "perms.ml" 75 1841 1855
+)
+"perms.ml" 73 1736 1741 "perms.ml" 73 1736 1743
+type(
+  string list
+)
+"perms.ml" 73 1736 1746 "perms.ml" 73 1736 1758
+type(
+  ?limit:int -> char -> string -> string list
+)
+ident(
+  ext_ref Stdext.String.split
+)
+"perms.ml" 73 1736 1759 "perms.ml" 73 1736 1765
+type(
+  char
+)
+"perms.ml" 73 1736 1766 "perms.ml" 73 1736 1767
+type(
+  string
+)
+ident(
+  int_ref s "perms.ml" 72 1718 1732 "perms.ml" 72 1718 1733
+)
+"perms.ml" 73 1736 1746 "perms.ml" 73 1736 1767
+type(
+  string list
+)
+"perms.ml" 74 1771 1776 "perms.ml" 74 1771 1778
+type(
+  string list
+)
+"perms.ml" 74 1771 1784 "perms.ml" 74 1771 1786
+type(
+  string list
+)
+ident(
+  int_ref ls "perms.ml" 73 1736 1741 "perms.ml" 73 1736 1743
+)
+"perms.ml" 74 1771 1787 "perms.ml" 74 1771 1788
+type(
+  string list -> string list -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"perms.ml" 74 1771 1789 "perms.ml" 74 1771 1791
+type(
+  string list
+)
+"perms.ml" 74 1771 1784 "perms.ml" 74 1771 1791
+type(
+  bool
+)
+"perms.ml" 74 1771 1797 "perms.ml" 74 1771 1799
+type(
+  string list
+)
+ident(
+  int_ref ls "perms.ml" 73 1736 1741 "perms.ml" 73 1736 1743
+)
+"perms.ml" 74 1771 1805 "perms.ml" 74 1771 1813
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"perms.ml" 74 1771 1815 "perms.ml" 74 1771 1822
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.tl
+)
+"perms.ml" 74 1771 1824 "perms.ml" 74 1771 1832
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"perms.ml" 74 1771 1833 "perms.ml" 74 1771 1835
+type(
+  string list
+)
+ident(
+  int_ref ls "perms.ml" 73 1736 1741 "perms.ml" 73 1736 1743
+)
+"perms.ml" 74 1771 1823 "perms.ml" 74 1771 1836
+type(
+  string list
+)
+"perms.ml" 74 1771 1814 "perms.ml" 74 1771 1837
+type(
+  string list
+)
+"perms.ml" 74 1771 1805 "perms.ml" 74 1771 1837
+type(
+  string list
+)
+"perms.ml" 74 1771 1781 "perms.ml" 74 1771 1837
+type(
+  string list
+)
+"perms.ml" 75 1841 1842 "perms.ml" 75 1841 1852
+type(
+  string list -> t
+)
+ident(
+  int_ref of_strings "perms.ml" 65 1530 1534 "perms.ml" 65 1530 1544
+)
+"perms.ml" 75 1841 1853 "perms.ml" 75 1841 1855
+type(
+  string list
+)
+ident(
+  int_ref ls "perms.ml" 74 1771 1776 "perms.ml" 74 1771 1778
+)
+"perms.ml" 75 1841 1842 "perms.ml" 75 1841 1855
+type(
+  t
+)
+"perms.ml" 74 1771 1772 "perms.ml" 75 1841 1855
+type(
+  t
+)
+"perms.ml" 73 1736 1737 "perms.ml" 75 1841 1855
+type(
+  t
+)
+"perms.ml" 77 1857 1861 "perms.ml" 77 1857 1875
+type(
+  int * permty -> string
+)
+ident(
+  def string_of_perm "perms.ml" 80 1946 1946 "perms.ml" 84 2081 2084
+)
+"perms.ml" 77 1857 1876 "perms.ml" 77 1857 1880
+type(
+  int * permty
+)
+ident(
+  def perm "perms.ml" 78 1883 1884 "perms.ml" 78 1883 1944
+)
+"perms.ml" 78 1883 1884 "perms.ml" 78 1883 1898
+type(
+  (char -> int -> string, unit, string) format -> char -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"perms.ml" 78 1883 1899 "perms.ml" 78 1883 1905
+type(
+  (char -> int -> string, unit, string) format
+)
+"perms.ml" 78 1883 1907 "perms.ml" 78 1883 1921
+type(
+  permty -> char
+)
+ident(
+  int_ref char_of_permty "perms.ml" 24 818 822 "perms.ml" 24 818 836
+)
+"perms.ml" 78 1883 1923 "perms.ml" 78 1883 1926
+type(
+  int * permty -> permty
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"perms.ml" 78 1883 1927 "perms.ml" 78 1883 1931
+type(
+  int * permty
+)
+ident(
+  int_ref perm "perms.ml" 77 1857 1876 "perms.ml" 77 1857 1880
+)
+"perms.ml" 78 1883 1922 "perms.ml" 78 1883 1932
+type(
+  permty
+)
+"perms.ml" 78 1883 1906 "perms.ml" 78 1883 1933
+type(
+  char
+)
+"perms.ml" 78 1883 1935 "perms.ml" 78 1883 1938
+type(
+  int * permty -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 78 1883 1939 "perms.ml" 78 1883 1943
+type(
+  int * permty
+)
+ident(
+  int_ref perm "perms.ml" 77 1857 1876 "perms.ml" 77 1857 1880
+)
+"perms.ml" 78 1883 1934 "perms.ml" 78 1883 1944
+type(
+  int
+)
+"perms.ml" 78 1883 1884 "perms.ml" 78 1883 1944
+type(
+  string
+)
+"perms.ml" 80 1946 1950 "perms.ml" 80 1946 1959
+type(
+  t -> string
+)
+ident(
+  def to_string "perms.ml" 82 2030 2079 "perms.ml" 84 2081 2084
+)
+"perms.ml" 80 1946 1960 "perms.ml" 80 1946 1967
+type(
+  t
+)
+ident(
+  def permvec "perms.ml" 81 1970 1971 "perms.ml" 82 2030 2079
+)
+"perms.ml" 81 1970 1975 "perms.ml" 81 1970 1976
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 81 1970 1981 "perms.ml" 81 1970 1988
+type(
+  t
+)
+ident(
+  int_ref permvec "perms.ml" 80 1946 1960 "perms.ml" 80 1946 1967
+)
+"perms.ml" 81 1970 1981 "perms.ml" 81 1970 1994
+type(
+  Xc.domid
+)
+"perms.ml" 81 1970 1996 "perms.ml" 81 1970 2003
+type(
+  t
+)
+ident(
+  int_ref permvec "perms.ml" 80 1946 1960 "perms.ml" 80 1946 1967
+)
+"perms.ml" 81 1970 1996 "perms.ml" 81 1970 2009
+type(
+  permty
+)
+"perms.ml" 81 1970 1980 "perms.ml" 81 1970 2010
+type(
+  Xc.domid * permty
+)
+"perms.ml" 81 1970 2014 "perms.ml" 81 1970 2021
+type(
+  t
+)
+ident(
+  int_ref permvec "perms.ml" 80 1946 1960 "perms.ml" 80 1946 1967
+)
+"perms.ml" 81 1970 2014 "perms.ml" 81 1970 2025
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 81 1970 1979 "perms.ml" 81 1970 2026
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 82 2030 2031 "perms.ml" 82 2030 2044
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref Stdext.String.concat
+)
+"perms.ml" 82 2030 2045 "perms.ml" 82 2030 2051
+type(
+  string
+)
+"perms.ml" 82 2030 2053 "perms.ml" 82 2030 2061
+type(
+  (Xc.domid * permty -> string) -> (Xc.domid * permty) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"perms.ml" 82 2030 2062 "perms.ml" 82 2030 2076
+type(
+  Xc.domid * permty -> string
+)
+ident(
+  int_ref string_of_perm "perms.ml" 77 1857 1861 "perms.ml" 77 1857 1875
+)
+"perms.ml" 82 2030 2077 "perms.ml" 82 2030 2078
+type(
+  (Xc.domid * permty) list
+)
+ident(
+  int_ref l "perms.ml" 81 1970 1975 "perms.ml" 81 1970 1976
+)
+"perms.ml" 82 2030 2052 "perms.ml" 82 2030 2079
+type(
+  string list
+)
+"perms.ml" 82 2030 2031 "perms.ml" 82 2030 2079
+type(
+  string
+)
+"perms.ml" 81 1970 1971 "perms.ml" 82 2030 2079
+type(
+  string
+)
+"perms.ml" 96 2232 2236 "perms.ml" 96 2232 2247
+type(
+  t
+)
+ident(
+  def full_rights "perms.ml" 100 2302 2302 "perms.ml" 130 3321 3324
+)
+"perms.ml" 97 2254 2264 "perms.ml" 97 2254 2265
+type(
+  Xc.domid
+)
+"perms.ml" 97 2254 2268 "perms.ml" 97 2254 2272
+type(
+  permty
+)
+"perms.ml" 97 2254 2274 "perms.ml" 97 2254 2279
+type(
+  permty
+)
+"perms.ml" 97 2254 2267 "perms.ml" 97 2254 2280
+type(
+  permty list
+)
+"perms.ml" 97 2254 2264 "perms.ml" 97 2254 2280
+type(
+  elt
+)
+"perms.ml" 98 2282 2294 "perms.ml" 98 2282 2298
+type(
+  elt option
+)
+"perms.ml" 97 2254 2255 "perms.ml" 98 2282 2300
+type(
+  t
+)
+type(
+  t
+)
+"perms.ml" 100 2302 2306 "perms.ml" 100 2302 2312
+type(
+  ?perms:permty list -> Xc.domid -> t
+)
+ident(
+  def create "perms.ml" 104 2387 2387 "perms.ml" 130 3321 3324
+)
+"perms.ml" 100 2302 2315 "perms.ml" 100 2302 2320
+type(
+  permty list
+)
+"perms.ml" 100 2302 2322 "perms.ml" 100 2302 2326
+type(
+  permty
+)
+"perms.ml" 100 2302 2321 "perms.ml" 100 2302 2327
+type(
+  permty list
+)
+type(
+  permty list
+)
+type(
+  permty list
+)
+ident(
+  int_ref *sth* "perms.ml" 100 2302 2321 "perms.ml" 100 2302 2327
+)
+type(
+  permty list option
+)
+type(
+  permty list option
+)
+type(
+  permty list
+)
+ident(
+  def *sth* "perms.ml" 100 2302 2321 "perms.ml" 100 2302 2327
+)
+type(
+  permty list option
+)
+ident(
+  int_ref *opt* "perms.ml" 100 2302 2321 "perms.ml" 100 2302 2327
+)
+type(
+  permty list option
+)
+ident(
+  def *opt* "perms.ml" 100 2302 2313 "perms.ml" 102 2367 2385
+)
+"perms.ml" 100 2302 2329 "perms.ml" 100 2302 2334
+type(
+  Xc.domid
+)
+ident(
+  def domid "perms.ml" 100 2302 2335 "perms.ml" 102 2367 2385
+)
+"perms.ml" 101 2341 2352 "perms.ml" 101 2341 2357
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "perms.ml" 100 2302 2329 "perms.ml" 100 2302 2334
+)
+"perms.ml" 101 2341 2359 "perms.ml" 101 2341 2364
+type(
+  permty list
+)
+ident(
+  int_ref perms "perms.ml" 100 2302 2315 "perms.ml" 100 2302 2320
+)
+"perms.ml" 101 2341 2351 "perms.ml" 101 2341 2365
+type(
+  elt
+)
+"perms.ml" 102 2367 2379 "perms.ml" 102 2367 2383
+type(
+  elt option
+)
+"perms.ml" 101 2341 2342 "perms.ml" 102 2367 2385
+type(
+  t
+)
+type(
+  t
+)
+"perms.ml" 104 2387 2391 "perms.ml" 104 2387 2401
+type(
+  t -> ?perms:permty list -> Xc.domid -> t
+)
+ident(
+  def set_target "perms.ml" 107 2492 2492 "perms.ml" 130 3321 3324
+)
+"perms.ml" 104 2387 2403 "perms.ml" 104 2387 2413
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 104 2387 2417 "perms.ml" 105 2441 2490
+)
+"perms.ml" 104 2387 2419 "perms.ml" 104 2387 2424
+type(
+  permty list
+)
+"perms.ml" 104 2387 2426 "perms.ml" 104 2387 2430
+type(
+  permty
+)
+"perms.ml" 104 2387 2425 "perms.ml" 104 2387 2431
+type(
+  permty list
+)
+type(
+  permty list
+)
+type(
+  permty list
+)
+ident(
+  int_ref *sth* "perms.ml" 104 2387 2425 "perms.ml" 104 2387 2431
+)
+type(
+  permty list option
+)
+type(
+  permty list option
+)
+type(
+  permty list
+)
+ident(
+  def *sth* "perms.ml" 104 2387 2425 "perms.ml" 104 2387 2431
+)
+type(
+  permty list option
+)
+ident(
+  int_ref *opt* "perms.ml" 104 2387 2425 "perms.ml" 104 2387 2431
+)
+type(
+  permty list option
+)
+ident(
+  def *opt* "perms.ml" 104 2387 2417 "perms.ml" 105 2441 2490
+)
+"perms.ml" 104 2387 2433 "perms.ml" 104 2387 2438
+type(
+  Xc.domid
+)
+ident(
+  def domid "perms.ml" 105 2441 2442 "perms.ml" 105 2441 2490
+)
+"perms.ml" 105 2441 2444 "perms.ml" 105 2441 2454
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 104 2387 2403 "perms.ml" 104 2387 2413
+)
+"perms.ml" 105 2441 2475 "perms.ml" 105 2441 2480
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "perms.ml" 104 2387 2433 "perms.ml" 104 2387 2438
+)
+"perms.ml" 105 2441 2482 "perms.ml" 105 2441 2487
+type(
+  permty list
+)
+ident(
+  int_ref perms "perms.ml" 104 2387 2419 "perms.ml" 104 2387 2424
+)
+"perms.ml" 105 2441 2474 "perms.ml" 105 2441 2488
+type(
+  elt
+)
+"perms.ml" 105 2441 2469 "perms.ml" 105 2441 2488
+type(
+  elt option
+)
+"perms.ml" 105 2441 2442 "perms.ml" 105 2441 2490
+type(
+  t
+)
+"perms.ml" 107 2492 2496 "perms.ml" 107 2492 2506
+type(
+  t -> Xc.domid list
+)
+ident(
+  def get_owners "perms.ml" 112 2638 2638 "perms.ml" 130 3321 3324
+)
+"perms.ml" 107 2492 2508 "perms.ml" 107 2492 2518
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 108 2524 2525 "perms.ml" 110 2608 2636
+)
+"perms.ml" 108 2524 2531 "perms.ml" 108 2524 2541
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 107 2492 2508 "perms.ml" 107 2492 2518
+)
+"perms.ml" 108 2524 2531 "perms.ml" 108 2524 2546
+type(
+  elt
+)
+"perms.ml" 108 2524 2548 "perms.ml" 108 2524 2558
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 107 2492 2508 "perms.ml" 107 2492 2518
+)
+"perms.ml" 108 2524 2548 "perms.ml" 108 2524 2565
+type(
+  elt option
+)
+"perms.ml" 108 2524 2531 "perms.ml" 108 2524 2565
+type(
+  elt * elt option
+)
+"perms.ml" 109 2571 2574 "perms.ml" 109 2571 2576
+type(
+  elt
+)
+ident(
+  def c1 "perms.ml" 109 2571 2589 "perms.ml" 109 2571 2607
+)
+"perms.ml" 109 2571 2583 "perms.ml" 109 2571 2585
+type(
+  elt
+)
+ident(
+  def c2 "perms.ml" 109 2571 2589 "perms.ml" 109 2571 2607
+)
+"perms.ml" 109 2571 2578 "perms.ml" 109 2571 2585
+type(
+  elt option
+)
+"perms.ml" 109 2571 2574 "perms.ml" 109 2571 2585
+type(
+  elt * elt option
+)
+"perms.ml" 109 2571 2591 "perms.ml" 109 2571 2594
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 109 2571 2595 "perms.ml" 109 2571 2597
+type(
+  elt
+)
+ident(
+  int_ref c1 "perms.ml" 109 2571 2574 "perms.ml" 109 2571 2576
+)
+"perms.ml" 109 2571 2591 "perms.ml" 109 2571 2597
+type(
+  Xc.domid
+)
+"perms.ml" 109 2571 2599 "perms.ml" 109 2571 2602
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 109 2571 2603 "perms.ml" 109 2571 2605
+type(
+  elt
+)
+ident(
+  int_ref c2 "perms.ml" 109 2571 2583 "perms.ml" 109 2571 2585
+)
+"perms.ml" 109 2571 2599 "perms.ml" 109 2571 2605
+type(
+  Xc.domid
+)
+"perms.ml" 109 2571 2589 "perms.ml" 109 2571 2607
+type(
+  Xc.domid list
+)
+"perms.ml" 110 2608 2611 "perms.ml" 110 2608 2613
+type(
+  elt
+)
+ident(
+  def c1 "perms.ml" 110 2608 2626 "perms.ml" 110 2608 2636
+)
+"perms.ml" 110 2608 2615 "perms.ml" 110 2608 2619
+type(
+  elt option
+)
+"perms.ml" 110 2608 2611 "perms.ml" 110 2608 2619
+type(
+  elt * elt option
+)
+"perms.ml" 110 2608 2628 "perms.ml" 110 2608 2631
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 110 2608 2632 "perms.ml" 110 2608 2634
+type(
+  elt
+)
+ident(
+  int_ref c1 "perms.ml" 110 2608 2611 "perms.ml" 110 2608 2613
+)
+"perms.ml" 110 2608 2628 "perms.ml" 110 2608 2634
+type(
+  Xc.domid
+)
+"perms.ml" 110 2608 2626 "perms.ml" 110 2608 2636
+type(
+  Xc.domid list
+)
+"perms.ml" 108 2524 2525 "perms.ml" 110 2608 2636
+type(
+  Xc.domid list
+)
+"perms.ml" 112 2638 2642 "perms.ml" 112 2638 2650
+type(
+  t -> Xc.domid -> bool
+)
+ident(
+  def is_owner "perms.ml" 117 2807 2807 "perms.ml" 130 3321 3324
+)
+"perms.ml" 112 2638 2652 "perms.ml" 112 2638 2662
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 112 2638 2666 "perms.ml" 115 2763 2805
+)
+"perms.ml" 112 2638 2666 "perms.ml" 112 2638 2668
+type(
+  Xc.domid
+)
+ident(
+  def id "perms.ml" 113 2671 2672 "perms.ml" 115 2763 2805
+)
+"perms.ml" 113 2671 2678 "perms.ml" 113 2671 2688
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 112 2638 2652 "perms.ml" 112 2638 2662
+)
+"perms.ml" 113 2671 2678 "perms.ml" 113 2671 2695
+type(
+  elt option
+)
+"perms.ml" 114 2701 2709 "perms.ml" 114 2701 2715
+type(
+  elt
+)
+ident(
+  def target "perms.ml" 114 2701 2719 "perms.ml" 114 2701 2762
+)
+"perms.ml" 114 2701 2704 "perms.ml" 114 2701 2715
+type(
+  elt option
+)
+"perms.ml" 114 2701 2719 "perms.ml" 114 2701 2722
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 114 2701 2723 "perms.ml" 114 2701 2733
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 112 2638 2652 "perms.ml" 112 2638 2662
+)
+"perms.ml" 114 2701 2723 "perms.ml" 114 2701 2738
+type(
+  elt
+)
+"perms.ml" 114 2701 2719 "perms.ml" 114 2701 2738
+type(
+  Xc.domid
+)
+"perms.ml" 114 2701 2739 "perms.ml" 114 2701 2740
+type(
+  Xc.domid -> Xc.domid -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"perms.ml" 114 2701 2741 "perms.ml" 114 2701 2743
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "perms.ml" 112 2638 2666 "perms.ml" 112 2638 2668
+)
+"perms.ml" 114 2701 2719 "perms.ml" 114 2701 2743
+type(
+  bool
+)
+"perms.ml" 114 2701 2744 "perms.ml" 114 2701 2746
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"perms.ml" 114 2701 2747 "perms.ml" 114 2701 2750
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 114 2701 2751 "perms.ml" 114 2701 2757
+type(
+  elt
+)
+ident(
+  int_ref target "perms.ml" 114 2701 2709 "perms.ml" 114 2701 2715
+)
+"perms.ml" 114 2701 2747 "perms.ml" 114 2701 2757
+type(
+  Xc.domid
+)
+"perms.ml" 114 2701 2758 "perms.ml" 114 2701 2759
+type(
+  Xc.domid -> Xc.domid -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"perms.ml" 114 2701 2760 "perms.ml" 114 2701 2762
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "perms.ml" 112 2638 2666 "perms.ml" 112 2638 2668
+)
+"perms.ml" 114 2701 2747 "perms.ml" 114 2701 2762
+type(
+  bool
+)
+"perms.ml" 114 2701 2719 "perms.ml" 114 2701 2762
+type(
+  bool
+)
+"perms.ml" 115 2763 2766 "perms.ml" 115 2763 2770
+type(
+  elt option
+)
+"perms.ml" 115 2763 2781 "perms.ml" 115 2763 2784
+type(
+  elt -> Xc.domid
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"perms.ml" 115 2763 2785 "perms.ml" 115 2763 2795
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 112 2638 2652 "perms.ml" 112 2638 2662
+)
+"perms.ml" 115 2763 2785 "perms.ml" 115 2763 2800
+type(
+  elt
+)
+"perms.ml" 115 2763 2781 "perms.ml" 115 2763 2800
+type(
+  Xc.domid
+)
+"perms.ml" 115 2763 2801 "perms.ml" 115 2763 2802
+type(
+  Xc.domid -> Xc.domid -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"perms.ml" 115 2763 2803 "perms.ml" 115 2763 2805
+type(
+  Xc.domid
+)
+ident(
+  int_ref id "perms.ml" 112 2638 2666 "perms.ml" 112 2638 2668
+)
+"perms.ml" 115 2763 2781 "perms.ml" 115 2763 2805
+type(
+  bool
+)
+"perms.ml" 113 2671 2672 "perms.ml" 115 2763 2805
+type(
+  bool
+)
+"perms.ml" 117 2807 2811 "perms.ml" 117 2807 2818
+type(
+  t -> bool
+)
+ident(
+  def is_dom0 "perms.ml" 120 2860 2860 "perms.ml" 130 3321 3324
+)
+"perms.ml" 117 2807 2820 "perms.ml" 117 2807 2830
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 118 2836 2837 "perms.ml" 118 2836 2858
+)
+"perms.ml" 118 2836 2837 "perms.ml" 118 2836 2845
+type(
+  t -> Xc.domid -> bool
+)
+ident(
+  int_ref is_owner "perms.ml" 112 2638 2642 "perms.ml" 112 2638 2650
+)
+"perms.ml" 118 2836 2846 "perms.ml" 118 2836 2856
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 117 2807 2820 "perms.ml" 117 2807 2830
+)
+"perms.ml" 118 2836 2857 "perms.ml" 118 2836 2858
+type(
+  Xc.domid
+)
+"perms.ml" 118 2836 2837 "perms.ml" 118 2836 2858
+type(
+  bool
+)
+"perms.ml" 120 2860 2864 "perms.ml" 120 2860 2872
+type(
+  t -> Xc.domid -> t
+)
+ident(
+  def restrict "perms.ml" 125 3063 3063 "perms.ml" 130 3321 3324
+)
+"perms.ml" 120 2860 2874 "perms.ml" 120 2860 2884
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 120 2860 2888 "perms.ml" 123 3008 3061
+)
+"perms.ml" 120 2860 2888 "perms.ml" 120 2860 2893
+type(
+  Xc.domid
+)
+ident(
+  def domid "perms.ml" 121 2896 2897 "perms.ml" 123 3008 3061
+)
+"perms.ml" 121 2896 2903 "perms.ml" 121 2896 2913
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 120 2860 2874 "perms.ml" 120 2860 2884
+)
+"perms.ml" 121 2896 2903 "perms.ml" 121 2896 2920
+type(
+  elt option
+)
+"perms.ml" 121 2896 2922 "perms.ml" 121 2896 2932
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 120 2860 2874 "perms.ml" 120 2860 2884
+)
+"perms.ml" 121 2896 2922 "perms.ml" 121 2896 2937
+type(
+  elt
+)
+"perms.ml" 121 2896 2903 "perms.ml" 121 2896 2937
+type(
+  elt option * elt
+)
+"perms.ml" 122 2943 2946 "perms.ml" 122 2943 2950
+type(
+  elt option
+)
+"perms.ml" 122 2943 2953 "perms.ml" 122 2943 2954
+type(
+  Xc.domid
+)
+"perms.ml" 122 2943 2956 "perms.ml" 122 2943 2961
+type(
+  permty list
+)
+ident(
+  def perms "perms.ml" 122 2943 2966 "perms.ml" 122 2943 3007
+)
+"perms.ml" 122 2943 2952 "perms.ml" 122 2943 2962
+type(
+  elt
+)
+"perms.ml" 122 2943 2946 "perms.ml" 122 2943 2962
+type(
+  elt option * elt
+)
+"perms.ml" 122 2943 2968 "perms.ml" 122 2943 2978
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 120 2860 2874 "perms.ml" 120 2860 2884
+)
+"perms.ml" 122 2943 2992 "perms.ml" 122 2943 2997
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "perms.ml" 120 2860 2888 "perms.ml" 120 2860 2893
+)
+"perms.ml" 122 2943 2999 "perms.ml" 122 2943 3004
+type(
+  permty list
+)
+ident(
+  int_ref perms "perms.ml" 122 2943 2956 "perms.ml" 122 2943 2961
+)
+"perms.ml" 122 2943 2991 "perms.ml" 122 2943 3005
+type(
+  elt
+)
+"perms.ml" 122 2943 2966 "perms.ml" 122 2943 3007
+type(
+  t
+)
+"perms.ml" 123 3008 3011 "perms.ml" 123 3008 3012
+type(
+  elt option * elt
+)
+"perms.ml" 123 3008 3031 "perms.ml" 123 3008 3036
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"perms.ml" 123 3008 3037 "perms.ml" 123 3008 3061
+type(
+  exn
+)
+"perms.ml" 123 3008 3031 "perms.ml" 123 3008 3061
+type(
+  t
+)
+"perms.ml" 121 2896 2897 "perms.ml" 123 3008 3061
+type(
+  t
+)
+"perms.ml" 125 3063 3067 "perms.ml" 125 3063 3080
+type(
+  int * permty list -> string
+)
+ident(
+  def elt_to_string "perms.ml" 128 3188 3188 "perms.ml" 130 3321 3324
+)
+"perms.ml" 125 3063 3082 "perms.ml" 125 3063 3083
+type(
+  int
+)
+ident(
+  def i "perms.ml" 126 3089 3090 "perms.ml" 126 3089 3186
+)
+"perms.ml" 125 3063 3084 "perms.ml" 125 3063 3085
+type(
+  permty list
+)
+ident(
+  def p "perms.ml" 126 3089 3090 "perms.ml" 126 3089 3186
+)
+"perms.ml" 125 3063 3081 "perms.ml" 125 3063 3086
+type(
+  int * permty list
+)
+"perms.ml" 126 3089 3090 "perms.ml" 126 3089 3104
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"perms.ml" 126 3089 3105 "perms.ml" 126 3089 3111
+type(
+  (int -> string -> string, unit, string) format
+)
+"perms.ml" 126 3089 3112 "perms.ml" 126 3089 3113
+type(
+  int
+)
+ident(
+  int_ref i "perms.ml" 125 3063 3082 "perms.ml" 125 3063 3083
+)
+"perms.ml" 126 3089 3115 "perms.ml" 126 3089 3128
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref Stdext.String.concat
+)
+"perms.ml" 126 3089 3129 "perms.ml" 126 3089 3131
+type(
+  string
+)
+"perms.ml" 126 3089 3133 "perms.ml" 126 3089 3141
+type(
+  (char -> string) -> char list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"perms.ml" 126 3089 3142 "perms.ml" 126 3089 3156
+type(
+  char -> string
+)
+ident(
+  ext_ref Stdext.String.of_char
+)
+"perms.ml" 126 3089 3158 "perms.ml" 126 3089 3166
+type(
+  (permty -> char) -> permty list -> char list
+)
+ident(
+  ext_ref List.map
+)
+"perms.ml" 126 3089 3167 "perms.ml" 126 3089 3181
+type(
+  permty -> char
+)
+ident(
+  int_ref char_of_permty "perms.ml" 24 818 822 "perms.ml" 24 818 836
+)
+"perms.ml" 126 3089 3182 "perms.ml" 126 3089 3183
+type(
+  permty list
+)
+ident(
+  int_ref p "perms.ml" 125 3063 3084 "perms.ml" 125 3063 3085
+)
+"perms.ml" 126 3089 3157 "perms.ml" 126 3089 3184
+type(
+  char list
+)
+"perms.ml" 126 3089 3132 "perms.ml" 126 3089 3185
+type(
+  string list
+)
+"perms.ml" 126 3089 3114 "perms.ml" 126 3089 3186
+type(
+  string
+)
+"perms.ml" 126 3089 3090 "perms.ml" 126 3089 3186
+type(
+  string
+)
+"perms.ml" 128 3188 3192 "perms.ml" 128 3188 3201
+type(
+  t -> string
+)
+ident(
+  def to_string "perms.ml" 129 3215 3320 "perms.ml" 130 3321 3324
+)
+"perms.ml" 128 3188 3202 "perms.ml" 128 3188 3212
+type(
+  t
+)
+ident(
+  def connection "perms.ml" 129 3215 3216 "perms.ml" 129 3215 3320
+)
+"perms.ml" 129 3215 3216 "perms.ml" 129 3215 3230
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"perms.ml" 129 3215 3231 "perms.ml" 129 3215 3237
+type(
+  (string -> string -> string, unit, string) format
+)
+"perms.ml" 129 3215 3239 "perms.ml" 129 3215 3252
+type(
+  elt -> string
+)
+ident(
+  int_ref elt_to_string "perms.ml" 125 3063 3067 "perms.ml" 125 3063 3080
+)
+"perms.ml" 129 3215 3253 "perms.ml" 129 3215 3263
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 128 3188 3202 "perms.ml" 128 3188 3212
+)
+"perms.ml" 129 3215 3253 "perms.ml" 129 3215 3268
+type(
+  elt
+)
+"perms.ml" 129 3215 3238 "perms.ml" 129 3215 3269
+type(
+  string
+)
+"perms.ml" 129 3215 3271 "perms.ml" 129 3215 3278
+type(
+  string -> string option -> string
+)
+ident(
+  ext_ref Stdext.default
+)
+"perms.ml" 129 3215 3279 "perms.ml" 129 3215 3281
+type(
+  string
+)
+"perms.ml" 129 3215 3283 "perms.ml" 129 3215 3286
+type(
+  (elt -> string) -> elt option -> string option
+)
+ident(
+  ext_ref Stdext.may
+)
+"perms.ml" 129 3215 3287 "perms.ml" 129 3215 3300
+type(
+  elt -> string
+)
+ident(
+  int_ref elt_to_string "perms.ml" 125 3063 3067 "perms.ml" 125 3063 3080
+)
+"perms.ml" 129 3215 3301 "perms.ml" 129 3215 3311
+type(
+  t
+)
+ident(
+  int_ref connection "perms.ml" 128 3188 3202 "perms.ml" 128 3188 3212
+)
+"perms.ml" 129 3215 3301 "perms.ml" 129 3215 3318
+type(
+  elt option
+)
+"perms.ml" 129 3215 3282 "perms.ml" 129 3215 3319
+type(
+  string option
+)
+"perms.ml" 129 3215 3270 "perms.ml" 129 3215 3320
+type(
+  string
+)
+"perms.ml" 129 3215 3216 "perms.ml" 129 3215 3320
+type(
+  string
+)
+"perms.ml" 133 3410 3414 "perms.ml" 133 3410 3425
+type(
+  Connection.t -> Node.t -> bool
+)
+ident(
+  def check_owner "perms.ml" 139 3673 3673 --
+)
+"perms.ml" 133 3410 3427 "perms.ml" 133 3410 3437
+type(
+  Connection.t
+)
+ident(
+  def connection "perms.ml" 133 3410 3452 "perms.ml" 136 3580 3590
+)
+"perms.ml" 133 3410 3453 "perms.ml" 133 3410 3457
+type(
+  Node.t
+)
+ident(
+  def node "perms.ml" 134 3468 3469 "perms.ml" 136 3580 3590
+)
+"perms.ml" 134 3468 3472 "perms.ml" 134 3468 3473
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"perms.ml" 134 3468 3473 "perms.ml" 134 3468 3481
+type(
+  bool ref
+)
+ident(
+  int_ref activate "perms.ml" 20 751 755 "perms.ml" 20 751 763
+)
+"perms.ml" 134 3468 3472 "perms.ml" 134 3468 3481
+type(
+  bool
+)
+"perms.ml" 134 3468 3482 "perms.ml" 134 3468 3484
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"perms.ml" 134 3468 3485 "perms.ml" 134 3468 3488
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"perms.ml" 134 3468 3490 "perms.ml" 134 3468 3508
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"perms.ml" 134 3468 3509 "perms.ml" 134 3468 3519
+type(
+  Connection.t
+)
+ident(
+  int_ref connection "perms.ml" 133 3410 3427 "perms.ml" 133 3410 3437
+)
+"perms.ml" 134 3468 3489 "perms.ml" 134 3468 3520
+type(
+  bool
+)
+"perms.ml" 134 3468 3485 "perms.ml" 134 3468 3520
+type(
+  bool
+)
+"perms.ml" 134 3468 3472 "perms.ml" 134 3468 3520
+type(
+  bool
+)
+"perms.ml" 135 3521 3527 "perms.ml" 135 3521 3546
+type(
+  Connection.t -> Xc.domid -> bool
+)
+ident(
+  ext_ref Connection.is_owner
+)
+"perms.ml" 135 3521 3547 "perms.ml" 135 3521 3557
+type(
+  Connection.t
+)
+ident(
+  int_ref connection "perms.ml" 133 3410 3427 "perms.ml" 133 3410 3437
+)
+"perms.ml" 135 3521 3559 "perms.ml" 135 3521 3573
+type(
+  Node.t -> Xc.domid
+)
+ident(
+  ext_ref Node.get_owner
+)
+"perms.ml" 135 3521 3574 "perms.ml" 135 3521 3578
+type(
+  Node.t
+)
+ident(
+  int_ref node "perms.ml" 133 3410 3453 "perms.ml" 133 3410 3457
+)
+"perms.ml" 135 3521 3558 "perms.ml" 135 3521 3579
+type(
+  Xc.domid
+)
+"perms.ml" 135 3521 3527 "perms.ml" 135 3521 3579
+type(
+  bool
+)
+"perms.ml" 136 3580 3586 "perms.ml" 136 3580 3590
+type(
+  bool
+)
+"perms.ml" 134 3468 3469 "perms.ml" 136 3580 3590
+type(
+  bool
+)
+"perms.ml" 139 3673 3677 "perms.ml" 139 3673 3682
+type(
+  Connection.t -> permty -> Node.t -> unit
+)
+ident(
+  def check "perms.ml" 166 4510 4510 --
+)
+"perms.ml" 139 3673 3684 "perms.ml" 139 3673 3694
+type(
+  Connection.t
+)
+ident(
+  def connection "perms.ml" 139 3673 3709 "perms.ml" 164 4472 4508
+)
+"perms.ml" 139 3673 3709 "perms.ml" 139 3673 3716
+type(
+  permty
+)
+ident(
+  def request "perms.ml" 139 3673 3717 "perms.ml" 164 4472 4508
+)
+"perms.ml" 139 3673 3718 "perms.ml" 139 3673 3722
+type(
+  Node.t
+)
+ident(
+  def node "perms.ml" 140 3733 3734 "perms.ml" 164 4472 4508
+)
+"perms.ml" 140 3733 3738 "perms.ml" 140 3733 3747
+type(
+  Xc.domid -> bool
+)
+"perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+type(
+  Xc.domid
+)
+ident(
+  def domainid "perms.ml" 141 3759 3761 "perms.ml" 158 4300 4308
+)
+"perms.ml" 141 3759 3765 "perms.ml" 141 3759 3769
+type(
+  permty
+)
+"perms.ml" 142 3772 3778 "perms.ml" 142 3772 3792
+type(
+  Xc.domid -> (Xc.domid * permty) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"perms.ml" 142 3772 3793 "perms.ml" 142 3772 3801
+type(
+  Xc.domid
+)
+ident(
+  int_ref domainid "perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+)
+"perms.ml" 142 3772 3803 "perms.ml" 142 3772 3815
+type(
+  Node.t -> (Xc.domid * permty) list
+)
+ident(
+  ext_ref Node.get_acl
+)
+"perms.ml" 142 3772 3816 "perms.ml" 142 3772 3820
+type(
+  Node.t
+)
+ident(
+  int_ref node "perms.ml" 139 3673 3718 "perms.ml" 139 3673 3722
+)
+"perms.ml" 142 3772 3802 "perms.ml" 142 3772 3821
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 142 3772 3778 "perms.ml" 142 3772 3821
+type(
+  bool
+)
+"perms.ml" 143 3822 3830 "perms.ml" 143 3822 3840
+type(
+  Xc.domid -> (Xc.domid * permty) list -> permty
+)
+ident(
+  ext_ref List.assoc
+)
+"perms.ml" 143 3822 3841 "perms.ml" 143 3822 3849
+type(
+  Xc.domid
+)
+ident(
+  int_ref domainid "perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+)
+"perms.ml" 143 3822 3851 "perms.ml" 143 3822 3863
+type(
+  Node.t -> (Xc.domid * permty) list
+)
+ident(
+  ext_ref Node.get_acl
+)
+"perms.ml" 143 3822 3864 "perms.ml" 143 3822 3868
+type(
+  Node.t
+)
+ident(
+  int_ref node "perms.ml" 139 3673 3718 "perms.ml" 139 3673 3722
+)
+"perms.ml" 143 3822 3850 "perms.ml" 143 3822 3869
+type(
+  (Xc.domid * permty) list
+)
+"perms.ml" 143 3822 3830 "perms.ml" 143 3822 3869
+type(
+  permty
+)
+"perms.ml" 144 3870 3878 "perms.ml" 144 3870 3892
+type(
+  Node.t -> permty
+)
+ident(
+  ext_ref Node.get_other
+)
+"perms.ml" 144 3870 3893 "perms.ml" 144 3870 3897
+type(
+  Node.t
+)
+ident(
+  int_ref node "perms.ml" 139 3673 3718 "perms.ml" 139 3673 3722
+)
+"perms.ml" 144 3870 3878 "perms.ml" 144 3870 3897
+type(
+  permty
+)
+"perms.ml" 142 3772 3775 "perms.ml" 144 3870 3897
+type(
+  permty
+)
+"perms.ml" 146 3903 3911 "perms.ml" 146 3903 3915
+type(
+  permty
+)
+ident(
+  int_ref perm "perms.ml" 141 3759 3765 "perms.ml" 141 3759 3769
+)
+"perms.ml" 146 3903 3917 "perms.ml" 146 3903 3924
+type(
+  permty
+)
+ident(
+  int_ref request "perms.ml" 139 3673 3709 "perms.ml" 139 3673 3716
+)
+"perms.ml" 146 3903 3911 "perms.ml" 146 3903 3924
+type(
+  permty * permty
+)
+"perms.ml" 147 3930 3934 "perms.ml" 147 3930 3938
+type(
+  permty
+)
+"perms.ml" 147 3930 3940 "perms.ml" 147 3930 3941
+type(
+  permty
+)
+"perms.ml" 147 3930 3934 "perms.ml" 147 3930 3941
+type(
+  permty * permty
+)
+"perms.ml" 148 3945 3948 "perms.ml" 148 3945 3957
+type(
+  string ->
+  ?extra:string ->
+  (Xc.domid -> unit, unit, string, unit) format4 -> Xc.domid -> unit
+)
+ident(
+  ext_ref Logs.info
+)
+"perms.ml" 148 3945 3958 "perms.ml" 148 3945 3962
+type(
+  string
+)
+"perms.ml" 148 3945 3963 "perms.ml" 148 3945 4011
+type(
+  (Xc.domid -> unit, unit, string, unit) format4
+)
+"perms.ml" 148 3945 4012 "perms.ml" 148 3945 4020
+type(
+  Xc.domid
+)
+ident(
+  int_ref domainid "perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+)
+"perms.ml" 148 3945 3948 "perms.ml" 148 3945 4020
+type(
+  unit
+)
+"perms.ml" 149 4022 4025 "perms.ml" 149 4022 4030
+type(
+  bool
+)
+"perms.ml" 148 3945 3948 "perms.ml" 149 4022 4030
+type(
+  bool
+)
+"perms.ml" 150 4031 4035 "perms.ml" 150 4031 4039
+type(
+  permty
+)
+"perms.ml" 150 4031 4041 "perms.ml" 150 4031 4042
+type(
+  permty
+)
+"perms.ml" 150 4031 4035 "perms.ml" 150 4031 4042
+type(
+  permty * permty
+)
+"perms.ml" 150 4031 4046 "perms.ml" 150 4031 4050
+type(
+  bool
+)
+"perms.ml" 151 4051 4055 "perms.ml" 151 4051 4059
+type(
+  permty
+)
+"perms.ml" 151 4051 4061 "perms.ml" 151 4051 4065
+type(
+  permty
+)
+"perms.ml" 151 4051 4055 "perms.ml" 151 4051 4065
+type(
+  permty * permty
+)
+"perms.ml" 151 4051 4069 "perms.ml" 151 4051 4073
+type(
+  bool
+)
+"perms.ml" 152 4074 4078 "perms.ml" 152 4074 4083
+type(
+  permty
+)
+"perms.ml" 152 4074 4085 "perms.ml" 152 4074 4090
+type(
+  permty
+)
+"perms.ml" 152 4074 4078 "perms.ml" 152 4074 4090
+type(
+  permty * permty
+)
+"perms.ml" 152 4074 4094 "perms.ml" 152 4074 4098
+type(
+  bool
+)
+"perms.ml" 153 4099 4103 "perms.ml" 153 4099 4107
+type(
+  permty
+)
+"perms.ml" 153 4099 4109 "perms.ml" 153 4099 4110
+type(
+  permty
+)
+"perms.ml" 153 4099 4103 "perms.ml" 153 4099 4110
+type(
+  permty * permty
+)
+"perms.ml" 154 4114 4117 "perms.ml" 154 4114 4126
+type(
+  string ->
+  ?extra:string ->
+  (Xc.domid -> unit, unit, string, unit) format4 -> Xc.domid -> unit
+)
+ident(
+  ext_ref Logs.info
+)
+"perms.ml" 154 4114 4127 "perms.ml" 154 4114 4131
+type(
+  string
+)
+"perms.ml" 154 4114 4132 "perms.ml" 154 4114 4183
+type(
+  (Xc.domid -> unit, unit, string, unit) format4
+)
+"perms.ml" 154 4114 4184 "perms.ml" 154 4114 4192
+type(
+  Xc.domid
+)
+ident(
+  int_ref domainid "perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+)
+"perms.ml" 154 4114 4117 "perms.ml" 154 4114 4192
+type(
+  unit
+)
+"perms.ml" 155 4194 4197 "perms.ml" 155 4194 4202
+type(
+  bool
+)
+"perms.ml" 154 4114 4117 "perms.ml" 155 4194 4202
+type(
+  bool
+)
+"perms.ml" 156 4203 4207 "perms.ml" 156 4203 4212
+type(
+  permty
+)
+"perms.ml" 156 4203 4214 "perms.ml" 156 4203 4215
+type(
+  permty
+)
+"perms.ml" 156 4203 4207 "perms.ml" 156 4203 4215
+type(
+  permty * permty
+)
+"perms.ml" 157 4219 4222 "perms.ml" 157 4219 4231
+type(
+  string ->
+  ?extra:string ->
+  (Xc.domid -> unit, unit, string, unit) format4 -> Xc.domid -> unit
+)
+ident(
+  ext_ref Logs.info
+)
+"perms.ml" 157 4219 4232 "perms.ml" 157 4219 4236
+type(
+  string
+)
+"perms.ml" 157 4219 4237 "perms.ml" 157 4219 4289
+type(
+  (Xc.domid -> unit, unit, string, unit) format4
+)
+"perms.ml" 157 4219 4290 "perms.ml" 157 4219 4298
+type(
+  Xc.domid
+)
+ident(
+  int_ref domainid "perms.ml" 140 3733 3748 "perms.ml" 140 3733 3756
+)
+"perms.ml" 157 4219 4222 "perms.ml" 157 4219 4298
+type(
+  unit
+)
+"perms.ml" 158 4300 4303 "perms.ml" 158 4300 4308
+type(
+  bool
+)
+"perms.ml" 157 4219 4222 "perms.ml" 158 4300 4308
+type(
+  bool
+)
+"perms.ml" 146 3903 3905 "perms.ml" 158 4300 4308
+type(
+  bool
+)
+"perms.ml" 141 3759 3761 "perms.ml" 158 4300 4308
+type(
+  bool
+)
+"perms.ml" 160 4313 4317 "perms.ml" 160 4313 4318
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"perms.ml" 160 4313 4318 "perms.ml" 160 4313 4326
+type(
+  bool ref
+)
+ident(
+  int_ref activate "perms.ml" 20 751 755 "perms.ml" 20 751 763
+)
+"perms.ml" 160 4313 4317 "perms.ml" 160 4313 4326
+type(
+  bool
+)
+"perms.ml" 161 4327 4328 "perms.ml" 161 4327 4330
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"perms.ml" 161 4327 4331 "perms.ml" 161 4327 4334
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"perms.ml" 161 4327 4336 "perms.ml" 161 4327 4354
+type(
+  Connection.t -> bool
+)
+ident(
+  ext_ref Connection.is_dom0
+)
+"perms.ml" 161 4327 4355 "perms.ml" 161 4327 4365
+type(
+  Connection.t
+)
+ident(
+  int_ref connection "perms.ml" 139 3673 3684 "perms.ml" 139 3673 3694
+)
+"perms.ml" 161 4327 4335 "perms.ml" 161 4327 4366
+type(
+  bool
+)
+"perms.ml" 161 4327 4331 "perms.ml" 161 4327 4366
+type(
+  bool
+)
+"perms.ml" 162 4367 4368 "perms.ml" 162 4367 4370
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"perms.ml" 162 4367 4371 "perms.ml" 162 4367 4374
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"perms.ml" 162 4367 4376 "perms.ml" 162 4367 4387
+type(
+  Connection.t -> Node.t -> bool
+)
+ident(
+  int_ref check_owner "perms.ml" 133 3410 3414 "perms.ml" 133 3410 3425
+)
+"perms.ml" 162 4367 4388 "perms.ml" 162 4367 4398
+type(
+  Connection.t
+)
+ident(
+  int_ref connection "perms.ml" 139 3673 3684 "perms.ml" 139 3673 3694
+)
+"perms.ml" 162 4367 4399 "perms.ml" 162 4367 4403
+type(
+  Node.t
+)
+ident(
+  int_ref node "perms.ml" 139 3673 3718 "perms.ml" 139 3673 3722
+)
+"perms.ml" 162 4367 4375 "perms.ml" 162 4367 4404
+type(
+  bool
+)
+"perms.ml" 162 4367 4371 "perms.ml" 162 4367 4404
+type(
+  bool
+)
+"perms.ml" 163 4405 4406 "perms.ml" 163 4405 4408
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"perms.ml" 163 4405 4409 "perms.ml" 163 4405 4412
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"perms.ml" 163 4405 4414 "perms.ml" 163 4405 4425
+type(
+  (Xc.domid -> bool) -> Xc.domid list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"perms.ml" 163 4405 4426 "perms.ml" 163 4405 4435
+type(
+  Xc.domid -> bool
+)
+ident(
+  int_ref check_acl "perms.ml" 140 3733 3738 "perms.ml" 140 3733 3747
+)
+"perms.ml" 163 4405 4437 "perms.ml" 163 4405 4458
+type(
+  Connection.t -> Xc.domid list
+)
+ident(
+  ext_ref Connection.get_owners
+)
+"perms.ml" 163 4405 4459 "perms.ml" 163 4405 4469
+type(
+  Connection.t
+)
+ident(
+  int_ref connection "perms.ml" 139 3673 3684 "perms.ml" 139 3673 3694
+)
+"perms.ml" 163 4405 4436 "perms.ml" 163 4405 4470
+type(
+  Xc.domid list
+)
+"perms.ml" 163 4405 4413 "perms.ml" 163 4405 4471
+type(
+  bool
+)
+"perms.ml" 163 4405 4409 "perms.ml" 163 4405 4471
+type(
+  bool
+)
+"perms.ml" 162 4367 4371 "perms.ml" 163 4405 4471
+type(
+  bool
+)
+"perms.ml" 161 4327 4331 "perms.ml" 163 4405 4471
+type(
+  bool
+)
+"perms.ml" 160 4313 4317 "perms.ml" 163 4405 4471
+type(
+  bool
+)
+"perms.ml" 164 4472 4478 "perms.ml" 164 4472 4483
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"perms.ml" 164 4472 4484 "perms.ml" 164 4472 4508
+type(
+  exn
+)
+"perms.ml" 164 4472 4478 "perms.ml" 164 4472 4508
+type(
+  unit
+)
+"perms.ml" 160 4313 4314 "perms.ml" 164 4472 4508
+type(
+  unit
+)
+"perms.ml" 140 3733 3734 "perms.ml" 164 4472 4508
+type(
+  unit
+)
+"perms.ml" 166 4510 4514 "perms.ml" 166 4510 4519
+type(
+  Node.t -> Node.t -> bool
+)
+ident(
+  def equiv "perms.ml" 167 4534 4582 --
+)
+"perms.ml" 166 4510 4520 "perms.ml" 166 4510 4525
+type(
+  Node.t
+)
+ident(
+  def perm1 "perms.ml" 166 4510 4526 "perms.ml" 167 4534 4582
+)
+"perms.ml" 166 4510 4526 "perms.ml" 166 4510 4531
+type(
+  Node.t
+)
+ident(
+  def perm2 "perms.ml" 167 4534 4535 "perms.ml" 167 4534 4582
+)
+"perms.ml" 167 4534 4536 "perms.ml" 167 4534 4550
+type(
+  Node.t -> string
+)
+ident(
+  ext_ref Node.to_string
+)
+"perms.ml" 167 4534 4551 "perms.ml" 167 4534 4556
+type(
+  Node.t
+)
+ident(
+  int_ref perm1 "perms.ml" 166 4510 4520 "perms.ml" 166 4510 4525
+)
+"perms.ml" 167 4534 4535 "perms.ml" 167 4534 4557
+type(
+  string
+)
+"perms.ml" 167 4534 4558 "perms.ml" 167 4534 4559
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"perms.ml" 167 4534 4561 "perms.ml" 167 4534 4575
+type(
+  Node.t -> string
+)
+ident(
+  ext_ref Node.to_string
+)
+"perms.ml" 167 4534 4576 "perms.ml" 167 4534 4581
+type(
+  Node.t
+)
+ident(
+  int_ref perm2 "perms.ml" 166 4510 4526 "perms.ml" 166 4510 4531
+)
+"perms.ml" 167 4534 4560 "perms.ml" 167 4534 4582
+type(
+  string
+)
+"perms.ml" 167 4534 4535 "perms.ml" 167 4534 4582
+type(
+  bool
+)

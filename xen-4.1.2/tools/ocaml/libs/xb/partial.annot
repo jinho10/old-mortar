@@ -1,0 +1,251 @@
+"partial.ml" 30 919 923 "partial.ml" 30 919 932
+type(
+  string -> pkt
+)
+ident(
+  def of_string "partial.ml" 40 1099 1099 --
+)
+"partial.ml" 30 919 933 "partial.ml" 30 919 934
+type(
+  string
+)
+ident(
+  def s "partial.ml" 31 937 938 "partial.ml" 38 1095 1097
+)
+"partial.ml" 31 937 942 "partial.ml" 31 937 945
+type(
+  int
+)
+"partial.ml" 31 937 947 "partial.ml" 31 937 950
+type(
+  int
+)
+"partial.ml" 31 937 952 "partial.ml" 31 937 957
+type(
+  int
+)
+"partial.ml" 31 937 959 "partial.ml" 31 937 963
+type(
+  int
+)
+"partial.ml" 31 937 942 "partial.ml" 31 937 963
+type(
+  int * int * int * int
+)
+"partial.ml" 31 937 966 "partial.ml" 31 937 991
+type(
+  string -> int * int * int * int
+)
+"partial.ml" 31 937 992 "partial.ml" 31 937 993
+type(
+  string
+)
+ident(
+  int_ref s "partial.ml" 30 919 933 "partial.ml" 30 919 934
+)
+"partial.ml" 31 937 966 "partial.ml" 31 937 993
+type(
+  int * int * int * int
+)
+"partial.ml" 33 1000 1008 "partial.ml" 33 1000 1011
+type(
+  int
+)
+ident(
+  int_ref tid "partial.ml" 31 937 942 "partial.ml" 31 937 945
+)
+"partial.ml" 34 1013 1021 "partial.ml" 34 1013 1024
+type(
+  int
+)
+ident(
+  int_ref rid "partial.ml" 31 937 947 "partial.ml" 31 937 950
+)
+"partial.ml" 35 1026 1034 "partial.ml" 35 1026 1044
+type(
+  int -> Op.operation
+)
+ident(
+  ext_ref Op.of_cval
+)
+"partial.ml" 35 1026 1045 "partial.ml" 35 1026 1050
+type(
+  int
+)
+ident(
+  int_ref opint "partial.ml" 31 937 952 "partial.ml" 31 937 957
+)
+"partial.ml" 35 1026 1033 "partial.ml" 35 1026 1051
+type(
+  Op.operation
+)
+"partial.ml" 36 1053 1061 "partial.ml" 36 1053 1065
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 31 937 959 "partial.ml" 31 937 963
+)
+"partial.ml" 37 1067 1075 "partial.ml" 37 1067 1088
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"partial.ml" 37 1067 1089 "partial.ml" 37 1067 1093
+type(
+  int
+)
+ident(
+  int_ref dlen "partial.ml" 31 937 959 "partial.ml" 31 937 963
+)
+"partial.ml" 37 1067 1075 "partial.ml" 37 1067 1093
+type(
+  Buffer.t
+)
+"partial.ml" 32 997 998 "partial.ml" 38 1095 1097
+type(
+  pkt
+)
+"partial.ml" 31 937 938 "partial.ml" 38 1095 1097
+type(
+  pkt
+)
+"partial.ml" 40 1099 1103 "partial.ml" 40 1099 1109
+type(
+  pkt -> string -> int -> unit
+)
+ident(
+  def append "partial.ml" 43 1169 1169 --
+)
+"partial.ml" 40 1099 1110 "partial.ml" 40 1099 1113
+type(
+  pkt
+)
+ident(
+  def pkt "partial.ml" 40 1099 1114 "partial.ml" 41 1121 1167
+)
+"partial.ml" 40 1099 1114 "partial.ml" 40 1099 1115
+type(
+  string
+)
+ident(
+  def s "partial.ml" 40 1099 1116 "partial.ml" 41 1121 1167
+)
+"partial.ml" 40 1099 1116 "partial.ml" 40 1099 1118
+type(
+  int
+)
+ident(
+  def sz "partial.ml" 41 1121 1122 "partial.ml" 41 1121 1167
+)
+"partial.ml" 41 1121 1122 "partial.ml" 41 1121 1139
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"partial.ml" 41 1121 1140 "partial.ml" 41 1121 1143
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 40 1099 1110 "partial.ml" 40 1099 1113
+)
+"partial.ml" 41 1121 1140 "partial.ml" 41 1121 1147
+type(
+  Buffer.t
+)
+"partial.ml" 41 1121 1149 "partial.ml" 41 1121 1159
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"partial.ml" 41 1121 1160 "partial.ml" 41 1121 1161
+type(
+  string
+)
+ident(
+  int_ref s "partial.ml" 40 1099 1114 "partial.ml" 40 1099 1115
+)
+"partial.ml" 41 1121 1162 "partial.ml" 41 1121 1163
+type(
+  int
+)
+"partial.ml" 41 1121 1164 "partial.ml" 41 1121 1166
+type(
+  int
+)
+ident(
+  int_ref sz "partial.ml" 40 1099 1116 "partial.ml" 40 1099 1118
+)
+"partial.ml" 41 1121 1148 "partial.ml" 41 1121 1167
+type(
+  string
+)
+"partial.ml" 41 1121 1122 "partial.ml" 41 1121 1167
+type(
+  unit
+)
+"partial.ml" 43 1169 1173 "partial.ml" 43 1169 1184
+type(
+  pkt -> int
+)
+ident(
+  def to_complete "partial.ml" 44 1191 1225 --
+)
+"partial.ml" 43 1169 1185 "partial.ml" 43 1169 1188
+type(
+  pkt
+)
+ident(
+  def pkt "partial.ml" 44 1191 1192 "partial.ml" 44 1191 1225
+)
+"partial.ml" 44 1191 1192 "partial.ml" 44 1191 1195
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 43 1169 1185 "partial.ml" 43 1169 1188
+)
+"partial.ml" 44 1191 1192 "partial.ml" 44 1191 1199
+type(
+  int
+)
+"partial.ml" 44 1191 1200 "partial.ml" 44 1191 1201
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"partial.ml" 44 1191 1203 "partial.ml" 44 1191 1216
+type(
+  Buffer.t -> int
+)
+ident(
+  ext_ref Buffer.length
+)
+"partial.ml" 44 1191 1217 "partial.ml" 44 1191 1220
+type(
+  pkt
+)
+ident(
+  int_ref pkt "partial.ml" 43 1169 1185 "partial.ml" 43 1169 1188
+)
+"partial.ml" 44 1191 1217 "partial.ml" 44 1191 1224
+type(
+  Buffer.t
+)
+"partial.ml" 44 1191 1202 "partial.ml" 44 1191 1225
+type(
+  int
+)
+"partial.ml" 44 1191 1192 "partial.ml" 44 1191 1225
+type(
+  int
+)

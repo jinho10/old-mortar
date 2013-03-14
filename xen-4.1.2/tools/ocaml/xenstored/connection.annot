@@ -1,0 +1,4572 @@
+"connection.ml" 41 1067 1071 "connection.ml" 41 1067 1079
+type(
+  t -> string
+)
+ident(
+  def get_path "connection.ml" 44 1181 1181 --
+)
+"connection.ml" 41 1067 1080 "connection.ml" 41 1067 1083
+type(
+  t
+)
+ident(
+  def con "connection.ml" 42 1086 1086 "connection.ml" 42 1086 1179
+)
+"connection.ml" 42 1086 1086 "connection.ml" 42 1086 1100
+type(
+  (Xc.domid -> string, unit, string) format -> Xc.domid -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"connection.ml" 42 1086 1101 "connection.ml" 42 1086 1120
+type(
+  (Xc.domid -> string, unit, string) format
+)
+"connection.ml" 42 1086 1128 "connection.ml" 42 1086 1131
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 41 1067 1080 "connection.ml" 41 1067 1083
+)
+"connection.ml" 42 1086 1128 "connection.ml" 42 1086 1135
+type(
+  Domain.t option
+)
+"connection.ml" 42 1086 1141 "connection.ml" 42 1086 1145
+type(
+  Domain.t option
+)
+"connection.ml" 42 1086 1149 "connection.ml" 42 1086 1150
+type(
+  Xc.domid
+)
+"connection.ml" 42 1086 1158 "connection.ml" 42 1086 1159
+type(
+  Domain.t
+)
+ident(
+  def d "connection.ml" 42 1086 1163 "connection.ml" 42 1086 1178
+)
+"connection.ml" 42 1086 1153 "connection.ml" 42 1086 1159
+type(
+  Domain.t option
+)
+"connection.ml" 42 1086 1163 "connection.ml" 42 1086 1176
+type(
+  Domain.t -> Xc.domid
+)
+ident(
+  ext_ref Domain.get_id
+)
+"connection.ml" 42 1086 1177 "connection.ml" 42 1086 1178
+type(
+  Domain.t
+)
+ident(
+  int_ref d "connection.ml" 42 1086 1158 "connection.ml" 42 1086 1159
+)
+"connection.ml" 42 1086 1163 "connection.ml" 42 1086 1178
+type(
+  Xc.domid
+)
+"connection.ml" 42 1086 1121 "connection.ml" 42 1086 1179
+type(
+  Xc.domid
+)
+"connection.ml" 42 1086 1086 "connection.ml" 42 1086 1179
+type(
+  string
+)
+"connection.ml" 44 1181 1185 "connection.ml" 44 1181 1197
+type(
+  con:t -> path:string -> token:string -> watch
+)
+ident(
+  def watch_create "connection.ml" 52 1342 1342 --
+)
+"connection.ml" 44 1181 1199 "connection.ml" 44 1181 1202
+type(
+  t
+)
+ident(
+  def con "connection.ml" 44 1181 1203 "connection.ml" 50 1339 1340
+)
+"connection.ml" 44 1181 1204 "connection.ml" 44 1181 1208
+type(
+  string
+)
+ident(
+  def path "connection.ml" 44 1181 1209 "connection.ml" 50 1339 1340
+)
+"connection.ml" 44 1181 1210 "connection.ml" 44 1181 1215
+type(
+  string
+)
+ident(
+  def token "connection.ml" 44 1181 1218 "connection.ml" 50 1339 1340
+)
+"connection.ml" 45 1221 1228 "connection.ml" 45 1221 1231
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 44 1181 1199 "connection.ml" 44 1181 1202
+)
+"connection.ml" 46 1234 1243 "connection.ml" 46 1234 1248
+type(
+  string
+)
+ident(
+  int_ref token "connection.ml" 44 1181 1210 "connection.ml" 44 1181 1215
+)
+"connection.ml" 47 1251 1259 "connection.ml" 47 1251 1263
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 44 1181 1204 "connection.ml" 44 1181 1208
+)
+"connection.ml" 48 1266 1274 "connection.ml" 48 1266 1282
+type(
+  t -> string
+)
+ident(
+  int_ref get_path "connection.ml" 41 1067 1071 "connection.ml" 41 1067 1079
+)
+"connection.ml" 48 1266 1283 "connection.ml" 48 1266 1286
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 44 1181 1199 "connection.ml" 44 1181 1202
+)
+"connection.ml" 48 1266 1274 "connection.ml" 48 1266 1286
+type(
+  string
+)
+"connection.ml" 49 1289 1304 "connection.ml" 49 1289 1308
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 44 1181 1204 "connection.ml" 44 1181 1208
+)
+"connection.ml" 49 1289 1310 "connection.ml" 49 1289 1311
+type(
+  int
+)
+"connection.ml" 49 1289 1304 "connection.ml" 49 1289 1312
+type(
+  char
+)
+"connection.ml" 49 1289 1313 "connection.ml" 49 1289 1315
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"connection.ml" 49 1289 1316 "connection.ml" 49 1289 1319
+type(
+  char
+)
+"connection.ml" 49 1289 1304 "connection.ml" 49 1289 1319
+type(
+  bool
+)
+"connection.ml" 49 1289 1320 "connection.ml" 49 1289 1322
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 49 1289 1323 "connection.ml" 49 1289 1327
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 44 1181 1204 "connection.ml" 44 1181 1208
+)
+"connection.ml" 49 1289 1329 "connection.ml" 49 1289 1330
+type(
+  int
+)
+"connection.ml" 49 1289 1323 "connection.ml" 49 1289 1331
+type(
+  char
+)
+"connection.ml" 49 1289 1332 "connection.ml" 49 1289 1334
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"connection.ml" 49 1289 1335 "connection.ml" 49 1289 1338
+type(
+  char
+)
+"connection.ml" 49 1289 1323 "connection.ml" 49 1289 1338
+type(
+  bool
+)
+"connection.ml" 49 1289 1304 "connection.ml" 49 1289 1338
+type(
+  bool
+)
+"connection.ml" 44 1181 1218 "connection.ml" 50 1339 1340
+type(
+  watch
+)
+"connection.ml" 52 1342 1346 "connection.ml" 52 1342 1353
+type(
+  watch -> t
+)
+ident(
+  def get_con "connection.ml" 54 1366 1366 --
+)
+"connection.ml" 52 1342 1354 "connection.ml" 52 1342 1355
+type(
+  watch
+)
+ident(
+  def w "connection.ml" 52 1342 1358 "connection.ml" 52 1342 1363
+)
+"connection.ml" 52 1342 1358 "connection.ml" 52 1342 1359
+type(
+  watch
+)
+ident(
+  int_ref w "connection.ml" 52 1342 1354 "connection.ml" 52 1342 1355
+)
+"connection.ml" 52 1342 1358 "connection.ml" 52 1342 1363
+type(
+  t
+)
+"connection.ml" 54 1366 1370 "connection.ml" 54 1366 1392
+type(
+  t -> int
+)
+ident(
+  def number_of_transactions "connection.ml" 57 1433 1433 --
+)
+"connection.ml" 54 1366 1393 "connection.ml" 54 1366 1396
+type(
+  t
+)
+ident(
+  def con "connection.ml" 55 1399 1400 "connection.ml" 55 1399 1431
+)
+"connection.ml" 55 1399 1400 "connection.ml" 55 1399 1414
+type(
+  (int, Transaction.t) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"connection.ml" 55 1399 1415 "connection.ml" 55 1399 1418
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 54 1366 1393 "connection.ml" 54 1366 1396
+)
+"connection.ml" 55 1399 1415 "connection.ml" 55 1399 1431
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 55 1399 1400 "connection.ml" 55 1399 1431
+type(
+  int
+)
+"connection.ml" 57 1433 1437 "connection.ml" 57 1433 1447
+type(
+  t -> Domain.t option
+)
+ident(
+  def get_domain "connection.ml" 59 1463 1463 --
+)
+"connection.ml" 57 1433 1448 "connection.ml" 57 1433 1451
+type(
+  t
+)
+ident(
+  def con "connection.ml" 57 1433 1454 "connection.ml" 57 1433 1461
+)
+"connection.ml" 57 1433 1454 "connection.ml" 57 1433 1457
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 57 1433 1448 "connection.ml" 57 1433 1451
+)
+"connection.ml" 57 1433 1454 "connection.ml" 57 1433 1461
+type(
+  Domain.t option
+)
+"connection.ml" 59 1463 1467 "connection.ml" 59 1463 1479
+type(
+  int ref
+)
+ident(
+  def anon_id_next "connection.ml" 61 1489 1489 --
+)
+"connection.ml" 59 1463 1482 "connection.ml" 59 1463 1485
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"connection.ml" 59 1463 1486 "connection.ml" 59 1463 1487
+type(
+  int
+)
+"connection.ml" 59 1463 1482 "connection.ml" 59 1463 1487
+type(
+  int ref
+)
+"connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+type(
+  t -> string
+)
+ident(
+  def get_domstr "connection.ml" 66 1636 1636 --
+)
+"connection.ml" 61 1489 1504 "connection.ml" 61 1489 1507
+type(
+  t
+)
+ident(
+  def con "connection.ml" 62 1510 1511 "connection.ml" 64 1578 1634
+)
+"connection.ml" 62 1510 1517 "connection.ml" 62 1510 1520
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 61 1489 1504 "connection.ml" 61 1489 1507
+)
+"connection.ml" 62 1510 1517 "connection.ml" 62 1510 1524
+type(
+  Domain.t option
+)
+"connection.ml" 63 1530 1533 "connection.ml" 63 1530 1537
+type(
+  Domain.t option
+)
+"connection.ml" 63 1530 1545 "connection.ml" 63 1530 1548
+type(
+  string
+)
+"connection.ml" 63 1530 1549 "connection.ml" 63 1530 1550
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"connection.ml" 63 1530 1552 "connection.ml" 63 1530 1565
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"connection.ml" 63 1530 1566 "connection.ml" 63 1530 1569
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 61 1489 1504 "connection.ml" 61 1489 1507
+)
+"connection.ml" 63 1530 1566 "connection.ml" 63 1530 1576
+type(
+  int
+)
+"connection.ml" 63 1530 1551 "connection.ml" 63 1530 1577
+type(
+  string
+)
+"connection.ml" 63 1530 1545 "connection.ml" 63 1530 1577
+type(
+  string
+)
+"connection.ml" 64 1578 1586 "connection.ml" 64 1578 1589
+type(
+  Domain.t
+)
+ident(
+  def dom "connection.ml" 64 1578 1593 "connection.ml" 64 1578 1634
+)
+"connection.ml" 64 1578 1581 "connection.ml" 64 1578 1589
+type(
+  Domain.t option
+)
+"connection.ml" 64 1578 1593 "connection.ml" 64 1578 1596
+type(
+  string
+)
+"connection.ml" 64 1578 1597 "connection.ml" 64 1578 1598
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"connection.ml" 64 1578 1600 "connection.ml" 64 1578 1613
+type(
+  Xc.domid -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"connection.ml" 64 1578 1615 "connection.ml" 64 1578 1628
+type(
+  Domain.t -> Xc.domid
+)
+ident(
+  ext_ref Domain.get_id
+)
+"connection.ml" 64 1578 1629 "connection.ml" 64 1578 1632
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "connection.ml" 64 1578 1586 "connection.ml" 64 1578 1589
+)
+"connection.ml" 64 1578 1614 "connection.ml" 64 1578 1633
+type(
+  Xc.domid
+)
+"connection.ml" 64 1578 1599 "connection.ml" 64 1578 1634
+type(
+  string
+)
+"connection.ml" 64 1578 1593 "connection.ml" 64 1578 1634
+type(
+  string
+)
+"connection.ml" 62 1510 1511 "connection.ml" 64 1578 1634
+type(
+  string
+)
+"connection.ml" 66 1636 1640 "connection.ml" 66 1636 1649
+type(
+  Domain.t option -> Perms.Connection.t
+)
+ident(
+  def make_perm "connection.ml" 74 1803 1803 --
+)
+"connection.ml" 66 1636 1650 "connection.ml" 66 1636 1653
+type(
+  Domain.t option
+)
+ident(
+  def dom "connection.ml" 67 1656 1657 "connection.ml" 72 1738 1801
+)
+"connection.ml" 67 1656 1661 "connection.ml" 67 1656 1666
+type(
+  Xc.domid
+)
+"connection.ml" 68 1670 1678 "connection.ml" 68 1670 1681
+type(
+  Domain.t option
+)
+ident(
+  int_ref dom "connection.ml" 66 1636 1650 "connection.ml" 66 1636 1653
+)
+"connection.ml" 69 1687 1691 "connection.ml" 69 1687 1695
+type(
+  Domain.t option
+)
+"connection.ml" 69 1687 1701 "connection.ml" 69 1687 1702
+type(
+  Xc.domid
+)
+"connection.ml" 70 1703 1712 "connection.ml" 70 1703 1713
+type(
+  Domain.t
+)
+ident(
+  def d "connection.ml" 70 1703 1717 "connection.ml" 70 1703 1732
+)
+"connection.ml" 70 1703 1707 "connection.ml" 70 1703 1713
+type(
+  Domain.t option
+)
+"connection.ml" 70 1703 1717 "connection.ml" 70 1703 1730
+type(
+  Domain.t -> Xc.domid
+)
+ident(
+  ext_ref Domain.get_id
+)
+"connection.ml" 70 1703 1731 "connection.ml" 70 1703 1732
+type(
+  Domain.t
+)
+ident(
+  int_ref d "connection.ml" 70 1703 1712 "connection.ml" 70 1703 1713
+)
+"connection.ml" 70 1703 1717 "connection.ml" 70 1703 1732
+type(
+  Xc.domid
+)
+"connection.ml" 68 1670 1672 "connection.ml" 70 1703 1732
+type(
+  Xc.domid
+)
+"connection.ml" 72 1738 1739 "connection.ml" 72 1738 1762
+type(
+  ?perms:Perms.permty list -> Xc.domid -> Perms.Connection.t
+)
+ident(
+  ext_ref Perms.Connection.create
+)
+"connection.ml" 72 1738 1771 "connection.ml" 72 1738 1781
+type(
+  Perms.permty
+)
+"connection.ml" 72 1738 1783 "connection.ml" 72 1738 1794
+type(
+  Perms.permty
+)
+"connection.ml" 72 1738 1770 "connection.ml" 72 1738 1795
+type(
+  Perms.permty list
+)
+"connection.ml" 72 1738 1796 "connection.ml" 72 1738 1801
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "connection.ml" 67 1656 1661 "connection.ml" 67 1656 1666
+)
+"connection.ml" 72 1738 1739 "connection.ml" 72 1738 1801
+type(
+  Perms.Connection.t
+)
+"connection.ml" 67 1656 1657 "connection.ml" 72 1738 1801
+type(
+  Perms.Connection.t
+)
+"connection.ml" 74 1803 1807 "connection.ml" 74 1803 1813
+type(
+  Xb.t -> Domain.t option -> t
+)
+ident(
+  def create "connection.ml" 96 2211 2211 --
+)
+"connection.ml" 74 1803 1814 "connection.ml" 74 1803 1819
+type(
+  Xb.t
+)
+ident(
+  def xbcon "connection.ml" 74 1803 1820 "connection.ml" 94 2205 2209
+)
+"connection.ml" 74 1803 1820 "connection.ml" 74 1803 1823
+type(
+  Domain.t option
+)
+ident(
+  def dom "connection.ml" 75 1826 1827 "connection.ml" 94 2205 2209
+)
+"connection.ml" 75 1826 1831 "connection.ml" 75 1826 1833
+type(
+  int
+)
+"connection.ml" 76 1836 1844 "connection.ml" 76 1836 1847
+type(
+  Domain.t option
+)
+ident(
+  int_ref dom "connection.ml" 74 1803 1820 "connection.ml" 74 1803 1823
+)
+"connection.ml" 77 1853 1857 "connection.ml" 77 1853 1861
+type(
+  Domain.t option
+)
+"connection.ml" 77 1853 1869 "connection.ml" 77 1853 1872
+type(
+  int
+)
+"connection.ml" 77 1853 1875 "connection.ml" 77 1853 1876
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 77 1853 1876 "connection.ml" 77 1853 1888
+type(
+  int ref
+)
+ident(
+  int_ref anon_id_next "connection.ml" 59 1463 1467 "connection.ml" 59 1463 1479
+)
+"connection.ml" 77 1853 1875 "connection.ml" 77 1853 1888
+type(
+  int
+)
+"connection.ml" 77 1853 1892 "connection.ml" 77 1853 1896
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"connection.ml" 77 1853 1897 "connection.ml" 77 1853 1909
+type(
+  int ref
+)
+ident(
+  int_ref anon_id_next "connection.ml" 59 1463 1467 "connection.ml" 59 1463 1479
+)
+"connection.ml" 77 1853 1892 "connection.ml" 77 1853 1909
+type(
+  unit
+)
+"connection.ml" 77 1853 1911 "connection.ml" 77 1853 1914
+type(
+  int
+)
+ident(
+  int_ref old "connection.ml" 77 1853 1869 "connection.ml" 77 1853 1872
+)
+"connection.ml" 77 1853 1892 "connection.ml" 77 1853 1914
+type(
+  int
+)
+"connection.ml" 77 1853 1865 "connection.ml" 77 1853 1914
+type(
+  int
+)
+"connection.ml" 78 1915 1924 "connection.ml" 78 1915 1925
+type(
+  Domain.t
+)
+"connection.ml" 78 1915 1919 "connection.ml" 78 1915 1925
+type(
+  Domain.t option
+)
+"connection.ml" 78 1915 1929 "connection.ml" 78 1915 1930
+type(
+  int
+)
+"connection.ml" 76 1836 1838 "connection.ml" 78 1915 1930
+type(
+  int
+)
+"connection.ml" 80 1938 1943 "connection.ml" 80 1938 1946
+type(
+  t
+)
+"connection.ml" 82 1953 1959 "connection.ml" 82 1953 1964
+type(
+  Xb.t
+)
+ident(
+  int_ref xbcon "connection.ml" 74 1803 1814 "connection.ml" 74 1803 1819
+)
+"connection.ml" 83 1966 1973 "connection.ml" 83 1966 1976
+type(
+  Domain.t option
+)
+ident(
+  int_ref dom "connection.ml" 74 1803 1820 "connection.ml" 74 1803 1823
+)
+"connection.ml" 84 1978 1994 "connection.ml" 84 1978 2008
+type(
+  int -> (int, Transaction.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"connection.ml" 84 1978 2009 "connection.ml" 84 1978 2010
+type(
+  int
+)
+"connection.ml" 84 1978 1994 "connection.ml" 84 1978 2010
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 85 2012 2024 "connection.ml" 85 2012 2025
+type(
+  int
+)
+"connection.ml" 86 2027 2038 "connection.ml" 86 2027 2052
+type(
+  int -> (string, watch list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"connection.ml" 86 2027 2053 "connection.ml" 86 2027 2054
+type(
+  int
+)
+"connection.ml" 86 2027 2038 "connection.ml" 86 2027 2054
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 87 2056 2070 "connection.ml" 87 2056 2071
+type(
+  int
+)
+"connection.ml" 88 2073 2083 "connection.ml" 88 2073 2085
+type(
+  int
+)
+ident(
+  int_ref id "connection.ml" 75 1826 1831 "connection.ml" 75 1826 1833
+)
+"connection.ml" 89 2087 2102 "connection.ml" 89 2087 2103
+type(
+  int
+)
+"connection.ml" 90 2105 2113 "connection.ml" 90 2105 2122
+type(
+  Domain.t option -> Perms.Connection.t
+)
+ident(
+  int_ref make_perm "connection.ml" 66 1636 1640 "connection.ml" 66 1636 1649
+)
+"connection.ml" 90 2105 2123 "connection.ml" 90 2105 2126
+type(
+  Domain.t option
+)
+ident(
+  int_ref dom "connection.ml" 74 1803 1820 "connection.ml" 74 1803 1823
+)
+"connection.ml" 90 2105 2113 "connection.ml" 90 2105 2126
+type(
+  Perms.Connection.t
+)
+"connection.ml" 81 1950 1951 "connection.ml" 91 2128 2130
+type(
+  t
+)
+"connection.ml" 93 2136 2137 "connection.ml" 93 2136 2159
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  ext_ref Logging.new_connection
+)
+"connection.ml" 93 2136 2165 "connection.ml" 93 2136 2181
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"connection.ml" 93 2136 2188 "connection.ml" 93 2136 2198
+type(
+  t -> string
+)
+ident(
+  int_ref get_domstr "connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+)
+"connection.ml" 93 2136 2199 "connection.ml" 93 2136 2202
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 80 1938 1943 "connection.ml" 80 1938 1946
+)
+"connection.ml" 93 2136 2187 "connection.ml" 93 2136 2203
+type(
+  string
+)
+"connection.ml" 93 2136 2137 "connection.ml" 93 2136 2203
+type(
+  unit
+)
+"connection.ml" 94 2205 2206 "connection.ml" 94 2205 2209
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 80 1938 1943 "connection.ml" 80 1938 1946
+)
+"connection.ml" 93 2136 2137 "connection.ml" 94 2205 2209
+type(
+  t
+)
+"connection.ml" 80 1938 1939 "connection.ml" 94 2205 2209
+type(
+  t
+)
+"connection.ml" 75 1826 1827 "connection.ml" 94 2205 2209
+type(
+  t
+)
+"connection.ml" 96 2211 2215 "connection.ml" 96 2211 2221
+type(
+  t -> Unix.file_descr
+)
+ident(
+  def get_fd "connection.ml" 97 2245 2245 --
+)
+"connection.ml" 96 2211 2222 "connection.ml" 96 2211 2225
+type(
+  t
+)
+ident(
+  def con "connection.ml" 96 2211 2228 "connection.ml" 96 2211 2244
+)
+"connection.ml" 96 2211 2228 "connection.ml" 96 2211 2237
+type(
+  Xb.t -> Unix.file_descr
+)
+ident(
+  ext_ref Xb.get_fd
+)
+"connection.ml" 96 2211 2238 "connection.ml" 96 2211 2241
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 96 2211 2222 "connection.ml" 96 2211 2225
+)
+"connection.ml" 96 2211 2238 "connection.ml" 96 2211 2244
+type(
+  Xb.t
+)
+"connection.ml" 96 2211 2228 "connection.ml" 96 2211 2244
+type(
+  Unix.file_descr
+)
+"connection.ml" 97 2245 2249 "connection.ml" 97 2245 2254
+type(
+  t -> unit
+)
+ident(
+  def close "connection.ml" 101 2348 2348 --
+)
+"connection.ml" 97 2245 2255 "connection.ml" 97 2245 2258
+type(
+  t
+)
+ident(
+  def con "connection.ml" 98 2261 2262 "connection.ml" 99 2330 2346
+)
+"connection.ml" 98 2261 2262 "connection.ml" 98 2261 2284
+type(
+  con:string -> tid:int -> unit
+)
+ident(
+  ext_ref Logging.end_connection
+)
+"connection.ml" 98 2261 2290 "connection.ml" 98 2261 2306
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"connection.ml" 98 2261 2313 "connection.ml" 98 2261 2323
+type(
+  t -> string
+)
+ident(
+  int_ref get_domstr "connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+)
+"connection.ml" 98 2261 2324 "connection.ml" 98 2261 2327
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 97 2245 2255 "connection.ml" 97 2245 2258
+)
+"connection.ml" 98 2261 2312 "connection.ml" 98 2261 2328
+type(
+  string
+)
+"connection.ml" 98 2261 2262 "connection.ml" 98 2261 2328
+type(
+  unit
+)
+"connection.ml" 99 2330 2331 "connection.ml" 99 2330 2339
+type(
+  Xb.t -> unit
+)
+ident(
+  ext_ref Xb.close
+)
+"connection.ml" 99 2330 2340 "connection.ml" 99 2330 2343
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 97 2245 2255 "connection.ml" 97 2245 2258
+)
+"connection.ml" 99 2330 2340 "connection.ml" 99 2330 2346
+type(
+  Xb.t
+)
+"connection.ml" 99 2330 2331 "connection.ml" 99 2330 2346
+type(
+  unit
+)
+"connection.ml" 98 2261 2262 "connection.ml" 99 2330 2346
+type(
+  unit
+)
+"connection.ml" 101 2348 2352 "connection.ml" 101 2348 2360
+type(
+  t -> Perms.Connection.t
+)
+ident(
+  def get_perm "connection.ml" 104 2378 2378 --
+)
+"connection.ml" 101 2348 2361 "connection.ml" 101 2348 2364
+type(
+  t
+)
+ident(
+  def con "connection.ml" 102 2367 2368 "connection.ml" 102 2367 2376
+)
+"connection.ml" 102 2367 2368 "connection.ml" 102 2367 2371
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 101 2348 2361 "connection.ml" 101 2348 2364
+)
+"connection.ml" 102 2367 2368 "connection.ml" 102 2367 2376
+type(
+  Perms.Connection.t
+)
+"connection.ml" 104 2378 2382 "connection.ml" 104 2378 2390
+type(
+  t -> Xc.domid -> unit
+)
+ident(
+  def restrict "connection.ml" 107 2458 2458 --
+)
+"connection.ml" 104 2378 2391 "connection.ml" 104 2378 2394
+type(
+  t
+)
+ident(
+  def con "connection.ml" 104 2378 2395 "connection.ml" 105 2403 2456
+)
+"connection.ml" 104 2378 2395 "connection.ml" 104 2378 2400
+type(
+  Xc.domid
+)
+ident(
+  def domid "connection.ml" 105 2403 2404 "connection.ml" 105 2403 2456
+)
+"connection.ml" 105 2403 2404 "connection.ml" 105 2403 2407
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 104 2378 2391 "connection.ml" 104 2378 2394
+)
+"connection.ml" 105 2403 2416 "connection.ml" 105 2403 2441
+type(
+  Perms.Connection.t -> Xc.domid -> Perms.Connection.t
+)
+ident(
+  ext_ref Perms.Connection.restrict
+)
+"connection.ml" 105 2403 2442 "connection.ml" 105 2403 2445
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 104 2378 2391 "connection.ml" 104 2378 2394
+)
+"connection.ml" 105 2403 2442 "connection.ml" 105 2403 2450
+type(
+  Perms.Connection.t
+)
+"connection.ml" 105 2403 2451 "connection.ml" 105 2403 2456
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "connection.ml" 104 2378 2395 "connection.ml" 104 2378 2400
+)
+"connection.ml" 105 2403 2416 "connection.ml" 105 2403 2456
+type(
+  Perms.Connection.t
+)
+"connection.ml" 105 2403 2404 "connection.ml" 105 2403 2456
+type(
+  unit
+)
+"connection.ml" 107 2458 2462 "connection.ml" 107 2458 2472
+type(
+  t -> Xc.domid -> unit
+)
+ident(
+  def set_target "connection.ml" 110 2595 2595 --
+)
+"connection.ml" 107 2458 2473 "connection.ml" 107 2458 2476
+type(
+  t
+)
+ident(
+  def con "connection.ml" 107 2458 2477 "connection.ml" 108 2492 2593
+)
+"connection.ml" 107 2458 2477 "connection.ml" 107 2458 2489
+type(
+  Xc.domid
+)
+ident(
+  def target_domid "connection.ml" 108 2492 2493 "connection.ml" 108 2492 2593
+)
+"connection.ml" 108 2492 2493 "connection.ml" 108 2492 2496
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 107 2458 2473 "connection.ml" 107 2458 2476
+)
+"connection.ml" 108 2492 2505 "connection.ml" 108 2492 2532
+type(
+  Perms.Connection.t ->
+  ?perms:Perms.permty list -> Xc.domid -> Perms.Connection.t
+)
+ident(
+  ext_ref Perms.Connection.set_target
+)
+"connection.ml" 108 2492 2534 "connection.ml" 108 2492 2542
+type(
+  t -> Perms.Connection.t
+)
+ident(
+  int_ref get_perm "connection.ml" 101 2348 2352 "connection.ml" 101 2348 2360
+)
+"connection.ml" 108 2492 2543 "connection.ml" 108 2492 2546
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 107 2458 2473 "connection.ml" 107 2458 2476
+)
+"connection.ml" 108 2492 2533 "connection.ml" 108 2492 2547
+type(
+  Perms.Connection.t
+)
+"connection.ml" 108 2492 2556 "connection.ml" 108 2492 2566
+type(
+  Perms.permty
+)
+"connection.ml" 108 2492 2568 "connection.ml" 108 2492 2579
+type(
+  Perms.permty
+)
+"connection.ml" 108 2492 2555 "connection.ml" 108 2492 2580
+type(
+  Perms.permty list
+)
+"connection.ml" 108 2492 2581 "connection.ml" 108 2492 2593
+type(
+  Xc.domid
+)
+ident(
+  int_ref target_domid "connection.ml" 107 2458 2477 "connection.ml" 107 2458 2489
+)
+"connection.ml" 108 2492 2505 "connection.ml" 108 2492 2593
+type(
+  Perms.Connection.t
+)
+"connection.ml" 108 2492 2493 "connection.ml" 108 2492 2593
+type(
+  unit
+)
+"connection.ml" 110 2595 2599 "connection.ml" 110 2595 2609
+type(
+  t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  def send_reply "connection.ml" 113 2685 2685 --
+)
+"connection.ml" 110 2595 2610 "connection.ml" 110 2595 2613
+type(
+  t
+)
+ident(
+  def con "connection.ml" 110 2595 2614 "connection.ml" 111 2632 2683
+)
+"connection.ml" 110 2595 2614 "connection.ml" 110 2595 2617
+type(
+  int
+)
+ident(
+  def tid "connection.ml" 110 2595 2618 "connection.ml" 111 2632 2683
+)
+"connection.ml" 110 2595 2618 "connection.ml" 110 2595 2621
+type(
+  int
+)
+ident(
+  def rid "connection.ml" 110 2595 2622 "connection.ml" 111 2632 2683
+)
+"connection.ml" 110 2595 2622 "connection.ml" 110 2595 2624
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "connection.ml" 110 2595 2625 "connection.ml" 111 2632 2683
+)
+"connection.ml" 110 2595 2625 "connection.ml" 110 2595 2629
+type(
+  string
+)
+ident(
+  def data "connection.ml" 111 2632 2633 "connection.ml" 111 2632 2683
+)
+"connection.ml" 111 2632 2633 "connection.ml" 111 2632 2641
+type(
+  Xb.t -> Xb.Packet.t -> unit
+)
+ident(
+  ext_ref Xb.queue
+)
+"connection.ml" 111 2632 2642 "connection.ml" 111 2632 2645
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 110 2595 2610 "connection.ml" 110 2595 2613
+)
+"connection.ml" 111 2632 2642 "connection.ml" 111 2632 2648
+type(
+  Xb.t
+)
+"connection.ml" 111 2632 2650 "connection.ml" 111 2632 2666
+type(
+  int -> int -> Xb.Op.operation -> string -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.Packet.create
+)
+"connection.ml" 111 2632 2667 "connection.ml" 111 2632 2670
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 110 2595 2614 "connection.ml" 110 2595 2617
+)
+"connection.ml" 111 2632 2671 "connection.ml" 111 2632 2674
+type(
+  int
+)
+ident(
+  int_ref rid "connection.ml" 110 2595 2618 "connection.ml" 110 2595 2621
+)
+"connection.ml" 111 2632 2675 "connection.ml" 111 2632 2677
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "connection.ml" 110 2595 2622 "connection.ml" 110 2595 2624
+)
+"connection.ml" 111 2632 2678 "connection.ml" 111 2632 2682
+type(
+  string
+)
+ident(
+  int_ref data "connection.ml" 110 2595 2625 "connection.ml" 110 2595 2629
+)
+"connection.ml" 111 2632 2649 "connection.ml" 111 2632 2683
+type(
+  Xb.Packet.t
+)
+"connection.ml" 111 2632 2633 "connection.ml" 111 2632 2683
+type(
+  unit
+)
+"connection.ml" 113 2685 2689 "connection.ml" 113 2685 2699
+type(
+  t -> int -> int -> string -> unit
+)
+ident(
+  def send_error "connection.ml" 114 2768 2768 --
+)
+"connection.ml" 113 2685 2700 "connection.ml" 113 2685 2703
+type(
+  t
+)
+ident(
+  def con "connection.ml" 113 2685 2704 "connection.ml" 113 2685 2767
+)
+"connection.ml" 113 2685 2704 "connection.ml" 113 2685 2707
+type(
+  int
+)
+ident(
+  def tid "connection.ml" 113 2685 2708 "connection.ml" 113 2685 2767
+)
+"connection.ml" 113 2685 2708 "connection.ml" 113 2685 2711
+type(
+  int
+)
+ident(
+  def rid "connection.ml" 113 2685 2712 "connection.ml" 113 2685 2767
+)
+"connection.ml" 113 2685 2712 "connection.ml" 113 2685 2715
+type(
+  string
+)
+ident(
+  def err "connection.ml" 113 2685 2718 "connection.ml" 113 2685 2767
+)
+"connection.ml" 113 2685 2718 "connection.ml" 113 2685 2728
+type(
+  t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  int_ref send_reply "connection.ml" 110 2595 2599 "connection.ml" 110 2595 2609
+)
+"connection.ml" 113 2685 2729 "connection.ml" 113 2685 2732
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 113 2685 2700 "connection.ml" 113 2685 2703
+)
+"connection.ml" 113 2685 2733 "connection.ml" 113 2685 2736
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 113 2685 2704 "connection.ml" 113 2685 2707
+)
+"connection.ml" 113 2685 2737 "connection.ml" 113 2685 2740
+type(
+  int
+)
+ident(
+  int_ref rid "connection.ml" 113 2685 2708 "connection.ml" 113 2685 2711
+)
+"connection.ml" 113 2685 2741 "connection.ml" 113 2685 2752
+type(
+  Xb.Op.operation
+)
+"connection.ml" 113 2685 2754 "connection.ml" 113 2685 2757
+type(
+  string
+)
+ident(
+  int_ref err "connection.ml" 113 2685 2712 "connection.ml" 113 2685 2715
+)
+"connection.ml" 113 2685 2758 "connection.ml" 113 2685 2759
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"connection.ml" 113 2685 2760 "connection.ml" 113 2685 2766
+type(
+  string
+)
+"connection.ml" 113 2685 2753 "connection.ml" 113 2685 2767
+type(
+  string
+)
+"connection.ml" 113 2685 2718 "connection.ml" 113 2685 2767
+type(
+  unit
+)
+"connection.ml" 114 2768 2772 "connection.ml" 114 2768 2780
+type(
+  t -> int -> int -> Xb.Op.operation -> unit
+)
+ident(
+  def send_ack "connection.ml" 116 2834 2834 --
+)
+"connection.ml" 114 2768 2781 "connection.ml" 114 2768 2784
+type(
+  t
+)
+ident(
+  def con "connection.ml" 114 2768 2785 "connection.ml" 114 2768 2832
+)
+"connection.ml" 114 2768 2785 "connection.ml" 114 2768 2788
+type(
+  int
+)
+ident(
+  def tid "connection.ml" 114 2768 2789 "connection.ml" 114 2768 2832
+)
+"connection.ml" 114 2768 2789 "connection.ml" 114 2768 2792
+type(
+  int
+)
+ident(
+  def rid "connection.ml" 114 2768 2793 "connection.ml" 114 2768 2832
+)
+"connection.ml" 114 2768 2793 "connection.ml" 114 2768 2795
+type(
+  Xb.Op.operation
+)
+ident(
+  def ty "connection.ml" 114 2768 2798 "connection.ml" 114 2768 2832
+)
+"connection.ml" 114 2768 2798 "connection.ml" 114 2768 2808
+type(
+  t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  int_ref send_reply "connection.ml" 110 2595 2599 "connection.ml" 110 2595 2609
+)
+"connection.ml" 114 2768 2809 "connection.ml" 114 2768 2812
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 114 2768 2781 "connection.ml" 114 2768 2784
+)
+"connection.ml" 114 2768 2813 "connection.ml" 114 2768 2816
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 114 2768 2785 "connection.ml" 114 2768 2788
+)
+"connection.ml" 114 2768 2817 "connection.ml" 114 2768 2820
+type(
+  int
+)
+ident(
+  int_ref rid "connection.ml" 114 2768 2789 "connection.ml" 114 2768 2792
+)
+"connection.ml" 114 2768 2821 "connection.ml" 114 2768 2823
+type(
+  Xb.Op.operation
+)
+ident(
+  int_ref ty "connection.ml" 114 2768 2793 "connection.ml" 114 2768 2795
+)
+"connection.ml" 114 2768 2824 "connection.ml" 114 2768 2832
+type(
+  string
+)
+"connection.ml" 114 2768 2798 "connection.ml" 114 2768 2832
+type(
+  unit
+)
+"connection.ml" 116 2834 2838 "connection.ml" 116 2834 2852
+type(
+  t -> string -> string
+)
+ident(
+  def get_watch_path "connection.ml" 123 2965 2965 --
+)
+"connection.ml" 116 2834 2853 "connection.ml" 116 2834 2856
+type(
+  t
+)
+ident(
+  def con "connection.ml" 116 2834 2857 "connection.ml" 121 2949 2963
+)
+"connection.ml" 116 2834 2857 "connection.ml" 116 2834 2861
+type(
+  string
+)
+ident(
+  def path "connection.ml" 117 2864 2865 "connection.ml" 121 2949 2963
+)
+"connection.ml" 117 2864 2868 "connection.ml" 117 2864 2872
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 116 2834 2857 "connection.ml" 116 2834 2861
+)
+"connection.ml" 117 2864 2874 "connection.ml" 117 2864 2875
+type(
+  int
+)
+"connection.ml" 117 2864 2868 "connection.ml" 117 2864 2876
+type(
+  char
+)
+"connection.ml" 117 2864 2877 "connection.ml" 117 2864 2878
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"connection.ml" 117 2864 2879 "connection.ml" 117 2864 2882
+type(
+  char
+)
+"connection.ml" 117 2864 2868 "connection.ml" 117 2864 2882
+type(
+  bool
+)
+"connection.ml" 117 2864 2883 "connection.ml" 117 2864 2885
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"connection.ml" 117 2864 2886 "connection.ml" 117 2864 2890
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 116 2834 2857 "connection.ml" 116 2834 2861
+)
+"connection.ml" 117 2864 2892 "connection.ml" 117 2864 2893
+type(
+  int
+)
+"connection.ml" 117 2864 2886 "connection.ml" 117 2864 2894
+type(
+  char
+)
+"connection.ml" 117 2864 2895 "connection.ml" 117 2864 2896
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"connection.ml" 117 2864 2897 "connection.ml" 117 2864 2900
+type(
+  char
+)
+"connection.ml" 117 2864 2886 "connection.ml" 117 2864 2900
+type(
+  bool
+)
+"connection.ml" 117 2864 2868 "connection.ml" 117 2864 2900
+type(
+  bool
+)
+"connection.ml" 118 2906 2908 "connection.ml" 118 2906 2912
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 116 2834 2857 "connection.ml" 116 2834 2861
+)
+"connection.ml" 120 2919 2925 "connection.ml" 120 2919 2930
+type(
+  string
+)
+"connection.ml" 120 2919 2933 "connection.ml" 120 2919 2941
+type(
+  t -> string
+)
+ident(
+  int_ref get_path "connection.ml" 41 1067 1071 "connection.ml" 41 1067 1079
+)
+"connection.ml" 120 2919 2942 "connection.ml" 120 2919 2945
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 116 2834 2853 "connection.ml" 116 2834 2856
+)
+"connection.ml" 120 2919 2933 "connection.ml" 120 2919 2945
+type(
+  string
+)
+"connection.ml" 121 2949 2951 "connection.ml" 121 2949 2956
+type(
+  string
+)
+ident(
+  int_ref rpath "connection.ml" 120 2919 2925 "connection.ml" 120 2919 2930
+)
+"connection.ml" 121 2949 2957 "connection.ml" 121 2949 2958
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"connection.ml" 121 2949 2959 "connection.ml" 121 2949 2963
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 116 2834 2857 "connection.ml" 116 2834 2861
+)
+"connection.ml" 121 2949 2951 "connection.ml" 121 2949 2963
+type(
+  string
+)
+"connection.ml" 120 2919 2921 "connection.ml" 121 2949 2963
+type(
+  string
+)
+"connection.ml" 117 2864 2865 "connection.ml" 121 2949 2963
+type(
+  string
+)
+"connection.ml" 123 2965 2969 "connection.ml" 123 2965 2980
+type(
+  t -> string -> watch list
+)
+ident(
+  def get_watches "connection.ml" 128 3076 3076 --
+)
+"connection.ml" 123 2965 2982 "connection.ml" 123 2965 2985
+type(
+  t
+)
+ident(
+  def con "connection.ml" 123 2965 2990 "connection.ml" 126 3066 3074
+)
+"connection.ml" 123 2965 2990 "connection.ml" 123 2965 2994
+type(
+  string
+)
+ident(
+  def path "connection.ml" 124 2997 2998 "connection.ml" 126 3066 3074
+)
+"connection.ml" 124 2997 3001 "connection.ml" 124 2997 3012
+type(
+  (string, watch list) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"connection.ml" 124 2997 3013 "connection.ml" 124 2997 3016
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 123 2965 2982 "connection.ml" 123 2965 2985
+)
+"connection.ml" 124 2997 3013 "connection.ml" 124 2997 3024
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 124 2997 3025 "connection.ml" 124 2997 3029
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 123 2965 2990 "connection.ml" 123 2965 2994
+)
+"connection.ml" 124 2997 3001 "connection.ml" 124 2997 3029
+type(
+  bool
+)
+"connection.ml" 125 3030 3036 "connection.ml" 125 3030 3048
+type(
+  (string, watch list) Hashtbl.t -> string -> watch list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"connection.ml" 125 3030 3049 "connection.ml" 125 3030 3052
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 123 2965 2982 "connection.ml" 123 2965 2985
+)
+"connection.ml" 125 3030 3049 "connection.ml" 125 3030 3060
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 125 3030 3061 "connection.ml" 125 3030 3065
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 123 2965 2990 "connection.ml" 123 2965 2994
+)
+"connection.ml" 125 3030 3036 "connection.ml" 125 3030 3065
+type(
+  watch list
+)
+"connection.ml" 126 3066 3072 "connection.ml" 126 3066 3074
+type(
+  watch list
+)
+"connection.ml" 124 2997 2998 "connection.ml" 126 3066 3074
+type(
+  watch list
+)
+"connection.ml" 128 3076 3080 "connection.ml" 128 3076 3100
+type(
+  t -> string -> watch list
+)
+ident(
+  def get_children_watches "connection.ml" 133 3246 3246 --
+)
+"connection.ml" 128 3076 3101 "connection.ml" 128 3076 3104
+type(
+  t
+)
+ident(
+  def con "connection.ml" 128 3076 3105 "connection.ml" 131 3179 3244
+)
+"connection.ml" 128 3076 3105 "connection.ml" 128 3076 3109
+type(
+  string
+)
+ident(
+  def path "connection.ml" 129 3112 3113 "connection.ml" 131 3179 3244
+)
+"connection.ml" 129 3112 3117 "connection.ml" 129 3112 3121
+type(
+  string
+)
+"connection.ml" 129 3112 3124 "connection.ml" 129 3112 3128
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 128 3076 3105 "connection.ml" 128 3076 3109
+)
+"connection.ml" 129 3112 3129 "connection.ml" 129 3112 3130
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"connection.ml" 129 3112 3131 "connection.ml" 129 3112 3134
+type(
+  string
+)
+"connection.ml" 129 3112 3124 "connection.ml" 129 3112 3134
+type(
+  string
+)
+"connection.ml" 130 3138 3139 "connection.ml" 130 3138 3150
+type(
+  watch list list -> watch list
+)
+ident(
+  ext_ref List.concat
+)
+"connection.ml" 130 3138 3152 "connection.ml" 130 3138 3164
+type(
+  (string -> watch list -> watch list list -> watch list list) ->
+  (string, watch list) Hashtbl.t -> watch list list -> watch list list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"connection.ml" 130 3138 3170 "connection.ml" 130 3138 3171
+type(
+  string
+)
+ident(
+  def p "connection.ml" 130 3138 3172 "connection.ml" 131 3179 3227
+)
+"connection.ml" 130 3138 3172 "connection.ml" 130 3138 3173
+type(
+  watch list
+)
+ident(
+  def w "connection.ml" 130 3138 3174 "connection.ml" 131 3179 3227
+)
+"connection.ml" 130 3138 3174 "connection.ml" 130 3138 3175
+type(
+  watch list list
+)
+ident(
+  def l "connection.ml" 131 3179 3181 "connection.ml" 131 3179 3227
+)
+"connection.ml" 131 3179 3184 "connection.ml" 131 3179 3201
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Stdext.String.startswith
+)
+"connection.ml" 131 3179 3202 "connection.ml" 131 3179 3206
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 129 3112 3117 "connection.ml" 129 3112 3121
+)
+"connection.ml" 131 3179 3207 "connection.ml" 131 3179 3208
+type(
+  string
+)
+ident(
+  int_ref p "connection.ml" 130 3138 3170 "connection.ml" 130 3138 3171
+)
+"connection.ml" 131 3179 3184 "connection.ml" 131 3179 3208
+type(
+  bool
+)
+"connection.ml" 131 3179 3214 "connection.ml" 131 3179 3215
+type(
+  watch list
+)
+ident(
+  int_ref w "connection.ml" 130 3138 3172 "connection.ml" 130 3138 3173
+)
+"connection.ml" 131 3179 3219 "connection.ml" 131 3179 3220
+type(
+  watch list list
+)
+ident(
+  int_ref l "connection.ml" 130 3138 3174 "connection.ml" 130 3138 3175
+)
+"connection.ml" 131 3179 3214 "connection.ml" 131 3179 3220
+type(
+  watch list list
+)
+"connection.ml" 131 3179 3226 "connection.ml" 131 3179 3227
+type(
+  watch list list
+)
+ident(
+  int_ref l "connection.ml" 130 3138 3174 "connection.ml" 130 3138 3175
+)
+"connection.ml" 131 3179 3181 "connection.ml" 131 3179 3227
+type(
+  watch list list
+)
+"connection.ml" 130 3138 3165 "connection.ml" 131 3179 3228
+type(
+  string -> watch list -> watch list list -> watch list list
+)
+"connection.ml" 131 3179 3229 "connection.ml" 131 3179 3232
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 128 3076 3101 "connection.ml" 128 3076 3104
+)
+"connection.ml" 131 3179 3229 "connection.ml" 131 3179 3240
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 131 3179 3241 "connection.ml" 131 3179 3243
+type(
+  watch list list
+)
+"connection.ml" 130 3138 3151 "connection.ml" 131 3179 3244
+type(
+  watch list list
+)
+"connection.ml" 130 3138 3139 "connection.ml" 131 3179 3244
+type(
+  watch list
+)
+"connection.ml" 129 3112 3113 "connection.ml" 131 3179 3244
+type(
+  watch list
+)
+"connection.ml" 133 3246 3250 "connection.ml" 133 3246 3257
+type(
+  t -> bool
+)
+ident(
+  def is_dom0 "connection.ml" 136 3306 3306 --
+)
+"connection.ml" 133 3246 3258 "connection.ml" 133 3246 3261
+type(
+  t
+)
+ident(
+  def con "connection.ml" 134 3264 3265 "connection.ml" 134 3264 3304
+)
+"connection.ml" 134 3264 3265 "connection.ml" 134 3264 3289
+type(
+  Perms.Connection.t -> bool
+)
+ident(
+  ext_ref Perms.Connection.is_dom0
+)
+"connection.ml" 134 3264 3291 "connection.ml" 134 3264 3299
+type(
+  t -> Perms.Connection.t
+)
+ident(
+  int_ref get_perm "connection.ml" 101 2348 2352 "connection.ml" 101 2348 2360
+)
+"connection.ml" 134 3264 3300 "connection.ml" 134 3264 3303
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 133 3246 3258 "connection.ml" 133 3246 3261
+)
+"connection.ml" 134 3264 3290 "connection.ml" 134 3264 3304
+type(
+  Perms.Connection.t
+)
+"connection.ml" 134 3264 3265 "connection.ml" 134 3264 3304
+type(
+  bool
+)
+"connection.ml" 136 3306 3310 "connection.ml" 136 3306 3319
+type(
+  t -> string -> string -> string * watch
+)
+ident(
+  def add_watch "connection.ml" 149 3781 3781 --
+)
+"connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+type(
+  t
+)
+ident(
+  def con "connection.ml" 136 3306 3324 "connection.ml" 147 3766 3779
+)
+"connection.ml" 136 3306 3324 "connection.ml" 136 3306 3328
+type(
+  string
+)
+ident(
+  def path "connection.ml" 136 3306 3329 "connection.ml" 147 3766 3779
+)
+"connection.ml" 136 3306 3329 "connection.ml" 136 3306 3334
+type(
+  string
+)
+ident(
+  def token "connection.ml" 137 3337 3338 "connection.ml" 147 3766 3779
+)
+"connection.ml" 137 3337 3341 "connection.ml" 137 3337 3342
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 137 3337 3342 "connection.ml" 137 3337 3356
+type(
+  bool ref
+)
+ident(
+  ext_ref Quota.activate
+)
+"connection.ml" 137 3337 3341 "connection.ml" 137 3337 3356
+type(
+  bool
+)
+"connection.ml" 137 3337 3357 "connection.ml" 137 3337 3359
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 137 3337 3360 "connection.ml" 137 3337 3361
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 137 3337 3361 "connection.ml" 137 3337 3376
+type(
+  int ref
+)
+ident(
+  ext_ref Define.maxwatch
+)
+"connection.ml" 137 3337 3360 "connection.ml" 137 3337 3376
+type(
+  int
+)
+"connection.ml" 137 3337 3377 "connection.ml" 137 3337 3378
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"connection.ml" 137 3337 3379 "connection.ml" 137 3337 3380
+type(
+  int
+)
+"connection.ml" 137 3337 3360 "connection.ml" 137 3337 3380
+type(
+  bool
+)
+"connection.ml" 137 3337 3381 "connection.ml" 137 3337 3383
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 138 3384 3388 "connection.ml" 138 3384 3391
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"connection.ml" 138 3384 3393 "connection.ml" 138 3384 3400
+type(
+  t -> bool
+)
+ident(
+  int_ref is_dom0 "connection.ml" 133 3246 3250 "connection.ml" 133 3246 3257
+)
+"connection.ml" 138 3384 3401 "connection.ml" 138 3384 3404
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 138 3384 3392 "connection.ml" 138 3384 3405
+type(
+  bool
+)
+"connection.ml" 138 3384 3388 "connection.ml" 138 3384 3405
+type(
+  bool
+)
+"connection.ml" 138 3384 3406 "connection.ml" 138 3384 3408
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 138 3384 3409 "connection.ml" 138 3384 3412
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 138 3384 3409 "connection.ml" 138 3384 3423
+type(
+  int
+)
+"connection.ml" 138 3384 3424 "connection.ml" 138 3384 3425
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"connection.ml" 138 3384 3426 "connection.ml" 138 3384 3427
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 138 3384 3427 "connection.ml" 138 3384 3442
+type(
+  int ref
+)
+ident(
+  ext_ref Define.maxwatch
+)
+"connection.ml" 138 3384 3426 "connection.ml" 138 3384 3442
+type(
+  int
+)
+"connection.ml" 138 3384 3409 "connection.ml" 138 3384 3442
+type(
+  bool
+)
+"connection.ml" 138 3384 3388 "connection.ml" 138 3384 3442
+type(
+  bool
+)
+"connection.ml" 137 3337 3360 "connection.ml" 138 3384 3442
+type(
+  bool
+)
+"connection.ml" 137 3337 3341 "connection.ml" 138 3384 3442
+type(
+  bool
+)
+"connection.ml" 139 3448 3450 "connection.ml" 139 3448 3455
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"connection.ml" 139 3448 3456 "connection.ml" 139 3448 3475
+type(
+  exn
+)
+"connection.ml" 139 3448 3450 "connection.ml" 139 3448 3475
+type(
+  unit
+)
+"connection.ml" 137 3337 3338 "connection.ml" 139 3448 3475
+type(
+  unit
+)
+"connection.ml" 140 3477 3482 "connection.ml" 140 3477 3487
+type(
+  string
+)
+"connection.ml" 140 3477 3490 "connection.ml" 140 3477 3504
+type(
+  t -> string -> string
+)
+ident(
+  int_ref get_watch_path "connection.ml" 116 2834 2838 "connection.ml" 116 2834 2852
+)
+"connection.ml" 140 3477 3505 "connection.ml" 140 3477 3508
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 140 3477 3509 "connection.ml" 140 3477 3513
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 136 3306 3324 "connection.ml" 136 3306 3328
+)
+"connection.ml" 140 3477 3490 "connection.ml" 140 3477 3513
+type(
+  string
+)
+"connection.ml" 141 3517 3522 "connection.ml" 141 3517 3523
+type(
+  watch list
+)
+"connection.ml" 141 3517 3526 "connection.ml" 141 3517 3537
+type(
+  t -> string -> watch list
+)
+ident(
+  int_ref get_watches "connection.ml" 123 2965 2969 "connection.ml" 123 2965 2980
+)
+"connection.ml" 141 3517 3538 "connection.ml" 141 3517 3541
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 141 3517 3542 "connection.ml" 141 3517 3547
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 140 3477 3482 "connection.ml" 140 3477 3487
+)
+"connection.ml" 141 3517 3526 "connection.ml" 141 3517 3547
+type(
+  watch list
+)
+"connection.ml" 142 3551 3555 "connection.ml" 142 3551 3566
+type(
+  (watch -> bool) -> watch list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"connection.ml" 142 3551 3572 "connection.ml" 142 3551 3573
+type(
+  watch
+)
+ident(
+  def w "connection.ml" 142 3551 3577 "connection.ml" 142 3551 3592
+)
+"connection.ml" 142 3551 3577 "connection.ml" 142 3551 3578
+type(
+  watch
+)
+ident(
+  int_ref w "connection.ml" 142 3551 3572 "connection.ml" 142 3551 3573
+)
+"connection.ml" 142 3551 3577 "connection.ml" 142 3551 3584
+type(
+  string
+)
+"connection.ml" 142 3551 3585 "connection.ml" 142 3551 3586
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"connection.ml" 142 3551 3587 "connection.ml" 142 3551 3592
+type(
+  string
+)
+ident(
+  int_ref token "connection.ml" 136 3306 3329 "connection.ml" 136 3306 3334
+)
+"connection.ml" 142 3551 3577 "connection.ml" 142 3551 3592
+type(
+  bool
+)
+"connection.ml" 142 3551 3567 "connection.ml" 142 3551 3593
+type(
+  watch -> bool
+)
+"connection.ml" 142 3551 3594 "connection.ml" 142 3551 3595
+type(
+  watch list
+)
+ident(
+  int_ref l "connection.ml" 141 3517 3522 "connection.ml" 141 3517 3523
+)
+"connection.ml" 142 3551 3555 "connection.ml" 142 3551 3595
+type(
+  bool
+)
+"connection.ml" 143 3601 3603 "connection.ml" 143 3601 3608
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"connection.ml" 143 3601 3609 "connection.ml" 143 3601 3629
+type(
+  exn
+)
+"connection.ml" 143 3601 3603 "connection.ml" 143 3601 3629
+type(
+  unit
+)
+"connection.ml" 142 3551 3552 "connection.ml" 143 3601 3629
+type(
+  unit
+)
+"connection.ml" 144 3631 3636 "connection.ml" 144 3631 3641
+type(
+  watch
+)
+"connection.ml" 144 3631 3644 "connection.ml" 144 3631 3656
+type(
+  con:t -> path:string -> token:string -> watch
+)
+ident(
+  int_ref watch_create "connection.ml" 44 1181 1185 "connection.ml" 44 1181 1197
+)
+"connection.ml" 144 3631 3658 "connection.ml" 144 3631 3661
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 144 3631 3663 "connection.ml" 144 3631 3668
+type(
+  string
+)
+ident(
+  int_ref token "connection.ml" 136 3306 3329 "connection.ml" 136 3306 3334
+)
+"connection.ml" 144 3631 3670 "connection.ml" 144 3631 3674
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 136 3306 3324 "connection.ml" 136 3306 3328
+)
+"connection.ml" 144 3631 3644 "connection.ml" 144 3631 3674
+type(
+  watch
+)
+"connection.ml" 145 3678 3679 "connection.ml" 145 3678 3694
+type(
+  (string, watch list) Hashtbl.t -> string -> watch list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"connection.ml" 145 3678 3695 "connection.ml" 145 3678 3698
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 145 3678 3695 "connection.ml" 145 3678 3706
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 145 3678 3707 "connection.ml" 145 3678 3712
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 140 3477 3482 "connection.ml" 140 3477 3487
+)
+"connection.ml" 145 3678 3714 "connection.ml" 145 3678 3719
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 144 3631 3636 "connection.ml" 144 3631 3641
+)
+"connection.ml" 145 3678 3723 "connection.ml" 145 3678 3724
+type(
+  watch list
+)
+ident(
+  int_ref l "connection.ml" 141 3517 3522 "connection.ml" 141 3517 3523
+)
+"connection.ml" 145 3678 3713 "connection.ml" 145 3678 3725
+type(
+  watch list
+)
+"connection.ml" 145 3678 3679 "connection.ml" 145 3678 3725
+type(
+  unit
+)
+"connection.ml" 146 3727 3728 "connection.ml" 146 3727 3731
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 146 3727 3746 "connection.ml" 146 3727 3749
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 136 3306 3320 "connection.ml" 136 3306 3323
+)
+"connection.ml" 146 3727 3746 "connection.ml" 146 3727 3760
+type(
+  int
+)
+"connection.ml" 146 3727 3761 "connection.ml" 146 3727 3762
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"connection.ml" 146 3727 3763 "connection.ml" 146 3727 3764
+type(
+  int
+)
+"connection.ml" 146 3727 3746 "connection.ml" 146 3727 3764
+type(
+  int
+)
+"connection.ml" 146 3727 3728 "connection.ml" 146 3727 3764
+type(
+  unit
+)
+"connection.ml" 147 3766 3767 "connection.ml" 147 3766 3772
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 140 3477 3482 "connection.ml" 140 3477 3487
+)
+"connection.ml" 147 3766 3774 "connection.ml" 147 3766 3779
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 144 3631 3636 "connection.ml" 144 3631 3641
+)
+"connection.ml" 147 3766 3767 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 146 3727 3728 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 145 3678 3679 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 144 3631 3632 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 142 3551 3552 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 141 3517 3518 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 140 3477 3478 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 137 3337 3338 "connection.ml" 147 3766 3779
+type(
+  string * watch
+)
+"connection.ml" 149 3781 3785 "connection.ml" 149 3781 3794
+type(
+  t -> string -> string -> string * watch
+)
+ident(
+  def del_watch "connection.ml" 161 4161 4161 --
+)
+"connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+type(
+  t
+)
+ident(
+  def con "connection.ml" 149 3781 3799 "connection.ml" 159 4150 4159
+)
+"connection.ml" 149 3781 3799 "connection.ml" 149 3781 3803
+type(
+  string
+)
+ident(
+  def path "connection.ml" 149 3781 3804 "connection.ml" 159 4150 4159
+)
+"connection.ml" 149 3781 3804 "connection.ml" 149 3781 3809
+type(
+  string
+)
+ident(
+  def token "connection.ml" 150 3812 3813 "connection.ml" 159 4150 4159
+)
+"connection.ml" 150 3812 3817 "connection.ml" 150 3812 3822
+type(
+  string
+)
+"connection.ml" 150 3812 3825 "connection.ml" 150 3812 3839
+type(
+  t -> string -> string
+)
+ident(
+  int_ref get_watch_path "connection.ml" 116 2834 2838 "connection.ml" 116 2834 2852
+)
+"connection.ml" 150 3812 3840 "connection.ml" 150 3812 3843
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 150 3812 3844 "connection.ml" 150 3812 3848
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 149 3781 3799 "connection.ml" 149 3781 3803
+)
+"connection.ml" 150 3812 3825 "connection.ml" 150 3812 3848
+type(
+  string
+)
+"connection.ml" 151 3852 3857 "connection.ml" 151 3852 3859
+type(
+  watch list
+)
+"connection.ml" 151 3852 3862 "connection.ml" 151 3852 3874
+type(
+  (string, watch list) Hashtbl.t -> string -> watch list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"connection.ml" 151 3852 3875 "connection.ml" 151 3852 3878
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 151 3852 3875 "connection.ml" 151 3852 3886
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 151 3852 3887 "connection.ml" 151 3852 3892
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 150 3812 3817 "connection.ml" 150 3812 3822
+)
+"connection.ml" 151 3852 3862 "connection.ml" 151 3852 3892
+type(
+  watch list
+)
+"connection.ml" 152 3896 3901 "connection.ml" 152 3896 3902
+type(
+  watch
+)
+"connection.ml" 152 3896 3905 "connection.ml" 152 3896 3914
+type(
+  (watch -> bool) -> watch list -> watch
+)
+ident(
+  ext_ref List.find
+)
+"connection.ml" 152 3896 3920 "connection.ml" 152 3896 3921
+type(
+  watch
+)
+ident(
+  def w "connection.ml" 152 3896 3925 "connection.ml" 152 3896 3940
+)
+"connection.ml" 152 3896 3925 "connection.ml" 152 3896 3926
+type(
+  watch
+)
+ident(
+  int_ref w "connection.ml" 152 3896 3920 "connection.ml" 152 3896 3921
+)
+"connection.ml" 152 3896 3925 "connection.ml" 152 3896 3932
+type(
+  string
+)
+"connection.ml" 152 3896 3933 "connection.ml" 152 3896 3934
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"connection.ml" 152 3896 3935 "connection.ml" 152 3896 3940
+type(
+  string
+)
+ident(
+  int_ref token "connection.ml" 149 3781 3804 "connection.ml" 149 3781 3809
+)
+"connection.ml" 152 3896 3925 "connection.ml" 152 3896 3940
+type(
+  bool
+)
+"connection.ml" 152 3896 3915 "connection.ml" 152 3896 3941
+type(
+  watch -> bool
+)
+"connection.ml" 152 3896 3942 "connection.ml" 152 3896 3944
+type(
+  watch list
+)
+ident(
+  int_ref ws "connection.ml" 151 3852 3857 "connection.ml" 151 3852 3859
+)
+"connection.ml" 152 3896 3905 "connection.ml" 152 3896 3944
+type(
+  watch
+)
+"connection.ml" 153 3948 3953 "connection.ml" 153 3948 3961
+type(
+  watch list
+)
+"connection.ml" 153 3948 3964 "connection.ml" 153 3948 3981
+type(
+  watch -> watch list -> watch list
+)
+ident(
+  ext_ref Utils.list_remove
+)
+"connection.ml" 153 3948 3982 "connection.ml" 153 3948 3983
+type(
+  watch
+)
+ident(
+  int_ref w "connection.ml" 152 3896 3901 "connection.ml" 152 3896 3902
+)
+"connection.ml" 153 3948 3984 "connection.ml" 153 3948 3986
+type(
+  watch list
+)
+ident(
+  int_ref ws "connection.ml" 151 3852 3857 "connection.ml" 151 3852 3859
+)
+"connection.ml" 153 3948 3964 "connection.ml" 153 3948 3986
+type(
+  watch list
+)
+"connection.ml" 154 3990 3994 "connection.ml" 154 3990 4005
+type(
+  watch list -> int
+)
+ident(
+  ext_ref List.length
+)
+"connection.ml" 154 3990 4006 "connection.ml" 154 3990 4014
+type(
+  watch list
+)
+ident(
+  int_ref filtered "connection.ml" 153 3948 3953 "connection.ml" 153 3948 3961
+)
+"connection.ml" 154 3990 3994 "connection.ml" 154 3990 4014
+type(
+  int
+)
+"connection.ml" 154 3990 4015 "connection.ml" 154 3990 4016
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"connection.ml" 154 3990 4017 "connection.ml" 154 3990 4018
+type(
+  int
+)
+"connection.ml" 154 3990 3994 "connection.ml" 154 3990 4018
+type(
+  bool
+)
+"connection.ml" 155 4024 4026 "connection.ml" 155 4024 4041
+type(
+  (string, watch list) Hashtbl.t -> string -> watch list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"connection.ml" 155 4024 4042 "connection.ml" 155 4024 4045
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 155 4024 4042 "connection.ml" 155 4024 4053
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 155 4024 4054 "connection.ml" 155 4024 4059
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 150 3812 3817 "connection.ml" 150 3812 3822
+)
+"connection.ml" 155 4024 4060 "connection.ml" 155 4024 4068
+type(
+  watch list
+)
+ident(
+  int_ref filtered "connection.ml" 153 3948 3953 "connection.ml" 153 3948 3961
+)
+"connection.ml" 155 4024 4026 "connection.ml" 155 4024 4068
+type(
+  unit
+)
+"connection.ml" 157 4075 4077 "connection.ml" 157 4075 4091
+type(
+  (string, watch list) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"connection.ml" 157 4075 4092 "connection.ml" 157 4075 4095
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 157 4075 4092 "connection.ml" 157 4075 4103
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 157 4075 4104 "connection.ml" 157 4075 4109
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 150 3812 3817 "connection.ml" 150 3812 3822
+)
+"connection.ml" 157 4075 4077 "connection.ml" 157 4075 4109
+type(
+  unit
+)
+"connection.ml" 154 3990 3991 "connection.ml" 157 4075 4109
+type(
+  unit
+)
+"connection.ml" 158 4111 4112 "connection.ml" 158 4111 4115
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 158 4111 4130 "connection.ml" 158 4111 4133
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 149 3781 3795 "connection.ml" 149 3781 3798
+)
+"connection.ml" 158 4111 4130 "connection.ml" 158 4111 4144
+type(
+  int
+)
+"connection.ml" 158 4111 4145 "connection.ml" 158 4111 4146
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"connection.ml" 158 4111 4147 "connection.ml" 158 4111 4148
+type(
+  int
+)
+"connection.ml" 158 4111 4130 "connection.ml" 158 4111 4148
+type(
+  int
+)
+"connection.ml" 158 4111 4112 "connection.ml" 158 4111 4148
+type(
+  unit
+)
+"connection.ml" 159 4150 4151 "connection.ml" 159 4150 4156
+type(
+  string
+)
+ident(
+  int_ref apath "connection.ml" 150 3812 3817 "connection.ml" 150 3812 3822
+)
+"connection.ml" 159 4150 4158 "connection.ml" 159 4150 4159
+type(
+  watch
+)
+ident(
+  int_ref w "connection.ml" 152 3896 3901 "connection.ml" 152 3896 3902
+)
+"connection.ml" 159 4150 4151 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 158 4111 4112 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 154 3990 3991 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 153 3948 3949 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 152 3896 3897 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 151 3852 3853 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 150 3812 3813 "connection.ml" 159 4150 4159
+type(
+  string * watch
+)
+"connection.ml" 161 4161 4165 "connection.ml" 161 4161 4177
+type(
+  t -> (string * string) list
+)
+ident(
+  def list_watches "connection.ml" 167 4333 4333 --
+)
+"connection.ml" 161 4161 4178 "connection.ml" 161 4161 4181
+type(
+  t
+)
+ident(
+  def con "connection.ml" 162 4184 4185 "connection.ml" 165 4316 4331
+)
+"connection.ml" 162 4184 4189 "connection.ml" 162 4184 4191
+type(
+  (string * string) list list
+)
+"connection.ml" 162 4184 4194 "connection.ml" 162 4184 4206
+type(
+  (string ->
+   watch list -> (string * string) list list -> (string * string) list list) ->
+  (string, watch list) Hashtbl.t ->
+  (string * string) list list -> (string * string) list list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"connection.ml" 163 4208 4215 "connection.ml" 163 4208 4216
+type(
+  string
+)
+"connection.ml" 163 4208 4217 "connection.ml" 163 4208 4224
+type(
+  watch list
+)
+ident(
+  def watches "connection.ml" 163 4208 4225 "connection.ml" 163 4208 4294
+)
+"connection.ml" 163 4208 4225 "connection.ml" 163 4208 4228
+type(
+  (string * string) list list
+)
+ident(
+  def acc "connection.ml" 163 4208 4232 "connection.ml" 163 4208 4294
+)
+"connection.ml" 163 4208 4232 "connection.ml" 163 4208 4240
+type(
+  (watch -> string * string) -> watch list -> (string * string) list
+)
+ident(
+  ext_ref List.map
+)
+"connection.ml" 163 4208 4246 "connection.ml" 163 4208 4251
+type(
+  watch
+)
+ident(
+  def watch "connection.ml" 163 4208 4255 "connection.ml" 163 4208 4278
+)
+"connection.ml" 163 4208 4255 "connection.ml" 163 4208 4260
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 163 4208 4246 "connection.ml" 163 4208 4251
+)
+"connection.ml" 163 4208 4255 "connection.ml" 163 4208 4265
+type(
+  string
+)
+"connection.ml" 163 4208 4267 "connection.ml" 163 4208 4272
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 163 4208 4246 "connection.ml" 163 4208 4251
+)
+"connection.ml" 163 4208 4267 "connection.ml" 163 4208 4278
+type(
+  string
+)
+"connection.ml" 163 4208 4255 "connection.ml" 163 4208 4278
+type(
+  string * string
+)
+"connection.ml" 163 4208 4241 "connection.ml" 163 4208 4279
+type(
+  watch -> string * string
+)
+"connection.ml" 163 4208 4280 "connection.ml" 163 4208 4287
+type(
+  watch list
+)
+ident(
+  int_ref watches "connection.ml" 163 4208 4217 "connection.ml" 163 4208 4224
+)
+"connection.ml" 163 4208 4232 "connection.ml" 163 4208 4287
+type(
+  (string * string) list
+)
+"connection.ml" 163 4208 4291 "connection.ml" 163 4208 4294
+type(
+  (string * string) list list
+)
+ident(
+  int_ref acc "connection.ml" 163 4208 4225 "connection.ml" 163 4208 4228
+)
+"connection.ml" 163 4208 4232 "connection.ml" 163 4208 4294
+type(
+  (string * string) list list
+)
+"connection.ml" 163 4208 4210 "connection.ml" 163 4208 4295
+type(
+  string ->
+  watch list -> (string * string) list list -> (string * string) list list
+)
+"connection.ml" 164 4296 4298 "connection.ml" 164 4296 4301
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 161 4161 4178 "connection.ml" 161 4161 4181
+)
+"connection.ml" 164 4296 4298 "connection.ml" 164 4296 4309
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 164 4296 4310 "connection.ml" 164 4296 4312
+type(
+  (string * string) list list
+)
+"connection.ml" 162 4184 4194 "connection.ml" 164 4296 4312
+type(
+  (string * string) list list
+)
+"connection.ml" 165 4316 4317 "connection.ml" 165 4316 4328
+type(
+  (string * string) list list -> (string * string) list
+)
+ident(
+  ext_ref List.concat
+)
+"connection.ml" 165 4316 4329 "connection.ml" 165 4316 4331
+type(
+  (string * string) list list
+)
+ident(
+  int_ref ll "connection.ml" 162 4184 4189 "connection.ml" 162 4184 4191
+)
+"connection.ml" 165 4316 4317 "connection.ml" 165 4316 4331
+type(
+  (string * string) list
+)
+"connection.ml" 162 4184 4185 "connection.ml" 165 4316 4331
+type(
+  (string * string) list
+)
+"connection.ml" 167 4333 4337 "connection.ml" 167 4333 4354
+type(
+  watch -> unit
+)
+ident(
+  def fire_single_watch "connection.ml" 171 4491 4491 --
+)
+"connection.ml" 167 4333 4355 "connection.ml" 167 4333 4360
+type(
+  watch
+)
+ident(
+  def watch "connection.ml" 168 4363 4364 "connection.ml" 169 4427 4489
+)
+"connection.ml" 168 4363 4368 "connection.ml" 168 4363 4372
+type(
+  string
+)
+"connection.ml" 168 4363 4375 "connection.ml" 168 4363 4393
+type(
+  string list -> string
+)
+ident(
+  ext_ref Utils.join_by_null
+)
+"connection.ml" 168 4363 4395 "connection.ml" 168 4363 4400
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 167 4333 4355 "connection.ml" 167 4333 4360
+)
+"connection.ml" 168 4363 4395 "connection.ml" 168 4363 4405
+type(
+  string
+)
+"connection.ml" 168 4363 4407 "connection.ml" 168 4363 4412
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 167 4333 4355 "connection.ml" 167 4333 4360
+)
+"connection.ml" 168 4363 4407 "connection.ml" 168 4363 4418
+type(
+  string
+)
+"connection.ml" 168 4363 4420 "connection.ml" 168 4363 4422
+type(
+  string
+)
+"connection.ml" 168 4363 4394 "connection.ml" 168 4363 4423
+type(
+  string list
+)
+"connection.ml" 168 4363 4375 "connection.ml" 168 4363 4423
+type(
+  string
+)
+"connection.ml" 169 4427 4428 "connection.ml" 169 4427 4438
+type(
+  t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  int_ref send_reply "connection.ml" 110 2595 2599 "connection.ml" 110 2595 2609
+)
+"connection.ml" 169 4427 4439 "connection.ml" 169 4427 4444
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 167 4333 4355 "connection.ml" 167 4333 4360
+)
+"connection.ml" 169 4427 4439 "connection.ml" 169 4427 4448
+type(
+  t
+)
+"connection.ml" 169 4427 4449 "connection.ml" 169 4427 4465
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"connection.ml" 169 4427 4466 "connection.ml" 169 4427 4467
+type(
+  int
+)
+"connection.ml" 169 4427 4468 "connection.ml" 169 4427 4484
+type(
+  Xb.Op.operation
+)
+"connection.ml" 169 4427 4485 "connection.ml" 169 4427 4489
+type(
+  string
+)
+ident(
+  int_ref data "connection.ml" 168 4363 4368 "connection.ml" 168 4363 4372
+)
+"connection.ml" 169 4427 4428 "connection.ml" 169 4427 4489
+type(
+  unit
+)
+"connection.ml" 168 4363 4364 "connection.ml" 169 4427 4489
+type(
+  unit
+)
+"connection.ml" 171 4491 4495 "connection.ml" 171 4491 4505
+type(
+  watch -> string -> unit
+)
+ident(
+  def fire_watch "connection.ml" 184 4839 4839 --
+)
+"connection.ml" 171 4491 4506 "connection.ml" 171 4491 4511
+type(
+  watch
+)
+ident(
+  def watch "connection.ml" 171 4491 4512 "connection.ml" 182 4775 4837
+)
+"connection.ml" 171 4491 4512 "connection.ml" 171 4491 4516
+type(
+  string
+)
+ident(
+  def path "connection.ml" 172 4519 4520 "connection.ml" 182 4775 4837
+)
+"connection.ml" 172 4519 4524 "connection.ml" 172 4519 4532
+type(
+  string
+)
+"connection.ml" 173 4535 4540 "connection.ml" 173 4535 4545
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 171 4491 4506 "connection.ml" 171 4491 4511
+)
+"connection.ml" 173 4535 4540 "connection.ml" 173 4535 4557
+type(
+  bool
+)
+"connection.ml" 173 4535 4558 "connection.ml" 173 4535 4560
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 173 4535 4561 "connection.ml" 173 4535 4565
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 171 4491 4512 "connection.ml" 171 4491 4516
+)
+"connection.ml" 173 4535 4567 "connection.ml" 173 4535 4568
+type(
+  int
+)
+"connection.ml" 173 4535 4561 "connection.ml" 173 4535 4569
+type(
+  char
+)
+"connection.ml" 173 4535 4570 "connection.ml" 173 4535 4571
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"connection.ml" 173 4535 4572 "connection.ml" 173 4535 4575
+type(
+  char
+)
+"connection.ml" 173 4535 4561 "connection.ml" 173 4535 4575
+type(
+  bool
+)
+"connection.ml" 173 4535 4540 "connection.ml" 173 4535 4575
+type(
+  bool
+)
+"connection.ml" 175 4589 4596 "connection.ml" 175 4589 4597
+type(
+  int
+)
+ident(
+  def n "connection.ml" 177 4659 4662 "connection.ml" 177 4659 4687
+)
+"connection.ml" 175 4589 4600 "connection.ml" 175 4589 4613
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"connection.ml" 175 4589 4614 "connection.ml" 175 4589 4619
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 171 4491 4506 "connection.ml" 171 4491 4511
+)
+"connection.ml" 175 4589 4614 "connection.ml" 175 4589 4624
+type(
+  string
+)
+"connection.ml" 175 4589 4600 "connection.ml" 175 4589 4624
+type(
+  int
+)
+"connection.ml" 176 4625 4633 "connection.ml" 176 4625 4634
+type(
+  int
+)
+ident(
+  def m "connection.ml" 177 4659 4662 "connection.ml" 177 4659 4687
+)
+"connection.ml" 176 4625 4637 "connection.ml" 176 4625 4650
+type(
+  string -> int
+)
+ident(
+  ext_ref Stdext.String.length
+)
+"connection.ml" 176 4625 4651 "connection.ml" 176 4625 4655
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 171 4491 4512 "connection.ml" 171 4491 4516
+)
+"connection.ml" 176 4625 4637 "connection.ml" 176 4625 4655
+type(
+  int
+)
+"connection.ml" 177 4659 4662 "connection.ml" 177 4659 4672
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Stdext.String.sub
+)
+"connection.ml" 177 4659 4673 "connection.ml" 177 4659 4677
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 171 4491 4512 "connection.ml" 171 4491 4516
+)
+"connection.ml" 177 4659 4678 "connection.ml" 177 4659 4679
+type(
+  int
+)
+ident(
+  int_ref n "connection.ml" 175 4589 4596 "connection.ml" 175 4589 4597
+)
+"connection.ml" 177 4659 4681 "connection.ml" 177 4659 4682
+type(
+  int
+)
+ident(
+  int_ref m "connection.ml" 176 4625 4633 "connection.ml" 176 4625 4634
+)
+"connection.ml" 177 4659 4683 "connection.ml" 177 4659 4684
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"connection.ml" 177 4659 4685 "connection.ml" 177 4659 4686
+type(
+  int
+)
+ident(
+  int_ref n "connection.ml" 175 4589 4596 "connection.ml" 175 4589 4597
+)
+"connection.ml" 177 4659 4680 "connection.ml" 177 4659 4687
+type(
+  int
+)
+"connection.ml" 177 4659 4662 "connection.ml" 177 4659 4687
+type(
+  string
+)
+"connection.ml" 174 4576 4583 "connection.ml" 178 4688 4693
+type(
+  string
+)
+"connection.ml" 179 4699 4702 "connection.ml" 179 4699 4706
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 171 4491 4512 "connection.ml" 171 4491 4516
+)
+"connection.ml" 173 4535 4537 "connection.ml" 179 4699 4706
+type(
+  string
+)
+"connection.ml" 181 4711 4716 "connection.ml" 181 4711 4720
+type(
+  string
+)
+"connection.ml" 181 4711 4723 "connection.ml" 181 4711 4741
+type(
+  string list -> string
+)
+ident(
+  ext_ref Utils.join_by_null
+)
+"connection.ml" 181 4711 4744 "connection.ml" 181 4711 4752
+type(
+  string
+)
+ident(
+  int_ref new_path "connection.ml" 172 4519 4524 "connection.ml" 172 4519 4532
+)
+"connection.ml" 181 4711 4754 "connection.ml" 181 4711 4759
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 171 4491 4506 "connection.ml" 171 4491 4511
+)
+"connection.ml" 181 4711 4754 "connection.ml" 181 4711 4765
+type(
+  string
+)
+"connection.ml" 181 4711 4767 "connection.ml" 181 4711 4769
+type(
+  string
+)
+"connection.ml" 181 4711 4742 "connection.ml" 181 4711 4771
+type(
+  string list
+)
+"connection.ml" 181 4711 4723 "connection.ml" 181 4711 4771
+type(
+  string
+)
+"connection.ml" 182 4775 4776 "connection.ml" 182 4775 4786
+type(
+  t -> int -> int -> Xb.Op.operation -> string -> unit
+)
+ident(
+  int_ref send_reply "connection.ml" 110 2595 2599 "connection.ml" 110 2595 2609
+)
+"connection.ml" 182 4775 4787 "connection.ml" 182 4775 4792
+type(
+  watch
+)
+ident(
+  int_ref watch "connection.ml" 171 4491 4506 "connection.ml" 171 4491 4511
+)
+"connection.ml" 182 4775 4787 "connection.ml" 182 4775 4796
+type(
+  t
+)
+"connection.ml" 182 4775 4797 "connection.ml" 182 4775 4813
+type(
+  int
+)
+ident(
+  ext_ref Transaction.none
+)
+"connection.ml" 182 4775 4814 "connection.ml" 182 4775 4815
+type(
+  int
+)
+"connection.ml" 182 4775 4816 "connection.ml" 182 4775 4832
+type(
+  Xb.Op.operation
+)
+"connection.ml" 182 4775 4833 "connection.ml" 182 4775 4837
+type(
+  string
+)
+ident(
+  int_ref data "connection.ml" 181 4711 4716 "connection.ml" 181 4711 4720
+)
+"connection.ml" 182 4775 4776 "connection.ml" 182 4775 4837
+type(
+  unit
+)
+"connection.ml" 181 4711 4712 "connection.ml" 182 4775 4837
+type(
+  unit
+)
+"connection.ml" 172 4519 4520 "connection.ml" 182 4775 4837
+type(
+  unit
+)
+"connection.ml" 184 4839 4843 "connection.ml" 184 4839 4856
+type(
+  t -> int
+)
+ident(
+  def find_next_tid "connection.ml" 187 4929 4929 --
+)
+"connection.ml" 184 4839 4857 "connection.ml" 184 4839 4860
+type(
+  t
+)
+ident(
+  def con "connection.ml" 185 4863 4864 "connection.ml" 185 4863 4927
+)
+"connection.ml" 185 4863 4868 "connection.ml" 185 4863 4871
+type(
+  int
+)
+"connection.ml" 185 4863 4874 "connection.ml" 185 4863 4877
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 184 4839 4857 "connection.ml" 184 4839 4860
+)
+"connection.ml" 185 4863 4874 "connection.ml" 185 4863 4886
+type(
+  int
+)
+"connection.ml" 185 4863 4890 "connection.ml" 185 4863 4893
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 184 4839 4857 "connection.ml" 184 4839 4860
+)
+"connection.ml" 185 4863 4906 "connection.ml" 185 4863 4909
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 184 4839 4857 "connection.ml" 184 4839 4860
+)
+"connection.ml" 185 4863 4906 "connection.ml" 185 4863 4918
+type(
+  int
+)
+"connection.ml" 185 4863 4919 "connection.ml" 185 4863 4920
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"connection.ml" 185 4863 4921 "connection.ml" 185 4863 4922
+type(
+  int
+)
+"connection.ml" 185 4863 4906 "connection.ml" 185 4863 4922
+type(
+  int
+)
+"connection.ml" 185 4863 4890 "connection.ml" 185 4863 4922
+type(
+  unit
+)
+"connection.ml" 185 4863 4924 "connection.ml" 185 4863 4927
+type(
+  int
+)
+ident(
+  int_ref ret "connection.ml" 185 4863 4868 "connection.ml" 185 4863 4871
+)
+"connection.ml" 185 4863 4890 "connection.ml" 185 4863 4927
+type(
+  int
+)
+"connection.ml" 185 4863 4864 "connection.ml" 185 4863 4927
+type(
+  int
+)
+"connection.ml" 187 4929 4933 "connection.ml" 187 4929 4950
+type(
+  t -> Store.t -> int
+)
+ident(
+  def start_transaction "connection.ml" 197 5293 5293 --
+)
+"connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+type(
+  t
+)
+ident(
+  def con "connection.ml" 187 4929 4955 "connection.ml" 195 5288 5291
+)
+"connection.ml" 187 4929 4955 "connection.ml" 187 4929 4960
+type(
+  Store.t
+)
+ident(
+  def store "connection.ml" 188 4963 4964 "connection.ml" 195 5288 5291
+)
+"connection.ml" 188 4963 4967 "connection.ml" 188 4963 4968
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 188 4963 4968 "connection.ml" 188 4963 4989
+type(
+  int ref
+)
+ident(
+  ext_ref Define.maxtransaction
+)
+"connection.ml" 188 4963 4967 "connection.ml" 188 4963 4989
+type(
+  int
+)
+"connection.ml" 188 4963 4990 "connection.ml" 188 4963 4991
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"connection.ml" 188 4963 4992 "connection.ml" 188 4963 4993
+type(
+  int
+)
+"connection.ml" 188 4963 4967 "connection.ml" 188 4963 4993
+type(
+  bool
+)
+"connection.ml" 188 4963 4994 "connection.ml" 188 4963 4996
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 188 4963 4997 "connection.ml" 188 4963 5000
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"connection.ml" 188 4963 5002 "connection.ml" 188 4963 5009
+type(
+  t -> bool
+)
+ident(
+  int_ref is_dom0 "connection.ml" 133 3246 3250 "connection.ml" 133 3246 3257
+)
+"connection.ml" 188 4963 5010 "connection.ml" 188 4963 5013
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+)
+"connection.ml" 188 4963 5001 "connection.ml" 188 4963 5014
+type(
+  bool
+)
+"connection.ml" 188 4963 4997 "connection.ml" 188 4963 5014
+type(
+  bool
+)
+"connection.ml" 189 5015 5016 "connection.ml" 189 5015 5018
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"connection.ml" 189 5015 5019 "connection.ml" 189 5015 5033
+type(
+  (int, Transaction.t) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"connection.ml" 189 5015 5034 "connection.ml" 189 5015 5037
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+)
+"connection.ml" 189 5015 5034 "connection.ml" 189 5015 5050
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 189 5015 5019 "connection.ml" 189 5015 5050
+type(
+  int
+)
+"connection.ml" 189 5015 5051 "connection.ml" 189 5015 5052
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"connection.ml" 189 5015 5053 "connection.ml" 189 5015 5054
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"connection.ml" 189 5015 5054 "connection.ml" 189 5015 5075
+type(
+  int ref
+)
+ident(
+  ext_ref Define.maxtransaction
+)
+"connection.ml" 189 5015 5053 "connection.ml" 189 5015 5075
+type(
+  int
+)
+"connection.ml" 189 5015 5019 "connection.ml" 189 5015 5075
+type(
+  bool
+)
+"connection.ml" 188 4963 4997 "connection.ml" 189 5015 5075
+type(
+  bool
+)
+"connection.ml" 188 4963 4967 "connection.ml" 189 5015 5075
+type(
+  bool
+)
+"connection.ml" 190 5081 5083 "connection.ml" 190 5081 5088
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"connection.ml" 190 5081 5089 "connection.ml" 190 5081 5113
+type(
+  exn
+)
+"connection.ml" 190 5081 5083 "connection.ml" 190 5081 5113
+type(
+  unit
+)
+"connection.ml" 188 4963 4964 "connection.ml" 190 5081 5113
+type(
+  unit
+)
+"connection.ml" 191 5115 5120 "connection.ml" 191 5115 5122
+type(
+  int
+)
+"connection.ml" 191 5115 5125 "connection.ml" 191 5115 5138
+type(
+  t -> int
+)
+ident(
+  int_ref find_next_tid "connection.ml" 184 4839 4843 "connection.ml" 184 4839 4856
+)
+"connection.ml" 191 5115 5139 "connection.ml" 191 5115 5142
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+)
+"connection.ml" 191 5115 5125 "connection.ml" 191 5115 5142
+type(
+  int
+)
+"connection.ml" 192 5146 5151 "connection.ml" 192 5146 5157
+type(
+  Transaction.t
+)
+"connection.ml" 192 5146 5160 "connection.ml" 192 5146 5176
+type(
+  int -> Store.t -> Transaction.t
+)
+ident(
+  ext_ref Transaction.make
+)
+"connection.ml" 192 5146 5177 "connection.ml" 192 5146 5179
+type(
+  int
+)
+ident(
+  int_ref id "connection.ml" 191 5115 5120 "connection.ml" 191 5115 5122
+)
+"connection.ml" 192 5146 5180 "connection.ml" 192 5146 5185
+type(
+  Store.t
+)
+ident(
+  int_ref store "connection.ml" 187 4929 4955 "connection.ml" 187 4929 4960
+)
+"connection.ml" 192 5146 5160 "connection.ml" 192 5146 5185
+type(
+  Transaction.t
+)
+"connection.ml" 193 5189 5190 "connection.ml" 193 5189 5201
+type(
+  (int, Transaction.t) Hashtbl.t -> int -> Transaction.t -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"connection.ml" 193 5189 5202 "connection.ml" 193 5189 5205
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+)
+"connection.ml" 193 5189 5202 "connection.ml" 193 5189 5218
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 193 5189 5219 "connection.ml" 193 5189 5221
+type(
+  int
+)
+ident(
+  int_ref id "connection.ml" 191 5115 5120 "connection.ml" 191 5115 5122
+)
+"connection.ml" 193 5189 5222 "connection.ml" 193 5189 5228
+type(
+  Transaction.t
+)
+ident(
+  int_ref ntrans "connection.ml" 192 5146 5151 "connection.ml" 192 5146 5157
+)
+"connection.ml" 193 5189 5190 "connection.ml" 193 5189 5228
+type(
+  unit
+)
+"connection.ml" 194 5230 5231 "connection.ml" 194 5230 5256
+type(
+  tid:int -> con:string -> unit
+)
+ident(
+  ext_ref Logging.start_transaction
+)
+"connection.ml" 194 5230 5262 "connection.ml" 194 5230 5264
+type(
+  int
+)
+ident(
+  int_ref id "connection.ml" 191 5115 5120 "connection.ml" 191 5115 5122
+)
+"connection.ml" 194 5230 5271 "connection.ml" 194 5230 5281
+type(
+  t -> string
+)
+ident(
+  int_ref get_domstr "connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+)
+"connection.ml" 194 5230 5282 "connection.ml" 194 5230 5285
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 187 4929 4951 "connection.ml" 187 4929 4954
+)
+"connection.ml" 194 5230 5270 "connection.ml" 194 5230 5286
+type(
+  string
+)
+"connection.ml" 194 5230 5231 "connection.ml" 194 5230 5286
+type(
+  unit
+)
+"connection.ml" 195 5288 5289 "connection.ml" 195 5288 5291
+type(
+  int
+)
+ident(
+  int_ref id "connection.ml" 191 5115 5120 "connection.ml" 191 5115 5122
+)
+"connection.ml" 194 5230 5231 "connection.ml" 195 5288 5291
+type(
+  int
+)
+"connection.ml" 193 5189 5190 "connection.ml" 195 5288 5291
+type(
+  int
+)
+"connection.ml" 192 5146 5147 "connection.ml" 195 5288 5291
+type(
+  int
+)
+"connection.ml" 191 5115 5116 "connection.ml" 195 5288 5291
+type(
+  int
+)
+"connection.ml" 188 4963 4964 "connection.ml" 195 5288 5291
+type(
+  int
+)
+"connection.ml" 197 5293 5297 "connection.ml" 197 5293 5312
+type(
+  t -> int -> bool -> bool
+)
+ident(
+  def end_transaction "connection.ml" 203 5545 5545 --
+)
+"connection.ml" 197 5293 5313 "connection.ml" 197 5293 5316
+type(
+  t
+)
+ident(
+  def con "connection.ml" 197 5293 5317 "connection.ml" 201 5471 5543
+)
+"connection.ml" 197 5293 5317 "connection.ml" 197 5293 5320
+type(
+  int
+)
+ident(
+  def tid "connection.ml" 197 5293 5321 "connection.ml" 201 5471 5543
+)
+"connection.ml" 197 5293 5321 "connection.ml" 197 5293 5327
+type(
+  bool
+)
+ident(
+  def commit "connection.ml" 198 5330 5331 "connection.ml" 201 5471 5543
+)
+"connection.ml" 198 5330 5335 "connection.ml" 198 5330 5340
+type(
+  Transaction.t
+)
+"connection.ml" 198 5330 5343 "connection.ml" 198 5330 5355
+type(
+  (int, Transaction.t) Hashtbl.t -> int -> Transaction.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"connection.ml" 198 5330 5356 "connection.ml" 198 5330 5359
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 197 5293 5313 "connection.ml" 197 5293 5316
+)
+"connection.ml" 198 5330 5356 "connection.ml" 198 5330 5372
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 198 5330 5373 "connection.ml" 198 5330 5376
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 197 5293 5317 "connection.ml" 197 5293 5320
+)
+"connection.ml" 198 5330 5343 "connection.ml" 198 5330 5376
+type(
+  Transaction.t
+)
+"connection.ml" 199 5380 5381 "connection.ml" 199 5380 5395
+type(
+  (int, Transaction.t) Hashtbl.t -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"connection.ml" 199 5380 5396 "connection.ml" 199 5380 5399
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 197 5293 5313 "connection.ml" 197 5293 5316
+)
+"connection.ml" 199 5380 5396 "connection.ml" 199 5380 5412
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 199 5380 5413 "connection.ml" 199 5380 5416
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 197 5293 5317 "connection.ml" 197 5293 5320
+)
+"connection.ml" 199 5380 5381 "connection.ml" 199 5380 5416
+type(
+  unit
+)
+"connection.ml" 200 5418 5419 "connection.ml" 200 5418 5442
+type(
+  tid:int -> con:string -> unit
+)
+ident(
+  ext_ref Logging.end_transaction
+)
+"connection.ml" 200 5418 5444 "connection.ml" 200 5418 5447
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 197 5293 5317 "connection.ml" 197 5293 5320
+)
+"connection.ml" 200 5418 5454 "connection.ml" 200 5418 5464
+type(
+  t -> string
+)
+ident(
+  int_ref get_domstr "connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+)
+"connection.ml" 200 5418 5465 "connection.ml" 200 5418 5468
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 197 5293 5313 "connection.ml" 197 5293 5316
+)
+"connection.ml" 200 5418 5453 "connection.ml" 200 5418 5469
+type(
+  string
+)
+"connection.ml" 200 5418 5419 "connection.ml" 200 5418 5469
+type(
+  unit
+)
+"connection.ml" 201 5471 5475 "connection.ml" 201 5471 5481
+type(
+  bool
+)
+ident(
+  int_ref commit "connection.ml" 197 5293 5321 "connection.ml" 197 5293 5327
+)
+"connection.ml" 201 5471 5487 "connection.ml" 201 5471 5505
+type(
+  con:string -> Transaction.t -> bool
+)
+ident(
+  ext_ref Transaction.commit
+)
+"connection.ml" 201 5471 5512 "connection.ml" 201 5471 5522
+type(
+  t -> string
+)
+ident(
+  int_ref get_domstr "connection.ml" 61 1489 1493 "connection.ml" 61 1489 1503
+)
+"connection.ml" 201 5471 5523 "connection.ml" 201 5471 5526
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 197 5293 5313 "connection.ml" 197 5293 5316
+)
+"connection.ml" 201 5471 5511 "connection.ml" 201 5471 5527
+type(
+  string
+)
+"connection.ml" 201 5471 5528 "connection.ml" 201 5471 5533
+type(
+  Transaction.t
+)
+ident(
+  int_ref trans "connection.ml" 198 5330 5335 "connection.ml" 198 5330 5340
+)
+"connection.ml" 201 5471 5487 "connection.ml" 201 5471 5533
+type(
+  bool
+)
+"connection.ml" 201 5471 5539 "connection.ml" 201 5471 5543
+type(
+  bool
+)
+"connection.ml" 201 5471 5472 "connection.ml" 201 5471 5543
+type(
+  bool
+)
+"connection.ml" 200 5418 5419 "connection.ml" 201 5471 5543
+type(
+  bool
+)
+"connection.ml" 199 5380 5381 "connection.ml" 201 5471 5543
+type(
+  bool
+)
+"connection.ml" 198 5330 5331 "connection.ml" 201 5471 5543
+type(
+  bool
+)
+"connection.ml" 203 5545 5549 "connection.ml" 203 5545 5564
+type(
+  t -> int -> Transaction.t
+)
+ident(
+  def get_transaction "connection.ml" 206 5611 5611 --
+)
+"connection.ml" 203 5545 5565 "connection.ml" 203 5545 5568
+type(
+  t
+)
+ident(
+  def con "connection.ml" 203 5545 5569 "connection.ml" 204 5575 5609
+)
+"connection.ml" 203 5545 5569 "connection.ml" 203 5545 5572
+type(
+  int
+)
+ident(
+  def tid "connection.ml" 204 5575 5576 "connection.ml" 204 5575 5609
+)
+"connection.ml" 204 5575 5576 "connection.ml" 204 5575 5588
+type(
+  (int, Transaction.t) Hashtbl.t -> int -> Transaction.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"connection.ml" 204 5575 5589 "connection.ml" 204 5575 5592
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 203 5545 5565 "connection.ml" 203 5545 5568
+)
+"connection.ml" 204 5575 5589 "connection.ml" 204 5575 5605
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 204 5575 5606 "connection.ml" 204 5575 5609
+type(
+  int
+)
+ident(
+  int_ref tid "connection.ml" 203 5545 5569 "connection.ml" 203 5545 5572
+)
+"connection.ml" 204 5575 5576 "connection.ml" 204 5575 5609
+type(
+  Transaction.t
+)
+"connection.ml" 206 5611 5615 "connection.ml" 206 5611 5623
+type(
+  t -> bool
+)
+ident(
+  def do_input "connection.ml" 207 5646 5646 --
+)
+"connection.ml" 206 5611 5624 "connection.ml" 206 5611 5627
+type(
+  t
+)
+ident(
+  def con "connection.ml" 206 5611 5630 "connection.ml" 206 5611 5645
+)
+"connection.ml" 206 5611 5630 "connection.ml" 206 5611 5638
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.input
+)
+"connection.ml" 206 5611 5639 "connection.ml" 206 5611 5642
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 206 5611 5624 "connection.ml" 206 5611 5627
+)
+"connection.ml" 206 5611 5639 "connection.ml" 206 5611 5645
+type(
+  Xb.t
+)
+"connection.ml" 206 5611 5630 "connection.ml" 206 5611 5645
+type(
+  bool
+)
+"connection.ml" 207 5646 5650 "connection.ml" 207 5646 5659
+type(
+  t -> bool
+)
+ident(
+  def has_input "connection.ml" 208 5690 5690 --
+)
+"connection.ml" 207 5646 5660 "connection.ml" 207 5646 5663
+type(
+  t
+)
+ident(
+  def con "connection.ml" 207 5646 5666 "connection.ml" 207 5646 5689
+)
+"connection.ml" 207 5646 5666 "connection.ml" 207 5646 5682
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.has_in_packet
+)
+"connection.ml" 207 5646 5683 "connection.ml" 207 5646 5686
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 207 5646 5660 "connection.ml" 207 5646 5663
+)
+"connection.ml" 207 5646 5683 "connection.ml" 207 5646 5689
+type(
+  Xb.t
+)
+"connection.ml" 207 5646 5666 "connection.ml" 207 5646 5689
+type(
+  bool
+)
+"connection.ml" 208 5690 5694 "connection.ml" 208 5690 5700
+type(
+  t -> Xb.Packet.t
+)
+ident(
+  def pop_in "connection.ml" 209 5731 5731 --
+)
+"connection.ml" 208 5690 5701 "connection.ml" 208 5690 5704
+type(
+  t
+)
+ident(
+  def con "connection.ml" 208 5690 5707 "connection.ml" 208 5690 5730
+)
+"connection.ml" 208 5690 5707 "connection.ml" 208 5690 5723
+type(
+  Xb.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.get_in_packet
+)
+"connection.ml" 208 5690 5724 "connection.ml" 208 5690 5727
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 208 5690 5701 "connection.ml" 208 5690 5704
+)
+"connection.ml" 208 5690 5724 "connection.ml" 208 5690 5730
+type(
+  Xb.t
+)
+"connection.ml" 208 5690 5707 "connection.ml" 208 5690 5730
+type(
+  Xb.Packet.t
+)
+"connection.ml" 209 5731 5735 "connection.ml" 209 5731 5749
+type(
+  t -> bool
+)
+ident(
+  def has_more_input "connection.ml" 211 5782 5782 --
+)
+"connection.ml" 209 5731 5750 "connection.ml" 209 5731 5753
+type(
+  t
+)
+ident(
+  def con "connection.ml" 209 5731 5756 "connection.ml" 209 5731 5780
+)
+"connection.ml" 209 5731 5756 "connection.ml" 209 5731 5773
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.has_more_input
+)
+"connection.ml" 209 5731 5774 "connection.ml" 209 5731 5777
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 209 5731 5750 "connection.ml" 209 5731 5753
+)
+"connection.ml" 209 5731 5774 "connection.ml" 209 5731 5780
+type(
+  Xb.t
+)
+"connection.ml" 209 5731 5756 "connection.ml" 209 5731 5780
+type(
+  bool
+)
+"connection.ml" 211 5782 5786 "connection.ml" 211 5782 5796
+type(
+  t -> bool
+)
+ident(
+  def has_output "connection.ml" 212 5824 5824 --
+)
+"connection.ml" 211 5782 5797 "connection.ml" 211 5782 5800
+type(
+  t
+)
+ident(
+  def con "connection.ml" 211 5782 5803 "connection.ml" 211 5782 5823
+)
+"connection.ml" 211 5782 5803 "connection.ml" 211 5782 5816
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.has_output
+)
+"connection.ml" 211 5782 5817 "connection.ml" 211 5782 5820
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 211 5782 5797 "connection.ml" 211 5782 5800
+)
+"connection.ml" 211 5782 5817 "connection.ml" 211 5782 5823
+type(
+  Xb.t
+)
+"connection.ml" 211 5782 5803 "connection.ml" 211 5782 5823
+type(
+  bool
+)
+"connection.ml" 212 5824 5828 "connection.ml" 212 5824 5842
+type(
+  t -> bool
+)
+ident(
+  def has_new_output "connection.ml" 213 5874 5874 --
+)
+"connection.ml" 212 5824 5843 "connection.ml" 212 5824 5846
+type(
+  t
+)
+ident(
+  def con "connection.ml" 212 5824 5849 "connection.ml" 212 5824 5873
+)
+"connection.ml" 212 5824 5849 "connection.ml" 212 5824 5866
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.has_new_output
+)
+"connection.ml" 212 5824 5867 "connection.ml" 212 5824 5870
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 212 5824 5843 "connection.ml" 212 5824 5846
+)
+"connection.ml" 212 5824 5867 "connection.ml" 212 5824 5873
+type(
+  Xb.t
+)
+"connection.ml" 212 5824 5849 "connection.ml" 212 5824 5873
+type(
+  bool
+)
+"connection.ml" 213 5874 5878 "connection.ml" 213 5874 5889
+type(
+  t -> Xb.Packet.t
+)
+ident(
+  def peek_output "connection.ml" 214 5918 5918 --
+)
+"connection.ml" 213 5874 5890 "connection.ml" 213 5874 5893
+type(
+  t
+)
+ident(
+  def con "connection.ml" 213 5874 5896 "connection.ml" 213 5874 5917
+)
+"connection.ml" 213 5874 5896 "connection.ml" 213 5874 5910
+type(
+  Xb.t -> Xb.Packet.t
+)
+ident(
+  ext_ref Xb.peek_output
+)
+"connection.ml" 213 5874 5911 "connection.ml" 213 5874 5914
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 213 5874 5890 "connection.ml" 213 5874 5893
+)
+"connection.ml" 213 5874 5911 "connection.ml" 213 5874 5917
+type(
+  Xb.t
+)
+"connection.ml" 213 5874 5896 "connection.ml" 213 5874 5917
+type(
+  Xb.Packet.t
+)
+"connection.ml" 214 5918 5922 "connection.ml" 214 5918 5931
+type(
+  t -> bool
+)
+ident(
+  def do_output "connection.ml" 216 5956 5956 --
+)
+"connection.ml" 214 5918 5932 "connection.ml" 214 5918 5935
+type(
+  t
+)
+ident(
+  def con "connection.ml" 214 5918 5938 "connection.ml" 214 5918 5954
+)
+"connection.ml" 214 5918 5938 "connection.ml" 214 5918 5947
+type(
+  Xb.t -> bool
+)
+ident(
+  ext_ref Xb.output
+)
+"connection.ml" 214 5918 5948 "connection.ml" 214 5918 5951
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 214 5918 5932 "connection.ml" 214 5918 5935
+)
+"connection.ml" 214 5918 5948 "connection.ml" 214 5918 5954
+type(
+  Xb.t
+)
+"connection.ml" 214 5918 5938 "connection.ml" 214 5918 5954
+type(
+  bool
+)
+"connection.ml" 216 5956 5960 "connection.ml" 216 5956 5968
+type(
+  t -> unit
+)
+ident(
+  def incr_ops "connection.ml" 218 6015 6015 --
+)
+"connection.ml" 216 5956 5969 "connection.ml" 216 5956 5972
+type(
+  t
+)
+ident(
+  def con "connection.ml" 216 5956 5975 "connection.ml" 216 5956 6013
+)
+"connection.ml" 216 5956 5975 "connection.ml" 216 5956 5978
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 216 5956 5969 "connection.ml" 216 5956 5972
+)
+"connection.ml" 216 5956 5994 "connection.ml" 216 5956 5997
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 216 5956 5969 "connection.ml" 216 5956 5972
+)
+"connection.ml" 216 5956 5994 "connection.ml" 216 5956 6009
+type(
+  int
+)
+"connection.ml" 216 5956 6010 "connection.ml" 216 5956 6011
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"connection.ml" 216 5956 6012 "connection.ml" 216 5956 6013
+type(
+  int
+)
+"connection.ml" 216 5956 5994 "connection.ml" 216 5956 6013
+type(
+  int
+)
+"connection.ml" 216 5956 5975 "connection.ml" 216 5956 6013
+type(
+  unit
+)
+"connection.ml" 218 6015 6019 "connection.ml" 218 6015 6031
+type(
+  t -> unit
+)
+ident(
+  def mark_symbols "connection.ml" 221 6128 6128 --
+)
+"connection.ml" 218 6015 6032 "connection.ml" 218 6015 6035
+type(
+  t
+)
+ident(
+  def con "connection.ml" 219 6038 6039 "connection.ml" 219 6038 6126
+)
+"connection.ml" 219 6038 6039 "connection.ml" 219 6038 6051
+type(
+  (int -> Transaction.t -> unit) -> (int, Transaction.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"connection.ml" 219 6038 6057 "connection.ml" 219 6038 6058
+type(
+  int
+)
+"connection.ml" 219 6038 6059 "connection.ml" 219 6038 6060
+type(
+  Transaction.t
+)
+ident(
+  def t "connection.ml" 219 6038 6064 "connection.ml" 219 6038 6108
+)
+"connection.ml" 219 6038 6064 "connection.ml" 219 6038 6082
+type(
+  Store.t -> unit
+)
+ident(
+  ext_ref Store.mark_symbols
+)
+"connection.ml" 219 6038 6084 "connection.ml" 219 6038 6105
+type(
+  Transaction.t -> Store.t
+)
+ident(
+  ext_ref Transaction.get_store
+)
+"connection.ml" 219 6038 6106 "connection.ml" 219 6038 6107
+type(
+  Transaction.t
+)
+ident(
+  int_ref t "connection.ml" 219 6038 6059 "connection.ml" 219 6038 6060
+)
+"connection.ml" 219 6038 6083 "connection.ml" 219 6038 6108
+type(
+  Store.t
+)
+"connection.ml" 219 6038 6064 "connection.ml" 219 6038 6108
+type(
+  unit
+)
+"connection.ml" 219 6038 6052 "connection.ml" 219 6038 6109
+type(
+  int -> Transaction.t -> unit
+)
+"connection.ml" 219 6038 6110 "connection.ml" 219 6038 6113
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 218 6015 6032 "connection.ml" 218 6015 6035
+)
+"connection.ml" 219 6038 6110 "connection.ml" 219 6038 6126
+type(
+  (int, Transaction.t) Hashtbl.t
+)
+"connection.ml" 219 6038 6039 "connection.ml" 219 6038 6126
+type(
+  unit
+)
+"connection.ml" 221 6128 6132 "connection.ml" 221 6128 6137
+type(
+  t -> int * int
+)
+ident(
+  def stats "connection.ml" 224 6190 6190 --
+)
+"connection.ml" 221 6128 6138 "connection.ml" 221 6128 6141
+type(
+  t
+)
+ident(
+  def con "connection.ml" 222 6144 6145 "connection.ml" 222 6144 6188
+)
+"connection.ml" 222 6144 6145 "connection.ml" 222 6144 6159
+type(
+  (string, watch list) Hashtbl.t -> int
+)
+ident(
+  ext_ref Hashtbl.length
+)
+"connection.ml" 222 6144 6160 "connection.ml" 222 6144 6163
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 221 6128 6138 "connection.ml" 221 6128 6141
+)
+"connection.ml" 222 6144 6160 "connection.ml" 222 6144 6171
+type(
+  (string, watch list) Hashtbl.t
+)
+"connection.ml" 222 6144 6145 "connection.ml" 222 6144 6171
+type(
+  int
+)
+"connection.ml" 222 6144 6173 "connection.ml" 222 6144 6176
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 221 6128 6138 "connection.ml" 221 6128 6141
+)
+"connection.ml" 222 6144 6173 "connection.ml" 222 6144 6188
+type(
+  int
+)
+"connection.ml" 222 6144 6145 "connection.ml" 222 6144 6188
+type(
+  int * int
+)
+"connection.ml" 224 6190 6194 "connection.ml" 224 6190 6198
+type(
+  t -> out_channel -> unit
+)
+ident(
+  def dump "connection.ml" 234 6494 6507 --
+)
+"connection.ml" 224 6190 6199 "connection.ml" 224 6190 6202
+type(
+  t
+)
+ident(
+  def con "connection.ml" 224 6190 6203 "connection.ml" 234 6494 6507
+)
+"connection.ml" 224 6190 6203 "connection.ml" 224 6190 6207
+type(
+  out_channel
+)
+ident(
+  def chan "connection.ml" 225 6210 6211 "connection.ml" 234 6494 6507
+)
+"connection.ml" 225 6210 6217 "connection.ml" 225 6210 6220
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 224 6190 6199 "connection.ml" 224 6190 6202
+)
+"connection.ml" 225 6210 6217 "connection.ml" 225 6210 6224
+type(
+  Domain.t option
+)
+"connection.ml" 226 6230 6238 "connection.ml" 226 6230 6241
+type(
+  Domain.t
+)
+ident(
+  def dom "connection.ml" 227 6246 6248 "connection.ml" 233 6469 6493
+)
+"connection.ml" 226 6230 6233 "connection.ml" 226 6230 6241
+type(
+  Domain.t option
+)
+"connection.ml" 227 6246 6252 "connection.ml" 227 6246 6257
+type(
+  Xc.domid
+)
+"connection.ml" 227 6246 6260 "connection.ml" 227 6246 6273
+type(
+  Domain.t -> Xc.domid
+)
+ident(
+  ext_ref Domain.get_id
+)
+"connection.ml" 227 6246 6274 "connection.ml" 227 6246 6277
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "connection.ml" 226 6230 6238 "connection.ml" 226 6230 6241
+)
+"connection.ml" 227 6246 6260 "connection.ml" 227 6246 6277
+type(
+  Xc.domid
+)
+"connection.ml" 229 6301 6303 "connection.ml" 229 6301 6314
+type(
+  Domain.t -> out_channel -> unit
+)
+ident(
+  ext_ref Domain.dump
+)
+"connection.ml" 229 6301 6315 "connection.ml" 229 6301 6318
+type(
+  Domain.t
+)
+ident(
+  int_ref dom "connection.ml" 226 6230 6238 "connection.ml" 226 6230 6241
+)
+"connection.ml" 229 6301 6319 "connection.ml" 229 6301 6323
+type(
+  out_channel
+)
+ident(
+  int_ref chan "connection.ml" 224 6190 6203 "connection.ml" 224 6190 6207
+)
+"connection.ml" 229 6301 6303 "connection.ml" 229 6301 6323
+type(
+  unit
+)
+"connection.ml" 231 6346 6348 "connection.ml" 231 6346 6357
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"connection.ml" 231 6346 6364 "connection.ml" 231 6346 6368
+type(
+  string
+)
+ident(
+  def path "connection.ml" 232 6380 6383 "connection.ml" 232 6380 6468
+)
+"connection.ml" 231 6346 6370 "connection.ml" 231 6346 6375
+type(
+  string
+)
+ident(
+  def token "connection.ml" 232 6380 6383 "connection.ml" 232 6380 6468
+)
+"connection.ml" 231 6346 6363 "connection.ml" 231 6346 6376
+type(
+  string * string
+)
+"connection.ml" 232 6380 6383 "connection.ml" 232 6380 6397
+type(
+  out_channel ->
+  (Xc.domid -> string -> string -> unit, out_channel, unit) format ->
+  Xc.domid -> string -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"connection.ml" 232 6380 6398 "connection.ml" 232 6380 6402
+type(
+  out_channel
+)
+ident(
+  int_ref chan "connection.ml" 224 6190 6203 "connection.ml" 224 6190 6207
+)
+"connection.ml" 232 6380 6403 "connection.ml" 232 6380 6421
+type(
+  (Xc.domid -> string -> string -> unit, out_channel, unit) format
+)
+"connection.ml" 232 6380 6422 "connection.ml" 232 6380 6427
+type(
+  Xc.domid
+)
+ident(
+  int_ref domid "connection.ml" 227 6246 6252 "connection.ml" 227 6246 6257
+)
+"connection.ml" 232 6380 6429 "connection.ml" 232 6380 6441
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.hexify
+)
+"connection.ml" 232 6380 6442 "connection.ml" 232 6380 6446
+type(
+  string
+)
+ident(
+  int_ref path "connection.ml" 231 6346 6364 "connection.ml" 231 6346 6368
+)
+"connection.ml" 232 6380 6428 "connection.ml" 232 6380 6447
+type(
+  string
+)
+"connection.ml" 232 6380 6449 "connection.ml" 232 6380 6461
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.hexify
+)
+"connection.ml" 232 6380 6462 "connection.ml" 232 6380 6467
+type(
+  string
+)
+ident(
+  int_ref token "connection.ml" 231 6346 6370 "connection.ml" 231 6346 6375
+)
+"connection.ml" 232 6380 6448 "connection.ml" 232 6380 6468
+type(
+  string
+)
+"connection.ml" 232 6380 6383 "connection.ml" 232 6380 6468
+type(
+  unit
+)
+"connection.ml" 231 6346 6358 "connection.ml" 233 6469 6473
+type(
+  string * string -> unit
+)
+"connection.ml" 233 6469 6475 "connection.ml" 233 6469 6487
+type(
+  t -> (string * string) list
+)
+ident(
+  int_ref list_watches "connection.ml" 161 4161 4165 "connection.ml" 161 4161 4177
+)
+"connection.ml" 233 6469 6488 "connection.ml" 233 6469 6491
+type(
+  t
+)
+ident(
+  int_ref con "connection.ml" 224 6190 6199 "connection.ml" 224 6190 6202
+)
+"connection.ml" 233 6469 6474 "connection.ml" 233 6469 6492
+type(
+  (string * string) list
+)
+"connection.ml" 231 6346 6348 "connection.ml" 233 6469 6493
+type(
+  unit
+)
+"connection.ml" 229 6301 6303 "connection.ml" 233 6469 6493
+type(
+  unit
+)
+"connection.ml" 227 6246 6248 "connection.ml" 233 6469 6493
+type(
+  unit
+)
+"connection.ml" 234 6494 6497 "connection.ml" 234 6494 6501
+type(
+  Domain.t option
+)
+"connection.ml" 234 6494 6505 "connection.ml" 234 6494 6507
+type(
+  unit
+)
+"connection.ml" 225 6210 6211 "connection.ml" 234 6494 6507
+type(
+  unit
+)

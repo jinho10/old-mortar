@@ -1,0 +1,36 @@
+#ifndef __LINUX_MCD_H__
+#define __LINUX_MCD_H__
+
+/*
+ * Commands list, sync with Xen Part
+ */
+#define XENMCD_cache_get        1
+#define XENMCD_cache_put        2
+#define XENMCD_cache_remove     3
+#define XENMCD_cache_check      4
+
+/*
+ * MCD Data Structure
+ */
+typedef struct mcd_data {
+#define MCDOPT_private      1
+#define MCDOPT_shared       2
+    uint32_t option;
+ 
+    uint32_t key_size;
+    uint32_t val_size;
+    unsigned char* key; 
+    unsigned char* val;
+} mcd_data_t;
+
+/*
+ * Syscall __NR_mcd
+ */
+#ifndef __KERNEL__
+static inline int mcd(uint32_t cmd, mcd_data_t *md)
+{
+    return syscall(__NR_mcd, cmd, md);
+}
+#endif
+
+#endif /* __LINUX_MCD_H__ */
